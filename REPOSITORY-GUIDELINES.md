@@ -1,4 +1,9 @@
-# Knative Repository Guidelines
+---
+title: "Knative Repository Guidelines"
+linkTitle: "Repository Guidelines"
+weight: 25
+type: "docs"
+---
 
 This document outlines a structure for creating and associating code
 repositories with the Knative project. It also describes how and when
