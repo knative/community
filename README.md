@@ -4,7 +4,7 @@ _Important_. Before proceeding, please review the Knative community
 If you any have questions or concerns, please contact the authors at
 knative-code-of-conduct@googlegroups.com.
 
-## Welcome!
+## Welcome!x
 
 Welcome to the Knative community!
 
