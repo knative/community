@@ -144,12 +144,16 @@ itself. Amendments are accepted with majority consent of the committee.
 Proposals and amendments to the charter are available for at least a period of
 one week for comments and questions before a vote will occur.
 
-## Getting in touch
+## Raising issues to the steering committee
 
-If you'd like to reach out to the committee, please drop a note to
-[knative-steering@googlegroups.com](mailto:knative-steering@googlegroups.com).
-This is a private discussion list to which all members of the committee have
-access.
+There are two ways to raise issues to the steering committee for decision:
+
+1. Emailing the steering committee at
+   [knative-steering@googlegroups.com](mailto:knative-steering@googlegroups.com).
+   This is a private discussion list to which all members of the committee have
+   access.
+2. Open an issue on a knative repository and indicate that you would like attention
+   from the steering committee.
 
 ---
 
