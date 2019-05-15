@@ -63,6 +63,7 @@ API
 | &nbsp;                                                   | Leads      | Company | Profile                                 |
 | -------------------------------------------------------- | ---------- | ------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore | Google  | [mattmoor](https://github.com/mattmoor) |
+| <img width="30px" src="https://github.com/dgerd.png"> | Dan Gerdesmeier | Google  | [dgerd](https://github.com/dgerd) |
 
 ## Build
 
