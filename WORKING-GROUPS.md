@@ -40,6 +40,7 @@ The current working groups are:
 - [Eventing](#eventing)
 - [Networking](#networking)
 - [Observability](#observability)
+- [Operations](#operations)
 - [Productivity](#productivity)
 - [Scaling](#scaling)
   <!-- TODO add charters for each group -->
