@@ -157,7 +157,7 @@ this is not a requirement.
 
 - Actively contributing to 1 or more areas.
 
-- Sponsored by 1 approver.
+- 1 sponsor must have the approver role.
 
   - Done by adding GitHub user to Knative organization.
 
