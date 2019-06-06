@@ -115,7 +115,7 @@ following steps:
 
 - Submit PRs to knative/serving with user documentation for your feature,
   including usage examples when possible. Add documentation to the `serving`
-  folder of [knative/docs](../serving).
+  folder of [knative/docs](https://github.com/knative/docs/tree/master/docs/serving).
 
 _Note that we prefer bite-sized PRs instead of giant monster PRs. It's therefore
 preferable if you can introduce large features in small, individually-reviewable

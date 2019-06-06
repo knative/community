@@ -42,7 +42,7 @@ Other Documents
 ## Introduction
 
 Knative is a Kubernetes-based platform to build, deploy, and manage modern
-serverless workloads. See [Knative docs](../docs/README.md) for in-depth
+serverless workloads. See [Knative docs](https://knative.dev/docs) for in-depth
 information about using Knative.
 
 ## Knative authors
@@ -59,7 +59,7 @@ tools, platforms, languages, and products. By submitting a tutorial you can
 share your experience and help others who are solving similar problems.
 
 Community tutorials are stored in Markdown files under the `community` folder
-[Community Samples](../community/samples/README.md). These documents are
+[Community Samples](https://knative.dev/docs/samples/). These documents are
 contributed, reviewed, and maintained by the community.
 
 Submit a Pull Request to the community sample directory under the Knative

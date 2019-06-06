@@ -88,8 +88,8 @@ There are a couple different ways to jump in to the Knative doc set:
   in the backlog.
 
 - Try out Knative and send us feedback. For example, run through one of the
-  [install guides](../install/README.md) and then try
-  [Getting Started with Knative Serving](../install/getting-started-knative-app.md).
+  [install guides](https://knative.dev/docs/install/) and then try
+  [Getting Started with Knative Serving](https://knative.dev/docs/install/getting-started-knative-app/).
 
   You should keep a
   [friction log](https://devrel.net/developer-experience/an-introduction-to-friction-logging)
@@ -352,7 +352,7 @@ Knative Steering committee to ask that you be added as a member of the Knative
 org.
 
 Once your sponsor notifies you that you've been added to the Knative org, open a
-PR to add yourself as a docs-reviewer in the [OWNERS_ALIASES](../OWNERS_ALIASES)
+PR to add yourself as a docs-reviewer in the [OWNERS_ALIASES](./OWNERS_ALIASES)
 file.
 
 ## Approver
@@ -408,4 +408,4 @@ to become an approver at a meeting of the Documentation Working Group.
 Once you feel you meet the criteria, you can ask one of the current approvers to
 nominate you to become an approver. If all existing approvers agree that you
 meet the criteria open a PR to add yourself as a docs-approver in the
-[OWNERS_ALIASES](../OWNERS_ALIASES) file.
+[OWNERS_ALIASES](./OWNERS_ALIASES) file.

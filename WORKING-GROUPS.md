@@ -105,7 +105,7 @@ conventions
 
 ## Documentation
 
-Knative documentation, especially the [Docs](../docs/README.md) repo.
+Knative documentation, especially the [Docs](https://knative.dev/docs) repo.
 
 | Artifact                   | Link                                                                                                                                                                                                    |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
