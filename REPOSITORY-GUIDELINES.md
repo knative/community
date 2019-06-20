@@ -35,8 +35,14 @@ donated repositories must:
 
 - Adopt the Google CLA bot.
 - All contributors to the donated repository must have signed the Google CLA.
-- Boilerplate text across all files should attribute copyright as follows:
-  `"Copyright <year> The Knative Authors"
+- All code must adopt the standard Knative header, attributing copyright as follows:
+  `"Copyright <year> The Knative Authors"`
+ - Additions of the standard Knative header to code created by the contributors can 
+   occur post-transfer, but should ideally occur shortly thereafter.
+- An `AUTHORS` file should be created in the repo root, if one does not already exist, that 
+  includes the original authors of the code. 
+  See [knative/serving AUTHORS](https://github.com/knative/serving/blob/master/AUTHORS) for reference.
+  - Note that copyright notices should only be modified or removed by the people or organizations named in the notice.
 
 ## Removing Repositories
 
