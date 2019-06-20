@@ -20,12 +20,29 @@ Core repositories are all those located under the
 
 ### Core Repository Requirements
 
-- Repository must live under github.com/knative/project-name
-- Must adopt the Knative Code of Conduct
+- Repository must live under github.com/knative/project-name.
+- Must adopt the Knative Code of Conduct.
 - All code projects must use the Apache License version 2.0.
 - Documentation repositories must use Creative Commons License version 4.0.
 - All OWNERS must be members of the Knative community.
 - Repository creation must be approved by the Technical Oversight Committee.
+
+### Requirements for Repository Donation
+
+The Technical Oversight Committee may allow repositories to be donated to the
+Knative project. In *addition* to meeting the core repository requirements,
+donated repositories must:
+
+- Adopt the Google CLA bot.
+- All contributors to the donated repository must have signed the Google CLA.
+- All code must adopt the standard Knative header, attributing copyright as follows:
+  `"Copyright <year> The Knative Authors"`
+ - Additions of the standard Knative header to code created by the contributors can 
+   occur post-transfer, but should ideally occur shortly thereafter.
+- An `AUTHORS` file should be created in the repo root, if one does not already exist, that 
+  includes the original authors of the code. 
+  See [knative/serving AUTHORS](https://github.com/knative/serving/blob/master/AUTHORS) for reference.
+  - Note that copyright notices should only be modified or removed by the people or organizations named in the notice.
 
 ## Removing Repositories
 
