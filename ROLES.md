@@ -232,9 +232,16 @@ approver in an OWNERS file:
 
 ## Lead
 
-Working group leads, or just ‘leads’, are approvers of an entire area that have
-demonstrated good judgement and responsibility. Leads accept design proposals
-and approve design decisions for their area of ownership.
+Working group leads, or just ‘leads’, coordinate working group processes and
+decision-making. Leads are responsible for selecting appropriate processes and
+tracking and reporting on the working group's results to the TOC. Leads
+collaboratively take responsibilty for accepting design proposals and approving
+design decisions in their area of ownership.
+
+Working group leads may or may not overlap with code approvers -- the
+expectation is that working group leads are responsible for the overall quality
+of the working group's product (including documentation, testing, and
+usability), rather than just the service's code.
 
 ### Requirements
 
@@ -242,21 +249,27 @@ Getting to be a lead of an existing working group:
 
 - Recognized as having expertise in the group’s subject matter.
 
-- Approver for some part of the codebase for at least 3 months.
+- Substantial contributions to the working group. Note that these contributions
+  may include design documents, documentation, improvements to the working group
+  process, or other non-code work which has improved the working group's
+  deliverables.
 
-- Member for at least 1 year or 50% of project lifetime, whichever is shorter.
+- Member for at least 4 months.
 
-- Primary reviewer for 20 substantial PRs.
+- Sponsored by an existing Working Group lead or a majority of active working
+  group contributors.
 
-- Reviewed or merged at least 50 PRs.
+- Approved by the technical oversight committee.
 
-- Sponsored by the technical oversight committee.
+  - Nominations will be announced for at least a week prior to any decision;
+    concerns about the nomination may be flagged privately to any TOC member.
 
 Additional requirements for leads of a new working group:
 
-- Originally authored or contributed major functionality to the group's area.
+- Provided substantial leadership or functionality contributions in the group's
+  area.
 
-- An approver in the OWNERS file for the group’s code.
+- All proposed working group leads should be listed in the group's charter.
 
 ### Responsibilities and privileges
 
