@@ -210,8 +210,8 @@ Autoscaling
 
 | &nbsp;                                                        | Leads          | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/josephburnett.png"> | Joseph Burnett | Google  | [josephburnett](https://github.com/josephburnett) |
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat  | [markusthoemmes](https://github.com/markusthoemmes) |
+| <img width="30px" src="https://github.com/vagababov.png"> | Victor Agababov | Google  | [vagababov](https://github.com/vagababov) |
 
 ## Productivity
 
