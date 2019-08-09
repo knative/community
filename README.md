@@ -26,7 +26,7 @@ Other Documents
 - [Contributing to Knative](./CONTRIBUTING.md) - guidelines and advice on
   becoming a contributor
 - [Working Groups](./WORKING-GROUPS.md) - describes our various working groups
-- [Working Group Processes](./WORKING-GROUP-PROCESSES.md) - describes how
+- [Working Group Processes](./mechanics/WORKING-GROUP-PROCESSES.md) - describes how
   working groups operate
 - [Steering Committee](./STEERING-COMMITTEE.md) - describes our steering
   committee

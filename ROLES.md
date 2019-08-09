@@ -82,7 +82,7 @@ table describes:
         <p>Run their working group</p>
     </td>
     <td>Sponsored by the technical oversight committee as documented
-        <a href="./WORKING-GROUP-PROCESSES.md">here</a>.
+        <a href="./mechanics/WORKING-GROUP-PROCESSES.md">here</a>.
     </td>
     <td>Write permissions on one or more repos allowing issues to be manipulated.</td>
     <td>Working Group</td>
@@ -263,7 +263,7 @@ Additional requirements for leads of a new working group:
 The following apply to the area / component for which one would be an owner.
 
 - Run their working group as explained in the
-  [Working Group Processes](./WORKING-GROUP-PROCESSES.md).
+  [Working Group Processes](./mechanics/WORKING-GROUP-PROCESSES.md).
 
 - Design/proposal approval authority over the area / component, though
   escalation to the technical oversight committee is possible.
