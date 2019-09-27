@@ -53,15 +53,13 @@ permission to use and redistribute your contributions as part of the project.
 
 ## Design documents
 
-Any substantial design deserves a design document. Design documents are written
+Any substantial design deserves a design document ([template](https://docs.google.com/document/d/1s6IIU98bi5FlRNmmBaLAn1rgoleK_ovcL746L7NHq0c/edit)). Design documents are written
 with Google Docs and should be shared with the community by adding the doc to
 our
 [Team Drive](https://drive.google.com/corp/drive/folders/0APnJ_hRs30R2Uk9PVA)
 and sending an email to the appropriate working group's mailing list to let
 people know the doc is there. To get write access to the drive, you'll need to
 be a [member](./ROLES.md#member) of the Knative organization.
-
-We do not yet have a common design document template(TODO).
 
 The team drive is shared with the
 [knative-users@](https://groups.google.com/forum/#!forum/knative-users) and
@@ -83,50 +81,7 @@ page still applies, but you'll find the specifics about the docs process there.
 
 ## Contributing a feature
 
-In order to contribute a feature to Knative you'll need to go through the
-following steps:
-
-- Discuss your idea with the appropriate [working groups](./WORKING-GROUPS.md)
-  on the working group's mailing list.
-
-- Once there is general agreement that the feature is useful,
-  [create a GitHub issue](https://github.com/knative/docs/issues/new) to track
-  the discussion. The issue should include information about the requirements
-  and use cases that it is trying to address. Include a discussion of the
-  proposed design and technical details of the implementation in the issue.
-
-- If the feature is substantial enough:
-
-  - Working group leads will ask for a design document as outlined in
-    [design documents](#design-documents). Create the design document and add a
-    link to it in the GitHub issue. Don't forget to send a note to the working
-    group to let everyone know your document is ready for review.
-
-  - Depending on the breadth of the design and how contentious it is, the
-    working group leads may decide the feature needs to be discussed in one or
-    more working group meetings before being approved.
-
-  - Once the major technical issues are resolved and agreed upon, post a note
-    with the design decision and the general execution plan to the working
-    group's mailing list and on the feature's issue.
-
-- Submit PRs to [knative/serving](https://github.com/knative/serving/pulls) with
-  your code changes.
-
-- Submit PRs to knative/serving with user documentation for your feature,
-  including usage examples when possible. Add documentation to the `serving`
-  folder of [knative/docs](../serving).
-
-_Note that we prefer bite-sized PRs instead of giant monster PRs. It's therefore
-preferable if you can introduce large features in small, individually-reviewable
-PRs that build on top of one another._
-
-If you would like to skip the process of submitting an issue and instead would
-prefer to just submit a pull request with your desired code changes then that's
-fine. But keep in mind that there is no guarantee of it being accepted and so it
-is usually best to get agreement on the idea/design before time is spent coding
-it. However, sometimes seeing the exact code change can help focus discussions,
-so the choice is up to you.
+The process for adding features to Knative can be found [here](./mechanics/FEATURE-TRACKS.md).
 
 ## Setting up to contribute to Knative
 
