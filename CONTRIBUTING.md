@@ -81,7 +81,7 @@ page still applies, but you'll find the specifics about the docs process there.
 
 ## Contributing a feature
 
-The process for adding features to Knative can be found [here](FEATURE-TRACKS.md).
+The process for adding features to Knative can be found [here](./mechanics/FEATURE-TRACKS.md).
 
 ## Setting up to contribute to Knative
 
