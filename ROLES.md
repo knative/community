@@ -233,10 +233,11 @@ approver in an OWNERS file:
 ## Lead
 
 Working group leads, or just ‘leads’, coordinate working group processes and
-decision-making. Leads are responsible for selecting appropriate processes and
-tracking and reporting on the working group's results to the TOC. Leads
-collaboratively take responsibilty for accepting design proposals and approving
-design decisions in their area of ownership.
+decision-making. A healthy working group has multiple leads, though not so many
+that decision making becomes difficult. Leads are responsible for selecting
+appropriate processes and tracking and reporting on the working group's results
+to the TOC. Leads collaboratively take responsibilty for accepting design
+proposals and approving design decisions in their area of ownership.
 
 Working group leads may or may not overlap with code approvers -- the
 expectation is that working group leads are responsible for the overall quality
