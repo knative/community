@@ -239,10 +239,16 @@ appropriate processes and tracking and reporting on the working group's results
 to the TOC. Leads collaboratively take responsibilty for accepting design
 proposals and approving design decisions in their area of ownership.
 
+Working group leads are responsible not only for the technical artifacts of
+their contribution area, but also the process and health of the community within
+that area. This manifests in well-understood and community-accepted decision
+processes and the growth of contributors in all roles, including mentoring
+additional leads.
+
 Working group leads may or may not overlap with code approvers -- the
 expectation is that working group leads are responsible for the overall quality
-of the working group's product (including documentation, testing, and
-usability), rather than just the service's code.
+of the working group's process and product (including documentation, testing,
+and usability), rather than just the service's code.
 
 ### Requirements
 
