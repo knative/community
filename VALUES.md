@@ -6,7 +6,7 @@ type: "docs"
 ---
 
 We want to make sure every member has a shared understanding of the goals and
-values we hold as a team:
+values we hold as a team:x
 
 - Optimize for the **overall project**, not your own area or feature
 
