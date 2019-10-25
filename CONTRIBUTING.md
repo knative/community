@@ -51,6 +51,12 @@ necessary because you own the copyright to your changes, even after your
 contribution becomes part of this project. So this agreement simply gives us
 permission to use and redistribute your contributions as part of the project.
 
+Note: Your contributions are verified using the email address for which you
+use to sign the CLA. Therefore, 
+[setting your GitHub account to private](https://help.github.com/en/articles/setting-your-commit-email-address)
+is unsupported because all commits from private accounts are sent from the `noreply` 
+email address.
+
 ## Design documents
 
 Any substantial design deserves a design document ([template](https://docs.google.com/document/d/1s6IIU98bi5FlRNmmBaLAn1rgoleK_ovcL746L7NHq0c/edit)). Design documents are written
