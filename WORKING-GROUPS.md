@@ -134,9 +134,9 @@ Event sources, bindings, FaaS framework, and orchestration
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1S22YmGl6B1ppYApwa1j5j9Nc6rEChlPo)                                                                    |
 | Slack Channel              | [#eventing](https://slack.knative.dev/messages/eventing)                                                                                                   |
 
-| &nbsp;                                                        | Leads       | Company | Profile                                           |
-| ------------------------------------------------------------- | ----------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/vaikas-google.png"> | Ville Aikas | Google  | [vaikas-google](https://github.com/vaikas-google) |
+| &nbsp;                                                 | Leads       | Company | Profile                                           |
+| ------------------------------------------------------ | ----------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas | Google  | [vaikas](https://github.com/vaikas) |
 
 ## Networking
 
