@@ -91,6 +91,8 @@ first name):
 | <img width="30px" src="https://github.com/pmorie.png">     | Paul Morie       | Red Hat      | [@pmorie](https://github.com/pmorie)         |
 | <img width="30px" src="https://github.com/rgregg.png">     | Ryan Gregg       | Google       | [@rgregg](https://github.com/rgregg)         |
 | <img width="30px" src="https://github.com/isdal.png">      | Tomas Isdal      | Google       | [@isdal](https://github.com/isdal)           |
+| <img width="30px" src="https://github.com/jdumars.png">      | Jaice Singer DuMars | Google       | [@jdumars](https://github.com/jdumars)         |
+
 
 ### Allocation of seats
 
