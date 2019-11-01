@@ -132,7 +132,7 @@ representatives from multiple organizations as both leads and members. Working
 group leads must be Members of the Knative project (that is, have made multiple
 contributions to the project in the form of code, design, or documentation).
 
-Please see the [Community Roles](./ROLES.md) document for a description of a
+Please see the [Community Roles](../ROLES.md) document for a description of a
 lead’s role and requirements.
 
 ## Running a working group
