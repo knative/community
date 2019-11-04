@@ -12,7 +12,7 @@ each of these groups may operate a little differently depending on their needs
 and workflow.
 
 When the need arises, a new working group can be created. See the
-[working group processes](./WORKING-GROUP-PROCESSES.md) for working group
+[working group processes](./mechanics/WORKING-GROUP-PROCESSES.md) for working group
 proposal and creation procedures.
 
 The working groups generate design docs which are kept in a
@@ -126,6 +126,7 @@ Event sources, bindings, FaaS framework, and orchestration
 
 | Artifact                   | Link                                                                                                                                                       |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter / Mission          | [Enable asynchronous application development through event delivery from anywhere.](https://github.com/knative/eventing/blob/master/docs/mission.md)       |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                        |
 | Community Meeting VC       | [meet.google.com/uea-zcwt-drt](https://meet.google.com/uea-zcwt-drt) <br>Or dial in:<br>(US) +1 919 525 1825<br>PIN: 356 842#                              |
 | Community Meeting Calendar | Wednesdays 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
@@ -133,9 +134,9 @@ Event sources, bindings, FaaS framework, and orchestration
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1S22YmGl6B1ppYApwa1j5j9Nc6rEChlPo)                                                                    |
 | Slack Channel              | [#eventing](https://slack.knative.dev/messages/eventing)                                                                                                   |
 
-| &nbsp;                                                        | Leads       | Company | Profile                                           |
-| ------------------------------------------------------------- | ----------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/vaikas-google.png"> | Ville Aikas | Google  | [vaikas-google](https://github.com/vaikas-google) |
+| &nbsp;                                                 | Leads       | Company | Profile                                           |
+| ------------------------------------------------------ | ----------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas | Google  | [vaikas](https://github.com/vaikas) |
 
 ## Networking
 
@@ -209,8 +210,8 @@ Autoscaling
 
 | &nbsp;                                                        | Leads          | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/josephburnett.png"> | Joseph Burnett | Google  | [josephburnett](https://github.com/josephburnett) |
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat  | [markusthoemmes](https://github.com/markusthoemmes) |
+| <img width="30px" src="https://github.com/vagababov.png"> | Victor Agababov | Google  | [vagababov](https://github.com/vagababov) |
 
 ## Productivity
 
