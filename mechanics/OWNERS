@@ -1,0 +1,11 @@
+# The Technical Oversight Committee has permissions here to update
+# day-to-day operational processes like working group lifecycles and
+# common practices.
+#
+# Note that OWNERS is *also* inherited, so anyone on the steering
+# committee may also approve changes in this directory if needed.
+
+approvers:
+- tech-oversight-committee
+reviewers:
+- tech-oversight-committee
