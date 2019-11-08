@@ -150,7 +150,7 @@ Event producers and frameworks.
 | Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit#)                                                           |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1tDlLtLVNXghg8Fn8KlVGr5ZTvkiQjZJs)                                                                       |
-| Slack Channel              | [#eventing](https://slack.knative.dev/messages/sources)                                                                                                  |
+| Slack Channel              | [#eventing-sources](https://slack.knative.dev/messages/eventing-sources)                                                                                 |
 
 | &nbsp;                                                        | Leads                | Company | Profile                                 |
 | ------------------------------------------------------------- | -------------------- | ------- | --------------------------------------- |
