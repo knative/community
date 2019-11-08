@@ -152,12 +152,12 @@ Event producers and frameworks.
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1tDlLtLVNXghg8Fn8KlVGr5ZTvkiQjZJs)                                                                       |
 | Slack Channel              | [#eventing-sources](https://slack.knative.dev/messages/eventing-sources)                                                                                 |
 
-| &nbsp;                                                        | Leads                | Company | Profile                                 |
-| ------------------------------------------------------------- | -------------------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/n3wscott.png">      | Scott Nichols        | VMware  | [n3wscott](https://github.com/n3wscott) |
-| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas          | VMware  | [vaikas](https://github.com/vaikas)     |
-| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard       | IBM     | https://github.com/lionelvillard        |
-| <img width="30px" src="https://github.com/nachocano.png">     | Ignacio (Nacho) Cano | Google  | https://github.com/nachocano            |
+| &nbsp;                                                        | Leads                | Company | Profile                                           |
+| ------------------------------------------------------------- | -------------------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/n3wscott.png">      | Scott Nichols        | VMware  | [n3wscott](https://github.com/n3wscott)           |
+| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas          | VMware  | [vaikas](https://github.com/vaikas)               |
+| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard       | IBM     | [lionelvillard](https://github.com/lionelvillard) |
+| <img width="30px" src="https://github.com/nachocano.png">     | Ignacio (Nacho) Cano | Google  | [nachocano](https://github.com/nachocano)         |
 
 ## Networking
 
