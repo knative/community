@@ -34,7 +34,6 @@ meetings.
 The current working groups are:
 
 - [API Core](#api-core)
-- [Build](#build)
 - [Client](#client)
 - [Documentation](#documentation)
 - [Eventing](#eventing)
@@ -66,23 +65,6 @@ API
 | <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore | Google  | [mattmoor](https://github.com/mattmoor) |
 | <img width="30px" src="https://github.com/dgerd.png"> | Dan Gerdesmeier | Google  | [dgerd](https://github.com/dgerd) |
 
-## Build
-
-[Build](https://github.com/knative/build), Builders, and Build templates
-
-| Artifact                   | Link                                                                                                                                                                     |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                      |
-| Community Meeting VC       | [meet.google.com/hau-nwak-tgm](https://meet.google.com/hau-nwak-tgm) <br>Or dial in:<br>(US) +1 219-778-6103‬ PIN: ‪573 000‬#                                            |
-| Community Meeting Calendar | Every other Wednesday 10:00a-10:30a PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1e7gMVFlJfkFdTcaWj2qETeRD9kSBG2Vh8mASPmQMYC0/edit)                                                                            |
-| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1ov16HvPam-v_FXAGEaUdHok6_hUAoIoe)                                                                                  |
-| Slack Channel              | [#build-crd](https://slack.knative.dev/messages/build-crd)                                                                                                               |
-
-| &nbsp;                                                   | Leads      | Company | Profile                                 |
-| -------------------------------------------------------- | ---------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/ImJasonH.png"> | Jason Hall | Google  | [ImJasonH](https://github.com/ImJasonH) |
-| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore | Google  | [mattmoor](https://github.com/mattmoor) |
 
 ## Client
 

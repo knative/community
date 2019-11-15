@@ -41,7 +41,7 @@ Other Documents
 
 ## Introduction
 
-Knative is a Kubernetes-based platform to build, deploy, and manage modern
+Knative is a Kubernetes-based platform to deploy and manage modern
 serverless workloads. See [Knative docs](../docs/README.md) for in-depth
 information about using Knative.
 
@@ -83,7 +83,6 @@ overall project.
 If you're looking for something to do to get your feet wet working on Knative,
 look for GitHub issues marked with the Help Wanted label:
 
-- [Build issues](https://github.com/knative/build/labels/kind%2Fgood-first-issue)
 - [Eventing issues](https://github.com/knative/eventing/labels/kind%2Fgood-first-issue)
 - [Serving issues](https://github.com/knative/serving/labels/kind%2Fgood-first-issue)
 - [Documentation repo](https://github.com/knative/docs/labels/kind%2Fgood-first-issue)

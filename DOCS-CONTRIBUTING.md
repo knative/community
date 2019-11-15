@@ -219,8 +219,6 @@ and maintained_ and _Community owned and maintained_.
   Depending on the Knative component covered by the code sample that you want to
   contribute, your PR should add that sample in one of the following folders:
 
-  - Build samples:
-    [`/docs/build/samples`](https://github.com/knative/docs/tree/master/docs/build/samples)
   - Eventing samples:
     [`/docs/eventing/samples`](https://github.com/knative/docs/tree/master/docs/eventing/samples)
   - Serving samples:
