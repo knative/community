@@ -42,7 +42,7 @@ Other Documents
 ## Introduction
 
 Knative is a Kubernetes-based platform to deploy and manage modern
-serverless workloads. See [Knative docs](../docs/README.md) for in-depth
+serverless workloads. See the [Knative documentation](https://github.com/knative/docs/tree/master/docs/README.md) for in-depth
 information about using Knative.
 
 ## Knative authors
