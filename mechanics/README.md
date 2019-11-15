@@ -5,8 +5,6 @@ weight: 20
 type: "docs"
 ---
 
-# Knative processes
-
 This directory provides a location for documenting and recording common Knative
 community practices. At the moment, these practices (except for the formation of
 Working Groups) are recommendations which individual working groups may choose
