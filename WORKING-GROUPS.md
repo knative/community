@@ -12,8 +12,8 @@ each of these groups may operate a little differently depending on their needs
 and workflow.
 
 When the need arises, a new working group can be created. See the
-[working group processes](./mechanics/WORKING-GROUP-PROCESSES.md) for working group
-proposal and creation procedures.
+[working group processes](./mechanics/WORKING-GROUP-PROCESSES.md) for working
+group proposal and creation procedures.
 
 The working groups generate design docs which are kept in a
 [shared drive](https://drive.google.com/corp/drive/folders/0APnJ_hRs30R2Uk9PVA)
@@ -37,6 +37,7 @@ The current working groups are:
 - [Client](#client)
 - [Documentation](#documentation)
 - [Eventing](#eventing)
+- [Sources](#sources)
 - [Networking](#networking)
 - [Observability](#observability)
 - [Operations](#operations)
@@ -60,11 +61,10 @@ API
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1fpBW7VyiBISsKuVdgn1MrgFdtx_JGoC5)                                                                       |
 | Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api)                                                                                                |
 
-| &nbsp;                                                   | Leads      | Company | Profile                                 |
-| -------------------------------------------------------- | ---------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore | Google  | [mattmoor](https://github.com/mattmoor) |
-| <img width="30px" src="https://github.com/dgerd.png"> | Dan Gerdesmeier | Google  | [dgerd](https://github.com/dgerd) |
-
+| &nbsp;                                                   | Leads           | Company | Profile                                 |
+| -------------------------------------------------------- | --------------- | ------- | --------------------------------------- |
+| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore      | VMware  | [mattmoor](https://github.com/mattmoor) |
+| <img width="30px" src="https://github.com/dgerd.png">    | Dan Gerdesmeier | Google  | [dgerd](https://github.com/dgerd)       |
 
 ## Client
 
@@ -116,9 +116,30 @@ Event sources, bindings, FaaS framework, and orchestration
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1S22YmGl6B1ppYApwa1j5j9Nc6rEChlPo)                                                                    |
 | Slack Channel              | [#eventing](https://slack.knative.dev/messages/eventing)                                                                                                   |
 
-| &nbsp;                                                 | Leads       | Company | Profile                                           |
-| ------------------------------------------------------ | ----------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas | Google  | [vaikas](https://github.com/vaikas) |
+| &nbsp;                                                 | Leads       | Company | Profile                             |
+| ------------------------------------------------------ | ----------- | ------- | ----------------------------------- |
+| <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas | VMware  | [vaikas](https://github.com/vaikas) |
+
+## Sources
+
+Event producers and frameworks.
+
+| Artifact                   | Link                                                                                                                                                     |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                      |
+| Community Meeting VC       | [meet.google.com/jjz-fctz-tud](https://meet.google.com/jjz-fctz-tud)  <br>Or dial in:<br>‪(US) +1 929-266-1656‬<br>PIN: ‪596 143‬#
+                                                                              |
+| Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit#)                                                           |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/1tDlLtLVNXghg8Fn8KlVGr5ZTvkiQjZJs)                                                                       |
+| Slack Channel              | [#eventing-sources](https://slack.knative.dev/messages/eventing-sources)                                                                                 |
+
+| &nbsp;                                                        | Leads                | Company | Profile                                           |
+| ------------------------------------------------------------- | -------------------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/n3wscott.png">      | Scott Nichols        | VMware  | [n3wscott](https://github.com/n3wscott)           |
+| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas          | VMware  | [vaikas](https://github.com/vaikas)               |
+| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard       | IBM     | [lionelvillard](https://github.com/lionelvillard) |
+| <img width="30px" src="https://github.com/nachocano.png">     | Ignacio (Nacho) Cano | Google  | [nachocano](https://github.com/nachocano)         |
 
 ## Networking
 
@@ -161,21 +182,20 @@ Logging, monitoring & tracing infrastructure
 
 Managing, assessing system health and maintaining Knative clusters
 
-| Artifact                   | Link                                                                                                                                                                 |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                  |
-| Community Meeting VC       | http://meet.google.com/knt-azcr-ayo
-| Community Meeting Calendar | Tuesdays at 9:00am PST <br>[Calendar](https://calendar.google.com/calendar/event?eid=MXM2ZGU5ZGpyOWFoZnF2NTcxbGg3dTA5ZmZfMjAxOTA1MTRUMTYwMDAwWiBnb29nbGUuY29tXzE4dW40ZnVoNnJva3FmOGhtZmZ0bTVvcXE0QGc)  |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)                                                 |
-| Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/14AI7ClIq2btPZ13WT8BAN4AtNKpK_K6p)                                                                               |
-| Slack Channel              | [#operations](https://slack.knative.dev/messages/operations)                                                                                                         |
+| Artifact                   | Link                                                                                                                                                                                                  |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                                                   |
+| Community Meeting VC       | http://meet.google.com/knt-azcr-ayo                                                                                                                                                                   |
+| Community Meeting Calendar | Tuesdays at 9:00am PST <br>[Calendar](https://calendar.google.com/calendar/event?eid=MXM2ZGU5ZGpyOWFoZnF2NTcxbGg3dTA5ZmZfMjAxOTA1MTRUMTYwMDAwWiBnb29nbGUuY29tXzE4dW40ZnVoNnJva3FmOGhtZmZ0bTVvcXE0QGc) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)                                                                                  |
+| Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/14AI7ClIq2btPZ13WT8BAN4AtNKpK_K6p)                                                                                                                |
+| Slack Channel              | [#operations](https://slack.knative.dev/messages/operations)                                                                                                                                          |
 
-| &nbsp;                                                     | Leads            | Company | Profile                                     |
-| ---------------------------------------------------------- | ---------------- | ------- | ------------------------------------------- |
-| <img width="30px" src="https://github.com/bbrowning.png">  | Ben Browning     | Red Hat | [bbrowning](https://github.com/bbrowning)   |
-| <img width="30px" src="https://github.com/greghaynes.png"> | Greg Haynes      | IBM     | [greghaynes](https://github.com/greghaynes) |
-| <img width="30px" src="https://github.com/k4leung4.png">   | Kenny Leung      | Google  | [k4leung4](https://github.com/k4leung4)     |
-
+| &nbsp;                                                     | Leads        | Company | Profile                                     |
+| ---------------------------------------------------------- | ------------ | ------- | ------------------------------------------- |
+| <img width="30px" src="https://github.com/bbrowning.png">  | Ben Browning | Red Hat | [bbrowning](https://github.com/bbrowning)   |
+| <img width="30px" src="https://github.com/greghaynes.png"> | Greg Haynes  | IBM     | [greghaynes](https://github.com/greghaynes) |
+| <img width="30px" src="https://github.com/k4leung4.png">   | Kenny Leung  | Google  | [k4leung4](https://github.com/k4leung4)     |
 
 ## Scaling
 
@@ -190,10 +210,10 @@ Autoscaling
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1qpGIPXVGoMm6IXb74gPrrHkudV_bjIZ9)                                                                   |
 | Slack Channel              | [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                                                                            |
 
-| &nbsp;                                                        | Leads          | Company | Profile                                           |
-| ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat  | [markusthoemmes](https://github.com/markusthoemmes) |
-| <img width="30px" src="https://github.com/vagababov.png"> | Victor Agababov | Google  | [vagababov](https://github.com/vagababov) |
+| &nbsp;                                                         | Leads           | Company | Profile                                             |
+| -------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
+| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes  | Red Hat | [markusthoemmes](https://github.com/markusthoemmes) |
+| <img width="30px" src="https://github.com/vagababov.png">      | Victor Agababov | Google  | [vagababov](https://github.com/vagababov)           |
 
 ## Productivity
 
