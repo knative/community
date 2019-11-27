@@ -55,7 +55,7 @@ API
 | Artifact                   | Link                                                                                                                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                           |
-| Community Meeting VC       | [https://meet.google.com/bzx-bjqa-rha](https://meet.google.com/bzx-bjqa-rha) <br>Or dial in:<br>(US) +1 262-448-6367<br>PIN: 923 539#                         |
+| Community Meeting VC       | [https://zoom.us/j/856719788](https://zoom.us/j/856719788) <br> Or dial:<br> (US) +16465588656,,856719788#                                                    |
 | Community Meeting Calendar | Wednesdays 10:30a-11:00a PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1NC4klOdNaU-N-PsKLyXBqDKgNSHtxCDep29Ta2b5FK0/edit)                                                                 |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1fpBW7VyiBISsKuVdgn1MrgFdtx_JGoC5)                                                                       |
