@@ -1,56 +1,41 @@
 ---
-title: "Knative team values"
-linkTitle: "Team values"
+title: "Knative project values"
+linkTitle: "Project values"
 weight: 50
 type: "docs"
 ---
 
-We want to make sure every member has a shared understanding of the goals and
-values we hold as a team:
+# Knative Community Values
 
-- Optimize for the **overall project**, not your own area or feature
+It’s important to have explicitly defined values, these are ours:
 
-  - A shortcut for one individual can mean a lot of extra work or disruption for
-    the rest of the team.
-
-- Our repos should always be in release shape: **Always Green**
-
-  - This lets us move faster in the mid and long term.
-  - This implies investments in build/test infrastructure to have fast, reliable
-    tests to ensure that we can release at any time.
-  - Extra discipline may require more work by individuals to keep the build in
-    good state, but less work overall for the team.
-
-- Be **specific**, **respectful** and **courteous**
-
-  - Disagreements are welcome and encouraged, but don't use broad
-    generalizations, exaggerations, or judgment words that can be taken
-    personally. Consider other people’s perspective (including the wide range of
-    applicability of Knative). Empathize with our users. Focus on the specific
-    issue at hand, and remember that we all care about the project, first and
-    foremost.
-  - Emails to the [mailing lists](./CONTRIBUTING.md#contributing-a-feature),
-    document comments, or meetings are often better and higher bandwidth ways to
-    communicate complex and nuanced design issues, as opposed to protracted
-    heated live chats.
-  - Be mindful of the terminology you are using, it may not be the same as
-    someone else and cause misunderstanding. To promote clear and precise
-    communication, define the terms you are using in context.
-  - See also the [Code of Conduct](./CODE-OF-CONDUCT.md), which everyone must
-    abide by.
-
-- Raising issues is great, suggesting solutions is even better
-
-  - Think of a proposed alternative and improvement rather than just what you
-    perceive as wrong.
-  - If you have no immediate solution even after thinking about it - if
-    something does seem significant, raise it to someone who might be able to
-    also think of solutions or to the group (don’t stay frustrated! Feel safe in
-    bringing up issues.
-  - Avoid rehashing old issues that have been resolved/decided (unless you have
-    new insights or information).
-
-- Be productive and **happy**, and most importantly, have _fun_ :-)
+- *We welcome all skill sets*
+  - The Knative community should strive to be approachable, welcoming, and
+    friendly to new contributors. 
+- *All contributions are recognized*
+  - A successful project requires contributions of many different kinds, from
+    code to program management to customer research. As a community we want
+    status within the project to be derived from contributions to the project
+    recognizing that all contribution types have value.
+  - Roles and skills should be aligned so contributors feel empowered to lead.
+    If someone is doing the work, the role should be codified / formalized; eg
+    glue, release, notes, PM.
+  - Leadership roles should be earned by individuals based on their
+    contributions in the project over time.
+- *We value transparency and visibility*
+  - Decision making should be as transparent as possible at each level in the
+    project:
+    - Work and decisions should happen in public.
+    - All contributors should follow the same process, regardless of their
+      employer.
+    - There should be public notes and meeting recordings so that anyone can
+      follow discussion regardless of their timezone or ability to meet.
+- *Focus on what is right for the users ("delight our users")*
+  - We should be wearing community hats in the community; community over company.
+  - Focus on what’s right for the users.
+  - We welcome structured, customer-driven features (end-users, PM roles).
+- *We value feedback*
+  - There should be well-defined, visible, accountable feedback loops.
 
 ---
 
