@@ -194,7 +194,7 @@ Managing, assessing system health and maintaining Knative clusters
 | &nbsp;                                                     | Leads        | Company | Profile                                     |
 | ---------------------------------------------------------- | ------------ | ------- | ------------------------------------------- |
 | <img width="30px" src="https://github.com/bbrowning.png">  | Ben Browning | Red Hat | [bbrowning](https://github.com/bbrowning)   |
-| <img width="30px" src="https://github.com/greghaynes.png"> | Greg Haynes  | IBM     | [greghaynes](https://github.com/greghaynes) |
+| <img width="30px" src="https://github.com/houshengbo.png"> | Vincent Hou  | IBM     | [houshengbo](https://github.com/houshengbo) |
 | <img width="30px" src="https://github.com/k4leung4.png">   | Kenny Leung  | Google  | [k4leung4](https://github.com/k4leung4)     |
 
 ## Scaling
