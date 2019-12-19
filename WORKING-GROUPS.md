@@ -37,7 +37,8 @@ The current working groups are:
 - [Client](#client)
 - [Documentation](#documentation)
 - [Eventing](#eventing)
-- [Sources](#sources)
+- [Eventing Channels](#eventing-channels)
+- [Eventing Sources](#eventing-sources)
 - [Networking](#networking)
 - [Observability](#observability)
 - [Operations](#operations)
@@ -120,15 +121,32 @@ Event sources, bindings, FaaS framework, and orchestration
 | ------------------------------------------------------ | ----------- | ------- | ----------------------------------- |
 | <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas | VMware  | [vaikas](https://github.com/vaikas) |
 
-## Sources
+## Eventing Channels
+
+Event delivery and Channel conformance.
+
+| Artifact                   | Link                                                                                                                                                     |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                      |
+| Community Meeting VC       | [meet.google.com/vis-pbkt-qqj](https://https://meet.google.com/vis-pbkt-qqj)  <br>Or dial in:<br>‪(US) +1 513-843-1416<br>PIN: 660 531#                   |
+| Community Meeting Calendar | Thursdays at 8:00a-8:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com)                         |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1uxlulaAf2m_yZUqCIeI-inul2gsqP69PElnZdO0FHUo/edit#)                                                           |
+| Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1gQymVBlLsQxknScnn1x5wUT5OBBNj5P3)                                                                   |
+| Slack Channel              | [#eventing-channels](https://slack.knative.dev/messages/eventing-channels)                                                                                |
+
+| &nbsp;                                                        | Leads                | Company | Profile                                           |
+| ------------------------------------------------------------- | -------------------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/Harwayne.png">      | Adam Harwayne        | Google  | [Harwayne](https://github.com/Harwayne)           |
+| <img width="30px" src="https://github.com/matzew.png">        | Matthias Wessendorf  | Red Hat | [matzew](https://github.com/matzew)               |
+
+## Eventing Sources
 
 Event producers and frameworks.
 
 | Artifact                   | Link                                                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                      |
-| Community Meeting VC       | [meet.google.com/jjz-fctz-tud](https://meet.google.com/jjz-fctz-tud)  <br>Or dial in:<br>‪(US) +1 929-266-1656‬<br>PIN: ‪596 143‬#
-                                                                              |
+| Community Meeting VC       | [meet.google.com/jjz-fctz-tud](https://meet.google.com/jjz-fctz-tud)  <br>Or dial in:<br>‪(US) +1 929-266-1656‬<br>PIN: ‪596 143‬#                           |
 | Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit#)                                                           |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1tDlLtLVNXghg8Fn8KlVGr5ZTvkiQjZJs)                                                                       |
