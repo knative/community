@@ -37,17 +37,6 @@ table describes:
   </thead>
 
   <tr>
-    <td>Collaborator</td>
-    <td>Casual contributor to the project</td>
-    <td>Join [knative-users@](https://groups.google.com/forum/#!forum/knative-users) to get access to the team drive.</td>
-    <td>
-        <p>Can submit PRs</p>
-        <p>Commenting permission on the Knative Team drive</p>
-    </td>
-    <td>GitHub Organization</td>
-  </tr>
-
-  <tr>
     <td>Member</td>
     <td>Regular active contributor in the community</td>
     <td>
@@ -88,40 +77,7 @@ table describes:
     <td>Working Group</td>
   </tr>
 
-  <tr>
-    <td>Administrator</td>
-    <td>Manage &amp; control permissions</td>
-    <td>Sponsored by the technical oversight committee</td>
-    <td>
-        <p>Admin privileges on the GitHub Knative org and all its repos</p>
-        <p>Admin privileges on the Knative Slack workspace</p>
-        <p>Admin privileges on the Knative Team Drive</p>
-        <p>Admin privileges on the Google Search Console for knative.dev</p>
-        <p>Admin privilege to the Knative email lists.</p>
-    </td>
-    <td>
-        <p>GitHub Organization</p>
-        <p>Team Drive</p>
-        <p>Slack</p>
-    </td>
-  </tr>
 </table>
-
-## Collaborator
-
-Individuals can be added as an outside collaborator (with READ access) to a repo
-in the Knative GitHub organization without becoming a member. This role allows
-them to be assigned issues and PRs until they become a member, but will not
-allow tests to be run against their PRs automatically nor allow them to interact
-with the PR bot.
-
-### Requirements
-
-- Working on some contribution to the project that would benefit from the
-  ability to have PRs or Issues to be assigned to the contributor.
-
-- Join [knative-users@](https://groups.google.com/forum/#!forum/knative-users) ,
-  which grants read access to documents in the Team Drive.
 
 ## Member
 
@@ -287,30 +243,6 @@ The following apply to the area / component for which one would be an owner.
   - Fixing bugs.
 
   - Mentoring and guiding approvers, members, and contributors.
-
-## Administrator
-
-Administrators are responsible for the bureaucratic aspects of the project.
-
-### Requirements
-
-- Assigned by technical oversight committee.
-
-### Responsibilities and privileges
-
-- Manage the Knative GitHub repo, including granting membership and controlling
-  repo read/write permissions.
-
-- Manage the Knative Slack team.
-
-- Manage the Knative Google group forum.
-
-- Manage any additional Knative technical collaboration assets.
-
-- Expected to be responsive to membership and permission change requests.
-  <!-- TODO SLA for admin response -->
-
-<!-- * TODO Manage the Google Search Console settings for knative.dev -->
 
 ---
 
