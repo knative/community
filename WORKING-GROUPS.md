@@ -3,6 +3,8 @@ title: "Knative working group"
 linkTitle: "Join working groups"
 weight: 25
 type: "docs"
+aliases:
+  - /contributing/working-groups/
 ---
 
 Most community activity is organized into _working groups_.

@@ -2,6 +2,8 @@
 title: "How to contribute"
 weight: 20
 type: "docs"
+aliases:
+  - /contributing/docs-contributing/
 ---
 
 - [Before you begin](#before-you-begin)

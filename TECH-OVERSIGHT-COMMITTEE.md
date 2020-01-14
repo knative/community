@@ -3,6 +3,8 @@ title: "Knative technical oversight committee"
 linkTitle: "Technical oversight committee"
 weight: 35
 type: "docs"
+aliases:
+  - /contributing/tech-oversight-committee/
 ---
 
 The Knative Technical Oversight Committee (TOC) is responsible for cross-cutting

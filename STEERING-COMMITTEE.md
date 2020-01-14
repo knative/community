@@ -3,6 +3,8 @@ title: "Knative steering committee"
 linkTitle: "Steering committee"
 weight: 40
 type: "docs"
+aliases:
+  - /contributing/steering-committee/
 ---
 
 The Knative Steering Committee (KSC) is the ultimate authority for the Knative

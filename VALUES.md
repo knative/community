@@ -3,6 +3,8 @@ title: "Knative project values"
 linkTitle: "Project values"
 weight: 50
 type: "docs"
+aliases:
+  - /contributing/values/
 ---
 
 # Knative Community Values

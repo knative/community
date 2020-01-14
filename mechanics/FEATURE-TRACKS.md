@@ -3,6 +3,8 @@ title: "Knative feature tracks"
 linkTitle: "Feature tracks"
 weight: 40
 type: "docs"
+aliases:
+  - /contributing/mechanics/feature-tracks/
 ---
 
 This document outlines the Knative process for adding non-trivial features.  The 
