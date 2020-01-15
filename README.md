@@ -66,7 +66,7 @@ Submit a Pull Request to the community sample directory under the Knative
 component folder that aligns with your document. For example, Knative Serving
 samples are under the `serving` folder. A reviewer will be assigned to review
 your submission. They'll work with you to ensure that your submission is clear,
-correct, and meets the [style guide](./DOCS-CONTRIBUTING.md), but it helps if
+correct, and meets the [style guide](./docs/DOCS-CONTRIBUTING.md), but it helps if
 you follow it as you write your tutorial.
 
 ## Meetings and work groups
