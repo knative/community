@@ -168,7 +168,7 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | Artifact                   | Link                                                                                                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                          |
-| Community Meeting VC       | [meet.google.com/cet-jepr-gtx](https://meet.google.com/cet-jepr-gtx) <br>Or dial in:<br>(US) +1 570-865-1288<br>PIN: 741 211#                                |
+| Community Meeting VC       | [meet.google.com/zvi-igye-atf](https://meet.google.com/zvi-igye-atf) <br>Or dial in:<br>(US) +1 570-865-1288<br>PIN: 741 211#                    |
 | Community Meeting Calendar | Thursdays at 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://drive.google.com/open?id=1EE1t5mTfnTir2lEasdTMRNtuPEYuPqQCZbU3NC9mHOI)                                                                       |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1oVDYbcEDdQ9EpUmkK6gE4C7aZ8u6ujsN)                                                                      |
