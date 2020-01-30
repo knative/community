@@ -253,7 +253,6 @@ performance/scale/load testing infrastructure
 
 | &nbsp;                                                    | Leads         | Company | Profile                                   |
 | --------------------------------------------------------- | ------------- | ------- | ----------------------------------------- |
-| <img width="30px" src="https://github.com/adrcunha.png">  | Adriano Cunha | Google  | [adrcunha](https://github.com/adrcunha)   |
 | <img width="30px" src="https://github.com/chaodaiG.png">  | Chao Dai      | Google  | [chaodaiG](https://github.com/chaodaiG)   |
 
 ---
