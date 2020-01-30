@@ -3,6 +3,8 @@ title: "Knative working group processes and guidelines"
 linkTitle: "Working group guidelines"
 weight: 30
 type: "docs"
+aliases:
+  - /contributing/mechanics/working-group-processes/
 ---
 
 This document describes the processes we use to manage the Knative working

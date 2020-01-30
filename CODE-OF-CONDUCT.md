@@ -3,6 +3,8 @@ title: "Contributor covenant code of conduct"
 linkTitle: "Code of conduct"
 weight: 10
 type: "docs"
+aliases:
+  - /contributing/code-of-conduct/
 ---
 
 ## Our Pledge

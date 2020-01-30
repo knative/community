@@ -2,6 +2,8 @@
 title: "How to contribute"
 weight: 20
 type: "docs"
+aliases:
+  - /contributing/docs-contributing/
 ---
 
 - [Before you begin](#before-you-begin)
@@ -18,7 +20,7 @@ propose changes to this document in a pull request.
 
 ### Code of conduct
 
-Knative follows the [Knative Code of Conduct](./CODE-OF-CONDUCT.md). By
+Knative follows the [Knative Code of Conduct](../CODE-OF-CONDUCT.md). By
 participating, you are expected to uphold this code. Please report unacceptable
 behavior to knative-code-of-conduct@googlegroups.com.
 
@@ -62,7 +64,7 @@ see a problem with the documentation, submit an issue using the following steps:
      When you create a bug report, include as many details as possible and
      include suggested fixes to the issue. If you know which Knative component
      your bug is related to, you can assign the appropriate
-     [Working Group Lead](./WORKING-GROUPS.md).
+     [Working Group Lead](../WORKING-GROUPS.md).
    - **Feature request**: For upcoming changes to the documentation or requests
      for more information on a particular subject.
 
@@ -75,7 +77,7 @@ issue in the [`knative/website`repo](https://github.com/knative/website/issues).
 
 ### Working group
 
-The [Knative Documentation Working Group](./WORKING-GROUPS.md#documentation)
+The [Knative Documentation Working Group](../WORKING-GROUPS.md#documentation)
 meets weekly on Tuesdays and alternates between a 9am PT and a 4:30pm PT time to
 accommodate contributors in both the EMEA and APAC timezones.
 [Click here](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com)
@@ -93,8 +95,8 @@ There are a couple different ways to jump in to the Knative doc set:
   in the backlog.
 
 - Try out Knative and send us feedback. For example, run through one of the
-  [install guides](../install/README.md) and then try
-  [Getting Started with Knative Serving](../install/getting-started-knative-app.md).
+  [install guides](https://github.com/knative/docs/tree/master/docs/install/README.md) and then try
+  [Getting Started with Knative Serving](https://github.com/knative/docs/tree/master/docs/install/getting-started-knative-app.md).
 
   You should keep a
   [friction log](https://devrel.net/developer-experience/an-introduction-to-friction-logging)
@@ -263,17 +265,18 @@ in the product, or for a fix or update existing content.
   1.  Add one or more `cherrypick-#.#` labels to that PR to indicate which of
       the past release branches should also be fixed. Generally, we only
       maintain the most recent numbered release.
-  1.  If you want to complete the fix yourself (best practice), you then open a
+  1.  If you want to complete the fix yourself (**best practice**), you then open a
       subsequent PR by running `git cherry-pick [COMMIT#]` against the
-      [release-0.5](https://github.com/knative/docs/tree/release-0.5). Where
-      [COMMIT#] is the commit of your merged PR.
+      `release-0.5`.
+      Where  `[COMMIT#]` is the commit of the PR that you merged in `master`.
 
       Note: Depending on workload and available bandwidth, one of the Knative
       team members might be able to help handle the `git cherry-pick` in order
       to push the fix into the affected release branch(es).
 
-For a list of the available branches in the `knative/docs` repo, see
-[Documentation Releases](https://github.com/knative/docs/blob/master/doc-releases.md).
+See a list of the available documentaion versions in the
+[branches page](https://github.com/knative/docs/branches)
+of the `knative/docs` repo.
 
 ## Assigning owners and reviewers
 
@@ -287,7 +290,7 @@ Use the `/assign` command to set the owner. For example: `/assign @owner_id`
 For code samples, initially set the owner of your PR to the SME who should
 review for technical accuracy. If you don't know who the appropriate owner is,
 nor who your reviewers should be for your PR, you can assign the
-[current working group lead](./WORKING-GROUPS.md) of the related component.
+[current working group lead](../WORKING-GROUPS.md) of the related component.
 
 If you want to notify and include other stakeholders in your PR review, use the
 `/cc` command. For example: `/cc @stakeholder_id1 @stakeholder_id2`
@@ -298,7 +301,7 @@ Because contributing to the documentation requires a different skill set than
 contributing to the Knative code base, we've defined the roles of documentation
 contributors separately from the roles of code contributors.
 
-If you're looking for code contributor roles, see [ROLES](./ROLES.md).
+If you're looking for code contributor roles, see [ROLES](../ROLES.md).
 
 ### Member
 
@@ -355,7 +358,8 @@ Knative Steering committee to ask that you be added as a member of the Knative
 org.
 
 Once your sponsor notifies you that you've been added to the Knative org, open a
-PR to add yourself as a docs-reviewer in the [OWNERS_ALIASES](../OWNERS_ALIASES)
+PR to add yourself as a docs-reviewer in the
+[OWNERS_ALIASES](https://github.com/knative/docs/tree/master/OWNERS_ALIASES)
 file.
 
 ## Approver
@@ -411,4 +415,4 @@ to become an approver at a meeting of the Documentation Working Group.
 Once you feel you meet the criteria, you can ask one of the current approvers to
 nominate you to become an approver. If all existing approvers agree that you
 meet the criteria open a PR to add yourself as a docs-approver in the
-[OWNERS_ALIASES](../OWNERS_ALIASES) file.
+[OWNERS_ALIASES](https://github.com/knative/docs/tree/master/OWNERS_ALIASES) file.

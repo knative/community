@@ -1,9 +1,9 @@
 ---
 # This section is called the "frontmatter" for your page
 title: "Title for your page" # Use sentence case for titles
-#linkTitle: "Link for this page in the sidebar"
+linkTitle: "Template: New docs page"
 # The linkTitle field (above) is optional; use it to provide a shorter link if your page title is very long
-weight: 10 # This affects the placement of the link in the sidebar on the left. Pages are ordered from top to bottom by weight, lowest to highest.
+weight: 50 # This affects the placement of the link in the sidebar on the left. Pages are ordered from top to bottom by weight, lowest to highest.
 type: "docs" # You won't need to update this.
 #aliases:
 #  - /docs/example/redirect/moved-renamed-page
@@ -43,7 +43,7 @@ Avoid nesting headings directly on top of each other with no text inbetween.
 
 Avoid nesting headings directly on top of each other with no text inbetween.
 
-Put code into a code block. 
+Put code into a code block.
 
 1. Here's a code snippet:
    <!-- Use spaces and not tabs to indent code blocks, and leave one blank line before and after the block. -->
