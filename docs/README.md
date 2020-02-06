@@ -3,7 +3,7 @@ We're excited that you're interested in contributing to the Knative documentatio
 
 ## Getting started
 
-- [How to contribute](DOCS-CONTRIBUTING.md) -- Contains information about how to contribute and outlines the roles for Docs contributors.
+- [How to contribute](./DOCS-CONTRIBUTING.md) -- Contains information about how to contribute and outlines the roles for Docs contributors.
 
 - [Template page](https://raw.githubusercontent.com/knative/community/master/docs/new-page-template.md) -- A blank documentation page that demonstrates how to format a new page and includes tips on structuring your documentation.
 

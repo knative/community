@@ -1,11 +1,3 @@
----
-title: "Knative processes and guidelines"
-linkTitle: "Knative processes"
-weight: 20
-type: "docs"
----
-
-# Knative processes
 
 This directory provides a location for documenting and recording common Knative
 community practices. At the moment, these practices (except for the formation of

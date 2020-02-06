@@ -1,2 +1,5 @@
 approvers:
-- tech-oversight-committee
+- technical-oversight-committee
+
+reviewers:
+- technical-oversight-committee

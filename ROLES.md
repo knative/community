@@ -3,6 +3,8 @@ title: "Knative community roles"
 linkTitle: "Community roles"
 weight: 55
 type: "docs"
+aliases:
+  - /contributing/roles/
 ---
 
 This document describes the set of roles individuals might have within the

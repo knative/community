@@ -3,6 +3,8 @@ title: "Slack guidelines"
 linkTitle: "Slack guidelines"
 weight: 45
 type: "docs"
+aliases:
+  - /contributing/slack-guidelines/
 ---
 
 Slack is the main communication platform for Knative outside of our mailing

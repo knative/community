@@ -3,6 +3,8 @@ title: "Knative contributor guidelines"
 linkTitle: "Contributing to Knative"
 weight: 15
 type: "docs"
+aliases:
+  - /contributing/contributing/
 ---
 
 So, you want to hack on Knative? Yay!

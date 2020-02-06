@@ -3,6 +3,8 @@ title: "Knative Repository Guidelines"
 linkTitle: "Repository Guidelines"
 weight: 25
 type: "docs"
+aliases:
+  - /contributing/repository-guidelines/
 ---
 
 This document outlines a structure for creating and associating code

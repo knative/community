@@ -1,4 +1,11 @@
-# Knative Feature Tracks
+---
+title: "Knative feature tracks"
+linkTitle: "Feature tracks"
+weight: 40
+type: "docs"
+aliases:
+  - /contributing/mechanics/feature-tracks/
+---
 
 This document outlines the Knative process for adding non-trivial features.  The 
 intent of this process is to articulate the best practices many successful 
@@ -87,17 +94,17 @@ guide); by default a majority of the WG leads shall decide.  The outcome of a
 review may not be an immediate decision, and the contributor may get sent back 
 to gather more information and iterate.
 
-When a proposal is accepted, the leads should designate one or more 
-reviewers<sup>[3.1](#3.1)</sup> within the WG as "sponsors" for the 
-feature to help shepherd it through the process.  It is recommended that at 
-least one sponsor be an approver 
-([e.g.](https://github.com/knative/serving/blob/2018fcd98c18922cb1ce8b0207aa9aa6bef5eed1/OWNERS_ALIASES#L19)), 
-but if non-approvers 
-([e.g.](https://github.com/knative/serving/blob/2018fcd98c18922cb1ce8b0207aa9aa6bef5eed1/OWNERS_ALIASES#L25)) 
-are listed, they should be considered the primary reviewer(s) so that they can 
-hone their review skills and work towards approver.
+When a proposal is accepted, the leads should designate one or more
+reviewers<sup>[3.1](#3.1)</sup> within the WG as "sponsors" for the
+feature to help shepherd it through the process.  It is recommended that at
+least one sponsor be an "approver" (someone listed under an
+[`*-approvers`](https://github.com/knative/serving/blob/master/OWNERS_ALIASES) list).
+If that sponsor is not an approver (for example, someone listed under an
+[`*-reviewers`](https://github.com/knative/serving/blob/master/OWNERS_ALIASES) list),
+they should initially become the primary reviewer(s) so that they can hone their review skills
+and work towards the approver role.
 
-> <a name="^3.1"><sup>3.1</sup></a> - Leads should try to be sensitive to the relative timezone of contributors with their sponsors to reduce cycle times on reviews.
+> <a name="3.1"><sup>3.1</sup></a> - Leads should try to be sensitive to the relative timezone of contributors with their sponsors to reduce cycle times on reviews.
 
 ## Step 4: The Breakdown
 
