@@ -58,7 +58,7 @@ API
 | Artifact                   | Link                                                                                                                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                           |
-| Community Meeting VC       | [https://meet.google.com/zwx-teod-dnc](https://meet.google.com/zwx-teod-dnc) <br>Or dial in:<br>(US) +1 318-576-1124<br>PIN: 660 231#                |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NC4klOdNaU-N-PsKLyXBqDKgNSHtxCDep29Ta2b5FK0/edit)                                      |
 | Community Meeting Calendar | Wednesdays 10:30a-11:00a PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1NC4klOdNaU-N-PsKLyXBqDKgNSHtxCDep29Ta2b5FK0/edit)                                                                 |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1fpBW7VyiBISsKuVdgn1MrgFdtx_JGoC5)                                                                       |
@@ -77,7 +77,7 @@ conventions
 | Artifact                   | Link                                                                                                                                                                       |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                        |
-| Community Meeting VC       | [meet.google.com/spi-umby-dmw](https://meet.google.com/spi-umby-dmw) <br>Or dial in:<br>(US) +1 929-445-2235<br>PIN: 824 001#                                              |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Uh7jTWQruBBmic-WmTvtc9cMF95kQrKb5lsqWhNuikM/edit)                                                   |
 | Community Meeting Calendar | Tuesdays 10:30a-11:00a Pacific <br>[Calendar Invitation](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1Uh7jTWQruBBmic-WmTvtc9cMF95kQrKb5lsqWhNuikM/edit)                                                                              |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1QF-job3rCEqCpJLm8nHkC4mBIi4XANE1)                                                                                    |
@@ -97,7 +97,7 @@ Knative documentation, especially the [Docs](../docs/README.md) repo.
 | Artifact                   | Link                                                                                                                                                                                                    |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                                                                   |
-| Community Meeting VC       | [meet.google.com/mku-npuv-cjs](https://meet.google.com/mku-npuv-cjs) <br>Or dial in:<br>(US) +1 260-277-0211<br>PIN: 956 724#‬‬                                                                         |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                                |
 | Community Meeting Calendar | Weekly on Tuesdays, alternating between 9:00-9:30am and 4:30-5:00pm PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                                                           |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1K5cM9m-b93ySI5WGKalJKbBq_cfjyi-y)                                                                                                                 |
@@ -115,7 +115,7 @@ Event sources, bindings, FaaS framework, and orchestration
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Charter / Mission          | [Enable asynchronous application development through event delivery from anywhere.](https://github.com/knative/eventing/blob/master/docs/mission.md)       |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                        |
-| Community Meeting VC       | [meet.google.com/uea-zcwt-drt](https://meet.google.com/uea-zcwt-drt) <br>Or dial in:<br>(US) +1 919 525 1825<br>PIN: 356 842#                              |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1uGDehQu493N_XCAT5H4XEw5T9IWlPN1o19ULOWKuPnY/edit)                                   |
 | Community Meeting Calendar | Wednesdays 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1uGDehQu493N_XCAT5H4XEw5T9IWlPN1o19ULOWKuPnY/edit)                                                              |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1S22YmGl6B1ppYApwa1j5j9Nc6rEChlPo)                                                                    |
@@ -133,7 +133,7 @@ Event delivery and Channel conformance.
 | Artifact                   | Link                                                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                      |
-| Community Meeting VC       | [meet.google.com/vis-pbkt-qqj](https://https://meet.google.com/vis-pbkt-qqj)  <br>Or dial in:<br>‪(US) +1 513-843-1416<br>PIN: 660 531#                   |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1uxlulaAf2m_yZUqCIeI-inul2gsqP69PElnZdO0FHUo/edit#)                                |
 | Community Meeting Calendar | Thursdays at 8:00a-8:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com)                         |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1uxlulaAf2m_yZUqCIeI-inul2gsqP69PElnZdO0FHUo/edit#)                                                           |
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1gQymVBlLsQxknScnn1x5wUT5OBBNj5P3)                                                                   |
@@ -151,7 +151,7 @@ Event producers and frameworks.
 | Artifact                   | Link                                                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                      |
-| Community Meeting VC       | [meet.google.com/jjz-fctz-tud](https://meet.google.com/jjz-fctz-tud)  <br>Or dial in:<br>‪(US) +1 929-266-1656‬<br>PIN: ‪596 143‬#                           |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit#)                                |
 | Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit#)                                                           |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1tDlLtLVNXghg8Fn8KlVGr5ZTvkiQjZJs)                                                                       |
@@ -173,7 +173,7 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | Artifact                   | Link                                                                                                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                          |
-| Community Meeting VC       | [meet.google.com/zvi-igye-atf](https://meet.google.com/zvi-igye-atf) <br>Or dial in:<br>(US) +1 570-865-1288<br>PIN: 741 211#                    |
+| Community Meeting VC       | See the top of the [Meeting notes](https://drive.google.com/open?id=1EE1t5mTfnTir2lEasdTMRNtuPEYuPqQCZbU3NC9mHOI)                                            |
 | Community Meeting Calendar | Thursdays at 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://drive.google.com/open?id=1EE1t5mTfnTir2lEasdTMRNtuPEYuPqQCZbU3NC9mHOI)                                                                       |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1oVDYbcEDdQ9EpUmkK6gE4C7aZ8u6ujsN)                                                                      |
@@ -191,7 +191,7 @@ Logging, monitoring & tracing infrastructure
 | Artifact                   | Link                                                                                                                                                                 |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                  |
-| Community Meeting VC       | meet.google.com/kps-noeu-uzz <br> Or dial in: <br> (US) ‪+1 413-301-9135‬ <br>PIN: ‪602 561‬#                                                                        |
+| Community Meeting VC       | See the top of the [Meeting notes](https://drive.google.com/open?id=1vWEpjf093Jsih3mKkpIvmWWbUQPxFkcyDxzNH15rQgE)                                                    |
 | Community Meeting Calendar | Every other Thursday, 10:30a-11a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://drive.google.com/open?id=1vWEpjf093Jsih3mKkpIvmWWbUQPxFkcyDxzNH15rQgE)                                                                               |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/10HcpZlI1PbFyzinO6HjfHbzCkBXrqXMy)                                                                              |
@@ -208,7 +208,7 @@ Managing, assessing system health and maintaining Knative clusters
 | Artifact                   | Link                                                                                                                                                                                                  |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                                                   |
-| Community Meeting VC       | http://meet.google.com/knt-azcr-ayo                                                                                                                                                                   |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)                                                       |
 | Community Meeting Calendar | Tuesdays at 9:00am PST <br>[Calendar](https://calendar.google.com/calendar/event?eid=MXM2ZGU5ZGpyOWFoZnF2NTcxbGg3dTA5ZmZfMjAxOTA1MTRUMTYwMDAwWiBnb29nbGUuY29tXzE4dW40ZnVoNnJva3FmOGhtZmZ0bTVvcXE0QGc) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)                                                                                  |
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/14AI7ClIq2btPZ13WT8BAN4AtNKpK_K6p)                                                                                                                |
@@ -227,7 +227,7 @@ Autoscaling
 | Artifact                   | Link                                                                                                                                                      |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                       |
-| Community Meeting VC       | [Hangouts](https://meet.google.com/ick-mumc-mjv?hs=122)                                                                                                   |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1FoLJqbDJM8_tw7CON-CJZsO2mlF8Ia1cWzCjWX8HDAI/edit#heading=h.c0ufqy5rucfa)           |
 | Community Meeting Calendar | Wednesdays at 9:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1FoLJqbDJM8_tw7CON-CJZsO2mlF8Ia1cWzCjWX8HDAI/edit#heading=h.c0ufqy5rucfa)                                      |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1qpGIPXVGoMm6IXb74gPrrHkudV_bjIZ9)                                                                   |
@@ -246,7 +246,7 @@ performance/scale/load testing infrastructure
 | Artifact                   | Link                                                                                                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                          |
-| Community Meeting VC       | [Hangouts](https://meet.google.com/sps-vbhg-rfx)                                                                                                             |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1aPRwYGD4XscRIqlBzbNsSB886PJ0G-vZYUAAUjoydko)                                          |
 | Community Meeting Calendar | Every other Thursday, 2p PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1aPRwYGD4XscRIqlBzbNsSB886PJ0G-vZYUAAUjoydko)                                                                     |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1oMYB4LQHjySuMChmcWYCyhH7-CSkz2r_)                                                                      |
