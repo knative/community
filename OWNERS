@@ -1,13 +1,6 @@
 # The OWNERS file is used by prow to automatically merge approved PRs.
 
-filters:
-  ".*":
-    approvers:
-    - steering-committee
-    reviewers:
-    - steering-committee
-  "WORKING-GROUPS.md":
-    approvers:
-    - tech-oversight-committee
-    reviewers:
-    - tech-oversight-committee
+approvers:
+- steering-committee
+reviewers:
+- steering-committee
