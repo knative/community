@@ -64,10 +64,10 @@ API
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1fpBW7VyiBISsKuVdgn1MrgFdtx_JGoC5)                                                                       |
 | Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api)                                                                                                |
 
-| &nbsp;                                                   | Leads           | Company | Profile                                 |
-| -------------------------------------------------------- | --------------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore      | VMware  | [mattmoor](https://github.com/mattmoor) |
-| <img width="30px" src="https://github.com/dgerd.png">    | Dan Gerdesmeier | Google  | [dgerd](https://github.com/dgerd)       |
+| &nbsp;                                                   | Leads             | Company | Profile                                 |
+| -------------------------------------------------------- | ----------------- | ------- | --------------------------------------- |
+| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore        | VMware  | [mattmoor](https://github.com/mattmoor) |
+| <img width="30px" src="https://github.com/dprotaso.png"> | Dave  Protasowski | Pivotal | [dprotaso](https://github.com/dprotaso) |
 
 ## Client
 
