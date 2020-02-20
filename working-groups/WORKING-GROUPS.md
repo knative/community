@@ -86,8 +86,7 @@ conventions
 | &nbsp;                                                     | Leads           | Company | Profile                                     |
 | ---------------------------------------------------------- | --------------- | ------- | ------------------------------------------- |
 | <img width="30px" src="https://github.com/sixolet.png">    | Naomi Seyfer    | Google  | [sixolet](https://github.com/sixolet)       |
-| <img width="30px" src="https://github.com/cppforlife.png"> | Dmitriy Kalinin | Pivotal | [cppforlife](https://github.com/cppforlife) |
-| <img width="30px" src="https://github.com/rhuss.png"> | Roland Huß | Red Hat | [rhuss](https://github.com/rhuss) |
+| <img width="30px" src="https://github.com/rhuss.png">      | Roland Huß      | Red Hat | [rhuss](https://github.com/rhuss)           |
 
 
 ## Documentation
