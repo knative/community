@@ -41,8 +41,8 @@ Other Documents
 
 ## Introduction
 
-Knative is a Kubernetes-based platform to build, deploy, and manage modern
-serverless workloads. See [Knative docs](../docs/README.md) for in-depth
+Knative is a Kubernetes-based platform to deploy and manage modern
+serverless workloads. See the [Knative documentation](https://github.com/knative/docs/tree/master/docs/README.md) for in-depth
 information about using Knative.
 
 ## Knative authors
@@ -59,14 +59,14 @@ tools, platforms, languages, and products. By submitting a tutorial you can
 share your experience and help others who are solving similar problems.
 
 Community tutorials are stored in Markdown files under the `community` folder
-[Community Samples](../community/samples/README.md). These documents are
+[Community Samples](https://github.com/knative/docs/tree/master/community/samples/README.md). These documents are
 contributed, reviewed, and maintained by the community.
 
 Submit a Pull Request to the community sample directory under the Knative
 component folder that aligns with your document. For example, Knative Serving
 samples are under the `serving` folder. A reviewer will be assigned to review
 your submission. They'll work with you to ensure that your submission is clear,
-correct, and meets the [style guide](./DOCS-CONTRIBUTING.md), but it helps if
+correct, and meets the [style guide](./docs/DOCS-CONTRIBUTING.md), but it helps if
 you follow it as you write your tutorial.
 
 ## Meetings and work groups
@@ -83,7 +83,6 @@ overall project.
 If you're looking for something to do to get your feet wet working on Knative,
 look for GitHub issues marked with the Help Wanted label:
 
-- [Build issues](https://github.com/knative/build/labels/kind%2Fgood-first-issue)
 - [Eventing issues](https://github.com/knative/eventing/labels/kind%2Fgood-first-issue)
 - [Serving issues](https://github.com/knative/serving/labels/kind%2Fgood-first-issue)
 - [Documentation repo](https://github.com/knative/docs/labels/kind%2Fgood-first-issue)
