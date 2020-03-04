@@ -8,7 +8,7 @@ type: "docs"
 
 ## Principles
 
-_These principles are forward looking from release 0.9.x onward. There are
+_These principles are forward looking from release 0.13.x onward. There are
 plenty of examples where some or all of these principles have not been followed
 in the past. We are not looking to change past behavior, but to help define
 future behavior for the project._
