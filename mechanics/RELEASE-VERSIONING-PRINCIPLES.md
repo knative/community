@@ -41,10 +41,11 @@ branches depending on severity and feasibility.
 ### Default and optional API versions principle:
 
 There will be at least one common API version available across all community
-supported versions (See _Community support window principle_) at any given
-time. At least one of these common API versions will be enabled by default from
-the open source installation path. The open source installation process may
-allow optional API versions at the discretion of the installing user.
+supported versions (See [Community support window
+principle](#knative-community-support-window-principle)) at any given time. At
+least one of these common API versions will be enabled by default from the open
+source installation path. The open source installation process may allow
+optional API versions at the discretion of the installing user.
 
 ### API Support Principle:
 
@@ -85,13 +86,12 @@ above.
 ### Project, Feature, and Sub-Feature Phase Principle:
 
 There will be a phase identified for each project, feature, and sub-feature for
-each release. Each of the phases; Alpha, Beta, and Stable will have clear
+each release. Each of the phases: Alpha, Beta, and Stable will have clear
 definitions related to performance, deprecation and maintenance.
 
 |   | Alpha | Beta | Stable |
 |---|-------|------|--------|
-| *Purpose* | Works with possible limitations | Works end to end | Production |
-Ready |
+| *Purpose* | Works with possible limitations | Works end to end | Production Ready |
 | *API* | May not be backward compatible | Versioned, may not be backward compatible | Versioned / Backward Compatible |
 | *Performance* | No guarantee | No guarantee - Baseline | Performance is quantified, documented, and guarantees against regression |
 | *Deprecation Notice* | none | 9 months | 12 months |
@@ -133,9 +133,10 @@ a release was intended to a newer version that may have not been originally
 qualified. We expect this to work given Kubernetes backwards compatibility
 support. We intend for these upgrades to be a non-issue. If particular versions
 are found to be incompatible and the Knative version is still community
-supported we will either: (1) work with the Kubernetes community on a fix or (2)
-develop a patch release to workaround the issue. We will publish guidance on
-potential incompatibility on knative.dev
+supported we will either:
+  1. work with the Kubernetes community on a fix or
+  2. develop a patch release to workaround the issue. We will publish guidance
+     on potential incompatibility on knative.dev
 
 ### Which API endpoints should I enable when I vend/host Knative Serving?
 
@@ -154,11 +155,10 @@ clients statically developed against this version we will treat the current set
 of v1alpha1 Serving APIs as 'Beta' APIs. This means that we will keep v1alpha1
 available in releases for at least 9 months after deprecated is announced.
 During that period of time of availability, we will evaluate whether the API is
-available through the default Open Source installation by following the _Default
-and optional API versions principle._
+available through the default Open Source installation by following the [Default
+and optional API versions principle](#default-and-optional-api-versions-principle).
 
-### What happens when the minimum Kubernetes version for a supported Knative
-release is no longer supported by Kubernetes?
+### What happens when the minimum Kubernetes version for a supported Knative release is no longer supported by Kubernetes?
 
 We will explicitly avoid introducing changes into a Knative Serving release
 branch that would raise the minimum version. We will not keep around test
