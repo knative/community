@@ -1,3 +1,9 @@
+---
+title: "Knative release principles"
+linkTitle: "Release principles"
+weight: 50
+type: "docs"
+---
 # Knative Release Principles
 
 ## Principles
