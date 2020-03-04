@@ -1,7 +1,5 @@
 # Knative Release Principles
 
-**State: Proposal**
-
 ## Principles
 
 _These principles are forward looking from release 0.9.x onward. There are
@@ -10,14 +8,13 @@ in the past. We are not looking to change past behavior, but to help define
 future behavior for the project._
 
 ### Overarching principle:
-
 Wherever possible† follow the principles that are widely adopted by
 Kubernetes for
 [API changes](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api_changes.md)
 and
 [API deprecation](https://kubernetes.io/docs/reference/using-api/deprecation-policy/).
 
-_† Some things may not be possible due to either the maturity of CRDs or
+_† - Some things may not be possible due to either the maturity of CRDs or
 the mechanism by which they are implemented (e.g. not an API Server, no
 conversion webhooks, bugs)._
 
@@ -38,7 +35,7 @@ branches depending on severity and feasibility.
 ### Default and optional API versions principle:
 
 There will be at least one common API version available across all community
-supported versions (See \_Community support window principle**) **\_at any given
+supported versions (See _Community support window principle_) at any given
 time. At least one of these common API versions will be enabled by default from
 the open source installation path. The open source installation process may
 allow optional API versions at the discretion of the installing user.
@@ -53,14 +50,14 @@ versions are best effort, or by vendors. See FAQ for v1alpha1.
 
 ### Recommended API version principle:
 
-We (the Knative community) recommend that clients developing to a static API
-version (including non-versioned tests) develop to the highest common API
-version offered across supported community releases at the time of development.
-Where feasible a dynamic client should be preferred.
+We (the community) recommend that clients developing to a static API version
+(including non-versioned tests) develop to the highest common API version
+offered across supported community releases at the time of development. Where
+feasible a dynamic client should be preferred.
 
-> **Example**: If 0.8.x through 0.11.x are the current community supported
-> versions then v1alpha1 would be the recommended client version as 0.8.x does
-> not support v1beta1 nor v1 by default. This makes v1alpha1 the common version.
+> **Example:** If 0.8.x through 0.11.x are the current community supported
+> versions then v1alpha1 would be the recommended client version as 0.8.x does not
+> support v1beta1 nor v1 by default. This makes v1alpha1 the common version.
 > (Note: This would mean 0.11.x must support v1alpha1 by default otherwise we do
 > not have any minimum overlapping version).
 
@@ -79,49 +76,45 @@ conformance for the installed version and 3 prior versions for common API
 versions. There will always be at least one such version due to the principles
 above.
 
+### Project, Feature, and Sub-Feature Phase Principle:
+
+There will be a phase identified for each project, feature, and sub-feature for
+each release. Each of the phases; Alpha, Beta, and Stable will have clear
+definitions related to performance, deprecation and maintenance.
+
+|   | Alpha | Beta | Stable |
+|---|-------|------|--------|
+| *Purpose* | Works with possible limitations | Works end to end | Production |
+Ready |
+| *API* | May not be backward compatible | Versioned, may not be backward compatible | Versioned / Backward Compatible |
+| *Performance* | No guarantee | No guarantee - Baseline | Performance is quantified, documented, and guarantees against regression |
+| *Deprecation Notice* | none | 9 months | 12 months |
+
 ## FAQ
-
-### What is the Knative (serving?) policy around changing APIs?
-
-Per above, the kube precedent:
-https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api_changes.md
-
-### What is the Knative (serving?) policy around turning down APIs?
-
-Per above the kube precedent:
-https://kubernetes.io/docs/reference/using-api/deprecation-policy/
 
 ### What happens during upgrades of Knative?
 
-Strawman: We support upgrading versions of Knative from any community supported
-version of Knative to any other higher community version of Knative. Upgrade
-steps larger than that must go through an intermediate version first. As an
-example, if the current community versions are 0.9.x through 0.12.x the upgrade
-matrix will look like below:
+We support upgrading versions of Knative from any community supported version of
+Knative to a minor version one higher. Upgrade steps larger than one minor
+version must go through an intermediate version first. As an example, if the
+current community versions are 0.9.x through 0.12.x the upgrade matrix will look
+like below:
 
-| Knative Version | Upgrades to           |
-| --------------- | --------------------- |
-| 0.9.x           | 0.10x, 0.11.x, 0.12.x |
-| 0.10.x          | 0.11.x, 0.12.x        |
-| 0.11.x          | 0.12.x                |
-| 0.12.x          | N/A                   |
-
-This means that we will need to always test 6 possible upgrade paths with our
-upgrade tests. This seems like an okay balance between user flexibility and
-complexity.
-
-While we support these larger jumps we recommend moving a single minor version
-at a time if possible.
+| Knative Version | Upgrades to |
+| --------------- | ----------- |
+| 0.9.x | 0.10.x |
+| 0.10.x | 0.11.x |
+| 0.11.x | 0.12.x |
+| 0.12.x | N/A |
 
 ### What happens during downgrades of Knative?
 
-Stawman: Knative downgrades are a harder story than upgrades as the purpose of
-the upgrades are to fix bugs and add features. That said there are many cases
-where a downgrade or rollback is appropriate. As downgrades are more difficult
-to get right Knative will only support downgrade of a single minor version and
-only if users have not already taken advantage of new features or fields. It is
-for this reason that we recommend that upgrades move only a single version at a
-time.
+Knative downgrades are a harder story than upgrades as the purpose of the
+upgrades are to fix bugs and add features. That said there are many cases where
+a downgrade or rollback is appropriate. As downgrades are more difficult to get
+right Knative will make a best effort to support downgrade of a single minor
+version and only if users have not already taken advantage of new features or
+fields.
 
 This means that we need to support the downgrade tests case within our project
 to ensure that downgrade is indeed possible before code checked in and releases
@@ -158,7 +151,8 @@ During that period of time of availability, we will evaluate whether the API is
 available through the default Open Source installation by following the _Default
 and optional API versions principle._
 
-### What happens when the minimum Kubernetes version for a supported Knative release is no longer supported by Kubernetes?
+### What happens when the minimum Kubernetes version for a supported Knative
+release is no longer supported by Kubernetes?
 
 We will explicitly avoid introducing changes into a Knative Serving release
 branch that would raise the minimum version. We will not keep around test
@@ -725,3 +719,229 @@ tuple
    </td>
   </tr>
 </table>
+
+## Knative Eventing Version Tables
+
+Note: plumbing eventing into this doc is a WIP
+
+### Messaging:
+
+<table>
+  <tr>
+   <td><strong>Knative Version</strong>
+   </td>
+   <td><strong>Release Date</strong>
+   </td>
+   <td><strong>End of LIfe Date</strong>
+   </td>
+   <td><strong>Min K8s Version</strong>
+   </td>
+   <td><strong>Storage Type</strong>
+   </td>
+   <td><strong>Force Upgrade</strong>
+   </td>
+   <td><strong>API Endpoints</strong>
+   </td>
+   <td><strong>API Type Served</strong>
+   </td>
+   <td><strong>Availability</strong>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >0.19.x
+   </td>
+   <td rowspan="2" >2020-09-29
+   </td>
+   <td rowspan="2" >2021-03-16
+   </td>
+   <td rowspan="2" >1.1?.x
+   </td>
+   <td rowspan="2" >v1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td><strong>not served</strong>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="3" >0.18.x
+   </td>
+   <td rowspan="3" >2020-08-18
+   </td>
+   <td rowspan="3" >2021-02-02
+   </td>
+   <td rowspan="3" >1.1?.x
+   </td>
+   <td rowspan="3" >v1
+   </td>
+   <td rowspan="3" >Yes
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td>v1alpha1
+   </td>
+   <td>v1alpha1
+   </td>
+   <td><strong>removed</strong>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="3" >0.16.x
+   </td>
+   <td rowspan="3" >2020-07-07
+   </td>
+   <td rowspan="3" >2020-12-22
+   </td>
+   <td rowspan="3" >1.18.x
+   </td>
+   <td rowspan="3" >v1beta1
+   </td>
+   <td rowspan="3" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>optional
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1alpha1
+   </td>
+   <td>v1alpha1
+   </td>
+   <td><strong>not served</strong>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >0.15.x
+   </td>
+   <td rowspan="2" >2020-05-26
+   </td>
+   <td rowspan="2" >2020-11-10
+   </td>
+   <td rowspan="2" >1.16.x
+   </td>
+   <td rowspan="2" >v1beta1
+   </td>
+   <td rowspan="2" >Yes
+   </td>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1alpha1
+   </td>
+   <td>v1alpha1
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >0.14.x
+   </td>
+   <td rowspan="2" >2020-04-14
+   </td>
+   <td rowspan="2" >2020-09-29
+   </td>
+   <td rowspan="2" >1.16.x
+   </td>
+   <td rowspan="2" >v1beta1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1alpha1
+   </td>
+   <td>v1alpha1
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >0.13.x
+   </td>
+   <td rowspan="2" >2020-03-03
+   </td>
+   <td rowspan="2" >2020-08-18
+   </td>
+   <td rowspan="2" >1.15.x
+   </td>
+   <td rowspan="2" >v1alpha1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>optional
+   </td>
+  </tr>
+  <tr>
+   <td>v1alpha1
+   </td>
+   <td>v1alpha1
+   </td>
+   <td>default
+   </td>
+  </tr>
+</table>
+
+### Eventing:
+
+TODO
+
+
+### Flows:
+
+TODO
+
+### Sources:
+
+TODO
