@@ -18,6 +18,8 @@ role grants.
 - [Working Group Execution Lead](#working-group-execution-lead)
 - [Scribe](#scribe)
 
+See also [notes](#notes) on roles.
+
 ## Role Summary
 
 The following table lists the roles we use within the Knative community. The
@@ -357,6 +359,13 @@ Working Group meetings.
 - Ensure that important information from meetings makes it into the WG notes.
 
 - Post WG recordings to the team drive.
+
+# Notes
+
+The steering committee is working to define the terms under which someone may be
+removed from a role. In the interim, you may contact
+[knative-steering@googlegroups.com](mailto:knative-steering@googlegroups.com) if
+there is a situation related to role execution that you want to raise.
 
 ---
 
