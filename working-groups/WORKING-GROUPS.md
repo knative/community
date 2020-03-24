@@ -206,13 +206,13 @@ Logging, monitoring & tracing infrastructure
 Managing, assessing system health and maintaining Knative clusters
 
 | Artifact                   | Link                                                                                                                                                                                                  |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                                                   |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)                                                       |
-| Community Meeting Calendar | Tuesdays at 9:00am PST <br>[Calendar](https://calendar.google.com/calendar/event?eid=MXM2ZGU5ZGpyOWFoZnF2NTcxbGg3dTA5ZmZfMjAxOTA1MTRUMTYwMDAwWiBnb29nbGUuY29tXzE4dW40ZnVoNnJva3FmOGhtZmZ0bTVvcXE0QGc) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)                                                                                  |
-| Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/14AI7ClIq2btPZ13WT8BAN4AtNKpK_K6p)                                                                                                                |
-| Slack Channel              | [#operations](https://slack.knative.dev/messages/operations)                                                                                                                                          |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                      |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)          |
+| Community Meeting Calendar | Tuesdays at 10:00am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)                                     |
+| Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/14AI7ClIq2btPZ13WT8BAN4AtNKpK_K6p)                                                                   |
+| Slack Channel              | [#operations](https://slack.knative.dev/messages/operations)                                                                                             |
 
 | &nbsp;                                                     | Leads        | Company | Profile                                     |
 | ---------------------------------------------------------- | ------------ | ------- | ------------------------------------------- |
