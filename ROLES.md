@@ -362,10 +362,35 @@ Working Group meetings.
 
 # Notes
 
-The steering committee is working to define the terms under which someone may be
-removed from a role. In the interim, you may contact
-[knative-steering@googlegroups.com](mailto:knative-steering@googlegroups.com) if
-there is a situation related to role execution that you want to raise.
+Within this section "manager" refers to a member who is an Execution Lead, Tech
+Lead, Approver or Scribe. (this is different from a WG or Organization Member).
+
+- Initial managers are defined at the founding of the WG or Subproject as part
+  of the acceptance of that WG or Subproject.
+- Managers SHOULD remain active and responsive in their Roles.
+- Managers MUST be community members to be eligible to hold a leadership role within a SIG.
+- Managers taking an extended leave of 1 or more months SHOULD coordinate with
+  other managers to ensure the role is adequately staffed during the leave.
+- Managers going on leave for 1-3 months MAY work with other managers to suggest
+  a replacement using the normal process
+- Managers of a role SHOULD remove any other managers that have not communicated
+  a leave of absence and either cannot be reached for more than 1 month or are
+  not fulfilling their documented responsibilities for more than 1 month.
+  - This MAY be done through a super-majority vote of managers, or if there are
+    not enough active managers to get a super-majority of votes cast, then
+    removal MAY occur through exception process to the TOC.  The PR removing the
+    manager should be open for at least 72 hours.
+  - Prior to voting to remove a manager, leads SHOULD reach out to the affected
+    manager and see if they need to take a leave.
+- Membership disagreements MAY be escalated to the WG leads. WG lead membership
+  disagreements MAY be escalated to the TOC.
+- Managers MAY decide to step down at anytime and nominate a replacement who
+  will be approved through the regular process for that role.
+
+It is the hope of the steering committee that effective communication will make
+the use of these rules something that happens under exceptional circumstances
+only. In circumstances where it is unavoidable, these are presented so that the
+process is clear.
 
 ---
 
