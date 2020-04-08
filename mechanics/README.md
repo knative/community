@@ -6,6 +6,7 @@ to adopt, rather than requirements. Each working group should document their
 processes; either in their own repo or in a pointer to these docs.
 
 - [Working group formation and management](./WORKING-GROUP-PROCESSES.md)
+- [Feature Tracks](./FEATURE-TRACKS.md)
 
 <!-- TODO(argent/eallred): Add recommended process for:
 
