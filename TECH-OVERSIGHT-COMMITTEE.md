@@ -56,6 +56,8 @@ product and design decisions.
 
 ## Committee Mechanics
 
+The TOC is [elected by the community](./mechanics/TOC.md).
+
 The TOC’s work includes:
 
 - Regular committee meetings to discuss hot topics, resulting in a set of
