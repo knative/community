@@ -253,6 +253,7 @@ performance/scale/load testing infrastructure
 | &nbsp;                                                    | Leads         | Company | Profile                                   |
 | --------------------------------------------------------- | ------------- | ------- | ----------------------------------------- |
 | <img width="30px" src="https://github.com/chaodaiG.png">  | Chao Dai      | Google  | [chaodaiG](https://github.com/chaodaiG)   |
+| <img width="30px" src="https://github.com/chizhg.png">    | Chi Zhang     | Google  | [chizhg](https://github.com/chizhg)       |
 
 ---
 
