@@ -33,6 +33,22 @@ WG leads should have access to be able to create and update events on this
 calendar, and should invite knative-dev@googlegroups.com to working group
 meetings.
 
+### Calendar import
+
+If you're using Google Calendar, the above should work. If you're
+using some other system (Apple Calendar or Outlook, for example),
+[here is an iCal export of the community
+calendar](https://calendar.google.com/calendar/ical/google.com_18un4fuh6rokqf8hmfftm5oqq4@group.calendar.google.com/public/basic.ics).
+
+* [Follow these directions to import into Outlook
+  Web](https://support.office.com/en-us/article/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df)
+* [Follow these directions for desktop
+  Outlook](https://support.office.com/en-us/article/See-your-Google-Calendar-in-Outlook-C1DAB514-0AD4-4811-824A-7D02C5E77126)
+* [Follow the import directions to import into Apple
+  Calendar](https://support.apple.com/guide/calendar/import-or-export-calendars-icl1023/mac)
+
+# Working Groups
+
 The current working groups are:
 
 - [API Core](#api-core)
