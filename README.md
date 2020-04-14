@@ -25,7 +25,7 @@ Other Documents
 - [Values](./VALUES.md) - shared goals and values for the community
 - [Contributing to Knative](./CONTRIBUTING.md) - guidelines and advice on
   becoming a contributor
-- [Working Groups](./WORKING-GROUPS.md) - describes our various working groups
+- [Working Groups](./working-groups/WORKING-GROUPS.md) - describes our various working groups
 - [Working Group Processes](./mechanics/WORKING-GROUP-PROCESSES.md) - describes how
   working groups operate
 - [Steering Committee](./STEERING-COMMITTEE.md) - describes our steering
@@ -73,7 +73,7 @@ you follow it as you write your tutorial.
 
 Knative has public and recorded bi-weekly community meetings.
 
-Each project has one or more [working groups](./WORKING-GROUPS.md) driving the
+Each project has one or more [working groups](./working-groups/WORKING-GROUPS.md) driving the
 project, and Knative as a single
 [technical oversight community](./TECH-OVERSIGHT-COMMITTEE.md) monitoring the
 overall project.

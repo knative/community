@@ -28,7 +28,7 @@ given the same level of review.
 ## Working groups
 
 The Knative contributors community is organized into a set of
-[working groups](./WORKING-GROUPS.md). Any contribution to Knative should be
+[working groups](./working-groups/WORKING-GROUPS.md). Any contribution to Knative should be
 started by first engaging with the appropriate working group.
 
 ## Code of conduct
