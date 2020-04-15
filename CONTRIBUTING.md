@@ -28,7 +28,7 @@ given the same level of review.
 ## Working groups
 
 The Knative contributors community is organized into a set of
-[working groups](./WORKING-GROUPS.md). Any contribution to Knative should be
+[working groups](./working-groups/WORKING-GROUPS.md). Any contribution to Knative should be
 started by first engaging with the appropriate working group.
 
 ## Code of conduct
@@ -84,7 +84,7 @@ later join knative-dev if you want immediate access).
 ## Contributing documentation
 
 For more information about contributing to the Knative documentation, see
-[DOCS-CONTRIBUTING.md](./DOCS-CONTRIBUTING.md). A lot of the information on this
+[DOCS-CONTRIBUTING.md](./docs/DOCS-CONTRIBUTING.md). A lot of the information on this
 page still applies, but you'll find the specifics about the docs process there.
 
 ## Contributing a feature

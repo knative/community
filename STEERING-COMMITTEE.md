@@ -31,7 +31,7 @@ the way we run this committee, based on feedback from the community.
 1. Define and evolve project governance structures and policies, including
    project roles and how collaborators become members, approvers, leads, and/or
    administrators. This includes policy for the creation and administration of
-   [working groups](./WORKING-GROUPS.md) and committees.
+   [working groups](./working-groups/WORKING-GROUPS.md) and committees.
 1. Steward, control access, delegate access, and establishes processes
    regarding, all Knative project resources and has the final say in the
    disposition of those resources.
