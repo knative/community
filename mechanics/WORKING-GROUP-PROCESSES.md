@@ -49,8 +49,14 @@ and discussion has occurred that there is general agreement that:
 
 1. The problem is not well-covered by any of the existing chartered WGs
 
+Note that "code dumps" are unlikely to be accepted as the beginning of a working
+group, though they can be useful to start a conversation. For most topics that
+meet the bar for a new WG, it's likely that other participants in the community
+have ideas and opinions, and up-front conversations can help to focus the shape
+and scope of the solution space.
+
 The TOC and existing WGs should enable these conversations (e.g. setting up
-one-off meetings, creating slack channels, etc).  s˝Once the community has
+one-off meetings, creating slack channels, etc).  Once the community has
 identified a substantial architectural area which would benefit from long-lived,
 concerted and focused design, then you should consider creating a new working
 group. To do so, you need to:
