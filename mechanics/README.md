@@ -7,6 +7,7 @@ processes; either in their own repo or in a pointer to these docs.
 
 - [Working group formation and management](./WORKING-GROUP-PROCESSES.md)
 - [Feature Tracks](./FEATURE-TRACKS.md)
+- [Releases and API versioning principles](./RELEASE-VERSIONING-PRINCIPLES.md)
 
 <!-- TODO(argent/eallred): Add recommended process for:
 

@@ -165,7 +165,7 @@ branch that would raise the minimum version. We will not keep around test
 clusters for unsupported Kubernetes versions, but we will attempt to solve user
 reported bugs to the best of our ability.
 
-### Can we have the table below on Knative.dev?
+### Can we have the table below on knative.dev?
 
 Yes. We will publish a table similar to below once we have agreement on the
 principles so that users can easily determine versions and endpoints available
@@ -347,7 +347,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td>optional (deprecated)
+   <td>default (deprecated)
    </td>
   </tr>
   <tr>
@@ -355,7 +355,7 @@ tuple
    </td>
    <td>Lemonade
    </td>
-   <td>optional (deprecated)
+   <td>default (deprecated)
    </td>
   </tr>
   <tr>
@@ -367,7 +367,7 @@ tuple
    </td>
    <td rowspan="3" >1.15.x
    </td>
-   <td rowspan="3" >v1
+   <td rowspan="3" >v1alpha1
    </td>
    <td rowspan="3" >N/A
    </td>
@@ -383,7 +383,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td>optional (deprecated)
+   <td>default (deprecated)
    </td>
   </tr>
   <tr>
@@ -391,7 +391,7 @@ tuple
    </td>
    <td>Lemonade
    </td>
-   <td>optional  (deprecated)
+   <td>default (deprecated)
    </td>
   </tr>
   <tr>
@@ -403,7 +403,7 @@ tuple
    </td>
    <td rowspan="3" >1.15.x
    </td>
-   <td rowspan="3" >v1
+   <td rowspan="3" >v1alpha1
    </td>
    <td rowspan="3" >N/A
    </td>
@@ -738,7 +738,7 @@ Note: plumbing eventing into this doc is a WIP
    </td>
    <td><strong>Release Date</strong>
    </td>
-   <td><strong>End of LIfe Date</strong>
+   <td><strong>End of Life Date</strong>
    </td>
    <td><strong>Min K8s Version</strong>
    </td>
@@ -941,7 +941,7 @@ Note: plumbing eventing into this doc is a WIP
 
 ### Eventing:
 
-TODO
+TODO (see https://github.com/knative/eventing/issues/3006)
 
 
 ### Flows:
