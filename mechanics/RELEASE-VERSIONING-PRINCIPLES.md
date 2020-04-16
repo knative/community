@@ -215,13 +215,13 @@ tuple
    </td>
   </tr>
   <tr>
-   <td rowspan="3" >0.17.x
+   <td rowspan="3" >0.20.x
    </td>
-   <td rowspan="3" >2020-08-18
+   <td rowspan="3" >2020-12-22
    </td>
-   <td rowspan="3" >2021-02-02
+   <td rowspan="3" >2021-06-08
    </td>
-   <td rowspan="3" >1.18.x
+   <td rowspan="3" >1.19.x
    </td>
    <td rowspan="3" >v1
    </td>
@@ -248,6 +248,114 @@ tuple
    <td>Lemonade
    </td>
    <td><strong>removed</strong>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="3" >0.19.x
+   </td>
+   <td rowspan="3" >2020-11-10
+   </td>
+   <td rowspan="3" >2021-04-27
+   </td>
+   <td rowspan="3" >1.19.x
+   </td>
+   <td rowspan="3" >v1
+   </td>
+   <td rowspan="3" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td><strong>removed</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>v1alpha1
+   </td>
+   <td>Lemonade
+   </td>
+   <td><strong>removed</strong>
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="3" >0.18.x
+   </td>
+   <td rowspan="3" >2020-09-29
+   </td>
+   <td rowspan="3" >2021-03-16
+   </td>
+   <td rowspan="3" >1.19.x
+   </td>
+   <td rowspan="3" >v1
+   </td>
+   <td rowspan="3" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td>v1alpha1
+   </td>
+   <td>Lemonade
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="3" >0.17.x
+   </td>
+   <td rowspan="3" >2020-08-18
+   </td>
+   <td rowspan="3" >2021-02-02
+   </td>
+   <td rowspan="3" >1.18.x
+   </td>
+   <td rowspan="3" >v1
+   </td>
+   <td rowspan="3" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>default (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td>v1alpha1
+   </td>
+   <td>Lemonade
+   </td>
+   <td>default (deprecated)
    </td>
   </tr>
   <tr>
@@ -275,7 +383,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td>optional (deprecated)
+   <td>default (deprecated)
    </td>
   </tr>
   <tr>
@@ -283,7 +391,7 @@ tuple
    </td>
    <td>Lemonade
    </td>
-   <td>optional (deprecated)
+   <td>default (deprecated)
    </td>
   </tr>
   <tr>
@@ -311,7 +419,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td>optional (deprecated)
+   <td>default (deprecated)
    </td>
   </tr>
   <tr>
@@ -319,7 +427,7 @@ tuple
    </td>
    <td>Lemonade
    </td>
-   <td>optional (deprecated)
+   <td>default (deprecated)
    </td>
   </tr>
   <tr>
@@ -419,7 +527,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td>default (deprecated)
+   <td>default
    </td>
   </tr>
   <tr>
@@ -427,7 +535,7 @@ tuple
    </td>
    <td>Lemonade
    </td>
-   <td>default (deprecated)
+   <td>default
    </td>
   </tr>
   <tr>
@@ -455,7 +563,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td>default (deprecated)
+   <td>default
    </td>
   </tr>
   <tr>
@@ -463,7 +571,7 @@ tuple
    </td>
    <td>Lemonade
    </td>
-   <td>default (deprecated)
+   <td>default
    </td>
   </tr>
   <tr>
