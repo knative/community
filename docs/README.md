@@ -11,4 +11,4 @@ We're excited that you're interested in contributing to the Knative documentatio
 
 - [#docs on the Knative Slack](https://slack.knative.dev) -- The #docs channel is the best place to go if you have questions about making changes to the documentation. We're happy to help!
 
-- [Documentation working group](../WORKING-GROUPS.md#documentation) -- Come join us in the working group to meet other docs contributors and ask any questions you might have.
+- [Documentation working group](../working-groups/WORKING-GROUPS.md#documentation) -- Come join us in the working group to meet other docs contributors and ask any questions you might have.

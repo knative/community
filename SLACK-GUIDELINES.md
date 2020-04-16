@@ -59,7 +59,7 @@ a member of the [KSC](STEERING-COMMITTEE.md) or
 Please reach out to the #slack-admins group with your request to create a new
 channel.
 
-Channels are dedicated to [Working Groups](./WORKING-GROUPS.md), sub-projects,
+Channels are dedicated to [Working Groups](./working-groups/WORKING-GROUPS.md), sub-projects,
 community topics, and related programs/projects.
 
 Channels are not:

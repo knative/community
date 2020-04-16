@@ -102,7 +102,7 @@ working group:
   these meetings between 9:00AM to 2:59PM Pacific Time. Invite the public Google
   group to the meeting.
 
-- **Register the Working Group**. Go to [WORKING-GROUPS.md](./WORKING-GROUPS.md)
+- **Register the Working Group**. Go to [WORKING-GROUPS.md](../working-groups/WORKING-GROUPS.md)
   and add your working group name, the names of the leads, the working group
   charter, and a link to the meeting you created.
 
