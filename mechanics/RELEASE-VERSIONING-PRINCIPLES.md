@@ -4,6 +4,7 @@ linkTitle: "Release principles"
 weight: 50
 type: "docs"
 ---
+
 # Knative Release Principles
 
 ## Principles
@@ -14,15 +15,16 @@ in the past. We are not looking to change past behavior, but to help define
 future behavior for the project._
 
 ### Overarching principle:
-Wherever possible† follow the principles that are widely adopted by
-Kubernetes for
+
+Wherever possible† follow the principles that are widely adopted by Kubernetes
+for
 [API changes](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api_changes.md)
 and
 [API deprecation](https://kubernetes.io/docs/reference/using-api/deprecation-policy/).
 
-_† - Some things may not be possible due to either the maturity of CRDs or
-the mechanism by which they are implemented (e.g. not an API Server, no
-conversion webhooks, bugs)._
+_† - Some things may not be possible due to either the maturity of CRDs or the
+mechanism by which they are implemented (e.g. not an API Server, no conversion
+webhooks, bugs)._
 
 ### K8s minimum version principle:
 
@@ -41,11 +43,12 @@ branches depending on severity and feasibility.
 ### Default and optional API versions principle:
 
 There will be at least one common API version available across all community
-supported versions (See [Community support window
-principle](#knative-community-support-window-principle)) at any given time. At
-least one of these common API versions will be enabled by default from the open
-source installation path. The open source installation process may allow
-optional API versions at the discretion of the installing user.
+supported versions (See
+[Community support window principle](#knative-community-support-window-principle))
+at any given time. At least one of these common API versions will be enabled by
+default from the open source installation path. The open source installation
+process may allow optional API versions at the discretion of the installing
+user.
 
 ### API Support Principle:
 
@@ -63,8 +66,8 @@ offered across supported community releases at the time of development. Where
 feasible a dynamic client should be preferred.
 
 > **Example:** If 0.8.x through 0.11.x are the current community supported
-> versions then v1alpha1 would be the recommended client version as 0.8.x does not
-> support v1beta1 nor v1 by default. This makes v1alpha1 the common version.
+> versions then v1alpha1 would be the recommended client version as 0.8.x does
+> not support v1beta1 nor v1 by default. This makes v1alpha1 the common version.
 > (Note: This would mean 0.11.x must support v1alpha1 by default otherwise we do
 > not have any minimum overlapping version).
 
@@ -89,12 +92,12 @@ There will be a phase identified for each project, feature, and sub-feature for
 each release. Each of the phases: Alpha, Beta, and Stable will have clear
 definitions related to performance, deprecation and maintenance.
 
-|   | Alpha | Beta | Stable |
-|---|-------|------|--------|
-| *Purpose* | Works with possible limitations | Works end to end | Production Ready |
-| *API* | May not be backward compatible | Versioned, may not be backward compatible | Versioned / Backward Compatible |
-| *Performance* | No guarantee | No guarantee - Baseline | Performance is quantified, documented, and guarantees against regression |
-| *Deprecation Notice* | none | 9 months | 12 months |
+|                      | Alpha                           | Beta                                      | Stable                                                                   |
+| -------------------- | ------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------ |
+| _Purpose_            | Works with possible limitations | Works end to end                          | Production Ready                                                         |
+| _API_                | May not be backward compatible  | Versioned, may not be backward compatible | Versioned / Backward Compatible                                          |
+| _Performance_        | No guarantee                    | No guarantee - Baseline                   | Performance is quantified, documented, and guarantees against regression |
+| _Deprecation Notice_ | none                            | 9 months                                  | 12 months                                                                |
 
 ## FAQ
 
@@ -108,10 +111,10 @@ like below:
 
 | Knative Version | Upgrades to |
 | --------------- | ----------- |
-| 0.9.x | 0.10.x |
-| 0.10.x | 0.11.x |
-| 0.11.x | 0.12.x |
-| 0.12.x | N/A |
+| 0.9.x           | 0.10.x      |
+| 0.10.x          | 0.11.x      |
+| 0.11.x          | 0.12.x      |
+| 0.12.x          | N/A         |
 
 ### What happens during downgrades of Knative?
 
@@ -134,9 +137,10 @@ qualified. We expect this to work given Kubernetes backwards compatibility
 support. We intend for these upgrades to be a non-issue. If particular versions
 are found to be incompatible and the Knative version is still community
 supported we will either:
-  1. work with the Kubernetes community on a fix or
-  2. develop a patch release to workaround the issue. We will publish guidance
-     on potential incompatibility on knative.dev
+
+1. work with the Kubernetes community on a fix or
+2. develop a patch release to workaround the issue. We will publish guidance on
+   potential incompatibility on knative.dev
 
 ### Which API endpoints should I enable when I vend/host Knative Serving?
 
@@ -155,8 +159,8 @@ clients statically developed against this version we will treat the current set
 of v1alpha1 Serving APIs as 'Beta' APIs. This means that we will keep v1alpha1
 available in releases for at least 9 months after deprecated is announced.
 During that period of time of availability, we will evaluate whether the API is
-available through the default Open Source installation by following the [Default
-and optional API versions principle](#default-and-optional-api-versions-principle).
+available through the default Open Source installation by following the
+[Default and optional API versions principle](#default-and-optional-api-versions-principle).
 
 ### What happens when the minimum Kubernetes version for a supported Knative release is no longer supported by Kubernetes?
 
@@ -1050,7 +1054,6 @@ Note: plumbing eventing into this doc is a WIP
 ### Eventing:
 
 TODO (see https://github.com/knative/eventing/issues/3006)
-
 
 ### Flows:
 
