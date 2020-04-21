@@ -11,7 +11,7 @@ This document outlines how to conduct a Knative Tecehnical Oversite Committee el
 
 ## Process
 
-1. Steering committee prepare the election repoistory
+1. Steering committee prepare the election repository
 
     * Make knative/community/elections/$YEAR
     * Make knative/community/elections/$YEAR/README.md, this is the voter's guide

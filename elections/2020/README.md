@@ -86,7 +86,7 @@ the election officials if you do not receive a ballot by May 1.
 
 ### Decision
 
-The newly elected body will be announced in the Steering Commitee AMA Meeting on May 11, 2020.
+The newly elected body will be announced in the Steering Committee AMA Meeting on May 11, 2020.
 
 Following the meeting, the raw voting results and winners will be published on the
 [Knative Blog].
