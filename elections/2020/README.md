@@ -33,9 +33,9 @@ Please refer to the [TOC Election Charter] for:
 | ------------ | ------------------------ |
 | April 13     | Announcement of Election |
 | April 23     | All candidate nominations and voting exception forms due by 0000 UTC (5pm Pacific) |
-| April 24     | Election Begins via email ballots |
-| May 8        | Election Closes by 0000 UTC (5pm Pacific) |
-| May 11       | Announcement of Results at Knative Steering Committee AMA Meeting |
+| April 27     | Election Begins via email ballots |
+| May 11       | Election Closes by 0000 UTC (5pm Pacific) |
+| May 13       | Announcement of Results at Knative Community Meeting |
 
 ## Candidacy Process
 
