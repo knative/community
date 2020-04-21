@@ -118,7 +118,6 @@ The eligible voter process can be found in the [TOC election mechanics](../../me
 - tzununbekov
 - vagababov
 - vaikas
-- vaikas-google
 - vincent-pli
 - whaught
 - wtam2018
