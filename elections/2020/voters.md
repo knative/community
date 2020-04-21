@@ -36,7 +36,6 @@ The eligible voter process can be found in the [TOC election mechanics](../../me
 - chaodaiG
 - chizhg
 - coryrc
-- covbot
 - cppforlife
 - Cynocracy
 - daisy-ycguo

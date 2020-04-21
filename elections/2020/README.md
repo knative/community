@@ -105,7 +105,6 @@ the [TOC Election Charter].
 | Michael Maximilien | IBM | [@dr.max](https://github.com/dr.max) |
 | Nghia Tran | Google | [@tcnghia](https://github.com/tcnghia) |
 | Roland Huss | Red Hat | [@rhuss](https://github.com/rhuss) |
-| Tara Gu | IBM | [@taragu](https://github.com/taragu) |
 
 [Knative Techincal Oversight Committee]: https://github.com/knative/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md
 [TOC Election Charter]: ../../mechanics/TOC.md
