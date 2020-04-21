@@ -102,7 +102,7 @@ the [TOC Election Charter].
 | Grant Rodgers | Google | [@grantr](https://github.com/grantr) |
 | Lionel Villard | IBM | [@lionelvillard](https://github.com/lionelvillard) |
 | Markus Thömmes | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) |
-| Michael Maximilien | IBM | [@dr.max](https://github.com/dr.max) |
+| Michael Maximilien | IBM | [@maximilien](https://github.com/maximilien) |
 | Nghia Tran | Google | [@tcnghia](https://github.com/tcnghia) |
 | Roland Huss | Red Hat | [@rhuss](https://github.com/rhuss) |
 
