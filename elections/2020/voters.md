@@ -75,7 +75,6 @@ The eligible voter process can be found in the [TOC election mechanics](../../me
 - liu-cong
 - markusthoemmes
 - mattmoor
-- mattmoor-sockpuppet
 - matzew
 - maximilien
 - mdemirhan

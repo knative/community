@@ -32,7 +32,7 @@ Please refer to the [TOC Election Charter] for:
 | Date         | Event                    |
 | ------------ | ------------------------ |
 | April 13     | Announcement of Election |
-| April 23     | All candidate nominations and voting exception forms due by 0000 UTC (5pm Pacific) |
+| April 24     | All candidate nominations and voting exception forms due by 0000 UTC (5pm Pacific) |
 | April 27     | Election Begins via email ballots |
 | May 11       | Election Closes by 0000 UTC (5pm Pacific) |
 | May 13       | Announcement of Results at Knative Community Meeting |
@@ -75,8 +75,8 @@ enforced as spelled out in the [TOC Election Charter].
 You will be ranking your choices of the candidates with an option for
 "no opinion". In the event of a tie, a coin will be flipped.
 
-The election will open for voting the morning April 24, 2020 via email and
-end two weeks after on May 8, 2019 at 00:00am UTC. You will receive an email
+The election will open for voting the morning April 27, 2020 via email and
+end two weeks after on May 11, 2019 at 00:00am UTC. You will receive an email
 to the address on file at the start of the election from
 "Knative Steering Committee (CIVS Poll Supervisor)" `<civs@cs.cornell.edu>`,
 please whitelist if necessary. Detailed
@@ -86,7 +86,7 @@ the election officials if you do not receive a ballot by May 1.
 
 ### Decision
 
-The newly elected body will be announced in the Steering Committee AMA Meeting on May 11, 2020.
+The newly elected body will be announced in the Knative Community Meeting on May 13, 2020.
 
 Following the meeting, the raw voting results and winners will be published on the
 [Knative Blog].
