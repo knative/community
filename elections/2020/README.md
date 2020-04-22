@@ -66,7 +66,7 @@ reflected in GitHub contributions, you can use the [voter exemption form] to ask
 to participate in the election.
 
 Elections will be held using time-limited [Condorcet] ranking on [CIVS]
-using the [IRV method]. The top vote getters will be elected to the open
+using the [Schulze](https://en.wikipedia.org/wiki/Schulze_method) method. The top vote getters will be elected to the open
 seats.
 
 Employer diversity is encouraged, and thus maximal representation will be
