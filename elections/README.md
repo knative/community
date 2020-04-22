@@ -65,6 +65,14 @@ This document outlines how to conduct a Knative Tecehnical Oversite Committee el
 ### Technical Oversight Committee
 
 - [Recuses themselves from public election activities][election-recusal]
+- May vote
+- May answer questions about general election specifics, ie:
+  - Where do I find the schedule?
+  - How do I vote?
+- Will not answer questions about specific candidates, or anything that could be construed as endorsing, ie:
+  - How is $candidate doing so far? (PS - we don't know anyway)
+  - Who are your favorite candidates?
+
 
 ### Steering Committee
 
@@ -88,7 +96,7 @@ This document outlines how to conduct a Knative Tecehnical Oversite Committee el
 - Post deadlines and reminders during the election season
 - Reissue ballots from CIVS to voters who might have not received their ballot.
 - Guard the privacy of the email addresses of voters
-- It is impossible for the election officers to see the results of the election until the election ends; for purposes of transparency with the community it is encouraged to release some statistics during the election (ie. “65% of the community has voted so far!”)
+- It is impossible for the steering committee to see the results of the election until the election ends; for purposes of transparency with the community it is encouraged to release some statistics during the election (ie. “65% of the community has voted so far!”)
 
 
 [election-recusal]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
