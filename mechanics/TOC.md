@@ -49,8 +49,8 @@ to submit an exception form to the steering committee who will then review and
 determine whether this member should be marked as an exception.
 
 All eligible voters will be captured at
-`github.com/knative/community/elections/$YEAR/voters.md` and the voters’ guide
-will be captured at `github.com/knative/community/elections/$YEAR/README.md`
+`knative/community/elections/$YEAR/voters.md` and the voters’ guide
+will be captured at `knative/community/elections/$YEAR/README.md`
 similar to the kubernetes election process.
 
 We are committed to an inclusive process and will adapt future eligibility

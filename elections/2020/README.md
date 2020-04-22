@@ -82,7 +82,7 @@ to the address on file at the start of the election from
 please whitelist if necessary. Detailed
 voting instructions will be addressed in email and the CIVS polling page. Please
 note that email ballots might be unreliable, so you are encouraged to contact
-the election officials if you do not receive a ballot by May 1.
+the steering committee if you do not receive a ballot by May 1.
 
 ### Decision
 
