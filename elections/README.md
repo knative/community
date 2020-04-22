@@ -43,6 +43,7 @@ This document outlines how to conduct a Knative Tecehnical Oversite Committee el
         * Do not release results to all voters
         * Enable detailed ballot reporting
         * Allow voters to select “no opinion” for some choices
+        * Enforce proportional representation
     * Click create poll, this will send election@knative.team an email with instructions
     * It will send you a link to “Poll Control”, bookmark this generated page as this is where you will add voters and also resend ballots to people if their ballot gets lost or filtered
     * This page is where the “Start Poll” and “Stop Poll” buttons are, start the poll
