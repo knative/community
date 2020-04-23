@@ -36,11 +36,11 @@ necessary because you own the copyright to your changes, even after your
 contribution becomes part of this project. So this agreement simply gives us
 permission to use and redistribute your contributions as part of the project.
 
-Note: Your contributions are verified using the email address for which you
-use to sign the CLA. Therefore, 
+Note: Your contributions are verified using the email address for which you use
+to sign the CLA. Therefore,
 [setting your GitHub account to private](https://help.github.com/en/articles/setting-your-commit-email-address)
-is unsupported because all commits from private accounts are sent from the `noreply` 
-email address.
+is unsupported because all commits from private accounts are sent from the
+`noreply` email address.
 
 ### Style guide
 
@@ -95,7 +95,8 @@ There are a couple different ways to jump in to the Knative doc set:
   in the backlog.
 
 - Try out Knative and send us feedback. For example, run through one of the
-  [install guides](https://github.com/knative/docs/tree/master/docs/install/README.md) and then try
+  [install guides](https://github.com/knative/docs/tree/master/docs/install/README.md)
+  and then try
   [Getting Started with Knative Serving](https://github.com/knative/docs/tree/master/docs/install/getting-started-knative-app.md).
 
   You should keep a
@@ -265,18 +266,18 @@ in the product, or for a fix or update existing content.
   1.  Add one or more `cherrypick-#.#` labels to that PR to indicate which of
       the past release branches should also be fixed. Generally, we only
       maintain the most recent numbered release.
-  1.  If you want to complete the fix yourself (**best practice**), you then open a
-      subsequent PR by running `git cherry-pick [COMMIT#]` against the
-      `release-0.5`.
-      Where  `[COMMIT#]` is the commit of the PR that you merged in `master`.
+  1.  If you want to complete the fix yourself (**best practice**), you then
+      open a subsequent PR by running `git cherry-pick [COMMIT#]` against the
+      `release-0.5`. Where `[COMMIT#]` is the commit of the PR that you merged
+      in `master`.
 
       Note: Depending on workload and available bandwidth, one of the Knative
       team members might be able to help handle the `git cherry-pick` in order
       to push the fix into the affected release branch(es).
 
 See a list of the available documentaion versions in the
-[branches page](https://github.com/knative/docs/branches)
-of the `knative/docs` repo.
+[branches page](https://github.com/knative/docs/branches) of the `knative/docs`
+repo.
 
 ## Assigning owners and reviewers
 
@@ -415,4 +416,5 @@ to become an approver at a meeting of the Documentation Working Group.
 Once you feel you meet the criteria, you can ask one of the current approvers to
 nominate you to become an approver. If all existing approvers agree that you
 meet the criteria open a PR to add yourself as a docs-approver in the
-[OWNERS_ALIASES](https://github.com/knative/docs/tree/master/OWNERS_ALIASES) file.
+[OWNERS_ALIASES](https://github.com/knative/docs/tree/master/OWNERS_ALIASES)
+file.

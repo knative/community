@@ -67,9 +67,10 @@ between members, security reports, etc.) meetings are held in private.
 Meeting notes are available to members of the knative-dev mailing list (link to
 be added).
 
-Questions and proposals for changes to governance are posted as 
-[issues in the docs repo](https://github.com/knative/docs/issues), and the KSC invites your feedback
-there. See [Getting in touch](#getting-in-touch) for other options.
+Questions and proposals for changes to governance are posted as
+[issues in the docs repo](https://github.com/knative/docs/issues), and the KSC
+invites your feedback there. See [Getting in touch](#getting-in-touch) for other
+options.
 
 ## Committee members
 
@@ -85,17 +86,18 @@ the KSC will, from time to time, consider if this policy should be changed.
 The current membership of the committee is currently (listed alphabetically by
 first name):
 
-| &nbsp;                                                     | Member           | Organization | Profile                                      |
-| ---------------------------------------------------------- | ---------------- | ------------ | -------------------------------------------- |
-| <img width="30px" src="https://github.com/bsnchan.png">    | Brenda Chan      | VMware       | [@bsnchan](https://github.com/bsnchan)       |
-| <img width="30px" src="https://github.com/mbehrendt.png">  | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt)   |
-| <img width="30px" src="https://github.com/pmorie.png">     | Paul Morie       | Red Hat      | [@pmorie](https://github.com/pmorie)         |
-| <img width="30px" src="https://github.com/rgregg.png">     | Ryan Gregg       | Google       | [@rgregg](https://github.com/rgregg)         |
-| <img width="30px" src="https://github.com/isdal.png">      | Tomas Isdal      | Google       | [@isdal](https://github.com/isdal)           |
-|  | Open *      | Google       |  |
-|  | Open *      | Google       |  |
+| &nbsp;                                                    | Member           | Organization | Profile                                    |
+| --------------------------------------------------------- | ---------------- | ------------ | ------------------------------------------ |
+| <img width="30px" src="https://github.com/bsnchan.png">   | Brenda Chan      | VMware       | [@bsnchan](https://github.com/bsnchan)     |
+| <img width="30px" src="https://github.com/mbehrendt.png"> | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt) |
+| <img width="30px" src="https://github.com/pmorie.png">    | Paul Morie       | Red Hat      | [@pmorie](https://github.com/pmorie)       |
+| <img width="30px" src="https://github.com/rgregg.png">    | Ryan Gregg       | Google       | [@rgregg](https://github.com/rgregg)       |
+| <img width="30px" src="https://github.com/isdal.png">     | Tomas Isdal      | Google       | [@isdal](https://github.com/isdal)         |
+|                                                           | Open \*          | Google       |                                            |
+|                                                           | Open \*          | Google       |                                            |
 
-* Open seats have been allocated to the organization per the committee rules, but have not been assigned to a member of the organization.
+- Open seats have been allocated to the organization per the committee rules,
+  but have not been assigned to a member of the organization.
 
 ### Allocation of seats
 
@@ -156,8 +158,8 @@ There are two ways to raise issues to the steering committee for decision:
    [knative-steering@googlegroups.com](mailto:knative-steering@googlegroups.com).
    This is a private discussion list to which all members of the committee have
    access.
-2. Open an issue on a knative repository and indicate that you would like attention
-   from the steering committee.
+2. Open an issue on a knative repository and indicate that you would like
+   attention from the steering committee.
 
 ---
 

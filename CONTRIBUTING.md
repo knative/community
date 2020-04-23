@@ -28,8 +28,8 @@ given the same level of review.
 ## Working groups
 
 The Knative contributors community is organized into a set of
-[working groups](./working-groups/WORKING-GROUPS.md). Any contribution to Knative should be
-started by first engaging with the appropriate working group.
+[working groups](./working-groups/WORKING-GROUPS.md). Any contribution to
+Knative should be started by first engaging with the appropriate working group.
 
 ## Code of conduct
 
@@ -53,17 +53,18 @@ necessary because you own the copyright to your changes, even after your
 contribution becomes part of this project. So this agreement simply gives us
 permission to use and redistribute your contributions as part of the project.
 
-Note: Your contributions are verified using the email address for which you
-use to sign the CLA. Therefore, 
+Note: Your contributions are verified using the email address for which you use
+to sign the CLA. Therefore,
 [setting your GitHub account to private](https://help.github.com/en/articles/setting-your-commit-email-address)
-is unsupported because all commits from private accounts are sent from the `noreply` 
-email address.
+is unsupported because all commits from private accounts are sent from the
+`noreply` email address.
 
 ## Design documents
 
-Any substantial design deserves a design document ([template](https://docs.google.com/document/d/1s6IIU98bi5FlRNmmBaLAn1rgoleK_ovcL746L7NHq0c/edit)). Design documents are written
-with Google Docs and should be shared with the community by adding the doc to
-our
+Any substantial design deserves a design document
+([template](https://docs.google.com/document/d/1s6IIU98bi5FlRNmmBaLAn1rgoleK_ovcL746L7NHq0c/edit)).
+Design documents are written with Google Docs and should be shared with the
+community by adding the doc to our
 [Team Drive](https://drive.google.com/corp/drive/folders/0APnJ_hRs30R2Uk9PVA)
 and sending an email to the appropriate working group's mailing list to let
 people know the doc is there. To get write access to the drive, you'll need to
@@ -84,12 +85,14 @@ later join knative-dev if you want immediate access).
 ## Contributing documentation
 
 For more information about contributing to the Knative documentation, see
-[DOCS-CONTRIBUTING.md](./docs/DOCS-CONTRIBUTING.md). A lot of the information on this
-page still applies, but you'll find the specifics about the docs process there.
+[DOCS-CONTRIBUTING.md](./docs/DOCS-CONTRIBUTING.md). A lot of the information on
+this page still applies, but you'll find the specifics about the docs process
+there.
 
 ## Contributing a feature
 
-The process for adding features to Knative can be found [here](./mechanics/FEATURE-TRACKS.md).
+The process for adding features to Knative can be found
+[here](./mechanics/FEATURE-TRACKS.md).
 
 ## Setting up to contribute to Knative
 
