@@ -52,10 +52,9 @@ other WGs to review and approve impacting changes.
    file.
 
 1. Set up
-   [test-infra](https://github.com/knative/test-infra/blob/master/guides/prow_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge)
-   using the automation, which probably involves updating
-   `config/prow/config_knative.yaml` and then running
-   `./hack/generate-configs.sh`
+   [test-infra using the automation](https://github.com/knative/test-infra/blob/master/guides/prow_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge)
+   , which probably involves updating `config/prow/config_knative.yaml` and then
+   running `./hack/generate-configs.sh`
 
 1. (Requires org or repo admin) Set up the "Settings" on the repo as follows:
 
