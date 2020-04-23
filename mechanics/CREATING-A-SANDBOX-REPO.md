@@ -57,7 +57,7 @@ other WGs to review and approve impacting changes.
    `config/prow/config_knative.yaml` and then running
    `./hack/generate-configs.sh`
 
-1. Set up the "Settings" on the repo as follows:
+1. (Requires org or repo admin) Set up the "Settings" on the repo as follows:
 
    - Disable "wiki"
    - Set merge to only support squash merging
