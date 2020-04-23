@@ -106,7 +106,7 @@ the [TOC Election Charter].
 | Nghia Tran | Google | [@tcnghia](https://github.com/tcnghia) |
 | Roland Huss | Red Hat | [@rhuss](https://github.com/rhuss) |
 
-[Knative Techincal Oversight Committee]: https://github.com/knative/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md
+[Knative Technical Oversight Committee]: https://github.com/knative/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md
 [TOC Election Charter]: ../../mechanics/TOC.md
 
 [limiting corporate campaigning]: https://github.com/kubernetes/steering/blob/master/elections.md#limiting-corporate-campaigning
