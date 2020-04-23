@@ -86,17 +86,17 @@ the KSC will, from time to time, consider if this policy should be changed.
 The current membership of the committee is currently (listed alphabetically by
 first name):
 
-| &nbsp;                                                    | Member           | Organization | Profile                                    |
-| --------------------------------------------------------- | ---------------- | ------------ | ------------------------------------------ |
-| <img width="30px" src="https://github.com/bsnchan.png">   | Brenda Chan      | VMware       | [@bsnchan](https://github.com/bsnchan)     |
-| <img width="30px" src="https://github.com/mbehrendt.png"> | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt) |
-| <img width="30px" src="https://github.com/pmorie.png">    | Paul Morie       | Red Hat      | [@pmorie](https://github.com/pmorie)       |
-| <img width="30px" src="https://github.com/rgregg.png">    | Ryan Gregg       | Google       | [@rgregg](https://github.com/rgregg)       |
-| <img width="30px" src="https://github.com/isdal.png">     | Tomas Isdal      | Google       | [@isdal](https://github.com/isdal)         |
-|                                                           | Open \*          | Google       |                                            |
-|                                                           | Open \*          | Google       |                                            |
+| &nbsp;                                                     | Member           | Organization | Profile                                      |
+| ---------------------------------------------------------- | ---------------- | ------------ | -------------------------------------------- |
+| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi      | Google       | [@thisisnotapril](https://github.com/thisisnotapril) |
+| <img width="30px" src="https://github.com/bsnchan.png">    | Brenda Chan      | VMware       | [@bsnchan](https://github.com/bsnchan)       |
+| <img width="30px" src="https://github.com/mbehrendt.png">  | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt)   |
+| <img width="30px" src="https://github.com/pmorie.png">     | Paul Morie       | Red Hat      | [@pmorie](https://github.com/pmorie)         |
+| <img width="30px" src="https://github.com/rgregg.png">     | Ryan Gregg       | Google       | [@rgregg](https://github.com/rgregg)         |
+| <img width="30px" src="https://github.com/isdal.png">      | Tomas Isdal      | Google       | [@isdal](https://github.com/isdal)           |
+|  | Open \*      | Google       |  |
 
-- Open seats have been allocated to the organization per the committee rules,
+\* Open seats have been allocated to the organization per the committee rules,
   but have not been assigned to a member of the organization.
 
 ### Allocation of seats
