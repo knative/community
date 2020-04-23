@@ -9,14 +9,14 @@ type: "docs"
 
 ## Purpose
 
-The role of this election is to fill out the three (3) seats due for election this year on the [Knative Tecnical Oversight Committee]. Each elected
+The role of this election is to fill out the three (3) seats due for election this year on the [Knative Technical Oversight Committee]. Each elected
 member will serve a two (2) year term.
 
 ## Background
 
 This election will shape the future of Knative as a community and project.
 While WGs help shape the individual direction of the project, the
-[TOC Charter] covers the technical direection, health of the project
+[TOC Charter] covers the technical direction, health of the project
 and community as a whole.
 
 ## Eligibility
