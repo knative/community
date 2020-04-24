@@ -31,6 +31,7 @@ The eligible voter process can be found in the [TOC election mechanics](../../me
 - aslom
 - bbrowning
 - beemarie
+- bsnchan
 - capri-xiyue
 - cardil
 - chaodaiG
@@ -57,6 +58,7 @@ The eligible voter process can be found in the [TOC election mechanics](../../me
 - houshengbo
 - ian-mi
 - igsong
+- isdal
 - itsmurugappan
 - jchesterpivotal
 - jcrossley3
@@ -75,6 +77,7 @@ The eligible voter process can be found in the [TOC election mechanics](../../me
 - mattmoor
 - matzew
 - maximilien
+- mbehrendt
 - mdemirhan
 - mgencur
 - MIBc
@@ -110,6 +113,7 @@ The eligible voter process can be found in the [TOC election mechanics](../../me
 - tanzeeb
 - taragu
 - tcnghia
+- thisisnotapril
 - toVersus
 - TrevorFarrelly
 - trshafer
