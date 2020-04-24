@@ -47,7 +47,6 @@ The eligible voter process can be found in the [TOC election mechanics](../../me
 - dushyanthsc
 - ericlem
 - evankanderson
-- Fredy-Z
 - garron
 - grac3gao
 - grantr
