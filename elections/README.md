@@ -31,7 +31,7 @@ This document outlines how to conduct a Knative Technical Oversight Committee el
     * Use [CIVS](http://civs.cs.cornell.edu/civs_create.html) to create the election, which CIVS calls a poll. Once you send out the ballots you cannot UNSEND the emails, ensure everything in the form is correct!
     * Name of the poll - Knative TOC Election for $YEAR”
     * Name of supervisor - “Knative Steering Committee”
-    * Email - election@knative.team
+    * Email - elections@knative.team
     * Date and Time: Write in the date and time the election will stop. This field is not programmatic, the election is stopped by hand, so you can write this in plain text
     * Description: Use the following text, modify it for either 3 or 2 positions, depending on the amount of open seats:
 
@@ -44,7 +44,7 @@ This document outlines how to conduct a Knative Technical Oversight Committee el
         * Enable detailed ballot reporting
         * Allow voters to select “no opinion” for some choices
         * Enforce proportional representation
-    * Click create poll, this will send election@knative.team an email with instructions
+    * Click create poll, this will send elections@knative.team an email with instructions
     * It will send you a link to “Poll Control”, bookmark this generated page as this is where you will add voters and also resend ballots to people if their ballot gets lost or filtered
     * This page is where the “Start Poll” and “Stop Poll” buttons are, start the poll
     * WARNING: This is the point of no return:
