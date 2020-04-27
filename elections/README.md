@@ -42,8 +42,10 @@ This document outlines how to conduct a Knative Technical Oversight Committee el
     * More options, check the boxes for:
         * Do not release results to all voters
         * Enable detailed ballot reporting
+          * Leave unchecked "reveal the identity of the voter"
         * Allow voters to select “no opinion” for some choices
         * Enforce proportional representation
+          * Select "rank of their favorite choice"
     * Click create poll, this will send elections@knative.team an email with instructions
     * It will send you a link to “Poll Control”, bookmark this generated page as this is where you will add voters and also resend ballots to people if their ballot gets lost or filtered
     * This page is where the “Start Poll” and “Stop Poll” buttons are, start the poll
