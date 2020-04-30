@@ -55,7 +55,7 @@ The current working groups are:
 - [Client](#client)
 - [Documentation](#documentation)
 - [Eventing](#eventing)
-- [Eventing Channels](#eventing-channels)
+- [Event Delivery](#event-delivery)
 - [Eventing Sources](#eventing-sources)
 - [Networking](#networking)
 - [Observability](#observability)
@@ -142,9 +142,9 @@ Event sources, bindings, FaaS framework, and orchestration
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM  | [lionelvillard](https://github.com/lionelvillard) |
 | <img width="30px" src="https://github.com/grantr.png"> | Grant Rodgers | Google  | [grantr](https://github.com/grantr) |
 
-## Eventing Channels
+## Event Delivery
 
-Event delivery and Channel conformance.
+Event delivery data plane.
 
 | Artifact                   | Link                                                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
