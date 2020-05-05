@@ -175,7 +175,7 @@ Yes. We will publish a table similar to below once we have agreement on the
 principles so that users can easily determine versions and endpoints available
 for a given release.
 
-## Knative Serving Version Table
+## Knative Version Tables
 
 Storage Type = The type that is stored in etcd by the Kubernetes API Server
 
@@ -183,7 +183,7 @@ API Endpoints = The rest endpoints that are made available to clients
 
 API Types = The API types that the endpoint understands
 
-Lemonade = v1alpha1 + v1beta1 super-set type
+Lemonade = v1alpha1 + v1beta1 super-set type (Serving only)
 
 Force Upgrade = Automatically convert v1alpha1 to v1beta1 syntax via Lemonade
 
@@ -196,6 +196,8 @@ Availability =
 
 **Note**: subject to change based on verification of (knative, kube) version
 tuple
+
+### Knative Serving Version Table
 
 <table>
   <tr>
@@ -838,11 +840,7 @@ tuple
   </tr>
 </table>
 
-## Knative Eventing Version Tables
-
-Note: plumbing eventing into this doc is a WIP
-
-### Messaging:
+### Knative Eventing Version Table
 
 <table>
   <tr>
@@ -866,13 +864,41 @@ Note: plumbing eventing into this doc is a WIP
    </td>
   </tr>
   <tr>
+   <td rowspan="2" >0.20.x
+   </td>
+   <td rowspan="2" >2020-12-22
+   </td>
+   <td rowspan="2" >2021-06-08
+   </td>
+   <td rowspan="2" >1.19.x
+   </td>
+   <td rowspan="2" >v1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td><strong>removed</strong>
+   </td>
+  </tr>
+  <tr>
    <td rowspan="2" >0.19.x
    </td>
    <td rowspan="2" >2020-09-29
    </td>
    <td rowspan="2" >2021-03-16
    </td>
-   <td rowspan="2" >1.1?.x
+   <td rowspan="2" >1.19.x
    </td>
    <td rowspan="2" >v1
    </td>
@@ -900,7 +926,7 @@ Note: plumbing eventing into this doc is a WIP
    </td>
    <td rowspan="3" >2021-02-02
    </td>
-   <td rowspan="3" >1.1?.x
+   <td rowspan="3" >1.19.x
    </td>
    <td rowspan="3" >v1
    </td>
@@ -1002,7 +1028,7 @@ Note: plumbing eventing into this doc is a WIP
    </td>
    <td rowspan="2" >1.16.x
    </td>
-   <td rowspan="2" >v1beta1
+   <td rowspan="2" >v1alpha1
    </td>
    <td rowspan="2" >N/A
    </td>
@@ -1050,15 +1076,3 @@ Note: plumbing eventing into this doc is a WIP
    </td>
   </tr>
 </table>
-
-### Eventing:
-
-TODO (see https://github.com/knative/eventing/issues/3006)
-
-### Flows:
-
-TODO
-
-### Sources:
-
-TODO
