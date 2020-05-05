@@ -890,7 +890,7 @@ tuple
    </td>
    <td><strong>removed</strong>
    </td>
-  </tr> 
+  </tr>
   <tr>
    <td rowspan="2" >0.19.x
    </td>
