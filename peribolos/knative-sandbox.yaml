@@ -1,7 +1,7 @@
 orgs:
   knative-sandbox:
     name: Knative Sandbox
-    description: Sandbox for projects that are port of the broader knative project
+    description: Sandbox for projects that are part of the broader knative project
     email: knative-admins@googlegroups.com
     has_organization_projects: true
     has_repository_projects: true
@@ -9,7 +9,6 @@ orgs:
     default_repository_permission: read
     admins:
     - bsnchan
-    - eallred-google
     - evankanderson
     - google-admin
     - googlebot
@@ -115,6 +114,7 @@ orgs:
     - davidor
     - davidwallen
     - DavidWells
+    - davyodom
     - dbbaskette
     - dbcode
     - ddragosd
@@ -341,6 +341,7 @@ orgs:
     - peterfeifanchen
     - petergtz
     - phae
+    - phamilton
     - piotrmsc
     - PK85
     - pkosiec
@@ -435,6 +436,7 @@ orgs:
     - tmatsuo
     - tomwalter
     - topherbullock
+    - travis-minke-sap
     - tricky42
     - trisberg
     - TristonianJones
@@ -482,14 +484,8 @@ orgs:
     - zrss
     - zsxking
     repos:
-      operator:
-        description: Combined operator for Knative.
-        has_projects: true
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        has_wiki: false
-      eventing-rabbitmq:
-        description: RabbitMQ eventing components. Knative Source and Broker.
+      build-spike:
+        description: Empty repo for testing external build integration with `kn`.
         has_projects: true
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -500,8 +496,14 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         has_wiki: false
-      build-spike:
-        description: Empty repo for testing external build integration with `kn`.
+      eventing-rabbitmq:
+        description: RabbitMQ eventing components. Knative Source and Broker.
+        has_projects: true
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        has_wiki: false
+      operator:
+        description: Combined operator for Knative.
         has_projects: true
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -531,8 +533,8 @@ orgs:
           eventing-rabbitmq: write
           eventing-kafka: write
         teams:
-          Channel WG Leads:
-            description: The Working Group leads for Channels
+          Delivery WG Leads:
+            description: The Working Group leads for Event Delivery
             members:
             - matzew
             - Harwayne
@@ -584,7 +586,6 @@ orgs:
         - mattmoor
         - evankanderson
         - vaikas
-        - eallred-google
         members:
         - grantr
         - mikehelmick
