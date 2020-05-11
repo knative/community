@@ -1,0 +1,655 @@
+orgs:
+  knative-sandbox:
+    name: Knative Sandbox
+    description: Sandbox for projects that are port of the broader knative project
+    email: knative-admins@googlegroups.com
+    has_organization_projects: true
+    has_repository_projects: true
+    members_can_create_repositories: false
+    default_repository_permission: read
+    admins:
+    - bsnchan
+    - eallred-google
+    - evankanderson
+    - google-admin
+    - googlebot
+    - isdal
+    - mattmoor
+    - mbehrendt
+    - pmorie
+    - vaikas
+    members:
+    - a-thaler
+    - aaron-prindle
+    - aaronmeza
+    - abayer
+    - Abd4llA
+    - abrennan89
+    - ac360
+    - AceHack
+    - adrcunha
+    - aharren
+    - ahgharaibeh
+    - ahmetb
+    - akashrv
+    - akerekes
+    - akrausesap
+    - akyyy
+    - alanfx
+    - albertomilan
+    - alculquicondor
+    - alexdebrie
+    - alexellis
+    - aliok
+    - AlyssaDaemon
+    - amkapoor
+    - amshuman-kr
+    - andrew-su
+    - angelachin
+    - anishj0shi
+    - ankushchadha
+    - anniefu
+    - antoineco
+    - apolito
+    - arapulido
+    - ariel-bentu
+    - aryann
+    - asaksena
+    - asciimike
+    - askmeegs
+    - aslakknutsen
+    - aslom
+    - asyoussef
+    - atmandhol
+    - averikitsch
+    - ayj
+    - balopat
+    - bbrowning
+    - bcle
+    - bendory
+    - Benjamintf1
+    - BenTheElder
+    - biilmann
+    - bikramnehra
+    - billimek
+    - bkrannich
+    - bleggett
+    - bobcatfish
+    - bobmcwhirter
+    - bparees
+    - bprosnitz
+    - bradhoekstra
+    - brendandburns
+    - brendandobbs
+    - bretmcg
+    - briandorsey
+    - BrianMMcClain
+    - brianneisler
+    - broady
+    - bstick12
+    - bszwej
+    - btardell
+    - bwmcadams
+    - calavera
+    - capri-xiyue
+    - carieshmarie
+    - cbickel
+    - cgwy
+    - chaodaiG
+    - chenopis
+    - chetanmeh
+    - chizhg
+    - christophersanson
+    - cjwagner
+    - cloudrobx
+    - cooperneil
+    - coryrc
+    - cppforlife
+    - craigbox
+    - csantanapr
+    - cscheiber
+    - Cynocracy
+    - daisy-ycguo
+    - Dannyzen
+    - davetropeano
+    - davidor
+    - davidwallen
+    - DavidWells
+    - dbbaskette
+    - dbcode
+    - ddragosd
+    - ddutta
+    - deissnerk
+    - demeyer1
+    - depotjoe
+    - derberg
+    - devsatishm
+    - dewitt
+    - dgageot
+    - dgerd
+    - dgodd
+    - dgpc
+    - dgrove-oss
+    - dieucao
+    - dlorenc
+    - dosire
+    - dprotaso
+    - droot
+    - dsimansk
+    - dturanski
+    - dubwoc
+    - duglin
+    - dushyanthsc
+    - dussab
+    - dwnusbaum
+    - efiturri
+    - ehankland
+    - ekcasey
+    - eldada
+    - ellenevans
+    - elvido
+    - emalm
+    - emanor
+    - eobrain
+    - erain
+    - ericbottard
+    - ericlem
+    - ericstoekl
+    - erjohnso
+    - erniebilling
+    - evanchooly
+    - evilyeti
+    - fabolive
+    - fejta
+    - fichtert
+    - fj
+    - flavorjones
+    - fmui
+    - freddy33
+    - frnksgr
+    - g-abbi
+    - gabrtv
+    - ganeshvlrk
+    - garron
+    - georgeharley
+    - Gerg
+    - glaforge
+    - glickbot
+    - glyn
+    - goldphish
+    - google-prow-robot
+    - gopikannappan
+    - gorkem
+    - gottskalk
+    - grac3gao
+    - grantr
+    - grayside
+    - greghaynes
+    - grodrigues3
+    - gsathy
+    - gsiener
+    - gyliu513
+    - halvards
+    - hardl
+    - Harwayne
+    - hatofmonkeys
+    - Henrike42
+    - hev
+    - hisarbalik
+    - holgerkoser
+    - houshengbo
+    - ian-mi
+    - ib-steffen
+    - idoru
+    - igorbelianski
+    - igorpeshansky
+    - iliyan-nenov
+    - imikushin
+    - ImJasonH
+    - inlined
+    - itsmurugappan
+    - ixdy
+    - jacindamein
+    - jainishshah17
+    - jama22
+    - janmedrek
+    - jasonkeene
+    - jasonpolites
+    - jchesterpivotal
+    - jcrossley3
+    - jeff-hobbs
+    - jenshuesken
+    - jeremiaswerner
+    - jeremyeder
+    - jeremyrickard
+    - jessiezcc
+    - jfmyers9
+    - jihuin
+    - jimcurtis
+    - jinglundong
+    - jjzeng-seattle
+    - jkjell
+    - jldec
+    - jmprusi
+    - joaedwar
+    - joek
+    - johnalowry
+    - johnmccabe
+    - johnugeorge
+    - jonatasbaldin
+    - jonjohnsonjr
+    - josephburnett
+    - joshlong
+    - joshrider
+    - josueetcom
+    - JRBANCEL
+    - jsanda
+    - jskeet
+    - jszroberto
+    - julz
+    - justinjsmith
+    - jzelinskie
+    - k4leung4
+    - k8s-ci-robot
+    - KarolinaNetolicka
+    - kelseyhightower
+    - kevball
+    - kimikowang
+    - kimsterv
+    - kitmerker-jfrog
+    - kmerrill27
+    - knative-metrics-robot
+    - knative-prow-releaser-robot
+    - knative-prow-robot
+    - knative-test-reporter-robot
+    - komestmus
+    - krancour
+    - krumts
+    - krzyzacy
+    - labadav
+    - lachie83
+    - lambertjosh
+    - lance
+    - lberk
+    - LED2001
+    - lesv
+    - lewtucker
+    - lichuqiang
+    - lindydonna
+    - lionelvillard
+    - liu-cong
+    - loewenstein
+    - loganlee
+    - lynxbat
+    - maciej-kisiel
+    - macruzbar
+    - mariusd7
+    - markfisher
+    - markito
+    - MarkKropf
+    - markusthoemmes
+    - mattsoldo
+    - matzew
+    - max
+    - maximilien
+    - MaxRossGoogle
+    - mayaspivak
+    - mcdan
+    - mdemirhan
+    - mfine30
+    - mgencur
+    - michaelawyu
+    - michaelmarth
+    - MichaelWintergerst
+    - mikehelmick
+    - minsungh
+    - mkocher
+    - mogar1980
+    - monikanawrot
+    - MontyCarter
+    - mpetason
+    - mrmcmuffinz
+    - mrsabath
+    - mszostok
+    - mthenw
+    - mvladev
+    - MylesBorins
+    - n3wscott
+    - nachocano
+    - nader-ziada
+    - nak3
+    - nbarthwal
+    - neosab
+    - nibalizer
+    - nicolaferraro
+    - nilesh32
+    - nimakaviani
+    - nimbcode
+    - nlopezgi
+    - nomisbeme
+    - normalnorman
+    - nvvalchev
+    - nwjmunro
+    - oalami
+    - ormos
+    - osis
+    - patflynn
+    - paulrossman
+    - PavelPavlov46
+    - pbochynski
+    - petereberlein
+    - peterfeifanchen
+    - petergtz
+    - phae
+    - piotrmsc
+    - PK85
+    - pkosiec
+    - pnagpur
+    - pradeepto
+    - pritianka
+    - priyawadhwa
+    - prydonius
+    - PTDelaney
+    - qingling128
+    - rachelmyers
+    - radufa
+    - RaeesBhatti
+    - rafaeltello
+    - rakesh-garimella
+    - rakyll
+    - RamXX
+    - rbuskens
+    - rettori
+    - rfranzke
+    - rhuss
+    - RichieEscarez
+    - richterdavid
+    - ridruejo
+    - rmoe
+    - rmorgan
+    - rohitagarwalla
+    - roopakparikh
+    - rootfs
+    - rosenhouse
+    - rprakashg
+    - rseroter
+    - rusde
+    - rwetzold-sap
+    - ryanstewart
+    - rybit
+    - samodell
+    - saturnism
+    - savitaashture
+    - sbezverk
+    - sclevine
+    - scothis
+    - sebgoa
+    - shalako
+    - shashankmjain
+    - shashwathi
+    - shefaliv
+    - shinji62
+    - shrajfr12
+    - shreejad
+    - sixolet
+    - sjug
+    - skim1420
+    - slinkydeveloper
+    - slwilliams
+    - smarterclayton
+    - smoser-ibm
+    - squee1945
+    - sreetummidi
+    - srinivashegde86
+    - srvaroa
+    - ssisil
+    - sslavic
+    - ssmall
+    - sspeiche
+    - st3v
+    - stefanprodan
+    - stephanme
+    - steren
+    - steuhs
+    - stevekuznetsov
+    - stew-r
+    - sukhil-suresh
+    - SurferJeffAtGoogle
+    - swalkowski
+    - syedriko
+    - tanner-bruce
+    - tanzeeb
+    - taragu
+    - tardieu
+    - tcnghia
+    - teich
+    - tejal29
+    - tekgrrl
+    - tequilarista
+    - thansmann
+    - thisisnotapril
+    - thockin
+    - thoraxe
+    - timothyshelton
+    - tliberman
+    - tmatsuo
+    - tomwalter
+    - topherbullock
+    - tricky42
+    - trisberg
+    - TristonianJones
+    - troytop
+    - trshafer
+    - tsandall
+    - tysonnorris
+    - tzununbekov
+    - univ0298
+    - urasoko
+    - uwefassnacht
+    - vagababov
+    - vaikas-personal
+    - vantuvt
+    - vasu1124
+    - vbatts
+    - vdemeester
+    - venkatnsrinivasan
+    - vito
+    - vlerenc
+    - vsubramani
+    - vvraskin
+    - wattsteve
+    - wbacon10
+    - wfernandes
+    - whaught
+    - wlynch
+    - wslyln
+    - wxb5639
+    - xoebus
+    - xtreme-sina
+    - xtremerui
+    - yanweiguo
+    - yaron2
+    - yoav
+    - yolocs
+    - yt3liu
+    - yuyantingzero
+    - zargarpur
+    - zhanggbj
+    - ZhiminXiang
+    - zhruan
+    - zouyee
+    - zrob
+    - zrss
+    - zsxking
+    repos:
+      operator:
+        description: Combined operator for Knative.
+        has_projects: true
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        has_wiki: false
+      eventing-rabbitmq:
+        description: RabbitMQ eventing components. Knative Source and Broker.
+        has_projects: true
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        has_wiki: false
+      eventing-kafka:
+        description: Kafka integrations with Knative Eventing.
+        has_projects: true
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        has_wiki: false
+      build-spike:
+        description: Empty repo for testing external build integration with `kn`.
+        has_projects: true
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        has_wiki: false
+    teams:
+      Client Writers:
+        description: Grants write access to client-related repositories.
+        repos:
+          build-spike: write
+        teams:
+          Client WG Leads:
+            description: The Working Group Leads for Client
+            members:
+            - rhuss
+            - sixolet
+      Docs Writers:
+        description: Grants write access to docs-related repositories.
+        repos: {}
+        teams:
+          Docs WG Leads:
+            description: The Working Group leads for Docs
+            members:
+            - samodell
+      Eventing Writers:
+        description: Grants write access to eventing-related repositories.
+        repos:
+          eventing-rabbitmq: write
+          eventing-kafka: write
+        teams:
+          Channel WG Leads:
+            description: The Working Group leads for Channels
+            members:
+            - matzew
+            - Harwayne
+          Eventing WG Leads:
+            description: The Working Group leads for Eventing
+            members:
+            - grantr
+            - lionelvillard
+            - vaikas
+          Source WG Leads:
+            description: The Working Group leads for Sources
+            members:
+            - nachocano
+            - lionelvillard
+            - n3wscott
+            - vaikas
+      Knative Admin:
+        description: Individuals in the project who are responsible for billing and general
+          project administration.
+        repos:
+          operator: admin
+          eventing-rabbitmq: admin
+          eventing-kafka: admin
+          build-spike: admin
+        teams:
+          Knative Robots:
+            description: Contains robots and only robots.
+            members:
+            - knative-prow-robot
+            - knative-prow-releaser-robot
+            - knative-test-reporter-robot
+          Steering Committee:
+            description: ""
+            maintainers:
+            - isdal
+            - pmorie
+            - bsnchan
+            - mbehrendt
+          Technical Oversight Committee:
+            description: Members of the Knative Technical Oversight Committee (TOC)
+            maintainers:
+            - mattmoor
+            - evankanderson
+            - vaikas
+      Knative Milestone Maintainers:
+        description: 'DO NOT RENAME - this group is used by Prow to control who can manipulate
+          milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
+        maintainers:
+        - mattmoor
+        - evankanderson
+        - vaikas
+        - eallred-google
+        members:
+        - grantr
+        - mikehelmick
+        - rhuss
+        - tcnghia
+        - cppforlife
+        - ImJasonH
+        - Harwayne
+        - vagababov
+        - dwnusbaum
+        - csantanapr
+        - josephburnett
+        - markusthoemmes
+        - sixolet
+        - aslom
+        - mdemirhan
+        - lindydonna
+        - k4leung4
+        - jessiezcc
+        - dgerd
+        - chaodaiG
+        - akashrv
+      Observability Writers:
+        description: Grants write access to observability-related repositories.
+        repos: {}
+        teams:
+          Observability WG Leads:
+            description: The Working Group leads for Observability
+            members:
+            - mdemirhan
+      Operations Writers:
+        description: Grants write access to operations-related repositories.
+        repos:
+          operator: write
+        teams:
+          Operations WG Leads:
+            description: The Working Group leads for Operations
+            members:
+            - houshengbo
+      Productivity Writers:
+        description: Grants write access to productivity-related repositories.
+        repos: {}
+        teams:
+          Productivity WG Leads:
+            description: The Working Group leads for Productivity
+            members:
+            - chizhg
+            - chaodaiG
+      Serving Writers:
+        description: Grants write access to serving-related repositories.
+        repos: {}
+        teams:
+          API Core WG Leads:
+            description: The Working Group leads for Serving API Core
+            members:
+            - dprotaso
+            - mattmoor
+          Autoscaling WG Leads:
+            description: The Working Group leads for Autoscaling
+            members:
+            - vagababov
+            - markusthoemmes
+          Networking WG Leads:
+            description: The Working Group leads for Networking
+            members:
+            - tcnghia
+            - mdemirhan
+    
