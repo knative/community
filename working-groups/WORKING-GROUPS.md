@@ -153,7 +153,7 @@ Event delivery data plane.
 | Community Meeting Calendar | Thursdays at 8:00a-8:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com)                         |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1uxlulaAf2m_yZUqCIeI-inul2gsqP69PElnZdO0FHUo/edit#)                                                           |
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1gQymVBlLsQxknScnn1x5wUT5OBBNj5P3)                                                                   |
-| Slack Channel              | [#eventing-channels](https://slack.knative.dev/messages/eventing-channels)                                                                                |
+| Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                               |
 
 | &nbsp;                                                        | Leads                | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------------- | ------- | ------------------------------------------------- |
