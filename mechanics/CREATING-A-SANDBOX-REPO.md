@@ -53,8 +53,8 @@ other WGs to review and approve impacting changes.
 
 1. Set up
    [test-infra using the automation](https://github.com/knative/test-infra/blob/master/guides/prow_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge)
-   , which probably involves updating `config/prow/config_knative.yaml` and then
-   running `./hack/generate-configs.sh`
+   , which probably involves updating `config/prod/prow/config_knative.yaml` and
+   then running `./hack/generate-configs.sh`
 
 1. (Requires org or repo admin) Set up the "Settings" on the repo as follows:
 
@@ -63,8 +63,17 @@ other WGs to review and approve impacting changes.
    - Under "Manage Access":
      - set "@knative-admin" group as "Admin" role
      - set "\${WG}-writers" group as "Write" role
+
+1. Ensure that Prow is working correctly by creating a PR against the repo.
+   One good way to do this is to add a
+   [`CODE-OF-CONDUCT.md`](https://github.com/knative/community/blob/master/CODE-OF-CONDUCT.md)
+   copied from the [`knative/community`](https://github.com/knative/community)
+   repo.
+
+1. Once at least one PR has been created, you'll be able to select the branch
+   protection checks which are required in the "Settings" > "Branches" branch
+   protection rule:
+
    - Under "Branches" add a branch protection rule for `master`:
      - Require status checks to pass (except `...-go-coverage` checks)
      - Include administrators
-
-1. Ensure that Prow is working correctly by creating a PR against the repo.
