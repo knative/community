@@ -185,7 +185,6 @@ orgs:
     - gorkem
     - gottskalk
     - grac3gao
-    - grantr
     - grayside
     - greghaynes
     - grodrigues3
@@ -290,7 +289,6 @@ orgs:
     - markfisher
     - markito
     - MarkKropf
-    - markusthoemmes
     - mattsoldo
     - matzew
     - max
@@ -425,7 +423,6 @@ orgs:
     - tanzeeb
     - taragu
     - tardieu
-    - tcnghia
     - teich
     - tejal29
     - tekgrrl
@@ -505,12 +502,6 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         has_wiki: false
-      operator:
-        description: Combined operator for Knative.
-        has_projects: true
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        has_wiki: false
     teams:
       Client Writers:
         description: Grants write access to client-related repositories.
@@ -558,7 +549,6 @@ orgs:
         description: Individuals in the project who are responsible for billing and general
           project administration.
         repos:
-          operator: admin
           eventing-rabbitmq: admin
           eventing-kafka: admin
           build-spike: admin
@@ -624,8 +614,7 @@ orgs:
             - mdemirhan
       Operations Writers:
         description: Grants write access to operations-related repositories.
-        repos:
-          operator: write
+        repos: {}
         teams:
           Operations WG Leads:
             description: The Working Group leads for Operations
