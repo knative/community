@@ -12,11 +12,14 @@ orgs:
     - evankanderson
     - google-admin
     - googlebot
+    - grantr
     - isdal
     - mattmoor
+    - markusthoemmes
     - mbehrendt
     - pmorie
-    - vaikas
+    - tcnghia
+    - thisisnotapril
     members:
     - a-thaler
     - aaron-prindle
@@ -428,7 +431,6 @@ orgs:
     - tekgrrl
     - tequilarista
     - thansmann
-    - thisisnotapril
     - thockin
     - thoraxe
     - timothyshelton
@@ -449,6 +451,7 @@ orgs:
     - urasoko
     - uwefassnacht
     - vagababov
+    - vaikas
     - vaikas-personal
     - vantuvt
     - vasu1124
@@ -573,24 +576,28 @@ orgs:
             - pmorie
             - bsnchan
             - mbehrendt
+            - thisisnotapril
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
-            - mattmoor
             - evankanderson
-            - vaikas
+            - grantr
+            - mattmoor
+            - markusthoemmes
+            - tcnghia
       Knative Milestone Maintainers:
         description: 'DO NOT RENAME - this group is used by Prow to control who can manipulate
           milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
         maintainers:
-        - mattmoor
         - evankanderson
-        - vaikas
-        members:
         - grantr
+        - mattmoor
+        - markusthoemmes
+        - tcnghia
+        members:
+        - vaikas
         - mikehelmick
         - rhuss
-        - tcnghia
         - cppforlife
         - ImJasonH
         - Harwayne
@@ -598,7 +605,6 @@ orgs:
         - dwnusbaum
         - csantanapr
         - josephburnett
-        - markusthoemmes
         - sixolet
         - aslom
         - mdemirhan
