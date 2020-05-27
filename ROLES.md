@@ -105,7 +105,7 @@ table describes:
     <td>
         <p>Ensure important information is represented in working group notes</p>
         <p>Post WG recordings to team drive</p>
-    <td>
+    </td>
     <td>Sponsored by a working group execution or technical lead.</td>
     <td>Write permissions to team drive and team calendar</td>
     <td>Working Group</td>
