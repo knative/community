@@ -15,7 +15,7 @@ The Knative logo is made available here with the following guidelines:
  - Create a modified version of the Knative logo (except for non-commercial uses such as t-shirts and stickers)
  - Integrate the Knative logo into your logo
  - Change the Knative logo's colors
- - Use the Knative logo in such a manner as to create the impression that your product or service has been certified, vetted, or otherwise endorsed by the Knative project. 
+ - Use the Knative logo in such a manner as to create the impression that your product or service has been certified, vetted, or otherwise endorsed by the Knative project.
 
 
 If the above guidelines do not cover your potential use case, or you're just not sure; please file an issue for the Steering Committee to review. Generally, Steering is likely to approve respectful variations of the Knative logo for non-commercial physical items ("swag"), but would like to review the usage first. 
