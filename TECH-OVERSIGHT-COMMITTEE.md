@@ -93,10 +93,13 @@ during the community feedback period at the end of each meeting.
 The members of the TOC are shown below. Membership in the TOC is determined by
 the [Steering committee](./STEERING-COMMITTEE.md).
 
-| &nbsp;                                                        | Member        | Company | Profile                                            |
-| ------------------------------------------------------------- | ------------- | ------- | -------------------------------------------------- |
-| <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson | VMware  | [@evankanderson](https://github.com/evankanderson) |
-| <img width="30px" src="https://github.com/mattmoor.png">      | Matt Moore    | VMware  | [@mattmoor](https://github.com/mattmoor)           |
+| &nbsp;                                                         | Member         | Company | Profile                                              |
+| -------------------------------------------------------------- | -------------- | ------- | ---------------------------------------------------- |
+| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson  | VMware  | [@evankanderson](https://github.com/evankanderson)   |
+| <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers  | Google  | [@grantr](https://github.com/grantr)                 |
+| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) |
+| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore     | VMware  | [@mattmoor](https://github.com/mattmoor)             |
+| <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran     | Google  | [@tcnghia](https://github.com/tcnghia)               |
 
 ---
 
