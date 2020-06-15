@@ -3,6 +3,8 @@ title: "Knative working group processes and guidelines"
 linkTitle: "Working group guidelines"
 weight: 30
 type: "docs"
+aliases:
+  - /contributing/mechanics/working-group-processes/
 ---
 
 This document describes the processes we use to manage the Knative working
@@ -40,9 +42,24 @@ the number of working groups low in order to keep things manageable.
 
 ## Proposing a new working group
 
-If you’ve identified a substantial architectural area which would benefit from
-long-lived, concerted and focused design, then you should consider creating a
-new working group. To do so, you need to:
+Generally, working groups should be founded once sufficient community interest
+and discussion has occurred that there is general agreement that:
+
+1. The problem space is interesting and is worth long-term investment by Knative
+
+1. The problem is not well-covered by any of the existing chartered WGs
+
+Note that "code dumps" are unlikely to be accepted as the beginning of a working
+group, though they can be useful to start a conversation. For most topics that
+meet the bar for a new WG, it's likely that other participants in the community
+have ideas and opinions, and up-front conversations can help to focus the shape
+and scope of the solution space.
+
+The TOC and existing WGs should enable these conversations (e.g. setting up
+one-off meetings, creating slack channels, etc).  Once the community has
+identified a substantial architectural area which would benefit from long-lived,
+concerted and focused design, then you should consider creating a new working
+group. To do so, you need to:
 
 - **Create a charter**. This should be a few paragraphs explaining:
 
@@ -51,7 +68,19 @@ new working group. To do so, you need to:
   - The goals of the working group (problems being solved)
 
   - The scope of the working group (topics, subsystems, code repos, areas of
-    responsibility)
+    responsibility). Also include items which are out of scope. The TOC will be
+    looking at this to make sure that there are appropriate touch-points and
+    contracts between WGs when considering larger problems.
+
+  Here are some example charters to help indicate the expected size of the
+  document. The main things that the TOC will be looking for are:
+
+  - [Event Delivery WG](https://docs.google.com/document/d/1aMu4ezjXR8qAOSgh-Yo04MwfspVZDRVF5O095UZZlWY/edit#)
+  - [Eventing Sources WG](https://docs.google.com/document/d/1wKZKWvbY8-ERri-4B_rNSuD_AUzq7b4uAlMcVnurQcs/edit#)
+  - [Client WG](https://docs.google.com/document/d/1shxc1JIaIjWcUnUwFaiuTauqiAwLyTDn2TbWbIy_ajY/edit#)
+
+  A typical WG charter is around 3 pages using and bulleted lists for goals,
+  scope, and roadmap.
 
 - **Nominate an initial set of leads**. The leads set the agenda for the working
   group and serve as final arbiters on any technical decision. See
@@ -100,9 +129,10 @@ working group:
   these meetings between 9:00AM to 2:59PM Pacific Time. Invite the public Google
   group to the meeting.
 
-- **Register the Working Group**. Go to [WORKING-GROUPS.md](./WORKING-GROUPS.md)
-  and add your working group name, the names of the leads, the working group
-  charter, and a link to the meeting you created.
+- **Register the Working Group**. Go to
+  [WORKING-GROUPS.md](../working-groups/WORKING-GROUPS.md) and add your working
+  group name, the names of the leads, the working group charter, and a link to
+  the meeting you created.
 
 - **Announce your Working Group**. Send a note to
   [knative-dev@](mailto:knative-dev@googlegroups.com) and
@@ -132,7 +162,7 @@ representatives from multiple organizations as both leads and members. Working
 group leads must be Members of the Knative project (that is, have made multiple
 contributions to the project in the form of code, design, or documentation).
 
-Please see the [Community Roles](./ROLES.md) document for a description of a
+Please see the [Community Roles](../ROLES.md) document for a description of a
 lead’s role and requirements.
 
 ## Running a working group

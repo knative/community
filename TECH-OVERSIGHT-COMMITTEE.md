@@ -3,6 +3,8 @@ title: "Knative technical oversight committee"
 linkTitle: "Technical oversight committee"
 weight: 35
 type: "docs"
+aliases:
+  - /contributing/tech-oversight-committee/
 ---
 
 The Knative Technical Oversight Committee (TOC) is responsible for cross-cutting
@@ -54,6 +56,8 @@ product and design decisions.
 
 ## Committee Mechanics
 
+The TOC is [elected by the community](./mechanics/TOC.md).
+
 The TOC’s work includes:
 
 - Regular committee meetings to discuss hot topics, resulting in a set of
@@ -79,7 +83,7 @@ during the community feedback period at the end of each meeting.
 | Artifact                   | Link                                                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Google Group               | [knative-tech-oversight@googlegroups.com](https://groups.google.com/forum/#!forum/knative-tech-oversight)                                                |
-| Community Meeting VC       | [meet.google.com/ffc-rypd-kih](https://meet.google.com/ffc-rypd-kih) <br>or dial in:<br>(US) +1 240-630-1102 PIN: 316262#                                |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1hR5ijJQjz65QkLrgEhWjv3Q86tWVxYj_9xdhQ6Y5D8Q/edit#heading=h.g47ptr8u5cov)          |
 | Community Meeting Calendar | Thursdays at 11:30a-12p <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1hR5ijJQjz65QkLrgEhWjv3Q86tWVxYj_9xdhQ6Y5D8Q/edit#heading=h.g47ptr8u5cov)                                     |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1_OHttsYLCVtX202aXNmJJrAHJ7BaXcu6)                                                                       |
@@ -89,11 +93,13 @@ during the community feedback period at the end of each meeting.
 The members of the TOC are shown below. Membership in the TOC is determined by
 the [Steering committee](./STEERING-COMMITTEE.md).
 
-| &nbsp;                                                        | Member        | Company | Profile                                            |
-| ------------------------------------------------------------- | ------------- | ------- | -------------------------------------------------- |
-| <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson | Google  | [@evankanderson](https://github.com/evankanderson) |
-| <img width="30px" src="https://github.com/mattmoor.png">      | Matt Moore    | Google  | [@mattmoor](https://github.com/mattmoor)           |
-| <img width="30px" src="https://github.com/vaikas-google.png"> | Ville Aikas   | Google  | [@vaikas-google](https://github.com/vaikas-google) |
+| &nbsp;                                                         | Member         | Company | Profile                                              |
+| -------------------------------------------------------------- | -------------- | ------- | ---------------------------------------------------- |
+| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson  | VMware  | [@evankanderson](https://github.com/evankanderson)   |
+| <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers  | Google  | [@grantr](https://github.com/grantr)                 |
+| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) |
+| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore     | VMware  | [@mattmoor](https://github.com/mattmoor)             |
+| <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran     | Google  | [@tcnghia](https://github.com/tcnghia)               |
 
 ---
 

@@ -95,7 +95,7 @@ We want Knative working groups to be able to own code outside the core `knative`
 organization, which is kept intentionally small and has a high bar for entry.
 The `knative-sandbox` github organization was created for this purpose.
 Repositories in `knative-sandbox` are intended to give working groups more
-lattitude to experiment with new ideas and to self-organize and manage
+latitude to experiment with new ideas and to self-organize and manage
 contributions which may be important to the project but which do not need the
 level of governance of the core project.
 

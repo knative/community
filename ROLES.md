@@ -3,6 +3,8 @@ title: "Knative community roles"
 linkTitle: "Community roles"
 weight: 55
 type: "docs"
+aliases:
+  - /contributing/roles/
 ---
 
 This document describes the set of roles individuals might have within the
@@ -10,11 +12,13 @@ Knative community, the requirements of each role, and the privileges that each
 role grants.
 
 - [Role Summary](#role-summary)
-- [Collaborator](#collaborator)
 - [Member](#member)
 - [Approver](#approver)
-- [Lead](#lead)
-- [Administrator](#administrator)
+- [Working Group Technical Lead](#working-group-technical-lead)
+- [Working Group Execution Lead](#working-group-execution-lead)
+- [Scribe](#scribe)
+
+See also [notes](#notes) on roles.
 
 ## Role Summary
 
@@ -37,27 +41,15 @@ table describes:
   </thead>
 
   <tr>
-    <td>Collaborator</td>
-    <td>Casual contributor to the project</td>
-    <td>Join [knative-users@](https://groups.google.com/forum/#!forum/knative-users) to get access to the team drive.</td>
-    <td>
-        <p>Can submit PRs</p>
-        <p>Commenting permission on the Knative Team drive</p>
-    </td>
-    <td>GitHub Organization</td>
-  </tr>
-
-  <tr>
     <td>Member</td>
     <td>Regular active contributor in the community</td>
     <td>
-        <p>Sponsored by two members</p>
         <p>Has made multiple contributions to the project</p>
     </td>
     <td>
         <p>Member of the GitHub Knative org</p>
         <p>Member of the Knative Slack workspace</p>
-        <p>Edit permission on the Knative Team drive</p>
+        <p>Edit access to team drive</p>
     </td>
     <td>GitHub Organization</td>
   </tr>
@@ -69,59 +61,57 @@ table describes:
     </td>
     <td>Highly experienced and active reviewer and contributor to an area</td>
     <td>Entry in one or more OWNERS files in GitHub, and write permissions
-        on one or more repos allowing PRs to be merged.
+        on one or more repos allowing PRs to be merged
     </td>
     <td>GitHub Directory</td>
   </tr>
 
   <tr>
-    <td>Lead</td>
+    <td>Working Group Technical Lead</td>
     <td>
         <p>Set priorities for a functional area and approve proposals</p>
         <p>Triage incoming issues, set milestones, repo labels</p>
-        <p>Run their working group</p>
+        <p>Roadmap alignment with top-level backlog</p>
+        <p>Mentor new contributors, project members, and approvers</p>
+        <p>Succession - identifying next steps for members of the working group</p>
+        <p>Responsible for technical health of their functional area</p>
     </td>
     <td>Sponsored by the technical oversight committee as documented
-        <a href="./WORKING-GROUP-PROCESSES.md">here</a>.
+        <a href="./mechanics/WORKING-GROUP-PROCESSES.md">here</a>
     </td>
-    <td>Write permissions on one or more repos allowing issues to be manipulated.</td>
+    <td>Write permissions on one or more repos allowing issues to be manipulated</td>
     <td>Working Group</td>
   </tr>
 
   <tr>
-    <td>Administrator</td>
-    <td>Manage &amp; control permissions</td>
-    <td>Sponsored by the technical oversight committee</td>
+    <td>Working Group Execution Lead</td>
     <td>
-        <p>Admin privileges on the GitHub Knative org and all its repos</p>
-        <p>Admin privileges on the Knative Slack workspace</p>
-        <p>Admin privileges on the Knative Team Drive</p>
-        <p>Admin privileges on the Google Search Console for knative.dev</p>
-        <p>Admin privilege to the Knative email lists.</p>
+        <p>Run their working group: Meetings, notes, roadmap, report</p>
+        <p>Responsible for the holistic health of the <i>working group</i></p>
+        <p>Work organization, planning, high-level execution</p>
+        <p>Triage incoming issues, set milestones, repo labels</p>
+        <p>Ensure all required skills are present within the working group</p>
+        <p>Mentor new contributors, project members, and approvers</p>
     </td>
-    <td>
-        <p>GitHub Organization</p>
-        <p>Team Drive</p>
-        <p>Slack</p>
+    <td>Sponsored by the technical oversight committee as documented
+        <a href="./mechanics/WORKING-GROUP-PROCESSES.md">here</a>
     </td>
+    <td>Write permissions on one or more repos allowing issues to be manipulated</td>
+    <td>Working Group</td>
   </tr>
+
+  <tr>
+    <td>Scribe</td>
+    <td>
+        <p>Ensure important information is represented in working group notes</p>
+        <p>Post WG recordings to team drive</p>
+    <td>
+    <td>Sponsored by a working group execution or technical lead.</td>
+    <td>Write permissions to team drive and team calendar</td>
+    <td>Working Group</td>
+  </tr>
+
 </table>
-
-## Collaborator
-
-Individuals can be added as an outside collaborator (with READ access) to a repo
-in the Knative GitHub organization without becoming a member. This role allows
-them to be assigned issues and PRs until they become a member, but will not
-allow tests to be run against their PRs automatically nor allow them to interact
-with the PR bot.
-
-### Requirements
-
-- Working on some contribution to the project that would benefit from the
-  ability to have PRs or Issues to be assigned to the contributor.
-
-- Join [knative-users@](https://groups.google.com/forum/#!forum/knative-users) ,
-  which grants read access to documents in the Team Drive.
 
 ## Member
 
@@ -156,10 +146,6 @@ this is not a requirement.
   [knative-dev@googlegroups.com](https://groups.google.com/forum/#!forum/knative-dev).
 
 - Actively contributing to 1 or more areas.
-
-- 1 sponsor must have the approver role.
-
-  - Done by adding GitHub user to Knative organization.
 
 ### Responsibilities and privileges
 
@@ -203,11 +189,9 @@ approver in an OWNERS file:
     added to `reviewers` section is at the discretion of an approver after
     enough evidence of quality contributions.
 
-- Reviewed or merged at least 30 PRs to the codebase.
+- Reviewed at least 30 PRs to the codebase.
 
-- Nominated by an area lead (with no objections from other leads).
-
-  - Done through PR to update an OWNERS file.
+- Nominated by an a WG lead (with no objections from other leads).
 
 ### Responsibilities and privileges
 
@@ -226,25 +210,34 @@ approver in an OWNERS file:
 * Expected to be responsive to review requests as per
   [community expectations](./REVIEWING.md).
 
-* Mentor members and contributors.
+* Mentor new contributors and project members.
 
-* Might approve code contributions for acceptance.
+* Approve code contributions for acceptance.
 
-## Lead
+# Working Group Leadership Roles
 
-Working group leads, or just ‘leads’, are approvers of an entire area that have
-demonstrated good judgement and responsibility. Leads accept design proposals
-and approve design decisions for their area of ownership.
+We differentiate here between two key roles, WG Execution Lead and WG Technical
+Lead. In small working groups, often these roles will be performed by one
+person; in larger working groups it might be best to have different individuals
+performing these roles. There is no 'formula', it is up to the working group
+leadership to determine what is best for their working group.
+
+## Working Group Technical Lead
+
+Working group technical leads, or just ‘tech leads’, are approvers of an entire
+area that have demonstrated good judgement and responsibility. Tech leads accept
+design proposals and approve design decisions for their area of ownership, and
+are responsible for the overall technical health of their functional area.
 
 ### Requirements
 
-Getting to be a lead of an existing working group:
+Getting to be a tech lead of an existing working group:
 
 - Recognized as having expertise in the group’s subject matter.
 
-- Approver for some part of the codebase for at least 3 months.
+- Approver for a relevant part of the codebase for at least 3 months.
 
-- Member for at least 1 year or 50% of project lifetime, whichever is shorter.
+- Member for at least 6 months.
 
 - Primary reviewer for 20 substantial PRs.
 
@@ -256,17 +249,14 @@ Additional requirements for leads of a new working group:
 
 - Originally authored or contributed major functionality to the group's area.
 
-- An approver in the OWNERS file for the group’s code.
-
 ### Responsibilities and privileges
 
 The following apply to the area / component for which one would be an owner.
 
-- Run their working group as explained in the
-  [Working Group Processes](./WORKING-GROUP-PROCESSES.md).
-
 - Design/proposal approval authority over the area / component, though
   escalation to the technical oversight committee is possible.
+
+- Technical review of [feature tracks](./mechanics/FEATURE-TRACKS.md).
 
 - Perform issue triage on GitHub.
 
@@ -286,31 +276,121 @@ The following apply to the area / component for which one would be an owner.
 
   - Fixing bugs.
 
-  - Mentoring and guiding approvers, members, and contributors.
+  - Identifying needed enhancements / areas for improvement / etc.
 
-## Administrator
+  - Execute pay-down of technical debt.
 
-Administrators are responsible for the bureaucratic aspects of the project.
+- Mentoring and guiding approvers, members, and new contributors.
+
+## Working Group Execution Lead
+
+Working group execution leads, or just ‘execution leads’, are responsible for
+the overall health and execution of the working group itself. Execution leads
+work with tech leads to ensure that the working group is making progress toward
+its goals, is aligned with the project roadmap, etc. The execution lead may also
+be the tech lead in a smaller working group, but they are distinct roles.
 
 ### Requirements
 
-- Assigned by technical oversight committee.
+- Participant in the working group for at least 3 months, for example as scribe
+  or approver.
+
+- Recognized as having expertise in the group’s subject matter.
+
+- Sponsored by the technical oversight committee.
 
 ### Responsibilities and privileges
 
-- Manage the Knative GitHub repo, including granting membership and controlling
-  repo read/write permissions.
+- Run their working group as explained in the
+  [Working Group Processes](./mechanics/WORKING-GROUP-PROCESSES.md).
 
-- Manage the Knative Slack team.
+  - Meetings. Prepare the agenda and run the regular working group meetings.
 
-- Manage the Knative Google group forum.
+  - Notes. Ensure that meeting notes are kept up to date. Provide a link to the
+    recorded meeting in the notes. The lead may delegate note-taking duties to
+    the scribe.
 
-- Manage any additional Knative technical collaboration assets.
+  - Roadmap. Establish and maintain a roadmap for the working group outlining
+    the areas of focus for the working group over the next 6 months.
 
-- Expected to be responsive to membership and permission change requests.
-  <!-- TODO SLA for admin response -->
+  - Report. Report current status to the TOC meeting every 6 weeks.
 
-<!-- * TODO Manage the Google Search Console settings for knative.dev -->
+- Holistic responsibility for their working group's [feature
+  tracks](./mechanics/FEATURE-TRACKS.md): tracking, health, and execution.
+
+- Perform issue triage on GitHub.
+
+- Apply/remove/create/delete GitHub labels and milestones.
+
+- Write access to repo (assign issues/PRs, add/remove labels and milestones,
+  edit project, issues, and PRs, edit wiki, create/delete labels and milestones).
+
+- Expected to work to holistically maintain the health of the working through:
+
+  - Being a good role model
+
+  - Be an advocate for the working group inside and outside of the community
+
+  - Foster a welcoming and collegial environment
+
+  - Mentoring and guiding approvers, members, and new contributors.
+
+## Scribe
+
+One of the most underrated roles in open source projects is the role of note
+taker. The importance and value of this role is frequently overlooked and
+underestimated. Since one of the core project values is transparency, we have an
+explicit scribe role to recognize these types of contributions. Working group
+scribes assist the Working Group leads with the mechanical processes around
+Working Group meetings.
+
+### Requirements
+
+- Participant in the working group for at least 1 month.
+
+- Pattern of attendance and note-taking during working group meetings and one-offs.
+
+- Sponsored by a working group execution or technical lead.
+
+### Responsibilities and privileges
+
+- Attend working group meetings and one-offs whenever possible.
+
+- Ensure that important information from meetings makes it into the WG notes.
+
+- Post WG recordings to the team drive.
+
+# Notes
+
+Within this section "manager" refers to a member who is an Execution Lead, Tech
+Lead, Approver or Scribe. (this is different from a WG or Organization Member).
+
+- Initial managers are defined at the founding of the WG or Subproject as part
+  of the acceptance of that WG or Subproject.
+- Managers SHOULD remain active and responsive in their Roles.
+- Managers MUST be community members to be eligible to hold a leadership role within a SIG.
+- Managers taking an extended leave of 1 or more months SHOULD coordinate with
+  other managers to ensure the role is adequately staffed during the leave.
+- Managers going on leave for 1-3 months MAY work with other managers to suggest
+  a replacement using the normal process
+- Managers of a role SHOULD remove any other managers that have not communicated
+  a leave of absence and either cannot be reached for more than 1 month or are
+  not fulfilling their documented responsibilities for more than 1 month.
+  - This MAY be done through a super-majority vote of managers, or if there are
+    not enough active managers to get a super-majority of votes cast, then
+    removal MAY occur through exception process to the TOC.  The PR removing the
+    manager should be open for at least 72 hours.
+  - Prior to voting to remove a manager, leads SHOULD reach out to the affected
+    manager and see if they need to take a leave.
+- Membership disagreements MAY be escalated to the WG leads. WG lead membership
+  disagreements MAY be escalated to the TOC.
+- Managers MAY decide to step down at anytime and nominate a replacement who
+  will be approved through the regular process for that role.
+
+It is the hope of the steering committee that effective communication will make
+the use of these rules something that happens under exceptional circumstances
+only. In circumstances where it is unavoidable, these are presented so that the
+process is clear.
 
 ---
 
