@@ -3,7 +3,7 @@ title: "Knative Repository Guidelines"
 linkTitle: "Repository Guidelines"
 weight: 25
 type: "docs"
-aliases:	---
+aliases:
   - /contributing/repository-guidelines/
 ---
 
@@ -138,8 +138,11 @@ bar:
 
 - Document clear release and install processes.
 
-- APIs must be homed in a valid group with a DNS prefix approved by the Steering
-  Committee.
+- Clearly document the stability and API guarantees (both in the top-level
+  `README.md` and by using appropriate API versioning for Kubernetes apigroups).
+
+- Kubernetes APIs must be homed in a valid group with a DNS prefix approved by
+  the Steering Committee.
 
   - APIs under `knative.dev` should:
 
@@ -148,9 +151,9 @@ bar:
        authority for assigning subdomains to working groups.
 
     1. Coordinate with the Working Group in API naming to avoid collisions or
-       confusing naming. This may also include API review to ensure consistency
-       and alignment with duck-type field naming, at the discretion of the
-       Working Group.
+       confusing naming. This also includes API review by the responsible
+       Working Group to ensure consistency and alignment with duck-type field
+       naming.
 
 Working groups must designate the repositories they own (specifics TBD).
 
