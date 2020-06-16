@@ -3,6 +3,8 @@ title: "Knative Repository Guidelines"
 linkTitle: "Repository Guidelines"
 weight: 25
 type: "docs"
+aliases:	---
+  - /contributing/repository-guidelines/
 ---
 
 This document outlines a structure for creating and associating code
@@ -72,7 +74,7 @@ steps:
 
 - A proposal to remove the repository is brought to the attention of the
   Technical Oversight Committee through a GitHub issue posted in the
-  [docs](https://github.com/knative/docs) repo.
+  [community](https://github.com/knative/community) repo.
   - Feedback is encouraged during a Technical Oversight Committee meeting before
     any action is taken.
 - Once the TOC has approved of the removal, if the repo is not moving to another
@@ -130,7 +132,7 @@ bar:
 
 - Must be sponsored by a specific working group, which should be designated in
   the `README.md` for the repo. In addition, at least one WG lead must be in the
-  root-level ONWERS file.
+  root-level OWNERS file.
 
 - Copyright assigned to The Knative Authors
 
@@ -148,7 +150,7 @@ bar:
     1. Coordinate with the Working Group in API naming to avoid collisions or
        confusing naming. This may also include API review to ensure consistency
        and alignment with duck-type field naming, at the discretion of the
-       Workning Group.
+       Working Group.
 
 Working groups must designate the repositories they own (specifics TBD).
 
@@ -161,7 +163,7 @@ The following are not required to create a working-group-owned repository:
 
 - Steering approval (see ["the fine print"](#the-fine-print))
 - TOC approval
-- Solving a unique problem (exploring different approaches to problems outside
+- Solving an unique problem (exploring different approaches to problems outside
   the core is actively encouraged!)
 
 ### The fine print
