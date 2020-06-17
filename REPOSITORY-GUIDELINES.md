@@ -123,10 +123,10 @@ verifying the requirements have been met:
 
 - Vendor dependencies must be clearly called out, and participation must be open
   to the community.
-  
+
   - If the repository is for integration with a specific technology vendor,
     affiliation with that vendor must not required for participation.
-    
+
   - Non-integration repositories should aim to avoid dependencies on
     vendor-specific technology by publishing abstract interface which can be
     implemented by multiple vendors. Those implementations are not required to
