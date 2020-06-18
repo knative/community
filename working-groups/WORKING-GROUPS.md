@@ -9,7 +9,7 @@ aliases:
 
 Most community activity is organized into _working groups_.
 
-Working groups follow the [contributing](./CONTRIBUTING.md) guidelines although
+Working groups follow the [contributing](../CONTRIBUTING.md) guidelines although
 each of these groups may operate a little differently depending on their needs
 and workflow.
 
@@ -107,7 +107,7 @@ conventions
 
 ## Documentation
 
-Knative documentation, especially the [Docs](../docs/README.md) repo.
+Knative documentation, especially the [Docs](https://github.com/knative/docs/) repo.
 
 | Artifact                   | Link                                                                                                                                                                                                    |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
