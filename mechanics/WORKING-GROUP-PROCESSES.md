@@ -56,7 +56,7 @@ have ideas and opinions, and up-front conversations can help to focus the shape
 and scope of the solution space.
 
 The TOC and existing WGs should enable these conversations (e.g. setting up
-one-off meetings, creating slack channels, etc).  Once the community has
+one-off meetings, creating slack channels, etc). Once the community has
 identified a substantial architectural area which would benefit from long-lived,
 concerted and focused design, then you should consider creating a new working
 group. To do so, you need to:
@@ -115,19 +115,13 @@ working group:
 - **Create a Roadmap Document**. Create a document in the above folder and call
   it "GROUP_NAME Group Roadmap". Put your initial roadmap in the document.
 
-- **Create a Wiki**. Create a wiki page on
-  [GitHub](https://github.com/knative/serving) titled "GROUP_NAME Design
-  Decisions". This page will be used to track important design decisions made by
-  the working group.
-
-- **Create a Public Google Group**. Call the group "knative-_group_name_" (all
-  in lowercase, dashes for spaces). This mailing list must be open to all.
-
 - **Schedule a Recurring Meeting**. Create a recurring meeting (weekly or
-  bi-weekly, 30 or 60 minutes) and call the meeting GROUP_NAME Group Sync-Up".
-  Attach the meeting notes document to the calendar event. Generally schedule
-  these meetings between 9:00AM to 2:59PM Pacific Time. Invite the public Google
-  group to the meeting.
+  bi-weekly, 30 or 60 minutes) on the
+  [shared calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com)
+  and call the meeting "\$GROUP_NAME WG". Attach the meeting notes document to
+  the calendar event. Generally schedule these meetings between 9:00AM to 2:59PM
+  Pacific Time. Invite `knative-dev@googlegroups.com` Google group to the
+  meeting, as well as necessary individual participants.
 
 - **Register the Working Group**. Go to
   [WORKING-GROUPS.md](../working-groups/WORKING-GROUPS.md) and add your working
@@ -176,11 +170,11 @@ few activities:
 - **Notes**. Ensure that meeting notes are kept up to date. Provide a link to
   the recorded meeting in the notes. The lead may delegate note-taking duties.
 
-- **Wiki**. Ensure that significant design decisions are captured in the Wiki.
-  In the Wiki, include links to useful design documents, any interesting GitHub
-  issues or PRs, posts to the mailing lists, etc. The wiki should provide a good
-  feel for where the mind of the working group is at and where things are
-  headed.
+- **Decision Log**. Ensure that significant design decisions are captured in
+  GitHub issues, Google Docs, or markdown files in the repo. It is recommended
+  that Working Groups follow the [Feature Tracks](./FEATURE-TRACKS.md) process
+  for design proposals. It's particularly important to focus on making it
+  possible for new participants can find the history of decisions.
 
 - **Roadmap**. Establish **and maintain** a roadmap for the working group
   outlining the areas of focus for the working group over the next 3 months.
