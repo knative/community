@@ -1,0 +1,398 @@
+orgs:
+  knative-sandbox:
+    name: Knative Sandbox
+    description: Sandbox for projects that are part of the broader knative project
+    email: knative-admins@googlegroups.com
+    billing_email: knative@google.com
+    company: ""
+    location: ""
+    has_organization_projects: true
+    has_repository_projects: true
+    members_can_create_repositories: false
+    default_repository_permission: read
+    admins:
+    - bsnchan
+    - evankanderson
+    - google-admin
+    - googlebot
+    - grantr
+    - isdal
+    - markusthoemmes
+    - mattmoor
+    - mbehrendt
+    - pmorie
+    - tcnghia
+    - thisisnotapril
+    members:
+    - Abd4llA
+    - abrennan89
+    - AceHack
+    - ahmetb
+    - akashrv
+    - akerekes
+    - akrausesap
+    - alanfx
+    - albertomilan
+    - alexellis
+    - aliok
+    - AlyssaDaemon
+    - andrew-su
+    - anishj0shi
+    - antoineco
+    - aslakknutsen
+    - aslom
+    - balopat
+    - bbrowning
+    - bcle
+    - BenTheElder
+    - billimek
+    - bkrannich
+    - bobcatfish
+    - bparees
+    - bradhoekstra
+    - bretmcg
+    - bszwej
+    - btardell
+    - capri-xiyue
+    - cbickel
+    - chaodaiG
+    - chizhg
+    - cooperneil
+    - coryrc
+    - csantanapr
+    - cscheiber
+    - Cynocracy
+    - daisy-ycguo
+    - davidor
+    - davyodom
+    - dbbaskette
+    - deissnerk
+    - dieucao
+    - dprotaso
+    - droot
+    - duglin
+    - emalm
+    - emanor
+    - eobrain
+    - ericbottard
+    - ericlem
+    - fabolive
+    - fj
+    - flavorjones
+    - frnksgr
+    - garron
+    - georgeharley
+    - glaforge
+    - glyn
+    - gorkem
+    - gottskalk
+    - grac3gao
+    - grayside
+    - gsiener
+    - gyliu513
+    - halvards
+    - hev
+    - houshengbo
+    - ian-mi
+    - idoru
+    - igorbelianski
+    - igorpeshansky
+    - imikushin
+    - itsmurugappan
+    - jama22
+    - jasonpolites
+    - jchesterpivotal
+    - jcrossley3
+    - jeff-hobbs
+    - jfmyers9
+    - jjzeng-seattle
+    - jkjell
+    - jldec
+    - jmprusi
+    - joaedwar
+    - johnalowry
+    - johnmccabe
+    - jonatasbaldin
+    - josephburnett
+    - JRBANCEL
+    - jskeet
+    - julz
+    - jzelinskie
+    - k4leung4
+    - knative-metrics-robot
+    - knative-prow-releaser-robot
+    - knative-prow-robot
+    - knative-test-reporter-robot
+    - krumts
+    - lance
+    - lberk
+    - lesv
+    - lichuqiang
+    - lionelvillard
+    - liu-cong
+    - macruzbar
+    - markfisher
+    - markito
+    - matzew
+    - mayaspivak
+    - mdemirhan
+    - mfine30
+    - mgencur
+    - michaelmarth
+    - mikehelmick
+    - minsungh
+    - MontyCarter
+    - mpetason
+    - n3wscott
+    - nachocano
+    - nader-ziada
+    - nak3
+    - nicolaferraro
+    - nimbcode
+    - nlopezgi
+    - ormos
+    - peterfeifanchen
+    - phamilton
+    - piotrmsc
+    - pkosiec
+    - priyawadhwa
+    - prydonius
+    - radufa
+    - RaeesBhatti
+    - rafaeltello
+    - rakesh-garimella
+    - RamXX
+    - rfranzke
+    - rhuss
+    - richterdavid
+    - rmorgan
+    - rosenhouse
+    - rprakashg
+    - rseroter
+    - rusde
+    - saturnism
+    - savitaashture
+    - sbezverk
+    - sclevine
+    - scothis
+    - sebgoa
+    - shrajfr12
+    - shreejad
+    - skim1420
+    - slinkydeveloper
+    - smarterclayton
+    - smoser-ibm
+    - srvaroa
+    - ssisil
+    - sspeiche
+    - st3v
+    - steren
+    - stevekuznetsov
+    - sukhil-suresh
+    - syedriko
+    - taragu
+    - tardieu
+    - tejal29
+    - travis-minke-sap
+    - TristonianJones
+    - troytop
+    - trshafer
+    - tzununbekov
+    - urasoko
+    - uwefassnacht
+    - vagababov
+    - vaikas
+    - vbatts
+    - vdemeester
+    - wfernandes
+    - yanweiguo
+    - yaron2
+    - yolocs
+    - yt3liu
+    - yuyantingzero
+    - zargarpur
+    - zhanggbj
+    - ZhiminXiang
+    - zouyee
+    - zrob
+    repos:
+      build-spike:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Empty repo for testing external build integration with `kn`.
+        has_projects: true
+        has_wiki: false
+      eventing-kafka:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kafka integrations with Knative Eventing.
+        has_projects: true
+        has_wiki: false
+      eventing-rabbitmq:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: RabbitMQ eventing components. Knative Source and Broker.
+        has_projects: true
+        has_wiki: false
+    teams:
+      Client Writers:
+        description: Grants write access to client-related repositories.
+        privacy: closed
+        repos:
+          build-spike: write
+        teams:
+          Client WG Leads:
+            description: The Working Group Leads for Client
+            members:
+            - rhuss
+            privacy: closed
+      Docs Writers:
+        description: Grants write access to docs-related repositories.
+        privacy: closed
+        repos: {}
+        teams:
+          Docs WG Leads:
+            description: The Working Group leads for Docs
+            members:
+            - samodell
+            privacy: closed
+      Eventing Writers:
+        description: Grants write access to eventing-related repositories.
+        privacy: closed
+        repos:
+          eventing-kafka: write
+          eventing-rabbitmq: write
+        teams:
+          Delivery WG Leads:
+            description: The Working Group leads for Event Delivery
+            members:
+            - matzew
+            - Harwayne
+            privacy: closed
+          Eventing WG Leads:
+            description: The Working Group leads for Eventing
+            members:
+            - grantr
+            - lionelvillard
+            - vaikas
+            privacy: closed
+          Source WG Leads:
+            description: The Working Group leads for Sources
+            members:
+            - nachocano
+            - lionelvillard
+            - vaikas
+            - n3wscott
+            privacy: closed
+      Knative Admin:
+        description: Individuals in the project who are responsible for billing and
+          general project administration.
+        privacy: closed
+        repos:
+          build-spike: admin
+          eventing-kafka: admin
+          eventing-rabbitmq: admin
+        teams:
+          Knative Robots:
+            description: Contains robots and only robots.
+            members:
+            - knative-prow-robot
+            - knative-prow-releaser-robot
+            - knative-test-reporter-robot
+            privacy: closed
+          Steering Committee:
+            description: ""
+            maintainers:
+            - isdal
+            - pmorie
+            - bsnchan
+            - mbehrendt
+            - thisisnotapril
+            privacy: closed
+          Technical Oversight Committee:
+            description: Members of the Knative Technical Oversight Committee (TOC)
+            maintainers:
+            - grantr
+            - tcnghia
+            - markusthoemmes
+            - mattmoor
+            - evankanderson
+            privacy: closed
+      Knative Milestone Maintainers:
+        description: 'DO NOT RENAME - this group is used by Prow to control who can
+          manipulate milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
+        privacy: closed
+        maintainers:
+        - grantr
+        - tcnghia
+        - markusthoemmes
+        - mattmoor
+        - evankanderson
+        members:
+        - mikehelmick
+        - rhuss
+        - Harwayne
+        - vagababov
+        - csantanapr
+        - josephburnett
+        - aslom
+        - mdemirhan
+        - vaikas
+        - k4leung4
+        - chaodaiG
+        - akashrv
+        privacy: closed
+      Observability Writers:
+        description: Grants write access to observability-related repositories.
+        privacy: closed
+        repos: {}
+        teams:
+          Observability WG Leads:
+            description: The Working Group leads for Observability
+            members:
+            - mdemirhan
+            privacy: closed
+      Operations Writers:
+        description: Grants write access to operations-related repositories.
+        privacy: closed
+        repos: {}
+        teams:
+          Operations WG Leads:
+            description: The Working Group leads for Operations
+            members:
+            - houshengbo
+            privacy: closed
+      Productivity Writers:
+        description: Grants write access to productivity-related repositories.
+        privacy: closed
+        repos: {}
+        teams:
+          Productivity WG Leads:
+            description: The Working Group leads for Productivity
+            members:
+            - chizhg
+            - chaodaiG
+            privacy: closed
+      Serving Writers:
+        description: Grants write access to serving-related repositories.
+        privacy: closed
+        repos: {}
+        teams:
+          API Core WG Leads:
+            description: The Working Group leads for Serving API Core
+            members:
+            - dprotaso
+            - mattmoor
+            privacy: closed
+          Autoscaling WG Leads:
+            description: The Working Group leads for Autoscaling
+            members:
+            - vagababov
+            - markusthoemmes
+            privacy: closed
+          Networking WG Leads:
+            description: The Working Group leads for Networking
+            members:
+            - tcnghia
+            - mdemirhan
+            privacy: closed
