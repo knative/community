@@ -95,7 +95,7 @@ repository is retired and no longer maintained.
 
 It is beneficial for Knative working groups to be able to own code outside the
 core `knative` organization, which is kept intentionally small and has a high
-bar for entry.  The `knative-sandbox` github organization was created for this
+bar for entry.  The `knative-sandbox` GitHub organization was created for this
 purpose.  Repositories in `knative-sandbox` are intended to give working groups
 more latitude to experiment with new ideas and to self-organize and manage
 contributions which may be important to the project but which do not need the
@@ -106,7 +106,7 @@ the core; in most cases, projects in the sandbox will remain there for the
 entire duration. `knative-sandbox` also provides a location for implementations
 of core interfaces which do not themselves need to live in the core, such as
 networking or eventing integrations. In the event that a working group wants a
-project in sandbox to be considered for transfor to the `knative` org, the
+project in sandbox to be considered for transfer to the `knative` org, the
 request will be considered on a case-by-case basis by joint decision of the
 Steering Committee and the Technical Oversight Committee.
 
@@ -118,17 +118,18 @@ Note: prior art here from the
 [Kubernetes community](https://github.com/kubernetes/community/blob/master/github-management/kubernetes-repositories.md).
 
 Working groups are allowed to request repositories that meet the following
-requirements. Actual repo creation will be performed by a SC or TOC member after
-verifying the requirements have been met:
+requirements. The Steering Committee and TOC will maintain the process and
+perform the repository creation steps to ensure that the following requirements
+have been met:
 
 - Vendor dependencies must be clearly called out, and participation must be open
   to the community.
 
   - If the repository is for integration with a specific technology vendor,
-    affiliation with that vendor must not required for participation.
+    affiliation with that vendor must not be required for participation.
 
   - Non-integration repositories should aim to avoid dependencies on
-    vendor-specific technology by publishing abstract interface which can be
+    vendor-specific technology by publishing abstract interfaces which can be
     implemented by multiple vendors. Those implementations are not required to
     live in separate repositories.
 
@@ -192,7 +193,7 @@ ability to step in and rectify problems that may arise.
 ### Deletion
 
 Working groups are responsible for the upkeep of their repositories and are
-expected to keep a high quality bar. Inactive or non-confroming repositories
+expected to keep a high quality bar. Inactive or non-conforming repositories
 should be archived, deleted, or moved out of the `knative-sandbox` organization,
 following the general [Procedure for Removal](#procedure-for-removal) for
 repositories.
