@@ -234,6 +234,12 @@ orgs:
         description: RabbitMQ eventing components. Knative Source and Broker.
         has_projects: true
         has_wiki: false
+      eventing-kafka-broker:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Alternate Kafka Broker implementation.
+        has_projects: true
+        has_wiki: false
     teams:
       Client Writers:
         description: Grants write access to client-related repositories.
