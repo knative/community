@@ -17,7 +17,7 @@ Repo:
 
 Purpose (Description):
 
-Sponsoring WG: 
+Sponsoring WG:
 
 ## Actions to fulfil
 
@@ -33,3 +33,4 @@ process](/mechanics/CREATING-A-SANDBOX-REPO.md)
   docs linked at the beginning.
 - [ ] Create a PR with a `CODE-OF-CONDUCT.md` to verify Prow.
 - [ ] Once Prow is enabled and PR checks are passing, add branch protection rules.
+
