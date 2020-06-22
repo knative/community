@@ -14,7 +14,7 @@ each of these groups may operate a little differently depending on their needs
 and workflow.
 
 When the need arises, a new working group can be created. See the
-[working group processes](./mechanics/WORKING-GROUP-PROCESSES.md) for working
+[working group processes](../mechanics/WORKING-GROUP-PROCESSES.md) for working
 group proposal and creation procedures.
 
 The working groups generate design docs which are kept in a
@@ -55,7 +55,7 @@ The current working groups are:
 - [Client](#client)
 - [Documentation](#documentation)
 - [Eventing](#eventing)
-- [Eventing Channels](#eventing-channels)
+- [Event Delivery](#event-delivery)
 - [Eventing Sources](#eventing-sources)
 - [Networking](#networking)
 - [Observability](#observability)
@@ -142,9 +142,9 @@ Event sources, bindings, FaaS framework, and orchestration
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM  | [lionelvillard](https://github.com/lionelvillard) |
 | <img width="30px" src="https://github.com/grantr.png"> | Grant Rodgers | Google  | [grantr](https://github.com/grantr) |
 
-## Eventing Channels
+## Event Delivery
 
-Event delivery and Channel conformance.
+Event delivery data plane.
 
 | Artifact                   | Link                                                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -153,7 +153,7 @@ Event delivery and Channel conformance.
 | Community Meeting Calendar | Thursdays at 8:00a-8:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com)                         |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1uxlulaAf2m_yZUqCIeI-inul2gsqP69PElnZdO0FHUo/edit#)                                                           |
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1gQymVBlLsQxknScnn1x5wUT5OBBNj5P3)                                                                   |
-| Slack Channel              | [#eventing-channels](https://slack.knative.dev/messages/eventing-channels)                                                                                |
+| Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                               |
 
 | &nbsp;                                                        | Leads                | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------------- | ------- | ------------------------------------------------- |
