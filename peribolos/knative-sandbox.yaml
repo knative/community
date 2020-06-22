@@ -228,16 +228,22 @@ orgs:
         description: Kafka integrations with Knative Eventing.
         has_projects: true
         has_wiki: false
+      eventing-kafka-broker:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Alternate Kafka Broker implementation.
+        has_projects: true
+        has_wiki: false
       eventing-rabbitmq:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: RabbitMQ eventing components. Knative Source and Broker.
         has_projects: true
         has_wiki: false
-      eventing-kafka-broker:
+      sample-controller:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: Alternate Kafka Broker implementation.
+        description: A template project for writing your own controller using the Knative helper libraries.
         has_projects: true
         has_wiki: false
     teams:
@@ -298,6 +304,7 @@ orgs:
           build-spike: admin
           eventing-kafka: admin
           eventing-rabbitmq: admin
+          sample-controller: admin
         teams:
           Knative Robots:
             description: Contains robots and only robots.
@@ -382,7 +389,8 @@ orgs:
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
-        repos: {}
+        repos:
+          sample-controller: write
         teams:
           API Core WG Leads:
             description: The Working Group leads for Serving API Core
