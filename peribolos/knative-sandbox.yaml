@@ -229,6 +229,12 @@ orgs:
         description: Kafka integrations with Knative Eventing.
         has_projects: true
         has_wiki: false
+      eventing-kafka-broker:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Alternate Kafka Broker implementation.
+        has_projects: true
+        has_wiki: false
       eventing-rabbitmq:
         allow_merge_commit: false
         allow_rebase_merge: false
