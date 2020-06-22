@@ -264,7 +264,6 @@ orgs:
     - kitmerker-jfrog
     - knative-metrics-robot
     - knative-prow-releaser-robot
-    - knative-prow-robot
     - knative-test-reporter-robot
     - komestmus
     - krancour
