@@ -234,6 +234,12 @@ orgs:
         description: RabbitMQ eventing components. Knative Source and Broker.
         has_projects: true
         has_wiki: false
+      sample-controller:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: A template project for writing your own controller using the Knative helper libraries.
+        has_projects: true
+        has_wiki: false
     teams:
       Client Writers:
         description: Grants write access to client-related repositories.
@@ -292,6 +298,7 @@ orgs:
           build-spike: admin
           eventing-kafka: admin
           eventing-rabbitmq: admin
+          sample-controller: admin
         teams:
           Knative Robots:
             description: Contains robots and only robots.
@@ -376,7 +383,8 @@ orgs:
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
-        repos: {}
+        repos:
+          sample-controller: write
         teams:
           API Core WG Leads:
             description: The Working Group leads for Serving API Core

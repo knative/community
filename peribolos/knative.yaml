@@ -610,12 +610,6 @@ orgs:
         description: Knative common packages
         has_projects: true
         has_wiki: false
-      sample-controller:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: A template project for writing your own controller using the Knative helper libraries.
-        has_projects: true
-        has_wiki: false
       sample-source:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -746,7 +740,6 @@ orgs:
           observability: admin
           operator: admin
           pkg: admin
-          sample-controller: admin
           sample-source: admin
           serving: admin
           serving-operator: admin
@@ -867,7 +860,6 @@ orgs:
           net-kourier: write
           networking: write
           pkg: write
-          sample-controller: write
           serving: write
         teams:
           API Core WG Leads:
