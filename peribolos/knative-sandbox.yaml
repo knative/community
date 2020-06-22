@@ -123,7 +123,6 @@ orgs:
     - k4leung4
     - knative-metrics-robot
     - knative-prow-releaser-robot
-    - knative-prow-robot
     - knative-test-reporter-robot
     - krumts
     - lance
