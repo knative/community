@@ -15,6 +15,7 @@ orgs:
     - googlebot
     - grantr
     - isdal
+    - knative-prow-robot
     - markusthoemmes
     - mattmoor
     - mbehrendt
