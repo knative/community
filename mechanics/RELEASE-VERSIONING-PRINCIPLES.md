@@ -335,7 +335,7 @@ tuple
    </td>
    <td rowspan="3" >2021-02-02
    </td>
-   <td rowspan="3" >1.18.x
+   <td rowspan="3" >1.17.x
    </td>
    <td rowspan="3" >v1
    </td>
@@ -371,7 +371,7 @@ tuple
    </td>
    <td rowspan="3" >2020-12-22
    </td>
-   <td rowspan="3" >1.18.x
+   <td rowspan="3" >1.16.x
    </td>
    <td rowspan="3" >v1
    </td>
@@ -443,7 +443,7 @@ tuple
    </td>
    <td rowspan="3" >2020-09-29
    </td>
-   <td rowspan="3" >1.16.x
+   <td rowspan="3" >1.15.x
    </td>
    <td rowspan="3" >v1
    </td>
