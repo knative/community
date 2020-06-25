@@ -813,6 +813,8 @@ orgs:
         - chaodaiG
         - akashrv
         - vaikas
+        - shashwathi
+        - eallred-google
         privacy: closed
       Observability Writers:
         description: Grants write access to observability-related repositories.
