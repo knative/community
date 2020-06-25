@@ -612,12 +612,6 @@ orgs:
         description: Knative common packages
         has_projects: true
         has_wiki: false
-      sample-source:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: A template project for writing your own Knative eventing source.
-        has_projects: true
-        has_wiki: false
       serving:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -687,7 +681,6 @@ orgs:
           eventing: write
           eventing-contrib: write
           pkg: write
-          sample-source: write
         teams:
           Channel WG Leads:
             description: The Working Group leads for Channels
@@ -742,7 +735,6 @@ orgs:
           observability: admin
           operator: admin
           pkg: admin
-          sample-source: admin
           serving: admin
           serving-operator: admin
           test-infra: admin
