@@ -224,6 +224,12 @@ orgs:
         description: Empty repo for testing external build integration with `kn`.
         has_projects: true
         has_wiki: false
+      discovery:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Enable interactions with a cluster and its resources: built-in types, CRDs and COs.
+        has_projects: true
+        has_wiki: false
       eventing-kafka:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -283,6 +289,7 @@ orgs:
           eventing-kafka: write
           eventing-rabbitmq: write
           sample-source: write
+          discovery: write
         teams:
           Delivery WG Leads:
             description: The Working Group leads for Event Delivery
