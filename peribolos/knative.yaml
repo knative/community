@@ -573,12 +573,6 @@ orgs:
         description: A Knative ingress controller for Project Contour
         has_projects: true
         has_wiki: false
-      net-http01:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: An ACME HTTP01 solver for the Knative Certificate CRD.
-        has_projects: true
-        has_wiki: false
       net-istio:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -731,7 +725,6 @@ orgs:
           homebrew-client: admin
           net-certmanager: admin
           net-contour: admin
-          net-http01: admin
           net-istio: admin
           net-kourier: admin
           networking: admin
@@ -854,7 +847,6 @@ orgs:
           caching: write
           net-certmanager: write
           net-contour: write
-          net-http01: write
           net-istio: write
           net-kourier: write
           networking: write
