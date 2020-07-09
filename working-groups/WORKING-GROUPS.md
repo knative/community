@@ -9,7 +9,7 @@ aliases:
 
 Most community activity is organized into _working groups_.
 
-Working groups follow the [contributing](./CONTRIBUTING.md) guidelines although
+Working groups follow the [contributing](../CONTRIBUTING.md) guidelines although
 each of these groups may operate a little differently depending on their needs
 and workflow.
 
