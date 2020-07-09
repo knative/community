@@ -248,6 +248,12 @@ orgs:
         description: RabbitMQ eventing components. Knative Source and Broker.
         has_projects: true
         has_wiki: false
+      net-http01:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: An ACME HTTP01 solver for the Knative Certificate CRD.
+        has_projects: true
+        has_wiki: false
       sample-controller:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -320,6 +326,7 @@ orgs:
           build-spike: admin
           eventing-kafka: admin
           eventing-rabbitmq: admin
+          net-http01: admin
           sample-controller: admin
           sample-source: admin
         teams:
@@ -406,6 +413,7 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
+          net-http01: write
           sample-controller: write
         teams:
           API Core WG Leads:
