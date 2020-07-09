@@ -150,7 +150,7 @@ Event delivery data plane.
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                      |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1uxlulaAf2m_yZUqCIeI-inul2gsqP69PElnZdO0FHUo/edit#)                                |
-| Community Meeting Calendar | Thursdays at 8:00a-8:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com)                         |
+| Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1uxlulaAf2m_yZUqCIeI-inul2gsqP69PElnZdO0FHUo/edit#)                                                           |
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1gQymVBlLsQxknScnn1x5wUT5OBBNj5P3)                                                                   |
 | Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                               |
