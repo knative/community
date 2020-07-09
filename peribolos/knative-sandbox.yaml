@@ -289,6 +289,7 @@ orgs:
           eventing-kafka: write
           eventing-rabbitmq: write
           sample-source: write
+	  discovery: write
         teams:
           Delivery WG Leads:
             description: The Working Group leads for Event Delivery
