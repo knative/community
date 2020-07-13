@@ -227,7 +227,7 @@ orgs:
       discovery:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: Enable interactions with a cluster and its resources: built-in types, CRDs and COs.
+        description: "Enable interactions with a cluster and its resources: built-in types, CRDs and COs."
         has_projects: true
         has_wiki: false
       eventing-kafka:
