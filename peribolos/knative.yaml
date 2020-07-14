@@ -832,8 +832,6 @@ orgs:
         privacy: closed
         repos:
           caching: write
-          net-certmanager: write
-          net-contour: write
           net-istio: write
           net-kourier: write
           networking: write
