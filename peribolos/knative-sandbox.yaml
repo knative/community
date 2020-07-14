@@ -287,6 +287,7 @@ orgs:
             description: The Working Group leads for Docs
             members:
             - samodell
+            - abrennan89
             privacy: closed
       Eventing Writers:
         description: Grants write access to eventing-related repositories.

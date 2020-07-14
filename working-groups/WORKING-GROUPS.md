@@ -113,7 +113,7 @@ Knative documentation, especially the [Docs](https://github.com/knative/docs/) r
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                                                                   |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                                |
-| Community Meeting Calendar | Weekly on Tuesdays, alternating between 9:00-9:30am and 4:30-5:00pm PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
+| Community Meeting Calendar | Bi Weekly on Tuesdays, 9:00-9:30am<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                                                           |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1K5cM9m-b93ySI5WGKalJKbBq_cfjyi-y)                                                                                                                 |
 | Slack Channel              | [#docs](https://slack.knative.dev/messages/docs)                                                                                                                                                        |
@@ -121,6 +121,7 @@ Knative documentation, especially the [Docs](https://github.com/knative/docs/) r
 | &nbsp;                                                   | Leads      | Company | Profile                                 |
 | -------------------------------------------------------- | ---------- | ------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/samodell.png"> | Sam O'Dell | Google  | [samodell](https://github.com/samodell) |
+| <img width="30px" src="https://github.com/abrennan89.png"> | Ashleigh Brennan | Red Hat  | [abrennan89](https://github.com/abrennan89) |
 
 ## Eventing
 
