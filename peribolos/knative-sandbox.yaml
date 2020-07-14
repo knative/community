@@ -428,6 +428,8 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
+          net-certmanager: write
+          net-contour: write
           net-http01: write
           sample-controller: write
         teams:
