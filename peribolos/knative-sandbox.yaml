@@ -248,6 +248,18 @@ orgs:
         description: RabbitMQ eventing components. Knative Source and Broker.
         has_projects: true
         has_wiki: false
+      net-certmanager:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Integration between knative and certmanager for managing TLS certs automatically.
+        has_projects: true
+        has_wiki: false
+      net-contour:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: A Knative ingress controller for Project Contour
+        has_projects: true
+        has_wiki: false
       net-http01:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -327,6 +339,8 @@ orgs:
           build-spike: admin
           eventing-kafka: admin
           eventing-rabbitmq: admin
+          net-certmanager: admin
+          net-contour: admin
           net-http01: admin
           sample-controller: admin
           sample-source: admin
