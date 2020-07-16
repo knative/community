@@ -265,6 +265,19 @@ orgs:
         description: An ACME HTTP01 solver for the Knative Certificate CRD.
         has_projects: true
         has_wiki: false
+      net-istio:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: A Knative ingress controller for Istio.
+        has_projects: true
+        has_wiki: false
+      net-kourier:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Purpose-built Knative Ingress implementation using just Envoy
+          with no additional CRDs
+        has_projects: true
+        has_wiki: false
       sample-controller:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -341,6 +354,8 @@ orgs:
           net-certmanager: admin
           net-contour: admin
           net-http01: admin
+          net-istio: admin
+          net-kourier: admin
           sample-controller: admin
           sample-source: admin
         teams:
@@ -430,6 +445,8 @@ orgs:
           net-certmanager: write
           net-contour: write
           net-http01: write
+          net-istio: write
+          net-kourier: write
           sample-controller: write
         teams:
           API Core WG Leads:

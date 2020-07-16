@@ -561,19 +561,6 @@ orgs:
         allow_rebase_merge: false
         has_projects: true
         has_wiki: false
-      net-istio:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: A Knative ingress controller for Istio.
-        has_projects: true
-        has_wiki: false
-      net-kourier:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: Purpose-built Knative Ingress implementation using just Envoy
-          with no additional CRDs
-        has_projects: true
-        has_wiki: false
       networking:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -712,8 +699,6 @@ orgs:
           eventing-contrib: admin
           eventing-operator: admin
           homebrew-client: admin
-          net-istio: admin
-          net-kourier: admin
           networking: admin
           observability: admin
           operator: admin
@@ -832,8 +817,6 @@ orgs:
         privacy: closed
         repos:
           caching: write
-          net-istio: write
-          net-kourier: write
           networking: write
           pkg: write
           serving: write
