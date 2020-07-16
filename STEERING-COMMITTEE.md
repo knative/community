@@ -7,8 +7,7 @@ aliases:
   - /contributing/steering-committee/
 ---
 
-The Knative Steering Committee (KSC) is the ultimate authority for the Knative
-project, and governs all aspects of the project.
+The Knative Steering Committee (KSC) governs all aspects of the project.
 
 The governance of Knative is an open, living document, and will continue to
 evolve as the community and project change. We expect over time we will adapt
@@ -62,10 +61,8 @@ KSC meets every two weeks, or as-needed. Meetings are held online.
 
 Given the private nature of many of these discussions (e.g. privacy, private
 emails to the committee, code of conduct violations, escalations, disputes
-between members, security reports, etc.) meetings are held in private.
-
-Meeting notes are available to members of the knative-dev mailing list (link to
-be added).
+between members, security reports, etc.) most meetings are held in private. 
+However, a Steering meeting open to the public is held on the 3rd Wednesday of each month, and all are welcome to attend.
 
 Questions and proposals for changes to governance are posted as
 [issues in the docs repo](https://github.com/knative/docs/issues), and the KSC
@@ -161,6 +158,17 @@ There are two ways to raise issues to the steering committee for decision:
    access.
 2. Open an issue on a knative repository and indicate that you would like
    attention from the steering committee.
+   
+   
+## Knative Trademark
+
+**Who owns the Knative Trademark?**
+
+Google owns the Knative word and logo trademarks. Given the open nature of Knative, users may freely use the Knative trademark to accurately refer to the project without prior written permission. Google looks to project leadership to keep an eye out for any misuses of the name. If people are concerned whether their use of the Knative mark is acceptable, we urge them to consult their own counsel or project leadership. 
+
+**Is IP assignment within the jurisdiction of Knative Steering?**
+
+No. Knative is an open source project governed under the terms of Google’s CLA. Contributing individuals and companies continue to own all copyrights and patents to their contributions. The CLA just provides Google and downstream users the ability to treat contributions as Apache 2.0-licensed along with the rest of the Knative project.
 
 ---
 
