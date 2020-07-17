@@ -11,17 +11,18 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    - anicolao
     - bsnchan
     - evankanderson
     - google-admin
     - googlebot
     - grantr
-    - isdal
     - knative-prow-robot
     - markusthoemmes
     - mattmoor
     - mbehrendt
     - pmorie
+    - ronavn
     - tcnghia
     - thisisnotapril
     members:
