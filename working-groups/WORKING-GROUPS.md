@@ -83,7 +83,7 @@ API
 | &nbsp;                                                   | Leads             | Company | Profile                                 |
 | -------------------------------------------------------- | ----------------- | ------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore        | VMware  | [mattmoor](https://github.com/mattmoor) |
-| <img width="30px" src="https://github.com/dprotaso.png"> | Dave  Protasowski | Pivotal | [dprotaso](https://github.com/dprotaso) |
+| <img width="30px" src="https://github.com/dprotaso.png"> | Dave  Protasowski | VMware  | [dprotaso](https://github.com/dprotaso) |
 
 ## Client
 
