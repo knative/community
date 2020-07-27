@@ -218,6 +218,8 @@ orgs:
     - zouyee
     - zrob
     repos:
+      # NOTE: If you are adding a repo here, you may also want to grant repo
+      # permissions for one or more teams, in the next section.
       build-spike:
         allow_merge_commit: false
         allow_rebase_merge: false
