@@ -33,6 +33,14 @@ are Kubernetes community supported at the time of the cut. Only the latest patch
 release of the minor version is tested for support. Support for versions prior
 to that are best effort, or by vendors.
 
+Adoption of newer K8s minimum versions will also be on a best-effort basis. When a
+Kubernetes version is released it's availability in downstream distributions is
+often lagging. When these delays affect our planned min K8s version we'll update
+the version table below and make it known in the release's notes.
+
+This principle will be revisited when changes to upstream Kubernetes support 
+policy occur.
+
 ### Knative community support window principle:
 
 We (the community) support the most recent 4 versions of Knative. The term
