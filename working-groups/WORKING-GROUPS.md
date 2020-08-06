@@ -58,7 +58,6 @@ The current working groups are:
 - [Event Delivery](#event-delivery)
 - [Eventing Sources](#eventing-sources)
 - [Networking](#networking)
-- [Observability](#observability)
 - [Operations](#operations)
 - [Productivity](#productivity)
 - [Scaling](#scaling)
@@ -201,22 +200,6 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | <img width="30px" src="https://github.com/tcnghia.png">   | Nghia Tran       | Google  | [tcnghia](https://github.com/tcnghia)     |
 | <img width="30px" src="https://github.com/mdemirhan.png"> | Mustafa Demirhan | Google  | [mdemirhan](https://github.com/mdemirhan) |
 
-## Observability
-
-Logging, monitoring & tracing infrastructure
-
-| Artifact                   | Link                                                                                                                                                                 |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                  |
-| Community Meeting VC       | See the top of the [Meeting notes](https://drive.google.com/open?id=1vWEpjf093Jsih3mKkpIvmWWbUQPxFkcyDxzNH15rQgE)                                                    |
-| Community Meeting Calendar | Every other Thursday, 10:30a-11a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://drive.google.com/open?id=1vWEpjf093Jsih3mKkpIvmWWbUQPxFkcyDxzNH15rQgE)                                                                               |
-| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/10HcpZlI1PbFyzinO6HjfHbzCkBXrqXMy)                                                                              |
-| Slack Channel              | [#observability](https://slack.knative.dev/messages/observability)                                                                                                   |
-
-| &nbsp;                                                    | Leads            | Company | Profile                                   |
-| --------------------------------------------------------- | ---------------- | ------- | ----------------------------------------- |
-| <img width="30px" src="https://github.com/mdemirhan.png"> | Mustafa Demirhan | Google  | [mdemirhan](https://github.com/mdemirhan) |
 
 ## Operations
 
