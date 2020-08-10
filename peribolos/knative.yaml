@@ -782,17 +782,6 @@ orgs:
         - shashwathi
         - eallred-google
         privacy: closed
-      Observability Writers:
-        description: Grants write access to observability-related repositories.
-        privacy: closed
-        repos:
-          observability: write
-        teams:
-          Observability WG Leads:
-            description: The Working Group leads for Observability
-            members:
-            - mdemirhan
-            privacy: closed
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
