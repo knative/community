@@ -9,8 +9,11 @@ type: "docs"
 
 If a feature (especially in alpha stage) is getting no apparent usage and is
 creating mostly busy-work for the community to maintain, the respective working
-group should consider to sunset the respective feature. This needs to be in
-accordance to the
+group should consider to sunset the respective feature. Other cost-benefit-ratio
+considerations can lead to sunsetting of features/APIs too, for example if a
+beta feature turns out to be a serious scalability issue.
+
+This needs to be in accordance to the
 [Knative release principles](RELEASE-VERSIONING-PRINCIPLES.md#api-support-principle)
 so the duration of the following process might vary depending on the state of
 the respective feature.
@@ -58,4 +61,11 @@ decision with the collected data in mind.
 
 If the decision to remove the feature remains, it can now actually be removed.
 This might either be a deprecation notice for Beta and GA feature or a straight
-up deletion of the respective feature for alpha features.
+up deletion of the respective feature for alpha features. The deprecation notice
+should be visible to both operators and users of the system. For example,
+Knative could add a warning notice to the status of entities that use deprecated
+features.
+
+Likewise, the documentation should be updated. Deprecation notices should be put
+up to the respective features and the deletion of a feature should be
+accompanied with a deletion of the relevant documentation.
