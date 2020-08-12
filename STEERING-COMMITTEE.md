@@ -106,9 +106,6 @@ pass with majority of the committee supporting it.
 
 Quorum is considered reached when at least half of the members are present.
 
-In case of extended absence, the organization of the absent member may appoint a
-single delegate from the same company during the absence.
-
 ## Raising issues to the steering committee
 
 There are two ways to raise issues to the steering committee for decision:
