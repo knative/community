@@ -67,8 +67,8 @@ between members, security reports, etc.) meetings are held in private.
 Meeting notes are available to members of the knative-dev mailing list (link to
 be added).
 
-Questions and proposals for changes to governance are posted as
-[issues in the docs repo](https://github.com/knative/docs/issues), and the KSC
+Questions and proposals for changes to governance are posted as [issues in the
+community repo](https://github.com/knative/community/issues), and the KSC
 invites your feedback there. See [Getting in touch](#getting-in-touch) for other
 options.
 
