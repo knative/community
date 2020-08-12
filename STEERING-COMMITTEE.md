@@ -212,7 +212,7 @@ representation discussed below. This is the same process used for TOC elections.
 ### Limitations on Company Representation
 
 No more than two seats may be held by employees of the same organization (or
-consortium, in the case of companies owning each other).  Additionally, the two
+conglomerate, in the case of companies owning each other).  Additionally, the two
 End-User seats may not belong to employees of the same organization. If the
 results of an election result in greater than two employees of the same
 organization, the lowest vote getters from any particular employer will be
