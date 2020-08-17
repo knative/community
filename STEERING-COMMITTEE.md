@@ -63,7 +63,9 @@ Given the private nature of some of these discussions (e.g. privacy, private
 emails to the committee, code of conduct violations, escalations, disputes
 between members, security reports, etc.) some meetings are held in private.
 
-Meeting notes are available to members of the [knative-dev mailing list](https://groups.google.com/forum/#!forum/knative-dev).
+Meeting notes are available to members of the [knative-dev mailing
+list](https://groups.google.com/forum/#!forum/knative-dev). Public meetings will
+be recorded and the recordings made available publicly.
 
 Questions and proposals for changes to governance are posted as
 [issues in the docs repo](https://github.com/knative/docs/issues), and the KSC
@@ -77,8 +79,7 @@ Seats on the Steering Committee are held by an individual, not by their employer
 When the Knative project was created, it was assigned strong corporate
 leadership through organizationally appointed steering committee members. As a
 mature project with production adoption, the project has moved to a democratic
-process of selecting new SC members.  This process may change again in the
-future as Knative continues to grow.
+process of electing new KSC members.
 
 The current membership of the committee is currently (listed alphabetically by
 first name):
@@ -119,28 +120,28 @@ There are two ways to raise issues to the steering committee for decision:
 
 ## Composition
 
-The steering committee will have 7 seats.  Five of the seats will be
-Contributing seats, open to any project contributor.  Two of the seats will be
-End-User seats, open only to active end-user community members.  See Candidate
+The steering committee has 7 seats.  Five of the seats will be Contributing
+seats, open to any project contributor.  Two of the seats will be End-User
+seats, open only to active end-user community members.  See Candidate
 Eligibility for definitions of these categories.
 
-Steering Committee members will serve for 2-year terms, staggered in order to
-preserve continuity.  Every year either two or three contributor seats will be
-elected, and one end user seat will be elected.
+Steering Committee members serve for 2-year terms, staggered in order to
+preserve continuity.  Every year either two or three contributor seats are
+elected, and one end user seat is elected.
 
 ## Election Procedure
 
 ### Timeline
 
-Steering Committee elections shall be held in October or November of each year.
-Six weeks or more before the election, the Steering Committee shall appoint
-Election Officer(s) (see below).  Four weeks or more before the election, the
-Election Officer(s) will issue a call for nominations, publish the list of
-voters, and open the call for exceptions.  One week before the election the call
-for nominations and exceptions will be closed.  The election will be open for
-voting not less than two weeks and not more than four.  The results of the
-election shall be announced within one week of closing the election.  New
-Steering Committee members will take office on December 1 of each year.
+Steering Committee elections are held annually. Six weeks or more before the
+election, the Steering Committee will appoint Election Officer(s) (see below).
+Four weeks or more before the election, the Election Officer(s) will issue a
+call for nominations, publish the list of voters, and open the call for
+exceptions.  One week before the election the call for nominations and
+exceptions will be closed.  The election will be open for voting not less than
+two weeks and not more than four.  The results of the election will be
+announced within one week of closing the election.  New Steering Committee
+members will take office on December 1 of each year.
 
 ### Election Officer(s)
 
@@ -176,7 +177,7 @@ will then review and determine whether this member should be marked as an
 exception.  All exceptions, and the reasons for them, will be recorded in a log
 that will be available to Steering and the TOC.
 
-All eligible voters will be captured at
+The electoral roll of all eligible voters will be captured at
 knative/community/steering-elections/$YEAR/voters.md and the voters’ guide will
 be captured at knative/community/steering-elections/$YEAR/README.md, similar to
 the kubernetes election process and identical to the TOC election process.
@@ -188,18 +189,18 @@ requirements based on community feedback.
 
 Community members must be eligible to vote in order to stand for election (this
 includes voters who qualify for an exception). Candidates may self-nominate or
-be nominated by another eligible member. The approximate time commitment of a
-Steering member is around 5 hours per week.
+be nominated by another eligible member. There are no term limits for KSC
+members.
 
 To run for a Contributing seat, a candidate must additionally be at least a
 project Member as defined in Roles.md.
 
-To run for an End-User seat, a candidate must be employed by, or own, an
-organization that does not sell products or services derived from Knative.
-Staff with in-house Knative deployments, as well as application developers who
-create applications that run on Knative, are eligible (and encouraged to run)
-for these seats.  Additionally, the candidate must participate in the
-knative-users mailing list and/or community-facing Knative Slack channels.
+To run for an End-User seat, a candidate must be employed by an organization
+that does not sell products or services derived from Knative. Staff with
+in-house Knative deployments, as well as application developers who create
+applications that run on Knative, are eligible (and encouraged to run) for these
+seats.  Additionally, the candidate must participate in the knative-users
+mailing list and/or community-facing Knative Slack channels.
 
 ### Voting Procedure
 
@@ -237,26 +238,27 @@ will continue until the seat is filled.
 In case this fails to fill the seat, a special election for that position will
 be held as soon as possible, unless the regular SC election is less than 7 weeks
 away.  Eligible voters from the most recent election will vote in the special
-election (ie: eligibility will not be redetermined at the time of the special
-election). Any replacement SC member will serve out the remainder of the term
+election. Eligibility will not be redetermined at the time of the special
+election. Any replacement SC member will serve out the remainder of the term
 for the person they are replacing, regardless of the length of that remainder.
 
 ## Transition
 
 In order to transition from the original, organization-appointed Steering
-Committee structure, elections will be phased in over 14 months.
+Committee structure (the "bootstrap" committee), elections will be phased in
+over 14 months.
 
 In October 2020, four positions will be elected, including three Contributing
-seats and one End-User seat.  One Google, one Red Hat/IBM, and one VMWare seat
-will be retained from the current Steering Committee.
+seats and one End-User seat. One Google, one IBM, and one VMWare seat will be
+retained from the current Steering Committee.
 
-In October or November 2021, the three "old SC" seats will be replaced by
+In October or November 2021, the three remaining "bootstrap SC" seats will be replaced by
 elected seats (two Contributing and one End-User).
 
 ## Changes to the charter
 
-Changes to the KSC charter may be proposed via a Pull Request on the charter
-itself. Amendments are accepted with majority consent of the committee.
+Changes to the KSC charter may be proposed via a PR on the charter itself.
+Amendments are accepted with majority consent of the committee.
 
 Proposals and amendments to the charter are available for at least a period of
 one week for comments and questions before a vote will occur.
