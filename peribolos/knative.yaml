@@ -777,7 +777,6 @@ orgs:
         - andrew-su
         - nak3
         - ZhiminXiang
-        - mdemirhan
         - lindydonna
         - k4leung4
         - jessiezcc
@@ -838,5 +837,6 @@ orgs:
             description: The Working Group leads for Networking
             members:
             - tcnghia
-            - mdemirhan
+            - nak3
+            - ZhiminXiang
             privacy: closed
