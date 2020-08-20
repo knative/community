@@ -214,6 +214,10 @@ approver in an OWNERS file:
 
 * Approve code contributions for acceptance.
 
+Approvers are also expected to participate in community contact rotations to
+support users and keep test quality high, as well as release leads rotation to
+shepherd Knative releases.
+
 # Working Group Leadership Roles
 
 We differentiate here between two key roles, WG Execution Lead and WG Technical
