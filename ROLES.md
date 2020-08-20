@@ -216,7 +216,7 @@ approver in an OWNERS file:
 
 Approvers are also expected to participate in community contact rotations
 ([Serving](
-https://github.com/knative/serving/blob/master/support/COMMUNITY_CONTACTS.md),
+https://github.com/knative/serving/blob/master/support/COMMUNITY_CONTACTS.md)
 or [Eventing](
 https://github.com/knative/eventing/blob/master/support/COMMUNITY_CONTACTS.md))
 to support users and keep test quality high, as well as release leads
