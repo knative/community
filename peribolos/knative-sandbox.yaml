@@ -421,7 +421,8 @@ orgs:
         - csantanapr
         - josephburnett
         - aslom
-        - mdemirhan
+        - nak3
+        - ZhiminXiang
         - vaikas
         - k4leung4
         - chaodaiG
@@ -474,6 +475,7 @@ orgs:
           Networking WG Leads:
             description: The Working Group leads for Networking
             members:
+            - nak3
             - tcnghia
-            - mdemirhan
+            - ZhiminXiang
             privacy: closed
