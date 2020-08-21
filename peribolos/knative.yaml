@@ -494,6 +494,14 @@ orgs:
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
+      .github:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        # See also: https://github.blog/changelog/2019-02-21-organization-wide-community-health-files/
+        # See also: https://docs.github.com/en/actions/configuring-and-managing-workflows/sharing-workflow-templates-within-your-organization
+        description: "Repository for sharing org-wide Github metadata and workflow templates."
+        has_projects: true
+        has_wiki: false
       build:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -695,6 +703,8 @@ orgs:
           general project administration.
         privacy: closed
         repos:
+          # All repos should be listed here!
+          .github: admin
           build: admin
           build-templates: admin
           caching: admin
@@ -804,6 +814,7 @@ orgs:
         description: Grants write access to productivity-related repositories.
         privacy: closed
         repos:
+          .github: write
           test-infra: write
         teams:
           Productivity WG Leads:
