@@ -364,6 +364,7 @@ orgs:
           build-spike: admin
           discovery: admin
           eventing-kafka: admin
+          eventing-kafka-broker: admin
           eventing-rabbitmq: admin
           net-certmanager: admin
           net-contour: admin
