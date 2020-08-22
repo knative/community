@@ -102,9 +102,8 @@ following resources are available for you:
 
 - [Knative Users](https://groups.google.com/forum/#!forum/knative-users)
 - [Knative Developers](https://groups.google.com/forum/#!forum/knative-dev)
-
-For contributors to Knative, we also have
-[Knative Slack](./SLACK-GUIDELINES.md).
+- [Knative Slack](./SLACK-GUIDELINES.md). Ping @serving-help or @eventing-help
+  if you run into issues using Knative Serving or Eventing.
 
 ---
 
