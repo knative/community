@@ -10,7 +10,7 @@ With that said, it can be useful to have a list of when future releases will hap
 | 0.18    | 2020-09-29 |
 | 0.19    | 2020-11-10 |
 | 0.20    | 2020-01-05 ** Moved by 2 weeks for end of year holidays** |
-| 0.21    | 2020-02-02 |
-| 0.22    | 2020-03-16 |
-| 0.23    | 2020-04-27 |
-| 0.24    | 2020-06-08 |
+| 0.21    | 2020-02-16 |
+| 0.22    | 2020-03-30 |
+| 0.23    | 2020-05-11 |
+| 0.24    | 2020-06-22 |
