@@ -64,22 +64,18 @@ emails to the committee, code of conduct violations, escalations, disputes
 between members, security reports, etc.) some meetings are held in private.
 
 Meeting notes are available to members of the [knative-dev mailing
-list](https://groups.google.com/forum/#!forum/knative-dev). Public meetings will
+list](https://groups.google.com/forum/#!forum/knative-dev) (note: these are
+accessible to members of the knative-users list as well). Public meetings will
 be recorded and the recordings made available publicly.
 
-Questions and proposals for changes to governance are posted as
-[issues in the docs repo](https://github.com/knative/docs/issues), and the KSC
-invites your feedback there. See [Raising Issues](#raising-issue-to-the-steering-committee) for other
-options.
+Questions and proposals for changes to governance are posted as [issues in the
+community repo](https://github.com/knative/community/issues), and the KSC
+invites your feedback there. See [Raising
+Issues](#raising-issue-to-the-steering-committee) for other options.
 
 ## Committee members
 
 Seats on the Steering Committee are held by an individual, not by their employer.
-
-When the Knative project was created, it was assigned strong corporate
-leadership through organizationally appointed steering committee members. As a
-mature project with production adoption, the project has moved to a democratic
-process of electing new KSC members.
 
 The current membership of the committee is currently (listed alphabetically by
 first name):
@@ -103,7 +99,7 @@ first name):
 The steering committee desires to always reach consensus.
 
 Decisions are made in meetings when a quorum of the members are present and may
-pass with majority of the committee supporting it.
+pass with at least half the members of the committee supporting it.
 
 Quorum is considered reached when at least half of the members are present.
 
@@ -120,10 +116,10 @@ There are two ways to raise issues to the steering committee for decision:
 
 ## Composition
 
-The steering committee has 7 seats.  Five of the seats will be Contributing
-seats, open to any project contributor.  Two of the seats will be End-User
-seats, open only to active end-user community members.  See Candidate
-Eligibility for definitions of these categories.
+The steering committee has 7 seats.  Five of the seats are Contributing
+seats, open to any project contributor.  Two of the seats are End-User
+seats, open only to active end-user community members.  See [candidate
+eligibility](#candidate-eligibility) for definitions of these categories.
 
 Steering Committee members serve for 2-year terms, staggered in order to
 preserve continuity.  Every year either two or three contributor seats are
@@ -148,8 +144,9 @@ members will take office on December 1 of each year.
 Six weeks or more before the election, the Steering Committee will appoint
 between one and three Election Officer(s) to administer the election.  Elections
 Officers will be Knative community members in good standing who are eligible to
-vote, are not running for Steering in that election, and can make a public
-promise of impartiality.  They will be responsible for:
+vote, are not running for Steering in that election, who are not currently part
+of the Steering Committee and can make a public promise of impartiality.  They
+will be responsible for:
 
 * Making all announcements associated with the election
 * Preparing and distributing electronic ballots
@@ -166,21 +163,23 @@ design docs, commenting on design docs, helping people on slack, participating
 in working groups, and other efforts that help advance Knative the project.
 
 [This
-dashboard]((https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year)
+dashboard](https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year)
 shows only GitHub based contributions and does not capture all the contributions
 we value. We expect this metric not to capture everyone who should be eligible
 to vote. If a community member has had significant contributions over the past
 year but is not captured in the [stats.knative.dev
 dashboard](https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year),
 they will be able to submit an exception form to the Elections Officer(s) who
-will then review and determine whether this member should be marked as an
-exception.  All exceptions, and the reasons for them, will be recorded in a log
-that will be available to Steering and the TOC.
+will then review and determine whether this member should be eligible to vote.
+All exceptions, and the reasons for them, will be recorded in a log that will be
+available to Steering and the TOC.
 
 The electoral roll of all eligible voters will be captured at
 knative/community/steering-elections/$YEAR/voters.md and the voters’ guide will
 be captured at knative/community/steering-elections/$YEAR/README.md, similar to
-the kubernetes election process and identical to the TOC election process.
+the [kubernetes election
+process](https://github.com/kubernetes/steering/blob/master/elections.md) and
+identical to the TOC election process.
 
 We are committed to an inclusive process and will adapt future eligibility
 requirements based on community feedback.
@@ -193,7 +192,7 @@ be nominated by another eligible member. There are no term limits for KSC
 members.
 
 To run for a Contributing seat, a candidate must additionally be at least a
-project Member as defined in Roles.md.
+project Member as defined in [ROLES.md](https://github.com/knative/community/blob/master/ROLES.md).
 
 To run for an End-User seat, a candidate must be employed by an organization
 that does not sell products or services derived from Knative. Staff with
