@@ -450,6 +450,7 @@ orgs:
         privacy: closed
         repos:
           .github: write
+          downstream-test-go: write
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
