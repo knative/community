@@ -301,6 +301,12 @@ orgs:
         description: A template project for writing your own Knative eventing source.
         has_projects: true
         has_wiki: false
+      wg-repository:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "Template for WG-owned repositories."
+        has_projects: true
+        has_wiki: false
     teams:
       Client Writers:
         description: Grants write access to client-related repositories.
@@ -373,6 +379,7 @@ orgs:
           net-kourier: admin
           sample-controller: admin
           sample-source: admin
+          wg-repository: admin
         teams:
           Knative Robots:
             description: Contains robots and only robots.
