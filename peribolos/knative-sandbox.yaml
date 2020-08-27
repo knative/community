@@ -379,6 +379,7 @@ orgs:
           net-kourier: admin
           sample-controller: admin
           sample-source: admin
+          wg-repository: admin
         teams:
           Knative Robots:
             description: Contains robots and only robots.
