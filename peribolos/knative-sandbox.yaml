@@ -232,7 +232,7 @@ orgs:
       async-component:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: "Add on component to enable asynchronous service requests on Knative Services"
+        description: "Add-on component to enable asynchronous service requests to Knative Services"
         has_projects: true
         has_wiki: false
       build-spike:
