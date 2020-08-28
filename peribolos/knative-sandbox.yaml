@@ -229,6 +229,12 @@ orgs:
         description: "Repository for sharing org-wide Github metadata and workflow templates."
         has_projects: true
         has_wiki: false
+      async-component:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "Add-on component to enable asynchronous service requests to Knative Services"
+        has_projects: true
+        has_wiki: false
       build-spike:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -374,6 +380,7 @@ orgs:
         repos:
           # All repos should be listed here!
           .github: admin
+          async-component: admin
           build-spike: admin
           discovery: admin
           downstream-test-go: admin
@@ -476,6 +483,7 @@ orgs:
           net-istio: write
           net-kourier: write
           sample-controller: write
+          async-component: write
         teams:
           API Core WG Leads:
             description: The Working Group leads for Serving API Core
