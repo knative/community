@@ -374,6 +374,7 @@ orgs:
         repos:
           # All repos should be listed here!
           .github: admin
+          async-component: admin
           build-spike: admin
           discovery: admin
           eventing-kafka: admin
