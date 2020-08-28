@@ -241,6 +241,12 @@ orgs:
         description: "Enable interactions with a cluster and its resources: built-in types, CRDs and COs."
         has_projects: true
         has_wiki: false
+      downstream-test-go:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: A Github Action for Knative to test downstream repos upgradability from upstream repos.
+        has_projects: true
+        has_wiki: false
       eventing-kafka:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -370,6 +376,7 @@ orgs:
           .github: admin
           build-spike: admin
           discovery: admin
+          downstream-test-go: admin
           eventing-kafka: admin
           eventing-kafka-broker: admin
           eventing-rabbitmq: admin
@@ -451,6 +458,7 @@ orgs:
         privacy: closed
         repos:
           .github: write
+          downstream-test-go: write
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
