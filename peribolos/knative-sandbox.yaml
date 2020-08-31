@@ -474,6 +474,19 @@ orgs:
             - chizhg
             - chaodaiG
             privacy: closed
+      GitHub Actions Effort:
+        description: Grants admin rights to github actions related repositories.
+        privacy: closed
+        repos:
+          .github: admin
+          downstream-test-go: admin
+        teams:
+          Git Hub Action Leads:
+            description: The leads for GitHub Actions for Knative
+            members:
+            - n3wscott
+            - mattmoor
+            privacy: closed
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
