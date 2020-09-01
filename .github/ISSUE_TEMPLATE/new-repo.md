@@ -19,18 +19,42 @@ Purpose (Description):
 
 Sponsoring WG:
 
-## Actions to fulfil
+## Actions to fulfill
 
 This area is used for the TOC to track the [repo creation
 process](/mechanics/CREATING-A-SANDBOX-REPO.md)
 
-- [ ] Create a new repo in Github UI, with "Apache License 2.0"
-- [ ] Create an OWNERS and README.md file
-- [ ] Add entries in `/peribolos/knative-sandbox.yaml`
-- [ ] (golang) [Add aliases](https://github.com/knative/website) for
-  `knative.dev`
+
+- [ ] Add this issue to the [TOC project board](https://github.com/orgs/knative/projects/9) for review.
+
+- [ ] Send a PR adding entries for this repo in `/peribolos/knative-sandbox.yaml`
+  - [ ] Add the repository and a description.
+  - [ ] Grant `Knative Admin` the `admin` privilege.
+  - [ ] Grant the sponsoring WG the `write` privilege.
+
+_Once the TOC has approved the above, it will merge and Peribolos will create an empty repository._
+
+- [ ] (golang) Send a PR to add aliases for `knative.dev/$REPONAME` import paths ([sample](https://github.com/knative/website/pull/187)).
+
+- [ ] Have a lead from the sponsoring WG bootstrap the Git repository by pushing an
+  appropriate "template" repository ([basic](https://github.com/knative-sandbox/wg-repository),
+  [sample-controller](https://github.com/knative-sandbox/sample-controller),
+  [sample-source](https://github.com/knative-sandbox/sample-source)) to the new repository as
+  a git remote.  For example:
+
+  ```shell
+    git clone https://github.com/knative-sandbox/sample-controller.git
+    cd sample-controller
+    git remote add newrepo https://github.com/knative-sandbox/$REPONAME.git
+    git push newrepo master
+  ```
+
 - [ ] Set up [test-infra](https://github.com/knative/test-infra) following the
   docs linked at the beginning.
-- [ ] Create a PR with a `CODE-OF-CONDUCT.md` to verify Prow.
-- [ ] Once Prow is enabled and PR checks are passing, add branch protection rules.
+
+- [ ] Create a sample PR to verify Prow (e.g. edit the boilerplate README)
+
+_Once Prow has been verified._
+
+- [ ] Have a member of the TOC enable branch protections so that `tide` is a required presubmit check. 
 
