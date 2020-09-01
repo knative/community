@@ -474,6 +474,20 @@ orgs:
             - chizhg
             - chaodaiG
             privacy: closed
+      GitHub Actions Effort:
+        # The maintainers of the GitHub Actions for Knative effort need to
+        # create releases to allow the versioning control used by actions work.
+        # At the moment this is not automated so granting admin rights to the
+        # set of developers on the actions. This can be removed when we can
+        # automate the releasing of actions.
+        description: Grants admin rights to github actions related repositories.
+        privacy: closed
+        repos:
+          .github: admin
+          downstream-test-go: admin
+        members:
+        - n3wscott
+        - mattmoor
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
