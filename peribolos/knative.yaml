@@ -775,32 +775,33 @@ orgs:
         - mattmoor
         - evankanderson
         members:
-        - tanzeeb
-        - mikehelmick
-        - rhuss
-        - cppforlife
-        - ImJasonH
         - Harwayne
-        - julz
-        - vagababov
-        - igsong
-        - dwnusbaum
-        - csantanapr
-        - josephburnett
-        - sixolet
-        - aslom
-        - andrew-su
-        - nak3
+        - ImJasonH
         - ZhiminXiang
-        - lindydonna
-        - k4leung4
-        - jessiezcc
-        - dgerd
-        - chaodaiG
         - akashrv
-        - vaikas
-        - shashwathi
+        - andrew-su
+        - aslom
+        - chaodaiG
+        - cppforlife
+        - csantanapr
+        - devguyio
+        - dgerd
+        - dwnusbaum
         - eallred-google
+        - igsong
+        - jessiezcc
+        - josephburnett
+        - julz
+        - k4leung4
+        - lindydonna
+        - mikehelmick
+        - nak3
+        - rhuss
+        - shashwathi
+        - sixolet
+        - tanzeeb
+        - vagababov
+        - vaikas
         privacy: closed
       Operations Writers:
         description: Grants write access to operations-related repositories.
