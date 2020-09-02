@@ -1,3 +1,12 @@
+---
+title: "Security Policy"
+linkTitle: "Security policy"
+weight: 10
+type: "docs"
+aliases:
+  - /contributing/security-policy/
+---
+
 # Introduction
 
 Security is core to our values, and we value the input of developers, operators,
