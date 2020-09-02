@@ -38,7 +38,6 @@ the way we run this committee, based on feedback from the community.
    disposition of those resources.
 1. Manage the Knative brand and decide which things can be called "Knative" and
    how that mark can be used in relation to other efforts or vendors.
-1. Confirm/reject nominations to the Technical Oversight Committee.
 1. Receive and handle reports about [code of conduct](./CODE-OF-CONDUCT.md)
    violations and maintain confidentiality.
 1. Receive security reports; work with the appropriate technical leads to accept
@@ -189,7 +188,8 @@ requirements based on community feedback.
 Community members must be eligible to vote in order to stand for election (this
 includes voters who qualify for an exception). Candidates may self-nominate or
 be nominated by another eligible member. There are no term limits for KSC
-members.
+members. Nothing prevents a qualified member from serving on both the TOC and SC
+simultaneously.
 
 To run for a Contributing seat, a candidate must additionally be at least a
 project Member as defined in [ROLES.md](https://github.com/knative/community/blob/master/ROLES.md).
@@ -261,6 +261,18 @@ Amendments are accepted with majority consent of the committee.
 
 Proposals and amendments to the charter are available for at least a period of
 one week for comments and questions before a vote will occur.
+
+## Authority, Facilitation, and Decision Making in Knative
+
+Ideally most decisions will be made at the lowest possible level within the
+project: within individual working groups. When this is not possible for
+technical decisions, the TOC can help facilitate a conversation to work through
+the contended issue. When facilitation by the TOC does not resolve the contended
+issue, the Steering Committee can help facilitate. When facilitation by the SC
+does not resolve the contention, the SC may have to make a decision.
+
+Note that if the SC is called to resolve contended decisions regularly, it is a
+symptom of a larger in the community that will need to be addressed.
 
 ---
 
