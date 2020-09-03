@@ -305,6 +305,12 @@ orgs:
           with no additional CRDs
         has_projects: true
         has_wiki: false
+      reconciler-test:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Behaviour driven reconciler testing framework.
+        has_projects: true
+        has_wiki: false
       sample-controller:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -354,6 +360,7 @@ orgs:
           eventing-rabbitmq: write
           sample-source: write
           discovery: write
+          reconciler-test: write
         teams:
           Delivery WG Leads:
             description: The Working Group leads for Event Delivery
@@ -395,6 +402,7 @@ orgs:
           net-http01: admin
           net-istio: admin
           net-kourier: admin
+          reconciler-test: admin
           sample-controller: admin
           sample-source: admin
           wg-repository: admin
@@ -501,6 +509,7 @@ orgs:
           net-kourier: write
           sample-controller: write
           async-component: write
+          reconciler-test: write
         teams:
           API Core WG Leads:
             description: The Working Group leads for Serving API Core
