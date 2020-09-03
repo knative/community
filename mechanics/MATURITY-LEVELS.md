@@ -1,11 +1,7 @@
 # Knative Migration-To-Core Process
 
-Status: Migrating to GitHub
-
-Author: Evan Anderson
-
-Proposal: Define a maturity model for projects in the knative-sandbox (broader
-community) or elsewhere to graduate into
+This document provides a maturity model for projects in the knative-sandbox
+(broader community) or elsewhere to graduate into
 [the Knative core](https://docs.google.com/document/d/1Jj9Kw5wmsqbal0GHabl0OG9xnOzKqbCxdkYak9QzlSk/edit#),
 if appropriate. Note that projects may not map 1:1 with repos, and projects may
 even be hierarchical (for example, the "eventing" project includes "eventing
