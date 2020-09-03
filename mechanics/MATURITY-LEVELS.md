@@ -1,9 +1,11 @@
 # Knative Migration-To-Core Process
 
-This document provides a maturity model for projects in the knative-sandbox
-(broader community) or elsewhere to graduate into
-[the Knative core](https://docs.google.com/document/d/1Jj9Kw5wmsqbal0GHabl0OG9xnOzKqbCxdkYak9QzlSk/edit#),
-if appropriate. Note that projects may not map 1:1 with repos, and projects may
+This document provides a maturity model for projects in the Knative community.
+This includes projects in knative-sandbox (broader community) or as well as
+projects in other GitHub organizations which wish to participate in the
+community process. It also defines a process for
+[migrating community projects into the Knative core](#migration-to-core), if
+appropriate. Note that projects may not map 1:1 with repos, and projects may
 even be hierarchical (for example, the "eventing" project includes "eventing
 API", "eventing delivery" and "eventing sources", each of which has artifacts in
 multiple repositories).
