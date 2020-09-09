@@ -274,6 +274,12 @@ orgs:
         description: RabbitMQ eventing components. Knative Source and Broker.
         has_projects: true
         has_wiki: false
+      kn-plugin-admin:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for managing a Kubernetes based Knative installation.
+        has_projects: true
+        has_wiki: false
       net-certmanager:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -335,6 +341,7 @@ orgs:
         privacy: closed
         repos:
           build-spike: write
+          kn-plugin-admin: write
         teams:
           Client WG Leads:
             description: The Working Group Leads for Client
@@ -397,6 +404,7 @@ orgs:
           eventing-kafka: admin
           eventing-kafka-broker: admin
           eventing-rabbitmq: admin
+          kn-plugin-admin: admin
           net-certmanager: admin
           net-contour: admin
           net-http01: admin
