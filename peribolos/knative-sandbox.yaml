@@ -449,6 +449,7 @@ orgs:
           eventing-github: admin
           eventing-gitlab: admin
           eventing-kafka: admin
+          eventing-kafka-broker: admin
           eventing-natss: admin
           eventing-prometheus: admin
           eventing-rabbitmq: admin
