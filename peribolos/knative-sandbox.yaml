@@ -256,6 +256,42 @@ orgs:
         description: A Github Action for Knative to test downstream repos upgradability from upstream repos.
         has_projects: true
         has_wiki: false
+      eventing-awssqs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: AWS SQS integration with Knative Eventing.
+        has_projects: true
+        has_wiki: false
+      eventing-camel:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Apache Camel integration with Knative Eventing.
+        has_projects: true
+        has_wiki: false
+      eventing-ceph:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Converts Ceph notifications to Cloud Events for use with Knative Eventing.
+        has_projects: true
+        has_wiki: false
+      eventing-couchdb:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: CouchDB integration with Knative Eventing.
+        has_projects: true
+        has_wiki: false
+      eventing-github:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Github integration with Knative Eventing.
+        has_projects: true
+        has_wiki: false
+      eventing-gitlab:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: GitLab integration with Knative Eventing.
+        has_projects: true
+        has_wiki: false
       eventing-kafka:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -266,6 +302,18 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Alternate Kafka Broker implementation.
+        has_projects: true
+        has_wiki: false
+      eventing-natss:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: NATS streaming integration with Knative Eventing.
+        has_projects: true
+        has_wiki: false
+      eventing-prometheus:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Prometheus integration with Knative Eventing.
         has_projects: true
         has_wiki: false
       eventing-rabbitmq:
@@ -363,7 +411,15 @@ orgs:
         description: Grants write access to eventing-related repositories.
         privacy: closed
         repos:
+          eventing-awssqs: write
+          eventing-camel: write
+          eventing-ceph: write
+          eventing-couchdb: write
+          eventing-github: write
+          eventing-gitlab: write
           eventing-kafka: write
+          eventing-natss: write
+          eventing-prometheus: write
           eventing-rabbitmq: write
           sample-source: write
           discovery: write
@@ -401,8 +457,16 @@ orgs:
           build-spike: admin
           discovery: admin
           downstream-test-go: admin
+          eventing-awssqs: admin
+          eventing-camel: admin
+          eventing-ceph: admin
+          eventing-couchdb: admin
+          eventing-github: admin
+          eventing-gitlab: admin
           eventing-kafka: admin
           eventing-kafka-broker: admin
+          eventing-natss: admin
+          eventing-prometheus: admin
           eventing-rabbitmq: admin
           kn-plugin-admin: admin
           net-certmanager: admin
