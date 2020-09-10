@@ -99,7 +99,7 @@ the [Steering committee](./STEERING-COMMITTEE.md).
 | <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers  | Google  | [@grantr](https://github.com/grantr)                 |
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) |
 | <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore     | VMware  | [@mattmoor](https://github.com/mattmoor)             |
-| <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran     | Google  | [@tcnghia](https://github.com/tcnghia)               |
+| <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran     | Microsoft  | [@tcnghia](https://github.com/tcnghia)               |
 
 ---
 
