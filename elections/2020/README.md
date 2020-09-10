@@ -79,7 +79,7 @@ The election will open for voting the morning April 27, 2020 via email and
 end two weeks after on May 11, 2019 at 00:00am UTC. You will receive an email
 to the address on file at the start of the election from
 "Knative Steering Committee (CIVS Poll Supervisor)" `<civs@cs.cornell.edu>`,
-please whitelist if necessary. Detailed
+make sure it passes spam filters if necessary. Detailed
 voting instructions will be addressed in email and the CIVS polling page. Please
 note that email ballots might be unreliable, so you are encouraged to contact
 the steering committee if you do not receive a ballot by May 1.
