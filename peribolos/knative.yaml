@@ -63,7 +63,6 @@ orgs:
     - aryann
     - asaksena
     - asciimike
-    - askmeegs
     - aslakknutsen
     - aslom
     - asyoussef
@@ -90,7 +89,6 @@ orgs:
     - bradhoekstra
     - brendandburns
     - brendandobbs
-    - bretmcg
     - briandorsey
     - BrianMMcClain
     - brianneisler
@@ -235,14 +233,12 @@ orgs:
     - jeremiaswerner
     - jeremyeder
     - jeremyrickard
-    - jessiezcc
     - jfmyers9
     - jihuin
     - jimcurtis
     - jinglundong
     - jjzeng-seattle
     - jkjell
-    - jldec
     - jmprusi
     - joaedwar
     - joek
@@ -254,7 +250,6 @@ orgs:
     - josephburnett
     - joshlong
     - joshrider
-    - joshua-bone
     - josueetcom
     - JRBANCEL
     - jsanda
@@ -741,11 +736,11 @@ orgs:
           Steering Committee:
             description: Knative Steering Committee
             maintainers:
-            - isdal
             - pmorie
             - bsnchan
             - mbehrendt
             - thisisnotapril
+            - ronavn
             privacy: closed
           TBD Admins:
             description: 'TBD role to account for the broad permissions, tracked by: https://github.com/knative/community/issues/91'
