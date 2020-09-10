@@ -27,6 +27,8 @@ process](/mechanics/CREATING-A-SANDBOX-REPO.md)
 
 - [ ] Add this issue to the [TOC project board](https://github.com/orgs/knative/projects/9) for review.
 
+_You may not be able to use the Projects quick menu on this page. In that case, go to the project board and use the **Add cards** interface._
+
 - [ ] Send a PR adding entries for this repo in `/peribolos/knative-sandbox.yaml`
   - [ ] Add the repository and a description.
   - [ ] Grant `Knative Admin` the `admin` privilege.
