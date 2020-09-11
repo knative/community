@@ -764,8 +764,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - yanweiguo
-            - Harwayne
+            - ZhiminXiang
+            - n3wscott
       Knative Milestone Maintainers:
         description: 'DO NOT RENAME - this group is used by Prow to control who can manipulate
           milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
