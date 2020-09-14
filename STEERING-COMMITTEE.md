@@ -7,51 +7,55 @@ aliases:
   - /contributing/steering-committee/
 ---
 
-The Knative Steering Committee (KSC) is the ultimate authority for the Knative
-project, and governs all aspects of the project.
+The Knative Steering Committee (KSC) defines the governance for Knative
+in pursuit of the goal of an open, vibrant project with a productive
+community, a healthy ecosystem of vendors, and most of all satisfied
+customers running their workloads on Knative clusters.
 
 The governance of Knative is an open, living document, and will continue to
 evolve as the community and project change. We expect over time we will adapt
 the way we run this committee, based on feedback from the community.
 
+- [Mission](#mission)
 - [Charter](#charter)
 - [Delegated authority](#delegated-authority)
 - [Committee Meetings](#committee-meetings)
 - [Committee Mechanics](#committee-mechanics)
 - [Committee Members](#committee-members)
-  - [Allocation of seats](#allocation-of-seats)
+  - [Composition](#composition)
+  - [Nomination of representatives](#nomination-of-representatives)
 - [Decision process](#decision-process)
 - [Changes to the charter](#changes-to-the-charter)
 - [Getting in touch](#getting-in-touch)
 
+## Mission
+
+The Steering Committee's mission is to guide the project such that:
+
+1. Knative is a truly open effort which is inclusive and empowers contributors
+1. Knative core is clearly defined with a conformance suite
+1. Trademark usage is monitored and violations addressed
+
 ## Charter
 
-1. Define, evolve, and promote the vision, values, mission, and scope of the
-   project.
-1. Define and evolve project governance structures and policies, including
-   project roles and how collaborators become members, approvers, leads, and/or
-   administrators. This includes policy for the creation and administration of
-   [working groups](./working-groups/WORKING-GROUPS.md) and committees.
-1. Steward, control access, delegate access, and establishes processes
-   regarding, all Knative project resources and has the final say in the
-   disposition of those resources.
-1. Manage the Knative brand and decide which things can be called "Knative" and
-   how that mark can be used in relation to other efforts or vendors.
+1. Define, evolve, and promote the values of the project, and address any
+   [Code of Conduct](./CODE-OF-CONDUCT.md) issues that may arise, and
+   maintain confidentiality.
+1. Review and approve changes to the scope of Knative core.
+1. Administer the marks in a transparent way, and take responsibility for
+   ensuring follow up on trademark violations.
 1. Confirm/reject nominations to the KSC from organizations who are allocated
    seats.
-1. Confirm/reject nominations to the Technical Oversight Committee.
-1. Receive and handle reports about [code of conduct](./CODE-OF-CONDUCT.md)
-   violations and maintain confidentiality.
-1. Receive security reports; work with the appropriate technical leads to accept
-   or reject the report; maintain the private nature of such reports until
-   disclosed to the broader community.
 1. Act as the final escalation point and decider for any disputes, issues,
    clarifications, or escalations within the project scope.
+1. Delegate all other responsibilities, including matters of governance
+   outside the scope of the items laid out above, to competent subcommittees
+   who are empowered to drive innovation and evolve the overall project.
 
 ## Delegated authority
 
-KSC may choose to delegate its authority to other committees as-needed. The
-committee currently recognizes this delegated authority for:
+KSC chooses to delegate as much of its authority as practical to community-run
+subcommittees. The committee currently recognizes this delegated authority for:
 
 - Technical guidance is delegated to the
   [Technical Oversight Committee](./TECH-OVERSIGHT-COMMITTEE.md).
@@ -60,9 +64,8 @@ committee currently recognizes this delegated authority for:
 
 KSC meets every two weeks, or as-needed. Meetings are held online.
 
-Given the private nature of many of these discussions (e.g. privacy, private
-emails to the committee, code of conduct violations, escalations, disputes
-between members, security reports, etc.) meetings are held in private.
+Given the private nature of most of these discussions (e.g. code of conduct violations, 
+escalations, legal concerns, etc.) meetings are held in private.
 
 Meeting notes are available to members of the knative-dev mailing list (link to
 be added).
@@ -76,12 +79,6 @@ options.
 
 Seats on the Steering Committee are held by an organization, not by the
 individual.
-
-The committee was created as the project was in its infancy, in order to tackle
-governance and overall project strategy. Because of the nature of the project
-and funding required, it was decided that strong corporate leadership was
-necessary for the project to ensure velocity. As the project grows and matures
-the KSC will, from time to time, consider if this policy should be changed.
 
 The current membership of the committee is currently (listed alphabetically by
 first name):
@@ -100,19 +97,25 @@ first name):
 \* Open seats have been allocated to the organization per the committee rules,
   but have not been assigned to a member of the organization.
 
-### Allocation of seats
+### Composition
 
-Seats on the steering committee are allocated based upon contribution to the
-project by an organization. No final decision has been made on the exact
-formula.
+As of 2020, the three organizations with the largest demonstrated 
+commitment to the project are Google, IBM/RedHat, and VMWare. For
+2021, a 5 person steering committee should be competent to
+execute its responsibilities, with three seats for Google, one seat
+for IBM/RedHat, and one seat for VMWare.
 
-As the project continues to grow, we expect to add additional seats to the
-committee, ensuring that those contributing to the project are properly
-represented.
+### Nomination of representatives
+
+Seats on the steering committee are allocated based upon lifetime
+contributions to the project by an organization. The intention is
+to ensure that those organizations are committed to the ongoing
+maintenance burden that adding to core implies, and express their
+commitment to the project and the project's users.
 
 - After a seat is allocated to an organization, the organization shall nominate
   a candidate to be confirmed by KSC. The committee reserves the right to not
-  confirm a candidate, in which the organization would need to nominate a new
+  confirm a candidate, in which case the organization would need to nominate a new
   candidate
 - Members of the committee may step down at any time. When a member steps down,
   their organization shall nominate a new candidate.
@@ -133,12 +136,15 @@ represented.
 
 ## Decision process
 
-The steering committee desires to always reach consensus.
+The steering committee desires to always reach consensus. The expectation
+is that lack of consensus requires multiple discussions and possibly public
+review, and that a vote would be an option of last resort.
 
-Decisions are made in meetings when a quorum of the members are present and may
-pass with majority of the committee supporting it.
+Decisions are made in meetings when a quorum of the members are present 
+and consensus is achieved, or in a meeting where all members are present
+and a vote is held and passed by majority.
 
-Quorum is considered reached when at least half of the members are present.
+Quorum is considered reached when a majority of the members are present.
 
 In case of extended absence, the organization of the absent member may appoint a
 single delegate from the same company during the absence.
