@@ -27,8 +27,7 @@ the way we run this committee, based on feedback from the community.
 
 ## Charter
 
-1. Define, evolve, and promote the vision, values, mission, and scope of the
-   project.
+1. Define, evolve, and promote the vision, values, and mission of the project.
 1. Define and evolve project governance structures and policies, including
    project roles and how collaborators become members, approvers, leads, and/or
    administrators. This includes policy for the creation and administration of
@@ -54,22 +53,19 @@ the way we run this committee, based on feedback from the community.
 1. Manage licensing the Knative brand and decide which things can be called
    "Knative" and how that mark can be used in relation to other efforts or
    vendors.
-
 1. Review and approve conformance rules and tests that define brand use
    decisions.
-
 1. Review and approve definition of Knative Core scope.
-
 1. Only the Trademark Committee can redefine its own charter and authority over
    Knative Trademark, conformance, and brand decisions.
 
 ## Trademark Committee Composition
 
-The Trademark Committee is composed of company representatives from
-companies which have substantially contributed to Knative over the last
-year. For the 2020 year, one seat is assigned to each of Google, IBM/RedHat, and
-VMware. The committee shall review this composition at least annualy and update
-these rules.
+The Trademark Committee is composed of company representatives from companies
+which have substantially contributed to Knative over the last year. For the 2020
+year, one seat is assigned to each of Google, IBM/RedHat, and VMware. The
+committee shall review this composition at least annually and update these
+rules.
 
 The Trademark Committee desires to always reach consensus. Additionally, each
 member can veto decisions regarding conformance and scope.
