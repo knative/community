@@ -325,6 +325,12 @@ orgs:
         description: Kn plugin for managing a Kubernetes based Knative installation.
         has_projects: true
         has_wiki: false
+      kperf:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: A benchmarking tool to evaluate Knative performance
+        has_projects: true
+        has_wiki: false
       net-certmanager:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -466,6 +472,7 @@ orgs:
           eventing-prometheus: admin
           eventing-rabbitmq: admin
           kn-plugin-admin: admin
+          kperf: admin
           net-certmanager: admin
           net-contour: admin
           net-http01: admin
@@ -546,6 +553,7 @@ orgs:
         repos:
           .github: write
           downstream-test-go: write
+          kperf: write
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
