@@ -36,8 +36,11 @@ the way we run this committee, based on feedback from the community.
 1. Steward, control access, delegate access, and establishes processes
    regarding, all Knative project resources and has the final say in the
    disposition of those resources.
-1. Manage the Knative brand and decide which things can be called "Knative" and
-   how that mark can be used in relation to other efforts or vendors.
+1. Advise the Trademark Committee on usage of the brand and marks in relation to
+   promoting the community. This advice is non-binding on the Trademark
+   Committee.
+1. Define and evolve the scope of the Knative community and extensions, and the
+   process for migration of sandbox projects into Knative Extensions.
 1. Receive and handle reports about [code of conduct](./CODE-OF-CONDUCT.md)
    violations and maintain confidentiality.
 1. Receive security reports; work with the appropriate technical leads to accept
@@ -45,6 +48,40 @@ the way we run this committee, based on feedback from the community.
    disclosed to the broader community.
 1. Act as the final escalation point and decider for any disputes, issues,
    clarifications, or escalations within the project scope.
+
+## Knative Trademark Committee Charter
+
+1. Manage licensing the Knative brand and decide which things can be called
+   "Knative" and how that mark can be used in relation to other efforts or
+   vendors.
+
+1. Review and approve conformance rules and tests that define brand use
+   decisions.
+
+1. Review and approve definition of Knative Core scope.
+
+1. Only the Trademark Committee can redefine its own charter and authority over
+   Knative Trademark, conformance, and brand decisions.
+
+## Trademark Committee Composition
+
+The Trademark Committee is composed of company representatives from
+companies which have substantially contributed to Knative over the last
+year. For the 2020 year, one seat is assigned to each of Google, IBM/RedHat, and
+VMware. The committee shall review this composition at least annualy and update
+these rules.
+
+The Trademark Committee desires to always reach consensus. Additionally, each
+member can veto decisions regarding conformance and scope.
+
+Decisions are made in meetings when a quorum of the members are present and may
+pass with at least half the members of the committee supporting it.
+
+Quorum is considered reached when at least of the members are present.
+
+In case of extended absence (or removal from the project by the steering
+committee), the organization of the absent member may appoint a single
+replacement delegate from the same company during the absence.
 
 ## Delegated authority
 
