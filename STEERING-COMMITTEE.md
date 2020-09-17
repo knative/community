@@ -50,6 +50,8 @@ the way we run this committee, based on feedback from the community.
 
 ## Knative Trademark Committee Charter
 
+NOTE: trademark committee section will be moved to a distinct md file before merge.
+
 1. Manage licensing the Knative brand and decide which things can be called
    "Knative" and how that mark can be used in relation to other efforts or
    vendors.
@@ -59,7 +61,7 @@ the way we run this committee, based on feedback from the community.
 1. Only the Trademark Committee can redefine its own charter and authority over
    Knative Trademark, conformance, and brand decisions.
 
-## Trademark Committee Composition
+### Trademark Committee Composition
 
 The Trademark Committee is composed of company representatives from companies
 which have substantially contributed to Knative over the last year. For the 2020
@@ -78,6 +80,23 @@ Quorum is considered reached when at least of the members are present.
 In case of extended absence (or removal from the project by the steering
 committee), the organization of the absent member may appoint a single
 replacement delegate from the same company during the absence.
+
+### Maintaining the Trademark Committee
+
+The Trademark Committee membership is refreshed annually on the same timeline as
+the Steering Committee elections (during the month of October).
+
+Membership in the committee is determined by counting the easily countable
+contributions over the last year. Not all contributions are easy to count and
+many significant contributions are hard to count. There will be an exception
+process that allows vendors to articulate why they should receive consideration
+for membership on the Trademark Committee.
+
+The current Trademark Committee membership will consider easily countable
+contributions and exception requests when determining the Trademark Committee
+membership for the next year.
+
+NOTE: trademark committee section ends here
 
 ## Delegated authority
 
