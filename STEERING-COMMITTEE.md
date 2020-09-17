@@ -81,10 +81,12 @@ In case of extended absence (or removal from the project by the steering
 committee), the organization of the absent member may appoint a single
 replacement delegate from the same company during the absence.
 
-### Maintaining the Trademark Committee
+#### Maintaining the Trademark Committee
 
 The Trademark Committee membership is refreshed annually on the same timeline as
-the Steering Committee elections (during the month of October).
+the Steering Committee elections (during the month of October). The Trademark
+Committee's size is unbounded and may grow or shrink depending on the activity
+in the project in the year prior to each refresh.
 
 Membership in the committee is determined by counting the easily countable
 contributions over the last year. Not all contributions are easy to count and
