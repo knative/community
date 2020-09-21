@@ -20,11 +20,12 @@ reporting vulnerabilities, as well as what you can expect from us in return.
 
 When working with us according to this policy, you can expect us to:
 
-- Extend Safe Harbor for your vulnerability research that is related to this
-  policy;
+- Extend [Safe Harbor](#safe-harbor) for your vulnerability research that is
+  related to this policy;
 - Work with you to understand and validate your report, including a timely
   initial response to the submission;
-- Work to remediate discovered vulnerabilities in a timely manner;
+- Work to remediate discovered vulnerabilities in
+  [supported versions](#scope-and-supported-versions) in a timely manner;
 - Publicly disclose accepted vulnerabilities in a timely manner; and
 - Recognize your contribution to improving our security if you are the first to
   report a unique vulnerability, and your report triggers a code or
@@ -39,8 +40,10 @@ To encourage vulnerability research and to avoid any confusion between
 good-faith hacking and malicious attack, we ask that you:
 
 - Play by the rules. This includes following this policy, as well as any other
-  relevant agreements. If there is any inconsistency between this policy and any
-  other relevant terms, the terms of this policy will prevail;
+  relevant agreements, particularly the Knative
+  [Code of Conduct](https://knative.dev/community/contributing/code-of-conduct/).
+  If there is any inconsistency between this policy and any other relevant
+  terms, the terms of this policy will prevail;
 - Report any vulnerability you’ve discovered promptly;
 - Avoid violating the privacy of others, disrupting out-of-scope systems,
   destroying data, and/or harming user experience;
@@ -57,7 +60,7 @@ good-faith hacking and malicious attack, we ask that you:
   (PII), Personal Healthcare Information (PHI), credit card data, or proprietary
   information;
 - You should only interact with test accounts and Knative instances you own or
-  with explicit permission from the account holder; and
+  with explicit permission from the owner or account holder; and
 - Do not engage in extortion.
 
 # Safe Harbor
@@ -88,45 +91,31 @@ We (the community) support the 4 most recent minor versions of Knative. For more
 details on what this means, see our
 [release principles](https://knative.dev/community/contributing/mechanics/release-versioning-principles/).
 
-Repos with releases have the releases listed in the Github UI:
+While we encourage you to report vulnerabilities in any Knative repo, at HEAD or
+the tip of any release branch (release-X.Y), we commit to patching
+vulnerabilities only at HEAD and in currently supported release branches.
 
-TODO: move this list elsewhere?
+Repos with releases have the releases listed in the Github UI, e.g.:
 
 - [serving](https://github.com/knative/serving/releases)
 - [eventing](https://github.com/knative/eventing/releases)
-- [client](https://github.com/knative/client/releases)
-- [operator](https://github.com/knative/operator/releases)
-- [eventing-contrib](https://github.com/knative/eventing-contrib/releases)
-- [docs](https://github.com/knative/docs/releases)
-
-Repos without releases are supported only on the default branch.
-
-TODO: Alternative: Vulnerabilities in repos without releases are in scope only
-if they can be exploited in a release.
-
-TODO: any other repos with releases? TODO: what about knative-sandbox?
 
 No support is provided for archived repos.
 
 # Reporting a Vulnerability
 
 Please email the
-[Knative Security Committee](mailto:knative-security@googlegroups.com) with
-confidential vulnerability reports. Someone from the committee will get back to
-you within 3 business days. Accepted reports will be fixed within 90 calendar
-days via a minor release and/or one or more patch release(s) for minor versions
-that are both affected and supported at that point.
+[Knative Security list](mailto:knative-security@googlegroups.com) with
+confidential vulnerability reports. Someone from the list will get back to you
+within 3 business days. Accepted reports will be fixed within 90 calendar days
+via a minor release and/or one or more patch release(s) for minor versions that
+are both affected and supported at that point.
 
 We ask that you keep reports confidential for the full 90 days, or until the
-committee releases you from the confidentiality, whichever comes first, as we
-coordinate disclosures with Knative partners who may need some time after the
-vulnerability is addressed in Knative in order to update to their systems.
-
-TODO: security isn't a listed working group, receiving security reports is
-described as a function of Steering, and there's not "security committee" listed
-anywhere. So what is Security and who's on it?
-https://knative.dev/community/contributing/working-groups/working-groups/
-https://knative.dev/community/contributing/steering-committee/
+security list members release you from the confidentiality, whichever comes
+first, as we coordinate disclosures with Knative partners who may need some time
+after the vulnerability is addressed in Knative in order to update to their
+systems.
 
 TODO: GPG or other tools for ensuring confidentiality of the report?
 
@@ -136,10 +125,10 @@ Ideal reports are in English and include a description of the vulnerability, a
 proof-of-concept exploit demonstrating the vulnerability, and a statement of
 what this vulnerability puts at risk.
 
-The security committee may make a best-effort attempt to address reports that do
-not meet these standards.
+The security list members may make a best-effort attempt to address reports that
+do not meet these standards.
 
-## Coordinated Vulnerability Disclosure
+## Coordinated Vulnerability Disclosure (CVD)
 
 Knative Security engages with partners, including vendors that host
 Knative-based products, to responsibly disclose newly discovered
@@ -159,17 +148,16 @@ following links:
 Knative itself has no vulnerability report reward program.
 
 Some vulnerability reports may be eligible for rewards through programs from
-vendors, such as those with products based on Knative. Reporters should comply
-with program rules to receive these rewards; the Knative community will not
-submit reports for rewards on the reporter's behalf.
+vendors of
+[Knative-based offerings](https://knative.dev/docs/knative-offerings/).
+Reporters should comply with program rules to receive these rewards; the Knative
+community will not submit reports for rewards on the reporter's behalf.
 
 Vendors with relevant reward programs:
 
 - [Google](https://www.google.com/about/appsecurity/reward-program/index.html)
 
-TODO: others? remove list of reward programs for vendor-neutrality?
-
 # Sources
 
-Adapted from [disclose.io USA core terms](http://
-https://github.com/disclose/terms/blob/master/regional/USA-core-terms.md)
+Adapted from
+[disclose.io USA core terms](https://github.com/disclose/terms/blob/master/regional/USA-core-terms.md)
