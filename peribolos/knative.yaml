@@ -27,6 +27,7 @@ orgs:
     - a-thaler
     - aaron-prindle
     - aaronmeza
+    - aavarghese
     - abayer
     - abrennan89
     - ac360
@@ -42,6 +43,7 @@ orgs:
     - alanfx
     - albertomilan
     - alculquicondor
+    - AlexandraRoatis
     - alexdebrie
     - alexellis
     - aliok
@@ -61,7 +63,6 @@ orgs:
     - aryann
     - asaksena
     - asciimike
-    - askmeegs
     - aslakknutsen
     - aslom
     - asyoussef
@@ -71,6 +72,7 @@ orgs:
     - balopat
     - bbrowning
     - bcle
+    - beemarie
     - bendory
     - Benjamintf1
     - BenTheElder
@@ -87,7 +89,6 @@ orgs:
     - bradhoekstra
     - brendandburns
     - brendandobbs
-    - bretmcg
     - briandorsey
     - BrianMMcClain
     - brianneisler
@@ -152,6 +153,7 @@ orgs:
     - dushyanthsc
     - dussab
     - dwnusbaum
+    - eclipselu
     - efiturri
     - ehankland
     - ekcasey
@@ -232,14 +234,12 @@ orgs:
     - jeremiaswerner
     - jeremyeder
     - jeremyrickard
-    - jessiezcc
     - jfmyers9
     - jihuin
     - jimcurtis
     - jinglundong
     - jjzeng-seattle
     - jkjell
-    - jldec
     - jmprusi
     - joaedwar
     - joek
@@ -251,6 +251,7 @@ orgs:
     - josephburnett
     - joshlong
     - joshrider
+    - joshua-bone
     - josueetcom
     - JRBANCEL
     - jsanda
@@ -305,6 +306,7 @@ orgs:
     - mdemirhan
     - mfine30
     - mgencur
+    - MIBc
     - michaelawyu
     - michaelmarth
     - MichaelWintergerst
@@ -440,6 +442,7 @@ orgs:
     - timothyshelton
     - tliberman
     - tmatsuo
+    - tom24d
     - tommyreddad
     - tomwalter
     - topherbullock
@@ -494,6 +497,14 @@ orgs:
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
+      .github:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        # See also: https://github.blog/changelog/2019-02-21-organization-wide-community-health-files/
+        # See also: https://docs.github.com/en/actions/configuring-and-managing-workflows/sharing-workflow-templates-within-your-organization
+        description: "Repository for sharing org-wide Github metadata and workflow templates."
+        has_projects: true
+        has_wiki: false
       build:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -673,6 +684,8 @@ orgs:
             - lberk
             - akashrv
             - slinkydeveloper
+            - n3wscott
+            - Harwayne
             privacy: closed
           Eventing WG Leads:
             description: The Working Group leads for Eventing
@@ -694,6 +707,8 @@ orgs:
           general project administration.
         privacy: closed
         repos:
+          # All repos should be listed here!
+          .github: admin
           build: admin
           build-templates: admin
           caching: admin
@@ -724,11 +739,11 @@ orgs:
           Steering Committee:
             description: Knative Steering Committee
             maintainers:
-            - isdal
             - pmorie
             - bsnchan
             - mbehrendt
             - thisisnotapril
+            - ronavn
             privacy: closed
           TBD Admins:
             description: 'TBD role to account for the broad permissions, tracked by: https://github.com/knative/community/issues/91'
@@ -747,8 +762,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - yanweiguo
-            - Harwayne
+            - ZhiminXiang
+            - n3wscott
       Knative Milestone Maintainers:
         description: 'DO NOT RENAME - this group is used by Prow to control who can manipulate
           milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
@@ -759,33 +774,33 @@ orgs:
         - mattmoor
         - evankanderson
         members:
-        - tanzeeb
-        - mikehelmick
-        - rhuss
-        - cppforlife
-        - ImJasonH
         - Harwayne
-        - julz
-        - vagababov
-        - igsong
-        - dwnusbaum
-        - csantanapr
-        - josephburnett
-        - sixolet
-        - aslom
-        - andrew-su
-        - nak3
+        - ImJasonH
         - ZhiminXiang
-        - mdemirhan
-        - lindydonna
-        - k4leung4
-        - jessiezcc
-        - dgerd
-        - chaodaiG
         - akashrv
-        - vaikas
-        - shashwathi
+        - andrew-su
+        - aslom
+        - chaodaiG
+        - cppforlife
+        - csantanapr
+        - devguyio
+        - dgerd
+        - dwnusbaum
         - eallred-google
+        - igsong
+        - jessiezcc
+        - josephburnett
+        - julz
+        - k4leung4
+        - lindydonna
+        - mikehelmick
+        - nak3
+        - rhuss
+        - shashwathi
+        - sixolet
+        - tanzeeb
+        - vagababov
+        - vaikas
         privacy: closed
       Operations Writers:
         description: Grants write access to operations-related repositories.
@@ -804,6 +819,7 @@ orgs:
         description: Grants write access to productivity-related repositories.
         privacy: closed
         repos:
+          .github: write
           test-infra: write
         teams:
           Productivity WG Leads:
@@ -837,5 +853,6 @@ orgs:
             description: The Working Group leads for Networking
             members:
             - tcnghia
-            - mdemirhan
+            - nak3
+            - ZhiminXiang
             privacy: closed

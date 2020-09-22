@@ -71,8 +71,8 @@ be recorded and the recordings made available publicly.
 
 Questions and proposals for changes to governance are posted as [issues in the
 community repo](https://github.com/knative/community/issues), and the KSC
-invites your feedback there. See [Raising
-Issues](#raising-issue-to-the-steering-committee) for other options.
+invites your feedback there. See [Getting in touch](#getting-in-touch) for other
+options.
 
 ## Committee members
 
@@ -109,7 +109,7 @@ pass with at least half the members of the committee supporting it.
 
 Quorum is considered reached when at least half of the members are present.
 
-## Raising issues to the steering committee
+## Getting in touch
 
 There are two ways to raise issues to the steering committee for decision:
 
