@@ -17,13 +17,20 @@ the way we run this committee, based on feedback from the community.
 - [Charter](#charter)
 - [Delegated authority](#delegated-authority)
 - [Committee Meetings](#committee-meetings)
-- [Committee Mechanics](#committee-mechanics)
 - [Committee Members](#committee-members)
 - [Decision process](#decision-process)
-- [Raising issues for the SC](#raising-issue-to-the-steering-committee)
+- [Getting in touch](#getting-in-touch)
 - [Elections](#election-procedure)
+  - [Timeline](#timeline)
+  - [Election Officer(s)](#election-officers)
+  - [Eligibility to Vote](#eligibility-to-vote)
+  - [Candidate Eligibility](#candidate-eligibility)
+  - [Voting Procedure](#voting procedure)
+  - [Limitations on Company Representation](#limitations-on-company-representation)
 - [Vacancies](#vacancies)
+- [Transition](#transition)
 - [Changes to the charter](#changes-to-the-charter)
+- [Authority, Facilitation, and Decision Making in Knative](#authority-facilitation-and-decision-making-in-knative)
 
 ## Charter
 
@@ -64,36 +71,37 @@ Given the private nature of some of these discussions (e.g. privacy, private
 emails to the committee, code of conduct violations, escalations, disputes
 between members, security reports, etc.) some meetings are held in private.
 
-Meeting notes are available to members of the [knative-dev mailing
-list](https://groups.google.com/forum/#!forum/knative-dev) (note: these are
-accessible to members of the knative-users list as well). Public meetings will
-be recorded and the recordings made available publicly.
+Meeting notes are available to members of the
+[knative-dev mailing list](https://groups.google.com/forum/#!forum/knative-dev)
+(note: these are accessible to members of the knative-users list as well).
+Public meetings will be recorded and the recordings made available publicly.
 
-Questions and proposals for changes to governance are posted as [issues in the
-community repo](https://github.com/knative/community/issues), and the KSC
-invites your feedback there. See [Getting in touch](#getting-in-touch) for other
-options.
+Questions and proposals for changes to governance are posted as
+[issues in the community repo](https://github.com/knative/community/issues), and
+the KSC invites your feedback there. See [Getting in touch](#getting-in-touch)
+for other options.
 
 ## Committee members
 
-Seats on the Steering Committee are held by an individual, not by their employer.
+Seats on the Steering Committee are held by an individual, not by their
+employer.
 
 The current membership of the committee is currently (listed alphabetically by
 first name):
 
-| &nbsp;                                                     | Member           | Organization | Profile                                      |
-| ---------------------------------------------------------- | ---------------- | ------------ | -------------------------------------------- |
-| <img width="30px" src="https://github.com/anicolao.png"> | Alex Nicolaou      | Google       | [@anicolao](https://github.com/anicolao) |
-| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi      | Google       | [@thisisnotapril](https://github.com/thisisnotapril) |
-| <img width="30px" src="https://github.com/bsnchan.png">    | Brenda Chan      | VMware       | [@bsnchan](https://github.com/bsnchan)       |
-| <img width="30px" src="https://github.com/mbehrendt.png">  | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt)   |
-| <img width="30px" src="https://github.com/pmorie.png">     | Paul Morie       | Red Hat      | [@pmorie](https://github.com/pmorie)         |
-| <img width="30px" src="https://github.com/ronavn.png">      | Ron Avnur      | Google       | [@ronavn](https://github.com/ronavn)           |
-|  | Open \*      | Google       |  |
+| &nbsp;                                                         | Member           | Organization | Profile                                              |
+| -------------------------------------------------------------- | ---------------- | ------------ | ---------------------------------------------------- |
+| <img width="30px" src="https://github.com/anicolao.png">       | Alex Nicolaou    | Google       | [@anicolao](https://github.com/anicolao)             |
+| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi | Google       | [@thisisnotapril](https://github.com/thisisnotapril) |
+| <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan      | VMware       | [@bsnchan](https://github.com/bsnchan)               |
+| <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt)           |
+| <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie       | Red Hat      | [@pmorie](https://github.com/pmorie)                 |
+| <img width="30px" src="https://github.com/ronavn.png">         | Ron Avnur        | Google       | [@ronavn](https://github.com/ronavn)                 |
+|                                                                | Open \*          | Google       |                                                      |
 
-
-\* Open seats have been allocated to the organization per the prior committee rules,
-  but have not been assigned to a member of the organization or replaced with elected seats.
+\* Open seats have been allocated to the organization per the prior committee
+rules, but have not been assigned to a member of the organization or replaced
+with elected seats.
 
 ## Decision process
 
@@ -125,11 +133,12 @@ There are two ways to raise issues to the steering committee for decision:
 The steering committee has 5 seats. These five seats are Contributing seats,
 open to any project contributor. In the future, the steering committe would like
 to add two End-User seats, open only to active end-user community members, once
-the selection criteria have been established.  See [candidate
-eligibility](#candidate-eligibility) for definitions of these categories.
+the selection criteria have been established. See
+[candidate eligibility](#candidate-eligibility) for definitions of these
+categories.
 
 Steering Committee members serve for 2-year terms, staggered in order to
-preserve continuity.  Every year either two or three contributor seats are
+preserve continuity. Every year either two or three contributor seats are
 elected, and one end user seat is elected.
 
 ## Election Procedure
@@ -140,26 +149,26 @@ Steering Committee elections are held annually. Six weeks or more before the
 election, the Steering Committee will appoint Election Officer(s) (see below).
 Four weeks or more before the election, the Election Officer(s) will issue a
 call for nominations, publish the list of voters, and open the call for
-exceptions.  One week before the election the call for nominations and
-exceptions will be closed.  The election will be open for voting not less than
-two weeks and not more than four.  The results of the election will be
-announced within one week of closing the election.  New Steering Committee
-members will take office on December 1 of each year.
+exceptions. One week before the election the call for nominations and exceptions
+will be closed. The election will be open for voting not less than two weeks and
+not more than four. The results of the election will be announced within one
+week of closing the election. New Steering Committee members will take office on
+December 1 of each year.
 
 ### Election Officer(s)
 
 Six weeks or more before the election, the Steering Committee will appoint
-between one and three Election Officer(s) to administer the election.  Elections
+between one and three Election Officer(s) to administer the election. Elections
 Officers will be Knative community members in good standing who are eligible to
 vote, are not running for Steering in that election, who are not currently part
-of the Steering Committee and can make a public promise of impartiality.  They
+of the Steering Committee and can make a public promise of impartiality. They
 will be responsible for:
 
-* Making all announcements associated with the election
-* Preparing and distributing electronic ballots
-* Judging exception requests
-* Assisting candidates in preparing and sharing statements
-* Tallying voting results according to the rules in this charter
+- Making all announcements associated with the election
+- Preparing and distributing electronic ballots
+- Judging exception requests
+- Assisting candidates in preparing and sharing statements
+- Tallying voting results according to the rules in this charter
 
 ### Eligibility to Vote
 
@@ -169,13 +178,12 @@ reviewing and commenting on PRs, opening and commenting on issues, writing
 design docs, commenting on design docs, helping people on slack, participating
 in working groups, and other efforts that help advance Knative the project.
 
-[This
-dashboard](https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year)
+[This dashboard](https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year)
 shows only GitHub based contributions and does not capture all the contributions
 we value. We expect this metric not to capture everyone who should be eligible
 to vote. If a community member has had significant contributions over the past
-year but is not captured in the [stats.knative.dev
-dashboard](https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year),
+year but is not captured in the
+[stats.knative.dev dashboard](https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year),
 they will be able to submit an exception form to the Elections Officer(s) who
 will then review and determine whether this member should be eligible to vote.
 All exceptions, and the reasons for them, will be recorded in a log that will be
@@ -183,10 +191,10 @@ available to Steering and the TOC.
 
 The electoral roll of all eligible voters will be captured at
 knative/community/steering-elections/$YEAR/voters.md and the voters’ guide will
-be captured at knative/community/steering-elections/$YEAR/README.md, similar to
-the [kubernetes election
-process](https://github.com/kubernetes/steering/blob/master/elections.md) and
-identical to the TOC election process.
+be captured at knative/community/steering-elections/$YEAR/README.md,
+similar to the
+[kubernetes election process](https://github.com/kubernetes/steering/blob/master/elections.md)
+and identical to the TOC election process.
 
 We are committed to an inclusive process and will adapt future eligibility
 requirements based on community feedback.
@@ -200,14 +208,15 @@ members. Nothing prevents a qualified member from serving on both the TOC and SC
 simultaneously.
 
 To run for a Contributing seat, a candidate must additionally be at least a
-project Member as defined in [ROLES.md](https://github.com/knative/community/blob/master/ROLES.md).
+project Member as defined in
+[ROLES.md](https://github.com/knative/community/blob/master/ROLES.md).
 
 To run for an End-User seat, a candidate must be employed by an organization
 that does not sell products or services derived from Knative. Staff with
 in-house Knative deployments, as well as application developers who create
 applications that run on Knative, are eligible (and encouraged to run) for these
-seats.  Additionally, the candidate must participate in the knative-users
-mailing list and/or community-facing Knative Slack channels.
+seats. Additionally, the candidate must participate in the knative-users mailing
+list and/or community-facing Knative Slack channels.
 
 ### Voting Procedure
 
@@ -220,7 +229,7 @@ representation discussed below. This is the same process used for TOC elections.
 ### Limitations on Company Representation
 
 No more than two seats may be held by employees of the same organization (or
-conglomerate, in the case of companies owning each other).  Additionally, the two
+conglomerate, in the case of companies owning each other). Additionally, the two
 End-User seats may not belong to employees of the same organization. If the
 results of an election result in greater than two employees of the same
 organization, the lowest vote getters from any particular employer will be
@@ -244,10 +253,10 @@ will continue until the seat is filled.
 
 In case this fails to fill the seat, a special election for that position will
 be held as soon as possible, unless the regular SC election is less than 7 weeks
-away.  Eligible voters from the most recent election will vote in the special
+away. Eligible voters from the most recent election will vote in the special
 election. Eligibility will not be redetermined at the time of the special
-election. Any replacement SC member will serve out the remainder of the term
-for the person they are replacing, regardless of the length of that remainder.
+election. Any replacement SC member will serve out the remainder of the term for
+the person they are replacing, regardless of the length of that remainder.
 
 ## Transition
 
@@ -259,8 +268,8 @@ In October 2020, four positions will be elected, including three Contributing
 seats and one End-User seat. One Google, one IBM/RedHat, and one VMWare seat
 will be retained from the current Steering Committee.
 
-In October or November 2021, the three remaining "bootstrap SC" seats will be replaced by
-elected seats (two Contributing and one End-User).
+In October or November 2021, the three remaining "bootstrap SC" seats will be
+replaced by elected seats (two Contributing and one End-User).
 
 ## Changes to the charter
 
@@ -286,7 +295,9 @@ symptom of a larger problem in the community that will need to be addressed.
 
 Portions of this document are adapted from the
 [Istio Steering Committee](https://github.com/istio/community/blob/master/STEERING-COMMITTEE.md)
-documentation, and other portions are copied from the [Kubernetes Steering Committee](https://github.com/kubernetes/steering/blob/master/elections.md), both of which are licensed under the Apache License 2.0.
+documentation, and other portions are copied from the
+[Kubernetes Steering Committee](https://github.com/kubernetes/steering/blob/master/elections.md),
+both of which are licensed under the Apache License 2.0.
 
 Except as otherwise noted, the content of this page is licensed under the
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/),

@@ -4,9 +4,27 @@ linkTitle: "Trademark committee"
 weight: 50
 type: "docs"
 aliases:
-- /contributing/trademark-committee/
+  - /contributing/trademark-committee/
 ---
 
+The Knative Trademark Committee (KTC) advises the trademark owner on the usage
+and enforcement of the Knative mark. It is a separate body from the
+[Steering Committee](./STEERING-COMMITTEE.md) to better represent the needs of
+vendors and other companies which which to market products in conjuction with
+the Knative mark.
+
+The governance of Knative is an open, living document, and will continue to
+evolve as the community and project change. We expect over time we will adapt
+the way we run this committee, based on feedback from the community.
+
+- [Charter](#charter)
+- [Delegated Authority](#delegated-authority)
+- [Committee Meetings](#committee-meetings)
+- [Committee Members](#committee-members)
+- [Decision Process](#decision-process)
+- [Getting in touch](#getting-in-touch)
+- [Composition](#composition)
+  - [Maintaining the Trademark Committee](#maintaining-the-trademark-committee)
 
 ## Charter
 
@@ -25,6 +43,38 @@ aliases:
 1. Only the Trademark Committee can redefine its own charter, membership, and
    authority over Knative Trademark, conformance, and brand decisions.
 
+## Delegated authority
+
+The Trademark Committee may choose create and delegate its authority to other
+committees as-needed. This may be used (for example) to create sub-committees
+for specific technical or marketing questions related to conformance or joint
+marketing.
+
+## Committee Meetings
+
+The committee meets as-needed. Meetings are held online.
+
+Given the private nature of some of these discussions (e.g. trade secrets, legal
+and compliance concerns, etc.) some meetings are held in private.
+
+Meeting notes are available to members of the
+[knative-dev mailing list](https://groups.google.com/forum/#!forum/knative-dev)
+(note: these are accessible to members of the knative-users list as well).
+Public meetings will be recorded and the recordings made available publicly.
+
+Questions and proposals for changes to governance are posted as
+[issues in the community repo](https://github.com/knative/community/issues), and
+the trademark committee invites your feedback there. See
+[Getting in touch](#getting-in-touch) for other options.
+
+## Committee Members
+
+| Member                   | Organization | Profile |
+| ------------------------ | ------------ | ------- |
+| Unknown - to be selected | Google       | Unknown |
+| Unknown - to be selected | IBM/RedHat   | Unknown |
+| Unknown - to be selected | VMware       | Unknown |
+
 ## Decision process
 
 The Trademark Committee desires to always reach consensus. Additionally, each
@@ -36,32 +86,15 @@ pass with at least half the members of the committee supporting it. Vetoes by
 absent committee members must be presented within 5 business days of a published
 decision.
 
-Quorum is considered reached when at least half of the members are
-present. Quorum may be established over email or electronic chat systems as well
-as via video or in-person meetings.
+Quorum is considered reached when at least half of the members are present.
+Quorum may be established over email or electronic chat systems as well as via
+video or in-person meetings.
 
 In case of extended absence or removal from the project for a code of conduct
 violation, the organization of the absent member may appoint a single
 replacement delegate from the same company during the absence.
 
-## Committee Meetings
-
-The committee meets as-needed. Meetings are held online.
-
-Given the private nature of some of these discussions (e.g. trade secrets, legal
-and compliance concerns, etc.) some meetings are held in private.
-
-Meeting notes are available to members of the [knative-dev mailing
-list](https://groups.google.com/forum/#!forum/knative-dev) (note: these are
-accessible to members of the knative-users list as well). Public meetings will
-be recorded and the recordings made available publicly.
-
-Questions and proposals for changes to governance are posted as [issues in the
-community repo](https://github.com/knative/community/issues), and the trademark
-committee invites your feedback there. See [Raising
-Issues](#raising-issue-to-the-trademark-committee) for other options.
-
-## Raising issues to the steering committee
+## Getting in touch
 
 There are two ways to raise issues to the steering committee for decision:
 
@@ -97,14 +130,13 @@ the Steering Committee elections (during the month of October). The Trademark
 Committee's size is unbounded and may grow or shrink depending on the activity
 in the project in the year prior to each refresh.
 
-Membership in the committee is determined by counting the [easily countable
-contributions over the last
-year](https://knative.teststats.cncf.io/d/5/companies-table?orgId=1&var-period_name=Last%20year&var-metric=contributions). Each
-company which has contributed at least 15% of the total project contributions
-will be eligible to select one representative to the committee. Not all
-contributions are easy to count and many significant contributions are hard to
-count. There will be an exception process that allows vendors to articulate why
-they should receive consideration for membership on the Trademark
+Membership in the committee is determined by counting the
+[easily countable contributions over the last year](https://knative.teststats.cncf.io/d/5/companies-table?orgId=1&var-period_name=Last%20year&var-metric=contributions).
+Each company which has contributed at least 15% of the total project
+contributions will be eligible to select one representative to the committee.
+Not all contributions are easy to count and many significant contributions are
+hard to count. There will be an exception process that allows vendors to
+articulate why they should receive consideration for membership on the Trademark
 Committee. Corporate parents, affiliates, or subsidiares shall be counted as one
 company.
 
