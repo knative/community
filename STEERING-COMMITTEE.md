@@ -48,58 +48,6 @@ the way we run this committee, based on feedback from the community.
 1. Act as the final escalation point and decider for any disputes, issues,
    clarifications, or escalations within the project scope.
 
-## Knative Trademark Committee Charter
-
-NOTE: trademark committee section will be moved to a distinct md file before merge.
-
-1. Manage licensing the Knative brand and decide which things can be called
-   "Knative" and how that mark can be used in relation to other efforts or
-   vendors.
-1. Review and approve conformance rules and tests that define brand use
-   decisions.
-1. Review and approve definition of Knative Core scope.
-1. Only the Trademark Committee can redefine its own charter and authority over
-   Knative Trademark, conformance, and brand decisions.
-
-### Trademark Committee Composition
-
-The Trademark Committee is composed of company representatives from companies
-which have substantially contributed to Knative over the last year. For the 2020
-year, one seat is assigned to each of Google, IBM/RedHat, and VMware. The
-committee shall review this composition at least annually and update these
-rules.
-
-The Trademark Committee desires to always reach consensus. Additionally, each
-member can veto decisions regarding conformance and scope.
-
-Decisions are made in meetings when a quorum of the members are present and may
-pass with at least half the members of the committee supporting it.
-
-Quorum is considered reached when at least of the members are present.
-
-In case of extended absence (or removal from the project by the steering
-committee), the organization of the absent member may appoint a single
-replacement delegate from the same company during the absence.
-
-#### Maintaining the Trademark Committee
-
-The Trademark Committee membership is refreshed annually on the same timeline as
-the Steering Committee elections (during the month of October). The Trademark
-Committee's size is unbounded and may grow or shrink depending on the activity
-in the project in the year prior to each refresh.
-
-Membership in the committee is determined by counting the easily countable
-contributions over the last year. Not all contributions are easy to count and
-many significant contributions are hard to count. There will be an exception
-process that allows vendors to articulate why they should receive consideration
-for membership on the Trademark Committee.
-
-The current Trademark Committee membership will consider easily countable
-contributions and exception requests when determining the Trademark Committee
-membership for the next year.
-
-NOTE: trademark committee section ends here
-
 ## Delegated authority
 
 KSC may choose to delegate its authority to other committees as-needed. The
@@ -151,6 +99,11 @@ first name):
 
 The steering committee desires to always reach consensus.
 
+Decisions requiring a vote include: issuing written policy, amending existing
+written policy, creating, removing, or modifying a working group, all spending,
+hiring, and contracting, official responses to publicly raised issues, or any
+other decisions that at least half the members present decide require a vote
+
 Decisions are made in meetings when a quorum of the members are present and may
 pass with at least half the members of the committee supporting it.
 
@@ -169,9 +122,10 @@ There are two ways to raise issues to the steering committee for decision:
 
 ## Composition
 
-The steering committee has 7 seats.  Five of the seats are Contributing
-seats, open to any project contributor.  Two of the seats are End-User
-seats, open only to active end-user community members.  See [candidate
+The steering committee has 5 seats. These five seats are Contributing seats,
+open to any project contributor. In the future, the steering committe would like
+to add two End-User seats, open only to active end-user community members, once
+the selection criteria have been established.  See [candidate
 eligibility](#candidate-eligibility) for definitions of these categories.
 
 Steering Committee members serve for 2-year terms, staggered in order to
@@ -302,8 +256,8 @@ Committee structure (the "bootstrap" committee), elections will be phased in
 over 14 months.
 
 In October 2020, four positions will be elected, including three Contributing
-seats and one End-User seat. One Google, one IBM, and one VMWare seat will be
-retained from the current Steering Committee.
+seats and one End-User seat. One Google, one IBM/RedHat, and one VMWare seat
+will be retained from the current Steering Committee.
 
 In October or November 2021, the three remaining "bootstrap SC" seats will be replaced by
 elected seats (two Contributing and one End-User).
@@ -326,7 +280,7 @@ issue, the Steering Committee can help facilitate. When facilitation by the SC
 does not resolve the contention, the SC may have to make a decision.
 
 Note that if the SC is called to resolve contended decisions regularly, it is a
-symptom of a larger in the community that will need to be addressed.
+symptom of a larger problem in the community that will need to be addressed.
 
 ---
 
