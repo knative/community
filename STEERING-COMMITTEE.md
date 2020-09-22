@@ -265,7 +265,7 @@ Committee structure (the "bootstrap" committee), elections will be phased in
 over 14 months.
 
 In October 2020, four positions will be elected, including three Contributing
-seats and one End-User seat. One Google, one IBM/RedHat, and one VMWare seat
+seats and one End-User seat. One Google, one IBM/RedHat, and one VMware seat
 will be retained from the current Steering Committee.
 
 In October or November 2021, the three remaining "bootstrap SC" seats will be
