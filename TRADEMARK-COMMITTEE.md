@@ -7,11 +7,11 @@ aliases:
   - /contributing/trademark-committee/
 ---
 
-The Knative Trademark Committee (KTC) advises the trademark owner on the usage
-and enforcement of the Knative mark. It is a separate body from the
-[Steering Committee](./STEERING-COMMITTEE.md) to better represent the needs of
-vendors and other companies which which to market products in conjuction with
-the Knative mark.
+The Knative Trademark Committee (KTC)
+[advises the trademark owner on the usage and enforcement of the Knative mark](./GOVERNANCE.md).
+It is a separate body from the [Steering Committee](./STEERING-COMMITTEE.md) to
+better represent the needs of vendors and other companies which market products
+in conjuction with the Knative mark.
 
 The governance of Knative is an open, living document, and will continue to
 evolve as the community and project change. We expect over time we will adapt

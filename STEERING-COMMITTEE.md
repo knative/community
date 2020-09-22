@@ -7,8 +7,8 @@ aliases:
   - /contributing/steering-committee/
 ---
 
-The Knative Steering Committee (KSC) is the ultimate authority for the Knative
-project, and governs all aspects of the project.
+The Knative Steering Committee (KSC) is
+[responsible for the general health of the Knative community](./GOVERNANCE.md).
 
 The governance of Knative is an open, living document, and will continue to
 evolve as the community and project change. We expect over time we will adapt

@@ -20,14 +20,15 @@ the governance definitions delineated by the KSC.
 The [Knative Steering Committee](./STEERING-COMMITTEE.md) is responsible for the
 general health of the Knative community. Responsibilities include maintaining
 the governance framework, code of conduct, community meetings, communication
-paltforms, and test resources.
+platforms, and test resources.
 
 
 ## Trademarks
 
 The [Knative Trademark Committee](./TRADEMARK-COMMITTEE.md) is responsible for
-managment, licensing, and conformance verification, including the definition of
-what "Knative" is and the definition and rules for usage of derived marks.
+managment, licensing, and conformance verification of the Knative trademark,
+including the definition of what "Knative" is and the definition and rules for
+usage of derived marks.
 
 
 ## Technology and Software Implementation
