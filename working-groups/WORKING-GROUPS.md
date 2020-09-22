@@ -119,7 +119,6 @@ Knative documentation, especially the [Docs](https://github.com/knative/docs/) r
 
 | &nbsp;                                                   | Leads      | Company | Profile                                 |
 | -------------------------------------------------------- | ---------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/richieescarez.png"> | Richie Escarez | Google  | [richieescarez](https://github.com/richieescarez) |
 | <img width="30px" src="https://github.com/abrennan89.png"> | Ashleigh Brennan | Red Hat  | [abrennan89](https://github.com/abrennan89) |
 
 ## Eventing
