@@ -11,8 +11,7 @@ The Knative Steering Committee (KSC) is
 [responsible for the general health of the Knative community](./GOVERNANCE.md).
 
 The governance of Knative is an open, living document, and will continue to
-evolve as the community and project change. We expect over time we will adapt
-the way we run this committee, based on feedback from the community.
+evolve as the community and project change.
 
 - [Charter](#charter)
 - [Delegated authority](#delegated-authority)

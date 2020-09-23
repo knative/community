@@ -15,8 +15,7 @@ better represent the needs of vendors and other companies which market products
 in conjuction with the Knative mark.
 
 The governance of Knative is an open, living document, and will continue to
-evolve as the community and project change. We expect over time we will adapt
-the way we run this committee, based on feedback from the community.
+evolve as the community and project change.
 
 - [Charter](#charter)
 - [Delegated Authority](#delegated-authority)
