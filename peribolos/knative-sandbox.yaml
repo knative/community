@@ -411,7 +411,6 @@ orgs:
           Docs WG Leads:
             description: The Working Group leads for Docs
             members:
-            - samodell
             - abrennan89
             privacy: closed
       Eventing Writers:
