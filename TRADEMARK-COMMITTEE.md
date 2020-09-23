@@ -8,7 +8,8 @@ aliases:
 ---
 
 The Knative Trademark Committee (KTC)
-[advises the trademark owner on the usage and enforcement of the Knative mark](./GOVERNANCE.md).
+[advises the trademark owner on the usage and enforcement of Knative logos, names, and trademarks](./GOVERNANCE.md).
+
 It is a separate body from the [Steering Committee](./STEERING-COMMITTEE.md) to
 better represent the needs of vendors and other companies which market products
 in conjuction with the Knative mark.
@@ -50,6 +51,11 @@ committees as-needed. This may be used (for example) to create sub-committees
 for specific technical or marketing questions related to conformance or joint
 marketing.
 
+The Trademark Committee may delegate enforcement authority for one or more marks
+to other Knative committees (such as the steering committee) to provide branding
+for nascent efforts which are not yet subject to conformance and third-party
+licensing. This delegation may be further delegated transitively, as needed.
+
 ## Committee Meetings
 
 The committee meets as-needed. Meetings are held online.
@@ -75,11 +81,21 @@ the trademark committee invites your feedback there. See
 | Unknown - to be selected | IBM/RedHat   | Unknown |
 | Unknown - to be selected | VMware       | Unknown |
 
+Committee members for bootstrap term will be chosen during the Steering
+Committee election process.
+
 ## Decision process
 
 The Trademark Committee desires to always reach consensus. Additionally, each
 member can veto decisions regarding assignment of the mark, charter,
 conformance, and scope.
+
+Decisions requiring a vote include: issuing written policy, amending existing
+written policy, official responses to publicly raised issues, or any other
+decisions that are in the scope of the Trademark Committee’s charter.
+
+Voted decisions pass when all members vote to approve the decision, or a
+majority approves and the rest of the members abstain.
 
 Decisions are made in meetings when a quorum of the members are present and may
 pass with at least half the members of the committee supporting it. Vetoes by
@@ -109,19 +125,16 @@ There are two ways to raise issues to the steering committee for decision:
 
 The Trademark Committee is composed of company representatives from companies
 which have substantially contributed to Knative over the last year, as well as
-the trademark holder. These representatives shall be confirmed by the Knative
-Steering Committee; companies which have a currently-unfilled seat on the
-Trademark Committee may veto decisions made while the seat was empty as if those
-decisions had been made at the time of confirmation.
+the trademark holder. Companies which have a currently-unfilled seat on the
+Trademark Committee may veto decisions made in the 5 business days prior to the
+selection of the representative.
 
 Company representatives serving on the Trademark Committee may individually
 resign or be removed from their seats by their affiliated company with at least
 5 days notice.
 
 For the 2020 year, one seat is assigned to each of Google, IBM/RedHat, and
-VMware. The committee shall review this composition and the selection rules at
-least annually in October of each year (to be aligned with the Steering
-elections process).
+VMware.
 
 ### Maintaining the Trademark Committee
 
@@ -135,11 +148,7 @@ Membership in the committee is determined by counting the
 Each company which has contributed at least 15% of the total project
 contributions will be eligible to select one representative to the committee.
 Not all contributions are easy to count and many significant contributions are
-hard to count. There will be an exception process that allows vendors to
-articulate why they should receive consideration for membership on the Trademark
-Committee. Corporate parents, affiliates, or subsidiaries shall be counted as one
-company.
-
-The current Trademark Committee membership will consider easily countable
-contributions and exception requests when determining the Trademark Committee
-membership for the next year.
+hard to count. Vendors may petition the Trademark Committee to articulate why
+they should receive additional contribution credit towards membership on the
+Trademark Committee. Corporate parents, affiliates, or subsidiaries shall be
+counted as one company.

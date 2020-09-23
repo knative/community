@@ -39,9 +39,9 @@ the way we run this committee, based on feedback from the community.
    project roles and how collaborators become members, approvers, leads, and/or
    administrators. This includes policy for the creation and administration of
    [working groups](./working-groups/WORKING-GROUPS.md) and committees.
-1. Steward, control access, delegate access, and establish processes
-   regarding all Knative project resources and has the final say in the
-   disposition of those resources.
+1. Steward, control access, delegate access, and establish processes regarding
+   all Knative project resources and has the final say in the disposition of
+   those resources.
 1. Advise the Trademark Committee on usage of the brand and marks in relation to
    promoting the community. This advice is non-binding on the Trademark
    Committee.
@@ -274,7 +274,8 @@ replaced by elected seats (two Contributing and one End-User).
 ## Changes to the charter
 
 Changes to the KSC charter may be proposed via a PR on the charter itself.
-Amendments are accepted with majority consent of the committee.
+Amendments are accepted with majority consent of the committee as per the
+[decision process](#decision-process) outlined above.
 
 Proposals and amendments to the charter are available for at least a period of
 one week for comments and questions before a vote will occur.
