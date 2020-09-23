@@ -26,7 +26,7 @@ platforms, and test resources.
 ## Trademarks
 
 The [Knative Trademark Committee](./TRADEMARK-COMMITTEE.md) is responsible for
-managment, licensing, and conformance verification of the Knative trademark,
+management, licensing, and conformance verification of the Knative trademark,
 including the definition of what "Knative" is and the definition and rules for
 usage of derived marks.
 

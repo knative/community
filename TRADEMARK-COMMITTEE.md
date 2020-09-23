@@ -45,7 +45,7 @@ the way we run this committee, based on feedback from the community.
 
 ## Delegated authority
 
-The Trademark Committee may choose create and delegate its authority to other
+The Trademark Committee may choose to create and delegate its authority to other
 committees as-needed. This may be used (for example) to create sub-committees
 for specific technical or marketing questions related to conformance or joint
 marketing.
@@ -137,7 +137,7 @@ contributions will be eligible to select one representative to the committee.
 Not all contributions are easy to count and many significant contributions are
 hard to count. There will be an exception process that allows vendors to
 articulate why they should receive consideration for membership on the Trademark
-Committee. Corporate parents, affiliates, or subsidiares shall be counted as one
+Committee. Corporate parents, affiliates, or subsidiaries shall be counted as one
 company.
 
 The current Trademark Committee membership will consider easily countable
