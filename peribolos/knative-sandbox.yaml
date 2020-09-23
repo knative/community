@@ -244,6 +244,12 @@ orgs:
         description: Empty repo for testing external build integration with `kn`.
         has_projects: true
         has_wiki: false
+      buoy:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: A tool to introspect the versions of dependencies for a given release in the moment.
+        has_projects: true
+        has_wiki: false
       discovery:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -461,6 +467,7 @@ orgs:
           .github: admin
           async-component: admin
           build-spike: admin
+          buoy: admin
           discovery: admin
           downstream-test-go: admin
           eventing-awssqs: admin
@@ -555,6 +562,7 @@ orgs:
         privacy: closed
         repos:
           .github: write
+          buoy: wtite
           downstream-test-go: write
           kperf: write
         teams:
@@ -575,6 +583,7 @@ orgs:
         repos:
           .github: admin
           downstream-test-go: admin
+          buoy: admin
         members:
         - n3wscott
         - mattmoor
