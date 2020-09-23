@@ -138,7 +138,8 @@ categories.
 
 Steering Committee members serve for 2-year terms, staggered in order to
 preserve continuity. Every year either two or three contributor seats are
-elected, and one end user seat is elected.
+elected. Once end-user mechanics are stablished, one end user seat would be
+elected on the same schedule.
 
 ## Election Procedure
 
@@ -228,11 +229,11 @@ representation discussed below. This is the same process used for TOC elections.
 ### Limitations on Company Representation
 
 No more than two seats may be held by employees of the same organization (or
-conglomerate, in the case of companies owning each other). Additionally, the two
-End-User seats may not belong to employees of the same organization. If the
-results of an election result in greater than two employees of the same
-organization, the lowest vote getters from any particular employer will be
-removed until representation on the committee is down to two.
+conglomerate, in the case of companies owning each other). Additionally, each
+End-User seat (when available) must belong to an employee from a different
+organization. If the results of an election result in greater than two employees
+of the same organization, the lowest vote getters from any particular employer
+will be removed until representation on the committee is down to two.
 
 If employers change because of job changes, acquisitions, or other events, in a
 way that would yield more than 2 seats being held by employees of the same
@@ -263,12 +264,13 @@ In order to transition from the original, organization-appointed Steering
 Committee structure (the "bootstrap" committee), elections will be phased in
 over 14 months.
 
-In October 2020, four positions will be elected, including three Contributing
-seats and one End-User seat. One Google, one IBM/RedHat, and one VMware seat
-will be retained from the current Steering Committee.
+In October 2020, two positions will be elected, including two Contributing
+seats and zero End-User seats (because end-user seat mechanics are still being
+worked out). One Google, one IBM/RedHat, and one VMware seat will be retained
+from the current Steering Committee.
 
 In October or November 2021, the three remaining "bootstrap SC" seats will be
-replaced by elected seats (two Contributing and one End-User).
+replaced by elected seats (three Contributing and hopefully one End-User seat).
 
 ## Changes to the charter
 
