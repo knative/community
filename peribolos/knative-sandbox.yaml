@@ -562,7 +562,7 @@ orgs:
         privacy: closed
         repos:
           .github: write
-          buoy: wtite
+          buoy: write
           downstream-test-go: write
           kperf: write
         teams:
