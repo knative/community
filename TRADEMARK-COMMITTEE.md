@@ -36,13 +36,14 @@ the way we run this committee, based on feedback from the community.
    decisions.
 
 1. Review and approve the scope and definition of additional derivative Knative
-   marks (e.g. Knative Serving, Knative Core, etc). It is expected that the
-   Trademark Committee will delegate one or more marks to the steering committee
-   to provide branding for nascent efforts which are not yet subject to
-   conformance and third-party licensing.
+   marks (e.g. Knative Serving, Knative Core, etc).
 
 1. Only the Trademark Committee can redefine its own charter, membership, and
    authority over Knative Trademark, conformance, and brand decisions.
+
+It is expected that the Trademark Committee will delegate one or more marks to
+the steering committee to provide branding for nascent efforts which are not yet
+subject to conformance and third-party licensing.
 
 ## Delegated authority
 
