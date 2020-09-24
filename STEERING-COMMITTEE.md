@@ -138,7 +138,7 @@ categories.
 
 Steering Committee members serve for 2-year terms, staggered in order to
 preserve continuity. Every year either two or three contributor seats are
-elected. Once end-user mechanics are stablished, one end user seat would be
+elected. Once end-user mechanics are established, one end user seat would be
 elected on the same schedule.
 
 ## Election Procedure
@@ -211,12 +211,11 @@ To run for a Contributing seat, a candidate must additionally be at least a
 project Member as defined in
 [ROLES.md](https://github.com/knative/community/blob/master/ROLES.md).
 
-To run for an End-User seat, a candidate must be employed by an organization
-that does not sell products or services derived from Knative. Staff with
-in-house Knative deployments, as well as application developers who create
-applications that run on Knative, are eligible (and encouraged to run) for these
-seats. Additionally, the candidate must participate in the knative-users mailing
-list and/or community-facing Knative Slack channels.
+End-user seats are planned to enable employees of organizations which use but do
+not sell Knative-derived products. The mechanics of eligibility for end-user
+seats are still in progress; it is expected that end-user seats will add to the
+current Steering options to specific include end-user perspectives in the
+decision-making process.
 
 ### Voting Procedure
 
