@@ -40,10 +40,6 @@ evolve as the community and project change.
 1. Only the Trademark Committee can redefine its own charter, membership, and
    authority over Knative Trademark, conformance, and brand decisions.
 
-It is expected that the Trademark Committee will delegate one or more marks to
-the steering committee to provide branding for nascent efforts which are not yet
-subject to conformance and third-party licensing.
-
 ## Delegated authority
 
 The Trademark Committee may choose to create and delegate its authority to other
@@ -55,6 +51,10 @@ The Trademark Committee may delegate enforcement authority for one or more marks
 to other Knative committees (such as the steering committee) to provide branding
 for nascent efforts which are not yet subject to conformance and third-party
 licensing. This delegation may be further delegated transitively, as needed.
+
+It is expected that the Trademark Committee will delegate one or more marks to
+the steering committee to provide branding for nascent efforts which are not yet
+subject to conformance and third-party licensing.
 
 ## Committee Meetings
 
