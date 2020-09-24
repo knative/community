@@ -75,11 +75,11 @@ the trademark committee invites your feedback there. See
 
 ## Committee Members
 
-| Member                   | Organization | Profile |
-| ------------------------ | ------------ | ------- |
-| Unknown - to be selected | Google       | Unknown |
-| Unknown - to be selected | IBM/RedHat   | Unknown |
-| Unknown - to be selected | VMware       | Unknown |
+| Member                   | Organization | Profile                              |
+| ------------------------ | ------------ | ------------------------------------ |
+| Ron Avnur                | Google       | [@ronavn](https://github.com/ronavn) |
+| Paul Morie               | IBM/RedHat   | [@pmorie](https://github.com/pmorie) |
+| Unknown - to be selected | VMware       | Unknown                              |
 
 Committee members for bootstrap term will be chosen during the Steering
 Committee election process.
