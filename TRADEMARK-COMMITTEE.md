@@ -12,7 +12,7 @@ The Knative Trademark Committee (KTC)
 
 It is a separate body from the [Steering Committee](./STEERING-COMMITTEE.md) to
 better represent the needs of vendors and other companies which market products
-in conjuction with the Knative mark.
+in conjunction with the Knative mark.
 
 The governance of Knative is an open, living document, and will continue to
 evolve as the community and project change.
