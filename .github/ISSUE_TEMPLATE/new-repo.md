@@ -21,20 +21,20 @@ Sponsoring WG:
 
 ## Actions to fulfill
 
-This area is used for the TOC to track the [repo creation
-process](/mechanics/CREATING-A-SANDBOX-REPO.md)
-
+This area is used to track the [repo creation process](/mechanics/CREATING-A-SANDBOX-REPO.md).
+The _requestor_ and _sponsoring WG lead_ should perform the steps listed below and cross out the checkmarks when done.
+The TOC is involved only in the **TOC Gate** steps.
 
 - [ ] Add this issue to the [TOC project board](https://github.com/orgs/knative/projects/9) for review.
 
 _You may not be able to use the Projects quick menu on this page. In that case, go to the project board and use the **Add cards** interface._
 
-- [ ] Send a PR adding entries for this repo in `/peribolos/knative-sandbox.yaml`
+- [ ] Send a PR adding entries for this repo in [`/peribolos/knative-sandbox.yaml`](https://github.com/knative/community/blob/master/peribolos/knative-sandbox.yaml). Please mind the alphabetical order when adding to a list.
   - [ ] Add the repository and a description.
   - [ ] Grant `Knative Admin` the `admin` privilege.
   - [ ] Grant the sponsoring WG the `write` privilege.
 
-_Once the TOC has approved the above, it will merge and Peribolos will create an empty repository._
+**TOC Gate**: _Once the TOC has approved the above, it will merge and Peribolos will create an empty repository._
 
 - [ ] (golang) Send a PR to add aliases for `knative.dev/$REPONAME` import paths ([sample](https://github.com/knative/website/pull/187)).
 
@@ -56,7 +56,6 @@ _Once the TOC has approved the above, it will merge and Peribolos will create an
 
 - [ ] Create a sample PR to verify Prow (e.g. edit the boilerplate README)
 
-_Once Prow has been verified._
+**TOC Gate** : _Once Prow has been verified_
 
-- [ ] Have a member of the TOC enable branch protections so that `tide` is a required presubmit check. 
-
+- [ ] Have a member of the TOC enable branch protections so that `tide` is a required presubmit check.
