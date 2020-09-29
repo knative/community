@@ -307,7 +307,7 @@ tuple
    </td>
    <td rowspan="3" >2021-03-16
    </td>
-   <td rowspan="3" >(undetermined)
+   <td rowspan="3" >v1.17.x
    </td>
    <td rowspan="3" >v1
    </td>
@@ -906,7 +906,7 @@ tuple
    </td>
    <td rowspan="2" >2021-03-16
    </td>
-   <td rowspan="2" >(undetermined)
+   <td rowspan="2" >v1.17.x
    </td>
    <td rowspan="2" >v1
    </td>
