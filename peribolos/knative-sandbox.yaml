@@ -324,6 +324,12 @@ orgs:
         description: RabbitMQ eventing components. Knative Source and Broker.
         has_projects: true
         has_wiki: false
+      eventing-redis:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Redis integration with Knative Eventing.
+        has_projects: true
+        has_wiki: false
       kn-plugin-admin:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -428,6 +434,7 @@ orgs:
           eventing-natss: write
           eventing-prometheus: write
           eventing-rabbitmq: write
+          eventing-redis: write
           sample-source: write
           discovery: write
           reconciler-test: write
@@ -475,6 +482,7 @@ orgs:
           eventing-natss: admin
           eventing-prometheus: admin
           eventing-rabbitmq: admin
+          eventing-redis: admin
           kn-plugin-admin: admin
           kperf: admin
           net-certmanager: admin
