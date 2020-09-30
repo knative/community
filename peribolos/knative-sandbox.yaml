@@ -583,6 +583,7 @@ orgs:
             description: The Working Group leads for Productivity
             members:
             - chizhg
+            - n3wscott
             privacy: closed
       GitHub Actions Effort:
         # The maintainers of the GitHub Actions for Knative effort need to

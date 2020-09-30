@@ -253,6 +253,7 @@ performance/scale/load testing infrastructure
 | &nbsp;                                                    | Leads         | Company | Profile                                   |
 | --------------------------------------------------------- | ------------- | ------- | ----------------------------------------- |
 | <img width="30px" src="https://github.com/chizhg.png">    | Chi Zhang     | Google  | [chizhg](https://github.com/chizhg)       |
+| <img width="30px" src="https://github.com/n3wscott.png">      | Scott Nichols        | VMware  | [n3wscott](https://github.com/n3wscott)           |
 
 ---
 
