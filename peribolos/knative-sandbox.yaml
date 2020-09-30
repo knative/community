@@ -141,6 +141,7 @@ orgs:
     - markito
     - matzew
     - mayaspivak
+    - maximilien
     - mdemirhan
     - mfine30
     - mgencur
@@ -336,6 +337,12 @@ orgs:
         description: Kn plugin for managing a Kubernetes based Knative installation.
         has_projects: true
         has_wiki: false
+      kn-plugin-source-pkg:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Common code for Kn source plugins
+        has_projects: true
+        has_wiki: false
       kperf:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -404,6 +411,7 @@ orgs:
         repos:
           build-spike: write
           kn-plugin-admin: write
+          kn-plugin-source-pkg: write
         teams:
           Client WG Leads:
             description: The Working Group Leads for Client
@@ -484,6 +492,7 @@ orgs:
           eventing-rabbitmq: admin
           eventing-redis: admin
           kn-plugin-admin: admin
+          kn-plugin-source-pkg: admin
           kperf: admin
           net-certmanager: admin
           net-contour: admin
