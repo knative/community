@@ -432,6 +432,7 @@ orgs:
         description: Grants write access to eventing-related repositories.
         privacy: closed
         repos:
+          eventing-autoscaler-keda: write
           eventing-awssqs: write
           eventing-camel: write
           eventing-ceph: write
@@ -479,6 +480,7 @@ orgs:
           build-spike: admin
           discovery: admin
           downstream-test-go: admin
+          eventing-autoscaler-keda: admin
           eventing-awssqs: admin
           eventing-camel: admin
           eventing-ceph: admin
