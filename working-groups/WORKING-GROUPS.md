@@ -35,17 +35,13 @@ meetings.
 
 ### Calendar import
 
-If you're using Google Calendar, the above should work. If you're
-using some other system (Apple Calendar or Outlook, for example),
-[here is an iCal export of the community
-calendar](https://calendar.google.com/calendar/ical/google.com_18un4fuh6rokqf8hmfftm5oqq4@group.calendar.google.com/public/basic.ics).
+If you're using Google Calendar, the above should work. If you're using some
+other system (Apple Calendar or Outlook, for example),
+[here is an iCal export of the community calendar](https://calendar.google.com/calendar/ical/google.com_18un4fuh6rokqf8hmfftm5oqq4@group.calendar.google.com/public/basic.ics).
 
-* [Follow these directions to import into Outlook
-  Web](https://support.office.com/en-us/article/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df)
-* [Follow these directions for desktop
-  Outlook](https://support.office.com/en-us/article/See-your-Google-Calendar-in-Outlook-C1DAB514-0AD4-4811-824A-7D02C5E77126)
-* [Follow the import directions to import into Apple
-  Calendar](https://support.apple.com/guide/calendar/import-or-export-calendars-icl1023/mac)
+- [Follow these directions to import into Outlook Web](https://support.office.com/en-us/article/import-or-subscribe-to-a-calendar-in-outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df)
+- [Follow these directions for desktop Outlook](https://support.office.com/en-us/article/See-your-Google-Calendar-in-Outlook-C1DAB514-0AD4-4811-824A-7D02C5E77126)
+- [Follow the import directions to import into Apple Calendar](https://support.apple.com/guide/calendar/import-or-export-calendars-icl1023/mac)
 
 # Working Groups
 
@@ -79,47 +75,47 @@ API
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1fpBW7VyiBISsKuVdgn1MrgFdtx_JGoC5)                                                                       |
 | Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api)                                                                                                |
 
-| &nbsp;                                                   | Leads             | Company | Profile                                 |
-| -------------------------------------------------------- | ----------------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore        | VMware  | [mattmoor](https://github.com/mattmoor) |
-| <img width="30px" src="https://github.com/dprotaso.png"> | Dave  Protasowski | VMware  | [dprotaso](https://github.com/dprotaso) |
+| &nbsp;                                                   | Leads            | Company | Profile                                 |
+| -------------------------------------------------------- | ---------------- | ------- | --------------------------------------- |
+| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore       | VMware  | [mattmoor](https://github.com/mattmoor) |
+| <img width="30px" src="https://github.com/dprotaso.png"> | Dave Protasowski | VMware  | [dprotaso](https://github.com/dprotaso) |
 
 ## Client
 
 [Client](https://github.com/knative/client), CLI, client libraries, and client
 conventions
 
-| Artifact                   | Link                                                                                                                                                                       |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                        |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Uh7jTWQruBBmic-WmTvtc9cMF95kQrKb5lsqWhNuikM/edit)                                                   |
+| Artifact                   | Link                                                                                                                                                                                                                                            |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                                                                                             |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Uh7jTWQruBBmic-WmTvtc9cMF95kQrKb5lsqWhNuikM/edit)                                                                                                                        |
 | Community Meeting Calendar | Tuesdays, alternating between 10:30a-11:00a Pacific and 3:30p-4:00p Central European every two weeks<br>[Calendar Invitation](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Uh7jTWQruBBmic-WmTvtc9cMF95kQrKb5lsqWhNuikM/edit)                                                                              |
-| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1QF-job3rCEqCpJLm8nHkC4mBIi4XANE1)                                                                                    |
-| Slack Channel              | [#cli](https://slack.knative.dev)                                                                                                                                          |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Uh7jTWQruBBmic-WmTvtc9cMF95kQrKb5lsqWhNuikM/edit)                                                                                                                                                   |
+| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1QF-job3rCEqCpJLm8nHkC4mBIi4XANE1)                                                                                                                                                         |
+| Slack Channel              | [#cli](https://slack.knative.dev)                                                                                                                                                                                                               |
 
-| &nbsp;                                                     | Leads           | Company | Profile                                     |
-| ---------------------------------------------------------- | --------------- | ------- | ------------------------------------------- |
-| <img width="30px" src="https://github.com/sixolet.png">    | Naomi Seyfer    | Google  | [sixolet](https://github.com/sixolet)       |
-| <img width="30px" src="https://github.com/rhuss.png">      | Roland Huß      | Red Hat | [rhuss](https://github.com/rhuss)           |
-
+| &nbsp;                                                  | Leads        | Company | Profile                               |
+| ------------------------------------------------------- | ------------ | ------- | ------------------------------------- |
+| <img width="30px" src="https://github.com/sixolet.png"> | Naomi Seyfer | Google  | [sixolet](https://github.com/sixolet) |
+| <img width="30px" src="https://github.com/rhuss.png">   | Roland Huß   | Red Hat | [rhuss](https://github.com/rhuss)     |
 
 ## Documentation
 
-Knative documentation, especially the [Docs](https://github.com/knative/docs/) repo.
+Knative documentation, especially the [Docs](https://github.com/knative/docs/)
+repo.
 
-| Artifact                   | Link                                                                                                                                                                                                    |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                                                                   |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                                |
+| Artifact                   | Link                                                                                                                                                               |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                              |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                           |
 | Community Meeting Calendar | Bi Weekly on Tuesdays, 9:00-9:30am<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                                                           |
-| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1K5cM9m-b93ySI5WGKalJKbBq_cfjyi-y)                                                                                                                 |
-| Slack Channel              | [#docs](https://slack.knative.dev/messages/docs)                                                                                                                                                        |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                      |
+| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1K5cM9m-b93ySI5WGKalJKbBq_cfjyi-y)                                                                            |
+| Slack Channel              | [#docs](https://slack.knative.dev/messages/docs)                                                                                                                   |
 
-| &nbsp;                                                   | Leads      | Company | Profile                                 |
-| -------------------------------------------------------- | ---------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/abrennan89.png"> | Ashleigh Brennan | Red Hat  | [abrennan89](https://github.com/abrennan89) |
+| &nbsp;                                                     | Leads            | Company | Profile                                     |
+| ---------------------------------------------------------- | ---------------- | ------- | ------------------------------------------- |
+| <img width="30px" src="https://github.com/abrennan89.png"> | Ashleigh Brennan | Red Hat | [abrennan89](https://github.com/abrennan89) |
 
 ## Eventing
 
@@ -135,11 +131,11 @@ Event sources, bindings, FaaS framework, and orchestration
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1S22YmGl6B1ppYApwa1j5j9Nc6rEChlPo)                                                                    |
 | Slack Channel              | [#eventing](https://slack.knative.dev/messages/eventing)                                                                                                   |
 
-| &nbsp;                                                 | Leads       | Company | Profile                             |
-| ------------------------------------------------------ | ----------- | ------- | ----------------------------------- |
-| <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas | VMware  | [vaikas](https://github.com/vaikas) |
-| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM  | [lionelvillard](https://github.com/lionelvillard) |
-| <img width="30px" src="https://github.com/grantr.png"> | Grant Rodgers | Google  | [grantr](https://github.com/grantr) |
+| &nbsp;                                                        | Leads          | Company | Profile                                           |
+| ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas    | VMware  | [vaikas](https://github.com/vaikas)               |
+| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM     | [lionelvillard](https://github.com/lionelvillard) |
+| <img width="30px" src="https://github.com/grantr.png">        | Grant Rodgers  | Google  | [grantr](https://github.com/grantr)               |
 
 ## Event Delivery
 
@@ -154,10 +150,10 @@ Event delivery data plane.
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1gQymVBlLsQxknScnn1x5wUT5OBBNj5P3)                                                                   |
 | Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                               |
 
-| &nbsp;                                                        | Leads                | Company | Profile                                           |
-| ------------------------------------------------------------- | -------------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/Harwayne.png">      | Adam Harwayne        | Google  | [Harwayne](https://github.com/Harwayne)           |
-| <img width="30px" src="https://github.com/matzew.png">        | Matthias Wessendorf  | Red Hat | [matzew](https://github.com/matzew)               |
+| &nbsp;                                                   | Leads               | Company | Profile                                 |
+| -------------------------------------------------------- | ------------------- | ------- | --------------------------------------- |
+| <img width="30px" src="https://github.com/Harwayne.png"> | Adam Harwayne       | Google  | [Harwayne](https://github.com/Harwayne) |
+| <img width="30px" src="https://github.com/matzew.png">   | Matthias Wessendorf | Red Hat | [matzew](https://github.com/matzew)     |
 
 ## Eventing Sources
 
@@ -194,19 +190,18 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1oVDYbcEDdQ9EpUmkK6gE4C7aZ8u6ujsN)                                                                      |
 | Slack Channel              | [#networking](https://slack.knative.dev/messages/networking)                                                                                                 |
 
-| &nbsp;                                                    | Leads            | Company | Profile                                   |
-| --------------------------------------------------------- | ---------------- | ------- | ----------------------------------------- |
-| <img width="30px" src="https://github.com/nak3.png"> | Kenjiro Nakayama | Red Hat  | [nak3](https://github.com/nak3) |
-| <img width="30px" src="https://github.com/tcnghia.png">   | Nghia Tran       | Microsoft  | [tcnghia](https://github.com/tcnghia)     |
-| <img width="30px" src="https://github.com/ZhiminXiang.png"> | Zhimin Xiang | Google  | [ZhiminXiang](https://github.com/ZhiminXiang) |
-
+| &nbsp;                                                      | Leads            | Company   | Profile                                       |
+| ----------------------------------------------------------- | ---------------- | --------- | --------------------------------------------- |
+| <img width="30px" src="https://github.com/nak3.png">        | Kenjiro Nakayama | Red Hat   | [nak3](https://github.com/nak3)               |
+| <img width="30px" src="https://github.com/tcnghia.png">     | Nghia Tran       | Microsoft | [tcnghia](https://github.com/tcnghia)         |
+| <img width="30px" src="https://github.com/ZhiminXiang.png"> | Zhimin Xiang     | Google    | [ZhiminXiang](https://github.com/ZhiminXiang) |
 
 ## Operations
 
 Managing, assessing system health and maintaining Knative clusters
 
-| Artifact                   | Link                                                                                                                                                                                                  |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Artifact                   | Link                                                                                                                                                     |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                      |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)          |
 | Community Meeting Calendar | Tuesdays at 10:00am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
@@ -214,9 +209,9 @@ Managing, assessing system health and maintaining Knative clusters
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/14AI7ClIq2btPZ13WT8BAN4AtNKpK_K6p)                                                                   |
 | Slack Channel              | [#operations](https://slack.knative.dev/messages/operations)                                                                                             |
 
-| &nbsp;                                                     | Leads        | Company | Profile                                     |
-| ---------------------------------------------------------- | ------------ | ------- | ------------------------------------------- |
-| <img width="30px" src="https://github.com/houshengbo.png"> | Vincent Hou  | IBM     | [houshengbo](https://github.com/houshengbo) |
+| &nbsp;                                                     | Leads       | Company | Profile                                     |
+| ---------------------------------------------------------- | ----------- | ------- | ------------------------------------------- |
+| <img width="30px" src="https://github.com/houshengbo.png"> | Vincent Hou | IBM     | [houshengbo](https://github.com/houshengbo) |
 
 ## Scaling
 
@@ -250,9 +245,10 @@ performance/scale/load testing infrastructure
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1oMYB4LQHjySuMChmcWYCyhH7-CSkz2r_)                                                                      |
 | Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                             |
 
-| &nbsp;                                                    | Leads         | Company | Profile                                   |
-| --------------------------------------------------------- | ------------- | ------- | ----------------------------------------- |
-| <img width="30px" src="https://github.com/chizhg.png">    | Chi Zhang     | Google  | [chizhg](https://github.com/chizhg)       |
+| &nbsp;                                                   | Leads         | Company | Profile                                 |
+| -------------------------------------------------------- | ------------- | ------- | --------------------------------------- |
+| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang     | Google  | [chizhg](https://github.com/chizhg)     |
+| <img width="30px" src="https://github.com/n3wscott.png"> | Scott Nichols | VMware  | [n3wscott](https://github.com/n3wscott) |
 
 ---
 
