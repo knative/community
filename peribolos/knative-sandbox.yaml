@@ -561,6 +561,7 @@ orgs:
         - k4leung4
         - chaodaiG
         - akashrv
+        - n3wscott
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
