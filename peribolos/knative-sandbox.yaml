@@ -156,6 +156,7 @@ orgs:
     - nachocano
     - nader-ziada
     - nak3
+    - navidshaikh
     - nicolaferraro
     - nimbcode
     - nlopezgi
@@ -417,6 +418,7 @@ orgs:
           Client WG Leads:
             description: The Working Group Leads for Client
             members:
+            - navidshaikh
             - rhuss
             privacy: closed
       Docs Writers:
@@ -550,6 +552,7 @@ orgs:
         members:
         - mikehelmick
         - rhuss
+        - navidshaikh
         - Harwayne
         - vagababov
         - csantanapr

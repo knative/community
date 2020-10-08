@@ -643,6 +643,7 @@ orgs:
           Client WG Leads:
             description: The Working Group Leads for Client
             members:
+            - navidshaikh
             - rhuss
             - sixolet
             privacy: closed
@@ -788,6 +789,7 @@ orgs:
         - igsong
         - julz
         - nak3
+        - navidshaikh
         - rhuss
         - shashwathi
         - sixolet
