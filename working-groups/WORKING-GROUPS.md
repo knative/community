@@ -132,11 +132,12 @@ Event sources, bindings, FaaS framework, and orchestration
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1S22YmGl6B1ppYApwa1j5j9Nc6rEChlPo)                                                                    |
 | Slack Channel              | [#eventing](https://slack.knative.dev/messages/eventing)                                                                                                   |
 
-| &nbsp;                                                        | Leads          | Company | Profile                                           |
-| ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas    | VMware  | [vaikas](https://github.com/vaikas)               |
-| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM     | [lionelvillard](https://github.com/lionelvillard) |
-| <img width="30px" src="https://github.com/grantr.png">        | Grant Rodgers  | Google  | [grantr](https://github.com/grantr)               |
+| &nbsp;                                                        | Leads                      | Company | Profile                                           |
+| ------------------------------------------------------------- | -------------------------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas    (Technical) | VMware  | [vaikas](https://github.com/vaikas)               |
+| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard (Technical) | IBM     | [lionelvillard](https://github.com/lionelvillard) |
+| <img width="30px" src="https://github.com/grantr.png">        | Grant Rodgers  (Technical) | Google  | [grantr](https://github.com/grantr)               |
+| <img width="30px" src="https://github.com/devguyio.png">      | Ahmed Abdalla  (Execution) | Red Hat | [devguyio](https://github.com/devguyio)           |
 
 ## Event Delivery
 
