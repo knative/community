@@ -335,6 +335,12 @@ orgs:
         description: Redis integration with Knative Eventing.
         has_projects: true
         has_wiki: false
+      kind-test:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: GitHub Action for performing KinD based workflows.
+        has_projects: true
+        has_wiki: false
       kn-plugin-admin:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -511,6 +517,7 @@ orgs:
           eventing-prometheus: admin
           eventing-rabbitmq: admin
           eventing-redis: admin
+          kind-test: admin
           kn-plugin-admin: admin
           kn-plugin-source-pkg: admin
           kn-plugin-diag: admin
@@ -598,7 +605,7 @@ orgs:
         repos:
           .github: write
           downstream-test-go: write
-          knobots: write
+          kind-test: write
           kperf: write
         teams:
           Productivity WG Leads:
@@ -607,20 +614,6 @@ orgs:
             - chizhg
             - n3wscott
             privacy: closed
-      GitHub Actions Effort:
-        # The maintainers of the GitHub Actions for Knative effort need to
-        # create releases to allow the versioning control used by actions work.
-        # At the moment this is not automated so granting admin rights to the
-        # set of developers on the actions. This can be removed when we can
-        # automate the releasing of actions.
-        description: Grants admin rights to github actions related repositories.
-        privacy: closed
-        repos:
-          .github: admin
-          downstream-test-go: admin
-        members:
-        - n3wscott
-        - mattmoor
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
