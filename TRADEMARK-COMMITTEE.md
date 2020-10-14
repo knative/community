@@ -78,7 +78,7 @@ the trademark committee invites your feedback there. See
 | Member                   | Organization | Profile                                |
 | ------------------------ | ------------ | -------------------------------------- |
 | Ron Avnur                | Google       | [@ronavn](https://github.com/ronavn)   |
-| Unknown - to be selected | IBM/RedHat   | Unknown                                |
+| Doug Davis               | IBM/RedHat   | [@duglin](https://github.com/duglin)   |
 | Brenda Chan              | VMware       | [@bsnchan](https://github.com/bsnchan) |
 
 Committee members for bootstrap term will be chosen during the Steering
