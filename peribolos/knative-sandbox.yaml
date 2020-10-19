@@ -347,6 +347,12 @@ orgs:
         description: Common code for Kn source plugins
         has_projects: true
         has_wiki: false
+      kn-plugin-diag:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for exposing detailed information for different layer of knative objects for diagnose.
+        has_projects: true
+        has_wiki: false        
       kperf:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -416,6 +422,7 @@ orgs:
           build-spike: write
           kn-plugin-admin: write
           kn-plugin-source-pkg: write
+          kn-plugin-diag: write
         teams:
           Client WG Leads:
             description: The Working Group Leads for Client
@@ -500,6 +507,7 @@ orgs:
           eventing-redis: admin
           kn-plugin-admin: admin
           kn-plugin-source-pkg: admin
+          kn-plugin-diag: admin
           kperf: admin
           net-certmanager: admin
           net-contour: admin
