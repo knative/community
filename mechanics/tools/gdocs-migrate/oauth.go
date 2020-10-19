@@ -18,7 +18,8 @@ func clientFromFile(filename string) (*http.Client, error) {
 	if err != nil {
 		return nil, fmt.Errorf("Unable to open %q: %w", filename, err)
 	}
-	config, err := google.ConfigFromJSON(creds, drive.DriveFileScope)
+	// drive.DriveScope is required for team drive access
+	config, err := google.ConfigFromJSON(creds, drive.DriveScope)
 	if err != nil {
 		return nil, fmt.Errorf("Unable to initialize auth config: %w", err)
 	}
