@@ -18,25 +18,30 @@ func clientFromFile(filename string) (*http.Client, error) {
 	if err != nil {
 		return nil, fmt.Errorf("Unable to open %q: %w", filename, err)
 	}
-	config, err := google.ConfigFromJSON(creds, drive.DriveFileScope)
+	// drive.DriveScope is required for team drive access
+	config, err := google.ConfigFromJSON(creds, drive.DriveScope)
 	if err != nil {
 		return nil, fmt.Errorf("Unable to initialize auth config: %w", err)
 	}
 
 	token := &oauth2.Token{}
-	if bytes, err := ioutil.ReadFile(".token"); err != nil {
+
+	// Attempt to read the cached token file.
+	bytes, err := ioutil.ReadFile(".token")
+	if err == nil {
+		// File found, try to parse as JSON.
 		err = json.Unmarshal(bytes, token)
 	}
-
+	// Either file not found, not not containing correct JSON.
 	if err != nil {
 		token = getTokenFromWeb(config)
-		if cache, err := json.Marshal(token); err == nil {
+		cache := []byte{}
+		if cache, err = json.Marshal(token); err == nil {
 			err = ioutil.WriteFile(".token", cache, 0600)
 		}
 	}
-
 	if err != nil {
-		return nil, fmt.Errorf("Unable to initalize client: %w", err)
+		return nil, fmt.Errorf("Unable to initialize client: %w", err)
 	}
 
 	return config.Client(context.Background(), token), nil
