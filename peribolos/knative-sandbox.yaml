@@ -353,6 +353,12 @@ orgs:
         description: Kn plugin for exposing detailed information for different layer of knative objects for diagnose.
         has_projects: true
         has_wiki: false        
+      knobots:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: A collection of github actions for routine maintenance of Knative repositories.
+        has_projects: true
+        has_wiki: false
       kperf:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -508,6 +514,7 @@ orgs:
           kn-plugin-admin: admin
           kn-plugin-source-pkg: admin
           kn-plugin-diag: admin
+          knobots: admin
           kperf: admin
           net-certmanager: admin
           net-contour: admin
@@ -591,6 +598,7 @@ orgs:
         repos:
           .github: write
           downstream-test-go: write
+          knobots: write
           kperf: write
         teams:
           Productivity WG Leads:
