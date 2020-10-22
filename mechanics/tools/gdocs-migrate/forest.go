@@ -41,6 +41,11 @@ func (fo *Forest) FolderCount() int {
 	return fo.Size() - len(fo.GetFiles())
 }
 
+// GetPath returns all the ancestor of a given File in decreasing
+// seniority.
+//
+// This should only be called after the whole forest has ben loaded,
+// i.e. Add(...) has been called for all the Files.
 func (fo *Forest) GetPath(f File) []string {
 	parents := []string{}
 	cur := f
