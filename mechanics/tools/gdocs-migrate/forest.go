@@ -44,13 +44,9 @@ func (fo *Forest) FolderCount() int {
 func (fo *Forest) GetPath(f File) []string {
 	parents := []string{}
 	cur := f
-	p, hasParent := fo.fileByID[cur.parentID]
-	for hasParent {
-		if p.name != "" {
-			parents = append(parents, p.name)
-		}
-		cur = p
-		p, hasParent = fo.fileByID[cur.parentID]
+	for cur.parentID != "" {
+		cur = fo.fileByID[cur.parentID]
+		parents = append(parents, cur.name)
 	}
 	return reverse(parents)
 }
