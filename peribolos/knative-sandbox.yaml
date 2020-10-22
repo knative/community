@@ -239,7 +239,7 @@ orgs:
         description: "Repository for sharing org-wide Github metadata and workflow templates."
         has_projects: true
         has_wiki: false
-      action-kind:
+      actions-kind:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: GitHub Action for performing KinD based workflows.
@@ -500,7 +500,7 @@ orgs:
         repos:
           # All repos should be listed here!
           .github: admin
-          action-kind: admin
+          actions-kind: admin
           async-component: admin
           build-spike: admin
           discovery: admin
@@ -604,7 +604,7 @@ orgs:
         privacy: closed
         repos:
           .github: write
-          action-kind: write
+          actions-kind: write
           downstream-test-go: write
           kperf: write
         teams:
