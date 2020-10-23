@@ -94,11 +94,11 @@ conventions
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1QF-job3rCEqCpJLm8nHkC4mBIi4XANE1)                                                                                                                                                         |
 | Slack Channel              | [#cli](https://slack.knative.dev)                                                                                                                                                                                                               |
 
-| &nbsp;                                                  | Leads        | Company | Profile                               |
-| ------------------------------------------------------- | ------------ | ------- | ------------------------------------- |
-| <img width="30px" src="https://github.com/sixolet.png"> | Naomi Seyfer | Google  | [sixolet](https://github.com/sixolet) |
-| <img width="30px" src="https://github.com/navidshaikh.png"> | Navid Shaikh | Red Hat  | [navidshaikh](https://github.com/navidshaikh) |
-| <img width="30px" src="https://github.com/rhuss.png">   | Roland Huß   | Red Hat | [rhuss](https://github.com/rhuss)     |
+| &nbsp;                                                      | Leads        | Company | Profile                                       |
+| ----------------------------------------------------------- | ------------ | ------- | --------------------------------------------- |
+| <img width="30px" src="https://github.com/sixolet.png">     | Naomi Seyfer | Google  | [sixolet](https://github.com/sixolet)         |
+| <img width="30px" src="https://github.com/navidshaikh.png"> | Navid Shaikh | Red Hat | [navidshaikh](https://github.com/navidshaikh) |
+| <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß   | Red Hat | [rhuss](https://github.com/rhuss)             |
 
 ## Documentation
 
@@ -134,10 +134,10 @@ Event sources, bindings, FaaS framework, and orchestration
 
 | &nbsp;                                                        | Leads                      | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas    (Technical) | VMware  | [vaikas](https://github.com/vaikas)               |
+| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas (Technical)    | VMware  | [vaikas](https://github.com/vaikas)               |
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard (Technical) | IBM     | [lionelvillard](https://github.com/lionelvillard) |
-| <img width="30px" src="https://github.com/grantr.png">        | Grant Rodgers  (Technical) | Google  | [grantr](https://github.com/grantr)               |
-| <img width="30px" src="https://github.com/devguyio.png">      | Ahmed Abdalla  (Execution) | Red Hat | [devguyio](https://github.com/devguyio)           |
+| <img width="30px" src="https://github.com/grantr.png">        | Grant Rodgers (Technical)  | Google  | [grantr](https://github.com/grantr)               |
+| <img width="30px" src="https://github.com/devguyio.png">      | Ahmed Abdalla (Execution)  | Red Hat | [devguyio](https://github.com/devguyio)           |
 
 ## Event Delivery
 
@@ -238,14 +238,14 @@ Autoscaling
 Project health, test framework, continuous integration & deployment, release,
 performance/scale/load testing infrastructure
 
-| Artifact                   | Link                                                                                                                                                         |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                          |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1aPRwYGD4XscRIqlBzbNsSB886PJ0G-vZYUAAUjoydko)                                          |
-| Community Meeting Calendar | Every other Thursday, 2p PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1aPRwYGD4XscRIqlBzbNsSB886PJ0G-vZYUAAUjoydko)                                                                     |
-| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1oMYB4LQHjySuMChmcWYCyhH7-CSkz2r_)                                                                      |
-| Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                             |
+| Artifact                   | Link                                                                                                                                                |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                 |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1aPRwYGD4XscRIqlBzbNsSB886PJ0G-vZYUAAUjoydko)                                 |
+| Community Meeting Calendar | Thursdays, 10am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1aPRwYGD4XscRIqlBzbNsSB886PJ0G-vZYUAAUjoydko)                                                            |
+| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1oMYB4LQHjySuMChmcWYCyhH7-CSkz2r_)                                                             |
+| Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                    |
 
 | &nbsp;                                                   | Leads         | Company | Profile                                 |
 | -------------------------------------------------------- | ------------- | ------- | --------------------------------------- |
