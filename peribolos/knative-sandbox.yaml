@@ -17,6 +17,7 @@ orgs:
     - google-admin
     - googlebot
     - grantr
+    - knative-automation
     - knative-prow-robot
     - markusthoemmes
     - mattmoor
