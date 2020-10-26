@@ -750,6 +750,13 @@ orgs:
             - thisisnotapril
             - ronavn
             privacy: closed
+          Trademark Committee:
+            description: Knative Trademark Committee
+            maintainers:
+            - bsnchan
+            - duglin
+            - ronavn
+            privacy: closed
           TBD Admins:
             description: 'TBD role to account for the broad permissions, tracked by: https://github.com/knative/community/issues/91'
             maintainers:
