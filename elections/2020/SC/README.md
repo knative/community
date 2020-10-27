@@ -24,8 +24,8 @@ first general election for that body.
 
 Please refer to the [SC Election Charter] for:
 
-- [Eligibility for candidacy](../../mechanics/SC.md#candidate-eligibility)
-- [Eligibility for voting](../../mechanics/SC.md#voter-eligibility) and
+- [Eligibility for candidacy]
+- [Eligibility for voting] and
   [Eligible voters](voters.md) list (not in charter)
 
 ## Exceptions and Email Addresses
@@ -152,7 +152,7 @@ the [SC Election Charter].
 |  |  |   |
 
 [Knative Steering Committee]: https://github.com/knative/community/blob/master/STEERING-COMMITTEE.md
-[SC Election Charter]: ../../mechanics/SC.md
+[SC Election Charter]: https://github.com/knative/community/blob/master/mechanics/SC.md
 
 [limiting corporate campaigning]: https://github.com/kubernetes/steering/blob/master/elections.md#limiting-corporate-campaigning
 
@@ -164,3 +164,6 @@ the [SC Election Charter].
 [voter exception form]: https://bit.ly/knative-sc20-exception
 [voters.md]: ./voters.md
 [ballot replacement request]: https://bit.ly/knative-sc20-ballot
+
+[Eligibility for candidacy]: https://github.com/knative/community/blob/master/mechanics/SC.md#candidate-eligibility
+[Eligibility for voting]: https://github.com/knative/community/blob/master/mechanics/SC.md#candidate-eligibility#voter-eligibility
