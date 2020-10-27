@@ -5,9 +5,9 @@ weight: 30
 type: "docs"
 ---
 
-# Knative Elections
+# Knative TOC Elections
 
-This document outlines how to conduct a Knative Technical Oversight Committee election. See [TOC election process](../mechanics/TOC.md) for more information of how the committee decides when to have elections, eligibility for voting, eligibility for candidacy, maximal representation, etc.
+This document section outlines how to conduct a Knative Technical Oversight Committee election. See [TOC election process](../mechanics/TOC.md) for more information of how the committee decides when to have elections, eligibility for voting, eligibility for candidacy, maximal representation, etc.
 
 ## Process
 
@@ -19,7 +19,7 @@ This document outlines how to conduct a Knative Technical Oversight Committee el
         * Update with new dates, candidates, and procedures (if necessary)
     * Make knative/community/elections/$YEAR/voters.md
         * Initial list is generated via the eligibility for voting requirements.
-        * Steering will update this list as voters submit the voting exemption form.
+        * Steering will update this list as voters submit the voting exception form.
 
 1. Annouce voting schedule to the community
 
@@ -93,7 +93,7 @@ This document outlines how to conduct a Knative Technical Oversight Committee el
   - How is $candidate doing so far? (PS - we don't know anyway)
   - Who are your favorite candidates?
 - Generate the voter guide and list of voters according to the criteria for that year's election
-- Generate exemption form for non-code contributors to apply for voting
+- Generate exception form for non-code contributors to apply for voting
   - Review and commit applicants to approved voter's list at least once a week until the election begins
 - Track candidates
 - Monitor groups for nominations
@@ -107,3 +107,7 @@ This document outlines how to conduct a Knative Technical Oversight Committee el
 
 
 [election-recusal]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
+
+# Knative Steering Committee Elections
+
+TBD
