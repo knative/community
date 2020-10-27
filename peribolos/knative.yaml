@@ -364,6 +364,7 @@ orgs:
     - prydonius
     - PTDelaney
     - qingling128
+    - quentin-cha
     - rachelmyers
     - radufa
     - RaeesBhatti
@@ -626,6 +627,12 @@ orgs:
         has_projects: true
         has_wiki: false
         homepage: https://knative.github.io/test-infra/
+      hack:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative common scripts.
+        has_projects: true
+        has_wiki: false
       website:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -732,6 +739,7 @@ orgs:
           serving: admin
           serving-operator: admin
           test-infra: admin
+          hack: admin
           website: admin
         teams:
           Knative Robots:
@@ -748,6 +756,13 @@ orgs:
             - bsnchan
             - mbehrendt
             - thisisnotapril
+            - ronavn
+            privacy: closed
+          Trademark Committee:
+            description: Knative Trademark Committee
+            maintainers:
+            - bsnchan
+            - duglin
             - ronavn
             privacy: closed
           TBD Admins:
@@ -819,6 +834,7 @@ orgs:
         repos:
           .github: write
           test-infra: write
+          hack: write
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
