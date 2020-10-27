@@ -56,6 +56,7 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
 
 - [ ] Create a sample PR to verify Prow (e.g. edit the boilerplate README)
 
-**TOC Gate** : _Once Prow has been verified_
+- [ ] Verify that within 24 hours the appropriate branch protections have been applied
+   requiring `tide` to pass before PRs are merged.
 
-- [ ] Have a member of the TOC enable branch protections so that `tide` is a required presubmit check.
+- [ ] (optional) Send a PR adding the repo to [knobots](https://github.com/knative-sandbox/knobots).
