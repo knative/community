@@ -41,7 +41,7 @@ by devstats data, and thus do not appear in the [Eligible voters](voters.md) lis
 the data only shows us half of the real Knative contributors, so do not hesitate
 to request an exception if you are in the other half.
 
-### Schedule
+## Schedule
 
 | Date         | Event                    |
 | ------------ | ------------------------ |
@@ -51,6 +51,17 @@ to request an exception if you are in the other half.
 | November 22    | Last call for exception & replacement ballots |
 | November 29       | Election Closes by 0000 UTC (5pm Pacific) |
 | December 3       | Announcement of Results at Knative Steering Meeting |
+
+## Election Officers
+
+In an effort to run a fair and transparent election, the following people
+have been asked by the Steering Committee to run this election:
+
+- [Josh Berkus](https://github.com/jberkus)
+- [Dawn Foster](https://github.com/geekygirldawn)
+- [Maria Cruz](https://github.com/macruzbar-zz)
+
+You can reach us by emailing elections@knative.team
 
 ## Candidacy Process
 
