@@ -15,7 +15,6 @@ orgs:
     - google-admin
     - googlebot
     - grantr
-    - knative-automation
     - knative-prow-robot
     - markusthoemmes
     - mattmoor
@@ -271,6 +270,7 @@ orgs:
     - kimikowang
     - kimsterv
     - kitmerker-jfrog
+    - knative-automation
     - knative-metrics-robot
     - knative-prow-releaser-robot
     - knative-test-reporter-robot
