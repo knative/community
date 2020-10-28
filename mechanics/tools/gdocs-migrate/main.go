@@ -1,84 +1,94 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"log"
 	"strings"
 
+	"github.com/pkg/errors"
 	"google.golang.org/api/drive/v3"
+	"knative.dev/pkg/pool"
 )
 
-var (
-	knativeCommunity = File{
-		id:   "0APnJ_hRs30R2Uk9PVA",
-		name: "Knative Community Drive",
-	}
-	knativeTeam = File{
-		id:   "0AM-QGZJ-HUA8Uk9PVA",
-		name: "Knative Team Drive",
-	}
-)
-
-const (
-	FolderMimeType = "application/vnd.google-apps.folder"
-)
-
-func loadAllFiles(forest *Forest, srv *drive.Service, drive File) {
-	forest.Add(File{
-		id:       drive.id,
-		name:     drive.name,
-		isFolder: true,
-	})
-	var pageToken *string
-	for pageToken == nil || *pageToken != "" {
-		// List files from Knative Community Drive.
-		request := srv.Files.List().PageSize(1000).
-			Corpora("drive").
-			IncludeItemsFromAllDrives(true).
-			SupportsAllDrives(true).
-			DriveId(drive.id).
-			Fields("nextPageToken, files(id, name, parents, mimeType)").
-			OrderBy("folder,modifiedTime desc,name")
-		if pageToken != nil {
-			request.PageToken(*pageToken)
+func mirror(srv *drive.Service, forest *Forest, src File, dst File, w pool.Interface) error {
+	srcPath, dstPath := forest.GetPath(src), forest.GetPath(dst)
+	for _, child := range forest.Children(src) {
+		// File copying operations are done in Go routines, thus it is
+		// necessary to capture range variable here.
+		child := child
+		childName := strings.Join(append(srcPath, src.name, child.name), "/")
+		cloneName := strings.Join(append(dstPath, dst.name, child.name), "/")
+		clone, exist := forest.Children(dst)[child.name]
+		if child.isFolder {
+			if !exist { // Destination folder not exist
+				log.Printf("Creating directory %q", cloneName)
+				created, err := createDir(srv, dst, child.name)
+				if err != nil {
+					return err
+				}
+				forest.Add(*created)
+				clone = *created
+			}
+			if err := mirror(srv, forest, child, clone, w); err != nil {
+				return err
+			}
 		}
-		r, err := request.Do()
-		if err != nil {
-			log.Fatal("Unable to retrieve files:", err)
-		}
-		pageToken = &r.NextPageToken
-		for _, i := range r.Files {
-			forest.Add(File{
-				id:       i.Id,
-				name:     i.Name,
-				parentID: i.Parents[0],
-				isFolder: i.MimeType == FolderMimeType,
+		if !exist && !child.isFolder { // Destination file not exist.
+			w.Go(func() error { // File copying can be done in parallel.
+				log.Printf("Copying %q to %q", childName, cloneName)
+				_, err := copyFile(srv, child, dst)
+				return errors.Wrap(err, fmt.Sprintf("Cannot copy %q to %q", childName, cloneName))
 			})
 		}
-		fmt.Printf("Loaded %d files, %d folders\n", len(forest.GetFiles()), forest.FolderCount())
 	}
+	return nil
 }
 
+// flag.StringVars
+var sourceDriveID, destDriveID string
+
 func main() {
+	flag.StringVar(&sourceDriveID, "sourceDriveID", "", "The source drive ID")
+	flag.StringVar(&destDriveID, "destDriveID", "", "The dest drive ID")
+	flag.Parse()
+
+	if sourceDriveID == "" || destDriveID == "" {
+		log.Fatal("Both --sourceDriveID and --destDriveID are required")
+	}
 	// You need to put credentials into a file named credentials.json.
 	// TODO(evankanderson): Write some better docs.
 	client, err := clientFromFile("credentials.json")
 	if err != nil {
-		log.Fatal("Unable to initialize client:", err)
+		log.Fatal("Unable to initialize client: ", err)
 	}
 
 	srv, err := drive.New(client)
 	if err != nil {
-		log.Fatal("Unable to retrieve Drive client:", err)
+		log.Fatal("Unable to retrieve Drive client: ", err)
+	}
+
+	source, err := getDrive(srv, sourceDriveID)
+	if err != nil {
+		log.Fatal("Failed to look up source drive: ", sourceDriveID, err)
+	}
+	dest, err := getDrive(srv, destDriveID)
+	if err != nil {
+		log.Fatal("Failed to look up dest drive: ", destDriveID, err)
 	}
 
 	forest := NewForest()
-	for _, drive := range []File{knativeTeam, knativeCommunity} {
-		fmt.Println("Loading directory from ... ", drive.name)
-		loadAllFiles(&forest, srv, drive)
+	for _, drive := range []*File{source, dest} {
+		fmt.Println("Loading directory from", drive.name)
+		loadAllFiles(&forest, srv, *drive)
 	}
-
-	for _, f := range forest.GetFiles() {
-		fmt.Printf("[%s] %s\n", strings.Join(forest.GetPath(f), "/"), f.name)
+	// Create a thread pool for file copying operations. Don't be too
+	// ambitious: 429s await.
+	threads := pool.New(5)
+	if err := mirror(srv, &forest, *source, *dest, threads); err != nil {
+		log.Fatal("Error mirroring data ", err)
+	}
+	if err := threads.Wait(); err != nil {
+		log.Fatal("Error mirroring data ", err)
 	}
 }

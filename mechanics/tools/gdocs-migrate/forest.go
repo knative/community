@@ -4,26 +4,29 @@ type File struct {
 	id       string
 	name     string
 	parentID string
+	driveID  string
 	isFolder bool
 }
 
 type Forest struct {
 	fileByID map[string]File
-	children map[string][]File
+	children map[string]map[string]File
 	leaves   []File
 }
 
 func NewForest() Forest {
 	return Forest{
 		fileByID: make(map[string]File),
-		children: make(map[string][]File),
+		children: make(map[string]map[string]File),
 	}
 }
 
 func (fo *Forest) Add(f File) {
 	fo.fileByID[f.id] = f
-
-	fo.children[f.parentID] = append(fo.children[f.parentID], f)
+	if _, existed := fo.children[f.parentID]; !existed {
+		fo.children[f.parentID] = make(map[string]File)
+	}
+	fo.children[f.parentID][f.name] = f
 	if !f.isFolder {
 		fo.leaves = append(fo.leaves, f)
 	}
@@ -61,4 +64,8 @@ func reverse(s []string) []string {
 		s[i], s[j] = s[j], s[i]
 	}
 	return s
+}
+
+func (fo *Forest) Children(f File) map[string]File {
+	return fo.children[f.id]
 }
