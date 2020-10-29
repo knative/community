@@ -342,6 +342,12 @@ orgs:
         description: Kn plugin for managing a Kubernetes based Knative installation.
         has_projects: true
         has_wiki: false
+      kn-plugin-source-kafka:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for managing Kafka event sources.
+        has_projects: true
+        has_wiki: false
       kn-plugin-source-pkg:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -428,6 +434,7 @@ orgs:
         repos:
           build-spike: write
           kn-plugin-admin: write
+          kn-plugin-source-kafka: write
           kn-plugin-source-pkg: write
           kn-plugin-diag: write
         teams:
@@ -513,6 +520,7 @@ orgs:
           eventing-rabbitmq: admin
           eventing-redis: admin
           kn-plugin-admin: admin
+          kn-plugin-source-kafka: admin
           kn-plugin-source-pkg: admin
           kn-plugin-diag: admin
           knobots: admin
