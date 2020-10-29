@@ -25,7 +25,7 @@ This area is used to track the [repo creation process](/mechanics/CREATING-A-SAN
 The _requestor_ and _sponsoring WG lead_ should perform the steps listed below and cross out the checkmarks when done.
 The TOC is involved only in the **TOC Gate** steps.
 
-- [ ] Add this issue to the [TOC project board](https://github.com/orgs/knative/projects/9) for review.
+- [ ] Add this issue to the [TOC project board](https://github.com/orgs/knative/projects/9) for review. You are responsible for moving your entry on the board to "Needs Discussion" or "In Progress" as you move forward in this checklist.
 
 _You may not be able to use the Projects quick menu on this page. In that case, go to the project board and use the **Add cards** interface._
 
@@ -51,10 +51,11 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
     git push newrepo master
   ```
 
-- [ ] Set up [test-infra](https://github.com/knative/test-infra) following the
-  docs linked at the beginning.
+- [ ] Set up [test-infra](https://github.com/knative/test-infra) using the [hack](https://github.com/knative-sandbox/hack) project.
 
-- [ ] Create a sample PR to verify Prow (e.g. edit the boilerplate README)
+- [ ] Add your GitHub ID to the `OWNERS` file for your repo.
+
+- [ ] Create a sample PR to verify Prow (e.g., edit the boilerplate README)
 
 - [ ] Verify that within 24 hours the appropriate branch protections have been applied
    requiring `tide` to pass before PRs are merged.
