@@ -109,7 +109,7 @@ repo.
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                              |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                           |
-| Community Meeting Calendar | Bi Weekly on Tuesdays, 9:00-9:30am<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
+| Community Meeting Calendar | Weekly on Tuesdays, 9:30-10:00am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                      |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1K5cM9m-b93ySI5WGKalJKbBq_cfjyi-y)                                                                            |
 | Slack Channel              | [#docs](https://slack.knative.dev/messages/docs)                                                                                                                   |
