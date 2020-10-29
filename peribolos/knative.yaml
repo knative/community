@@ -270,6 +270,7 @@ orgs:
     - kimikowang
     - kimsterv
     - kitmerker-jfrog
+    - knative-automation
     - knative-metrics-robot
     - knative-prow-releaser-robot
     - knative-test-reporter-robot

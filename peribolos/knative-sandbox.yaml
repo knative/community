@@ -127,6 +127,7 @@ orgs:
     - julz
     - jzelinskie
     - k4leung4
+    - knative-automation
     - knative-metrics-robot
     - knative-prow-releaser-robot
     - knative-test-reporter-robot
