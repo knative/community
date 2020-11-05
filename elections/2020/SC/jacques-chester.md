@@ -8,7 +8,7 @@ VMware
 
 - I wrote a book about Knative, helping to raise awareness and understanding
   for new users
-- I was active in the development of Knatve's governance from the very
+- I was active in the development of Knative's governance from the very
   beginning
 - I gave extensive early feedback for the Autoscaler system
 - Sometimes, I make the joke
