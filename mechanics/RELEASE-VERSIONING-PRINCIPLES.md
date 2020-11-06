@@ -526,13 +526,34 @@ tuple
    </td>
   </tr>
   <tr>
-   <td rowspan="2" >0.20.x
+   <td rowspan="2" >0.21.x
    </td>
    <td rowspan="2" >2021-02-23
    </td>
    <td rowspan="2" >2021-08-10
    </td>
    <td rowspan="2" >v1.18x
+   </td>
+   <td rowspan="2" >v1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+  <tr>
+   <td rowspan="2" >0.20.x
+   </td>
+   <td rowspan="2" >2021-01-12
+   </td>
+   <td rowspan="2" >2021-06-29
+   </td>
+   <td rowspan="2" >v1.17x
    </td>
    <td rowspan="2" >v1
    </td>
