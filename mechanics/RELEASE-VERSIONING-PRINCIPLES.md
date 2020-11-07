@@ -213,7 +213,7 @@ tuple
    </td>
    <td><strong>Release Date</strong>
    </td>
-   <td><strong>End of LIfe Date</strong>
+   <td><strong>End of Life Date</strong>
    </td>
    <td><strong>Min K8s Version</strong>
    </td>
