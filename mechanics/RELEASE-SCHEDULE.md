@@ -1,4 +1,9 @@
-# Knative Release Schedule
+---
+title: "Knative Release Schedule"
+linkTitle: "Release schedule"
+weight: 50
+type: "docs"
+---
 
 Knative releases every 6 weeks. As much as possible, releases should be driven by automation, and repos should be ready to release at any point. It should also be possible to produce and consume nightly artifacts.
 
