@@ -550,7 +550,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td><strong>optional (deprecated)</strong>
+   <td>optional (deprecated)
    </td>
   </tr>
   <tr>
@@ -578,7 +578,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td><strong>optional (deprecated)</strong>
+   <td>optional (deprecated)
    </td>
   </tr>
   <tr>
@@ -606,7 +606,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td><strong>optional (deprecated)</strong>
+   <td>optional (deprecated)
    </td>
   </tr>
   <tr>
@@ -634,7 +634,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td><strong>optional (deprecated)</strong>
+   <td>optional (deprecated)
    </td>
   </tr>
   <tr>
