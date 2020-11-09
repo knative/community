@@ -526,17 +526,17 @@ tuple
    </td>
   </tr>
   <tr>
-   <td>0.21.x
+   <td rowspan="2" >0.21.x
    </td>
-   <td>2021-02-23
+   <td rowspan="2" >2021-02-23
    </td>
-   <td>2021-08-10
+   <td rowspan="2" >2021-08-10
    </td>
-   <td>v1.18x
+   <td rowspan="2" >v1.18x
    </td>
-   <td>v1
+   <td rowspan="2" >v1
    </td>
-   <td>N/A
+   <td rowspan="2" >N/A
    </td>
    <td>v1
    </td>
@@ -546,6 +546,13 @@ tuple
    </td>
   </tr>
   <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td><strong>optional (deprecated)</strong>
+   </td>
+  </tr>
   <tr>
    <td rowspan="2" >0.20.x
    </td>
@@ -571,7 +578,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td><strong>removed</strong>
+   <td><strong>optional (deprecated)</strong>
    </td>
   </tr>
   <tr>
@@ -599,7 +606,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td><strong>removed</strong>
+   <td><strong>optional (deprecated)</strong>
    </td>
   </tr>
   <tr>
@@ -627,7 +634,7 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td><strong>not served</strong>
+   <td><strong>optional (deprecated)</strong>
    </td>
   </tr>
   <tr>
