@@ -24,7 +24,7 @@ evolve as the community and project change.
   - [Election Officer(s)](#election-officers)
   - [Eligibility to Vote](#eligibility-to-vote)
   - [Candidate Eligibility](#candidate-eligibility)
-  - [Voting Procedure](#voting procedure)
+  - [Voting Procedure](#voting-procedure)
   - [Limitations on Company Representation](#limitations-on-company-representation)
 - [Vacancies](#vacancies)
 - [Transition](#transition)
