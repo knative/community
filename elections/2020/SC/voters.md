@@ -14,6 +14,7 @@ The eligible voter process can be found in the [SC election mechanics](../../mec
 
 * **2020-10-26** - Add initial voter eligibility based on GitHub contributions, as measured by
   devstats, for the period of 2019-10-15 to 2020-10-15
+* **2020-11-03** - Add one voter per exception requests.
 
 ---
 
