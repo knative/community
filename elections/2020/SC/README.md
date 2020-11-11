@@ -5,6 +5,16 @@ weight: 30
 type: "docs"
 ---
 
+* [Purpose](#purpose)
+* [Background](#background)
+* [Eligibiliy](#eligibility)
+* [Exceptions](#exceptions-and-email-addresses)
+* [Schedule](#schedule)
+* [Election Officers](#election-officers)
+* [Candidacy Process](#candidacy-process)
+* [Voting Process](#voting-process)
+* [Nominees](#nominees)
+
 # 2020 Voters Guide - Knative Steering Committee Election
 
 ## Purpose
@@ -40,6 +50,9 @@ by devstats data, and thus do not appear in the [Eligible voters](voters.md) lis
  please file an exception request via the [voter exception form].  We believe that
 the data only shows us half of the real Knative contributors, so do not hesitate
 to request an exception if you are in the other half.
+
+If you are eligible, but have not received your ballot on time, plese fill out
+the [Ballot Replacement Form](https://bit.ly/knsc2020-ballot).
 
 ## Schedule
 
@@ -149,7 +162,12 @@ the [SC Election Charter].
 
 |    Name    | Organization/Company |  GitHub  |
 |:----------:|:--------------------:|:--------:|
-|  |  |   |
+| [Arghya Sadhu](arghya-sadhu.md) | JP Morgan Chase |  [arghya88](https://github.com/arghya88) |
+| [Carlos Santana](csantanapr.md) | IBM | [csantanapr](https://github.com/csantanapr) |
+| [Sebastien Goasguen](goasguen.md) | TriggerMesh | [sebgoa](https://github.com/sebgoa) |
+| [Jacques Chester](jacques-chester.md)| VMware | [jchesterpivotal](https://github.com/jchesterpivotal) |
+| [Paul Morie](pmorie.md) | Red Hat | [pmorie](https://github.com/pmorie) |
+| [Ville Aikas](vaikas.md) | VMware | [vaikas](https://github.com/vaikas) |
 
 [Knative Steering Committee]: https://github.com/knative/community/blob/master/STEERING-COMMITTEE.md
 [SC Election Charter]: https://github.com/knative/community/blob/master/mechanics/SC.md
