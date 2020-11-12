@@ -242,6 +242,12 @@ orgs:
         description: "Repository for sharing org-wide Github metadata and workflow templates."
         has_projects: true
         has_wiki: false
+      actions-kind:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: GitHub Action for performing KinD based workflows.
+        has_projects: true
+        has_wiki: false
       async-component:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -504,6 +510,7 @@ orgs:
         repos:
           # All repos should be listed here!
           .github: admin
+          actions-kind: admin
           async-component: admin
           build-spike: admin
           discovery: admin
@@ -608,8 +615,8 @@ orgs:
         privacy: closed
         repos:
           .github: write
+          actions-kind: write
           downstream-test-go: write
-          knobots: write
           kperf: write
         teams:
           Productivity WG Leads:
@@ -618,20 +625,6 @@ orgs:
             - chizhg
             - n3wscott
             privacy: closed
-      GitHub Actions Effort:
-        # The maintainers of the GitHub Actions for Knative effort need to
-        # create releases to allow the versioning control used by actions work.
-        # At the moment this is not automated so granting admin rights to the
-        # set of developers on the actions. This can be removed when we can
-        # automate the releasing of actions.
-        description: Grants admin rights to github actions related repositories.
-        privacy: closed
-        repos:
-          .github: admin
-          downstream-test-go: admin
-        members:
-        - n3wscott
-        - mattmoor
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
