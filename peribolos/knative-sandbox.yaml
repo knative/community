@@ -59,6 +59,7 @@ orgs:
     - capri-xiyue
     - cbickel
     - chaodaiG
+    - chaozbj
     - chizhg
     - cooperneil
     - coryrc
@@ -96,6 +97,7 @@ orgs:
     - grayside
     - gsiener
     - gyliu513
+    - gyohuangxin
     - halvards
     - Harwayne
     - hev
@@ -133,6 +135,7 @@ orgs:
     - knative-test-reporter-robot
     - krumts
     - lance
+    - lanceliuu
     - lberk
     - lesv
     - lichuqiang
@@ -169,6 +172,7 @@ orgs:
     - pkosiec
     - priyawadhwa
     - prydonius
+    - qibobo
     - radufa
     - RaeesBhatti
     - rafaeltello
@@ -229,8 +233,11 @@ orgs:
     - zhanggbj
     - zhaojizhuang
     - ZhiminXiang
+    - ZhuangYuZY
     - zouyee
     - zrob
+    - zyjiaobj
+    - 12345lcr
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
