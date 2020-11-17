@@ -112,14 +112,17 @@ replacement delegate from the same company during the absence.
 
 ## Getting in touch
 
-There are two ways to raise issues to the steering committee for decision:
+There are three ways to raise issues to the steering committee for decision:
 
 1. Emailing the steering committee at
-   [knative-trademark@googlegroups.com](mailto:knative-trademark@googlegroups.com).
+   [trademark@knative.team](mailto:trademark@knative.team).
    This is a private discussion list to which all members of the committee have
    access.
-2. Open an issue on a knative repository and indicate that you would like
-   attention from the trademark committee.
+2. Open an issue in the knative community repository and indicate that you would like
+   attention from the trademark committee by using the 'trademark' label, or by
+   tagging the trademark committee GitHub user group.
+3. Chat with the trademark committee in the #trademark-questions Slack channel
+   on the Knative Slack.
 
 ## Composition
 
