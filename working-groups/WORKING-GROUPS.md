@@ -175,7 +175,6 @@ Event producers and frameworks.
 | <img width="30px" src="https://github.com/n3wscott.png">      | Scott Nichols        | VMware  | [n3wscott](https://github.com/n3wscott)           |
 | <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas          | VMware  | [vaikas](https://github.com/vaikas)               |
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard       | IBM     | [lionelvillard](https://github.com/lionelvillard) |
-| <img width="30px" src="https://github.com/nachocano.png">     | Ignacio (Nacho) Cano | Google  | [nachocano](https://github.com/nachocano)         |
 
 ## Networking
 
