@@ -506,7 +506,6 @@ orgs:
           Source WG Leads:
             description: The Working Group leads for Sources
             members:
-            - nachocano
             - lionelvillard
             - vaikas
             - n3wscott
