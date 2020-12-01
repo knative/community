@@ -51,9 +51,11 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
     git push newrepo master
   ```
 
-- [ ] Set up [test-infra](https://github.com/knative/test-infra) using the [hack](https://github.com/knative-sandbox/hack) project.
-
 - [ ] Add your GitHub ID to the `OWNERS` file for your repo.
+
+- [ ] [Set up](https://github.com/knative/test-infra/blob/master/guides/prow_knative_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge) prow for a new repo
+
+- [ ] Bootstrap your CI jobs using [hack](https://github.com/knative/hack) project (look at other sandbox repos for reference)
 
 - [ ] Create a sample PR to verify Prow (e.g., edit the boilerplate README)
 
