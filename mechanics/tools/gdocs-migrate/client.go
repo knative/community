@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 
+	"github.com/pkg/errors"
 	"google.golang.org/api/drive/v3"
 )
 
@@ -32,7 +33,7 @@ func loadAllFiles(forest *Forest, srv *drive.Service, drive File) {
 			IncludeItemsFromAllDrives(true).
 			SupportsAllDrives(true).
 			DriveId(drive.id).
-			Fields("nextPageToken, files(id, name, parents, mimeType, trashed)").
+			Fields("nextPageToken", "files(id, name, parents, mimeType, trashed)").
 			OrderBy("folder,modifiedTime desc,name")
 		if pageToken != nil {
 			request.PageToken(*pageToken)
@@ -53,6 +54,7 @@ func loadAllFiles(forest *Forest, srv *drive.Service, drive File) {
 				parentID: i.Parents[0],
 				driveID:  drive.id,
 				isFolder: i.MimeType == FolderMimeType,
+				mimeType: i.MimeType,
 			})
 		}
 		// Print progress.
@@ -79,15 +81,47 @@ func createDir(srv *drive.Service, parentDir File, name string) (*File, error) {
 	}, nil
 }
 
+func deleteFile(srv *drive.Service, fileId string) error {
+	return srv.Files.Delete(fileId).SupportsAllDrives(true).Do()
+}
+
+func prependAuthor(author *drive.User, content string) string {
+	return author.DisplayName + ": " + content
+}
+
 func copyFile(srv *drive.Service, source File, dstDir File) (*File, error) {
-	copier := drive.NewFilesService(srv)
-	f, err := copier.Copy(source.id, &drive.File{
+	f, err := srv.Files.Copy(source.id, &drive.File{
 		Name:    source.name,
 		Parents: []string{dstDir.id},
 		DriveId: dstDir.driveID,
 	}).SupportsAllDrives(true).Do()
 	if err != nil {
 		return nil, err
+	}
+	// Copy all the comments.
+	// TODO: page them appropriately.
+	comments, err := srv.Comments.List(source.id).Fields("*").Do()
+	if err != nil {
+		deleteFile(srv, f.Id)
+		return nil, errors.Wrap(err, "CommentsList failed")
+	}
+	for _, comment := range comments.Comments {
+		commentCopy := *comment
+		commentCopy.Replies = nil
+		commentCopy.Content = prependAuthor(comment.Author, comment.Content)
+		newComment, err := srv.Comments.Create(f.Id, &commentCopy).Fields("*").Do()
+		if err != nil {
+			deleteFile(srv, f.Id)
+			return nil, errors.Wrap(err, "CommentCreate failed")
+		}
+		for _, reply := range comment.Replies {
+			newReply := *reply
+			newReply.Content = prependAuthor(reply.Author, reply.Content)
+			if _, err := srv.Replies.Create(f.Id, newComment.Id, &newReply).Fields("*").Do(); err != nil {
+				deleteFile(srv, f.Id)
+				return nil, errors.Wrap(err, "ReplyCreate failed")
+			}
+		}
 	}
 	return &File{
 		id:       f.Id,

@@ -6,6 +6,7 @@ type File struct {
 	parentID string
 	driveID  string
 	isFolder bool
+	mimeType string
 }
 
 type Forest struct {

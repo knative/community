@@ -82,6 +82,14 @@ func main() {
 		fmt.Println("Loading directory from", drive.name)
 		loadAllFiles(&forest, srv, *drive)
 	}
+	// Display some statistics about different file types
+	countByTypes := make(map[string]int)
+	for _, f := range forest.GetFiles() {
+		countByTypes[f.mimeType]++
+	}
+	for kind, count := range countByTypes {
+		fmt.Printf("%s:\t%d\n", kind, count)
+	}
 	// Create a thread pool for file copying operations. Don't be too
 	// ambitious: 429s await.
 	threads := pool.New(5)
