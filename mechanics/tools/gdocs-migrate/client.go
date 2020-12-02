@@ -1,8 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"strings"
+	"time"
 
 	"github.com/pkg/errors"
 	"google.golang.org/api/drive/v3"
@@ -95,6 +97,27 @@ func sanitizeEmail(content string) string {
 	return strings.ReplaceAll(content, "@", "\uff20")
 }
 
+// reformat the time from RFC3339 for brevity
+func decorateTime(rfc3339 string) string {
+	t, _ := time.Parse(time.RFC3339, rfc3339)
+	return t.UTC().Format("2006-Jan-02 23:04")
+}
+
+func decorateComment(input *drive.Comment) *drive.Comment {
+	comment := *input
+	comment.Replies = nil
+	comment.Content = fmt.Sprintf("[%s] %s: %s",
+		decorateTime(input.CreatedTime), input.Author.DisplayName, sanitizeEmail(input.Content))
+	return &comment
+}
+
+func decorateReply(input *drive.Reply) *drive.Reply {
+	reply := *input
+	reply.Content = fmt.Sprintf("[%s] %s: %s",
+		decorateTime(input.CreatedTime), input.Author.DisplayName, sanitizeEmail(input.Content))
+	return &reply
+}
+
 func copyFile(srv *drive.Service, source File, dstDir File) (*File, error) {
 	f, err := srv.Files.Copy(source.id, &drive.File{
 		Name:    source.name,
@@ -112,18 +135,13 @@ func copyFile(srv *drive.Service, source File, dstDir File) (*File, error) {
 		return nil, errors.Wrap(err, "CommentsList failed")
 	}
 	for _, comment := range comments.Comments {
-		commentCopy := *comment
-		commentCopy.Replies = nil
-		commentCopy.Content = prependAuthor(comment.Author, sanitizeEmail(comment.Content))
-		newComment, err := srv.Comments.Create(f.Id, &commentCopy).Fields("*").Do()
+		newComment, err := srv.Comments.Create(f.Id, decorateComment(comment)).Fields("*").Do()
 		if err != nil {
 			deleteFile(srv, f.Id)
 			return nil, errors.Wrap(err, "CommentCreate failed")
 		}
 		for _, reply := range comment.Replies {
-			newReply := *reply
-			newReply.Content = prependAuthor(reply.Author, sanitizeEmail(reply.Content))
-			if _, err := srv.Replies.Create(f.Id, newComment.Id, &newReply).Fields("*").Do(); err != nil {
+			if _, err := srv.Replies.Create(f.Id, newComment.Id, decorateReply(reply)).Fields("*").Do(); err != nil {
 				deleteFile(srv, f.Id)
 				return nil, errors.Wrap(err, "ReplyCreate failed")
 			}
