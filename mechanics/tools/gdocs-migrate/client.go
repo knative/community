@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"strings"
 
 	"github.com/pkg/errors"
 	"google.golang.org/api/drive/v3"
@@ -89,6 +90,11 @@ func prependAuthor(author *drive.User, content string) string {
 	return author.DisplayName + ": " + content
 }
 
+func sanitizeEmail(content string) string {
+	// Use a homoglyph of @ to make sure people aren's getting emails
+	return strings.ReplaceAll(content, "@", "\uff20")
+}
+
 func copyFile(srv *drive.Service, source File, dstDir File) (*File, error) {
 	f, err := srv.Files.Copy(source.id, &drive.File{
 		Name:    source.name,
@@ -108,7 +114,7 @@ func copyFile(srv *drive.Service, source File, dstDir File) (*File, error) {
 	for _, comment := range comments.Comments {
 		commentCopy := *comment
 		commentCopy.Replies = nil
-		commentCopy.Content = prependAuthor(comment.Author, comment.Content)
+		commentCopy.Content = prependAuthor(comment.Author, sanitizeEmail(comment.Content))
 		newComment, err := srv.Comments.Create(f.Id, &commentCopy).Fields("*").Do()
 		if err != nil {
 			deleteFile(srv, f.Id)
@@ -116,7 +122,7 @@ func copyFile(srv *drive.Service, source File, dstDir File) (*File, error) {
 		}
 		for _, reply := range comment.Replies {
 			newReply := *reply
-			newReply.Content = prependAuthor(reply.Author, reply.Content)
+			newReply.Content = prependAuthor(reply.Author, sanitizeEmail(reply.Content))
 			if _, err := srv.Replies.Create(f.Id, newComment.Id, &newReply).Fields("*").Do(); err != nil {
 				deleteFile(srv, f.Id)
 				return nil, errors.Wrap(err, "ReplyCreate failed")
