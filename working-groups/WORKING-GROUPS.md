@@ -26,6 +26,13 @@ and comment access to the
 [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev) Google
 group.
 
+Some working groups (mostly those with a plug-in or extension model)
+end up responsible for a set of GitHub repos, one for each
+extension. This allows for easier dependency management; in these
+cases, one or more repo prefix names will be recorded as canonical
+"extension names" to allow WGs to be responsible for their own
+namespace without needing to get TOC approval for each repo name.
+
 Additionally, all working groups should hold regular meetings, which should be
 added to the
 [shared knative calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com)
@@ -73,6 +80,7 @@ API
 | Community Meeting Calendar | Wednesdays 10:30a-11:00a PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1NC4klOdNaU-N-PsKLyXBqDKgNSHtxCDep29Ta2b5FK0/edit)                                                                 |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1fpBW7VyiBISsKuVdgn1MrgFdtx_JGoC5)                                                                       |
+| Repo prefixes              |                                                                                                                                                               |
 | Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api)                                                                                                |
 
 | &nbsp;                                                   | Leads            | Company | Profile                                 |
@@ -92,6 +100,7 @@ conventions
 | Community Meeting Calendar | Tuesdays, alternating between 10:30a-11:00a Pacific and 3:30p-4:00p Central European every two weeks<br>[Calendar Invitation](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1Uh7jTWQruBBmic-WmTvtc9cMF95kQrKb5lsqWhNuikM/edit)                                                                                                                                                   |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1QF-job3rCEqCpJLm8nHkC4mBIi4XANE1)                                                                                                                                                         |
+| Repo prefixes              | `kn-plugin-*`                                                                                                                                                                                                                                   |
 | Slack Channel              | [#cli](https://slack.knative.dev)                                                                                                                                                                                                               |
 
 | &nbsp;                                                      | Leads        | Company | Profile                                       |
@@ -105,14 +114,15 @@ conventions
 Knative documentation, especially the [Docs](https://github.com/knative/docs/)
 repo.
 
-| Artifact                   | Link                                                                                                                                                               |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                              |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                           |
+| Artifact                   | Link                                                                                                                                                                 |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                                |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                             |
 | Community Meeting Calendar | Weekly on Tuesdays, 9:30-10:00am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                      |
-| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1K5cM9m-b93ySI5WGKalJKbBq_cfjyi-y)                                                                            |
-| Slack Channel              | [#docs](https://slack.knative.dev/messages/docs)                                                                                                                   |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Y7rug0XshcQPdKzptdWbQLQjcjgpFdLeEgP1nfkDAe4/edit)                                                                        |
+| Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1K5cM9m-b93ySI5WGKalJKbBq_cfjyi-y)                                                                              |
+| Repo prefixes              |                                                                                                                                                                      |
+| Slack Channel              | [#docs](https://slack.knative.dev/messages/docs)                                                                                                                     |
 
 | &nbsp;                                                     | Leads            | Company | Profile                                     |
 | ---------------------------------------------------------- | ---------------- | ------- | ------------------------------------------- |
@@ -130,6 +140,7 @@ Event sources, bindings, FaaS framework, and orchestration
 | Community Meeting Calendar | Wednesdays 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1uGDehQu493N_XCAT5H4XEw5T9IWlPN1o19ULOWKuPnY/edit)                                                              |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1S22YmGl6B1ppYApwa1j5j9Nc6rEChlPo)                                                                    |
+| Repo prefixes              | `eventing-*`                                                                                                                                               |
 | Slack Channel              | [#eventing](https://slack.knative.dev/messages/eventing)                                                                                                   |
 
 | &nbsp;                                                        | Leads                      | Company | Profile                                           |
@@ -150,6 +161,7 @@ Event delivery data plane.
 | Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1uxlulaAf2m_yZUqCIeI-inul2gsqP69PElnZdO0FHUo/edit#)                                                           |
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1gQymVBlLsQxknScnn1x5wUT5OBBNj5P3)                                                                   |
+| Repo prefixes              | (shares `eventing-*` with the eventing WG)                                                                                                               |
 | Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                               |
 
 | &nbsp;                                                   | Leads               | Company | Profile                                 |
@@ -168,13 +180,14 @@ Event producers and frameworks.
 | Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit#)                                                           |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1tDlLtLVNXghg8Fn8KlVGr5ZTvkiQjZJs)                                                                       |
+| Repo prefixes              | (shares `eventing-*` with the eventing WG)                                                                                                               |
 | Slack Channel              | [#eventing-sources](https://slack.knative.dev/messages/eventing-sources)                                                                                 |
 
-| &nbsp;                                                        | Leads                | Company | Profile                                           |
-| ------------------------------------------------------------- | -------------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/n3wscott.png">      | Scott Nichols        | VMware  | [n3wscott](https://github.com/n3wscott)           |
-| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas          | VMware  | [vaikas](https://github.com/vaikas)               |
-| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard       | IBM     | [lionelvillard](https://github.com/lionelvillard) |
+| &nbsp;                                                        | Leads          | Company | Profile                                           |
+| ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/n3wscott.png">      | Scott Nichols  | VMware  | [n3wscott](https://github.com/n3wscott)           |
+| <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas    | VMware  | [vaikas](https://github.com/vaikas)               |
+| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM     | [lionelvillard](https://github.com/lionelvillard) |
 
 ## Networking
 
@@ -189,6 +202,7 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | Community Meeting Calendar | Thursdays at 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://drive.google.com/open?id=1EE1t5mTfnTir2lEasdTMRNtuPEYuPqQCZbU3NC9mHOI)                                                                       |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1oVDYbcEDdQ9EpUmkK6gE4C7aZ8u6ujsN)                                                                      |
+| Repo prefixes              | `net-*`                                                                                                                                                      |
 | Slack Channel              | [#networking](https://slack.knative.dev/messages/networking)                                                                                                 |
 
 | &nbsp;                                                      | Leads            | Company   | Profile                                       |
@@ -208,6 +222,7 @@ Managing, assessing system health and maintaining Knative clusters
 | Community Meeting Calendar | Tuesdays at 10:00am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1DoCG0VGZ0_Nj84Ci443bEefSOnJAWVDXUbcYR-viVfY/edit#heading=h.redlkj86bwwn)                                     |
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/14AI7ClIq2btPZ13WT8BAN4AtNKpK_K6p)                                                                   |
+| Repo prefixes              |                                                                                                                                                          |
 | Slack Channel              | [#operations](https://slack.knative.dev/messages/operations)                                                                                             |
 
 | &nbsp;                                                     | Leads       | Company | Profile                                     |
@@ -225,6 +240,7 @@ Autoscaling
 | Community Meeting Calendar | Wednesdays at 9:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1FoLJqbDJM8_tw7CON-CJZsO2mlF8Ia1cWzCjWX8HDAI/edit#heading=h.c0ufqy5rucfa)                                      |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1qpGIPXVGoMm6IXb74gPrrHkudV_bjIZ9)                                                                   |
+| Repo prefixes              |                                                                                                                                                           |
 | Slack Channel              | [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                                                                            |
 
 | &nbsp;                                                         | Leads           | Company | Profile                                             |
@@ -244,6 +260,7 @@ performance/scale/load testing infrastructure
 | Community Meeting Calendar | Thursdays, 10am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1aPRwYGD4XscRIqlBzbNsSB886PJ0G-vZYUAAUjoydko)                                                            |
 | Document Folder            | [Folder](https://drive.google.com/corp/drive/folders/1oMYB4LQHjySuMChmcWYCyhH7-CSkz2r_)                                                             |
+| Repo prefixes              | `actions-*`                                                                                                                                         |
 | Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                    |
 
 | &nbsp;                                                   | Leads         | Company | Profile                                 |
