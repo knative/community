@@ -1,13 +1,18 @@
 ## Knative Branding Guidelines
 
 As a general rule, Knative follows the [Linux Foundation trademark
-usage](https://www.linuxfoundation.org/trademark-usage/) rules. As a high-level
-summary, the following is made for easy reference.
+usage](https://www.linuxfoundation.org/trademark-usage/) rules. This document
+will identify any deviations from the Linux Foundation's trademark rules, which
+means that if there is a conflict between what is stated in this document and
+the Linux Foundation's, then this document will take precedence.
+
+The following provides a summary of the Linux Foundation's rules for easy
+reference.
 
 The Knative logo and trademark is made available here with the following
 guidelines:
 
- **You may:**
+**You may:**
  - use them for non-commercial uses such as t-shirts and stickers
  - use them to link to knative.dev
  - use them in a blog post or news article about Knative
@@ -16,7 +21,6 @@ guidelines:
    or requirements]
 
 **You may not:**
-
  - Use them as your product's logo or trademark
  - Create a modified version of them
  - Integrate them into your logo
