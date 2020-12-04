@@ -11,7 +11,6 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
-    - anicolao
     - bsnchan
     - evankanderson
     - google-admin
@@ -22,9 +21,9 @@ orgs:
     - mattmoor
     - mbehrendt
     - pmorie
-    - ronavn
     - tcnghia
     - thisisnotapril
+    - vaikas
     members:
     - aavarghese
     - abrennan89

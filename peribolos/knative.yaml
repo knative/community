@@ -8,7 +8,6 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
-    - anicolao
     - bsnchan
     - eallred-google
     - evankanderson
@@ -20,9 +19,9 @@ orgs:
     - mattmoor
     - mbehrendt
     - pmorie
-    - ronavn
     - tcnghia
     - thisisnotapril
+    - vaikas
     members:
     - a-thaler
     - aaron-prindle
@@ -764,7 +763,7 @@ orgs:
             - bsnchan
             - mbehrendt
             - thisisnotapril
-            - ronavn
+            - vaikas
             privacy: closed
           Trademark Committee:
             description: Knative Trademark Committee
