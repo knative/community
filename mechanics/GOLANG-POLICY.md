@@ -30,3 +30,6 @@ be taken too lightly. Such a change should not happen closely to a release cycle
 Knative. If the bump would be within two weeks of the Knative release cycle, it should be
 postponed until the next release to allow for thorough testing and hardening. Exceptions
 to this should be discussed and agreed upon through the TOC.
+
+Since such a version bump can potentially be breaking to some repositories, the change
+should be widely announced and agreed upon.
