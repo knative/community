@@ -108,8 +108,9 @@ func decorateComment(input *drive.Comment) *drive.Comment {
 	// Drive API expects only the content, anchor, and quotedFileContent fields to be set on create.
 	return &drive.Comment{
 		Anchor: input.Anchor,
-		Content: fmt.Sprintf("[%s] %s: %s",
-			decorateTime(input.CreatedTime), input.Author.DisplayName, sanitizeEmail(input.Content)),
+		Content: fmt.Sprintf("[%s] %s",
+			decorateTime(input.CreatedTime),
+			prependAuthor(input.Author, sanitizeEmail(input.Content))),
 		QuotedFileContent: input.QuotedFileContent,
 	}
 }
@@ -117,8 +118,9 @@ func decorateComment(input *drive.Comment) *drive.Comment {
 func decorateReply(input *drive.Reply) *drive.Reply {
 	return &drive.Reply{
 		Action: input.Action,
-		Content: fmt.Sprintf("[%s] %s: %s",
-			decorateTime(input.CreatedTime), input.Author.DisplayName, sanitizeEmail(input.Content)),
+		Content: fmt.Sprintf("[%s] %s",
+			decorateTime(input.CreatedTime),
+			prependAuthor(input.Author, sanitizeEmail(input.Content))),
 	}
 }
 
