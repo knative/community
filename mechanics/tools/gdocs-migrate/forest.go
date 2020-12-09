@@ -1,31 +1,36 @@
 package main
 
 type File struct {
-	id       string
-	name     string
-	parentID string
-	isFolder bool
+	id           string
+	name         string
+	parentID     string
+	driveID      string
+	isFolder     bool
+	mimeType     string
+	modifiedTime string
 }
 
 type Forest struct {
 	fileByID map[string]File
-	children map[string][]File
+	children map[string]map[string]File
 	leaves   []File
 }
 
 func NewForest() Forest {
 	return Forest{
 		fileByID: make(map[string]File),
-		children: make(map[string][]File),
+		children: make(map[string]map[string]File),
 	}
 }
 
-func (fo *Forest) Add(f File) {
-	fo.fileByID[f.id] = f
-
-	fo.children[f.parentID] = append(fo.children[f.parentID], f)
+func (fo *Forest) Add(f *File) {
+	fo.fileByID[f.id] = *f
+	if fo.children[f.parentID] == nil {
+		fo.children[f.parentID] = make(map[string]File)
+	}
+	fo.children[f.parentID][f.name] = *f
 	if !f.isFolder {
-		fo.leaves = append(fo.leaves, f)
+		fo.leaves = append(fo.leaves, *f)
 	}
 }
 
@@ -46,9 +51,9 @@ func (fo *Forest) FolderCount() int {
 //
 // This should only be called after the whole forest has ben loaded,
 // i.e. Add(...) has been called for all the Files.
-func (fo *Forest) GetPath(f File) []string {
+func (fo *Forest) GetPath(f *File) []string {
 	parents := []string{}
-	cur := f
+	cur := *f
 	for cur.parentID != "" {
 		cur = fo.fileByID[cur.parentID]
 		parents = append(parents, cur.name)
@@ -61,4 +66,8 @@ func reverse(s []string) []string {
 		s[i], s[j] = s[j], s[i]
 	}
 	return s
+}
+
+func (fo *Forest) Children(dir *File) map[string]File {
+	return fo.children[dir.id]
 }
