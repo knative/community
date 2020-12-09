@@ -11,7 +11,7 @@ import (
 	"knative.dev/pkg/pool"
 )
 
-func mirror(srv *drive.Service, forest *Forest, src File, dst File, w pool.Interface) error {
+func mirror(srv *drive.Service, forest *Forest, src *File, dst *File, w pool.Interface) error {
 	srcPath, dstPath := forest.GetPath(src), forest.GetPath(dst)
 	for _, child := range forest.Children(src) {
 		// File copying operations are done in Go routines, thus it is
@@ -27,17 +27,20 @@ func mirror(srv *drive.Service, forest *Forest, src File, dst File, w pool.Inter
 				if err != nil {
 					return err
 				}
-				forest.Add(*created)
+				forest.Add(created)
 				clone = *created
 			}
-			if err := mirror(srv, forest, child, clone, w); err != nil {
+			if err := mirror(srv, forest, &child, &clone, w); err != nil {
 				return err
 			}
 		}
-		if !exist && !child.isFolder { // Destination file not exist.
+		if !exist && !child.isFolder {
+			// We won't recopy a file on a rerun. That means we will need to
+			// do the diligence of deleting a partially copied file when exceptions happened.
 			w.Go(func() error { // File copying can be done in parallel.
 				log.Printf("Copying %q to %q", childName, cloneName)
-				_, err := copyFile(srv, child, dst)
+				dstFile, err := copyFile(srv, &child, dst)
+				log.Printf("Copied %q[%s] -> %q[%s]", childName, child.id, cloneName, dstFile.id)
 				return errors.Wrap(err, fmt.Sprintf("Cannot copy %q to %q", childName, cloneName))
 			})
 		}
@@ -68,11 +71,11 @@ func main() {
 		log.Fatal("Unable to retrieve Drive client: ", err)
 	}
 
-	source, err := getDrive(srv, sourceDriveID)
+	source, err := driveAsFile(srv, sourceDriveID)
 	if err != nil {
 		log.Fatal("Failed to look up source drive: ", sourceDriveID, err)
 	}
-	dest, err := getDrive(srv, destDriveID)
+	dest, err := driveAsFile(srv, destDriveID)
 	if err != nil {
 		log.Fatal("Failed to look up dest drive: ", destDriveID, err)
 	}
@@ -80,7 +83,7 @@ func main() {
 	forest := NewForest()
 	for _, drive := range []*File{source, dest} {
 		fmt.Println("Loading directory from", drive.name)
-		loadAllFiles(&forest, srv, *drive)
+		loadAllFiles(&forest, srv, drive)
 	}
 	// Display some statistics about different file types
 	countByTypes := make(map[string]int)
@@ -93,7 +96,7 @@ func main() {
 	// Create a thread pool for file copying operations. Don't be too
 	// ambitious: 429s await.
 	threads := pool.New(5)
-	if err := mirror(srv, &forest, *source, *dest, threads); err != nil {
+	if err := mirror(srv, &forest, source, dest, threads); err != nil {
 		log.Fatal("Error mirroring data ", err)
 	}
 	if err := threads.Wait(); err != nil {

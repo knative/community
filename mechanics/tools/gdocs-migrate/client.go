@@ -11,10 +11,10 @@ import (
 )
 
 const (
-	FolderMimeType = "application/vnd.google-apps.folder"
+	folderMimeType = "application/vnd.google-apps.folder"
 )
 
-func getDrive(srv *drive.Service, driveId string) (*File, error) {
+func driveAsFile(srv *drive.Service, driveId string) (*File, error) {
 	r, err := srv.Drives.Get(driveId).Do()
 	if err != nil {
 		return nil, err
@@ -27,7 +27,7 @@ func getDrive(srv *drive.Service, driveId string) (*File, error) {
 	}, nil
 }
 
-func loadAllFiles(forest *Forest, srv *drive.Service, drive File) {
+func loadAllFiles(forest *Forest, srv *drive.Service, drive *File) {
 	forest.Add(drive)
 	var pageToken *string
 	for pageToken == nil || *pageToken != "" {
@@ -51,13 +51,14 @@ func loadAllFiles(forest *Forest, srv *drive.Service, drive File) {
 				// Ignore trashed files and folders.
 				continue
 			}
-			forest.Add(File{
-				id:       i.Id,
-				name:     i.Name,
-				parentID: i.Parents[0],
-				driveID:  drive.id,
-				isFolder: i.MimeType == FolderMimeType,
-				mimeType: i.MimeType,
+			forest.Add(&File{
+				id:           i.Id,
+				name:         i.Name,
+				parentID:     i.Parents[0],
+				driveID:      drive.id,
+				isFolder:     i.MimeType == folderMimeType,
+				mimeType:     i.MimeType,
+				modifiedTime: i.ModifiedTime,
 			})
 		}
 		// Print progress.
@@ -65,12 +66,12 @@ func loadAllFiles(forest *Forest, srv *drive.Service, drive File) {
 	}
 }
 
-func createDir(srv *drive.Service, parentDir File, name string) (*File, error) {
+func createDir(srv *drive.Service, parentDir *File, name string) (*File, error) {
 	f, err := srv.Files.Create(&drive.File{
 		Name:     name,
 		Parents:  []string{parentDir.id},
 		DriveId:  parentDir.driveID,
-		MimeType: FolderMimeType,
+		MimeType: folderMimeType,
 	}).SupportsAllDrives(true).Do()
 	if err != nil {
 		return nil, err
@@ -89,11 +90,11 @@ func deleteFile(srv *drive.Service, fileId string) error {
 }
 
 func prependAuthor(author *drive.User, content string) string {
-	return author.DisplayName + ": " + content
+	return author.DisplayName + " wrote: " + content
 }
 
 func sanitizeEmail(content string) string {
-	// Use a homoglyph of @ to make sure people aren's getting emails
+	// Use a homoglyph of @ to make sure people aren't getting emails
 	return strings.ReplaceAll(content, "@", "\uff20")
 }
 
@@ -104,25 +105,29 @@ func decorateTime(rfc3339 string) string {
 }
 
 func decorateComment(input *drive.Comment) *drive.Comment {
-	comment := *input
-	comment.Replies = nil
-	comment.Content = fmt.Sprintf("[%s] %s: %s",
-		decorateTime(input.CreatedTime), input.Author.DisplayName, sanitizeEmail(input.Content))
-	return &comment
+	// Drive API expects only the content, anchor, and quotedFileContent fields to be set on create.
+	return &drive.Comment{
+		Anchor: input.Anchor,
+		Content: fmt.Sprintf("[%s] %s: %s",
+			decorateTime(input.CreatedTime), input.Author.DisplayName, sanitizeEmail(input.Content)),
+		QuotedFileContent: input.QuotedFileContent,
+	}
 }
 
 func decorateReply(input *drive.Reply) *drive.Reply {
-	reply := *input
-	reply.Content = fmt.Sprintf("[%s] %s: %s",
-		decorateTime(input.CreatedTime), input.Author.DisplayName, sanitizeEmail(input.Content))
-	return &reply
+	return &drive.Reply{
+		Action: input.Action,
+		Content: fmt.Sprintf("[%s] %s: %s",
+			decorateTime(input.CreatedTime), input.Author.DisplayName, sanitizeEmail(input.Content)),
+	}
 }
 
-func copyFile(srv *drive.Service, source File, dstDir File) (*File, error) {
+func copyFile(srv *drive.Service, source *File, dstDir *File) (*File, error) {
 	f, err := srv.Files.Copy(source.id, &drive.File{
-		Name:    source.name,
-		Parents: []string{dstDir.id},
-		DriveId: dstDir.driveID,
+		Name:         source.name,
+		ModifiedTime: source.modifiedTime,
+		Parents:      []string{dstDir.id},
+		DriveId:      dstDir.driveID,
 	}).SupportsAllDrives(true).Do()
 	if err != nil {
 		return nil, err
