@@ -121,7 +121,7 @@ Quorum is considered reached when at least half of the members are present.
 There are two ways to raise issues to the steering committee for decision:
 
 1. Emailing the steering committee at
-   [knative-steering@googlegroups.com](mailto:knative-steering@googlegroups.com).
+   [steering@knative.team](mailto:steering@knative.team).
    This is a private discussion list to which all members of the committee have
    access.
 2. Open an issue on a knative repository and indicate that you would like
