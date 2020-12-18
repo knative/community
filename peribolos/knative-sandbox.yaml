@@ -421,6 +421,12 @@ orgs:
         description: A Knative ingress controller for Istio.
         has_projects: true
         has_wiki: false
+      net-ingressv2:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Integration between Knative and service-apis (ingress v2) for Knative Ingress migration.
+        has_projects: true
+        has_wiki: false
       net-kourier:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -556,6 +562,7 @@ orgs:
           net-contour: admin
           net-http01: admin
           net-istio: admin
+          net-ingressv2: admin
           net-kourier: admin
           reconciler-test: admin
           sample-controller: admin
@@ -651,6 +658,7 @@ orgs:
           net-contour: write
           net-http01: write
           net-istio: write
+          net-ingressv2: write
           net-kourier: write
           sample-controller: write
           async-component: write
