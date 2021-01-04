@@ -62,10 +62,10 @@ is unsupported because all commits from private accounts are sent from the
 ## Design documents
 
 Any substantial design deserves a design document
-([template](https://docs.google.com/document/d/1s6IIU98bi5FlRNmmBaLAn1rgoleK_ovcL746L7NHq0c/edit)).
+([template](https://docs.google.com/document/d/1FvezfvBghevCRoZUmN3SoTVtm6f_u_r5f94MEa4jNIA/edit)).
 Design documents are written with Google Docs and should be shared with the
 community by adding the doc to our
-[Team Drive](https://drive.google.com/corp/drive/folders/0APnJ_hRs30R2Uk9PVA)
+[Team Drive](https://drive.google.com/drive/folders/0AM-QGZJ-HUA8Uk9PVA)
 and sending an email to the appropriate working group's mailing list to let
 people know the doc is there. To get write access to the drive, you'll need to
 be a [member](./ROLES.md#member) of the Knative organization.
