@@ -75,9 +75,9 @@ group. To do so, you need to:
   Here are some example charters to help indicate the expected size of the
   document. The main things that the TOC will be looking for are:
 
-  - [Event Delivery WG](https://docs.google.com/document/d/1aMu4ezjXR8qAOSgh-Yo04MwfspVZDRVF5O095UZZlWY/edit#)
-  - [Eventing Sources WG](https://docs.google.com/document/d/1wKZKWvbY8-ERri-4B_rNSuD_AUzq7b4uAlMcVnurQcs/edit#)
-  - [Client WG](https://docs.google.com/document/d/1shxc1JIaIjWcUnUwFaiuTauqiAwLyTDn2TbWbIy_ajY/edit#)
+  - [Event Delivery WG](https://docs.google.com/document/d/11SPnDRIJ6CGo5ElPGMWc25tX2iQfJfaiZwzBhruUZQw/edit)
+  - [Eventing Sources WG](https://docs.google.com/document/d/1XQo9DUbNdOIxf37eKSG1ULEyxydcG0YGeO13wBjQpEE/edit)
+  - [Client WG](https://docs.google.com/document/d/1VtzDsWSTymHlG7boLUeaLg_0pSQvKibWK7xQxE3ihKs/edit)
 
   A typical WG charter is around 3 pages using and bulleted lists for goals,
   scope, and roadmap.
