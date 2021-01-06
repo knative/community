@@ -75,10 +75,10 @@ API
 | Artifact                   | Link                                                                                                                                                            |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                             |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NC4klOdNaU-N-PsKLyXBqDKgNSHtxCDep29Ta2b5FK0/edit)                                        |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1HqLJ8uNm5KmKPlMzQmbfDy0haybEUrPydsp7gNBrl20/edit)                                        |
 | Community Meeting Calendar | Wednesdays 10:30a-11:00a PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1NC4klOdNaU-N-PsKLyXBqDKgNSHtxCDep29Ta2b5FK0/edit)                                                                   |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/1WTeSEfGhXyzXWPBz0Ue7lhjOIosvx0_y)                                                                              |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1HqLJ8uNm5KmKPlMzQmbfDy0haybEUrPydsp7gNBrl20/edit)                                                                   |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9)                                                                              |
 | Repos                      | [`knative/serving`](https://github.com/knative/serving)                                                                                                         |
 | Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api)                                                                                                  |
 
