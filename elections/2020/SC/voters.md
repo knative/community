@@ -21,7 +21,6 @@ The eligible voter process can be found in the [SC election mechanics](../../mec
 ## GitHub IDs
 
 - aavarghese
-- Abd4llA
 - abrennan89
 - AceHack
 - adrcunha
