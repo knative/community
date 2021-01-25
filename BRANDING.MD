@@ -15,7 +15,8 @@ guidelines:
  - Use them in a way that would confuse people about the origin of Knative,
    its maintainers or governance structure
  - Use them as your product's logo or trademark
- - Create a modified version of them
+ - Create a modified version of them (including, but not limited to, changing
+   of colors, shape or scale)
  - Integrate them into your logo
  - Use them in such a manner as to create the impression that your product or
    service has been certified, vetted, or otherwise endorsed by the Knative
