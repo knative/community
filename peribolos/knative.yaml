@@ -9,7 +9,6 @@ orgs:
     default_repository_permission: read
     admins:
     - bsnchan
-    - eallred-google
     - evankanderson
     - google-admin
     - googlebot
@@ -775,11 +774,6 @@ orgs:
             - bsnchan
             - duglin
             - ronavn
-            privacy: closed
-          TBD Admins:
-            description: 'TBD role to account for the broad permissions, tracked by: https://github.com/knative/community/issues/91'
-            maintainers:
-            - eallred-google
             privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
