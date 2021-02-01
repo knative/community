@@ -230,7 +230,7 @@ Managing, assessing system health and maintaining Knative clusters
 
 ## Scaling
 
-Autoscaling
+Autoscaling behavior of Knative Serving
 
 | Artifact                   | Link                                                                                                                                                        |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -246,6 +246,27 @@ Autoscaling
 | -------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes  | Red Hat | [markusthoemmes](https://github.com/markusthoemmes) |
 | <img width="30px" src="https://github.com/vagababov.png">      | Victor Agababov | Google  | [vagababov](https://github.com/vagababov)           |
+
+## Security
+
+Security concerns across Knative components
+
+| Artifact                   | Link                                                                                                                                                   |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Charter / Mission          | [Charter](https://docs.google.com/document/d/194bECSbxPIONzhgGj1g9tccUsP8I-M7WIvbBqcT-tXY/edit)                                                        |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                    |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1b-aCADlUBo2FZEDp5z5XoXlfUT6CvED339fcAdKY66o/edit)                               |
+| Community Meeting Calendar | Tuesdays at 9am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1b-aCADlUBo2FZEDp5z5XoXlfUT6CvED339fcAdKY66o/edit)                                                          |
+| Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1yOy_yU5vvUTFuxeYvhlY7uzIL4c4SSzX)                                                                 |
+| Repo prefixes              |                                                                                                                                                        |
+| Slack Channel              | [#security](https://slack.knative.dev/messages/security)                                                                                               |
+
+| &nbsp;                                                        | Leads           | Company | Profile                                             |
+| ------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
+| <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson   | VMware  | [evankanderson](https://github.com/evankanderson)   |
+| <img width="30px" src="https://github.com/julz.png">          | Julian Friedman | IBM     | [julz](https://github.com/julz)                     |
+
 
 ## Productivity
 
