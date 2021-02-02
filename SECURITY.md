@@ -182,7 +182,8 @@ community will not submit reports for rewards on the reporter's behalf.
 If you choose to report a vulnerability through a VRP, please work with the VRP
 to ensure that the report reaches our
 [Official Channels](#reporting-a-vulnerability), _e.g.,_ as part of their
-[coordinated vulnerability disclosure](#coordinated-vulnerability-disclosure).
+[coordinated vulnerability disclosure](#coordinated-vulnerability-disclosure),
+or directly from you if the VRP does not accept your report.
 
 No endorsement is made by Knative about any VRP, and no commentment is implied
 by listing here that any VRP or vendor will offer rewards for any Knative
