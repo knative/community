@@ -16,6 +16,10 @@ includes encouraging responsible vulnerability research and disclosure. This
 policy sets out our definition of good faith in the context of finding and
 reporting vulnerabilities, as well as what you can expect from us in return.
 
+*If you have identified a vulnerability in Knative, please do not post an issue 
+in the public issue tracker. Instead, please follow the responsible disclosure 
+policy described in this document.*
+
 # Expectations
 
 When working with us according to this policy, you can expect us to:
@@ -30,9 +34,6 @@ When working with us according to this policy, you can expect us to:
 - Recognize your contribution to improving our security if you are the first to
   report a unique vulnerability, and your report triggers a code or
   configuration change.
-
-TODO: Is Knative Security up for including the recognize clause? Do we have a
-page for this?
 
 # Ground Rules
 
@@ -100,30 +101,37 @@ Repos with releases have the releases listed in the Github UI, e.g.:
 - [serving](https://github.com/knative/serving/releases)
 - [eventing](https://github.com/knative/eventing/releases)
 
-No support is provided for archived repos.
+Repos in Knative Sandbox that have no releases listed may have a higher 
+bar for accepting vulnerability reports. No support is provided for archived repos. 
 
 # Reporting a Vulnerability
 
 Please email the
-[Knative Security list](mailto:knative-security@googlegroups.com) with
-confidential vulnerability reports. Someone from the list will get back to you
-within 3 business days. Accepted reports will be fixed within 90 calendar days
-via a minor release and/or one or more patch release(s) for minor versions that
-are both affected and supported at that point.
+[Knative Security list](mailto:knative-security@googlegroups.com) with the following information:
+
+* the repo and version/branch that contains the vulnerability
+* a description of the type of vulnerability (e.g., buffer overflow)
+
+_Please avoid including any details which would allow reproduction of the issue at this stage._
+Details will be requested subsequently, over encrypted communications.
+
+Someone from the list will get back to you within 3 business days. Accepted reports 
+will be fixed within 90 calendar days via one or more releases for versions that are
+both affected and supported at that point.
 
 We ask that you keep reports confidential for the full 90 days, or until the
 security list members release you from the confidentiality, whichever comes
 first, as we coordinate disclosures with Knative partners who may need some time
-after the vulnerability is addressed in Knative in order to update to their
+after the vulnerability is addressed in Knative in order to update their
 systems.
-
-TODO: GPG or other tools for ensuring confidentiality of the report?
 
 ## What's in a report?
 
-Ideal reports are in English and include a description of the vulnerability, a
+Initial reports via email should include the limited information described
+[above](#reporting-a-vulnerability). Followup details should include a 
+description of the vulnerability, a
 proof-of-concept exploit demonstrating the vulnerability, and a statement of
-what this vulnerability puts at risk.
+what this vulnerability puts at risk. Please send reports in English.
 
 The security list members may make a best-effort attempt to address reports that
 do not meet these standards.
@@ -133,6 +141,9 @@ do not meet these standards.
 Knative Security engages with partners, including vendors that host
 Knative-based products, to responsibly disclose newly discovered
 vulnerabilities.
+
+If you believe your organization should participate in Knative's CVD process,
+please contact Knative Security to discuss this.
 
 For more information on CVD, please review the information provided in the
 following links:
@@ -148,7 +159,7 @@ following links:
 Knative itself has no vulnerability report reward program.
 
 Some vulnerability reports may be eligible for rewards through programs from
-vendors of
+other organizations, including those from vendors of
 [Knative-based offerings](https://knative.dev/docs/knative-offerings/).
 Reporters should comply with program rules to receive these rewards; the Knative
 community will not submit reports for rewards on the reporter's behalf.
