@@ -677,13 +677,6 @@ orgs:
             members:
             - abrennan89
             privacy: closed
-          TBD Google tech writers:
-            description: Temporary group at the request of Google tech writers.
-            members:
-            - RichieEscarez
-            - carieshmarie
-            - ellenevans
-            privacy: closed
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
