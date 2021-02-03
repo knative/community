@@ -235,6 +235,7 @@ orgs:
     - yuyantingzero
     - zargarpur
     - zhanggbj
+    - zhangtbj
     - zhaojizhuang
     - ZhiminXiang
     - zhongduo
@@ -362,6 +363,12 @@ orgs:
         description: Kn plugin for managing a Kubernetes based Knative installation.
         has_projects: true
         has_wiki: false
+      kn-plugin-migration:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for migration allows you to migrate Knative service including the all revisions and configurations from the source cluster to the destination cluster.
+        has_projects: true
+        has_wiki: false
       kn-plugin-source-kafka:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -466,6 +473,7 @@ orgs:
         repos:
           build-spike: write
           kn-plugin-admin: write
+          kn-plugin-migration: write
           kn-plugin-source-kafka: write
           kn-plugin-source-kamelet: write
           kn-plugin-source-pkg: write
@@ -554,6 +562,7 @@ orgs:
           eventing-rabbitmq: admin
           eventing-redis: admin
           kn-plugin-admin: admin
+          kn-plugin-migration: admin
           kn-plugin-source-kafka: admin
           kn-plugin-source-kamelet: admin
           kn-plugin-source-pkg: admin
