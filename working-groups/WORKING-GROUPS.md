@@ -63,6 +63,7 @@ The current working groups are:
 - [Operations](#operations)
 - [Productivity](#productivity)
 - [Scaling](#scaling)
+- [Security](#security)
   <!-- TODO add charters for each group -->
 
 ## API Core
@@ -228,6 +229,26 @@ Managing, assessing system health and maintaining Knative clusters
 | ---------------------------------------------------------- | ----------- | ------- | ------------------------------------------- |
 | <img width="30px" src="https://github.com/houshengbo.png"> | Vincent Hou | IBM     | [houshengbo](https://github.com/houshengbo) |
 
+## Productivity
+
+Project health, test framework, continuous integration & deployment, release,
+performance/scale/load testing infrastructure
+
+| Artifact                   | Link                                                                                                                                                  |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                   |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                              |
+| Community Meeting Calendar | Thursdays, 10am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                                                         |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/1_1oWL7skjVt2211T0aagpwzDEfWmEIQK)                                                                    |
+| Repo prefixes              | `actions-*`                                                                                                                                           |
+| Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                      |
+
+| &nbsp;                                                   | Leads         | Company | Profile                                 |
+| -------------------------------------------------------- | ------------- | ------- | --------------------------------------- |
+| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang     | Google  | [chizhg](https://github.com/chizhg)     |
+| <img width="30px" src="https://github.com/n3wscott.png"> | Scott Nichols | VMware  | [n3wscott](https://github.com/n3wscott) |
+
 ## Scaling
 
 Autoscaling behavior of Knative Serving
@@ -268,25 +289,6 @@ Security concerns across Knative components
 | <img width="30px" src="https://github.com/julz.png">          | Julian Friedman | IBM     | [julz](https://github.com/julz)                     |
 
 
-## Productivity
-
-Project health, test framework, continuous integration & deployment, release,
-performance/scale/load testing infrastructure
-
-| Artifact                   | Link                                                                                                                                                  |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                   |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                              |
-| Community Meeting Calendar | Thursdays, 10am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                                                         |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/1_1oWL7skjVt2211T0aagpwzDEfWmEIQK)                                                                    |
-| Repo prefixes              | `actions-*`                                                                                                                                           |
-| Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                      |
-
-| &nbsp;                                                   | Leads         | Company | Profile                                 |
-| -------------------------------------------------------- | ------------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang     | Google  | [chizhg](https://github.com/chizhg)     |
-| <img width="30px" src="https://github.com/n3wscott.png"> | Scott Nichols | VMware  | [n3wscott](https://github.com/n3wscott) |
 
 ---
 
