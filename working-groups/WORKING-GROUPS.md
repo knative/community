@@ -126,7 +126,6 @@ repo.
 
 | &nbsp;                                                     | Leads            | Company | Profile                                     |
 | ---------------------------------------------------------- | ---------------- | ------- | ------------------------------------------- |
-| <img width="30px" src="https://github.com/abrennan89.png"> | Ashleigh Brennan | Red Hat | [abrennan89](https://github.com/abrennan89) |
 
 ## Eventing
 
