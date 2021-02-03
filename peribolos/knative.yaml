@@ -674,8 +674,7 @@ orgs:
         teams:
           Docs WG Leads:
             description: The Working Group leads for Docs
-            members:
-            - abrennan89
+            members: []
             privacy: closed
           TBD Google tech writers:
             description: Temporary group at the request of Google tech writers.
