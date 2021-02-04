@@ -677,13 +677,6 @@ orgs:
             description: The Working Group leads for Docs
             members: []
             privacy: closed
-          TBD Google tech writers:
-            description: Temporary group at the request of Google tech writers.
-            members:
-            - RichieEscarez
-            - carieshmarie
-            - ellenevans
-            privacy: closed
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
@@ -789,6 +782,8 @@ orgs:
             maintainers:
             - mattmoor
             - lionelvillard
+            # TODO(https://github.com/knative/community/issues/429): Establish docs/website rotation process.
+            - RichieEscarez
       Knative Milestone Maintainers:
         description: 'DO NOT RENAME - this group is used by Prow to control who can manipulate
           milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
