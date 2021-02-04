@@ -166,6 +166,7 @@ Event delivery data plane.
 | &nbsp;                                                   | Leads               | Company | Profile                                 |
 | -------------------------------------------------------- | ------------------- | ------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/matzew.png">   | Matthias Wessendorf | Red Hat | [matzew](https://github.com/matzew)     |
+| <img width="30px" src="https://github.com/slinkydeveloper.png">   | Francesco Guardiani | Red Hat | [slinkydeveloper](https://github.com/slinkydeveloper)     |
 
 ## Eventing Sources
 
