@@ -204,7 +204,6 @@ orgs:
     - halvards
     - Haolicopter
     - hardl
-    - Harwayne
     - hatofmonkeys
     - Henrike42
     - hev
@@ -690,7 +689,6 @@ orgs:
             description: The Working Group leads for Channels
             members:
             - matzew
-            - Harwayne
             privacy: closed
           Eventing Triage:
             description: Temporary group to allow folks to continue to maintain eventing
@@ -700,7 +698,6 @@ orgs:
             - akashrv
             - slinkydeveloper
             - n3wscott
-            - Harwayne
             - zhongduo
             privacy: closed
           Eventing WG Leads:
@@ -795,7 +792,6 @@ orgs:
         - mattmoor
         - evankanderson
         members:
-        - Harwayne
         - ImJasonH
         - ZhiminXiang
         - andrew-su
