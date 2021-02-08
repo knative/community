@@ -362,6 +362,16 @@ orgs:
         description: Kn plugin for managing a Kubernetes based Knative installation.
         has_projects: true
         has_wiki: false
+      kn-plugin-diag:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for exposing detailed information for different layer of knative objects for diagnose.
+        has_projects: true
+        has_wiki: false
+      kn-plugin-event:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for sending events to Knative sinks.
       kn-plugin-sample:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -384,12 +394,6 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Common code for Kn source plugins
-        has_projects: true
-        has_wiki: false
-      kn-plugin-diag:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: Kn plugin for exposing detailed information for different layer of knative objects for diagnose.
         has_projects: true
         has_wiki: false
       knobots:
@@ -472,11 +476,12 @@ orgs:
         repos:
           build-spike: write
           kn-plugin-admin: write
+          kn-plugin-diag: write
+          kn-plugin-event: write
           kn-plugin-sample: write
           kn-plugin-source-kafka: write
           kn-plugin-source-kamelet: write
           kn-plugin-source-pkg: write
-          kn-plugin-diag: write
         teams:
           Client WG Leads:
             description: The Working Group Leads for Client
@@ -560,11 +565,12 @@ orgs:
           eventing-rabbitmq: admin
           eventing-redis: admin
           kn-plugin-admin: admin
+          kn-plugin-diag: admin
+          kn-plugin-event: admin
           kn-plugin-sample: admin
           kn-plugin-source-kafka: admin
           kn-plugin-source-kamelet: admin
           kn-plugin-source-pkg: admin
-          kn-plugin-diag: admin
           knobots: admin
           kperf: admin
           net-certmanager: admin
