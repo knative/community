@@ -362,6 +362,12 @@ orgs:
         description: Kn plugin for managing a Kubernetes based Knative installation.
         has_projects: true
         has_wiki: false
+      kn-plugin-sample:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: A sample Kn plugin which can be used as a blueprint.
+        has_projects: true
+        has_wiki: false
       kn-plugin-source-kafka:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -385,7 +391,7 @@ orgs:
         allow_rebase_merge: false
         description: Kn plugin for exposing detailed information for different layer of knative objects for diagnose.
         has_projects: true
-        has_wiki: false        
+        has_wiki: false
       knobots:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -466,6 +472,7 @@ orgs:
         repos:
           build-spike: write
           kn-plugin-admin: write
+          kn-plugin-sample: write
           kn-plugin-source-kafka: write
           kn-plugin-source-kamelet: write
           kn-plugin-source-pkg: write
@@ -553,6 +560,7 @@ orgs:
           eventing-rabbitmq: admin
           eventing-redis: admin
           kn-plugin-admin: admin
+          kn-plugin-sample: admin
           kn-plugin-source-kafka: admin
           kn-plugin-source-kamelet: admin
           kn-plugin-source-pkg: admin
