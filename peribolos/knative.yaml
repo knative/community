@@ -100,6 +100,7 @@ orgs:
     - capri-xiyue
     - cardil
     - carieshmarie
+    - cathyzhyi
     - cbickel
     - cgwy
     - chaodaiG
@@ -152,6 +153,7 @@ orgs:
     - dushyanthsc
     - dussab
     - dwnusbaum
+    - eallred-google
     - eclipselu
     - efiturri
     - ehankland
@@ -202,7 +204,6 @@ orgs:
     - halvards
     - Haolicopter
     - hardl
-    - Harwayne
     - hatofmonkeys
     - Henrike42
     - hev
@@ -674,15 +675,7 @@ orgs:
         teams:
           Docs WG Leads:
             description: The Working Group leads for Docs
-            members:
-            - abrennan89
-            privacy: closed
-          TBD Google tech writers:
-            description: Temporary group at the request of Google tech writers.
-            members:
-            - RichieEscarez
-            - carieshmarie
-            - ellenevans
+            members: []
             privacy: closed
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
@@ -696,7 +689,6 @@ orgs:
             description: The Working Group leads for Channels
             members:
             - matzew
-            - Harwayne
             privacy: closed
           Eventing Triage:
             description: Temporary group to allow folks to continue to maintain eventing
@@ -706,7 +698,6 @@ orgs:
             - akashrv
             - slinkydeveloper
             - n3wscott
-            - Harwayne
             - zhongduo
             privacy: closed
           Eventing WG Leads:
@@ -789,6 +780,8 @@ orgs:
             maintainers:
             - mattmoor
             - lionelvillard
+            # TODO(https://github.com/knative/community/issues/429): Establish docs/website rotation process.
+            - RichieEscarez
       Knative Milestone Maintainers:
         description: 'DO NOT RENAME - this group is used by Prow to control who can manipulate
           milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
@@ -799,7 +792,6 @@ orgs:
         - mattmoor
         - evankanderson
         members:
-        - Harwayne
         - ImJasonH
         - ZhiminXiang
         - andrew-su
@@ -807,7 +799,6 @@ orgs:
         - chaodaiG
         - chizhg
         - csantanapr
-        - eallred-google
         - igsong
         - julz
         - nak3
