@@ -126,7 +126,6 @@ repo.
 
 | &nbsp;                                                     | Leads            | Company | Profile                                     |
 | ---------------------------------------------------------- | ---------------- | ------- | ------------------------------------------- |
-| <img width="30px" src="https://github.com/abrennan89.png"> | Ashleigh Brennan | Red Hat | [abrennan89](https://github.com/abrennan89) |
 
 ## Eventing
 
@@ -166,7 +165,6 @@ Event delivery data plane.
 
 | &nbsp;                                                   | Leads               | Company | Profile                                 |
 | -------------------------------------------------------- | ------------------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/Harwayne.png"> | Adam Harwayne       | Google  | [Harwayne](https://github.com/Harwayne) |
 | <img width="30px" src="https://github.com/matzew.png">   | Matthias Wessendorf | Red Hat | [matzew](https://github.com/matzew)     |
 
 ## Eventing Sources
