@@ -532,6 +532,7 @@ orgs:
             description: The Working Group leads for Event Delivery
             members:
             - matzew
+            - slinkydeveloper
             privacy: closed
           Eventing WG Leads:
             description: The Working Group leads for Eventing
@@ -635,6 +636,7 @@ orgs:
         - mattmoor
         - evankanderson
         members:
+        - slinkydeveloper
         - mikehelmick
         - rhuss
         - navidshaikh

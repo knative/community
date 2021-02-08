@@ -689,6 +689,7 @@ orgs:
             description: The Working Group leads for Channels
             members:
             - matzew
+            - slinkydeveloper
             privacy: closed
           Eventing Triage:
             description: Temporary group to allow folks to continue to maintain eventing
@@ -793,6 +794,7 @@ orgs:
         - mattmoor
         - evankanderson
         members:
+        - slinkydeveloper
         - ImJasonH
         - ZhiminXiang
         - andrew-su
