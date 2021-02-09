@@ -365,7 +365,7 @@ orgs:
       kn-plugin-diag:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: Kn plugin for exposing detailed information for different layer of knative objects for diagnose.
+        description: Kn plugin for exposing detailed information for different layers of knative objects for diagnose.
         has_projects: true
         has_wiki: false
       kn-plugin-event:
