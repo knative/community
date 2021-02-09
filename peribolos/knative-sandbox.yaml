@@ -380,6 +380,12 @@ orgs:
         description: Kn plugin for migrating Knative services from one cluster to another.
         has_projects: true
         has_wiki: false
+      kn-plugin-service-log:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for showing the standard output of Knative services.
+        has_projects: true
+        has_wiki: false
       kn-plugin-sample:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -488,6 +494,7 @@ orgs:
           kn-plugin-event: write
           kn-plugin-migration: write
           kn-plugin-sample: write
+          kn-plugin-service-log: write
           kn-plugin-source-kafka: write
           kn-plugin-source-kamelet: write
           kn-plugin-source-pkg: write
@@ -579,6 +586,7 @@ orgs:
           kn-plugin-event: admin
           kn-plugin-migration: admin
           kn-plugin-sample: admin
+          kn-plugin-service-log: admin
           kn-plugin-source-kafka: admin
           kn-plugin-source-kamelet: admin
           kn-plugin-source-pkg: admin
