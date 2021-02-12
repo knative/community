@@ -118,7 +118,7 @@ Please email the
 [Knative Security list](mailto:knative-security@googlegroups.com) with the
 following information:
 
-<!-- TODO: Should we have a more specific/specialized email list for reports? -->
+<!-- TODO: Use a more specific list, &/or one in a knative-specific domain? -->
 
 - a repo and version/branch that contains the vulnerability
 - a description of the vulnerability (_e.g.,_ specifically malformed input to X
