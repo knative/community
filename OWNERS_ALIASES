@@ -1,15 +1,16 @@
 aliases:
   steering-committee:
     - bsnchan
-    - isdal
     - mbehrendt
     - pmorie
-    - rgregg
-    - lindydonna
+    - thisisnotapril
+    - vaikas
   docs-team:
     - samodell
     - richieescarez
   technical-oversight-committee:
-    - vaikas
-    - mattmoor
     - evankanderson
+    - grantr
+    - markusthoemmes
+    - mattmoor
+    - tcnghia

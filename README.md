@@ -25,7 +25,8 @@ Other Documents
 - [Values](./VALUES.md) - shared goals and values for the community
 - [Contributing to Knative](./CONTRIBUTING.md) - guidelines and advice on
   becoming a contributor
-- [Working Groups](./WORKING-GROUPS.md) - describes our various working groups
+- [Working Groups](./working-groups/WORKING-GROUPS.md) - describes our various
+  working groups
 - [Working Group Processes](./mechanics/WORKING-GROUP-PROCESSES.md) - describes
   how working groups operate
 - [Steering Committee](./STEERING-COMMITTEE.md) - describes our steering
@@ -76,9 +77,10 @@ if you follow it as you write your tutorial.
 
 Knative has public and recorded bi-weekly community meetings.
 
-Each project has one or more [working groups](./WORKING-GROUPS.md) driving the
-project, and Knative as a single
-[technical oversight community](./TECH-OVERSIGHT-COMMITTEE.md) monitoring the
+Each project has one or more
+[working groups](./working-groups/WORKING-GROUPS.md) driving the project, and
+Knative has a single
+[technical oversight committee](./TECH-OVERSIGHT-COMMITTEE.md) monitoring the
 overall project.
 
 ## How can I help
@@ -102,9 +104,8 @@ following resources are available for you:
 
 - [Knative Users](https://groups.google.com/forum/#!forum/knative-users)
 - [Knative Developers](https://groups.google.com/forum/#!forum/knative-dev)
-
-For contributors to Knative, we also have
-[Knative Slack](./SLACK-GUIDELINES.md).
+- [Knative Slack](./SLACK-GUIDELINES.md). Ping @serving-help or @eventing-help
+  if you run into issues using Knative Serving or Eventing.
 
 If you've found a security issue or vulnerability in Knative, please see our
 [Security Policy](./SECURITY.md) for how to report it.
