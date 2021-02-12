@@ -1,6 +1,6 @@
 ---
 title: "Security Policy"
-# linkTitle: Security policy"
+linkTitle: "Security policy"
 weight: 10
 type: "docs"
 aliases:
