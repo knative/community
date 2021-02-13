@@ -167,7 +167,7 @@ Event delivery data plane.
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1YcyeckwBNPApxh8vHAlscYe_w7sIA5TA)                                                                          |
 | Repos                      | [`knative/eventing`](https://github.com/knative/eventing), [`knative/eventing-contrib`](https://github.com/knative/eventing-contrib), (shares `eventing-*`) |
 | Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                                  |
-| Github Team WG leads       | [@knative/eventing-wg-leads](https://github.com/orgs/knative/teams/eventing-wg-leads/members)                                                               |
+| Github Team WG leads       | [@knative/channel-wg-leads](https://github.com/orgs/knative/teams/channel-wg-leads/members)                                                               |
 
 | &nbsp;                                                   | Leads               | Company | Profile                                 |
 | -------------------------------------------------------- | ------------------- | ------- | --------------------------------------- |
