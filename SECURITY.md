@@ -235,3 +235,6 @@ raised through our [Official Channels](#reporting-a-vulnerability).
 Derived from
 [disclose.io USA core terms](https://github.com/disclose/terms/blob/master/regional/USA-core-terms.md)
 under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+<!-- TODO: consider adding disclose.io seal: https://github.com/disclose/dioseal -->
+<!-- TOOD: consider joining https://github.com/disclose/diodb -->
