@@ -82,6 +82,7 @@ API
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9)                                                                              |
 | Repos                      | [`knative/serving`](https://github.com/knative/serving)                                                                                                         |
 | Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api)                                                                                                  |
+| Github Team WG Leads       | [@knative/api-core-wg-leads](https://github.com/orgs/knative/teams/api-core-wg-leads/members)                                                                   |
 
 | &nbsp;                                                   | Leads            | Company | Profile                                 |
 | -------------------------------------------------------- | ---------------- | ------- | --------------------------------------- |
@@ -102,6 +103,7 @@ conventions
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1QffYD_XM0vqaXDvFlZVsJHAT6-AahJCO)                                                                                                                                                                |
 | Repos                      | [`knative/client`](https://github.com/knative/client), `kn-plugin-*`                                                                                                                                                                              |
 | Slack Channel              | [#cli](https://slack.knative.dev)                                                                                                                                                                                                                 |
+| Github Team WG leads       | [@knative/client-wg-leads](https://github.com/orgs/knative/teams/client-leads/members)                                                                                                                                                            |
 
 | &nbsp;                                                      | Leads        | Company | Profile                                       |
 | ----------------------------------------------------------- | ------------ | ------- | --------------------------------------------- |
@@ -123,6 +125,8 @@ repo.
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1cMXOSiGo1kiWl0WXeGz8nV6esLetJS2f)                                                                                     |
 | Repos                      | [`knative/docs`](https://github.com/knative/docs), [`knative/website`](https://github.com/knative/website)                                                             |
 | Slack Channel              | [#docs](https://slack.knative.dev/messages/docs)                                                                                                                       |
+| Github Team WG leads       | [@knative/docs-wg-leads](https://github.com/orgs/knative/teams/docs-wg-leads/members)                                                                                  |
+
 
 | &nbsp;                                                     | Leads            | Company | Profile                                     |
 | ---------------------------------------------------------- | ---------------- | ------- | ------------------------------------------- |
@@ -137,10 +141,11 @@ Event sources, bindings, FaaS framework, and orchestration
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                          |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Xha-FeunojN49OJN7W0WBnPMcRtp1ycYpbkiir6XsE0/edit)                                     |
 | Community Meeting Calendar | Wednesdays 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Xha-FeunojN49OJN7W0WBnPMcRtp1ycYpbkiir6XsE0/edit)
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Xha-FeunojN49OJN7W0WBnPMcRtp1ycYpbkiir6XsE0/edit)                                                                |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/16A4v6Qv9MNSumpy6geGm0u1izDqAfiNo)                                                                           |
 | Repos                      | [`knative/eventing`](https://github.com/knative/eventing), `eventing-*`                                                                                      |
 | Slack Channel              | [#eventing](https://slack.knative.dev/messages/eventing)                                                                                                     |
+| Github Team WG leads       | [@knative/eventing-wg-leads](https://github.com/orgs/knative/teams/eventing-wg-leads/members)                                                                |
 
 | &nbsp;                                                        | Leads                      | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------------------- | ------- | ------------------------------------------------- |
@@ -162,6 +167,7 @@ Event delivery data plane.
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1YcyeckwBNPApxh8vHAlscYe_w7sIA5TA)                                                                          |
 | Repos                      | [`knative/eventing`](https://github.com/knative/eventing), [`knative/eventing-contrib`](https://github.com/knative/eventing-contrib), (shares `eventing-*`) |
 | Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                                  |
+| Github Team WG leads       | [@knative/channel-wg-leads](https://github.com/orgs/knative/teams/channel-wg-leads/members)                                                               |
 
 | &nbsp;                                                   | Leads               | Company | Profile                                 |
 | -------------------------------------------------------- | ------------------- | ------- | --------------------------------------- |
@@ -181,6 +187,7 @@ Event producers and frameworks.
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/13idi0QRqj1vsp5X0vDGfUOULhIyeeLaG)                                                                         |
 | Repo prefixes              | (shares `eventing-*` with the eventing WG)                                                                                                                 |
 | Slack Channel              | [#eventing-sources](https://slack.knative.dev/messages/eventing-sources)                                                                                   |
+| Github Team WG leads       | [@knative/source-wg-leads](https://github.com/orgs/knative/teams/source-wg-leads/members)                                                                  |
 
 | &nbsp;                                                        | Leads          | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
@@ -203,6 +210,7 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1bx86aDXjXhylDvFmEpjWSMn8o80_2_nR)                                                                             |
 | Repos                      | `net-*`                                                                                                                                                        |
 | Slack Channel              | [#networking](https://slack.knative.dev/messages/networking)                                                                                                   |
+| Github Team WG leads       | [@knative/networking-wg-leads](https://github.com/orgs/knative/teams/networking-wg-leads/members)                                                              |
 
 | &nbsp;                                                      | Leads            | Company   | Profile                                       |
 | ----------------------------------------------------------- | ---------------- | --------- | --------------------------------------------- |
@@ -223,6 +231,7 @@ Managing, assessing system health and maintaining Knative clusters
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1GgBCtyWWGx8v8PHGbzJ_tu7DROyBl6x7)                                                                         |
 | Repo prefixes              |                                                                                                                                                            |
 | Slack Channel              | [#operations](https://slack.knative.dev/messages/operations)                                                                                               |
+| Github Team WG leads       | [@knative/operations-wg-leads](https://github.com/orgs/knative/teams/operations-wg-leads/members)                                                          |
 
 | &nbsp;                                                     | Leads       | Company | Profile                                     |
 | ---------------------------------------------------------- | ----------- | ------- | ------------------------------------------- |
@@ -242,6 +251,7 @@ performance/scale/load testing infrastructure
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1_1oWL7skjVt2211T0aagpwzDEfWmEIQK)                                                                    |
 | Repo prefixes              | `actions-*`                                                                                                                                           |
 | Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                      |
+| Github Team WG leads       | [@knative/productivity-wg-leads](https://github.com/orgs/knative/teams/productivity-wg-leads/members)                                                 |
 
 | &nbsp;                                                   | Leads         | Company | Profile                                 |
 | -------------------------------------------------------- | ------------- | ------- | --------------------------------------- |
@@ -261,6 +271,7 @@ Autoscaling behavior of Knative Serving
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K)                                                                          |
 | Repo prefixes              |                                                                                                                                                             |
 | Slack Channel              | [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                                                                              |
+| Github Team WG leads       | [@knative/autoscaling-wg-leads](https://github.com/orgs/knative/teams/autoscaling-wg-leads/members)                                                         |
 
 | &nbsp;                                                         | Leads           | Company | Profile                                             |
 | -------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
@@ -281,6 +292,7 @@ Security concerns across Knative components
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1yOy_yU5vvUTFuxeYvhlY7uzIL4c4SSzX)                                                                 |
 | Repo prefixes              |                                                                                                                                                        |
 | Slack Channel              | [#security](https://slack.knative.dev/messages/security)                                                                                               |
+| Github Team WG leads       | [@knative/security-wg-leads](https://github.com/orgs/knative/teams/security-wg-leads/members)                                                         |
 
 | &nbsp;                                                        | Leads           | Company | Profile                                             |
 | ------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
