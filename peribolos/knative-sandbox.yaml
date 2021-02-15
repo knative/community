@@ -182,7 +182,6 @@ orgs:
     - rakesh-garimella
     - RamXX
     - rfranzke
-    - rhuss
     - richterdavid
     - rmorgan
     - rosenhouse
@@ -214,6 +213,7 @@ orgs:
     - taragu
     - tardieu
     - tayarani
+    - tcnghia
     - tejal29
     - tom24d
     - travis-minke-sap
@@ -644,22 +644,22 @@ orgs:
         - mattmoor
         - evankanderson
         members:
-        - slinkydeveloper
-        - mikehelmick
-        - rhuss
-        - navidshaikh
-        - vagababov
+        - akashrv
+        - aslom
+        - chaodaiG
         - csantanapr
         - josephburnett
-        - aslom
-        - nak3
-        - ZhiminXiang
-        - vaikas
         - k4leung4
-        - chaodaiG
-        - akashrv
-        - n3wscott
         - lionelvillard
+        - mikehelmick
+        - n3wscott
+        - nak3
+        - navidshaikh
+        - slinkydeveloper
+        - tcnghia
+        - vagababov
+        - vaikas
+        - ZhiminXiang
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
