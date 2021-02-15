@@ -48,7 +48,7 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
     git clone https://github.com/knative-sandbox/sample-controller.git
     cd sample-controller
     git remote add newrepo https://github.com/knative-sandbox/$REPONAME.git
-    git push newrepo master
+    git push newrepo main
   ```
 
 - [ ] Add your GitHub ID to the `OWNERS` file for your repo.
