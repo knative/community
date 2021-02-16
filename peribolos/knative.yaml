@@ -665,7 +665,6 @@ orgs:
             members:
             - navidshaikh
             - rhuss
-            - sixolet
             privacy: closed
       Docs Writers:
         description: Grants write access to docs-related repositories.
@@ -809,7 +808,6 @@ orgs:
         - navidshaikh
         - nlopezgi
         - shashwathi
-        - sixolet
         - tanzeeb
         - tcnghia
         - vagababov
