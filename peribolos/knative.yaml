@@ -18,7 +18,7 @@ orgs:
     - mattmoor
     - mbehrendt
     - pmorie
-    - tcnghia
+    - rhuss
     - thisisnotapril
     - vaikas
     members:
@@ -380,7 +380,6 @@ orgs:
     - rbuskens
     - rettori
     - rfranzke
-    - rhuss
     - RichieEscarez
     - richterdavid
     - ridruejo
@@ -446,6 +445,7 @@ orgs:
     - taragu
     - tardieu
     - tayarani
+    - tcnghia
     - teich
     - tejal29
     - tekgrrl
@@ -773,7 +773,7 @@ orgs:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
             - grantr
-            - tcnghia
+            - rhuss
             - markusthoemmes
             - mattmoor
             - evankanderson
@@ -790,7 +790,7 @@ orgs:
           milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
         maintainers:
         - grantr
-        - tcnghia
+        - rhuss
         - markusthoemmes
         - mattmoor
         - evankanderson
@@ -808,10 +808,10 @@ orgs:
         - nak3
         - navidshaikh
         - nlopezgi
-        - rhuss
         - shashwathi
         - sixolet
         - tanzeeb
+        - tcnghia
         - vagababov
         - vaikas
         - n3wscott
