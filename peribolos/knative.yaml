@@ -864,7 +864,6 @@ orgs:
             description: The Working Group leads for Serving API Core
             members:
             - dprotaso
-            - mattmoor
             privacy: closed
           Autoscaling WG Leads:
             description: The Working Group leads for Autoscaling
