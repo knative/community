@@ -617,6 +617,12 @@ orgs:
         description: Knative common packages
         has_projects: true
         has_wiki: false
+      release:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative release docs & scripts
+        has_projects: true
+        has_wiki: false
       serving:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -659,6 +665,7 @@ orgs:
           client: write
           client-contrib: write
           homebrew-client: write
+          release: write
         teams:
           Client WG Leads:
             description: The Working Group Leads for Client
@@ -684,6 +691,7 @@ orgs:
           eventing: write
           eventing-contrib: write
           pkg: write
+          release: write
         teams:
           Channel WG Leads:
             description: The Working Group leads for Channels
@@ -741,6 +749,7 @@ orgs:
           pkg: admin
           serving: admin
           serving-operator: admin
+          release: admin
           test-infra: admin
           hack: admin
           website: admin
@@ -835,6 +844,7 @@ orgs:
           .github: write
           test-infra: write
           hack: write
+          release: write
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
@@ -851,6 +861,8 @@ orgs:
             members:
             - evankanderson
             - julz
+        repos:
+          release: write
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
@@ -859,6 +871,7 @@ orgs:
           networking: write
           pkg: write
           serving: write
+          release: write
         teams:
           API Core WG Leads:
             description: The Working Group leads for Serving API Core
