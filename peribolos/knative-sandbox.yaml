@@ -505,6 +505,13 @@ orgs:
             - navidshaikh
             - rhuss
             privacy: closed
+      net-contour Approvers:
+        description: Approver group for net-contour - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          net-contour: write
+        members:
+        - dprotaso
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
