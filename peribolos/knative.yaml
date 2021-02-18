@@ -891,3 +891,15 @@ orgs:
             - nak3
             - ZhiminXiang
             privacy: closed
+      UX Writers:
+        description: Grants write access to ux related repositories.
+        privacy: closed
+        teams:
+          UX WG Leads:
+            description: The Working Group leads for User Experience (UX)
+            members:
+            - csantanapr
+            - omerbensaadon
+        repos:
+          docs: write
+          website: write
