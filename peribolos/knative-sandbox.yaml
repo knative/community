@@ -272,6 +272,12 @@ orgs:
         description: Empty repo for testing external build integration with `kn`.
         has_projects: true
         has_wiki: false
+      control-protocol:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Control protocol to enable interaction between control plane and data plane without redeploy
+        has_projects: true
+        has_wiki: false
       discovery:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -526,6 +532,7 @@ orgs:
         description: Grants write access to eventing-related repositories.
         privacy: closed
         repos:
+          control-protocol: write
           eventing-autoscaler-keda: write
           eventing-awssqs: write
           eventing-camel: write
@@ -573,6 +580,7 @@ orgs:
           actions-kind: admin
           async-component: admin
           build-spike: admin
+          control-protocol: admin
           discovery: admin
           downstream-test-go: admin
           eventing-autoscaler-keda: admin
