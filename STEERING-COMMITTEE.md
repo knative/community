@@ -64,13 +64,15 @@ committee currently recognizes this delegated authority for:
 
 ## Committee Meetings
 
-KSC meets every two weeks, or as-needed. Meetings are held online.
+KSC currently meets weekly, or as-needed. Meetings are open to public and held
+online.
 
 Given the private nature of some of these discussions (e.g. privacy, private
 emails to the committee, code of conduct violations, escalations, disputes
 between members, security reports, etc.) some meetings are held in private.
 
-Meeting notes are available to members of the
+[Meeting notes](https://docs.google.com/document/d/16Rpd2nhmLWrkFJUfpJ31Ox2PpultJ-bYIhqaiWQff_I/edit)
+are available to members of the
 [knative-dev mailing list](https://groups.google.com/forum/#!forum/knative-dev)
 (note: these are accessible to members of the knative-users list as well).
 Public meetings will be recorded and the recordings made available publicly.
