@@ -78,6 +78,7 @@ group. To do so, you need to:
   - [Event Delivery WG](https://docs.google.com/document/d/11SPnDRIJ6CGo5ElPGMWc25tX2iQfJfaiZwzBhruUZQw/edit)
   - [Eventing Sources WG](https://docs.google.com/document/d/1XQo9DUbNdOIxf37eKSG1ULEyxydcG0YGeO13wBjQpEE/edit)
   - [Client WG](https://docs.google.com/document/d/1VtzDsWSTymHlG7boLUeaLg_0pSQvKibWK7xQxE3ihKs/edit)
+  - [User Experience](https://docs.google.com/document/d/1K_LGymgqedAzRS0ACdVtJH1ktQxrf1OatfxzIb6LjU0/edit?usp=sharing)
 
   A typical WG charter is around 3 pages using and bulleted lists for goals,
   scope, and roadmap.
@@ -106,7 +107,7 @@ working group:
 
 - **Create a Google Drive Folder**. Create a folder to hold your working group
   documents within this parent
-  [folder](https://drive.google.com/corp/drive/folders/0APnJ_hRs30R2Uk9PVA).
+  [folder](https://drive.google.com/drive/folders/0AM-QGZJ-HUA8Uk9PVA).
   Call your folder "GROUP_NAME".
 
 - **Create a Meeting Notes Document**. Create a blank document in the above
@@ -117,7 +118,7 @@ working group:
 
 - **Schedule a Recurring Meeting**. Create a recurring meeting (weekly or
   bi-weekly, 30 or 60 minutes) on the
-  [shared calendar](https://calendar.google.com/calendar/embed?src=google.com_18un4fuh6rokqf8hmfftm5oqq4%40group.calendar.google.com)
+  [shared calendar](https://calendar.google.com/calendar/u/0/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s@group.calendar.google.com)
   and call the meeting "\$GROUP_NAME WG". Attach the meeting notes document to
   the calendar event. Generally schedule these meetings between 9:00AM to 2:59PM
   Pacific Time. Invite `knative-dev@googlegroups.com` Google group to the
@@ -128,9 +129,14 @@ working group:
   group name, the names of the leads, the working group charter, and a link to
   the meeting you created.
 
+- **Create Github Team using Peribolos**. Go to
+  [peribolos/knative.md](../peribolos/knative.md), add your working
+  group name under teams, and members. Grant access to relevant repositories for the working group.
+
 - **Announce your Working Group**. Send a note to
-  [knative-dev@](mailto:knative-dev@googlegroups.com) and
-  [knative-tech-oversight@](mailto:knative-tech-oversight@googlegroups.com) to
+  [knative-dev@](mailto:knative-dev@googlegroups.com),
+  [knative-tech-oversight@](mailto:knative-tech-oversight@googlegroups.com), and
+  [steering@](mailto:steering@knative.team) to
   announce your new working group. Include your charter in the email and provide
   links to the meeting invitation.
 
