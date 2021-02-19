@@ -513,13 +513,6 @@ orgs:
             - navidshaikh
             - rhuss
             privacy: closed
-      net-contour Approvers:
-        description: Approver group for net-contour - to be used in CODEOWNERS file
-        privacy: closed
-        repo:
-          net-contour: write
-        members:
-        - dprotaso
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
@@ -752,3 +745,61 @@ orgs:
             members:
             - csantanapr
             - omerbensaadon
+
+      # Per-repo owners groups for CODEOWNERS below here
+      net-contour Approvers:
+        description: Approver group for net-contour - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          net-contour: write
+        members:
+        - dprotaso
+        - mattmoor
+
+      net-certmanager Approvers:
+        description: Approver group for net-certmanager - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          net-certmanager: write
+        members:
+        - ZhiminXiang
+
+      net-http01 Approvers:
+        description: Approver group for net-http01 - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          net-http01: write
+        members:
+        - mattmoor
+        - tcnghia
+
+      net-ingressv2 Approvers:
+        description: Approver group for net-ingressv2 - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          net-ingressv2: write
+        members:
+        - markusthoemmes
+        - nak3
+
+      net-istio Approvers:
+        description: Approver group for net-istio - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          net-istio: write
+        members:
+        - JRBANCEL
+        - mdemirhan
+        - nak3
+        - vagababov
+        - ZhiminXiang
+
+      net-kourier Approvers:
+        description: Approver group for net-kourier - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          net-kourier: write
+        members:
+        - davidor
+        - jmprusi
+
