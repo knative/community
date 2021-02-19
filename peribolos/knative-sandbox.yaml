@@ -167,6 +167,7 @@ orgs:
     - nicolaferraro
     - nimbcode
     - nlopezgi
+    - omerbensaadon
     - ormos
     - peterfeifanchen
     - phamilton
@@ -742,3 +743,12 @@ orgs:
             - tcnghia
             - ZhiminXiang
             privacy: closed
+      UX Writers:
+        description: Grants write access to ux related repositories.
+        privacy: closed
+        teams:
+          UX WG Leads:
+            description: The Working Group leads for User Experience (UX)
+            members:
+            - csantanapr
+            - omerbensaadon

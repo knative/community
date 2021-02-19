@@ -651,6 +651,12 @@ orgs:
         description: Knative common scripts.
         has_projects: true
         has_wiki: false
+      ux:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: UX WG repository for assets and stories
+        has_projects: true
+        has_wiki: false
       website:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -753,6 +759,7 @@ orgs:
           release: admin
           test-infra: admin
           hack: admin
+          ux: admin
           website: admin
         teams:
           Knative Robots:
@@ -892,3 +899,16 @@ orgs:
             - nak3
             - ZhiminXiang
             privacy: closed
+      UX Writers:
+        description: Grants write access to ux related repositories.
+        privacy: closed
+        teams:
+          UX WG Leads:
+            description: The Working Group leads for User Experience (UX)
+            members:
+            - csantanapr
+            - omerbensaadon
+        repos:
+          docs: write
+          website: write
+          ux: write
