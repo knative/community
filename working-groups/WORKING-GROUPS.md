@@ -314,7 +314,7 @@ User Experience concerns across Knative components
 
 | &nbsp;                                                        | Leads           | Company | Profile                                             |
 | ------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
-| <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon  | VMware  | [evankanderson](https://github.com/omerbensaadon)   |
+| <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon  | VMware  | [omerbensaadon](https://github.com/omerbensaadon)   |
 | <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana  | IBM     | [csantanapr](https://github.com/csantanapr)         |
 
 ---
