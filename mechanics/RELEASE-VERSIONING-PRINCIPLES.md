@@ -233,7 +233,7 @@ tuple
    </td>
    <td>2021-11-02
    </td>
-   <td>v1.18.x
+   <td>v1.19.x
    </td>
    <td>v1
    </td>
@@ -568,7 +568,7 @@ tuple
    </td>
    <td rowspan="2" >2021-11-02
    </td>
-   <td rowspan="2" >v1.18x
+   <td rowspan="2" >v1.19.x
    </td>
    <td rowspan="2" >v1
    </td>
@@ -597,7 +597,7 @@ tuple
    </td>
    <td rowspan="2" >2021-09-21
    </td>
-   <td rowspan="2" >v1.18x
+   <td rowspan="2" >v1.18.x
    </td>
    <td rowspan="2" >v1
    </td>
@@ -626,7 +626,7 @@ tuple
    </td>
    <td rowspan="2" >2021-08-10
    </td>
-   <td rowspan="2" >v1.18x
+   <td rowspan="2" >v1.18.x
    </td>
    <td rowspan="2" >v1
    </td>
@@ -654,7 +654,7 @@ tuple
    </td>
    <td rowspan="2" >2021-06-29
    </td>
-   <td rowspan="2" >v1.17x
+   <td rowspan="2" >v1.17.x
    </td>
    <td rowspan="2" >v1
    </td>
@@ -682,7 +682,7 @@ tuple
    </td>
    <td rowspan="2" >2021-05-18
    </td>
-   <td rowspan="2" >v1.17x
+   <td rowspan="2" >v1.17.x
    </td>
    <td rowspan="2" >v1
    </td>
