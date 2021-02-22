@@ -801,6 +801,7 @@ orgs:
           eventing-couchdb: write
         members:
         - lberk
+        - lionelvillard
 
       eventing-github Approvers:
         description: Approver group for eventing-github - to be used in CODEOWNERS file
@@ -816,10 +817,10 @@ orgs:
         repo:
           eventing-gitlab: write
         members:
+        - antoineco
         - lberk
         - sebgoa
         - tzununbekov
-        - antoineco
 
       eventing-kafka Approvers:
         description: Approver group for eventing-kafka - to be used in CODEOWNERS file
@@ -827,10 +828,11 @@ orgs:
         repo:
           eventing-kafka: write
         members:
-        - davyodom
-        - travis-minke-sap
-        - phamilton
         - aliok
+        - davyodom
+        - matzew
+        - phamilton
+        - travis-minke-sap
 
       eventing-kafka-broker Approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
@@ -839,6 +841,7 @@ orgs:
           eventing-kafka-broker: write
         members:
         - pierDipi
+        - slinkydeveloper
 
       eventing-natss Approvers:
         description: Approver group for eventing-natss - to be used in CODEOWNERS file
@@ -846,6 +849,7 @@ orgs:
         repo:
           eventing-natss: write
         members:
+        - devguyio
 
       eventing-prometheus Approvers:
         description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
@@ -861,6 +865,8 @@ orgs:
         repo:
           eventing-rabbitmq: write
         members:
+        - n3wscott
+        - vaikas
 
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
@@ -869,6 +875,7 @@ orgs:
           eventing-redis: write
         members:
         - aavarghese
+        - lionelvillard
 
       kn-plugin-admin Approvers:
         description: Approver group for kn-plugin-admin - to be used in CODEOWNERS file
