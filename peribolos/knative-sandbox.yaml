@@ -802,6 +802,14 @@ orgs:
         members:
         - lberk
 
+      eventing-github Approvers:
+        description: Approver group for eventing-github - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-github: write
+        members:
+        - lberk
+
       eventing-gitlab Approvers:
         description: Approver group for eventing-gitlab - to be used in CODEOWNERS file
         privacy: closed
@@ -812,14 +820,6 @@ orgs:
         - sebgoa
         - tzununbekov
         - antoineco
-
-      eventing-github Approvers:
-        description: Approver group for eventing-github - to be used in CODEOWNERS file
-        privacy: closed
-        repo:
-          eventing-github: write
-        members:
-        - lberk
 
       eventing-kafka Approvers:
         description: Approver group for eventing-kafka - to be used in CODEOWNERS file
