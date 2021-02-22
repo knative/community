@@ -57,11 +57,14 @@ orgs:
     - bszwej
     - btardell
     - capri-xiyue
+    - cardil
     - cathyzhyi
     - cbickel
+    - cdlliuy
     - chaodaiG
     - chaozbj
     - chizhg
+    - christophd
     - cooperneil
     - coryrc
     - cr22rc
@@ -237,6 +240,7 @@ orgs:
     - yuyantingzero
     - zargarpur
     - zhanggbj
+    - zhangtbj
     - zhaojizhuang
     - ZhiminXiang
     - zhongduo
@@ -747,6 +751,85 @@ orgs:
             - omerbensaadon
 
       # Per-repo owners groups for CODEOWNERS below here
+      kn-plugin-admin Approvers:
+        description: Approver group for kn-plugin-admin - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          kn-plugin-admin: write
+        members:
+        - zhanggbj
+        - rhuss
+        - maximilien
+        - navidshaikh
+
+      kn-plugin-diag Approvers:
+        description: Approver group for kn-plugin-diag - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          kn-plugin-diag: write
+        members:
+        - cdlliuy
+        - maximilien
+        - navidshaikh
+
+      kn-plugin-event Approvers:
+        description: Approver group for kn-plugin-event - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          kn-plugin-event: write
+        members:
+        - cardil
+        - rhuss
+
+      kn-plugin-migration Approvers:
+        description: Approver group for kn-plugin-migration - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          kn-plugin-migration: write
+        members:
+        - zhangtbj
+        - maximilien
+
+      kn-plugin-sample Approvers:
+        description: Approver group for kn-plugin-sample - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          kn-plugin-sample: write
+        members:
+        - maximilien
+        - rhuss
+        - navidshaikh
+
+      kn-plugin-service-log Approvers:
+        description: Approver group for kn-plugin-service-log - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          kn-plugin-service-log: write
+        members:
+        - rhuss
+
+      kn-plugin-source-kafka Approvers:
+        description: Approver group for kn-plugin-source-kafka - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          kn-plugin-source-kafka: write
+        members:
+        - daisy-ycguo
+        - dsimansk
+        - maximilien
+        - rhuss
+        - navidshaikh
+
+      kn-plugin-source-kamelet Approvers:
+        description: Approver group for kn-plugin-source-kamelet - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          kn-plugin-source-kamelet: write
+        members:
+        - christophd
+        - nicolaferraro
+        - rhuss
+
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
         privacy: closed
@@ -802,4 +885,3 @@ orgs:
         members:
         - davidor
         - jmprusi
-
