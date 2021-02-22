@@ -247,6 +247,7 @@ orgs:
     - ZhuangYuZY
     - zouyee
     - zrob
+    - zroubalik
     - zyjiaobj
     - 12345lcr
     repos:
@@ -760,6 +761,121 @@ orgs:
         - beemarie
         - julz
         - maximilien
+
+      eventing-autoscaler-keda Approvers:
+        description: Approver group for eventing-autoscaler-keda - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-autoscaler-keda: write
+        members:
+        - zroubalik
+
+      eventing-awssqs Approvers:
+        description: Approver group for eventing-awssqs - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-awssqs: write
+        members:
+        - lberk
+
+      eventing-camel Approvers:
+        description: Approver group for eventing-camel - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-camel: write
+        members:
+        - nicolaferraro
+
+      eventing-ceph Approvers:
+        description: Approver group for eventing-ceph - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-ceph: write
+        members:
+        - lberk
+
+      eventing-couchdb Approvers:
+        description: Approver group for eventing-couchdb - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-couchdb: write
+        members:
+        - lberk
+        - lionelvillard
+
+      eventing-github Approvers:
+        description: Approver group for eventing-github - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-github: write
+        members:
+        - lberk
+
+      eventing-gitlab Approvers:
+        description: Approver group for eventing-gitlab - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-gitlab: write
+        members:
+        - antoineco
+        - lberk
+        - sebgoa
+        - tzununbekov
+
+      eventing-kafka Approvers:
+        description: Approver group for eventing-kafka - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-kafka: write
+        members:
+        - aliok
+        - davyodom
+        - matzew
+        - phamilton
+        - travis-minke-sap
+
+      eventing-kafka-broker Approvers:
+        description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-kafka-broker: write
+        members:
+        - pierDipi
+        - slinkydeveloper
+
+      eventing-natss Approvers:
+        description: Approver group for eventing-natss - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-natss: write
+        members:
+        - devguyio
+
+      eventing-prometheus Approvers:
+        description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-prometheus: write
+        members:
+        - lberk
+
+      eventing-rabbitmq Approvers:
+        description: Approver group for eventing-rabbitmq - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-rabbitmq: write
+        members:
+        - n3wscott
+        - vaikas
+
+      eventing-redis Approvers:
+        description: Approver group for eventing-redis - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          eventing-redis: write
+        members:
+        - aavarghese
+        - lionelvillard
 
       kn-plugin-admin Approvers:
         description: Approver group for kn-plugin-admin - to be used in CODEOWNERS file
