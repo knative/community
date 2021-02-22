@@ -751,6 +751,16 @@ orgs:
             - omerbensaadon
 
       # Per-repo owners groups for CODEOWNERS below here
+      async-component Approvers:
+        description: Approver group for async-component - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          async-component: write
+        members:
+        - beemarie
+        - julz
+        - maximilien
+
       kn-plugin-admin Approvers:
         description: Approver group for kn-plugin-admin - to be used in CODEOWNERS file
         privacy: closed
