@@ -226,7 +226,43 @@ tuple
    <td><strong>Availability</strong>
    </td>
   </tr>
-    <tr>
+   <tr>
+   <td>0.23.x
+   </td>
+   <td>2021-05-18
+   </td>
+   <td>2021-11-02
+   </td>
+   <td>v1.19.x
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+   <tr>
+   <td>0.22.x
+   </td>
+   <td>2021-04-06
+   </td>
+   <td>2021-09-21
+   </td>
+   <td>v1.18.x
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+   <tr>
    <td>0.21.x
    </td>
    <td>2021-02-23
@@ -526,13 +562,71 @@ tuple
    </td>
   </tr>
   <tr>
+   <td rowspan="2" >0.23.x
+   </td>
+   <td rowspan="2" >2021-05-18
+   </td>
+   <td rowspan="2" >2021-11-02
+   </td>
+   <td rowspan="2" >v1.19.x
+   </td>
+   <td rowspan="2" >v1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td><strong>removed</strong>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td rowspan="2" >0.22.x
+   </td>
+   <td rowspan="2" >2021-04-06
+   </td>
+   <td rowspan="2" >2021-09-21
+   </td>
+   <td rowspan="2" >v1.18.x
+   </td>
+   <td rowspan="2" >v1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+</tr>
+  <tr>
    <td rowspan="2" >0.21.x
    </td>
    <td rowspan="2" >2021-02-23
    </td>
    <td rowspan="2" >2021-08-10
    </td>
-   <td rowspan="2" >v1.18x
+   <td rowspan="2" >v1.18.x
    </td>
    <td rowspan="2" >v1
    </td>
@@ -560,7 +654,7 @@ tuple
    </td>
    <td rowspan="2" >2021-06-29
    </td>
-   <td rowspan="2" >v1.17x
+   <td rowspan="2" >v1.17.x
    </td>
    <td rowspan="2" >v1
    </td>
@@ -588,7 +682,7 @@ tuple
    </td>
    <td rowspan="2" >2021-05-18
    </td>
-   <td rowspan="2" >v1.17x
+   <td rowspan="2" >v1.17.x
    </td>
    <td rowspan="2" >v1
    </td>
