@@ -763,6 +763,23 @@ orgs:
         - julz
         - maximilien
 
+      control-protocol Approvers:
+        description: Approver group for control-protocol - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          control-protocol: write
+        members:
+        - slinkydeveloper
+
+      discovery Approvers:
+        description: Approver group for discovery - to be used in CODEOWNERS file
+        privacy: closed
+        repo:
+          discovery: write
+        members:
+        - lberk
+        - n3wscott
+
       eventing-autoscaler-keda Approvers:
         description: Approver group for eventing-autoscaler-keda - to be used in CODEOWNERS file
         privacy: closed
