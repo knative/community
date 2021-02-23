@@ -311,6 +311,7 @@ User Experience concerns across Knative components
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                  |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                          |
 | Slack Channel              | [#user-experience](https://slack.knative.dev/messages/user-experience)                                                                                  |
+| Github Repository          | [#user-experience](https://github.com/knative/ux)                                                                                                       |
 | Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                       |
 
 | &nbsp;                                                        | Leads           | Company | Profile                                             |
