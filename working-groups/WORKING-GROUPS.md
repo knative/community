@@ -64,6 +64,7 @@ The current working groups are:
 - [Productivity](#productivity)
 - [Scaling](#scaling)
 - [Security](#security)
+- [User Experience](user-experience)
   <!-- TODO add charters for each group -->
 
 ## API Core
