@@ -90,13 +90,13 @@ employer.
 The current membership of the committee is currently (listed alphabetically by
 first name):
 
-| &nbsp;                                                         | Member           | Organization | Profile                                              |
-| -------------------------------------------------------------- | ---------------- | ------------ | ---------------------------------------------------- |
-| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi | Google       | [@thisisnotapril](https://github.com/thisisnotapril) |
-| <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan      | VMware       | [@bsnchan](https://github.com/bsnchan)               |
-| <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt)           |
-| <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie       | Red Hat      | [@pmorie](https://github.com/pmorie)                 |
-| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas      | VMware       | [@vaikas](https://github.com/vaikas)                 |
+| &nbsp;                                                         | Member           | Organization | Profile                                              | Term       |
+| -------------------------------------------------------------- | ---------------- | ------------ | ---------------------------------------------------- | ---------- |
+| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi | Google       | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  |
+| <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan      | VMware       | [@bsnchan](https://github.com/bsnchan)               | Bootstrap  |
+| <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt)           | Bootstrap  |
+| <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie       | Red Hat      | [@pmorie](https://github.com/pmorie)                 | 2020-12-11 |
+| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas      | VMware       | [@vaikas](https://github.com/vaikas)                 | 2020-12-11 |
 
 ## Decision process
 

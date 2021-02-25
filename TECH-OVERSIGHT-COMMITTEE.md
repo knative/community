@@ -93,13 +93,13 @@ during the community feedback period at the end of each meeting.
 The members of the TOC are shown below. Membership in the TOC is determined by
 the [Steering committee](./STEERING-COMMITTEE.md).
 
-| &nbsp;                                                         | Member         | Company | Profile                                              |
-| -------------------------------------------------------------- | -------------- | ------- | ---------------------------------------------------- |
-| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson  | VMware  | [@evankanderson](https://github.com/evankanderson)   |
-| <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers  | Google  | [@grantr](https://github.com/grantr)                 |
-| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) |
-| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore     | VMware  | [@mattmoor](https://github.com/mattmoor)             |
-| <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß     | Red Hat | [@rhuss](https://github.com/rhuss)                   |
+| &nbsp;                                                         | Member         | Company | Profile                                              | Term       |
+| -------------------------------------------------------------- | -------------- | ------- | ---------------------------------------------------- | ---------- |
+| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson  | VMware  | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  |
+| <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers  | Google  | [@grantr](https://github.com/grantr)                 | 2020-06-09 |
+| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) | 2020-06-09 |
+| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore     | VMware  | [@mattmoor](https://github.com/mattmoor)             | Bootstrap  |
+| <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß     | Red Hat | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 |
 
 ---
 
