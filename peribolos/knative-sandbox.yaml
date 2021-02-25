@@ -756,7 +756,7 @@ orgs:
       async-component Approvers:
         description: Approver group for async-component - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           async-component: write
         members:
         - beemarie
@@ -766,7 +766,7 @@ orgs:
       control-protocol Approvers:
         description: Approver group for control-protocol - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           control-protocol: write
         members:
         - slinkydeveloper
@@ -774,7 +774,7 @@ orgs:
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           discovery: write
         members:
         - lberk
@@ -783,7 +783,7 @@ orgs:
       eventing-autoscaler-keda Approvers:
         description: Approver group for eventing-autoscaler-keda - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-autoscaler-keda: write
         members:
         - zroubalik
@@ -791,7 +791,7 @@ orgs:
       eventing-awssqs Approvers:
         description: Approver group for eventing-awssqs - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-awssqs: write
         members:
         - lberk
@@ -799,7 +799,7 @@ orgs:
       eventing-camel Approvers:
         description: Approver group for eventing-camel - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-camel: write
         members:
         - nicolaferraro
@@ -807,7 +807,7 @@ orgs:
       eventing-ceph Approvers:
         description: Approver group for eventing-ceph - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-ceph: write
         members:
         - lberk
@@ -815,7 +815,7 @@ orgs:
       eventing-couchdb Approvers:
         description: Approver group for eventing-couchdb - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-couchdb: write
         members:
         - lberk
@@ -824,7 +824,7 @@ orgs:
       eventing-github Approvers:
         description: Approver group for eventing-github - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-github: write
         members:
         - lberk
@@ -832,7 +832,7 @@ orgs:
       eventing-gitlab Approvers:
         description: Approver group for eventing-gitlab - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-gitlab: write
         members:
         - antoineco
@@ -843,7 +843,7 @@ orgs:
       eventing-kafka Approvers:
         description: Approver group for eventing-kafka - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-kafka: write
         members:
         - aliok
@@ -855,7 +855,7 @@ orgs:
       eventing-kafka-broker Approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-kafka-broker: write
         members:
         - pierDipi
@@ -864,7 +864,7 @@ orgs:
       eventing-natss Approvers:
         description: Approver group for eventing-natss - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-natss: write
         members:
         - devguyio
@@ -872,7 +872,7 @@ orgs:
       eventing-prometheus Approvers:
         description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-prometheus: write
         members:
         - lberk
@@ -880,7 +880,7 @@ orgs:
       eventing-rabbitmq Approvers:
         description: Approver group for eventing-rabbitmq - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-rabbitmq: write
         members:
         - n3wscott
@@ -889,7 +889,7 @@ orgs:
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           eventing-redis: write
         members:
         - aavarghese
@@ -898,7 +898,7 @@ orgs:
       kn-plugin-admin Approvers:
         description: Approver group for kn-plugin-admin - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           kn-plugin-admin: write
         members:
         - zhanggbj
@@ -909,7 +909,7 @@ orgs:
       kn-plugin-diag Approvers:
         description: Approver group for kn-plugin-diag - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           kn-plugin-diag: write
         members:
         - cdlliuy
@@ -919,7 +919,7 @@ orgs:
       kn-plugin-event Approvers:
         description: Approver group for kn-plugin-event - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           kn-plugin-event: write
         members:
         - cardil
@@ -928,7 +928,7 @@ orgs:
       kn-plugin-migration Approvers:
         description: Approver group for kn-plugin-migration - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           kn-plugin-migration: write
         members:
         - zhangtbj
@@ -937,7 +937,7 @@ orgs:
       kn-plugin-sample Approvers:
         description: Approver group for kn-plugin-sample - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           kn-plugin-sample: write
         members:
         - maximilien
@@ -947,7 +947,7 @@ orgs:
       kn-plugin-service-log Approvers:
         description: Approver group for kn-plugin-service-log - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           kn-plugin-service-log: write
         members:
         - rhuss
@@ -955,7 +955,7 @@ orgs:
       kn-plugin-source-kafka Approvers:
         description: Approver group for kn-plugin-source-kafka - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           kn-plugin-source-kafka: write
         members:
         - daisy-ycguo
@@ -967,7 +967,7 @@ orgs:
       kn-plugin-source-kamelet Approvers:
         description: Approver group for kn-plugin-source-kamelet - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           kn-plugin-source-kamelet: write
         members:
         - christophd
@@ -977,7 +977,7 @@ orgs:
       kperf Approvers:
         description: Approver group for kperf - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           kperf: write
         members:
         - maximilien
@@ -986,7 +986,7 @@ orgs:
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           net-contour: write
         members:
         - dprotaso
@@ -995,7 +995,7 @@ orgs:
       net-certmanager Approvers:
         description: Approver group for net-certmanager - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           net-certmanager: write
         members:
         - ZhiminXiang
@@ -1003,7 +1003,7 @@ orgs:
       net-http01 Approvers:
         description: Approver group for net-http01 - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           net-http01: write
         members:
         - mattmoor
@@ -1012,7 +1012,7 @@ orgs:
       net-ingressv2 Approvers:
         description: Approver group for net-ingressv2 - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           net-ingressv2: write
         members:
         - markusthoemmes
@@ -1021,7 +1021,7 @@ orgs:
       net-istio Approvers:
         description: Approver group for net-istio - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           net-istio: write
         members:
         - JRBANCEL
@@ -1033,7 +1033,7 @@ orgs:
       net-kourier Approvers:
         description: Approver group for net-kourier - to be used in CODEOWNERS file
         privacy: closed
-        repo:
+        repos:
           net-kourier: write
         members:
         - davidor
