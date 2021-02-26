@@ -852,6 +852,12 @@ orgs:
         - matzew
         - phamilton
         - travis-minke-sap
+        teams:
+          eventing-kafka-mtsource Approvers:
+            description: Approver group for eventing-kafka-mtsource - to be used in CODEOWNERS file
+            privacy: closed
+            members:
+            - steven0711dong
 
       eventing-kafka-broker Approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
