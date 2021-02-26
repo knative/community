@@ -17,8 +17,8 @@ aliases:
 
 # Composition
 
-The TOC will have five seats, with a maximum of 2 seats being held by employees
-from the same vendor.
+The TOC will have five seats with a 2 year term, with a maximum of 2 seats being
+held by employees from the same vendor.
 
 There will be an annual election to determine the composition of the TOC for the
 following year. Three seats will be up for election in one year and two will be
