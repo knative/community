@@ -17,8 +17,8 @@ aliases:
 
 # Composition
 
-The SC will have five seats, with a maximum of 2 seats being held by employees
-from the same vendor.
+The SC will have five seats with a 2 year term, with a maximum of 2 seats being
+held by employees from the same vendor.
 
 There will be an annual election to determine the composition of the SC for the
 following year. Two seats will be up for election in one year and three will be
