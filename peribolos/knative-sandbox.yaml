@@ -892,6 +892,7 @@ orgs:
           eventing-rabbitmq: write
         members:
         - n3wscott
+        - sbawaska
         - vaikas
 
       eventing-redis Approvers:
