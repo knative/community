@@ -642,6 +642,12 @@ orgs:
         description: 'DEPRECATED: Development continues in https://github.com/knative/operator/'
         has_projects: true
         has_wiki: false
+      specs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative specs and conformance tests
+        has_projects: true
+        has_wiki: false
       test-infra:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -683,6 +689,16 @@ orgs:
             members:
             - navidshaikh
             - rhuss
+            privacy: closed
+      Conformance Writers:
+        description: Grants write access to conformance-related repositories.
+        privacy: closed
+        repos:
+          specs: write
+        teams:
+          Conformance WG Leads:
+            description: The Working Group leads for Conformance
+            members: []
             privacy: closed
       Docs Writers:
         description: Grants write access to docs-related repositories.
@@ -760,6 +776,7 @@ orgs:
           pkg: admin
           serving: admin
           serving-operator: admin
+          specs: admin
           release: admin
           test-infra: admin
           hack: admin
