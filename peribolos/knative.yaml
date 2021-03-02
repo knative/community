@@ -707,6 +707,7 @@ orgs:
         repos:
           docs: write
           website: write
+          release: write
         teams:
           Docs WG Leads:
             description: The Working Group leads for Docs
