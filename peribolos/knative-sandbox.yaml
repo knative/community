@@ -772,6 +772,11 @@ orgs:
           control-protocol: write
         members:
         - slinkydeveloper
+        - devguyio
+        - matzew
+        - lionelvillard
+        - vaikas
+        - grantr
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
