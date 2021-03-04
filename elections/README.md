@@ -110,4 +110,6 @@ This document section outlines how to conduct a Knative Technical Oversight Comm
 
 # Knative Steering Committee Elections
 
-TBD
+For the 2020 bootstrap election, you can see the details and process
+[here](./2020/SC/README.md). We are going to revisit the process for 2021 elections
+and will update the process here as it gets solidified.
