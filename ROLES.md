@@ -26,7 +26,7 @@ The following table lists the roles we use within the Knative community. The
 table describes:
 
 - General responsibilities expected by individuals in each role
-- Requirements necessary to join or stay in a given role
+- Requirements necessary to join or stay in a given role for repos in the Knative GitHub org
 - How the role manifests in terms of permissions and privileges.
 
 <table>
@@ -112,6 +112,8 @@ table describes:
   </tr>
 
 </table>
+
+Please note that repos in the knative-sandbox GitHub org are a reflection of the WG leads. These leads are free to use their judgement to set the bar for what is required to become an approver and/or owner for knative-sandbox repos they are responsible for.
 
 ## Member
 
