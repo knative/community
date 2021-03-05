@@ -699,7 +699,8 @@ orgs:
         teams:
           Conformance WG Leads:
             description: The Working Group leads for Conformance
-            members: []
+            members:
+            - tayarani
             privacy: closed
       Docs Writers:
         description: Grants write access to docs-related repositories.
