@@ -18,7 +18,6 @@ orgs:
     - grantr
     - knative-prow-robot
     - markusthoemmes
-    - mattmoor
     - mbehrendt
     - pmorie
     - rhuss
@@ -152,6 +151,7 @@ orgs:
     - macruzbar
     - markfisher
     - markito
+    - mattmoor
     - matzew
     - mayaspivak
     - maximilien
@@ -644,7 +644,6 @@ orgs:
             - grantr
             - rhuss
             - markusthoemmes
-            - mattmoor
             - evankanderson
             - fallback-notification-blocker
             privacy: closed
@@ -662,7 +661,6 @@ orgs:
         - grantr
         - rhuss
         - markusthoemmes
-        - mattmoor
         - evankanderson
         members:
         - akashrv
@@ -1008,7 +1006,6 @@ orgs:
           net-contour: write
         members:
         - dprotaso
-        - mattmoor
 
       net-certmanager Approvers:
         description: Approver group for net-certmanager - to be used in CODEOWNERS file
@@ -1024,7 +1021,6 @@ orgs:
         repos:
           net-http01: write
         members:
-        - mattmoor
         - tcnghia
 
       net-ingressv2 Approvers:
