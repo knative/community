@@ -43,7 +43,9 @@ should be performed ("you are the PST Lead for X", "Ok, I am the PST Lead for X"
 The Fix Lead will quickly identify relevant engineers from the affected
 projects/areas/working groups and the PST and add those engineers to the
 security disclosure / email thread. This group becomes the Fix Team for the
-vulnerability.
+vulnerability. To prevent accidental disclosure and to maximize efficiency of
+response, the Fix Team should be the minimal size required for efficient
+response.
 
 Note: Given the current size of the project it is likely that in many cases the
 Fix Team will be the entire PST, possibly with an additional engineer or
