@@ -15,7 +15,6 @@ orgs:
     - grantr
     - knative-prow-robot
     - markusthoemmes
-    - mattmoor
     - mbehrendt
     - pmorie
     - rhuss
@@ -302,6 +301,7 @@ orgs:
     - markfisher
     - markito
     - MarkKropf
+    - mattmoor
     - mattsoldo
     - matzew
     - max
@@ -815,7 +815,6 @@ orgs:
             - grantr
             - rhuss
             - markusthoemmes
-            - mattmoor
             - evankanderson
             privacy: closed
           Knative Release Leads:
@@ -832,7 +831,6 @@ orgs:
         - grantr
         - rhuss
         - markusthoemmes
-        - mattmoor
         - evankanderson
         members:
         - slinkydeveloper
