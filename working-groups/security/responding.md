@@ -1,4 +1,4 @@
-# Vulnerability Discolure Response Policy
+# Vulnerability Disclosure Response Policy
 
 The project follows the following process when responding to vulnerabilities
 raised via the Security Disclosure Process.
@@ -11,8 +11,8 @@ This group will be responsible for fixing vulnerabilities and managing the
 disclosure process.
 
 The Product Security Taskforce is distinct from the embargo list: it is not
-neccessary (or helpful) to join the PST in order to recieve early notice of
-vulnerabilities. The PST is intentionally small to avoid inadvertant
+necessary (or helpful) to join the PST in order to receive early notice of
+vulnerabilities. The PST is intentionally small to avoid inadvertent
 disclosures of vulnerabilities (while being large enough to spread the work of
 responding to vulnerabilities) and should be composed of those who will
 actively work on the fix and disclosure process.
@@ -90,7 +90,7 @@ Vulnerabilities are evaluated based on the Knative Threat Model (TODO: Link this
    followed (see next section), this date must be three weeks from when the
    disclosure is released to the embargo list.
 1. This email should be actionable: it should be clear when users
-   should block time to apply patches, what migiations are available (if
+   should block time to apply patches, what mitigations are available (if
    appropriate), etc.
 
 ### Optional, Within 1-14 Days of Disclosure (Private, Embargoed Disclosure)
@@ -119,7 +119,7 @@ Vulnerabilities are evaluated based on the Knative Threat Model (TODO: Link this
    release branches and creates PRs.
 1. Maintainers should approve this PR as quickly as possible (it should already
    have been reviewed on the private branch).
-1. If neccessary, Release jobs should be manually triggered to ensure
+1. If necessary, Release jobs should be manually triggered to ensure
    a release is available as quickly as possible.
 1. The Issue should be disclosed to the knative-security-annnounce mailing
    list, the knative-users mailing list, the knative-dev mailing list
