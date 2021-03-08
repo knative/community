@@ -6,9 +6,9 @@ raised via the Security Disclosure Process.
 ## Product Security Taskforce Membership
 
 The subset of maintainers who are subscribed to the security@knative.team email
-address form the Product Security Taskforce. 
+address form the Product Security Taskforce.
 This group will be responsible for fixing vulnerabilities and managing the
-disclosure process. 
+disclosure process.
 
 The Product Security Taskforce is distinct from the embargo list: it is not
 neccessary (or helpful) to join the PST in order to recieve early notice of
@@ -26,9 +26,9 @@ The application is approved or rejected by the TOC.
 
 The PST Fix Lead Role is responsible for initially responding to
 vulnerabilities sent to security@knative.team, and for coordinating and
-managing the response with the rest of the PST. 
+managing the response with the rest of the PST.
 
-We use a rota system to assign the default PST Lead role. 
+We use a rota system to assign the default PST Lead role.
 All members of the PST are expected to sign up to the rota.
 Regardless of the rota, another member of the PST may volunteer to be the PST
 lead for a particular vulnerability.
@@ -62,7 +62,7 @@ Fix Team access to a private branch to develop the fix.
 
 Vulnerabilities are evaluated based on the Knative Threat Model (TODO: Link this when we land it!).
 
-1. The Fix Team will create a CVSS using the [CVSS calculator](https://www.first.org/cvss/calculator/3.0). 
+1. The Fix Team will create a CVSS using the [CVSS calculator](https://www.first.org/cvss/calculator/3.0).
    The Fix Lead makes the final call on the calculated CVSS; it is better to
    move quickly than making the CVSS perfect.
 1. **If the Fix Team determines this is not a vulnerability based on the Knative
@@ -98,7 +98,7 @@ Vulnerabilities are evaluated based on the Knative Threat Model (TODO: Link this
 1. If, in the judgement of the Fix Lead, a private disclosure is warranted, the
    Embargo List is emailed with details of the fix (including any proposed
    patch/mitigation and actionable instructions) and the date it will be
-   publicly disclosed and released. 
+   publicly disclosed and released.
 1. If this is the case, the Public Disclosure should not be
    released until at least three weeks after this notification is sent, to give
    vendors time to prepare to release the patch. In exceptional circumstances
