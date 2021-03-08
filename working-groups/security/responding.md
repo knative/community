@@ -109,7 +109,7 @@ Vulnerabilities are evaluated based on the Knative Threat Model (TODO: Link this
    to accelerate the schedule for public disclosure and release of the fix.
    When in doubt push forward and go public ASAP.
 
-### Within 1-21 Days of Disclosure (Fix Release Day)
+### Within 1-28 Days of Disclosure (Fix Release Day)
 
 1. The Fix Lead cherry-picks the fix on to the main branch and all relevant
    release branches and creates PRs.
