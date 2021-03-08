@@ -61,8 +61,8 @@ Vulnerabilities are evaluated based on the Knative Threat Model (TODO: Link this
 1. The Fix Team will create a CVSS using the [CVSS calculator](https://www.first.org/cvss/calculator/3.0). 
    The Fix Lead makes the final call on the calculated CVSS; it is better to
    move quickly than making the CVSS perfect.
-1. If the Fix Team determines this is not a vulnerability based on the Knative
-   Threat Model, the discloser is notified and the process ends.
+1. **If the Fix Team determines this is not a vulnerability based on the Knative
+   Threat Model, the discloser is notified and the process ends.**
    (Note that in all cases it is important to inform the reporter that
    the disclosure has been seen and is being addressed as quickly as possible).
 1. Otherwise, the Fix Lead creates a private branch for development of the Fix,
@@ -75,6 +75,7 @@ Vulnerabilities are evaluated based on the Knative Threat Model (TODO: Link this
    vulnerability in the CVE and disclosure**.
 1. The Fix Team urgently develops a fix or mitigation so that a realistic
    timeline can be communicated to users.
+1. The Fix Lead completes the Github Security Advisory and requests a CVE from Github.
 1. If the CVSS score is below 4.0, the Fix Team may - after appropriate
    discussion and based on developer bandwidth, public holidays etc - decide to
    slow down the release process.
@@ -116,7 +117,6 @@ Vulnerabilities are evaluated based on the Knative Threat Model (TODO: Link this
    have been reviewed on the private branch).
 1. If neccessary, Release jobs should be manually triggered to ensure
    a release is available as quickly as possible.
-1. The Fix Lead completes the Github Security Advisory and requests a CVE from Github.
 1. The Issue should be disclosed to the knative-security-annnounce mailing
    list, the knative-users mailing list, the knative-dev mailing list
    and the embargo list including relevant PRs, mitigations and the release
