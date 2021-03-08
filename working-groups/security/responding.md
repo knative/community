@@ -35,6 +35,8 @@ lead for a particular vulnerability.
 This may be appropriate, for example, when the vulnerability is in a particular
 area of the code that PST member is familiar with, or when the rota-ed PST lead
 is already handing another vulnerability.
+**To avoid any confusion, if the PST Lead role is transferred, [positive hand-off](https://www.faasafety.gov/gslac/ALC/course_content.aspx?cID=36&sID=196&preview=true)
+should be performed ("you are the PST Lead for X", "Ok, I am the PST Lead for X", "Great, you are the PST lead for X!")**.
 
 ## Organising the Fix Team
 
