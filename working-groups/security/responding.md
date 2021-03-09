@@ -60,7 +60,7 @@ Fix Team access to a private branch to develop the fix.
 
 ### Within 1-7 Days of Disclosure
 
-Vulnerabilities are evaluated based on the Knative Threat Model (TODO: Link this when we land it!).
+Vulnerabilities are evaluated based on the Knative Threat Model.
 
 1. The Fix Team will create a CVSS using the [CVSS calculator](https://www.first.org/cvss/calculator/3.0).
    The Fix Lead makes the final call on the calculated CVSS; it is better to
