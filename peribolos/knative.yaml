@@ -553,6 +553,12 @@ orgs:
         description: Community contributed `kn` plugins.
         has_projects: true
         has_wiki: false
+      client-pkg:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative client's (`kn`) reusable common packages.
+        has_projects: true
+        has_wiki: false
       community:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -675,6 +681,7 @@ orgs:
         repos:
           client: write
           client-contrib: write
+          client-pkg: write
           homebrew-client: write
           release: write
         teams:
@@ -760,6 +767,7 @@ orgs:
           caching: admin
           client: admin
           client-contrib: admin
+          client-pkg: admin
           community: admin
           docs: admin
           eventing: admin
