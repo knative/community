@@ -205,7 +205,7 @@ simultaneously.
 
 To run for a Contributing seat, a candidate must additionally be at least a
 project Member as defined in
-[ROLES.md](https://github.com/knative/community/blob/master/ROLES.md).
+[ROLES.md](https://github.com/knative/community/blob/main/ROLES.md).
 
 End-user seats are planned to enable employees of organizations which use but do
 not sell Knative-derived products. The mechanics of eligibility for end-user

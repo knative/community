@@ -43,7 +43,7 @@ donated repositories must:
   can occur post-transfer, but should ideally occur shortly thereafter.
 - An `AUTHORS` file should be created in the repo root, if one does not already
   exist, that includes the original authors of the code. See
-  [knative/serving AUTHORS](https://github.com/knative/serving/blob/master/AUTHORS)
+  [knative/serving AUTHORS](https://github.com/knative/serving/blob/main/AUTHORS)
   for reference.
   - Note that copyright notices should only be modified or removed by the people
     or organizations named in the notice.
@@ -126,7 +126,7 @@ bar:
 - Must adopt the Knative CLA
 
 - Must adopt the Knative
-  [code of conduct](https://github.com/knative/community/blob/master/CODE-OF-CONDUCT.md)
+  [code of conduct](https://github.com/knative/community/blob/main/CODE-OF-CONDUCT.md)
 
 - Must adopt the Apache 2.0 license
 

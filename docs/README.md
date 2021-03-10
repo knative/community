@@ -3,10 +3,10 @@ documentation! Check out the resources below to get started.
 
 ## Getting started
 
-- [How to contribute](https://github.com/knative/docs/tree/master/CONTRIBUTING.md) -- Contains information about how
+- [How to contribute](https://github.com/knative/docs/tree/main/CONTRIBUTING.md) -- Contains information about how
   to contribute and outlines the roles for Docs contributors.
 
-- [Template page](https://raw.githubusercontent.com/knative/community/master/docs/new-page-template.md)
+- [Template page](https://raw.githubusercontent.com/knative/community/main/docs/new-page-template.md)
   -- A blank documentation page that demonstrates how to format a new page and
   includes tips on structuring your documentation.
 
