@@ -373,6 +373,12 @@ orgs:
         description: Redis integration with Knative Eventing.
         has_projects: true
         has_wiki: false
+      homebrew-kn-plugins:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Homebrew tap for holding all kn plugins that are released together with Knative.
+        has_projects: true
+        has_wiki: false
       kn-plugin-admin:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -506,6 +512,7 @@ orgs:
         privacy: closed
         repos:
           build-spike: write
+          homebrew-kn-plugins: write
           kn-plugin-admin: write
           kn-plugin-diag: write
           kn-plugin-event: write
@@ -600,6 +607,7 @@ orgs:
           eventing-prometheus: admin
           eventing-rabbitmq: admin
           eventing-redis: admin
+          homebrew-kn-plugins: admin
           kn-plugin-admin: admin
           kn-plugin-diag: admin
           kn-plugin-event: admin
@@ -910,6 +918,16 @@ orgs:
         members:
         - aavarghese
         - lionelvillard
+
+      homebrew-kn-plugins Approvers:
+        description: Approver group for homebrew-kn-plugins - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          homebrew-kn-plugins: write
+        members:
+        - dsimansk
+        - maximilien
+        - rhuss
 
       kn-plugin-admin Approvers:
         description: Approver group for kn-plugin-admin - to be used in CODEOWNERS file
