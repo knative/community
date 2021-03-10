@@ -169,8 +169,8 @@ the [SC Election Charter].
 | [Paul Morie](pmorie.md) | Red Hat | [pmorie](https://github.com/pmorie) |
 | [Ville Aikas](vaikas.md) | VMware | [vaikas](https://github.com/vaikas) |
 
-[Knative Steering Committee]: https://github.com/knative/community/blob/master/STEERING-COMMITTEE.md
-[SC Election Charter]: https://github.com/knative/community/blob/master/mechanics/SC.md
+[Knative Steering Committee]: https://github.com/knative/community/blob/main/STEERING-COMMITTEE.md
+[SC Election Charter]: https://github.com/knative/community/blob/main/mechanics/SC.md
 
 [limiting corporate campaigning]: https://github.com/kubernetes/steering/blob/master/elections.md#limiting-corporate-campaigning
 
@@ -183,5 +183,5 @@ the [SC Election Charter].
 [voters.md]: ./voters.md
 [ballot replacement request]: https://bit.ly/knative-sc20-ballot
 
-[Eligibility for candidacy]: https://github.com/knative/community/blob/master/mechanics/SC.md#candidate-eligibility
-[Eligibility for voting]: https://github.com/knative/community/blob/master/mechanics/SC.md#candidate-eligibility#voter-eligibility
+[Eligibility for candidacy]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility
+[Eligibility for voting]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility#voter-eligibility

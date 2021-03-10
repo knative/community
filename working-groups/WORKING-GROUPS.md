@@ -70,9 +70,9 @@ The current working groups are:
 ## API Core
 
 API
-[resources](https://github.com/knative/serving/tree/master/pkg/apis/serving),
-[validation](https://github.com/knative/pkg/tree/master/webhook), and
-[semantics](https://github.com/knative/pkg/tree/master/controller).
+[resources](https://github.com/knative/serving/tree/main/pkg/apis/serving),
+[validation](https://github.com/knative/pkg/tree/main/webhook), and
+[semantics](https://github.com/knative/pkg/tree/main/controller).
 
 | Artifact                   | Link                                                                                                                                                            |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -136,7 +136,7 @@ Event sources, bindings, FaaS framework, and orchestration
 
 | Artifact                   | Link                                                                                                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Charter / Mission          | [Enable asynchronous application development through event delivery from anywhere.](https://github.com/knative/eventing/blob/master/docs/mission.md)         |
+| Charter / Mission          | [Enable asynchronous application development through event delivery from anywhere.](https://github.com/knative/eventing/blob/main/docs/mission.md)         |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                          |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Xha-FeunojN49OJN7W0WBnPMcRtp1ycYpbkiir6XsE0/edit)                                     |
 | Community Meeting Calendar | Wednesdays 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |

@@ -98,9 +98,9 @@ When a proposal is accepted, the leads should designate one or more
 reviewers<sup>[3.1](#3.1)</sup> within the WG as "sponsors" for the
 feature to help shepherd it through the process.  It is recommended that at
 least one sponsor be an "approver" (someone listed under an
-[`*-approvers`](https://github.com/knative/serving/blob/master/OWNERS_ALIASES) list).
+[`*-approvers`](https://github.com/knative/serving/blob/main/OWNERS_ALIASES) list).
 If that sponsor is not an approver (for example, someone listed under an
-[`*-reviewers`](https://github.com/knative/serving/blob/master/OWNERS_ALIASES) list),
+[`*-reviewers`](https://github.com/knative/serving/blob/main/OWNERS_ALIASES) list),
 they should initially become the primary reviewer(s) so that they can hone their review skills
 and work towards the approver role.
 

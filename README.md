@@ -52,7 +52,7 @@ using Knative.
 Knative is an open source project with an active development community. The
 project was started by Google but has contributions from a growing number of
 industry-leading companies. For a current list of the authors, see
-[Authors](https://github.com/knative/serving/blob/master/AUTHORS).
+[Authors](https://github.com/knative/serving/blob/main/AUTHORS).
 
 ### Authoring samples
 
@@ -61,7 +61,7 @@ tools, platforms, languages, and products. By submitting a tutorial you can
 share your experience and help others who are solving similar problems.
 
 Community tutorials are stored in Markdown files under the `community` folder
-[Community Samples](https://github.com/knative/docs/tree/master/community/samples/README.md).
+[Community Samples](https://github.com/knative/docs/tree/main/community/samples/README.md).
 These documents are contributed, reviewed, and maintained by the community.
 
 Submit a Pull Request to the community sample directory under the Knative

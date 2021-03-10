@@ -106,8 +106,8 @@ the [TOC Election Charter].
 | Nghia Tran | Google | [@tcnghia](https://github.com/tcnghia) |
 | Roland Huss | Red Hat | [@rhuss](https://github.com/rhuss) |
 
-[Knative Technical Oversight Committee]: https://github.com/knative/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md
-[TOC Election Charter]: https://github.com/knative/community/blob/master/mechanics/TOC.md
+[Knative Technical Oversight Committee]: https://github.com/knative/community/blob/main/TECH-OVERSIGHT-COMMITTEE.md
+[TOC Election Charter]: https://github.com/knative/community/blob/main/mechanics/TOC.md
 
 [limiting corporate campaigning]: https://github.com/kubernetes/steering/blob/master/elections.md#limiting-corporate-campaigning
 [pledge to recuse]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
@@ -120,5 +120,5 @@ the [TOC Election Charter].
 [voter exemption form]: https://forms.gle/8SvAXomCJXsYEytt5
 [voters.md]: ./voters.md
 
-[Eligibility for candidacy]: https://github.com/knative/community/blob/master/mechanics/TOC.md#candidate-eligibility
-[Eligibility for voting]: https://github.com/knative/community/blob/master/mechanics/TOC.md#candidate-eligibility#voter-eligibility
+[Eligibility for candidacy]: https://github.com/knative/community/blob/main/mechanics/TOC.md#candidate-eligibility
+[Eligibility for voting]: https://github.com/knative/community/blob/main/mechanics/TOC.md#candidate-eligibility#voter-eligibility
