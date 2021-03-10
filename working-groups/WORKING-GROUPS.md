@@ -264,9 +264,9 @@ Autoscaling behavior of Knative Serving
 | Artifact                   | Link                                                                                                                                                        |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                         |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1FoLJqbDJM8_tw7CON-CJZsO2mlF8Ia1cWzCjWX8HDAI/edit#heading=h.c0ufqy5rucfa)             |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1-hezRkkLhnCkkEm6S09SkQR-BpF5xpTyhethYL5Zm6w/edit#)             |
 | Community Meeting Calendar | Wednesdays at 9:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1FoLJqbDJM8_tw7CON-CJZsO2mlF8Ia1cWzCjWX8HDAI/edit#heading=h.c0ufqy5rucfa)                                        |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1-hezRkkLhnCkkEm6S09SkQR-BpF5xpTyhethYL5Zm6w/edit#)                                        |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K)                                                                          |
 | Repo prefixes              |                                                                                                                                                             |
 | Slack Channel              | [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                                                                              |
@@ -326,3 +326,4 @@ Except as otherwise noted, the content of this page is licensed under the
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/),
 and code samples are licensed under the
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+
