@@ -38,7 +38,7 @@ donated repositories must:
 - Adopt the Google CLA bot.
 - All contributors to the donated repository must have signed the Google CLA.
 - All code must adopt the standard Knative header, attributing copyright as
-  follows: `"Copyright <year> The Knative Authors"`
+  follows: `"Copyright <year> The Knative Authors"`.
 - Additions of the standard Knative header to code created by the contributors
   can occur post-transfer, but should ideally occur shortly thereafter.
 - An `AUTHORS` file should be created in the repo root, if one does not already
@@ -93,19 +93,23 @@ repository is retired and no longer maintained.
 
 ## Additional / Experimental Repositories
 
-We want Knative working groups to be able to own code outside the core `knative`
-organization, which is kept intentionally small and has a high bar for entry.
-The `knative-sandbox` github organization was created for this purpose.
-Repositories in `knative-sandbox` are intended to give working groups more
-latitude to experiment with new ideas and to self-organize and manage
+It is beneficial for Knative working groups to be able to own code outside the
+core `knative` organization, which is kept intentionally small and has a high
+bar for entry.  The `knative-sandbox` GitHub organization was created for this
+purpose.  Repositories in `knative-sandbox` are intended to give working groups
+more latitude to experiment with new ideas and to self-organize and manage
 contributions which may be important to the project but which do not need the
 level of governance of the core project.
 
 Note that `knative-sandbox` is **not** an incubation area for projects entering
-the core; in some cases, projects in the sandbox will remain there for the
-entire duration. Promotion from the sandbox into core will be handled on a
-case-by-case basis by joint decision of the Steering Committee and the Technical
-Oversight Committee.
+the `knative` github org; in most cases, projects in the sandbox will remain
+there for the entire duration. `knative-sandbox` also provides a location for
+implementations of core interfaces which do not themselves need to be part of
+every knative installation, such as networking or eventing integrations. In the
+event that a working group wants a project in sandbox to be considered for
+transfer to the `knative` org, the request will be considered on a case-by-case
+basis by joint decision of the Steering Committee and the Technical Oversight
+Committee.
 
 ### Mechanics of working-group owned repositories in `knative-sandbox`
 
@@ -114,32 +118,43 @@ Oversight Committee.
 Note: prior art here from the
 [Kubernetes community](https://github.com/kubernetes/community/blob/master/github-management/kubernetes-repositories.md).
 
-Working groups should be able to create repositories that meet the following
-bar:
+Working groups are allowed to request repositories that meet the following
+requirements. The Steering Committee and TOC will maintain the process and
+perform the repository creation steps to ensure that the following requirements
+have been met:
 
-- Vendor independent (no direct links to specific clouds, no required
-  dependencies on vendor-specific tools)
+- Vendor dependencies must be clearly called out, and participation must be open
+  to the community.
 
-- Homed within an existing working group (if you want a new working group too,
-  create the working group first)
+  - If the repository is for integration with a specific technology vendor,
+    affiliation with that vendor must not be required for participation.
 
-- Must adopt the Knative CLA
+  - Non-integration repositories should aim to avoid dependencies on
+    vendor-specific technology by publishing abstract interfaces which can be
+    implemented by multiple vendors. Those implementations are not required to
+    live in separate repositories.
+
+- Must adopt the Knative CLA.
 
 - Must adopt the Knative
-  [code of conduct](https://github.com/knative/community/blob/main/CODE-OF-CONDUCT.md)
+  [code of conduct](https://github.com/knative/community/blob/main/CODE-OF-CONDUCT.md).
 
-- Must adopt the Apache 2.0 license
+- Must adopt the Apache 2.0 license.
 
 - Must be sponsored by a specific working group, which should be designated in
   the `README.md` for the repo. In addition, at least one WG lead must be in the
   root-level OWNERS file.
 
-- Copyright assigned to The Knative Authors
+- Copyright assigned to The Knative Authors.
 
 - Document clear release and install processes.
 
 - Clearly document the stability and API guarantees (both in the top-level
   `README.md` and by using appropriate API versioning for Kubernetes apigroups).
+
+  - The TOC will maintain a template which will be used during the creation of
+    new repositories. Existing repositiories are encouraged to update their
+    `README`s from time to time as the format changes.
 
 - Kubernetes APIs must be homed in a valid group with a DNS prefix approved by
   the Steering Committee.
@@ -155,7 +170,7 @@ bar:
        Working Group to ensure consistency and alignment with duck-type field
        naming.
 
-Working groups must designate the repositories they own (specifics TBD).
+Working groups must designate the repositories they own (by prefix or in the README.md of the repo, at a minimum).
 
 Repositories owned by working groups are encouraged to embrace the project value
 of pluggability.
@@ -164,23 +179,27 @@ of pluggability.
 
 The following are not required to create a working-group-owned repository:
 
-- Steering approval (see ["the fine print"](#the-fine-print))
+- Steering or Trademark approval (see ["the fine print"](#the-fine-print))
 - TOC approval
+  - TOC may request certain naming patterns (e.g. `kn-plugin` for client WG)
 - Solving an unique problem (exploring different approaches to problems outside
   the core is actively encouraged!)
 
 ### The fine print
 
-Steering reserves the right to require that repos be removed or transferred out
-of the `knative-sandbox` organization (and API groups to be renamed). This is
-intended to simplify the process in the common case, while giving Steering the
-ability to step in and rectify problems that may arise.
+Steering and Trademark reserve the right to require that repos be removed or
+transferred out of the `knative-sandbox` organization and API groups to be
+renamed. This is intended to simplify the process in the common case, while
+giving Steering or Trademark the ability to step in and rectify problems that
+may arise.
 
 ### Deletion
 
 Working groups are responsible for the upkeep of their repositories and are
-expected to keep a high quality bar. Inactive repositories should be archived,
-deleted, or moved out of the `knative-sandbox` organization.
+expected to keep a high quality bar. Inactive or non-conforming repositories
+should be archived, deleted, or moved out of the `knative-sandbox` organization,
+following the general [Procedure for Removal](#procedure-for-removal) for
+repositories.
 
 ---
 
