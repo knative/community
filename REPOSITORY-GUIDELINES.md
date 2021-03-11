@@ -137,7 +137,7 @@ have been met:
 - Must adopt the Knative CLA.
 
 - Must adopt the Knative
-  [code of conduct](https://github.com/knative/community/blob/main/CODE-OF-CONDUCT.md)
+  [code of conduct](https://github.com/knative/community/blob/main/CODE-OF-CONDUCT.md).
 
 - Must adopt the Apache 2.0 license.
 
