@@ -102,13 +102,14 @@ contributions which may be important to the project but which do not need the
 level of governance of the core project.
 
 Note that `knative-sandbox` is **not** an incubation area for projects entering
-the core; in most cases, projects in the sandbox will remain there for the
-entire duration. `knative-sandbox` also provides a location for implementations
-of core interfaces which do not themselves need to live in the core, such as
-networking or eventing integrations. In the event that a working group wants a
-project in sandbox to be considered for transfer to the `knative` org, the
-request will be considered on a case-by-case basis by joint decision of the
-Steering Committee and the Technical Oversight Committee.
+the `knative` github org; in most cases, projects in the sandbox will remain
+there for the entire duration. `knative-sandbox` also provides a location for
+implementations of core interfaces which do not themselves need to be part of
+every knative installation, such as networking or eventing integrations. In the
+event that a working group wants a project in sandbox to be considered for
+transfer to the `knative` org, the request will be considered on a case-by-case
+basis by joint decision of the Steering Committee and the Technical Oversight
+Committee.
 
 ### Mechanics of working-group owned repositories in `knative-sandbox`
 
@@ -169,7 +170,7 @@ have been met:
        Working Group to ensure consistency and alignment with duck-type field
        naming.
 
-Working groups must designate the repositories they own (specifics TBD).
+Working groups must designate the repositories they own (by prefix or in the README.md of the repo, at a minimum).
 
 Repositories owned by working groups are encouraged to embrace the project value
 of pluggability.
@@ -178,17 +179,19 @@ of pluggability.
 
 The following are not required to create a working-group-owned repository:
 
-- Steering approval (see ["the fine print"](#the-fine-print))
+- Steering or Trademark approval (see ["the fine print"](#the-fine-print))
 - TOC approval
+  - TOC may request certain naming patterns (e.g. `kn-plugin` for client WG)
 - Solving an unique problem (exploring different approaches to problems outside
   the core is actively encouraged!)
 
 ### The fine print
 
-Steering reserves the right to require that repos be removed or transferred out
-of the `knative-sandbox` organization and API groups to be renamed. This is
-intended to simplify the process in the common case, while giving Steering the
-ability to step in and rectify problems that may arise.
+Steering and Trademark reserve the right to require that repos be removed or
+transferred out of the `knative-sandbox` organization and API groups to be
+renamed. This is intended to simplify the process in the common case, while
+giving Steering or Trademark the ability to step in and rectify problems that
+may arise.
 
 ### Deletion
 
