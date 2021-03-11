@@ -9,8 +9,8 @@ type: "docs"
 
 ## Purpose
 
-The role of this election is to fill out the one (1) seats due for election this year on the [Knative Technical Oversight Committee]. The elected
-member will serve a two (2) year term.
+The role of this election is to fill the two (2) seats due for election this year on the [Knative Technical Oversight Committee]. The elected
+members will serve two (2) year terms.
 
 ## Background
 
