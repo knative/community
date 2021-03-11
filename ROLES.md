@@ -26,7 +26,7 @@ The following table lists the roles we use within the Knative community. The
 table describes:
 
 - General responsibilities expected by individuals in each role
-- Requirements necessary to join or stay in a given role
+- Requirements necessary to join or stay in a given role for repos in the Knative GitHub org
 - How the role manifests in terms of permissions and privileges.
 
 <table>
@@ -105,13 +105,15 @@ table describes:
     <td>
         <p>Ensure important information is represented in working group notes</p>
         <p>Post WG recordings to team drive</p>
-    <td>
+    </td>
     <td>Sponsored by a working group execution or technical lead.</td>
     <td>Write permissions to team drive and team calendar</td>
     <td>Working Group</td>
   </tr>
 
 </table>
+
+Please note that repos in the knative-sandbox GitHub org are a reflection of the WG leads. These leads are free to use their judgement to set the bar for what is required to become an approver and/or owner for knative-sandbox repos they are responsible for.
 
 ## Member
 
@@ -132,6 +134,12 @@ testing and factoring. Members might also review for more holistic issues, but
 this is not a requirement.
 
 ### Requirements
+
+- Member of the Knative github org. Create a PR adding you to
+[knative.yaml](../peribolos/knative.yaml) and/or to
+[knative-sandbox.yaml](../peribolos/knative-sandbox.yaml) which after when
+merged will send you an invite that you have to accept to become a member
+of these organizations.
 
 - Has made multiple contributions to the project or community. Contributions
   might include, but are not limited to:
@@ -213,6 +221,15 @@ approver in an OWNERS file:
 * Mentor new contributors and project members.
 
 * Approve code contributions for acceptance.
+
+Approvers are also expected to participate in community contact rotations
+([Serving](
+https://github.com/knative/serving/blob/main/support/COMMUNITY_CONTACTS.md)
+or [Eventing](
+https://github.com/knative/eventing/blob/main/support/COMMUNITY_CONTACTS.md))
+to support users and keep test quality high, as well as release leads
+[rotation](https://github.com/knative/pkg/blob/main/RELEASE-LEADS.md) to
+shepherd Knative releases.
 
 # Working Group Leadership Roles
 

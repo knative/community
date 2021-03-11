@@ -33,6 +33,14 @@ are Kubernetes community supported at the time of the cut. Only the latest patch
 release of the minor version is tested for support. Support for versions prior
 to that are best effort, or by vendors.
 
+Adoption of newer K8s minimum versions will also be on a best-effort basis. When a
+Kubernetes version is released it's availability in downstream distributions is
+often lagging. When these delays affect our planned min K8s version we'll update
+the version table below and make it known in the release's notes.
+
+This principle will be revisited when changes to upstream Kubernetes support 
+policy occur.
+
 ### Knative community support window principle:
 
 We (the community) support the most recent 4 versions of Knative. The term
@@ -205,13 +213,11 @@ tuple
    </td>
    <td><strong>Release Date</strong>
    </td>
-   <td><strong>End of LIfe Date</strong>
+   <td><strong>End of Life Date</strong>
    </td>
    <td><strong>Min K8s Version</strong>
    </td>
    <td><strong>Storage Type</strong>
-   </td>
-   <td><strong>Force Upgrade</strong>
    </td>
    <td><strong>API Endpoints</strong>
    </td>
@@ -220,18 +226,52 @@ tuple
    <td><strong>Availability</strong>
    </td>
   </tr>
-  <tr>
-   <td rowspan="3" >0.20.x
+   <tr>
+   <td>0.23.x
    </td>
-   <td rowspan="3" >2020-12-22
+   <td>2021-05-18
    </td>
-   <td rowspan="3" >2021-06-08
+   <td>2021-11-02
    </td>
-   <td rowspan="3" >1.19.x
+   <td>v1.19.x
    </td>
-   <td rowspan="3" >v1
+   <td>v1
    </td>
-   <td rowspan="3" >N/A
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+   <tr>
+   <td>0.22.x
+   </td>
+   <td>2021-04-06
+   </td>
+   <td>2021-09-21
+   </td>
+   <td>v1.18.x
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+   <tr>
+   <td>0.21.x
+   </td>
+   <td>2021-02-23
+   </td>
+   <td>2021-08-10
+   </td>
+   <td>v1.18.x
+   </td>
+   <td>v1
    </td>
    <td>v1
    </td>
@@ -241,19 +281,21 @@ tuple
    </td>
   </tr>
   <tr>
-   <td>v1beta1
+   <td>0.20.x
    </td>
-   <td>v1beta1
+   <td>2021-01-12
    </td>
-   <td><strong>removed</strong>
+   <td>2021-06-29
    </td>
-  </tr>
-  <tr>
-   <td>v1alpha1
+   <td>v1.17.x
    </td>
-   <td>Lemonade
+   <td>v1
    </td>
-   <td><strong>removed</strong>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
    </td>
   </tr>
   <tr>
@@ -261,13 +303,11 @@ tuple
    </td>
    <td rowspan="3" >2020-11-10
    </td>
-   <td rowspan="3" >2021-04-27
+   <td rowspan="3" >2021-05-18
    </td>
-   <td rowspan="3" >1.19.x
+   <td rowspan="3" >v1.17.x
    </td>
    <td rowspan="3" >v1
-   </td>
-   <td rowspan="3" >N/A
    </td>
    <td>v1
    </td>
@@ -299,11 +339,9 @@ tuple
    </td>
    <td rowspan="3" >2021-03-16
    </td>
-   <td rowspan="3" >1.19.x
+   <td rowspan="3" >v1.17.x
    </td>
    <td rowspan="3" >v1
-   </td>
-   <td rowspan="3" >N/A
    </td>
    <td>v1
    </td>
@@ -335,11 +373,9 @@ tuple
    </td>
    <td rowspan="3" >2021-02-02
    </td>
-   <td rowspan="3" >1.18.x
+   <td rowspan="3" >1.16.x
    </td>
    <td rowspan="3" >v1
-   </td>
-   <td rowspan="3" >N/A
    </td>
    <td>v1
    </td>
@@ -371,11 +407,9 @@ tuple
    </td>
    <td rowspan="3" >2020-12-22
    </td>
-   <td rowspan="3" >1.18.x
+   <td rowspan="3" >1.16.x
    </td>
    <td rowspan="3" >v1
-   </td>
-   <td rowspan="3" >N/A
    </td>
    <td>v1
    </td>
@@ -411,8 +445,6 @@ tuple
    </td>
    <td rowspan="3" >v1
    </td>
-   <td rowspan="3" >N/A
-   </td>
    <td>v1
    </td>
    <td>v1
@@ -443,11 +475,9 @@ tuple
    </td>
    <td rowspan="3" >2020-09-29
    </td>
-   <td rowspan="3" >1.16.x
+   <td rowspan="3" >1.15.x
    </td>
    <td rowspan="3" >v1
-   </td>
-   <td rowspan="3" >N/A
    </td>
    <td>v1
    </td>
@@ -483,8 +513,6 @@ tuple
    </td>
    <td rowspan="3" >v1alpha1
    </td>
-   <td rowspan="3" >N/A
-   </td>
    <td>v1
    </td>
    <td>v1
@@ -506,336 +534,6 @@ tuple
    <td>Lemonade
    </td>
    <td>default (deprecated)
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="3" >0.12.x
-   </td>
-   <td rowspan="3" >2020-01-21
-   </td>
-   <td rowspan="3" >2020-07-07
-   </td>
-   <td rowspan="3" >1.15.x
-   </td>
-   <td rowspan="3" >v1alpha1
-   </td>
-   <td rowspan="3" >N/A
-   </td>
-   <td>v1
-   </td>
-   <td>v1
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>v1beta1
-   </td>
-   <td>v1beta1
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>v1alpha1
-   </td>
-   <td>Lemonade
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="3" >0.11.x
-   </td>
-   <td rowspan="3" >2019-12-10
-   </td>
-   <td rowspan="3" >2020-05-26
-   </td>
-   <td rowspan="3" >1.14.x
-   </td>
-   <td rowspan="3" >v1alpha1 (Lemonade)
-   </td>
-   <td rowspan="3" >Yes
-   </td>
-   <td>v1
-   </td>
-   <td>v1
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>v1beta1
-   </td>
-   <td>v1beta1
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>v1alpha1
-   </td>
-   <td>Lemonade
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="3" >0.10.x
-   </td>
-   <td rowspan="3" >2019-10-29
-   </td>
-   <td rowspan="3" >2020-04-14
-   </td>
-   <td rowspan="3" >1.14.x
-   </td>
-   <td rowspan="3" >v1alpha1 (Lemonade)
-   </td>
-   <td rowspan="3" >Yes
-   </td>
-   <td>v1
-   </td>
-   <td>v1
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>v1beta1
-   </td>
-   <td>v1beta1
-   </td>
-   <td>default (deprecated)
-   </td>
-  </tr>
-  <tr>
-   <td>v1alpha1
-   </td>
-   <td>Lemonade
-   </td>
-   <td>default 
-<p>
-(deprecated)
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="3" >0.9.x
-   </td>
-   <td rowspan="3" >2019-09-17
-   </td>
-   <td rowspan="3" >2020-03-03
-   </td>
-   <td>1.13.10
-   </td>
-   <td rowspan="3" >v1alpha1 (Lemonade)
-   </td>
-   <td rowspan="3" >Yes
-   </td>
-   <td>v1
-   </td>
-   <td>v1
-   </td>
-   <td>optional
-   </td>
-  </tr>
-  <tr>
-   <td>1.13.10
-   </td>
-   <td>v1beta1
-   </td>
-   <td>v1beta1
-   </td>
-   <td>optional
-   </td>
-  </tr>
-  <tr>
-   <td>1.11
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>Lemonade
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >0.8.x
-   </td>
-   <td rowspan="2" >2019-08-06
-   </td>
-   <td rowspan="2" >2020-01-21
-   </td>
-   <td>1.13.10
-   </td>
-   <td rowspan="2" >v1alpha1 (Lemonade)
-   </td>
-   <td rowspan="2" >Yes
-   </td>
-   <td>v1beta1
-   </td>
-   <td>v1beta1
-   </td>
-   <td>optional
-   </td>
-  </tr>
-  <tr>
-   <td>1.11
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>Lemonade
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >0.7.x
-   </td>
-   <td rowspan="2" >2019-06-25
-   </td>
-   <td rowspan="2" >2019-12-10
-   </td>
-   <td>1.13.10
-   </td>
-   <td rowspan="2" >v1alpha1 (Lemonade)
-   </td>
-   <td rowspan="2" >Yes
-   </td>
-   <td>v1beta1
-   </td>
-   <td>v1beta1
-   </td>
-   <td>optional
-   </td>
-  </tr>
-  <tr>
-   <td>1.11
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>Lemonade
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>0.6.x
-   </td>
-   <td>2019-05-14
-   </td>
-   <td>2019-10-29
-   </td>
-   <td>1.11
-   </td>
-   <td>v1alpha1 (Lemonade)
-   </td>
-   <td>No
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>Lemonade
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>0.5.x
-   </td>
-   <td>2019-04-02
-   </td>
-   <td>2019-09-17
-   </td>
-   <td>1.11
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>N/A
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>0.4.x
-   </td>
-   <td>2019-02-19
-   </td>
-   <td>2019-08-06
-   </td>
-   <td>1.11
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>N/A
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>0.3.x
-   </td>
-   <td>2019-01-08
-   </td>
-   <td>2019-06-25
-   </td>
-   <td>1.11
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>N/A
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>0.2.x
-   </td>
-   <td>2018-10-30
-   </td>
-   <td>2019-05-14
-   </td>
-   <td>1.09
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>N/A
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>default
-   </td>
-  </tr>
-  <tr>
-   <td>0.1.x
-   </td>
-   <td>2018-07-18
-   </td>
-   <td>2019-04-02
-   </td>
-   <td>1.09
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>N/A
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>v1alpha1
-   </td>
-   <td>default
    </td>
   </tr>
 </table>
@@ -864,13 +562,13 @@ tuple
    </td>
   </tr>
   <tr>
-   <td rowspan="2" >0.20.x
+   <td rowspan="2" >0.23.x
    </td>
-   <td rowspan="2" >2020-12-22
+   <td rowspan="2" >2021-05-18
    </td>
-   <td rowspan="2" >2021-06-08
+   <td rowspan="2" >2021-11-02
    </td>
-   <td rowspan="2" >1.19.x
+   <td rowspan="2" >v1.19.x
    </td>
    <td rowspan="2" >v1
    </td>
@@ -891,14 +589,15 @@ tuple
    <td><strong>removed</strong>
    </td>
   </tr>
+  </tr>
   <tr>
-   <td rowspan="2" >0.19.x
+   <td rowspan="2" >0.22.x
    </td>
-   <td rowspan="2" >2020-09-29
+   <td rowspan="2" >2021-04-06
    </td>
-   <td rowspan="2" >2021-03-16
+   <td rowspan="2" >2021-09-21
    </td>
-   <td rowspan="2" >1.19.x
+   <td rowspan="2" >v1.18.x
    </td>
    <td rowspan="2" >v1
    </td>
@@ -916,17 +615,130 @@ tuple
    </td>
    <td>v1beta1
    </td>
-   <td><strong>not served</strong>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+</tr>
+  <tr>
+   <td rowspan="2" >0.21.x
+   </td>
+   <td rowspan="2" >2021-02-23
+   </td>
+   <td rowspan="2" >2021-08-10
+   </td>
+   <td rowspan="2" >v1.18.x
+   </td>
+   <td rowspan="2" >v1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
    </td>
   </tr>
   <tr>
-   <td rowspan="3" >0.18.x
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >0.20.x
+   </td>
+   <td rowspan="2" >2021-01-12
+   </td>
+   <td rowspan="2" >2021-06-29
+   </td>
+   <td rowspan="2" >v1.17.x
+   </td>
+   <td rowspan="2" >v1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >0.19.x
+   </td>
+   <td rowspan="2" >2020-11-10
+   </td>
+   <td rowspan="2" >2021-05-18
+   </td>
+   <td rowspan="2" >v1.17.x
+   </td>
+   <td rowspan="2" >v1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >0.18.x
+   </td>
+   <td rowspan="2" >2020-09-29
+   </td>
+   <td rowspan="2" >2021-03-16
+   </td>
+   <td rowspan="2" >v1.17.x
+   </td>
+   <td rowspan="2" >v1
+   </td>
+   <td rowspan="2" >N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>v1beta1
+   </td>
+   <td>v1beta1
+   </td>
+   <td>optional (deprecated)
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="3" >0.17.x
    </td>
    <td rowspan="3" >2020-08-18
    </td>
    <td rowspan="3" >2021-02-02
    </td>
-   <td rowspan="3" >1.19.x
+   <td rowspan="3" >1.16.x
    </td>
    <td rowspan="3" >v1
    </td>
@@ -962,7 +774,7 @@ tuple
    </td>
    <td rowspan="3" >2020-12-22
    </td>
-   <td rowspan="3" >1.18.x
+   <td rowspan="3" >1.16.x
    </td>
    <td rowspan="3" >v1beta1
    </td>
@@ -1026,7 +838,7 @@ tuple
    </td>
    <td rowspan="2" >2020-09-29
    </td>
-   <td rowspan="2" >1.16.x
+   <td rowspan="2" >1.15.x
    </td>
    <td rowspan="2" >v1alpha1
    </td>

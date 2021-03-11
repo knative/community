@@ -17,8 +17,8 @@ aliases:
 
 # Composition
 
-The TOC will have five seats, with a maximum of 2 seats being held by employees
-from the same vendor.
+The TOC will have five seats with a 2 year term, with a maximum of 2 seats being
+held by employees from the same vendor.
 
 There will be an annual election to determine the composition of the TOC for the
 following year. Three seats will be up for election in one year and two will be
@@ -27,7 +27,7 @@ up for election the following year.
 # Candidate Eligibility
 
 Current TOC members and
-[Approvers](https://github.com/knative/community/blob/master/ROLES.md#approver)
+[Approvers](https://github.com/knative/community/blob/main/ROLES.md#approver)
 with at least 3 months tenure are eligible to stand for election. Candidates may
 self-nominate or be nominated by another eligible member. The approximate time
 commitment of a TOC member is around 8 hours per week.
@@ -49,8 +49,8 @@ to submit an exception form to the steering committee who will then review and
 determine whether this member should be marked as an exception.
 
 All eligible voters will be captured at
-`knative/community/elections/$YEAR/voters.md` and the voters’ guide
-will be captured at `knative/community/elections/$YEAR/README.md`
+`knative/community/elections/$YEAR/TOC/voters.md` and the voters’ guide
+will be captured at `knative/community/elections/$YEAR/TOC/README.md`
 similar to the kubernetes election process.
 
 We are committed to an inclusive process and will adapt future eligibility

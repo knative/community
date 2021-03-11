@@ -1,0 +1,929 @@
+orgs:
+  knative:
+    description: Kubernetes-based platform to build, deploy, and manage modern serverless workloads
+    name: Knative
+    email: knative-admins@googlegroups.com
+    has_organization_projects: true
+    has_repository_projects: true
+    members_can_create_repositories: false
+    default_repository_permission: read
+    admins:
+    - bsnchan
+    - evankanderson
+    - google-admin
+    - googlebot
+    - grantr
+    - knative-prow-robot
+    - markusthoemmes
+    - mbehrendt
+    - pmorie
+    - rhuss
+    - thisisnotapril
+    - vaikas
+    members:
+    - a-thaler
+    - aaron-prindle
+    - aaronmeza
+    - aavarghese
+    - abayer
+    - abrennan89
+    - ac360
+    - AceHack
+    - adrcunha
+    - ahgharaibeh
+    - ahmetb
+    - akashrv
+    - akerekes
+    - akrausesap
+    - akyyy
+    - alanfx
+    - albertomilan
+    - alculquicondor
+    - AlexandraRoatis
+    - alexdebrie
+    - alexellis
+    - aliok
+    - AlyssaDaemon
+    - amkapoor
+    - amshuman-kr
+    - andrew-su
+    - angelachin
+    - anishj0shi
+    - ankushchadha
+    - anniefu
+    - antoineco
+    - apolito
+    - arghya88
+    - arturenault
+    - ariel-bentu
+    - aryann
+    - asaksena
+    - asciimike
+    - aslakknutsen
+    - aslom
+    - asyoussef
+    - atmandhol
+    - averikitsch
+    - ayj
+    - balopat
+    - bbrowning
+    - bcle
+    - beemarie
+    - bendory
+    - Benjamintf1
+    - BenTheElder
+    - bharattkukreja
+    - biilmann
+    - bikramnehra
+    - billimek
+    - bkrannich
+    - bleggett
+    - bobcatfish
+    - bobmcwhirter
+    - bparees
+    - bprosnitz
+    - bradhoekstra
+    - brendandburns
+    - brendandobbs
+    - briandorsey
+    - BrianMMcClain
+    - brianneisler
+    - broady
+    - bstick12
+    - bszwej
+    - btardell
+    - bwmcadams
+    - capri-xiyue
+    - cardil
+    - carieshmarie
+    - cathyzhyi
+    - cbickel
+    - cgwy
+    - chaodaiG
+    - chenopis
+    - chetanmeh
+    - chizhg
+    - christophersanson
+    - cjwagner
+    - cloudrobx
+    - cooperneil
+    - coryrc
+    - cppforlife
+    - craigbox
+    - cr22rc
+    - csantanapr
+    - cscheiber
+    - Cynocracy
+    - daisy-ycguo
+    - Dannyzen
+    - danyinggu
+    - davetropeano
+    - davidor
+    - davidwallen
+    - DavidWells
+    - dbbaskette
+    - dbcode
+    - ddragosd
+    - ddutta
+    - deissnerk
+    - demeyer1
+    - depotjoe
+    - derberg
+    - devguyio
+    - devsatishm
+    - dewitt
+    - dgageot
+    - dgerd
+    - dgodd
+    - dgpc
+    - dgrove-oss
+    - dieucao
+    - dlorenc
+    - dosire
+    - dprotaso
+    - droot
+    - dsimansk
+    - dubwoc
+    - duglin
+    - dushyanthsc
+    - dussab
+    - dwnusbaum
+    - eallred-google
+    - eclipselu
+    - efiturri
+    - ehankland
+    - ekcasey
+    - eldada
+    - ellenevans
+    - elvido
+    - emalm
+    - emanor
+    - eobrain
+    - erain
+    - ericbottard
+    - ericlem
+    - ericstoekl
+    - erjohnso
+    - erniebilling
+    - evanchooly
+    - evilyeti
+    - fabolive
+    - fejta
+    - fichtert
+    - fj
+    - flavorjones
+    - fmui
+    - freddy33
+    - frnksgr
+    - g-abbi
+    - gabrtv
+    - ganeshvlrk
+    - garron
+    - georgeharley
+    - gerardo-lc
+    - Gerg
+    - glaforge
+    - glickbot
+    - glyn
+    - goldphish
+    - google-prow-robot
+    - gopikannappan
+    - gorkem
+    - gottskalk
+    - grac3gao
+    - grayside
+    - greghaynes
+    - grodrigues3
+    - gsathy
+    - gsiener
+    - gyliu513
+    - halvards
+    - Haolicopter
+    - hardl
+    - hatofmonkeys
+    - Henrike42
+    - hev
+    - hilalguler-dev
+    - hisarbalik
+    - holgerkoser
+    - houshengbo
+    - ian-mi
+    - ib-steffen
+    - idoru
+    - igorbelianski
+    - igorpeshansky
+    - igsong
+    - iliyan-nenov
+    - imikushin
+    - ImJasonH
+    - inlined
+    - itsmurugappan
+    - ixdy
+    - jacindamein
+    - jainishshah17
+    - jama22
+    - janmedrek
+    - jasonkeene
+    - jasonpolites
+    - jchesterpivotal
+    - jcrossley3
+    - jeff-hobbs
+    - jenshuesken
+    - jeremiaswerner
+    - jeremyeder
+    - jeremyrickard
+    - jfmyers9
+    - jihuin
+    - jimcurtis
+    - jinglundong
+    - jjzeng-seattle
+    - jkjell
+    - jmprusi
+    - joaedwar
+    - joek
+    - johnalowry
+    - johnmccabe
+    - johnugeorge
+    - jonatasbaldin
+    - jonjohnsonjr
+    - josephburnett
+    - joshlong
+    - joshrider
+    - joshua-bone
+    - joshuawilson
+    - josueetcom
+    - JRBANCEL
+    - jsanda
+    - jskeet
+    - jszroberto
+    - julz
+    - justinjsmith
+    - jzelinskie
+    - k4leung4
+    - k8s-ci-robot
+    - KarolinaNetolicka
+    - kelseyhightower
+    - kevball
+    - kimikowang
+    - kimsterv
+    - kitmerker-jfrog
+    - knative-automation
+    - knative-metrics-robot
+    - knative-prow-releaser-robot
+    - knative-test-reporter-robot
+    - komestmus
+    - krumts
+    - krzyzacy
+    - kthakar1990
+    - labadav
+    - lachie83
+    - lambertjosh
+    - lance
+    - lberk
+    - LED2001
+    - lesv
+    - lewtucker
+    - lichuqiang
+    - lindydonna
+    - lionelvillard
+    - liu-cong
+    - loewenstein
+    - loganlee
+    - lynxbat
+    - maciej-kisiel
+    - macruzbar
+    - mariusd7
+    - markfisher
+    - markito
+    - MarkKropf
+    - mattmoor
+    - mattsoldo
+    - matzew
+    - max
+    - maximilien
+    - mayaspivak
+    - mcdan
+    - mdemirhan
+    - mfine30
+    - mgencur
+    - MIBc
+    - michaelawyu
+    - michaelmarth
+    - MichaelWintergerst
+    - mikehelmick
+    - minsungh
+    - mkocher
+    - mogar1980
+    - mohamedelhawaty
+    - monikanawrot
+    - MontyCarter
+    - mpetason
+    - mrmcmuffinz
+    - mrsabath
+    - mszostok
+    - mthenw
+    - mvladev
+    - n3wscott
+    - nachocano
+    - nader-ziada
+    - nak3
+    - navidshaikh
+    - neosab
+    - nibalizer
+    - nicolaferraro
+    - nilesh32
+    - nimakaviani
+    - nimbcode
+    - nlopezgi
+    - nomisbeme
+    - normalnorman
+    - nthnca
+    - nvvalchev
+    - nwjmunro
+    - oalami
+    - omerbensaadon
+    - ormos
+    - osis
+    - padlar
+    - patflynn
+    - paulrossman
+    - PavelPavlov46
+    - pbochynski
+    - petereberlein
+    - peterfeifanchen
+    - petergtz
+    - phae
+    - pierDipi
+    - piotrmsc
+    - PK85
+    - pkosiec
+    - pnagpur
+    - pradeepto
+    - pritianka-zz
+    - priyawadhwa
+    - prydonius
+    - PTDelaney
+    - qingling128
+    - quentin-cha
+    - rachelmyers
+    - radufa
+    - RaeesBhatti
+    - rafaeltello
+    - rakesh-garimella
+    - rakyll
+    - RamXX
+    - rbuskens
+    - rettori
+    - rfranzke
+    - RichieEscarez
+    - richterdavid
+    - RichardJJG
+    - ridruejo
+    - rmoe
+    - rmorgan
+    - rohitagarwalla
+    - roopakparikh
+    - rootfs
+    - rosenhouse
+    - rprakashg
+    - rseroter
+    - runzexia
+    - rusde
+    - rwetzold-sap
+    - ryanstewart
+    - rybit
+    - samodell
+    - saturnism
+    - savitaashture
+    - sbawaska
+    - sbezverk
+    - sclevine
+    - scothis
+    - sebgoa
+    - shashankmjain
+    - shashwathi
+    - shefaliv
+    - shinigambit
+    - shinji62
+    - shrajfr12
+    - shreejad
+    - sixolet
+    - sjug
+    - skim1420
+    - skonto
+    - slinkydeveloper
+    - slwilliams
+    - smarterclayton
+    - smoser-ibm
+    - snneji
+    - squee1945
+    - sreetummidi
+    - srinivashegde86
+    - srvaroa
+    - ssisil
+    - sslavic
+    - ssmall
+    - sspeiche
+    - st3v
+    - stefanprodan
+    - stephanme
+    - steren
+    - steuhs
+    - stevekuznetsov
+    - steven0711dong
+    - stew-r
+    - stuart-xyz
+    - sukhil-suresh
+    - SurferJeffAtGoogle
+    - swalkowski
+    - syedriko
+    - tanner-bruce
+    - tanzeeb
+    - taragu
+    - tardieu
+    - tayarani
+    - tcnghia
+    - teich
+    - tejal29
+    - tekgrrl
+    - tequilarista
+    - thansmann
+    - thockin
+    - thoraxe
+    - timothyshelton
+    - tliberman
+    - tmatsuo
+    - tom24d
+    - tommyreddad
+    - tomwalter
+    - topherbullock
+    - tricky42
+    - trisberg
+    - TristonianJones
+    - troytop
+    - trshafer
+    - tsandall
+    - tysonnorris
+    - tzununbekov
+    - univ0298
+    - uwefassnacht
+    - vagababov
+    - vaikas-personal
+    - vantuvt
+    - vasu1124
+    - vbatts
+    - vdemeester
+    - venkatnsrinivasan
+    - vlerenc
+    - vsubramani
+    - vvraskin
+    - wattsteve
+    - wbacon10
+    - wfernandes
+    - whaught
+    - wlynch
+    - wslyln
+    - wxb5639
+    - wzshiming
+    - xoebus
+    - xtreme-sameer-vohra
+    - xtreme-sina
+    - xtremerui
+    - yangyunfeng007
+    - yanweiguo
+    - yaron2
+    - yizong98
+    - yoav
+    - yolocs
+    - youssb
+    - yt3liu
+    - yuvalif
+    - yuyantingzero
+    - zargarpur
+    - zhanggbj
+    - zhangtbj
+    - zhaojizhuang
+    - ZhiminXiang
+    - zhongduo
+    - zhruan
+    - zouyee
+    - zrob
+    - zrss
+    - zsxking
+    repos:
+      # NOTE: If you are adding a repo here, you may also want to grant repo
+      # permissions for one or more teams, in the next section.
+      .github:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        # See also: https://github.blog/changelog/2019-02-21-organization-wide-community-health-files/
+        # See also: https://docs.github.com/en/actions/configuring-and-managing-workflows/sharing-workflow-templates-within-your-organization
+        description: "Repository for sharing org-wide Github metadata and workflow templates."
+        has_projects: true
+        has_wiki: false
+      build:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        archived: true
+        description: A Kubernetes-native Build resource.
+        has_projects: true
+        has_wiki: false
+      build-templates:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        archived: true
+        description: A library of build templates.
+        has_projects: true
+        has_wiki: false
+      caching:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative API definition for caching abstractions.
+        has_projects: true
+        has_wiki: false
+      client:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: 'Knative developer experience, docs, reference Knative CLI implementation '
+        has_projects: true
+        has_wiki: false
+      client-contrib:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Community contributed `kn` plugins.
+        has_projects: true
+        has_wiki: false
+      community:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative governance and community material.
+        has_projects: true
+        has_wiki: false
+        homepage: https://knative.dev/community
+      docs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: User documentation for Knative components.
+        homepage: https://knative.dev/docs/
+        has_projects: true
+        has_wiki: false
+      eventing:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Open source specification and implementation of Knative event
+          binding and delivery
+        has_projects: true
+        has_wiki: false
+        homepage: https://knative.dev/docs/eventing
+      eventing-contrib:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Event Sources
+        has_projects: true
+        has_wiki: false
+      eventing-operator:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        archived: true
+        description: 'DEPRECATED: Development continues in https://github.com/knative/operator/'
+        has_projects: true
+        has_wiki: false
+      homebrew-client:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        has_projects: true
+        has_wiki: false
+      networking:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        has_projects: true
+        has_wiki: false
+      observability:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: The controllers and config for custom resources pertaining to egressing logs and metrics.
+        has_projects: true
+        has_wiki: false
+      operator:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Combined operator for Knative.
+        has_projects: true
+        has_wiki: false
+      pkg:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative common packages
+        has_projects: true
+        has_wiki: false
+      release:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative release docs & scripts
+        has_projects: true
+        has_wiki: false
+      serving:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kubernetes-based, scale-to-zero, request-driven compute
+        has_projects: true
+        has_wiki: false
+        homepage: https://knative.dev/docs/serving/
+      serving-operator:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        archived: true
+        description: 'DEPRECATED: Development continues in https://github.com/knative/operator/'
+        has_projects: true
+        has_wiki: false
+      specs:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative specs and conformance tests
+        has_projects: true
+        has_wiki: false
+      test-infra:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Test infrastructure for the Knative project
+        has_projects: true
+        has_wiki: false
+        homepage: https://knative.github.io/test-infra/
+      hack:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative common scripts.
+        has_projects: true
+        has_wiki: false
+      ux:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: UX WG repository for assets and stories
+        has_projects: true
+        has_wiki: false
+      website:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Hugo templates for the Knative website.
+        has_projects: false
+        has_wiki: false
+        homepage: https://knative.dev
+    teams:
+      Client Writers:
+        description: Grants write access to client-related repositories.
+        privacy: closed
+        repos:
+          client: write
+          client-contrib: write
+          homebrew-client: write
+          release: write
+        teams:
+          Client WG Leads:
+            description: The Working Group Leads for Client
+            members:
+            - navidshaikh
+            - rhuss
+            privacy: closed
+      Conformance Writers:
+        description: Grants write access to conformance-related repositories.
+        privacy: closed
+        repos:
+          specs: write
+        teams:
+          Conformance WG Leads:
+            description: The Working Group leads for Conformance
+            members:
+            - tayarani
+            privacy: closed
+      Docs Writers:
+        description: Grants write access to docs-related repositories.
+        privacy: closed
+        repos:
+          docs: write
+          website: write
+          release: write
+        teams:
+          Docs WG Leads:
+            description: The Working Group leads for Docs
+            members: []
+            privacy: closed
+      Eventing Writers:
+        description: Grants write access to eventing-related repositories.
+        privacy: closed
+        repos:
+          eventing: write
+          eventing-contrib: write
+          pkg: write
+          release: write
+        teams:
+          Channel WG Leads:
+            description: The Working Group leads for Channels
+            members:
+            - matzew
+            - slinkydeveloper
+            privacy: closed
+          Eventing Triage:
+            description: Temporary group to allow folks to continue to maintain eventing
+              issues and milestones as we sort out roles
+            members:
+            - lberk
+            - akashrv
+            - slinkydeveloper
+            - n3wscott
+            - zhongduo
+            - antoineco
+            privacy: closed
+          Eventing WG Leads:
+            description: The Working Group leads for Eventing
+            members:
+            - devguyio
+            - grantr
+            - lionelvillard
+            - vaikas
+            privacy: closed
+          Source WG Leads:
+            description: The Working Group leads for Sources
+            members:
+            - lionelvillard
+            - vaikas
+            - n3wscott
+            privacy: closed
+      Knative Admin:
+        description: Individuals in the project who are responsible for billing and
+          general project administration.
+        privacy: closed
+        repos:
+          # All repos should be listed here!
+          .github: admin
+          build: admin
+          build-templates: admin
+          caching: admin
+          client: admin
+          client-contrib: admin
+          community: admin
+          docs: admin
+          eventing: admin
+          eventing-contrib: admin
+          eventing-operator: admin
+          homebrew-client: admin
+          networking: admin
+          observability: admin
+          operator: admin
+          pkg: admin
+          serving: admin
+          serving-operator: admin
+          specs: admin
+          release: admin
+          test-infra: admin
+          hack: admin
+          ux: admin
+          website: admin
+        teams:
+          Knative Robots:
+            description: Contains robots and only robots.
+            members:
+            - knative-prow-robot
+            - knative-prow-releaser-robot
+            - knative-test-reporter-robot
+            privacy: closed
+          Steering Committee:
+            description: Knative Steering Committee
+            maintainers:
+            - pmorie
+            - bsnchan
+            - mbehrendt
+            - thisisnotapril
+            - vaikas
+            privacy: closed
+          Trademark Committee:
+            description: Knative Trademark Committee
+            maintainers:
+            - bsnchan
+            - duglin
+            - ronavn
+            privacy: closed
+          Technical Oversight Committee:
+            description: Members of the Knative Technical Oversight Committee (TOC)
+            maintainers:
+            - grantr
+            - rhuss
+            - markusthoemmes
+            - evankanderson
+            privacy: closed
+          Knative Release Leads:
+            description: Active member of the Knative Release Leads rotation.
+            maintainers:
+            - evankanderson
+            - markusthoemmes
+            # TODO(https://github.com/knative/community/issues/429): Establish docs/website rotation process.
+            - RichieEscarez
+      Knative Milestone Maintainers:
+        description: 'DO NOT RENAME - this group is used by Prow to control who can manipulate
+          milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
+        maintainers:
+        - grantr
+        - rhuss
+        - markusthoemmes
+        - evankanderson
+        members:
+        - slinkydeveloper
+        - ImJasonH
+        - ZhiminXiang
+        - andrew-su
+        - aslom
+        - chaodaiG
+        - chizhg
+        - csantanapr
+        - igsong
+        - julz
+        - nak3
+        - navidshaikh
+        - nlopezgi
+        - shashwathi
+        - tanzeeb
+        - tcnghia
+        - vagababov
+        - vaikas
+        - n3wscott
+        - lionelvillard
+        privacy: closed
+      Operations Writers:
+        description: Grants write access to operations-related repositories.
+        privacy: closed
+        repos:
+          eventing-operator: write
+          operator: write
+          serving-operator: write
+        teams:
+          Operations WG Leads:
+            description: The Working Group leads for Operations
+            members:
+            - houshengbo
+            privacy: closed
+      Productivity Writers:
+        description: Grants write access to productivity-related repositories.
+        privacy: closed
+        repos:
+          .github: write
+          test-infra: write
+          hack: write
+          release: write
+        teams:
+          Productivity WG Leads:
+            description: The Working Group leads for Productivity
+            members:
+            - chizhg
+            - n3wscott
+            privacy: closed
+      Security Writers:
+        description: Grants write access to security-related repositories.
+        privacy: closed
+        teams:
+          Security WG Leads:
+            description: The Working Group leads for Security
+            members:
+            - evankanderson
+            - julz
+        repos:
+          release: write
+      Serving Writers:
+        description: Grants write access to serving-related repositories.
+        privacy: closed
+        repos:
+          caching: write
+          networking: write
+          pkg: write
+          serving: write
+          release: write
+        teams:
+          API Core WG Leads:
+            description: The Working Group leads for Serving API Core
+            members:
+            - dprotaso
+            privacy: closed
+          Autoscaling WG Leads:
+            description: The Working Group leads for Autoscaling
+            members:
+            - vagababov
+            - markusthoemmes
+            privacy: closed
+          Networking WG Leads:
+            description: The Working Group leads for Networking
+            members:
+            - tcnghia
+            - nak3
+            - ZhiminXiang
+            privacy: closed
+      UX Writers:
+        description: Grants write access to ux related repositories.
+        privacy: closed
+        teams:
+          UX WG Leads:
+            description: The Working Group leads for User Experience (UX)
+            members:
+            - csantanapr
+            - omerbensaadon
+        repos:
+          docs: write
+          website: write
+          ux: write

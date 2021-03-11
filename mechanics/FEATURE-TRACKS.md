@@ -50,7 +50,7 @@ articulating the solution to their problem statement. This should be done in a
 **Google doc**
 ([template](https://docs.google.com/document/d/1s6IIU98bi5FlRNmmBaLAn1rgoleK_ovcL746L7NHq0c/edit) -- make a copy!) 
 under the appropriate folder in the [Team 
-Drive](https://drive.google.com/corp/drive/u/0/folders/0APnJ_hRs30R2Uk9PVA)<sup>[2.2](#2.2)</sup>.
+Drive](https://drive.google.com/drive/folders/0AM-QGZJ-HUA8Uk9PVA)<sup>[2.2](#2.2)</sup>.
 If the solution is clear and non-contentious, then the doc may be very short!
 For major<sup>[2.3](#2.3)</sup> designs, once the proposal is accepted it should be converted to
 markdown and committed to the appropriate GitHub repo.
@@ -98,9 +98,9 @@ When a proposal is accepted, the leads should designate one or more
 reviewers<sup>[3.1](#3.1)</sup> within the WG as "sponsors" for the
 feature to help shepherd it through the process.  It is recommended that at
 least one sponsor be an "approver" (someone listed under an
-[`*-approvers`](https://github.com/knative/serving/blob/master/OWNERS_ALIASES) list).
+[`*-approvers`](https://github.com/knative/serving/blob/main/OWNERS_ALIASES) list).
 If that sponsor is not an approver (for example, someone listed under an
-[`*-reviewers`](https://github.com/knative/serving/blob/master/OWNERS_ALIASES) list),
+[`*-reviewers`](https://github.com/knative/serving/blob/main/OWNERS_ALIASES) list),
 they should initially become the primary reviewer(s) so that they can hone their review skills
 and work towards the approver role.
 

@@ -23,8 +23,8 @@ and community as a whole.
 
 Please refer to the [TOC Election Charter] for:
 
-- [Eligibility for candidacy](../../mechanics/TOC.md#candidate-eligibility)
-- [Eligibility for voting](../../mechanics/TOC.md#voter-eligibility) and
+- [Eligibility for candidacy]
+- [Eligibility for voting] and
   [Eligible voters](voters.md) list (not in charter)
 
 ### Schedule
@@ -79,7 +79,7 @@ The election will open for voting the morning April 27, 2020 via email and
 end two weeks after on May 11, 2019 at 00:00am UTC. You will receive an email
 to the address on file at the start of the election from
 "Knative Steering Committee (CIVS Poll Supervisor)" `<civs@cs.cornell.edu>`,
-please whitelist if necessary. Detailed
+make sure it passes spam filters if necessary. Detailed
 voting instructions will be addressed in email and the CIVS polling page. Please
 note that email ballots might be unreliable, so you are encouraged to contact
 the steering committee if you do not receive a ballot by May 1.
@@ -106,8 +106,8 @@ the [TOC Election Charter].
 | Nghia Tran | Google | [@tcnghia](https://github.com/tcnghia) |
 | Roland Huss | Red Hat | [@rhuss](https://github.com/rhuss) |
 
-[Knative Technical Oversight Committee]: https://github.com/knative/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md
-[TOC Election Charter]: ../../mechanics/TOC.md
+[Knative Technical Oversight Committee]: https://github.com/knative/community/blob/main/TECH-OVERSIGHT-COMMITTEE.md
+[TOC Election Charter]: https://github.com/knative/community/blob/main/mechanics/TOC.md
 
 [limiting corporate campaigning]: https://github.com/kubernetes/steering/blob/master/elections.md#limiting-corporate-campaigning
 [pledge to recuse]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
@@ -119,3 +119,6 @@ the [TOC Election Charter].
 [Knative Blog]: https://knative.dev/blog/
 [voter exemption form]: https://forms.gle/8SvAXomCJXsYEytt5
 [voters.md]: ./voters.md
+
+[Eligibility for candidacy]: https://github.com/knative/community/blob/main/mechanics/TOC.md#candidate-eligibility
+[Eligibility for voting]: https://github.com/knative/community/blob/main/mechanics/TOC.md#candidate-eligibility#voter-eligibility
