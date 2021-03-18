@@ -33,6 +33,7 @@ Other Documents
   committee
 - [Technical Oversight Committee](./TECH-OVERSIGHT-COMMITTEE.md) - describes our
   technical oversight committee
+- [Trademark Committee]()./TRADEMARK-COMMITTEE.md) - describes our trademark committee
 - [Community Roles](./ROLES.md) - describes the roles individuals can assume
   within the Knative community
 - [Reviewing and Merging Pull Requests](./REVIEWING.md) - how we manage pull
