@@ -265,6 +265,12 @@ orgs:
         description: "Repository for sharing org-wide Github metadata and workflow templates."
         has_projects: true
         has_wiki: false
+      actions-downstream-test:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Github Action for Knative to test downstream repos upgradability from upstream repos.
+        has_projects: true
+        has_wiki: false
       actions-kind:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -293,12 +299,6 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: "Enable interactions with a cluster and its resources: built-in types, CRDs and COs."
-        has_projects: true
-        has_wiki: false
-      downstream-test-go:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: A Github Action for Knative to test downstream repos upgradability from upstream repos.
         has_projects: true
         has_wiki: false
       eventing-awssqs:
@@ -588,12 +588,12 @@ orgs:
         repos:
           # All repos should be listed here!
           .github: admin
+          actions-downstream-test: admin
           actions-kind: admin
           async-component: admin
           build-spike: admin
           control-protocol: admin
           discovery: admin
-          downstream-test-go: admin
           eventing-autoscaler-keda: admin
           eventing-awssqs: admin
           eventing-camel: admin
@@ -702,8 +702,8 @@ orgs:
         privacy: closed
         repos:
           .github: write
+          actions-downstream-test: write
           actions-kind: write
-          downstream-test-go: write
           kperf: write
           knobots: write
         teams:
