@@ -17,7 +17,7 @@ documentation! Check out the resources below to get started.
   documentation. We're happy to help!
 
 - Use one of the new content templates:
-   - [Documenation](https://github.com/knative/docs/tree/main/template-docs-page.md) -- Instructions and a template that
+   - [Documentation](https://github.com/knative/docs/tree/main/template-docs-page.md) -- Instructions and a template that
      you can use to help you add new documentation.
    - [Blog](https://github.com/knative/docs/tree/main/template-blog-entry.md) -- Instructions and a template that
      you can use to help you post to the Knative blog.
