@@ -76,6 +76,7 @@ API
 
 | Artifact                   | Link                                                                                                                                                            |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | TODO (historical, was created before formal WG process)                                                                                                         |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                             |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1HqLJ8uNm5KmKPlMzQmbfDy0haybEUrPydsp7gNBrl20/edit)                                        |
 | Community Meeting Calendar | Wednesdays 10:30a-11:00a PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
@@ -96,6 +97,7 @@ conventions
 
 | Artifact                   | Link                                                                                                                                                                                                                                              |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | [Charter](./client/CHARTER.md)                                                                                                                                                                                                                    |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                                                                                               |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1cD7NkJJhSBpo2Q6RBHrbrSe6R5zjTZgO_YDGAluQ_oI/edit)                                                                                                                          |
 | Community Meeting Calendar | Tuesdays, alternating between 10:30a-11:00a Pacific and 3:30p-4:00p Central European every two weeks<br>[Calendar Invitation](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
@@ -105,10 +107,10 @@ conventions
 | Slack Channel              | [#cli](https://slack.knative.dev)                                                                                                                                                                                                                 |
 | Github Team WG leads       | [@knative/client-wg-leads](https://github.com/orgs/knative/teams/client-leads/members)                                                                                                                                                            |
 
-| &nbsp;                                                      | Leads        | Company | Profile                                       |
-| ----------------------------------------------------------- | ------------ | ------- | --------------------------------------------- |
+| &nbsp;                                                      | Leads        | Company | Profile                                      |
+| ----------------------------------------------------------- | ------------ | ------- | -------------------------------------------- |
 | <img width="30px" src="https://github.com/navidshaikh.png"> | Navid Shaikh | VMware | [navidshaikh](https://github.com/navidshaikh) |
-| <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß   | Red Hat | [rhuss](https://github.com/rhuss)             |
+| <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß   | Red Hat | [rhuss](https://github.com/rhuss)            |
 
 ## Documentation
 
@@ -117,6 +119,7 @@ repo.
 
 | Artifact                   | Link                                                                                                                                                                   |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | [Charter](./docs/CHARTER.md)                                                                                                                                           |
 | Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                                  |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/13-neXVH-1n1ELWgukSzySnWj-4X6UB2pGGws2z2NH3M/edit)                                               |
 | Community Meeting Calendar | Weekly on Tuesdays, 9:30-10:00am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
@@ -136,7 +139,7 @@ Event sources, bindings, FaaS framework, and orchestration
 
 | Artifact                   | Link                                                                                                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Charter / Mission          | [Enable asynchronous application development through event delivery from anywhere.](https://github.com/knative/eventing/blob/main/docs/mission.md)         |
+| Charter / Mission          | [Enable asynchronous application development through event delivery from anywhere.](https://github.com/knative/eventing/blob/main/docs/mission.md)           |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                          |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1Xha-FeunojN49OJN7W0WBnPMcRtp1ycYpbkiir6XsE0/edit)                                     |
 | Community Meeting Calendar | Wednesdays 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
@@ -159,6 +162,7 @@ Event delivery data plane.
 
 | Artifact                   | Link                                                                                                                                                        |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | [Charter](./delivery/CHARTER.md)                                                                                                                            |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                         |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/10pvpEAb6DZ0mplmSeg8fEAmmJtqimt03GEHRieOcMig/edit)                                    |
 | Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)  |
@@ -166,11 +170,11 @@ Event delivery data plane.
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1YcyeckwBNPApxh8vHAlscYe_w7sIA5TA)                                                                          |
 | Repos                      | [`knative/eventing`](https://github.com/knative/eventing), [`knative/eventing-contrib`](https://github.com/knative/eventing-contrib), (shares `eventing-*`) |
 | Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                                  |
-| Github Team WG leads       | [@knative/channel-wg-leads](https://github.com/orgs/knative/teams/channel-wg-leads/members)                                                               |
+| Github Team WG leads       | [@knative/channel-wg-leads](https://github.com/orgs/knative/teams/channel-wg-leads/members)                                                                 |
 
-| &nbsp;                                                   | Leads               | Company | Profile                                 |
-| -------------------------------------------------------- | ------------------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/matzew.png">   | Matthias Wessendorf | Red Hat | [matzew](https://github.com/matzew)     |
+| &nbsp;                                                   | Leads               | Company | Profile                                                            |
+| -------------------------------------------------------- | ------------------- | ------- | ------------------------------------------------------------------ |
+| <img width="30px" src="https://github.com/matzew.png">   | Matthias Wessendorf | Red Hat | [matzew](https://github.com/matzew)                                |
 | <img width="30px" src="https://github.com/slinkydeveloper.png">   | Francesco Guardiani | Red Hat | [slinkydeveloper](https://github.com/slinkydeveloper)     |
 
 ## Eventing Sources
@@ -179,6 +183,7 @@ Event producers and frameworks.
 
 | Artifact                   | Link                                                                                                                                                       |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | [Charter](./sources/CHARTER.md)                                                                                                                            |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                        |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit)                                   |
 | Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
@@ -202,6 +207,7 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 
 | Artifact                   | Link                                                                                                                                                           |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | TODO (historical, was created before formal WG process)                                                                                                        |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                            |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/18m2XUDe-5QMFFBpLhIC7ozFnq12niYAqebtS3nMorhk/edit)                                       |
 | Community Meeting Calendar | Thursdays at 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
@@ -223,6 +229,7 @@ Managing, assessing system health and maintaining Knative clusters
 
 | Artifact                   | Link                                                                                                                                                       |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | [Charter](./operations/CHARTER.md)                                                                                                                         |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                        |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1m9oFlelI292Fzwi_sRUTrf69I-CcCwEVXkGcMAjDYqM/edit)                                   |
 | Community Meeting Calendar | Tuesdays at 10:00am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
@@ -243,6 +250,7 @@ performance/scale/load testing infrastructure
 
 | Artifact                   | Link                                                                                                                                                  |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | [Charter](./productivity/CHARTER.md)                                                                                                                  |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                   |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                              |
 | Community Meeting Calendar | Thursdays, 10am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
@@ -263,10 +271,11 @@ Autoscaling behavior of Knative Serving
 
 | Artifact                   | Link                                                                                                                                                        |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | TODO (historical, was created before formal WG process)                                                                                                     |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                         |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1-hezRkkLhnCkkEm6S09SkQR-BpF5xpTyhethYL5Zm6w/edit#)             |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1-hezRkkLhnCkkEm6S09SkQR-BpF5xpTyhethYL5Zm6w/edit#)                                   |
 | Community Meeting Calendar | Wednesdays at 9:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1-hezRkkLhnCkkEm6S09SkQR-BpF5xpTyhethYL5Zm6w/edit#)                                        |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1-hezRkkLhnCkkEm6S09SkQR-BpF5xpTyhethYL5Zm6w/edit#)                                                              |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K)                                                                          |
 | Repo prefixes              |                                                                                                                                                             |
 | Slack Channel              | [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                                                                              |
@@ -291,7 +300,7 @@ Security concerns across Knative components
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1yOy_yU5vvUTFuxeYvhlY7uzIL4c4SSzX)                                                                 |
 | Repo prefixes              |                                                                                                                                                        |
 | Slack Channel              | [#security](https://slack.knative.dev/messages/security)                                                                                               |
-| Github Team WG leads       | [@knative/security-wg-leads](https://github.com/orgs/knative/teams/security-wg-leads/members)                                                         |
+| Github Team WG leads       | [@knative/security-wg-leads](https://github.com/orgs/knative/teams/security-wg-leads/members)                                                          |
 
 | &nbsp;                                                        | Leads           | Company | Profile                                             |
 | ------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
