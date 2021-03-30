@@ -128,6 +128,14 @@ in the traditional sense.
 In the case that certain channels have rules or guidelines, they will be listed
 in the purpose or pinned docs of that channel.
 
+## Threaded Conversations
+While Slack is useful for a great many things (support, reachability, water-cooler style chatter, etc.) it simply is not a very good medium to have high-fidelity conversations about important community or technical issues. **Longform writing is thinking, but longform Slacking is distracting chatter.**
+
+Even though it is often easier to chat back-and-forth on Slack to "get it done" it can be: a major source of distraction, an ineffective medium to work through complex issues, as well as a not-very-consumable record of events. It's not uncommon for folks in the Knative Slack to come back to a message with 70+ comments in a thread, which nobody (even the authors themselves) wants to pick through. **In general, please try and keep longer form technical discussions in Github Issues/PRs and longer form non-technical discussions in a Google Doc sent to the mailing list. **
+
+If your Slack thread has over 25 messages, it may be time to spin it out into a longer form piece of writing which others can make comments on at their own pace. 
+
+
 ## DM (Direct Message) conversations
 
 Please do not engage in proprietary company specific conversations in the
