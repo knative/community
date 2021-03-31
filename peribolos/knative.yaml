@@ -945,7 +945,6 @@ orgs:
         - matzew
         - n3wscott
         - trshafer
-        - yu2003w
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
