@@ -131,11 +131,12 @@ in the purpose or pinned docs of that channel.
 ## Threaded Conversations
 We believe Slack threads in public channels are extremely useful for quickly and openly collaborating with your fellow contributors.  
 
-As a community, we value taking the time to assess and socialize important technical and community decisions. Ideally, concensus that is reached within Slack threads will make its way to less ephemeral and more comprehensive artifacts for sharing ideas and proposals. 
+
+However, Slack threads are extremely ephemeral, discoverability and searchability of threads isn't nearly as good as alternatives like GitHub Issues, PRs and Github Discussions. For this reason it's important that Slack discussions make their way to less ephemeral and more comprehensive artifacts for sharing ideas and proposals with the wider community.
 
 These artifacts include, but are not limited to: Github Issues + Pull Requests, Github Discussions, Google Docs, or Mailing List posts.
 
-As a general rule-of-thumb: if your Slack thread reaches more than 40 messages, it may be time to end the discussion and create one of the artifacts listed above to encourage slower and more deliberate discussion.
+As a general rule-of-thumb: if your Slack thread reaches more than 40 messages, ask yourself "If I weren't in this thread, would it be important for me to know the contents of this conversation?" If the answer is yes, it may be time to end the discussion and create one of the artifacts listed above to encourage slower and more deliberate discussion.
 
 ## DM (Direct Message) conversations
 
