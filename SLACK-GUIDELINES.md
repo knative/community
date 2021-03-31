@@ -129,12 +129,13 @@ In the case that certain channels have rules or guidelines, they will be listed
 in the purpose or pinned docs of that channel.
 
 ## Threaded Conversations
-While Slack is useful for a great many things (support, reachability, water-cooler style chatter, etc.) it simply is not a very good medium to have high-fidelity conversations about important community or technical issues. **Longform writing is thinking, but longform Slacking is distracting chatter.**
+We believe Slack threads in public channels are extremely useful for quickly and openly collaborating with your fellow contributors.  
 
-Even though it is often easier to chat back-and-forth on Slack to "get it done" it can be: a major source of distraction, an ineffective medium to work through complex issues, as well as a not-very-consumable record of events. It's not uncommon for folks in the Knative Slack to come back to a message with 70+ comments in a thread, which nobody (even the authors themselves) wants to pick through. **In general, please try and keep longer form technical discussions in Github Issues/PRs and longer form non-technical discussions in a Google Doc sent to the mailing list. **
+As a community, we value taking the time to assess and socialize important technical and community decisions. Ideally, concensus that is reached within Slack threads will make its way to less ephemeral and more comprehensive artifacts for sharing ideas and proposals. 
 
-If your Slack thread has over 25 messages, it may be time to spin it out into a longer form piece of writing which others can make comments on at their own pace. 
+These artifacts include, but are not limited to: Github Issues + Pull Requests, Github Discussions, Google Docs, or Mailing List posts.
 
+As a general rule-of-thumb: if your Slack thread reaches more than 40 messages, it may be time to end the discussion and create one of the artifacts listed above to encourage slower and more deliberate discussion.
 
 ## DM (Direct Message) conversations
 
