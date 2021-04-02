@@ -129,8 +129,8 @@ In the case that certain channels have rules or guidelines, they will be listed
 in the purpose or pinned docs of that channel.
 
 ## Threaded Conversations
-We believe Slack threads in public channels are extremely useful for quickly and openly collaborating with your fellow contributors.  
 
+Slack threads in public channels are extremely useful for quickly and openly collaborating with your fellow contributors.  
 
 Unfortunately, while Slack threads are good for quick discussion, they serve as a poor record of decisions. Discoverability and searchability of threads isn't nearly as good as alternatives (see below), particularly for contributors arriving weeks or months later. For this reason it's important that Slack discussions make their way to less ephemeral and more comprehensive artifacts for sharing ideas and proposals with the wider community.
 
