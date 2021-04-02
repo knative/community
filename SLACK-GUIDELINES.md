@@ -132,7 +132,7 @@ in the purpose or pinned docs of that channel.
 We believe Slack threads in public channels are extremely useful for quickly and openly collaborating with your fellow contributors.  
 
 
-However, Slack threads are extremely ephemeral, discoverability and searchability of threads isn't nearly as good as alternatives like GitHub Issues, PRs and Github Discussions. For this reason it's important that Slack discussions make their way to less ephemeral and more comprehensive artifacts for sharing ideas and proposals with the wider community.
+Unfortunately, while Slack threads are good for quick discussion, they serve as a poor record of decisions. Discoverability and searchability of threads isn't nearly as good as alternatives (see below), particularly for contributors arriving weeks or months later. For this reason it's important that Slack discussions make their way to less ephemeral and more comprehensive artifacts for sharing ideas and proposals with the wider community.
 
 These artifacts include, but are not limited to: Github Issues + Pull Requests, Github Discussions, Google Docs, or Mailing List posts.
 
