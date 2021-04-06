@@ -173,12 +173,14 @@ aliases:
   - mdemirhan
   - vagababov
   pkg-controller-reviewers:
+  - dprotaso
   - grantr
   - mattmoor
   - tcnghia
   - vagababov
   - whaught
   pkg-controller-writers:
+  - dprotaso
   - grantr
   - mattmoor
   - tcnghia

@@ -983,9 +983,10 @@ orgs:
         - whaught
         teams:
           Pkg Controller Writers:
-            description: Approvers for configmap utilities in pkg
+            description: Approvers for controller utilities in pkg
             privacy: closed
             members:
+            - dprotaso
             - grantr
             - mattmoor
             - tcnghia
