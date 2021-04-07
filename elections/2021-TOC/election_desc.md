@@ -1,10 +1,3 @@
----
-title: "Knative TOC Election - 2021 Voters Guide"
-linkTitle: "2021 Voters Guide"
-weight: 30
-type: "docs"
----
-
 # 2021 Voters Guide - Knative TOC Election
 
 ## Purpose
