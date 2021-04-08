@@ -10,9 +10,9 @@ type: "docs"
    Quick links:
    * [Docs help](https://knative.dev/help/contributor/)
       * New content templates:
-        * [Documenation](https://github.com/knative/docs/tree/main/template-docs-page.md) -- Instructions and a template that
+        * [Documentation](https://github.com/knative/docs/tree/main/template-docs-page.md) -- Instructions and a template that
           you can use to help you add new documentation.
         * [Blog](https://github.com/knative/docs/tree/main/template-blog-page.md) -- Instructions and a template that
           you can use to help you post to the Knative blog.
-   * [Website help](https://knative.dev/help/contributor/publishing.md)
+   * [Website help](https://knative.dev/help/contributor/publishing)
    * [Maintainer help](https://knative.dev/help/maintainer/)
