@@ -670,6 +670,32 @@ orgs:
         has_wiki: false
         homepage: https://knative.dev
     teams:
+      Autoscaling Reviewers:
+        description: Receive reviews for autoscaling directories
+        privacy: closed
+        members:
+        - taragu
+      Autoscaling Writers:
+        description: Approvers and write access for autoscaling-related repositories.
+        privacy: closed
+        repos:
+          pkg: write
+          serving: write
+        members:
+        - julz
+        - yanweiguo
+        teams:
+          Autoscaling WG Leads:
+            description: The Working Group leads for Autoscaling
+            members:
+            - vagababov
+            - markusthoemmes
+            privacy: closed
+      Client Reviewers:
+        description: Receive reviews for client directories
+        privacy: closed
+        members:
+        - itsmurugappan
       Client Writers:
         description: Grants write access to client-related repositories.
         privacy: closed
@@ -685,6 +711,9 @@ orgs:
             - navidshaikh
             - rhuss
             privacy: closed
+        members:
+        - maximilien
+        - dsimansk
       Conformance Writers:
         description: Grants write access to conformance-related repositories.
         privacy: closed
@@ -696,6 +725,15 @@ orgs:
             members:
             - tayarani
             privacy: closed
+      Docs Reviewers:
+        description: Receive reviews for docs directories
+        privacy: closed
+        members:
+        - mpetason
+        - jonatasbaldin
+        - omerbensaadon
+        - RichardJJG
+        - snneji
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
@@ -708,6 +746,18 @@ orgs:
             description: The Working Group leads for Docs
             members: []
             privacy: closed
+        members:
+        - abrennan89
+        - carieshmarie
+        - richieescarez
+      Eventing Reviewers:
+        description: Receive reviews for docs directories
+        privacy: closed
+        members:
+        - aslom
+        - nlopezgi
+        - tommyreddad
+        - tayarani
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
@@ -749,6 +799,9 @@ orgs:
             - vaikas
             - n3wscott
             privacy: closed
+        members:
+        - pierDipi
+        - aliok
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -848,19 +901,106 @@ orgs:
         - n3wscott
         - lionelvillard
         privacy: closed
+      Networking Reviewers:
+        description: Receive reviews for networking directories
+        privacy: closed
+        members:
+        - andrew-su
+        - arturenault
+        - JRBANCEL
+        - markusthoemmes
+        - nak3
+        - shashwathi
+        - tcnghia
+        - vagababov
+        - yanweiguo
+        - ZhiminXiang
+      Networking Writers:
+        description: Approvers and write access for autoscaling-related repositories
+        privacy: closed
+        repos:
+          serving: write
+          pkg: write
+          networking: write
+        members:
+        - JRBANCEL
+        - vagababov
+        teams:
+          Networking WG Leads:
+            description: The Working Group leads for Networking
+            members:
+            - tcnghia
+            - nak3
+            - ZhiminXiang
+            privacy: closed
+      Operations Reviewers:
+        description: Receive reviews for operations directories
+        privacy: closed
+        members:
+        - aliok
+        - Cynocracy
+        - houshengbo
+        - jcrossley3
+        - markusthoemmes
+        - matzew
+        - n3wscott
+        - trshafer
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
         repos:
-          eventing-operator: write
           operator: write
-          serving-operator: write
+        members:
+        - aliok
+        - Cynocracy
+        - jcrossley3
+        - markusthoemmes
+        - matzew
+        - n3wscott
+        - trshafer
         teams:
           Operations WG Leads:
             description: The Working Group leads for Operations
             members:
             - houshengbo
             privacy: closed
+      Pkg Configmap Reviewers:
+        description: Receive reviews for configmap utilities in pkg
+        privacy: closed
+        teams:
+          Pkg Configmap Writers:
+            description: Approvers for configmap utilities in pkg
+            privacy: closed
+            members:
+            - dprotaso
+            - mattmoor
+            - mdemirhan
+            - vagababov
+      Pkg Controller Reviewers:
+        description: Receive reviews for controller utilities in pkg
+        privacy: closed
+        members:
+        - whaught
+        teams:
+          Pkg Controller Writers:
+            description: Approvers for controller utilities in pkg
+            privacy: closed
+            members:
+            - dprotaso
+            - grantr
+            - mattmoor
+            - tcnghia
+            - vagababov
+      Productivity Reviewers:
+        description: Receive reviews for productivity directories
+        privacy: closed
+        members:
+        - coryrc
+        - efiturri
+        - evankanderson
+        - peterfeifanchen
+        - steuhs
+        - yt3liu
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
         privacy: closed
@@ -869,6 +1009,9 @@ orgs:
           test-infra: write
           hack: write
           release: write
+        members:
+        - chaodaiG
+        - coryrc
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
@@ -887,6 +1030,24 @@ orgs:
             - julz
         repos:
           release: write
+      Serving Observability Reviewers:
+        description: Receive reviews for serving observability directories
+        privacy: closed
+        members:
+        - skonto
+        teams:
+          Serving Observability Writers:
+            description: Approve serving observability code
+            privacy: closed
+            members:
+            - mdemirhan
+            - yanweiguo
+      Serving Reviewers:
+        description: Receive reviews for serving-api-related directories
+        privacy: closed
+        members:
+        - whaught
+        - julz
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
@@ -896,24 +1057,15 @@ orgs:
           pkg: write
           serving: write
           release: write
+        members:
+        - markusthoemmes
+        - tcnghia
+        - vagababov
         teams:
           API Core WG Leads:
             description: The Working Group leads for Serving API Core
             members:
             - dprotaso
-            privacy: closed
-          Autoscaling WG Leads:
-            description: The Working Group leads for Autoscaling
-            members:
-            - vagababov
-            - markusthoemmes
-            privacy: closed
-          Networking WG Leads:
-            description: The Working Group leads for Networking
-            members:
-            - tcnghia
-            - nak3
-            - ZhiminXiang
             privacy: closed
       UX Writers:
         description: Grants write access to ux related repositories.
