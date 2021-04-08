@@ -54,7 +54,7 @@ You can reach us by emailing elections@knative.team
 
 If you want to stand for election, open a PR against the
 [knative/community repository](https://github.com/knative/community) to include
-your candidate profile in the `/elections/2021/TOC` folder, with your name as the
+your candidate profile in the `/elections/2021-TOC` folder, with your name as the
 filename.  This profile should include:
 
 * Your name
