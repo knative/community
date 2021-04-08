@@ -657,8 +657,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - evankanderson
-            - markusthoemmes
+            - tcnghia
+            - vaikas
             - fallback-notification-blocker
       Knative Milestone Maintainers:
         description: 'DO NOT RENAME - this group is used by Prow to control who can
