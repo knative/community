@@ -122,7 +122,7 @@ repo.
 | Charter                    | [Charter](./docs/CHARTER.md)                                                                                                                                           |
 | Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                                  |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/13-neXVH-1n1ELWgukSzySnWj-4X6UB2pGGws2z2NH3M/edit)                                               |
-| Community Meeting Calendar | Weekly on Tuesdays, 9:30-10:00am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Community Meeting Calendar | Every two weeks on Tuesday, 9:30-10:30am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/13-neXVH-1n1ELWgukSzySnWj-4X6UB2pGGws2z2NH3M/edit)                                                                          |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1cMXOSiGo1kiWl0WXeGz8nV6esLetJS2f)                                                                                     |
 | Repos                      | [`knative/docs`](https://github.com/knative/docs), [`knative/website`](https://github.com/knative/website)                                                             |
