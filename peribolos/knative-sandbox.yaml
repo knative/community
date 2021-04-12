@@ -577,7 +577,6 @@ orgs:
             description: The Working Group leads for Sources
             members:
             - lionelvillard
-            - vaikas
             - n3wscott
             privacy: closed
       Knative Admin:
