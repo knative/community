@@ -26,7 +26,8 @@ Please refer to the [TOC Election Charter] for:
 - [Eligibility for candidacy]
 - [Eligibility for voting] 
 
-Eligible Voters list coming soon.
+The list of eligible voters is stored [in the community repository](), but it is easier
+to check if you are eligible by logging into [Elekto]. See Voting Process below for more details.
 
 ### Schedule
 
@@ -103,13 +104,40 @@ roles you may hold.
 
 ## Voting Process
 
-Elections will be held using [elekto](https://elekto.io/). More 
-details on the process are coming soon.
+Elections will be held using [Elekto], an online voting tool created by CNCF 
+intern Manish Sahani.  Elekto has one critical advantage over CIVS, which is
+that it relies on GitHub Oauth to log you in to vote, instead of relying on 
+email.
+
+Thus, when you go to [Elekto] you will be prompted to log in your GitHub account.
+Please do, so, and then click on "Explore Election" to look at the list of 
+elections.  From there you can click on the "2021 Knative TOC Election."
+
+The election page will, among other things, tell you if you are eligible to vote,
+via a button at the top of the screen. Due to limitations in our contributor
+data, many contributors may have been unfairly missed; if you are one of these,
+please [file a voting exception] by May 9th so that we can enfranchise you.
+
+As candidates file their candidate statements in the community repo, they will
+become visible in the [Elekto] UI.  You may click through to any candidate
+to see their profile.
+
+Once the vote begins, you will be able to rank the candidates in the order of
+your preference, and submit your ballot.  When you submit, you will be offered
+a chance to set a password, which is required if you want the ability to return
+and re-cast your ballot before May 13th.
 
 Employer diversity is encouraged, and thus maximal representation will be
 enforced as spelled out in the [TOC Election Charter].
 
+All data for Elekto is stored on a pair of GCP instances operated by Josh Berkus
+and Manish Sahani, and is not shared with third parties.  Individual ballot data
+is encrypted, and not retrievable by anyone except in aggregate form.
+
 ### Decision
+
+Ballots are compiled by Elekto and all candidates are ranked using the Condorcet
+method, Schultze variant.
 
 The newly elected body will be announced on the [Knative Blog] on May 13, 2020.
 
@@ -126,3 +154,5 @@ the [TOC Election Charter].
 
 [Eligibility for candidacy]: https://github.com/knative/community/blob/master/mechanics/TOC.md#candidate-eligibility
 [Eligibility for voting]: https://github.com/knative/community/blob/master/mechanics/TOC.md#candidate-eligibility#voter-eligibility
+[Elekto]: https://test.elekto.io
+[file a voting exception]: https://test.elekto.io/app/elections/2021-TOC/exception
