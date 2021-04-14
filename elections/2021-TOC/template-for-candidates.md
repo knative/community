@@ -1,12 +1,9 @@
--------------------------------------------------------------
-name: Your Name
-ID: GithubID
-info:
-  - affiliation: Employer or other org affiliation
--------------------------------------------------------------
+# {Your Name Here} Candidate Profile
 
-Here's a paragraph about my contributions to Knative.
+## GithubID:
 
-Here's a paragraph about why I'm running.
+## Company or other Org Affiliation:
 
-(Copy this as candidate-yourname.md and create a PR)
+## Paragraph about my contributions to Knative:
+
+## Why You're Running for SC (max 300 words):
