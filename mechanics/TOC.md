@@ -32,6 +32,10 @@ with at least 3 months tenure are eligible to stand for election. Candidates may
 self-nominate or be nominated by another eligible member. The approximate time
 commitment of a TOC member is around 8 hours per week.
 
+Please note that vendor or organization limits do not restrict candidate eligibility.
+We encourage all interested candidates in running as there may be occurrences where a TOC member
+steps down and is back-filled by the candidate with the next most votes from the previous election.
+
 # Voter Eligibility
 
 Anyone who has at least 50 contributions in the last 12 months is eligible to
