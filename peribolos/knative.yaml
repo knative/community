@@ -1061,6 +1061,7 @@ orgs:
         - markusthoemmes
         - tcnghia
         - vagababov
+        - julz
         teams:
           API Core WG Leads:
             description: The Working Group leads for Serving API Core
