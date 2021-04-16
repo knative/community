@@ -358,6 +358,7 @@ orgs:
     - piotrmsc
     - PK85
     - pkosiec
+    - pmbanugo
     - pnagpur
     - pradeepto
     - pritianka-zz
@@ -735,6 +736,7 @@ orgs:
         - omerbensaadon
         - RichardJJG
         - snneji
+        - pmbanugo
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
