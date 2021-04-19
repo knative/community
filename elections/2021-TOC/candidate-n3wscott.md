@@ -1,7 +1,8 @@
 ---
 
-name: Scott Nichols ID: n3wscott info:
-
+name: Scott Nichols 
+ID: n3wscott 
+info:
 - affiliation: VMware
 
 ---
