@@ -1,11 +1,9 @@
----
-
+-------------------------------------------------------------
 name: Scott Nichols 
 ID: n3wscott 
 info:
 - affiliation: VMware
-
----
+-------------------------------------------------------------
 
 I have been with Knative since initial public launch. In that time I have been
 leading the Sources working group, as well as picking up leading the
