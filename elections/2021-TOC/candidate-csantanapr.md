@@ -15,3 +15,4 @@ I do presentations at conferences and meetups, providing enablement and demo for
 My motivation for running is to help with the project awareness and technical aspects in terms of API, design, and usability to make
 Knative the project that bridges the developer experience in Kubernetes
 to be one of the easiest ways to develop and run workloads on the Cloud using Serverless and Event-Driven Applications.
+
