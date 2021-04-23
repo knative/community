@@ -122,7 +122,7 @@ repo.
 | Charter                    | [Charter](./docs/CHARTER.md)                                                                                                                                           |
 | Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                                  |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/13-neXVH-1n1ELWgukSzySnWj-4X6UB2pGGws2z2NH3M/edit)                                               |
-| Community Meeting Calendar | Every two weeks on Tuesday, 9:30-10:30am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Community Meeting Calendar | Every Tuesday, 9:30-10:30am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/13-neXVH-1n1ELWgukSzySnWj-4X6UB2pGGws2z2NH3M/edit)                                                                          |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1cMXOSiGo1kiWl0WXeGz8nV6esLetJS2f)                                                                                     |
 | Repos                      | [`knative/docs`](https://github.com/knative/docs), [`knative/website`](https://github.com/knative/website)                                                             |
@@ -315,7 +315,7 @@ User Experience concerns across Knative components
 | Charter / Mission          | [Charter](https://docs.google.com/document/d/1K_LGymgqedAzRS0ACdVtJH1ktQxrf1OatfxzIb6LjU0/edit?usp=sharing)                                             |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                     |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                    |
-| Community Meeting Calendar | Thursdays at 8am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Community Meeting Calendar | Tuesday at 9:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                               |
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                  |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                          |
