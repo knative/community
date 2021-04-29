@@ -155,7 +155,6 @@ orgs:
     - matzew
     - mayaspivak
     - maximilien
-    - mdemirhan
     - mfine30
     - mgencur
     - MIBc
@@ -639,11 +638,11 @@ orgs:
           Steering Committee:
             description: ""
             maintainers:
-            - isdal
             - pmorie
             - bsnchan
             - mbehrendt
             - thisisnotapril
+            - vaikas
             privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
@@ -1058,7 +1057,6 @@ orgs:
           net-istio: write
         members:
         - JRBANCEL
-        - mdemirhan
         - nak3
         - vagababov
         - ZhiminXiang

@@ -24,7 +24,8 @@ function make_aliases() {
   # self-contained and we don't release them.
   ( cd mechanics/tools/gen-aliases; go build . )
   # Auto-generate OWNERS_ALIASES from peribolos configs
-  ./mechanics/tools/gen-aliases/gen-aliases
+  ./mechanics/tools/gen-aliases/gen-aliases knative peribolos/knative.yaml OWNERS_ALIASES
+  ./mechanics/tools/gen-aliases/gen-aliases knative-sandbox peribolos/knative-sandbox.yaml knative-sandbox-OWNERS_ALIASES
   # Clean up the tool so we don't try to check it in.
   rm ./mechanics/tools/gen-aliases/gen-aliases
 }
