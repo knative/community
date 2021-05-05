@@ -977,7 +977,6 @@ orgs:
             members:
             - dprotaso
             - mattmoor
-            - mdemirhan
             - vagababov
       Pkg Controller Reviewers:
         description: Receive reviews for controller utilities in pkg
@@ -1043,7 +1042,6 @@ orgs:
             description: Approve serving observability code
             privacy: closed
             members:
-            - mdemirhan
             - yanweiguo
       Serving Reviewers:
         description: Receive reviews for serving-api-related directories
