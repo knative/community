@@ -272,6 +272,7 @@ orgs:
     - knative-automation
     - knative-metrics-robot
     - knative-prow-releaser-robot
+    - knative-prow-updater-robot
     - knative-test-reporter-robot
     - komestmus
     - krumts
@@ -841,6 +842,7 @@ orgs:
             members:
             - knative-prow-robot
             - knative-prow-releaser-robot
+            - knative-prow-updater-robot
             - knative-test-reporter-robot
             privacy: closed
           Steering Committee:
