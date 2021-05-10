@@ -33,4 +33,3 @@ When lazy consensus is used, you should:
   * In increasing order of durability: decision announced in meeting minutes, send a mail to the mailing list, approval in Google Doc by WG lead, GitHub PR (possibly in “docs” directory or the like)
 
 ---
-*This process and documentation is thanks to the leadership of @pmorie and @vaikas, and work of multiple Knative contributors*
