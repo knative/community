@@ -153,7 +153,6 @@ Event sources, bindings, FaaS framework, and orchestration
 | ------------------------------------------------------------- | -------------------------- | ------- | ------------------------------------------------- |
 | <img width="30px" src="https://github.com/vaikas.png">        | Ville Aikas (Technical)    | VMware  | [vaikas](https://github.com/vaikas)               |
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard (Technical) | IBM     | [lionelvillard](https://github.com/lionelvillard) |
-| <img width="30px" src="https://github.com/grantr.png">        | Grant Rodgers (Technical)  | Google  | [grantr](https://github.com/grantr)               |
 | <img width="30px" src="https://github.com/devguyio.png">      | Ahmed Abdalla (Execution)  | Red Hat | [devguyio](https://github.com/devguyio)           |
 
 ## Event Delivery

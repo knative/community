@@ -12,7 +12,6 @@ orgs:
     - evankanderson
     - google-admin
     - googlebot
-    - grantr
     - knative-prow-robot
     - markusthoemmes
     - mbehrendt
@@ -793,7 +792,6 @@ orgs:
             description: The Working Group leads for Eventing
             members:
             - devguyio
-            - grantr
             - lionelvillard
             - vaikas
             privacy: closed
@@ -864,7 +862,6 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
-            - grantr
             - rhuss
             - markusthoemmes
             - evankanderson
@@ -880,7 +877,6 @@ orgs:
         description: 'DO NOT RENAME - this group is used by Prow to control who can manipulate
           milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
         maintainers:
-        - grantr
         - rhuss
         - markusthoemmes
         - evankanderson
@@ -991,7 +987,6 @@ orgs:
             privacy: closed
             members:
             - dprotaso
-            - grantr
             - mattmoor
             - tcnghia
             - vagababov
