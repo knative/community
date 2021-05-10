@@ -95,7 +95,6 @@ The current members of the TOC are shown below.
 | &nbsp;                                                         | Member         | Company | Profile                                              | Term Start | Term End |
 | -------------------------------------------------------------- | -------------- | ------- | ---------------------------------------------------- | ---------- | --------
 | <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson  | VMware  | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2021     |
-| <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers  | Google  | [@grantr](https://github.com/grantr)                 | 2020-06-09 | 2022     |
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) | 2020-06-09 | 2022     |
 | <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß     | Red Hat | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022     |
 
