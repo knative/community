@@ -888,6 +888,7 @@ orgs:
           eventing-natss: write
         members:
         - devguyio
+        - zhaojizhuang
 
       eventing-prometheus Approvers:
         description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
