@@ -552,6 +552,7 @@ orgs:
           eventing-kafka: write
           eventing-natss: write
           eventing-prometheus: write
+          eventing-kafka-broker: write
           eventing-rabbitmq: write
           eventing-redis: write
           sample-source: write
