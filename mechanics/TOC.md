@@ -32,10 +32,6 @@ with at least 3 months tenure are eligible to stand for election. Candidates may
 self-nominate or be nominated by another eligible member. The approximate time
 commitment of a TOC member is around 8 hours per week.
 
-Please note that vendor or organization limits do not restrict candidate eligibility.
-We encourage all interested candidates in running as there may be occurrences where a TOC member
-steps down and is back-filled by the candidate with the next most votes from the previous election.
-
 # Voter Eligibility
 
 Anyone who has at least 50 contributions in the last 12 months is eligible to
@@ -74,16 +70,10 @@ committee elections.
 
 ## Vacancies
 
-In the event of a resignation or other loss of an elected TOC member, the
-candidate with the next most votes from the previous election will be offered
-the seat. This process will continue until the seat is filled.
-
-In case this fails to fill the seat, a special election for that position will
-be held as soon as possible. Eligible voters from the most recent election will
-vote in the special election (ie: eligibility will not be redetermined at the
-time of the special election). Any replacement TOC member will serve out the
-remainder of the term for the person they are replacing, regardless of the
-length of that remainder.
+In the event of a resignation or other loss of an elected TOC member, a special
+election for that position will be held as soon as possible. Any replacement TOC
+member will serve out the remainder of the term for the person they are replacing,
+regardless of the length of that remainder.
 
 ---
 
