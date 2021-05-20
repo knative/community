@@ -10,18 +10,27 @@ type: "docs"
 ## Purpose
 
 This special election has 2 goals:
-- **Runoff election** for the remaining seat due for election this year on the 
-  [Knative Technical Oversight Committee]. This runoff is between 
-  [David Protasowski](candidate-dprotaso.md) and [Scott Nichols](candidate-n3wscott.md).
-  The one with the most votes in this special election will serve a two (2) year term.
-- **Filling the vacancy** to replace Grant Rodgers who recently stepped down and serve the remainder
-  of his term ending during the 2022 election. This vacancy could not be filled using 
-  candidates from the previous election because after filling the above
-  seat, VMware and Red Hat / IBM will be at the 
-  [maximum number of seats](https://github.com/knative/community/blob/main/mechanics/TOC.md) (2)
-  held by employees from the same organization (or conglomerate, in the case of companies owning
-  each other). This means that we need to have at least one (preferably more) nominee who does not
-  work at Red Hat, IBM, or VMware.
+- **Runoff election**
+  - For the 2021 TOC election, we had a tie for one of the 2 TOC seats. This runoff election 
+    is designed to fill the remaining seat due for election this year on the 
+    [Knative Technical Oversight Committee].
+  - This runoff is between 
+    [David Protasowski](candidate-dprotaso.md) and [Scott Nichols](candidate-n3wscott.md).
+  - **Selection Criteria**: Out of these 2 candidates, the one with the most votes in this special election will
+    serve a two (2) year term.
+- **Filling a new vacancy** 
+  - We also need to replace Grant Rodgers who recently stepped down from the TOC, so we have an additional
+    seat that needs to be filled with someone who will serve the remainder
+    of his term ending during the 2022 election.
+  - This vacancy could not be filled using candidates from the previous election because after filling the above
+    seat in the runoff election, VMware and Red Hat / IBM will be at the 
+    [maximum number of seats](https://github.com/knative/community/blob/main/mechanics/TOC.md) (2)
+    held by employees from the same organization (or conglomerate, in the case of companies owning
+    each other).
+  - This means that we need to have at least one (preferably more) nominee who does not
+    work at Red Hat, IBM, or VMware.
+  - **Selection Criteria**: The person with the most votes who would not put any single employer over 
+    the 2 employee maximum will serve the remainder of Grant's term ending during the 2022 election.
 
 ## Background
 
