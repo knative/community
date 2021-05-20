@@ -994,11 +994,12 @@ orgs:
         description: Receive reviews for productivity directories
         privacy: closed
         members:
-        - coryrc
+        - albertomilan
         - efiturri
         - evankanderson
+        - gerardo-lc
+        - joshua-bone
         - steuhs
-        - yt3liu
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
         privacy: closed
