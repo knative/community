@@ -35,7 +35,8 @@ This is a brief summary of the election; for more details, such as how to become
 
 ## Eligibility
 
-All Knative contributors with 50 or more contributions over the last year are eligible to vote.  You will see either ELIGIBLE or NOT ELIGIBLE at the top of this screen.  If you are not eligible, but should be, please [file an exception request](https://test.elekto.io/app/elections/2021-TOC2/exception) or contact elections@knative.team.
+All Knative contributors who were eligible to vote in the original 2021 TOC election are eligible to vote in this one.
+You will see either ELIGIBLE or NOT ELIGIBLE at the top of this screen.  If you are not eligible, but should be, please [file an exception request](https://test.elekto.io/app/elections/2021-TOC2/exception) or contact elections@knative.team.
 
 ### Schedule
 

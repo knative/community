@@ -10,6 +10,6 @@ show_candidate_fields:
 election_officers:
   - geekygirldawn
   - jberkus
-eligibility: All Knative contributors with more than 50 contributions are eligible to vote
+eligibility: All Knative contributors who were eligible to vote in the original 2021 TOC election are eligible to vote in this one.
 exception_description: If you should be eligible to vote, and find that you are unable to, please fill out the exceptions form.    Otherwise, contact elections@knative.team.
 exception_due: 2021-07-12 23:59:00
