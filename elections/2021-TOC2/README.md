@@ -16,8 +16,8 @@ This special election has 2 goals:
     [Knative Technical Oversight Committee].
   - This runoff is between 
     [David Protasowski](candidate-dprotaso.md) and [Scott Nichols](candidate-n3wscott.md).
-  - **Selection Criteria**: Out of these 2 candidates, the one with the most votes in this special election will
-    serve a two (2) year term.
+  - **Selection Criteria**: Out of these 2 candidates, the most preferred candidate in this 
+    special election will serve a two (2) year term.
 - **Filling a new vacancy** 
   - We also need to replace Grant Rodgers who recently stepped down from the TOC, so we have an additional
     seat that needs to be filled with someone who will serve the remainder
@@ -29,8 +29,12 @@ This special election has 2 goals:
     each other).
   - This means that we need to have at least one (preferably more) nominee who does not
     work at Red Hat, IBM, or VMware.
-  - **Selection Criteria**: The person with the most votes who would not put any single employer over 
+  - **Selection Criteria**: The most preferred candidate who would not put any single employer over 
     the 2 employee maximum will serve the remainder of Grant's term ending during the 2022 election.
+
+Nonwithstanding, Knative contributors should rank candidates strictly in order of their preference. 
+You do not need to pay attention to the above when casting your ballot, but we did want to be clear
+about how the selection process will be conducted.
 
 ## Background
 
