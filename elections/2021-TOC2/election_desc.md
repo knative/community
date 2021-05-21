@@ -27,9 +27,7 @@ This special election has 2 goals:
   - **Selection Criteria**: The most preferred candidate who would not put any single employer over  
     the 2 employee maximum will serve the remainder of Grant's term ending during the 2022 election.
 
-Nonwithstanding, Knative contributors should rank candidates strictly in order of their preference. 
-You do not need to pay attention to the above when casting your ballot, but we did want to be clear
-about how the selection process will be conducted.
+Please rank all candidates together according to your preference and evaluation of them as potential TOC members, regardless of company affiliation. The candidates for the two seats will be selected by the SC, according to the total preference rankings and TOC eligibility rules.
 
 This is a brief summary of the election; for more details, such as how to become a candidate, [see the README](https://github.com/knative/community/blob/main/elections/2021-TOC2/README.md).
 
