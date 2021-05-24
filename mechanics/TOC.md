@@ -17,8 +17,7 @@ aliases:
 
 # Composition
 
-The TOC will have five seats with a 2 year term, with a maximum of 2 seats being
-held by employees from the same organization (or conglomerate, in the case of companies owning each other).
+The TOC will have five seats with a 2 year term.
 
 There will be an annual election to determine the composition of the TOC for the
 following year. Three seats will be up for election in one year and two will be
@@ -31,10 +30,6 @@ Current TOC members and
 with at least 3 months tenure are eligible to stand for election. Candidates may
 self-nominate or be nominated by another eligible member. The approximate time
 commitment of a TOC member is around 8 hours per week.
-
-Please note that vendor or organization limits do not restrict candidate eligibility.
-We encourage all interested candidates in running as there may be occurrences where a TOC member
-steps down and is back-filled by the candidate with the next most votes from the previous election.
 
 # Voter Eligibility
 
