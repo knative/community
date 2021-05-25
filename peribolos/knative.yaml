@@ -931,7 +931,6 @@ orgs:
           Networking WG Leads:
             description: The Working Group leads for Networking
             members:
-            - tcnghia
             - nak3
             - ZhiminXiang
             privacy: closed
