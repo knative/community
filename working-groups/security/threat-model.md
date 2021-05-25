@@ -26,22 +26,27 @@ such as installing CRDs and managing namespaces (Control-plane-as-a-service).
 Currently, Knative assumes a single tenant per cluster (Cluster-as-a-service)
 as its security model.
 
-It is possible, with extra work, to secure Knative for use in
-Namespace-as-a-service environments, for example by setting up appropriate
-NetworkPolicy, using appropriate container isolation techniques, and filtering
-requests to shared components such as the activator. The project aims to
-eventually support secure use in Namespace-as-a-service environments out of the
-box, and is very receptive to PRs that improve support for
-Namespace-as-a-service clusters, but we do not currently view exploits in this
-environment as vulnerabilities for the purpose of our disclosure policy.
+While it is possible to secure Knative for use in non-single-tenant
+environments, for example by setting up appropriate NetworkPolicy, using
+appropriate container isolation techniques, and filtering requests to shared
+components such as the activator, the project does not currently consider
+itself to be secure for this use case. We would like eventually to support
+secure use in Namespace-as-a-service and Control-plane-as-a-service
+environments out of the box, and are very receptive to contributions that
+improve support for Namespace-as-a-service clusters, but we do not currently
+view exploits in these situations as vulnerabilities for the purpose of our
+disclosure policy.
 
 ## Trusted and untrusted workloads
 
-Knative is often used to implement platforms which permit users to submit code
-or containers, which the platform runs. In some cases the code is submitted
-only by trusted users -- for example in a private cluster -- whereas in others
-the code may be entirely untrusted (for example when knative is used to
-implement a multi-tenant FaaS-style system).
+Knative is often used to implement platforms which permit developers to submit
+code or containers, which the platform runs. In some cases only trusted
+developers can submit code (for example in a private cluster), whereas in
+others the code may be entirely untrusted (for example when knative is used to
+implement a multi-tenant FaaS-style system). In either case the resulting
+applications might be available only to trusted users (again for example in a
+private cluster), or to untrusted users (a single-tenant cluster providing
+internet-accessible applications).
 
 We differentiate between attacks on the system that require permission to
 create a Knative Service or Revision, and attacks that can be performed against
@@ -50,7 +55,11 @@ workload. In a multi-tenant environment it is possible that all users who can
 access the environment will also have permission to deploy workloads.
 
 The most significant exploits are those that affect a cluster even without the
-ability to submit workloads.
+ability to submit workloads. Another class of attack would involve an
+administrator with access to Knative being to perform actions that exceed their
+cluster roles; for now, since we primarily consider single-tenant clusters,
+while we are keen to fix any bugs in this area, we do not consider cases such
+as this as an exploit.
 
 ## Availability, confidentiality, and integrity
 
@@ -61,13 +70,16 @@ submit workloads), but are aware that these currently exist both within Knative
 and the underlying Kubernetes platform. For this reason availability attacks
 are currently treated as relatively lower priority.
 
+In general, since many availability risks are inherited from the underlying
+platform, we only - in Knative - consider issues which are significantly higher
+than the same situation in Kubernetes itself.
+
 ## Security of the underlying Cluster
 
-Knative relies on the security of the underlying cluster to maintain its security
-posture. This currently requires manual work that is not fully documented by
-the project (though we would eventually like to fix this).
-The project cannot be secure if the underlying platform is not secure,
-this requires work on top of the defaults provided by Kubernetes.
+Knative relies on the security of the underlying cluster to maintain its
+security posture. This requires manual work that is the responsibility of
+upstream SIGs to document.
+The project cannot be secure if the underlying platform is not secured.
 
 ## Security of container and network technologies
 
