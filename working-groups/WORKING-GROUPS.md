@@ -218,7 +218,6 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | &nbsp;                                                      | Leads            | Company   | Profile                                       |
 | ----------------------------------------------------------- | ---------------- | --------- | --------------------------------------------- |
 | <img width="30px" src="https://github.com/nak3.png">        | Kenjiro Nakayama | Red Hat   | [nak3](https://github.com/nak3)               |
-| <img width="30px" src="https://github.com/tcnghia.png">     | Nghia Tran       | Microsoft | [tcnghia](https://github.com/tcnghia)         |
 | <img width="30px" src="https://github.com/ZhiminXiang.png"> | Zhimin Xiang     | Google    | [ZhiminXiang](https://github.com/ZhiminXiang) |
 
 ## Operations

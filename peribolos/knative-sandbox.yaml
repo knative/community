@@ -747,7 +747,6 @@ orgs:
             description: The Working Group leads for Networking
             members:
             - nak3
-            - tcnghia
             - ZhiminXiang
             privacy: closed
       UX Writers:
