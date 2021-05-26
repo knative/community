@@ -401,6 +401,12 @@ orgs:
         description: Kn plugin for migrating Knative services from one cluster to another.
         has_projects: true
         has_wiki: false
+      kn-plugin-quickstart:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for installation of Knative cluster for developers to quickstart.
+        has_projects: true
+        has_wiki: false
       kn-plugin-service-log:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -515,6 +521,7 @@ orgs:
           kn-plugin-diag: write
           kn-plugin-event: write
           kn-plugin-migration: write
+          kn-plugin-quickstart: write
           kn-plugin-sample: write
           kn-plugin-service-log: write
           kn-plugin-source-kafka: write
@@ -609,6 +616,7 @@ orgs:
           kn-plugin-diag: admin
           kn-plugin-event: admin
           kn-plugin-migration: admin
+          kn-plugin-quickstart: admin
           kn-plugin-sample: admin
           kn-plugin-service-log: admin
           kn-plugin-source-kafka: admin
