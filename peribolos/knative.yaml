@@ -9,7 +9,7 @@ orgs:
     default_repository_permission: read
     admins:
     - bsnchan
-    - dprosato
+    - dprotaso
     - evankanderson
     - google-admin
     - googlebot
@@ -895,7 +895,6 @@ orgs:
         - chizhg
         - csantanapr
         - igsong
-        - julz
         - nak3
         - navidshaikh
         - nlopezgi
