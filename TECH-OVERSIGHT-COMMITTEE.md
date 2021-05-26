@@ -80,23 +80,25 @@ Community members are encouraged to suggest topics for discussion ahead of the
 TOC meetings, and are invited to observe these meetings and engage with the TOC
 during the community feedback period at the end of each meeting.
 
-| Artifact                   | Link                                                                                                                                                     |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Google Group               | [knative-tech-oversight@googlegroups.com](https://groups.google.com/forum/#!forum/knative-tech-oversight)                                                |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)          |
-| Community Meeting Calendar | Thursdays at 11:30a-12p <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)                                     |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/13-h81zualjRSNkCSFItODfk-NZ7dkMut)                                                                       |
+| Artifact                   | Link                                                                                                                                                        |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google Group               | [knative-tech-oversight@googlegroups.com](https://groups.google.com/forum/#!forum/knative-tech-oversight)                                                   |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)                                    |
+| Community Meeting Calendar | Thursdays at 8:30a-9:15a <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)                                                               |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/13-h81zualjRSNkCSFItODfk-NZ7dkMut)                                                                          |
 
 ## Committee Members
 
 The current members of the TOC are shown below.
 
-| &nbsp;                                                         | Member         | Company | Profile                                              | Term Start | Term End |
-| -------------------------------------------------------------- | -------------- | ------- | ---------------------------------------------------- | ---------- | --------
-| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson  | VMware  | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2021     |
-| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) | 2020-06-09 | 2022     |
-| <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß     | Red Hat | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022     |
+| &nbsp;                                                         | Member           | Company | Profile                                              | Term Start | Term End |
+| -------------------------------------------------------------- | ---------------- | ------- | ---------------------------------------------------- | ---------- | -------- |
+| <img width="30px" src="https://github.com/dprotaso.png">       | Dave Protasowski | VMware  | [@dprotaso](https://github.com/dprotaso)             | 2021-05-26 | 2023     |
+| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson    | VMware  | [@evankanderson](https://github.com/evankanderson)   | 2021-05-12 | 2023     |
+| <img width="30px" src="https://github.com/julz.png">           | Julian Friedman  | IBM     | [@julz](https://github.com/julz)                     | 2021-05-26 | 2023     |
+| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes   | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) | 2020-06-09 | 2022     |
+| <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß       | Red Hat | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022     |
 
 ---
 
