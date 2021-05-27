@@ -74,7 +74,9 @@ if you follow it as you write your tutorial.
 
 ## Meetings and work groups
 
-Knative has public and recorded bi-weekly community meetings.
+Knative has public and recorded monthly community meetings. You can see the
+agenda and links to previous recordings
+[here](https://docs.google.com/document/d/1o0ENlHpv5nYPOznlbDc9xzNcwTqtxZrmPAVZLoWRHyE/edit#heading=h.yzvtyg3omrak).
 
 Each project has one or more
 [working groups](./working-groups/WORKING-GROUPS.md) driving the project, and
