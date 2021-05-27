@@ -18,8 +18,8 @@ responding to vulnerabilities) and should be composed of those who will
 actively work on the fix and disclosure process.
 
 Anyone who is an Approver, Lead or TOC Member in a Knative Project, or who is
-an employee of a member of the Embargo list working in a security role may
-apply to be a member of this group.
+an employee of a member of the Embargo list working in a security-focused or
+knative-focused role may apply to be a member of this group.
 The application is approved or rejected by the TOC.
 
 ## Identifying a Fix Lead
