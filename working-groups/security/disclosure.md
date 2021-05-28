@@ -1,6 +1,6 @@
 # Early Disclosure of Security Vulnerabilities
 
-(This policy is based on the Istio Early Disclosure Policy at https://github.com/istio/community/blob/master/EARLY-DISCLOSURE.md).
+(This policy is based on the [Istio Early Disclosure Policy](https://github.com/istio/community/blob/1911286/EARLY-DISCLOSURE.md)).
 
 Knative follows the process described in [responding.md](./responding.md) when security vulnerabilities are reported.
 
