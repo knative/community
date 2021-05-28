@@ -70,23 +70,23 @@ committee elections.
 
 ## Vacancies
 
-In the event of a resignation or other loss of an elected TOC member with more
-than three months left until the next regular annual election, the candidate
-with the next most votes from the previous annual election will be offered the
-seat. If the seat cannot be filled from the previous annual election, the
-candidate with the next most votes from the most recent special election will
-be offered the seat. This process will continue until the seat is filled.
+In the event of a resignation or other loss of an elected TOC member with less
+than three months left until the next regular annual election, the Steering
+Committee shall appoint a qualified contributor to fill that TOC seat until
+that election.
+
+Otherwise the candidate with the next most votes from the previous annual
+election will be offered the seat. If the seat cannot be filled from the
+previous annual election, the candidate with the next most votes from the most
+recent special election will be offered the seat. This process will continue
+until the seat is filled.
 
 In case this fails to fill the seat, a special election for that position will
 be held as soon as possible. Eligible voters from the most recent election will
 vote in the special election (ie: eligibility will not be redetermined at the
-time of the special election). Any replacement TOC member will serve out the
-remainder of the term for the person they are replacing, regardless of the
-length of that remainder.
-
-In the event that a TOC seat becomes available with three months or less left
-until the next regular annual election, the Steering Committee shall appoint a
-qualified contributor to fill that TOC seat until that election.
+time of the special election). Any elected replacement TOC member will serve
+out the remainder of the term for the person they are replacing, regardless of
+the length of that remainder.
 
 ---
 
