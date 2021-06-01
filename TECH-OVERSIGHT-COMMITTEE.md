@@ -80,13 +80,13 @@ Community members are encouraged to suggest topics for discussion ahead of the
 TOC meetings, and are invited to observe these meetings and engage with the TOC
 during the community feedback period at the end of each meeting.
 
-| Artifact                   | Link                                                                                                                                                     |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Google Group               | [knative-tech-oversight@googlegroups.com](https://groups.google.com/forum/#!forum/knative-tech-oversight)                                                |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)          |
-| Community Meeting Calendar | Thursdays at 11:30a-12p <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)                                     |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/13-h81zualjRSNkCSFItODfk-NZ7dkMut)                                                                       |
+| Artifact                   | Link                                                                                                                                                        |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google Group               | [knative-tech-oversight@googlegroups.com](https://groups.google.com/forum/#!forum/knative-tech-oversight)                                                   |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)                                    |
+| Community Meeting Calendar | Thursdays at 8:30a-9:15a <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)                                                               |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/13-h81zualjRSNkCSFItODfk-NZ7dkMut)                                                                          |
 
 ## Committee Members
 

@@ -12,9 +12,11 @@ orgs:
     default_repository_permission: read
     admins:
     - bsnchan
+    - dprotaso
     - evankanderson
     - google-admin
     - googlebot
+    - julz
     - knative-prow-robot
     - markusthoemmes
     - mbehrendt
@@ -77,7 +79,6 @@ orgs:
     - deissnerk
     - devguyio
     - dieucao
-    - dprotaso
     - droot
     - dsimansk
     - duglin
@@ -89,7 +90,6 @@ orgs:
     - ericlem
     - eric-sap
     - fabolive
-    - fallback-notification-blocker
     - fj
     - flavorjones
     - frnksgr
@@ -133,7 +133,6 @@ orgs:
     - joshuawilson
     - JRBANCEL
     - jskeet
-    - julz
     - jzelinskie
     - k4leung4
     - knative-automation
@@ -662,14 +661,14 @@ orgs:
             - rhuss
             - markusthoemmes
             - evankanderson
-            - fallback-notification-blocker
+            - dprotaso
+            - julz
             privacy: closed
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
             - dprotaso
             - matzew
-            - fallback-notification-blocker
       Knative Milestone Maintainers:
         description: 'DO NOT RENAME - this group is used by Prow to control who can
           manipulate milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
@@ -678,6 +677,8 @@ orgs:
         - rhuss
         - markusthoemmes
         - evankanderson
+        - julz
+        - dprotaso
         members:
         - akashrv
         - aslom

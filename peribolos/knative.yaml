@@ -9,9 +9,11 @@ orgs:
     default_repository_permission: read
     admins:
     - bsnchan
+    - dprotaso
     - evankanderson
     - google-admin
     - googlebot
+    - julz
     - knative-prow-robot
     - markusthoemmes
     - mbehrendt
@@ -140,7 +142,6 @@ orgs:
     - dieucao
     - dlorenc
     - dosire
-    - dprotaso
     - droot
     - dsimansk
     - dubwoc
@@ -257,7 +258,6 @@ orgs:
     - JRBANCEL
     - jsanda
     - jskeet
-    - julz
     - justinjsmith
     - jzelinskie
     - k4leung4
@@ -869,6 +869,8 @@ orgs:
             - rhuss
             - markusthoemmes
             - evankanderson
+            - julz
+            - dprotaso
             privacy: closed
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
@@ -884,6 +886,8 @@ orgs:
         - rhuss
         - markusthoemmes
         - evankanderson
+        - dprotaso
+        - julz
         members:
         - slinkydeveloper
         - ImJasonH
@@ -894,7 +898,6 @@ orgs:
         - chizhg
         - csantanapr
         - igsong
-        - julz
         - nak3
         - navidshaikh
         - nlopezgi
