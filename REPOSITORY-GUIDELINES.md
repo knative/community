@@ -86,6 +86,7 @@ steps:
   - GitHub pages are disabled
   - The repo is marked as archived using GitHub's archive feature
   - The removal is announced on the knative-dev mailing list
+  - Documentation is removed / updated as appropriate from the knative/docs website
 
 This procedure maintains the complete record of issues, PRs, and other
 contributions. It leaves the repository read-only and makes it clear that the
