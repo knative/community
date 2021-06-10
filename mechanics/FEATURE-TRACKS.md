@@ -24,7 +24,7 @@ so leads must be careful about prioritizing scope creep.
 
 Every feature exists to solve a problem.  The process starts by articulating 
 that problem in the form of a **Github issue** 
-([template](https://docs.google.com/document/d/1wcQj6SBvIegfoeBT6Q7Wa_snNdsGy5j-bwwSOcTcejY/edit#heading=h.n8a530nnrb)).
+([template](https://docs.google.com/document/d/1FvezfvBghevCRoZUmN3SoTVtm6f_u_r5f94MEa4jNIA/edit))
  Be sure that a particular issue is tagged with the appropriate areas to bring 
 it to the attention of the pertinent working group leads for triage.  In Prow, 
 this can be done via:
@@ -48,7 +48,7 @@ leads for all involved working groups should be involved throughout the process.
 All non-trivial<sup>[2.1](#2.1)</sup> features deserve a design for 
 articulating the solution to their problem statement. This should be done in a 
 **Google doc**
-([template](https://docs.google.com/document/d/1s6IIU98bi5FlRNmmBaLAn1rgoleK_ovcL746L7NHq0c/edit) -- make a copy!) 
+([template](https://docs.google.com/document/d/1FvezfvBghevCRoZUmN3SoTVtm6f_u_r5f94MEa4jNIA/edit) -- make a copy!) 
 under the appropriate folder in the [Team 
 Drive](https://drive.google.com/drive/folders/0AM-QGZJ-HUA8Uk9PVA)<sup>[2.2](#2.2)</sup>.
 If the solution is clear and non-contentious, then the doc may be very short!
