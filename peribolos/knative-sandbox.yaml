@@ -457,7 +457,7 @@ orgs:
       monitoring:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: Observability support for Knative
+        description: Monitoring support for Knative
         has_projects: false
         has_wiki: false
       net-certmanager:
