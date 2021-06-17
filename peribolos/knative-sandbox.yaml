@@ -455,6 +455,12 @@ orgs:
         description: A benchmarking tool to evaluate Knative performance
         has_projects: true
         has_wiki: false
+      monitoring:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Monitoring support for Knative
+        has_projects: false
+        has_wiki: false
       net-certmanager:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -636,6 +642,7 @@ orgs:
           net-istio: admin
           net-ingressv2: admin
           net-kourier: admin
+          monitoring: admin
           reconciler-test: admin
           sample-controller: admin
           sample-source: admin
@@ -702,7 +709,11 @@ orgs:
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
-        repos: {}
+        repos:
+          monitoring: write
+        members:
+        - dprotaso
+        - upodroid
         teams:
           Operations WG Leads:
             description: The Working Group leads for Operations
