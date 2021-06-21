@@ -580,17 +580,17 @@ tuple
    </td>
   </tr>
   <tr>
-   <td rowspan="2" >0.24.x
+   <td>0.24.x
    </td>
-   <td rowspan="2" >2021-06-29
+   <td >2021-06-29
    </td>
-   <td rowspan="2" >2021-12-14
+   <td>2021-12-14
    </td>
-   <td rowspan="2" >v1.19.x
+   <td>v1.19.x
    </td>
-   <td rowspan="2" >v1
+   <td>v1
    </td>
-   <td rowspan="2" >N/A
+   <td>N/A
    </td>
    <td>v1
    </td>
