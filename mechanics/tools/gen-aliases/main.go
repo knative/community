@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io/ioutil"
 	"log"
 	"os"
@@ -54,8 +55,11 @@ func main() {
 		log.Printf("Could not serialize: ", err)
 		os.Exit(1)
 	}
-	preamble := []byte("# This file is auto-generated from peribolos\n\n")
-	output = append(preamble, output...)
+	preamble := fmt.Sprintf(`# This file is auto-generated from peribolos.
+# Do not modify this file, instead modify %s
+
+`, infile)
+	output = append([]byte(preamble), output...)
 	ioutil.WriteFile(outfile, output, 0644)
 	log.Print("Wrote ", outfile)
 }
