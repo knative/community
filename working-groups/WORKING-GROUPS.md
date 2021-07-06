@@ -55,7 +55,7 @@ The current working groups are:
 
 - [API Core](#api-core)
 - [Client](#client)
-- [Documentation](#documentation)
+- [Documentation + User Experience](#documentation--user-experience)
 - [Eventing](#eventing)
 - [Event Delivery](#event-delivery)
 - [Eventing Sources](#eventing-sources)
@@ -64,7 +64,6 @@ The current working groups are:
 - [Productivity](#productivity)
 - [Scaling](#scaling)
 - [Security](#security)
-- [User Experience](#user-experience)
   <!-- TODO add charters for each group -->
 
 ## API Core
@@ -112,26 +111,28 @@ conventions
 | <img width="30px" src="https://github.com/navidshaikh.png"> | Navid Shaikh | VMware | [navidshaikh](https://github.com/navidshaikh) |
 | <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß   | Red Hat | [rhuss](https://github.com/rhuss)            |
 
-## Documentation
+## Documentation + User Experience
 
-Knative documentation, especially the [Docs](https://github.com/knative/docs/)
+User Experience concerns across Knative components and Knative documentation, especially the [Docs](https://github.com/knative/docs/)
 repo.
 
-| Artifact                   | Link                                                                                                                                                                   |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Charter                    | [Charter](./docs/CHARTER.md)                                                                                                                                           |
-| Forum                      | [knative-docs@](https://groups.google.com/forum/#!forum/knative-docs)                                                                                                  |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/13-neXVH-1n1ELWgukSzySnWj-4X6UB2pGGws2z2NH3M/edit)                                               |
-| Community Meeting Calendar | Every Tuesday, 9:30-10:30am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/13-neXVH-1n1ELWgukSzySnWj-4X6UB2pGGws2z2NH3M/edit)                                                                          |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/1cMXOSiGo1kiWl0WXeGz8nV6esLetJS2f)                                                                                     |
-| Repos                      | [`knative/docs`](https://github.com/knative/docs), [`knative/website`](https://github.com/knative/website)                                                             |
-| Slack Channel              | [#docs](https://slack.knative.dev/messages/docs)                                                                                                                       |
-| Github Team WG leads       | [@knative/docs-wg-leads](https://github.com/orgs/knative/teams/docs-wg-leads/members)                                                                                  |
+| Artifact                   | Link                                                                                                                                                    |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter / Mission          | [Charter](https://docs.google.com/document/d/1-opvSEzJMRbB6fybvjuCyhFBZvHwXnkbgyOIzjlmrpo/edit)                                             |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                     |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                    |
+| Community Meeting Calendar | Tuesday from 9:30-10:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                               |
+| Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                  |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                          |
+| Slack Channel              | [#user-experience](https://slack.knative.dev/messages/user-experience) + [#docs](https://slack.knative.dev/messages/user-experience) |
+| Github Repository          | [/ux](https://github.com/knative/ux) + [/docs](https://github.com/knative/docs)                                                                                                       |
+| Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                       |
 
-
-| &nbsp;                                                     | Leads            | Company | Profile                                     |
-| ---------------------------------------------------------- | ---------------- | ------- | ------------------------------------------- |
+| &nbsp;                                                        | Leads           | Company | Profile                                             |
+| ------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
+| <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon  | VMware  | [omerbensaadon](https://github.com/omerbensaadon)   |
+| <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana  | IBM     | [csantanapr](https://github.com/csantanapr)         |
 
 ## Eventing
 
@@ -304,33 +305,9 @@ Security concerns across Knative components
 | ------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
 | <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson   | VMware  | [evankanderson](https://github.com/evankanderson)   |
 | <img width="30px" src="https://github.com/julz.png">          | Julian Friedman | IBM     | [julz](https://github.com/julz)                     |
-
-## User Experience
-
-User Experience concerns across Knative components
-
-| Artifact                   | Link                                                                                                                                                    |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Charter / Mission          | [Charter](https://docs.google.com/document/d/1K_LGymgqedAzRS0ACdVtJH1ktQxrf1OatfxzIb6LjU0/edit?usp=sharing)                                             |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                     |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                    |
-| Community Meeting Calendar | Tuesday at 9:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                               |
-| Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                  |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                          |
-| Slack Channel              | [#user-experience](https://slack.knative.dev/messages/user-experience)                                                                                  |
-| Github Repository          | [#user-experience](https://github.com/knative/ux)                                                                                                       |
-| Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                       |
-
-| &nbsp;                                                        | Leads           | Company | Profile                                             |
-| ------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
-| <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon  | VMware  | [omerbensaadon](https://github.com/omerbensaadon)   |
-| <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana  | IBM     | [csantanapr](https://github.com/csantanapr)         |
-
 ---
 
 Except as otherwise noted, the content of this page is licensed under the
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/),
 and code samples are licensed under the
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
-
