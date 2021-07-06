@@ -402,6 +402,12 @@ orgs:
         description: Kn plugin for sending events to Knative sinks.
         has_projects: true
         has_wiki: false
+      kn-plugin-func:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for opinionated function development.
+        has_projects: true
+        has_wiki: false
       kn-plugin-migration:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -533,6 +539,7 @@ orgs:
           kn-plugin-admin: write
           kn-plugin-diag: write
           kn-plugin-event: write
+          kn-plugin-func: write
           kn-plugin-migration: write
           kn-plugin-quickstart: write
           kn-plugin-sample: write
@@ -628,6 +635,7 @@ orgs:
           kn-plugin-admin: admin
           kn-plugin-diag: admin
           kn-plugin-event: admin
+          kn-plugin-func: admin
           kn-plugin-migration: admin
           kn-plugin-quickstart: admin
           kn-plugin-sample: admin
