@@ -48,7 +48,7 @@ orgs:
     - bbrowning
     - bbtong
     - bcle
-    - beemarie
+    - bvennam
     - benmoss
     - BenTheElder
     - billimek
@@ -803,7 +803,7 @@ orgs:
         repos:
           async-component: write
         members:
-        - beemarie
+        - bvennam
         - julz
         - maximilien
 
