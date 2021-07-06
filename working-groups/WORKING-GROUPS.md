@@ -55,7 +55,7 @@ The current working groups are:
 
 - [API Core](#api-core)
 - [Client](#client)
-- [Documentation](#documentation)
+- [Documentation + User Experience](#documentation-+-user-experience)
 - [Eventing](#eventing)
 - [Event Delivery](#event-delivery)
 - [Eventing Sources](#eventing-sources)
@@ -64,7 +64,6 @@ The current working groups are:
 - [Productivity](#productivity)
 - [Scaling](#scaling)
 - [Security](#security)
-- [User Experience](#user-experience)
   <!-- TODO add charters for each group -->
 
 ## API Core
@@ -114,15 +113,8 @@ conventions
 
 ## Documentation + User Experience
 
-Knative documentation, especially the [Docs](https://github.com/knative/docs/)
+User Experience concerns across Knative components and Knative documentation, especially the [Docs](https://github.com/knative/docs/)
 repo.
-
-
-
-
-## User Experience
-
-User Experience concerns across Knative components
 
 | Artifact                   | Link                                                                                                                                                    |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
