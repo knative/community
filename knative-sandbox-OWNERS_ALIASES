@@ -5,7 +5,7 @@ aliases:
   api-core-wg-leads:
   - dprotaso
   async-component-approvers:
-  - beemarie
+  - bvennam
   - julz
   - maximilien
   autoscaling-wg-leads:
@@ -153,6 +153,7 @@ aliases:
   - k4leung4
   - lionelvillard
   - markusthoemmes
+  - matzew
   - mikehelmick
   - n3wscott
   - nak3
