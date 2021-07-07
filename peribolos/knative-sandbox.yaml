@@ -524,6 +524,12 @@ orgs:
         description: A template project for writing your own Knative eventing source.
         has_projects: true
         has_wiki: false
+      will-peribolos-delete-this:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Sample repo, please ignore
+        has_projects: true
+        has_wiki: false
       wg-repository:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -656,6 +662,7 @@ orgs:
           reconciler-test: admin
           sample-controller: admin
           sample-source: admin
+          will-peribolos-delete-this: admin
           wg-repository: admin
         teams:
           Knative Robots:
