@@ -209,7 +209,6 @@ orgs:
     - shrajfr12
     - shreejad
     - skim1420
-    - slinkydeveloper
     - smarterclayton
     - smoser-ibm
     - srvaroa
@@ -598,7 +597,6 @@ orgs:
             description: The Working Group leads for Event Delivery
             members:
             - matzew
-            - slinkydeveloper
             privacy: closed
           Eventing WG Leads:
             description: The Working Group leads for Eventing
@@ -719,7 +717,6 @@ orgs:
         - n3wscott
         - nak3
         - navidshaikh
-        - slinkydeveloper
         - tcnghia
         - vagababov
         - vaikas
@@ -822,7 +819,6 @@ orgs:
         repos:
           control-protocol: write
         members:
-        - slinkydeveloper
         - devguyio
         - matzew
         - lionelvillard
@@ -925,7 +921,6 @@ orgs:
           eventing-kafka-broker: write
         members:
         - pierDipi
-        - slinkydeveloper
 
       eventing-natss Approvers:
         description: Approver group for eventing-natss - to be used in CODEOWNERS file

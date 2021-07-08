@@ -420,7 +420,6 @@ orgs:
     - sjug
     - skim1420
     - skonto
-    - slinkydeveloper
     - slwilliams
     - smarterclayton
     - smoser-ibm
@@ -782,7 +781,6 @@ orgs:
             description: The Working Group leads for Channels
             members:
             - matzew
-            - slinkydeveloper
             privacy: closed
           Eventing Triage:
             description: Temporary group to allow folks to continue to maintain eventing
@@ -790,7 +788,6 @@ orgs:
             members:
             - lberk
             - akashrv
-            - slinkydeveloper
             - n3wscott
             - antoineco
             privacy: closed
@@ -891,7 +888,6 @@ orgs:
         - dprotaso
         - julz
         members:
-        - slinkydeveloper
         - ImJasonH
         - ZhiminXiang
         - andrew-su
