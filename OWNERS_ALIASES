@@ -16,6 +16,7 @@ aliases:
   - yanweiguo
   channel-wg-leads:
   - matzew
+  - slinkydeveloper
   client-reviewers:
   - itsmurugappan
   client-wg-leads:
@@ -51,6 +52,7 @@ aliases:
   - antoineco
   - lberk
   - n3wscott
+  - slinkydeveloper
   eventing-wg-leads:
   - devguyio
   - lionelvillard
@@ -65,6 +67,7 @@ aliases:
   - matzew
   - n3wscott
   - pierDipi
+  - slinkydeveloper
   - vaikas
   knative-admin:
   - RichieEscarez
@@ -104,6 +107,7 @@ aliases:
   - navidshaikh
   - rhuss
   - shashwathi
+  - slinkydeveloper
   - tanzeeb
   - tcnghia
   - vagababov
