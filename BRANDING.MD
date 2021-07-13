@@ -1,7 +1,8 @@
 ## Knative Branding Guidelines
 
-The Knative logo and trademark are made available here with the following
-guidelines:
+The Knative Trademark Committee oversees the Knative logo, trademark and
+knative.dev domain. The Knative logo and trademark are made available here
+with the following guidelines:
 
 **You may:**
  - use them for non-commercial uses such as t-shirts and stickers
@@ -10,6 +11,9 @@ guidelines:
  - use them to advertise that your product has support for Knative [Note that
    at this time such usage does *not* indicate conformance with any standards
    or requirements]
+ - use them in the name of a code repository as a means to indicate that the
+   code being developed is related to Knative - as long as there is no
+   indication that the Knative community endorses the repository.
 
 **You may not:**
  - Use them in a way that would confuse people about the origin of Knative,
