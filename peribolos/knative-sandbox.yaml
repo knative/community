@@ -535,7 +535,6 @@ orgs:
           kn-plugin-admin: write
           kn-plugin-diag: write
           kn-plugin-event: write
-          kn-plugin-func: write
           kn-plugin-migration: write
           kn-plugin-quickstart: write
           kn-plugin-sample: write
@@ -630,7 +629,6 @@ orgs:
           kn-plugin-admin: admin
           kn-plugin-diag: admin
           kn-plugin-event: admin
-          kn-plugin-func: admin
           kn-plugin-migration: admin
           kn-plugin-quickstart: admin
           kn-plugin-sample: admin
