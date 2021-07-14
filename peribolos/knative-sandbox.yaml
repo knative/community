@@ -409,7 +409,7 @@ orgs:
       kn-plugin-func:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: Kn plugin with for functions.
+        description: Kn plugin for functions.
         has_projects: true
         has_wiki: false
       kn-plugin-migration:
