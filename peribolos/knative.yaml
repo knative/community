@@ -762,6 +762,7 @@ orgs:
         - abrennan89
         - carieshmarie
         - richieescarez
+        - snneji
       Eventing Reviewers:
         description: Receive reviews for docs directories
         privacy: closed
