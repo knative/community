@@ -600,7 +600,6 @@ orgs:
             members:
             - devguyio
             - lionelvillard
-            - vaikas
             privacy: closed
           Source WG Leads:
             description: The Working Group leads for Sources
