@@ -1014,6 +1014,16 @@ orgs:
         - zhangtbj
         - maximilien
 
+      kn-plugin-quickstart Approvers:
+        description: Approver group for kn-plugin-quickstart - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          kn-plugin-quickstart: write
+        members:
+        - csantanapr
+        - omerbensaadon
+        - psschwei
+
       kn-plugin-sample Approvers:
         description: Approver group for kn-plugin-sample - to be used in CODEOWNERS file
         privacy: closed
