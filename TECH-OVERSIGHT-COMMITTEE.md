@@ -100,6 +100,17 @@ The current members of the TOC are shown below.
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes   | Red Hat | [@markusthoemmes](https://github.com/markusthoemmes) | 2020-06-09 | 2022     |
 | <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß       | Red Hat | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022     |
 
+## Emeritus Committee Members
+
+To recognize the folks that have served in the TOC in the past, below we list the previous members of the TOC (sorted by their 'Term End').
+
+| &nbsp;                                                         | Member         | Profile                                              | Term Start | Term End |
+| -------------------------------------------------------------- | -------------- | ---------------------------------------------------- | ---------- | --------
+| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas    | [@vaikas](https://github.com/vaikas)                 | Bootstrap  | 2020     |
+| <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran     | [@tcnghia](https://github.com/tcnghia)               | 2020       | 2021     |
+| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore     | [@mattmoor](https://github.com/mattmoor)             | Bootstrap  | 2021     |
+| <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers  | [@grantr](https://github.com/grantr)                 | 2020       | 2021     |
+
 ---
 
 Except as otherwise noted, the content of this page is licensed under the
