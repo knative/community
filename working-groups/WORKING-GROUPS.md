@@ -155,6 +155,12 @@ Event sources, bindings, FaaS framework, and orchestration
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard (Technical) | IBM     | [lionelvillard](https://github.com/lionelvillard) |
 | <img width="30px" src="https://github.com/devguyio.png">      | Ahmed Abdalla (Execution)  | Red Hat | [devguyio](https://github.com/devguyio)           |
 
+
+| &nbsp;                                                 | Emeritus Leads             | Profile                             | Duration  |
+| ------------------------------------------------------ | -------------------------- | ----------------------------------- | --------- |
+| <img width="30px" src="https://github.com/grantr.png"> | Grant Rodgers (Technical)  | [grantr](https://github.com/grantr) | 2020-2021 |
+| <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas (Technical)    | [vaikas](https://github.com/vaikas) | 2018-2021 |
+
 ## Event Delivery
 
 Event delivery data plane.
