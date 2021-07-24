@@ -763,6 +763,7 @@ orgs:
         - carieshmarie
         - richieescarez
         - snneji
+        - RichardJJG
       Eventing Reviewers:
         description: Receive reviews for docs directories
         privacy: closed
