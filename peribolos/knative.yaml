@@ -559,10 +559,10 @@ orgs:
         description: 'Knative developer experience, docs, reference Knative CLI implementation '
         has_projects: true
         has_wiki: false
-      client-contrib:
+      client-pkg:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: Community contributed `kn` plugins.
+        description: Reusable Knative client library
         has_projects: true
         has_wiki: false
       community:
@@ -712,7 +712,7 @@ orgs:
         privacy: closed
         repos:
           client: write
-          client-contrib: write
+          client-pkg: write
           homebrew-client: write
           release: write
         teams:
@@ -820,7 +820,7 @@ orgs:
           build-templates: admin
           caching: admin
           client: admin
-          client-contrib: admin
+          client-pkg: admin
           community: admin
           docs: admin
           eventing: admin
