@@ -719,12 +719,12 @@ orgs:
           Client WG Leads:
             description: The Working Group Leads for Client
             members:
+            - dsimansk
             - navidshaikh
             - rhuss
             privacy: closed
         members:
         - maximilien
-        - dsimansk
       Conformance Writers:
         description: Grants write access to conformance-related repositories.
         privacy: closed
