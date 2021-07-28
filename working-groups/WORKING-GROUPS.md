@@ -230,6 +230,10 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | <img width="30px" src="https://github.com/nak3.png">        | Kenjiro Nakayama | Red Hat   | [nak3](https://github.com/nak3)               |
 | <img width="30px" src="https://github.com/ZhiminXiang.png"> | Zhimin Xiang     | Google    | [ZhiminXiang](https://github.com/ZhiminXiang) |
 
+| &nbsp;                                                  | Emeritus Leads  | Profile                               | Duration  |
+| --------------------------------------------------------| --------------- | --------------------------------------| --------- |
+| <img width="30px" src="https://github.com/tcnghia.png"> | Nghia Tran      | [tcnghia](https://github.com/tcnghia) | 2018-2021 |
+
 ## Operations
 
 Managing, assessing system health and maintaining Knative clusters
