@@ -807,8 +807,9 @@ orgs:
             - n3wscott
             privacy: closed
         members:
-        - pierDipi
         - aliok
+        - pierDipi
+        - vaikas
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
