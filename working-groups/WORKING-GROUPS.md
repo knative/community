@@ -89,6 +89,11 @@ API
 | -------------------------------------------------------- | ---------------- | ------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/dprotaso.png"> | Dave Protasowski | VMware  | [dprotaso](https://github.com/dprotaso) |
 
+| &nbsp;                                                 | Emeritus Leads             | Profile                             | Duration  |
+| ------------------------------------------------------ | -------------------------- | ----------------------------------- | --------- |
+| <img width="30px" src="https://github.com/dgerd.png"> | Dan Gerdesmeier | [dgerd](https://github.com/dgerd) | 2019-2020 |
+| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore  | [mattmoor](https://github.com/mattmoor) | 2018-2021
+
 ## Client
 
 [Client](https://github.com/knative/client), CLI, client libraries, and client
@@ -320,7 +325,27 @@ Security concerns across Knative components
 | <img width="30px" src="https://github.com/julz.png">          | Julian Friedman | IBM     | [julz](https://github.com/julz)                     |
 ---
 
+
+# Emeritus Working Groups
+
+## Build
+
+| &nbsp;                                                   | Leads      | Profile                                 | Duration  |
+| -------------------------------------------------------- | ---------- | --------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/ImJasonH.png"> | Jason Hall | [ImJasonH](https://github.com/ImJasonH) | 2018-2019 |
+
+
+
+## Observability
+
+| &nbsp;                                                    | Leads            | Profile                                   | Duration  |
+| --------------------------------------------------------- | ---------------- | ----------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/mdemirhan.png"> | Mustafa Demirhan | [mdemirhan](https://github.com/mdemirhan) | 2018-2019 |
+
+
 Except as otherwise noted, the content of this page is licensed under the
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/),
 and code samples are licensed under the
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+
+
