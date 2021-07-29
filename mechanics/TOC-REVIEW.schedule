@@ -3,7 +3,7 @@
 
 # To generate reminders (on a mac):
 # awk -F \| '/^[0-9]/ {cmd "/bin/date -j -f %FT%T " substr($1, 0, 19) " +%e\\ %b" | getline date; \
-#    cmd "/bin/date -j -f %FT%T -v-4d " substr($1, 0, 19) " +%e\\ %b" | getline reminder; \
+#    cmd "/bin/date -j -f %FT%T -v-4d " substr($1, 0, 19) " +%b\\ %e" | getline reminder; \
 #    print "/remind #wg-leads " $2 " is presenting at TOC on " date " (this week) :heart: " reminder}' \
 #    mechanics/TOC-REVIEW.schedule
 
