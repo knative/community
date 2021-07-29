@@ -877,8 +877,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - dprotaso
-            - matzew
+            - yanweiguo
+            - lionelvillard
             # TODO(https://github.com/knative/community/issues/429): Establish docs/website rotation process.
             - RichieEscarez
       Knative Milestone Maintainers:
