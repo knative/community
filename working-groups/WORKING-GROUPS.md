@@ -113,6 +113,7 @@ conventions
 
 | &nbsp;                                                      | Leads        | Company | Profile                                      |
 | ----------------------------------------------------------- | ------------ | ------- | -------------------------------------------- |
+| <img width="30px" src="https://github.com/dsimansk.png"> | David Simansky | Red Hat | [dsimansk](https://github.com/dsimansk) |
 | <img width="30px" src="https://github.com/navidshaikh.png"> | Navid Shaikh | VMware | [navidshaikh](https://github.com/navidshaikh) |
 | <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß   | Red Hat | [rhuss](https://github.com/rhuss)            |
 
@@ -347,5 +348,3 @@ Except as otherwise noted, the content of this page is licensed under the
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/),
 and code samples are licensed under the
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
-
-
