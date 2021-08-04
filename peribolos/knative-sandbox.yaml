@@ -817,8 +817,10 @@ orgs:
           control-protocol: write
         members:
         - devguyio
+        - eric-sap
         - matzew
         - lionelvillard
+        - travis-minke-sap
         - vaikas
 
       discovery Approvers:
