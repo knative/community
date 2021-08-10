@@ -33,6 +33,7 @@ Other Documents
   committee
 - [Technical Oversight Committee](./TECH-OVERSIGHT-COMMITTEE.md) - describes our
   technical oversight committee
+- [Trademark Committee]()./TRADEMARK-COMMITTEE.md) - describes our trademark committee
 - [Community Roles](./ROLES.md) - describes the roles individuals can assume
   within the Knative community
 - [Reviewing and Merging Pull Requests](./REVIEWING.md) - how we manage pull
@@ -52,7 +53,7 @@ using Knative.
 Knative is an open source project with an active development community. The
 project was started by Google but has contributions from a growing number of
 industry-leading companies. For a current list of the authors, see
-[Authors](https://github.com/knative/serving/blob/master/AUTHORS).
+[Authors](https://github.com/knative/serving/blob/main/AUTHORS).
 
 ### Authoring samples
 
@@ -61,7 +62,7 @@ tools, platforms, languages, and products. By submitting a tutorial you can
 share your experience and help others who are solving similar problems.
 
 Community tutorials are stored in Markdown files under the `community` folder
-[Community Samples](https://github.com/knative/docs/tree/master/community/samples/README.md).
+[Community Samples](https://github.com/knative/docs/tree/main/community/samples/README.md).
 These documents are contributed, reviewed, and maintained by the community.
 
 Submit a Pull Request to the community sample directory under the Knative
@@ -73,7 +74,9 @@ if you follow it as you write your tutorial.
 
 ## Meetings and work groups
 
-Knative has public and recorded bi-weekly community meetings.
+Knative has public and recorded monthly community meetings. You can see the
+agenda and links to previous recordings
+[here](https://docs.google.com/document/d/1o0ENlHpv5nYPOznlbDc9xzNcwTqtxZrmPAVZLoWRHyE/edit#heading=h.yzvtyg3omrak).
 
 Each project has one or more
 [working groups](./working-groups/WORKING-GROUPS.md) driving the project, and

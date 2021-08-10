@@ -97,9 +97,9 @@ The process for adding features to Knative can be found
 ## Setting up to contribute to Knative
 
 Check out this
-[README](https://github.com/knative/serving/blob/master/README.md) to learn
+[README](https://github.com/knative/serving/blob/main/README.md) to learn
 about the Knative source base and setting up your
-[development environment](https://github.com/knative/serving/blob/master/DEVELOPMENT.md).
+[development environment](https://github.com/knative/serving/blob/main/DEVELOPMENT.md).
 
 ## Pull requests
 

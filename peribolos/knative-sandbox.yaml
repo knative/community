@@ -12,10 +12,11 @@ orgs:
     default_repository_permission: read
     admins:
     - bsnchan
+    - dprotaso
     - evankanderson
     - google-admin
     - googlebot
-    - grantr
+    - julz
     - knative-prow-robot
     - markusthoemmes
     - mbehrendt
@@ -45,8 +46,10 @@ orgs:
     - aslom
     - balopat
     - bbrowning
+    - bbtong
     - bcle
-    - beemarie
+    - bvennam
+    - benmoss
     - BenTheElder
     - billimek
     - bkrannich
@@ -77,7 +80,6 @@ orgs:
     - deissnerk
     - devguyio
     - dieucao
-    - dprotaso
     - droot
     - dsimansk
     - duglin
@@ -87,8 +89,8 @@ orgs:
     - eobrain
     - ericbottard
     - ericlem
+    - eric-sap
     - fabolive
-    - fallback-notification-blocker
     - fj
     - flavorjones
     - frnksgr
@@ -113,6 +115,7 @@ orgs:
     - igorbelianski
     - igorpeshansky
     - imikushin
+    - impl
     - itsmurugappan
     - jama22
     - jasonpolites
@@ -130,32 +133,34 @@ orgs:
     - josephburnett
     - joshua-bone
     - joshuawilson
+    - jrangelramos
     - JRBANCEL
     - jskeet
-    - julz
     - jzelinskie
     - k4leung4
     - knative-automation
     - knative-metrics-robot
     - knative-prow-releaser-robot
+    - knative-prow-updater-robot
     - knative-test-reporter-robot
     - krumts
     - kthakar1990
+    - kvmware
     - lance
-    - lanceliuu
     - lberk
     - lesv
     - lichuqiang
     - lionelvillard
     - liu-cong
+    - lkingland
     - macruzbar
     - markfisher
     - markito
+    - matejvasek
     - mattmoor
     - matzew
     - mayaspivak
     - maximilien
-    - mdemirhan
     - mfine30
     - mgencur
     - MIBc
@@ -171,16 +176,18 @@ orgs:
     - navidshaikh
     - nicolaferraro
     - nimbcode
+    - novahe
     - nlopezgi
     - omerbensaadon
     - ormos
-    - peterfeifanchen
+    - petahhh
     - phamilton
     - pierDipi
     - piotrmsc
     - pkosiec
     - priyawadhwa
     - prydonius
+    - psschwei
     - qibobo
     - radufa
     - RaeesBhatti
@@ -195,6 +202,7 @@ orgs:
     - rseroter
     - runzexia
     - rusde
+    - salaboy
     - saturnism
     - savitaashture
     - sbawaska
@@ -205,7 +213,6 @@ orgs:
     - shrajfr12
     - shreejad
     - skim1420
-    - slinkydeveloper
     - smarterclayton
     - smoser-ibm
     - srvaroa
@@ -228,12 +235,15 @@ orgs:
     - troytop
     - trshafer
     - tzununbekov
+    - upodroid
     - uwefassnacht
     - vagababov
     - vbatts
     - vdemeester
+    - vyasgun
     - wfernandes
     - wzshiming
+    - xinydev
     - xtreme-sameer-vohra
     - yangyunfeng007
     - yanweiguo
@@ -265,6 +275,12 @@ orgs:
         description: "Repository for sharing org-wide Github metadata and workflow templates."
         has_projects: true
         has_wiki: false
+      actions-downstream-test:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Github Action for Knative to test downstream repos upgradability from upstream repos.
+        has_projects: true
+        has_wiki: false
       actions-kind:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -293,12 +309,6 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: "Enable interactions with a cluster and its resources: built-in types, CRDs and COs."
-        has_projects: true
-        has_wiki: false
-      downstream-test-go:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: A Github Action for Knative to test downstream repos upgradability from upstream repos.
         has_projects: true
         has_wiki: false
       eventing-awssqs:
@@ -373,6 +383,12 @@ orgs:
         description: Redis integration with Knative Eventing.
         has_projects: true
         has_wiki: false
+      homebrew-kn-plugins:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Homebrew tap for holding all kn plugins that are released together with Knative.
+        has_projects: true
+        has_wiki: false
       kn-plugin-admin:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -391,10 +407,22 @@ orgs:
         description: Kn plugin for sending events to Knative sinks.
         has_projects: true
         has_wiki: false
+      kn-plugin-func:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for functions.
+        has_projects: true
+        has_wiki: false
       kn-plugin-migration:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Kn plugin for migrating Knative services from one cluster to another.
+        has_projects: true
+        has_wiki: false
+      kn-plugin-quickstart:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for installation of Knative cluster for developers to quickstart.
         has_projects: true
         has_wiki: false
       kn-plugin-service-log:
@@ -438,6 +466,12 @@ orgs:
         allow_rebase_merge: false
         description: A benchmarking tool to evaluate Knative performance
         has_projects: true
+        has_wiki: false
+      monitoring:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Monitoring support for Knative
+        has_projects: false
         has_wiki: false
       net-certmanager:
         allow_merge_commit: false
@@ -506,10 +540,13 @@ orgs:
         privacy: closed
         repos:
           build-spike: write
+          homebrew-kn-plugins: write
           kn-plugin-admin: write
           kn-plugin-diag: write
           kn-plugin-event: write
+          kn-plugin-func: write
           kn-plugin-migration: write
+          kn-plugin-quickstart: write
           kn-plugin-sample: write
           kn-plugin-service-log: write
           kn-plugin-source-kafka: write
@@ -519,6 +556,7 @@ orgs:
           Client WG Leads:
             description: The Working Group Leads for Client
             members:
+            - dsimansk
             - navidshaikh
             - rhuss
             privacy: closed
@@ -547,6 +585,7 @@ orgs:
           eventing-kafka: write
           eventing-natss: write
           eventing-prometheus: write
+          eventing-kafka-broker: write
           eventing-rabbitmq: write
           eventing-redis: write
           sample-source: write
@@ -557,21 +596,17 @@ orgs:
             description: The Working Group leads for Event Delivery
             members:
             - matzew
-            - slinkydeveloper
             privacy: closed
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
             - devguyio
-            - grantr
             - lionelvillard
-            - vaikas
             privacy: closed
           Source WG Leads:
             description: The Working Group leads for Sources
             members:
             - lionelvillard
-            - vaikas
             - n3wscott
             privacy: closed
       Knative Admin:
@@ -581,12 +616,12 @@ orgs:
         repos:
           # All repos should be listed here!
           .github: admin
+          actions-downstream-test: admin
           actions-kind: admin
           async-component: admin
           build-spike: admin
           control-protocol: admin
           discovery: admin
-          downstream-test-go: admin
           eventing-autoscaler-keda: admin
           eventing-awssqs: admin
           eventing-camel: admin
@@ -600,10 +635,13 @@ orgs:
           eventing-prometheus: admin
           eventing-rabbitmq: admin
           eventing-redis: admin
+          homebrew-kn-plugins: admin
           kn-plugin-admin: admin
           kn-plugin-diag: admin
           kn-plugin-event: admin
+          kn-plugin-func: admin
           kn-plugin-migration: admin
+          kn-plugin-quickstart: admin
           kn-plugin-sample: admin
           kn-plugin-service-log: admin
           kn-plugin-source-kafka: admin
@@ -617,6 +655,7 @@ orgs:
           net-istio: admin
           net-ingressv2: admin
           net-kourier: admin
+          monitoring: admin
           reconciler-test: admin
           sample-controller: admin
           sample-source: admin
@@ -627,41 +666,42 @@ orgs:
             members:
             - knative-prow-robot
             - knative-prow-releaser-robot
+            - knative-prow-updater-robot
             - knative-test-reporter-robot
             privacy: closed
           Steering Committee:
             description: ""
             maintainers:
-            - isdal
             - pmorie
             - bsnchan
             - mbehrendt
             - thisisnotapril
+            - vaikas
             privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
-            - grantr
             - rhuss
             - markusthoemmes
             - evankanderson
-            - fallback-notification-blocker
+            - dprotaso
+            - julz
             privacy: closed
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - evankanderson
-            - markusthoemmes
-            - fallback-notification-blocker
+            - yanweiguo
+            - lionelvillard
       Knative Milestone Maintainers:
         description: 'DO NOT RENAME - this group is used by Prow to control who can
           manipulate milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
         privacy: closed
         maintainers:
-        - grantr
         - rhuss
         - markusthoemmes
         - evankanderson
+        - julz
+        - dprotaso
         members:
         - akashrv
         - aslom
@@ -674,15 +714,19 @@ orgs:
         - n3wscott
         - nak3
         - navidshaikh
-        - slinkydeveloper
         - tcnghia
         - vagababov
         - vaikas
         - ZhiminXiang
+        - matzew
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
-        repos: {}
+        repos:
+          monitoring: write
+        members:
+        - dprotaso
+        - upodroid
         teams:
           Operations WG Leads:
             description: The Working Group leads for Operations
@@ -694,8 +738,8 @@ orgs:
         privacy: closed
         repos:
           .github: write
+          actions-downstream-test: write
           actions-kind: write
-          downstream-test-go: write
           kperf: write
           knobots: write
         teams:
@@ -743,7 +787,6 @@ orgs:
             description: The Working Group leads for Networking
             members:
             - nak3
-            - tcnghia
             - ZhiminXiang
             privacy: closed
       UX Writers:
@@ -763,7 +806,7 @@ orgs:
         repos:
           async-component: write
         members:
-        - beemarie
+        - bvennam
         - julz
         - maximilien
 
@@ -773,12 +816,12 @@ orgs:
         repos:
           control-protocol: write
         members:
-        - slinkydeveloper
         - devguyio
+        - eric-sap
         - matzew
         - lionelvillard
+        - travis-minke-sap
         - vaikas
-        - grantr
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
@@ -857,6 +900,9 @@ orgs:
         members:
         - aliok
         - davyodom
+        - devguyio
+        - eric-sap
+        - lberk
         - matzew
         - phamilton
         - travis-minke-sap
@@ -874,7 +920,6 @@ orgs:
           eventing-kafka-broker: write
         members:
         - pierDipi
-        - slinkydeveloper
 
       eventing-natss Approvers:
         description: Approver group for eventing-natss - to be used in CODEOWNERS file
@@ -883,6 +928,7 @@ orgs:
           eventing-natss: write
         members:
         - devguyio
+        - zhaojizhuang
 
       eventing-prometheus Approvers:
         description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
@@ -910,6 +956,16 @@ orgs:
         members:
         - aavarghese
         - lionelvillard
+
+      homebrew-kn-plugins Approvers:
+        description: Approver group for homebrew-kn-plugins - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          homebrew-kn-plugins: write
+        members:
+        - dsimansk
+        - maximilien
+        - rhuss
 
       kn-plugin-admin Approvers:
         description: Approver group for kn-plugin-admin - to be used in CODEOWNERS file
@@ -941,6 +997,17 @@ orgs:
         - cardil
         - rhuss
 
+      kn-plugin-func Approvers:
+        description: Approver group for kn-plugin-func
+        privacy: closed
+        repos:
+          kn-plugin-func: write
+        members:
+        - lance
+        - lkingland
+        - matejvasek
+        - zroubalik
+
       kn-plugin-migration Approvers:
         description: Approver group for kn-plugin-migration - to be used in CODEOWNERS file
         privacy: closed
@@ -949,6 +1016,16 @@ orgs:
         members:
         - zhangtbj
         - maximilien
+
+      kn-plugin-quickstart Approvers:
+        description: Approver group for kn-plugin-quickstart - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          kn-plugin-quickstart: write
+        members:
+        - csantanapr
+        - omerbensaadon
+        - psschwei
 
       kn-plugin-sample Approvers:
         description: Approver group for kn-plugin-sample - to be used in CODEOWNERS file
@@ -1039,7 +1116,6 @@ orgs:
           net-istio: write
         members:
         - JRBANCEL
-        - mdemirhan
         - nak3
         - vagababov
         - ZhiminXiang

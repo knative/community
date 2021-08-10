@@ -226,14 +226,32 @@ tuple
    <td><strong>Availability</strong>
    </td>
   </tr>
-   <tr>
+  <tr>
+   <td>0.24.x
+   </td>
+   <td>2021-06-29
+   </td>
+   <td>2021-12-04
+   </td>
+   <td>v1.19.x
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
    <td>0.23.x
    </td>
    <td>2021-05-18
    </td>
    <td>2021-11-02
    </td>
-   <td>v1.19.x
+   <td>v1.18.x
    </td>
    <td>v1
    </td>
@@ -562,13 +580,33 @@ tuple
    </td>
   </tr>
   <tr>
+   <td>0.24.x
+   </td>
+   <td >2021-06-29
+   </td>
+   <td>2021-12-14
+   </td>
+   <td>v1.19.x
+   </td>
+   <td>v1
+   </td>
+   <td>N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
    <td rowspan="2" >0.23.x
    </td>
    <td rowspan="2" >2021-05-18
    </td>
    <td rowspan="2" >2021-11-02
    </td>
-   <td rowspan="2" >v1.19.x
+   <td rowspan="2" >v1.18.x
    </td>
    <td rowspan="2" >v1
    </td>

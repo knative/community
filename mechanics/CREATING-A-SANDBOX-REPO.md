@@ -58,7 +58,7 @@ other WGs to review and approve impacting changes.
      reviewers
 
    - `CODE-OF-CONDUCT.md` (that links to
-     https://github.com/knative/community/blob/master/CODE-OF-CONDUCT.md)
+     https://github.com/knative/community/blob/main/CODE-OF-CONDUCT.md)
 
    - `README.md` for the repo by cloning it and pushing directly to the repo.
 
@@ -72,12 +72,12 @@ other WGs to review and approve impacting changes.
 
 1. (For golang repos) Set up an alias under `knative.dev` to enable
    `knative.dev/` golang imports by adding a file for the repo to
-   https://github.com/knative/website/tree/master/static/golang and updating the
-   [`_redirects`](https://github.com/knative/website/blob/master/static/_redirects)
+   https://github.com/knative/website/tree/main/static/golang and updating the
+   [`_redirects`](https://github.com/knative/website/blob/main/static/_redirects)
    file.
 
 1. Set up
-   [test-infra using the automation](https://github.com/knative/test-infra/blob/master/guides/prow_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge),
+   [test-infra using the automation](https://github.com/knative/test-infra/blob/main/guides/prow_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge),
    which probably involves updating `config/prod/prow/config_knative.yaml` and
    then running `./hack/generate-configs.sh`
 
@@ -90,6 +90,6 @@ other WGs to review and approve impacting changes.
    protection checks which are required in the "Settings" > "Branches" branch
    protection rule:
 
-   - Under "Branches" add a branch protection rule for `master`:
+   - Under "Branches" add a branch protection rule for `main`:
      - Require status checks to pass (except `...-go-coverage` checks)
      - Include administrators

@@ -9,10 +9,11 @@ orgs:
     default_repository_permission: read
     admins:
     - bsnchan
+    - dprotaso
     - evankanderson
     - google-admin
     - googlebot
-    - grantr
+    - julz
     - knative-prow-robot
     - markusthoemmes
     - mbehrendt
@@ -54,8 +55,8 @@ orgs:
     - antoineco
     - apolito
     - arghya88
-    - arturenault
     - ariel-bentu
+    - arturenault
     - aryann
     - asaksena
     - asciimike
@@ -67,10 +68,11 @@ orgs:
     - ayj
     - balopat
     - bbrowning
+    - bbtong
     - bcle
-    - beemarie
     - bendory
     - Benjamintf1
+    - benmoss
     - BenTheElder
     - bharattkukreja
     - biilmann
@@ -92,6 +94,7 @@ orgs:
     - bstick12
     - bszwej
     - btardell
+    - bvennam
     - bwmcadams
     - capri-xiyue
     - cardil
@@ -109,8 +112,8 @@ orgs:
     - cooperneil
     - coryrc
     - cppforlife
-    - craigbox
     - cr22rc
+    - craigbox
     - csantanapr
     - cscheiber
     - Cynocracy
@@ -139,8 +142,8 @@ orgs:
     - dgrove-oss
     - dieucao
     - dlorenc
+    - dolfolife
     - dosire
-    - dprotaso
     - droot
     - dsimansk
     - dubwoc
@@ -176,9 +179,11 @@ orgs:
     - freddy33
     - frnksgr
     - g-abbi
+    - gabo1208
     - gabrtv
     - ganeshvlrk
     - garron
+    - geekygirldawn
     - georgeharley
     - gerardo-lc
     - Gerg
@@ -216,6 +221,7 @@ orgs:
     - iliyan-nenov
     - imikushin
     - ImJasonH
+    - impl
     - inlined
     - itsmurugappan
     - ixdy
@@ -255,8 +261,6 @@ orgs:
     - JRBANCEL
     - jsanda
     - jskeet
-    - jszroberto
-    - julz
     - justinjsmith
     - jzelinskie
     - k4leung4
@@ -270,11 +274,13 @@ orgs:
     - knative-automation
     - knative-metrics-robot
     - knative-prow-releaser-robot
+    - knative-prow-updater-robot
     - knative-test-reporter-robot
     - komestmus
     - krumts
     - krzyzacy
     - kthakar1990
+    - kvmware
     - labadav
     - lachie83
     - lambertjosh
@@ -334,9 +340,9 @@ orgs:
     - nilesh32
     - nimakaviani
     - nimbcode
-    - nlopezgi
     - nomisbeme
     - normalnorman
+    - novahe
     - nthnca
     - nvvalchev
     - nwjmunro
@@ -349,19 +355,21 @@ orgs:
     - paulrossman
     - PavelPavlov46
     - pbochynski
+    - petahhh
     - petereberlein
-    - peterfeifanchen
     - petergtz
     - phae
     - pierDipi
     - piotrmsc
     - PK85
     - pkosiec
+    - pmbanugo
     - pnagpur
     - pradeepto
     - pritianka-zz
     - priyawadhwa
     - prydonius
+    - psschwei
     - PTDelaney
     - qingling128
     - quentin-cha
@@ -375,13 +383,14 @@ orgs:
     - rbuskens
     - rettori
     - rfranzke
+    - RichardJJG
     - RichieEscarez
     - richterdavid
-    - RichardJJG
     - ridruejo
     - rmoe
     - rmorgan
     - rohitagarwalla
+    - ronavn
     - roopakparikh
     - rootfs
     - rosenhouse
@@ -392,6 +401,7 @@ orgs:
     - rwetzold-sap
     - ryanstewart
     - rybit
+    - salaboy
     - samodell
     - saturnism
     - savitaashture
@@ -411,11 +421,11 @@ orgs:
     - sjug
     - skim1420
     - skonto
-    - slinkydeveloper
     - slwilliams
     - smarterclayton
     - smoser-ibm
     - snneji
+    - spencerdillard
     - squee1945
     - sreetummidi
     - srinivashegde86
@@ -466,6 +476,7 @@ orgs:
     - tysonnorris
     - tzununbekov
     - univ0298
+    - upodroid
     - uwefassnacht
     - vagababov
     - vaikas-personal
@@ -477,6 +488,7 @@ orgs:
     - vlerenc
     - vsubramani
     - vvraskin
+    - vyasgun
     - wattsteve
     - wbacon10
     - wfernandes
@@ -485,6 +497,7 @@ orgs:
     - wslyln
     - wxb5639
     - wzshiming
+    - xinydev
     - xoebus
     - xtreme-sameer-vohra
     - xtreme-sina
@@ -504,7 +517,6 @@ orgs:
     - zhangtbj
     - zhaojizhuang
     - ZhiminXiang
-    - zhongduo
     - zhruan
     - zouyee
     - zrob
@@ -547,10 +559,10 @@ orgs:
         description: 'Knative developer experience, docs, reference Knative CLI implementation '
         has_projects: true
         has_wiki: false
-      client-contrib:
+      client-pkg:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: Community contributed `kn` plugins.
+        description: Reusable Knative client library
         has_projects: true
         has_wiki: false
       client-pkg:
@@ -675,12 +687,37 @@ orgs:
         has_wiki: false
         homepage: https://knative.dev
     teams:
+      Autoscaling Reviewers:
+        description: Receive reviews for autoscaling directories
+        privacy: closed
+        members:
+        - taragu
+      Autoscaling Writers:
+        description: Approvers and write access for autoscaling-related repositories.
+        privacy: closed
+        repos:
+          pkg: write
+          serving: write
+        members:
+        - julz
+        - yanweiguo
+        teams:
+          Autoscaling WG Leads:
+            description: The Working Group leads for Autoscaling
+            members:
+            - vagababov
+            - markusthoemmes
+            privacy: closed
+      Client Reviewers:
+        description: Receive reviews for client directories
+        privacy: closed
+        members:
+        - itsmurugappan
       Client Writers:
         description: Grants write access to client-related repositories.
         privacy: closed
         repos:
           client: write
-          client-contrib: write
           client-pkg: write
           homebrew-client: write
           release: write
@@ -688,9 +725,12 @@ orgs:
           Client WG Leads:
             description: The Working Group Leads for Client
             members:
+            - dsimansk
             - navidshaikh
             - rhuss
             privacy: closed
+        members:
+        - maximilien
       Conformance Writers:
         description: Grants write access to conformance-related repositories.
         privacy: closed
@@ -702,6 +742,16 @@ orgs:
             members:
             - tayarani
             privacy: closed
+      Docs Reviewers:
+        description: Receive reviews for docs directories
+        privacy: closed
+        members:
+        - mpetason
+        - jonatasbaldin
+        - omerbensaadon
+        - RichardJJG
+        - snneji
+        - pmbanugo
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
@@ -714,6 +764,19 @@ orgs:
             description: The Working Group leads for Docs
             members: []
             privacy: closed
+        members:
+        - abrennan89
+        - carieshmarie
+        - richieescarez
+        - snneji
+        - RichardJJG
+      Eventing Reviewers:
+        description: Receive reviews for docs directories
+        privacy: closed
+        members:
+        - aslom
+        - tommyreddad
+        - tayarani
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
@@ -727,7 +790,6 @@ orgs:
             description: The Working Group leads for Channels
             members:
             - matzew
-            - slinkydeveloper
             privacy: closed
           Eventing Triage:
             description: Temporary group to allow folks to continue to maintain eventing
@@ -735,26 +797,25 @@ orgs:
             members:
             - lberk
             - akashrv
-            - slinkydeveloper
             - n3wscott
-            - zhongduo
             - antoineco
             privacy: closed
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
             - devguyio
-            - grantr
             - lionelvillard
-            - vaikas
             privacy: closed
           Source WG Leads:
             description: The Working Group leads for Sources
             members:
             - lionelvillard
-            - vaikas
             - n3wscott
             privacy: closed
+        members:
+        - aliok
+        - pierDipi
+        - vaikas
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -766,7 +827,6 @@ orgs:
           build-templates: admin
           caching: admin
           client: admin
-          client-contrib: admin
           client-pkg: admin
           community: admin
           docs: admin
@@ -792,6 +852,7 @@ orgs:
             members:
             - knative-prow-robot
             - knative-prow-releaser-robot
+            - knative-prow-updater-robot
             - knative-test-reporter-robot
             privacy: closed
           Steering Committee:
@@ -808,33 +869,34 @@ orgs:
             maintainers:
             - bsnchan
             - duglin
-            - ronavn
+            - spencerdillard
             privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
-            - grantr
             - rhuss
             - markusthoemmes
             - evankanderson
+            - julz
+            - dprotaso
             privacy: closed
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - evankanderson
-            - markusthoemmes
+            - yanweiguo
+            - lionelvillard
             # TODO(https://github.com/knative/community/issues/429): Establish docs/website rotation process.
             - RichieEscarez
       Knative Milestone Maintainers:
         description: 'DO NOT RENAME - this group is used by Prow to control who can manipulate
           milestones: https://github.com/knative/test-infra/blob/64615f92c4ebdd4e4423015ffc0db45877660a0d/ci/prow/plugins.yaml#L49'
         maintainers:
-        - grantr
         - rhuss
         - markusthoemmes
         - evankanderson
+        - dprotaso
+        - julz
         members:
-        - slinkydeveloper
         - ImJasonH
         - ZhiminXiang
         - andrew-su
@@ -843,10 +905,8 @@ orgs:
         - chizhg
         - csantanapr
         - igsong
-        - julz
         - nak3
         - navidshaikh
-        - nlopezgi
         - shashwathi
         - tanzeeb
         - tcnghia
@@ -854,20 +914,105 @@ orgs:
         - vaikas
         - n3wscott
         - lionelvillard
+        - matzew
         privacy: closed
+      Networking Reviewers:
+        description: Receive reviews for networking directories
+        privacy: closed
+        members:
+        - andrew-su
+        - arturenault
+        - JRBANCEL
+        - markusthoemmes
+        - nak3
+        - shashwathi
+        - tcnghia
+        - vagababov
+        - yanweiguo
+        - ZhiminXiang
+      Networking Writers:
+        description: Approvers and write access for autoscaling-related repositories
+        privacy: closed
+        repos:
+          serving: write
+          pkg: write
+          networking: write
+        members:
+        - JRBANCEL
+        - vagababov
+        teams:
+          Networking WG Leads:
+            description: The Working Group leads for Networking
+            members:
+            - nak3
+            - ZhiminXiang
+            privacy: closed
+      Operations Reviewers:
+        description: Receive reviews for operations directories
+        privacy: closed
+        members:
+        - aliok
+        - Cynocracy
+        - houshengbo
+        - jcrossley3
+        - markusthoemmes
+        - matzew
+        - n3wscott
+        - trshafer
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
         repos:
-          eventing-operator: write
           operator: write
-          serving-operator: write
+        members:
+        - aliok
+        - Cynocracy
+        - jcrossley3
+        - markusthoemmes
+        - matzew
+        - n3wscott
+        - trshafer
         teams:
           Operations WG Leads:
             description: The Working Group leads for Operations
             members:
             - houshengbo
             privacy: closed
+      Pkg Configmap Reviewers:
+        description: Receive reviews for configmap utilities in pkg
+        privacy: closed
+        teams:
+          Pkg Configmap Writers:
+            description: Approvers for configmap utilities in pkg
+            privacy: closed
+            members:
+            - dprotaso
+            - mattmoor
+            - vagababov
+      Pkg Controller Reviewers:
+        description: Receive reviews for controller utilities in pkg
+        privacy: closed
+        members:
+        - whaught
+        teams:
+          Pkg Controller Writers:
+            description: Approvers for controller utilities in pkg
+            privacy: closed
+            members:
+            - dprotaso
+            - mattmoor
+            - tcnghia
+            - vagababov
+      Productivity Reviewers:
+        description: Receive reviews for productivity directories
+        privacy: closed
+        members:
+        - albertomilan
+        - efiturri
+        - evankanderson
+        - gerardo-lc
+        - joshua-bone
+        - steuhs
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
         privacy: closed
@@ -876,6 +1021,9 @@ orgs:
           test-infra: write
           hack: write
           release: write
+        members:
+        - chaodaiG
+        - coryrc
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
@@ -894,6 +1042,24 @@ orgs:
             - julz
         repos:
           release: write
+      Serving Observability Reviewers:
+        description: Receive reviews for serving observability directories
+        privacy: closed
+        members:
+        - skonto
+        teams:
+          Serving Observability Writers:
+            description: Approve serving observability code
+            privacy: closed
+            members:
+            - yanweiguo
+      Serving Reviewers:
+        description: Receive reviews for serving-api-related directories
+        privacy: closed
+        members:
+        - whaught
+        - julz
+        - psschwei
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
@@ -903,24 +1069,16 @@ orgs:
           pkg: write
           serving: write
           release: write
+        members:
+        - markusthoemmes
+        - tcnghia
+        - vagababov
+        - julz
         teams:
           API Core WG Leads:
             description: The Working Group leads for Serving API Core
             members:
             - dprotaso
-            privacy: closed
-          Autoscaling WG Leads:
-            description: The Working Group leads for Autoscaling
-            members:
-            - vagababov
-            - markusthoemmes
-            privacy: closed
-          Networking WG Leads:
-            description: The Working Group leads for Networking
-            members:
-            - tcnghia
-            - nak3
-            - ZhiminXiang
             privacy: closed
       UX Writers:
         description: Grants write access to ux related repositories.

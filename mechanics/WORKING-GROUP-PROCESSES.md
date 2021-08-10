@@ -103,7 +103,8 @@ group. To do so, you need to:
 
 Once approval has been granted by the technical oversight committee to form a
 working group, the working group leads need to take a few steps to establish the
-working group:
+working group. _For an example of working group creation, see
+[this issue](https://github.com/knative/community/issues/466)._
 
 - **Create a Google Drive Folder**. Create a folder to hold your working group
   documents within this parent

@@ -17,8 +17,7 @@ aliases:
 
 # Composition
 
-The TOC will have five seats with a 2 year term, with a maximum of 2 seats being
-held by employees from the same vendor.
+The TOC will have five seats with a 2 year term.
 
 There will be an annual election to determine the composition of the TOC for the
 following year. Three seats will be up for election in one year and two will be
@@ -27,7 +26,7 @@ up for election the following year.
 # Candidate Eligibility
 
 Current TOC members and
-[Approvers](https://github.com/knative/community/blob/master/ROLES.md#approver)
+[Approvers](https://github.com/knative/community/blob/main/ROLES.md#approver)
 with at least 3 months tenure are eligible to stand for election. Candidates may
 self-nominate or be nominated by another eligible member. The approximate time
 commitment of a TOC member is around 8 hours per week.
@@ -60,10 +59,8 @@ requirements based on community feedback.
 
 Elections will be held using a time-limited
 [Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) ranking on
-[CIVS](http://civs.cs.cornell.edu/) using the
-[Schulze](https://en.wikipedia.org/wiki/Schulze_method) method. The top
-vote-getters will be elected to the open seats. This is the same process used by
-the Kubernetes project.
+[Elekto](https://elekto.io/). The top vote-getters will be elected to
+the open seats.
 
 ## Election Officers
 
@@ -72,16 +69,23 @@ committee elections.
 
 ## Vacancies
 
-In the event of a resignation or other loss of an elected TOC member, the
-candidate with the next most votes from the previous election will be offered
-the seat. This process will continue until the seat is filled.
+In the event of a resignation or other loss of an elected TOC member with less
+than three months left until the next regular annual election, the Steering
+Committee shall appoint a qualified contributor to fill that TOC seat until
+that election.
+
+Otherwise the candidate with the next most votes from the previous annual
+election will be offered the seat. If the seat cannot be filled from the
+previous annual election, the candidate with the next most votes from the most
+recent special election will be offered the seat. This process will continue
+until the seat is filled.
 
 In case this fails to fill the seat, a special election for that position will
 be held as soon as possible. Eligible voters from the most recent election will
 vote in the special election (ie: eligibility will not be redetermined at the
-time of the special election). Any replacement TOC member will serve out the
-remainder of the term for the person they are replacing, regardless of the
-length of that remainder.
+time of the special election). Any elected replacement TOC member will serve
+out the remainder of the term for the person they are replacing, regardless of
+the length of that remainder.
 
 ---
 

@@ -43,7 +43,7 @@ A post should be sent to
 which feature is supposed to be removed and why it is supposed to be removed.
 Lazy consensus can be applied over a period of two weeks.
 
-### Ask users if they are using the future
+### Ask users if they are using the feature
 
 In the same way, it is very important to get to know if any user is actually
 using the feature. A post should be sent to

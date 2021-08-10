@@ -29,7 +29,7 @@ The TOC is involved only in the **TOC Gate** steps.
 
 _You may not be able to use the Projects quick menu on this page. In that case, go to the project board and use the **Add cards** interface._
 
-- [ ] Send a PR adding entries for this repo in [`/peribolos/knative-sandbox.yaml`](https://github.com/knative/community/blob/master/peribolos/knative-sandbox.yaml). Please mind the alphabetical order when adding to a list.
+- [ ] Send a PR adding entries for this repo in [`/peribolos/knative-sandbox.yaml`](https://github.com/knative/community/blob/main/peribolos/knative-sandbox.yaml). Please mind the alphabetical order when adding to a list.
   - [ ] Add the repository and a description.
   - [ ] Grant `Knative Admin` the `admin` privilege.
   - [ ] Grant the sponsoring WG the `write` privilege.
@@ -53,7 +53,7 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
 
 - [ ] Add your GitHub ID to the `OWNERS` file for your repo.
 
-- [ ] [Set up](https://github.com/knative/test-infra/blob/master/guides/prow_knative_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge) prow for a new repo
+- [ ] [Set up](https://github.com/knative/test-infra/blob/main/guides/prow_knative_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge) prow for a new repo
 
 - [ ] Bootstrap your CI jobs using [hack](https://github.com/knative/hack) project (look at other sandbox repos for reference)
 
