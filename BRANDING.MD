@@ -1,11 +1,11 @@
 ## Knative Brand Guidelines
 
-The Knative trademark and ![Knative Logo](icons/logo.svg "The Knative Logo")
-logo ("Knative Trademarks") are trademarks of Google, and are treated
-separately from the copyright or patent license grants contained in the
-Apache-licensed Knative repositories on GitHub. Any use of the Knative
-Trademarks other than those permitted in these guidelines must be approved in
-advance. 
+The Knative trademark, ![Knative Logo](icons/logo.svg "The Knative Logo")
+logo ("Knative Trademarks") and knative.dev domain are trademarks of Google,
+and are treated separately from the copyright or patent license grants
+contained in the Apache-licensed Knative repositories on GitHub. Any use of
+the Knative Trademarks other than those permitted in these guidelines must be
+approved in advance. 
 
 ### 1. Purpose of the Brand Guidelines
 
@@ -29,11 +29,14 @@ Examples of approved references include the following:
 * In blog posts, news articles, or educational materials about Knative;
 * To accurately identify that your design or implementation is based on or is
   for use with the Knative platform.
+* Part of the name of a code repository as a means to indicate that the code
+  being developed is related to Knative - as long as there is no indication
+  that the Knative community endorses the repository.
 
 Suggested templates: 
 
 * "[Your Product] for Knative."
-* "“[XYZ] Conference for Knative Users."
+* "[XYZ] Conference for Knative Users."
 
 ### 3. Usage Guidelines
 
