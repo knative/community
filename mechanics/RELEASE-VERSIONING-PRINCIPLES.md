@@ -227,6 +227,24 @@ tuple
    </td>
   </tr>
   <tr>
+   <td>0.25.x
+   </td>
+   <td>2021-08-10
+   </td>
+   <td>2022-01-25
+   </td>
+   <td>v1.19.x
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
    <td>0.24.x
    </td>
    <td>2021-06-29
@@ -577,6 +595,26 @@ tuple
    <td><strong>API Type Served</strong>
    </td>
    <td><strong>Availability</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>0.25.x
+   </td>
+   <td >2021-08-10
+   </td>
+   <td>2022-01-25
+   </td>
+   <td>v1.19.x
+   </td>
+   <td>v1
+   </td>
+   <td>N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
    </td>
   </tr>
   <tr>
