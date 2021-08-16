@@ -607,7 +607,6 @@ orgs:
             description: The Working Group leads for Sources
             members:
             - lionelvillard
-            - n3wscott
             privacy: closed
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
@@ -944,7 +943,6 @@ orgs:
         repos:
           eventing-rabbitmq: write
         members:
-        - n3wscott
         - sbawaska
         - vaikas
 
