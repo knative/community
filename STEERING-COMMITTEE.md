@@ -17,7 +17,7 @@ evolve as the community and project change.
 - [Delegated authority](#delegated-authority)
 - [Committee Meetings](#committee-meetings)
 - [Committee Members](#committee-members)
-- [Emeritus Committee Members](#emeritus-committee members)
+- [Emeritus Committee Members](#emeritus-committee-members)
 - [Decision process](#decision-process)
 - [Getting in touch](#getting-in-touch)
 - [Elections](#election-procedure)
