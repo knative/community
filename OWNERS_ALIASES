@@ -70,6 +70,7 @@ aliases:
   - vaikas
   knative-admin:
   - RichieEscarez
+  - ZhiminXiang
   - bsnchan
   - dprotaso
   - duglin
@@ -79,7 +80,6 @@ aliases:
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
-  - lionelvillard
   - markusthoemmes
   - mbehrendt
   - pmorie
@@ -87,7 +87,6 @@ aliases:
   - spencerdillard
   - thisisnotapril
   - vaikas
-  - yanweiguo
   knative-milestone-maintainers:
   - ImJasonH
   - ZhiminXiang
@@ -114,8 +113,8 @@ aliases:
   - vaikas
   knative-release-leads:
   - RichieEscarez
-  - lionelvillard
-  - yanweiguo
+  - ZhiminXiang
+  - evankanderson
   knative-robots:
   - knative-prow-releaser-robot
   - knative-prow-robot
