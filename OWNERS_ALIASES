@@ -69,7 +69,6 @@ aliases:
   - pierDipi
   - vaikas
   knative-admin:
-  - RichieEscarez
   - ZhiminXiang
   - bsnchan
   - dprotaso
@@ -112,7 +111,6 @@ aliases:
   - vagababov
   - vaikas
   knative-release-leads:
-  - RichieEscarez
   - ZhiminXiang
   - evankanderson
   knative-robots:
