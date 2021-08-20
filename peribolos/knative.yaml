@@ -688,6 +688,7 @@ orgs:
         privacy: closed
         members:
         - taragu
+        - psschwei
       Autoscaling Writers:
         description: Approvers and write access for autoscaling-related repositories.
         privacy: closed
