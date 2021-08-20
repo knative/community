@@ -306,9 +306,10 @@ Autoscaling behavior of Knative Serving
 | -------------------------------------------------------------- | -------------- | ------- | --------------------------------------------------- |
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [markusthoemmes](https://github.com/markusthoemmes) |
 
-| &nbsp;                                                    | Emeritus Leads  | Profile                                   | Duration  |
-| --------------------------------------------------------- | --------------- | ----------------------------------------- | --------- |
-| <img width="30px" src="https://github.com/vagababov.png"> | Victor Agababov | [vagababov](https://github.com/vagababov) | 2019-2021 |
+| &nbsp;                                                  | Emeritus Leads  | Profile                               | Duration  |
+| --------------------------------------------------------| --------------- | --------------------------------------| --------- |
+| <img width="30px" src="https://github.com/vagababov.png"> | Victor Agababov |  [vagababov](https://github.com/vagababov) | 2019-2021 |
+| <img width="30px" src="https://github.com/josephburnett.png"> | Joseph Burnett |  [josephburnett](https://github.com/josephburnett) | 2018-2019 |
 
 ## Security
 
