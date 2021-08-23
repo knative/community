@@ -57,6 +57,7 @@ The current working groups are:
 - [Client](#client)
 - [Documentation + User Experience](#documentation--user-experience)
 - [Eventing](#eventing)
+- [Eventing Kafka](#eventing-kafka)
 - [Eventing Sources](#eventing-sources)
 - [Networking](#networking)
 - [Operations](#operations)
