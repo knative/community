@@ -355,6 +355,12 @@ orgs:
         description: Kafka integrations with Knative Eventing.
         has_projects: true
         has_wiki: false
+      eventing-kogito:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kogito integration with Knative Eventing.
+        has_projects: true
+        has_wiki: false
       eventing-kafka-broker:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -585,6 +591,7 @@ orgs:
           eventing-github: write
           eventing-gitlab: write
           eventing-kafka: write
+          eventing-kogito: write
           eventing-natss: write
           eventing-prometheus: write
           eventing-kafka-broker: write
@@ -632,6 +639,7 @@ orgs:
           eventing-github: admin
           eventing-gitlab: admin
           eventing-kafka: admin
+          eventing-kogito: admin
           eventing-kafka-broker: admin
           eventing-natss: admin
           eventing-prometheus: admin
@@ -914,6 +922,14 @@ orgs:
             privacy: closed
             members:
             - steven0711dong
+
+      eventing-kogito Approvers:
+        description: Approver group for eventing-kogito - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          eventing-kogito: write
+        members:
+        - ricardozanini
 
       eventing-kafka-broker Approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
