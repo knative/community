@@ -18,8 +18,8 @@ When the need arises, a new working group can be created. See the
 group proposal and creation procedures.
 
 The working groups generate design docs which are kept in a
-[shared drive](https://drive.google.com/drive/folders/0AM-QGZJ-HUA8Uk9PVA)
-and are available for anyone to read and comment on. The shared drive currently
+[shared drive](https://drive.google.com/drive/folders/0AM-QGZJ-HUA8Uk9PVA) and
+are available for anyone to read and comment on. The shared drive currently
 grants read access to
 [knative-users@](https://groups.google.com/forum/#!forum/knative-users) and edit
 and comment access to the
@@ -68,8 +68,7 @@ The current working groups are:
 
 ## API Core
 
-API
-[resources](https://github.com/knative/serving/tree/main/pkg/apis/serving),
+API [resources](https://github.com/knative/serving/tree/main/pkg/apis/serving),
 [validation](https://github.com/knative/pkg/tree/main/webhook), and
 [semantics](https://github.com/knative/pkg/tree/main/controller).
 
@@ -89,10 +88,10 @@ API
 | -------------------------------------------------------- | ---------------- | ------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/dprotaso.png"> | Dave Protasowski | VMware  | [dprotaso](https://github.com/dprotaso) |
 
-| &nbsp;                                                 | Emeritus Leads             | Profile                             | Duration  |
-| ------------------------------------------------------ | -------------------------- | ----------------------------------- | --------- |
-| <img width="30px" src="https://github.com/dgerd.png"> | Dan Gerdesmeier | [dgerd](https://github.com/dgerd) | 2019-2020 |
-| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore  | [mattmoor](https://github.com/mattmoor) | 2018-2021
+| &nbsp;                                                   | Emeritus Leads  | Profile                                 | Duration  |
+| -------------------------------------------------------- | --------------- | --------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/dgerd.png">    | Dan Gerdesmeier | [dgerd](https://github.com/dgerd)       | 2019-2020 |
+| <img width="30px" src="https://github.com/mattmoor.png"> | Matt Moore      | [mattmoor](https://github.com/mattmoor) | 2018-2021 |
 
 ## Client
 
@@ -111,39 +110,39 @@ conventions
 | Slack Channel              | [#cli](https://slack.knative.dev)                                                                                                                                                                                                                 |
 | Github Team WG leads       | [@knative/client-wg-leads](https://github.com/orgs/knative/teams/client-leads/members)                                                                                                                                                            |
 
-| &nbsp;                                                      | Leads        | Company | Profile                                      |
-| ----------------------------------------------------------- | ------------ | ------- | -------------------------------------------- |
-| <img width="30px" src="https://github.com/dsimansk.png"> | David Simansky | Red Hat | [dsimansk](https://github.com/dsimansk) |
-| <img width="30px" src="https://github.com/navidshaikh.png"> | Navid Shaikh | VMware | [navidshaikh](https://github.com/navidshaikh) |
-| <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß   | Red Hat | [rhuss](https://github.com/rhuss)            |
+| &nbsp;                                                      | Leads          | Company | Profile                                       |
+| ----------------------------------------------------------- | -------------- | ------- | --------------------------------------------- |
+| <img width="30px" src="https://github.com/dsimansk.png">    | David Simansky | Red Hat | [dsimansk](https://github.com/dsimansk)       |
+| <img width="30px" src="https://github.com/navidshaikh.png"> | Navid Shaikh   | VMware  | [navidshaikh](https://github.com/navidshaikh) |
+| <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß     | Red Hat | [rhuss](https://github.com/rhuss)             |
 
-| &nbsp;                                                 | Emeritus Leads             | Profile                             | Duration  |
-| ------------------------------------------------------ | -------------------------- | ----------------------------------- | --------- |
-| <img width="30px" src="https://github.com/sixolet.png"> | Naomi Seyfer  | [sixolet](https://github.com/sixolet) | 2018-2021 |
+| &nbsp;                                                     | Emeritus Leads  | Profile                                     | Duration  |
+| ---------------------------------------------------------- | --------------- | ------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/sixolet.png">    | Naomi Seyfer    | [sixolet](https://github.com/sixolet)       | 2018-2021 |
 | <img width="30px" src="https://github.com/cppforlife.png"> | Dmitriy Kalinin | [cppforlife](https://github.com/cppforlife) | 2018-2020 |
 
 ## Documentation + User Experience
 
-User Experience concerns across Knative components and Knative documentation, especially the [Docs](https://github.com/knative/docs/)
-repo.
+User Experience concerns across Knative components and Knative documentation,
+especially the [Docs](https://github.com/knative/docs/) repo.
 
-| Artifact                   | Link                                                                                                                                                    |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Charter / Mission          | [Charter](https://docs.google.com/document/d/1-opvSEzJMRbB6fybvjuCyhFBZvHwXnkbgyOIzjlmrpo/edit)                                             |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                     |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                    |
+| Artifact                   | Link                                                                                                                                                             |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter / Mission          | [Charter](https://docs.google.com/document/d/1-opvSEzJMRbB6fybvjuCyhFBZvHwXnkbgyOIzjlmrpo/edit)                                                                  |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                              |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                             |
 | Community Meeting Calendar | Tuesday from 9:30-10:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                               |
-| Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                  |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                          |
-| Slack Channel              | [#user-experience](https://slack.knative.dev/messages/user-experience) + [#docs](https://slack.knative.dev/messages/user-experience) |
-| Github Repository          | [/ux](https://github.com/knative/ux) + [/docs](https://github.com/knative/docs)                                                                                                       |
-| Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                       |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                                        |
+| Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                           |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                                   |
+| Slack Channel              | [#user-experience](https://slack.knative.dev/messages/user-experience) + [#docs](https://slack.knative.dev/messages/user-experience)                             |
+| Github Repository          | [/ux](https://github.com/knative/ux) + [/docs](https://github.com/knative/docs)                                                                                  |
+| Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                                |
 
-| &nbsp;                                                        | Leads           | Company | Profile                                             |
-| ------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
-| <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon  | VMware  | [omerbensaadon](https://github.com/omerbensaadon)   |
-| <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana  | IBM     | [csantanapr](https://github.com/csantanapr)         |
+| &nbsp;                                                        | Leads          | Company | Profile                                           |
+| ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon | VMware  | [omerbensaadon](https://github.com/omerbensaadon) |
+| <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana | IBM     | [csantanapr](https://github.com/csantanapr)       |
 
 ## Eventing
 
@@ -166,11 +165,10 @@ Event sources, bindings, FaaS framework, and orchestration
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard (Technical) | IBM     | [lionelvillard](https://github.com/lionelvillard) |
 | <img width="30px" src="https://github.com/devguyio.png">      | Ahmed Abdalla (Execution)  | Red Hat | [devguyio](https://github.com/devguyio)           |
 
-
-| &nbsp;                                                 | Emeritus Leads             | Profile                             | Duration  |
-| ------------------------------------------------------ | -------------------------- | ----------------------------------- | --------- |
-| <img width="30px" src="https://github.com/grantr.png"> | Grant Rodgers (Technical)  | [grantr](https://github.com/grantr) | 2020-2021 |
-| <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas (Technical)    | [vaikas](https://github.com/vaikas) | 2018-2021 |
+| &nbsp;                                                 | Emeritus Leads            | Profile                             | Duration  |
+| ------------------------------------------------------ | ------------------------- | ----------------------------------- | --------- |
+| <img width="30px" src="https://github.com/grantr.png"> | Grant Rodgers (Technical) | [grantr](https://github.com/grantr) | 2020-2021 |
+| <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas (Technical)   | [vaikas](https://github.com/vaikas) | 2018-2021 |
 
 ## Event Delivery
 
@@ -188,9 +186,9 @@ Event delivery data plane.
 | Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                                  |
 | Github Team WG leads       | [@knative/channel-wg-leads](https://github.com/orgs/knative/teams/channel-wg-leads/members)                                                                 |
 
-| &nbsp;                                                   | Leads               | Company | Profile                                                            |
-| -------------------------------------------------------- | ------------------- | ------- | ------------------------------------------------------------------ |
-| <img width="30px" src="https://github.com/matzew.png">   | Matthias Wessendorf | Red Hat | [matzew](https://github.com/matzew)                                |
+| &nbsp;                                                 | Leads               | Company | Profile                             |
+| ------------------------------------------------------ | ------------------- | ------- | ----------------------------------- |
+| <img width="30px" src="https://github.com/matzew.png"> | Matthias Wessendorf | Red Hat | [matzew](https://github.com/matzew) |
 
 ## Eventing Sources
 
@@ -210,8 +208,13 @@ Event producers and frameworks.
 
 | &nbsp;                                                        | Leads          | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/n3wscott.png">      | Scott Nichols  | VMware  | [n3wscott](https://github.com/n3wscott)           |
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM     | [lionelvillard](https://github.com/lionelvillard) |
+
+| &nbsp;                                                    | Emeritus Leads       | Profile                                   | Duration  |
+| --------------------------------------------------------- | -------------------- | ----------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/nachocano.png"> | Ignacio (Nacho) Cano | [nachocano](https://github.com/nachocano) | 2019-2020 |
+| <img width="30px" src="https://github.com/vaikas.png">    | Ville Aikas          | [vaikas](https://github.com/vaikas)       | 2019-2021 |
+| <img width="30px" src="https://github.com/n3wscott.png">  | Scott Nichols        | [n3wscott](https://github.com/n3wscott)   | 2019-2021 |
 
 ## Networking
 
@@ -231,14 +234,14 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | Slack Channel              | [#networking](https://slack.knative.dev/messages/networking)                                                                                                   |
 | Github Team WG leads       | [@knative/networking-wg-leads](https://github.com/orgs/knative/teams/networking-wg-leads/members)                                                              |
 
-| &nbsp;                                                      | Leads            | Company   | Profile                                       |
-| ----------------------------------------------------------- | ---------------- | --------- | --------------------------------------------- |
-| <img width="30px" src="https://github.com/nak3.png">        | Kenjiro Nakayama | Red Hat   | [nak3](https://github.com/nak3)               |
-| <img width="30px" src="https://github.com/ZhiminXiang.png"> | Zhimin Xiang     | Google    | [ZhiminXiang](https://github.com/ZhiminXiang) |
+| &nbsp;                                                      | Leads            | Company | Profile                                       |
+| ----------------------------------------------------------- | ---------------- | ------- | --------------------------------------------- |
+| <img width="30px" src="https://github.com/nak3.png">        | Kenjiro Nakayama | Red Hat | [nak3](https://github.com/nak3)               |
+| <img width="30px" src="https://github.com/ZhiminXiang.png"> | Zhimin Xiang     | Google  | [ZhiminXiang](https://github.com/ZhiminXiang) |
 
-| &nbsp;                                                  | Emeritus Leads  | Profile                               | Duration  |
-| --------------------------------------------------------| --------------- | --------------------------------------| --------- |
-| <img width="30px" src="https://github.com/tcnghia.png"> | Nghia Tran      | [tcnghia](https://github.com/tcnghia) | 2018-2021 |
+| &nbsp;                                                  | Emeritus Leads | Profile                               | Duration  |
+| ------------------------------------------------------- | -------------- | ------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/tcnghia.png"> | Nghia Tran     | [tcnghia](https://github.com/tcnghia) | 2018-2021 |
 
 ## Operations
 
@@ -265,23 +268,23 @@ Managing, assessing system health and maintaining Knative clusters
 Project health, test framework, continuous integration & deployment, release,
 performance/scale/load testing infrastructure
 
-| Artifact                   | Link                                                                                                                                                  |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Charter                    | [Charter](./productivity/CHARTER.md)                                                                                                                  |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                   |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                              |
-| Community Meeting Calendar | Thursdays, 10am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                                                         |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/1_1oWL7skjVt2211T0aagpwzDEfWmEIQK)                                                                    |
-| Repo prefixes              | `actions-*`                                                                                                                                           |
-| Repos                      | [`knative/hack`](https://github.com/knative/hack), [`knative/test-infra`](https://github.com/knative/test-infra), [`knative-sandbox/.github`](https://github.com/knative-sandbox/.github), [`knative-sandbox/kperf`](https://github.com/knative-sandbox/kperf), [`knative-sandbox/reconciler-test`](https://github.com/knative-sandbox/reconciler-test), [`knative-sandbox/knobots`](https://github.com/knative-sandbox/knobots), [`knative-sandbox/actions-downstream-test`](https://github.com/knative-sandbox/actions-downstream-test)                                                                                                        |
-| Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                      |
-| Github Team WG leads       | [@knative/productivity-wg-leads](https://github.com/orgs/knative/teams/productivity-wg-leads/members)                                                 |
+| Artifact                   | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | [Charter](./productivity/CHARTER.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Community Meeting Calendar | Thursdays, 10am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)                                                                                                                                                                                                                                                                                                                                                                                     |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/1_1oWL7skjVt2211T0aagpwzDEfWmEIQK)                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Repo prefixes              | `actions-*`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Repos                      | [`knative/hack`](https://github.com/knative/hack), [`knative/test-infra`](https://github.com/knative/test-infra), [`knative-sandbox/.github`](https://github.com/knative-sandbox/.github), [`knative-sandbox/kperf`](https://github.com/knative-sandbox/kperf), [`knative-sandbox/reconciler-test`](https://github.com/knative-sandbox/reconciler-test), [`knative-sandbox/knobots`](https://github.com/knative-sandbox/knobots), [`knative-sandbox/actions-downstream-test`](https://github.com/knative-sandbox/actions-downstream-test) |
+| Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Github Team WG leads       | [@knative/productivity-wg-leads](https://github.com/orgs/knative/teams/productivity-wg-leads/members)                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 | &nbsp;                                                   | Leads         | Company | Profile                                 |
 | -------------------------------------------------------- | ------------- | ------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang     | Google  | [chizhg](https://github.com/chizhg)     |
-| <img width="30px" src="https://github.com/n3wscott.png"> | Scott Nichols | VMware  | [n3wscott](https://github.com/n3wscott) |
+| <img width="30px" src="https://github.com/n3wscott.png"> | Scott Nichols |         | [n3wscott](https://github.com/n3wscott) |
 
 ## Scaling
 
@@ -299,9 +302,9 @@ Autoscaling behavior of Knative Serving
 | Slack Channel              | [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                                                                              |
 | Github Team WG leads       | [@knative/autoscaling-wg-leads](https://github.com/orgs/knative/teams/autoscaling-wg-leads/members)                                                         |
 
-| &nbsp;                                                         | Leads           | Company | Profile                                             |
-| -------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
-| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes  | Red Hat | [markusthoemmes](https://github.com/markusthoemmes) |
+| &nbsp;                                                         | Leads          | Company | Profile                                             |
+| -------------------------------------------------------------- | -------------- | ------- | --------------------------------------------------- |
+| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [markusthoemmes](https://github.com/markusthoemmes) |
 
 | &nbsp;                                                  | Emeritus Leads  | Profile                               | Duration  |
 | --------------------------------------------------------| --------------- | --------------------------------------| --------- |
@@ -324,12 +327,12 @@ Security concerns across Knative components
 | Slack Channel              | [#security](https://slack.knative.dev/messages/security)                                                                                               |
 | Github Team WG leads       | [@knative/security-wg-leads](https://github.com/orgs/knative/teams/security-wg-leads/members)                                                          |
 
-| &nbsp;                                                        | Leads           | Company | Profile                                             |
-| ------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
-| <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson   | VMware  | [evankanderson](https://github.com/evankanderson)   |
-| <img width="30px" src="https://github.com/julz.png">          | Julian Friedman | IBM     | [julz](https://github.com/julz)                     |
----
+| &nbsp;                                                        | Leads           | Company | Profile                                           |
+| ------------------------------------------------------------- | --------------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson   | VMware  | [evankanderson](https://github.com/evankanderson) |
+| <img width="30px" src="https://github.com/julz.png">          | Julian Friedman | IBM     | [julz](https://github.com/julz)                   |
 
+---
 
 # Emeritus Working Groups
 
@@ -339,14 +342,11 @@ Security concerns across Knative components
 | -------------------------------------------------------- | ---------- | --------------------------------------- | --------- |
 | <img width="30px" src="https://github.com/ImJasonH.png"> | Jason Hall | [ImJasonH](https://github.com/ImJasonH) | 2018-2019 |
 
-
-
 ## Observability
 
 | &nbsp;                                                    | Leads            | Profile                                   | Duration  |
 | --------------------------------------------------------- | ---------------- | ----------------------------------------- | --------- |
 | <img width="30px" src="https://github.com/mdemirhan.png"> | Mustafa Demirhan | [mdemirhan](https://github.com/mdemirhan) | 2018-2019 |
-
 
 Except as otherwise noted, the content of this page is licensed under the
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/),
