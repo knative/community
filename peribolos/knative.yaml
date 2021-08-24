@@ -408,6 +408,7 @@ orgs:
     - samodell
     - saturnism
     - savitaashture
+    - salaboy
     - sbawaska
     - sbezverk
     - sclevine
@@ -739,6 +740,7 @@ orgs:
             description: The Working Group leads for Conformance
             members:
             - tayarani
+            - salaboy
             privacy: closed
       Docs Reviewers:
         description: Receive reviews for docs directories
@@ -773,6 +775,7 @@ orgs:
         privacy: closed
         members:
         - aslom
+        - salaboy
         - tommyreddad
         - tayarani
       Eventing Writers:
