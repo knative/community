@@ -949,6 +949,7 @@ orgs:
         - n3wscott
         - sbawaska
         - vaikas
+        - benmoss
 
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
