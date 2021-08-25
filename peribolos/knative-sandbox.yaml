@@ -1100,6 +1100,7 @@ orgs:
           net-contour: write
         members:
         - dprotaso
+        - tcnghia
 
       net-certmanager Approvers:
         description: Approver group for net-certmanager - to be used in CODEOWNERS file
@@ -1107,6 +1108,7 @@ orgs:
         repos:
           net-certmanager: write
         members:
+        - tcnghia
         - ZhiminXiang
 
       net-http01 Approvers:
@@ -1125,6 +1127,7 @@ orgs:
         members:
         - markusthoemmes
         - nak3
+        - tcnghia
 
       net-istio Approvers:
         description: Approver group for net-istio - to be used in CODEOWNERS file
@@ -1134,6 +1137,7 @@ orgs:
         members:
         - JRBANCEL
         - nak3
+        - tcnghia
         - vagababov
         - ZhiminXiang
 
@@ -1145,3 +1149,4 @@ orgs:
         members:
         - davidor
         - jmprusi
+        - tcnghia
