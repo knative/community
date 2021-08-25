@@ -242,6 +242,12 @@ Managing, assessing system health and maintaining Knative clusters
 | ---------------------------------------------------------- | ----------- | ------- | ------------------------------------------- |
 | <img width="30px" src="https://github.com/houshengbo.png"> | Vincent Hou | IBM     | [houshengbo](https://github.com/houshengbo) |
 
+| &nbsp;                                                     | Emeritus Leads | Profile                                     | Duration  |
+| ---------------------------------------------------------- | -------------- | ------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/k4leung4.png">   | Kenny Leung    | [k4leung4](https://github.com/k4leung4)     | 2019-2020 |
+| <img width="30px" src="https://github.com/bbrowning.png">  | Ben Browning   | [bbrowning](https://github.com/bbrowning)   | 2019-2020 |
+| <img width="30px" src="https://github.com/greghaynes.png"> | Greg Haynes    | [greghaynes](https://github.com/greghaynes) | 2019-2019 |
+
 ## Productivity
 
 Project health, test framework, continuous integration & deployment, release,
