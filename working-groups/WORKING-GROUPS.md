@@ -57,7 +57,6 @@ The current working groups are:
 - [Client](#client)
 - [Documentation + User Experience](#documentation--user-experience)
 - [Eventing](#eventing)
-- [Event Delivery](#event-delivery)
 - [Eventing Sources](#eventing-sources)
 - [Networking](#networking)
 - [Operations](#operations)
@@ -169,26 +168,6 @@ Event sources, bindings, FaaS framework, and orchestration
 | ------------------------------------------------------ | ------------------------- | ----------------------------------- | --------- |
 | <img width="30px" src="https://github.com/grantr.png"> | Grant Rodgers (Technical) | [grantr](https://github.com/grantr) | 2020-2021 |
 | <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas (Technical)   | [vaikas](https://github.com/vaikas) | 2018-2021 |
-
-## Event Delivery
-
-Event delivery data plane.
-
-| Artifact                   | Link                                                                                                                                                        |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Charter                    | [Charter](./delivery/CHARTER.md)                                                                                                                            |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                         |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/10pvpEAb6DZ0mplmSeg8fEAmmJtqimt03GEHRieOcMig/edit)                                    |
-| Community Meeting Calendar | Tuesdays 8:30a-9:00a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)  |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/10pvpEAb6DZ0mplmSeg8fEAmmJtqimt03GEHRieOcMig/edit)                                                               |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/1YcyeckwBNPApxh8vHAlscYe_w7sIA5TA)                                                                          |
-| Repos                      | [`knative/eventing`](https://github.com/knative/eventing), [`knative/eventing-contrib`](https://github.com/knative/eventing-contrib), (shares `eventing-*`) |
-| Slack Channel              | [#eventing-delivery](https://slack.knative.dev/messages/eventing-delivery)                                                                                  |
-| Github Team WG leads       | [@knative/channel-wg-leads](https://github.com/orgs/knative/teams/channel-wg-leads/members)                                                                 |
-
-| &nbsp;                                                 | Leads               | Company | Profile                             |
-| ------------------------------------------------------ | ------------------- | ------- | ----------------------------------- |
-| <img width="30px" src="https://github.com/matzew.png"> | Matthias Wessendorf | Red Hat | [matzew](https://github.com/matzew) |
 
 ## Eventing Sources
 
@@ -341,6 +320,14 @@ Security concerns across Knative components
 | &nbsp;                                                   | Leads      | Profile                                 | Duration  |
 | -------------------------------------------------------- | ---------- | --------------------------------------- | --------- |
 | <img width="30px" src="https://github.com/ImJasonH.png"> | Jason Hall | [ImJasonH](https://github.com/ImJasonH) | 2018-2019 |
+
+## Event Delivery (previously called Eventing Channels Working Group)
+
+| &nbsp;                                                          | Leads               | Profile                                               | Duration  |
+| --------------------------------------------------------------- | ------------------- | ----------------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/harwayne.png">        | Adam Harwayne       | [Harwayne](https://github.com/harwayne)               | 2019-2021 |
+| <img width="30px" src="https://github.com/matzew.png">          | Matthias Wessendorf | [matzew](https://github.com/matzew)                   | 2019-2021 |
+| <img width="30px" src="https://github.com/slinkydeveloper.png"> | Francesco Guardiani | [slinkydeveloper](https://github.com/slinkydeveloper) | 2020-2021 |
 
 ## Observability
 
