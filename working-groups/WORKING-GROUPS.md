@@ -321,6 +321,14 @@ Security concerns across Knative components
 | -------------------------------------------------------- | ---------- | --------------------------------------- | --------- |
 | <img width="30px" src="https://github.com/ImJasonH.png"> | Jason Hall | [ImJasonH](https://github.com/ImJasonH) | 2018-2019 |
 
+## Event Delivery (previously called Eventing Channels Working Group)
+
+| &nbsp;                                                          | Leads               | Profile                                               | Duration  |
+| --------------------------------------------------------------- | ------------------- | ----------------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/harwayne.png">        | Adam Harwayne       | [Harwayne](https://github.com/harwayne)               | 2019-2021 |
+| <img width="30px" src="https://github.com/matzew.png">          | Matthias Wessendorf | [matzew](https://github.com/matzew)                   | 2019-2021 |
+| <img width="30px" src="https://github.com/slinkydeveloper.png"> | Francesco Guardiani | [slinkydeveloper](https://github.com/slinkydeveloper) | 2020-2021 |
+
 ## Observability
 
 | &nbsp;                                                    | Leads            | Profile                                   | Duration  |
