@@ -43,6 +43,9 @@ func main() {
 		if r >= 'a' && r <= 'z' {
 			return r
 		}
+		if r >= '0' && r <= '9' {
+			return r
+		}
 		return '-'
 	}
 	for _, team := range expandTeams(cfg.Orgs[org].Teams) {
