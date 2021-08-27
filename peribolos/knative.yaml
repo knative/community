@@ -737,8 +737,7 @@ orgs:
         teams:
           Conformance WG Leads:
             description: The Working Group leads for Conformance
-            members:
-            - tayarani
+            members: []
             privacy: closed
       Docs Reviewers:
         description: Receive reviews for docs directories
