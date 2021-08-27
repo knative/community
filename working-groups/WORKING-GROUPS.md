@@ -271,6 +271,12 @@ performance/scale/load testing infrastructure
 | <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang     | Google  | [chizhg](https://github.com/chizhg)     |
 | <img width="30px" src="https://github.com/n3wscott.png"> | Scott Nichols |         | [n3wscott](https://github.com/n3wscott) |
 
+| &nbsp;                                                    | Emeritus Leads | Profile                                   | Duration  |
+| --------------------------------------------------------- | -------------- | ----------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/chaodaiG.png">  | Chao Dai       | [chaodaiG](https://github.com/chaodaiG)   | 2019-2020 |
+| <img width="30px" src="https://github.com/jessiezcc.png"> | Jessie Zhu     | [jessiezcc](https://github.com/jessiezcc) | 2018-2019 |
+| <img width="30px" src="https://github.com/adrcunha.png">  | Adriano Cunha  | [adrcunha](https://github.com/adrcunha)   | 2018-2020 |
+
 ## Scaling
 
 Autoscaling behavior of Knative Serving
@@ -291,10 +297,10 @@ Autoscaling behavior of Knative Serving
 | -------------------------------------------------------------- | -------------- | ------- | --------------------------------------------------- |
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [markusthoemmes](https://github.com/markusthoemmes) |
 
-| &nbsp;                                                  | Emeritus Leads  | Profile                               | Duration  |
-| --------------------------------------------------------| --------------- | --------------------------------------| --------- |
-| <img width="30px" src="https://github.com/vagababov.png"> | Victor Agababov |  [vagababov](https://github.com/vagababov) | 2019-2021 |
-| <img width="30px" src="https://github.com/josephburnett.png"> | Joseph Burnett |  [josephburnett](https://github.com/josephburnett) | 2018-2019 |
+| &nbsp;                                                        | Emeritus Leads  | Profile                                           | Duration  |
+| ------------------------------------------------------------- | --------------- | ------------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/vagababov.png">     | Victor Agababov | [vagababov](https://github.com/vagababov)         | 2019-2021 |
+| <img width="30px" src="https://github.com/josephburnett.png"> | Joseph Burnett  | [josephburnett](https://github.com/josephburnett) | 2018-2019 |
 
 ## Security
 
