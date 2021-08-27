@@ -78,6 +78,7 @@ aliases:
   - benmoss
   - sbawaska
   - vaikas
+  - xtreme-sameer-vohra
   eventing-redis-approvers:
   - aavarghese
   - lionelvillard
@@ -183,21 +184,26 @@ aliases:
   - zhanggbj
   net-certmanager-approvers:
   - ZhiminXiang
+  - tcnghia
   net-contour-approvers:
   - dprotaso
+  - tcnghia
   net-http01-approvers:
   - tcnghia
   net-ingressv2-approvers:
   - markusthoemmes
   - nak3
+  - tcnghia
   net-istio-approvers:
   - JRBANCEL
   - ZhiminXiang
   - nak3
+  - tcnghia
   - vagababov
   net-kourier-approvers:
   - davidor
   - jmprusi
+  - tcnghia
   networking-wg-leads:
   - ZhiminXiang
   - nak3
