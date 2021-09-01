@@ -143,6 +143,11 @@ especially the [Docs](https://github.com/knative/docs/) repo.
 | <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon | VMware  | [omerbensaadon](https://github.com/omerbensaadon) |
 | <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana | IBM     | [csantanapr](https://github.com/csantanapr)       |
 
+| &nbsp;                                                     | Emeritus Leads  | Profile                                     | Duration  |
+| ---------------------------------------------------------- | --------------- | ------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/abrennan89.png">    | Ashleigh Brennan    | [abrennan89](https://github.com/abrennan89)       | 2020-2021 |
+| <img width="30px" src="https://github.com/samodell.png">    | Sam O'Dell    | [samodell](https://github.com/samodell)       | 2018-2020 |
+
 ## Eventing
 
 Event sources, bindings, FaaS framework, and orchestration
