@@ -79,7 +79,7 @@ the trademark committee invites your feedback there. See
 | ------------------------ | ------------ | ---------------------------------------------------- |
 | Spencer Dillard          | Google       | [@spencerdillard](https://github.com/spencerdillard) |
 | Doug Davis               | IBM/RedHat   | [@duglin](https://github.com/duglin)                 |
-| Brenda Chan              | VMware       | [@bsnchan](https://github.com/bsnchan)               |
+| Omer Bensaadon           | VMware       | [@omerbensaadon](https://github.com/omerbensaadon)|
 
 Committee members for bootstrap term will be chosen during the Steering
 Committee election process.
