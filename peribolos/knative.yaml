@@ -737,7 +737,7 @@ orgs:
           specs: write
         teams:
           Conformance Task Force Leads:
-            description: The Task Forceleads for Conformance
+            description: The Task Force leads for Conformance
             members:
             - omerbensaadon
             - salaboy
