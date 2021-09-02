@@ -334,6 +334,7 @@ orgs:
     - n3wscott
     - nachocano
     - nader-ziada
+    - nainaz
     - nak3
     - navidshaikh
     - neosab
@@ -751,6 +752,7 @@ orgs:
         - RichardJJG
         - snneji
         - pmbanugo
+        - nainaz
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
