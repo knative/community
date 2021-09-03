@@ -737,10 +737,11 @@ orgs:
         repos:
           specs: write
         teams:
-          Conformance WG Leads:
-            description: The Working Group leads for Conformance
+          Conformance Task Force Leads:
+            description: The Task Force leads for Conformance
             members:
-            - tayarani
+            - omerbensaadon
+            - salaboy
             privacy: closed
       Docs Reviewers:
         description: Receive reviews for docs directories
@@ -866,7 +867,7 @@ orgs:
           Trademark Committee:
             description: Knative Trademark Committee
             maintainers:
-            - bsnchan
+            - omerbensaadon
             - duglin
             - spencerdillard
             privacy: closed
