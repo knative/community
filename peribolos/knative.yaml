@@ -334,6 +334,7 @@ orgs:
     - n3wscott
     - nachocano
     - nader-ziada
+    - nainaz
     - nak3
     - navidshaikh
     - neosab
@@ -413,6 +414,7 @@ orgs:
     - sclevine
     - scothis
     - sebgoa
+    - senthilnathan
     - shashankmjain
     - shashwathi
     - shefaliv
@@ -735,9 +737,11 @@ orgs:
         repos:
           specs: write
         teams:
-          Conformance WG Leads:
-            description: The Working Group leads for Conformance
-            members: []
+          Conformance Task Force Leads:
+            description: The Task Force leads for Conformance
+            members:
+            - omerbensaadon
+            - salaboy
             privacy: closed
       Docs Reviewers:
         description: Receive reviews for docs directories
@@ -749,6 +753,7 @@ orgs:
         - RichardJJG
         - snneji
         - pmbanugo
+        - nainaz
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
@@ -862,7 +867,7 @@ orgs:
           Trademark Committee:
             description: Knative Trademark Committee
             maintainers:
-            - bsnchan
+            - omerbensaadon
             - duglin
             - spencerdillard
             privacy: closed
