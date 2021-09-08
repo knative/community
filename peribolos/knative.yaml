@@ -472,6 +472,7 @@ orgs:
     - tommyreddad
     - tomwalter
     - topherbullock
+    - travis-minke-sap
     - tricky42
     - trisberg
     - TristonianJones
@@ -788,11 +789,6 @@ orgs:
           pkg: write
           release: write
         teams:
-          Channel WG Leads:
-            description: The Working Group leads for Channels
-            members:
-            - matzew
-            privacy: closed
           Eventing Triage:
             description: Temporary group to allow folks to continue to maintain eventing
               issues and milestones as we sort out roles
@@ -814,6 +810,7 @@ orgs:
             privacy: closed
         members:
         - aliok
+        - matzew
         - pierDipi
         - vaikas
       Knative Admin:
