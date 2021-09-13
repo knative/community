@@ -142,17 +142,14 @@ There are two ways to raise issues to the steering committee for decision:
 
 ## Composition
 
-The steering committee has 5 seats. These five seats are Contributing seats,
-open to any project contributor. In the future, the steering committe would like
-to add two End-User seats, open only to active end-user community members, once
-the selection criteria have been established. See
-[candidate eligibility](#candidate-eligibility) for definitions of these
-categories.
+The steering committee has 5 seats. Of these five seats, four (4) are
+Contributing seats, open to any project contributor, and one (1) seat is held
+by a KSC appointed End-User seat. End-User seat, is open to active end-user
+community members whose company is listed in the [ADOPTERS](./ADOPTERS.md) file.
 
-Steering Committee members serve for 2-year terms, staggered in order to
-preserve continuity. Every year either two or three contributor seats are
-elected. Once end-user mechanics are established, one end user seat would be
-elected on the same schedule.
+Steering Committee contributing members serve for 2-year terms, staggered in
+order to preserve continuity. End-User member serves for 1-year term. Every year
+two contributor seats are elected.
 
 ## Election Procedure
 
@@ -224,19 +221,14 @@ To run for a Contributing seat, a candidate must additionally be at least a
 project Member as defined in
 [ROLES.md](https://github.com/knative/community/blob/main/ROLES.md).
 
-End-user seats are planned to enable employees of organizations which use but do
-not sell Knative-derived products. The mechanics of eligibility for end-user
-seats are still in progress; it is expected that end-user seats will add to the
-current Steering options to specific include end-user perspectives in the
-decision-making process.
+End-user seats for 2021 elections are eligible if their company is listed in the
+[ADOPTERS](./ADOPTERS.md) file.
 
 ### Voting Procedure
 
-Elections will be held using a time-limited
-[Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) ranking on
-[CIVS](http://civs.cs.cornell.edu/) using the Schulze method. The top
-vote-getters will be elected to the open seats, with the exceptions for company
-representation discussed below. This is the same process used for TOC elections.
+Elections will be held using [Elekto], an online voting tool created by CNCF
+intern Manish Sahani. The details for 2021 KSC elections can be found [here]
+(./elections/2021-SC/README.md).
 
 ### Limitations on Company Representation
 
