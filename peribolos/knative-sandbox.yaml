@@ -192,6 +192,7 @@ orgs:
     - psschwei
     - qibobo
     - radufa
+    - radtriste
     - RaeesBhatti
     - rafaeltello
     - rakesh-garimella
@@ -219,6 +220,7 @@ orgs:
     - skim1420
     - smarterclayton
     - smoser-ibm
+    - spolti
     - srvaroa
     - ssisil
     - sspeiche
@@ -227,6 +229,7 @@ orgs:
     - stevekuznetsov
     - steven0711dong
     - sukhil-suresh
+    - sutaakar
     - syedriko
     - taragu
     - tardieu
@@ -241,6 +244,7 @@ orgs:
     - tzununbekov
     - upodroid
     - uwefassnacht
+    - vaibhavjainwiz
     - vagababov
     - vbatts
     - vdemeester
@@ -931,6 +935,8 @@ orgs:
           eventing-kogito: write
         members:
         - ricardozanini
+        - spolti
+        - vaibhavjainwiz
 
       eventing-kafka-broker Approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
