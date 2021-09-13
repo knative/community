@@ -9,7 +9,7 @@ type: "docs"
 
 ## Purpose
 
-The role of this election is to fill out the three (3) seats due for election
+The role of this election is to fill out the two (2) seats due for election
 this year on the [Knative Steering Committee]. Each elected member will serve a
 two (2) year term.
 
@@ -19,7 +19,8 @@ This election will shape the future of Knative as a community and project. The
 Knative Steering Committee (SC) is responsible for the general health of the
 Knative community. Seats up for the election are the remaining bootstrap seats
 and in addition to contributor seats, we're introducing one (1) end-user seat to
-bring more diversity into the SC representation.
+bring more diversity into the SC representation, which will be elected by the
+SC after the election has been completed.
 
 ## Eligibility
 
@@ -28,7 +29,7 @@ Please refer to the [SC Election Charter] for:
 - [Eligibility for candidacy]
 - [Eligibility for voting]
 
-The list of eligible voters is stored (TODO: vaikas add this)[in the community repository](./voters.yaml), but it is easier
+The list of eligible voters is stored (TODO: https://github.com/knative/community/issues/772)[in the community repository](./voters.yaml), but it is easier
 to check if you are eligible by logging into [Elekto]. See Voting Process below for more details.
 
 ## Schedule
@@ -58,7 +59,7 @@ You can reach us by emailing elections@knative.team
 
 If you want to stand for election, open a PR against the
 [knative/community repository](https://github.com/knative/community) to include
-your candidate profile in the `/elections/2021/SC` folder, with the following
+your candidate profile in the `/elections/2021-SC` folder, with the following
 filename format:
 
 ```
@@ -96,7 +97,7 @@ first.
 **Campaigning**
 
 Please refer to the [SC Election Charter] and understand
-that we care deeply about [limiting campaigning]. The election
+that we care deeply about [limiting corporate campaigning]. The election
 officers and members of the steering committee [pledge to recuse] themselves
 from any form of electioneering.
 
@@ -152,13 +153,12 @@ the [SC Election Charter].
 [SC Election Charter]: https://github.com/knative/community/blob/main/mechanics/SC.md
 
 [limiting corporate campaigning]: https://github.com/kubernetes/steering/blob/master/elections.md#limiting-corporate-campaigning
+[pledge to recuse]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
 
 [Elekto]: https://test.elekto.io
 
 [Knative Blog]: https://knative.dev/blog/
-[voter exception form]: (TODO: vaikas update) https://bit.ly/knative-sc21-exception
 [voters.md]: (todo: vaikas create) ./voters.yaml
-[ballot replacement request]: (TODO: vaikas update) https://bit.ly/knative-sc21-ballot
 
 [Eligibility for candidacy]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility
 [Eligibility for voting]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility#voter-eligibility
