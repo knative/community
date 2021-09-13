@@ -112,7 +112,7 @@ To recognize the folks that have served in the SC in the past, below we list the
 | <img width="30px" src="https://github.com/isdal.png">          | Tomas Isdal         | [@isdal](https://github.com/isdal)           | Bootstrap  | 2020     |
 | <img width="30px" src="https://github.com/anicolao.png">       | Alex Nicolau        | [@anicolao](https://github.com/anicolao)     | 2020       | 2020     |
 | <img width="30px" src="https://github.com/ronavn.png">         | Ron Avnur           | [@ronavn](https://github.com/ronavn)         | 2020       | 2020     |
-
+| <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan         | [@bsnchan](https://github.com/bsnchan)       | Bootstrap  | 2021     |
 
 ## Decision process
 
