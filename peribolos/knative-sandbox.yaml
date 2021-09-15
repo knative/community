@@ -308,6 +308,12 @@ orgs:
         description: Empty repo for testing external build integration with `kn`.
         has_projects: true
         has_wiki: false
+      container-freezer:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Idle containers when not handling requests.
+        has_projects: true
+        has_wiki: false
       control-protocol:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -635,6 +641,7 @@ orgs:
           actions-kind: admin
           async-component: admin
           build-spike: admin
+          container-freezer: admin
           control-protocol: admin
           discovery: admin
           eventing-autoscaler-keda: admin
@@ -778,6 +785,7 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
+          container-freezer: write
           net-certmanager: write
           net-contour: write
           net-http01: write
@@ -825,6 +833,16 @@ orgs:
         - bvennam
         - julz
         - maximilien
+
+      container-freezer Approvers:
+        description: Approver group for container-freezer - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          container-freezer: write
+        members:
+        - markusthoemmes
+        - julz
+        - psschwei
 
       control-protocol Approvers:
         description: Approver group for control-protocol - to be used in CODEOWNERS file
