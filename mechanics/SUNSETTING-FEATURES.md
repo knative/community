@@ -35,7 +35,7 @@ The quickest way of gauging the potential impact of the sunset is to ask vendors
 that productize and ship Knative in downstream products if they are shipping the
 respective feature explicitly. Explicitly here means that they specifically
 chose to enable the respective feature. A good overview of existing downstream
-products and projects can been in the
+products and projects can seen in the
 [documentation](https://knative.dev/docs/knative-offerings/).
 
 A post should be sent to
