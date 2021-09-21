@@ -227,6 +227,60 @@ tuple
    </td>
   </tr>
   <tr>
+   <td>0.28.x
+   </td>
+   <td>2021-12-14
+   </td>
+   <td>2022-05-31
+   </td>
+   <td>v1.20.x
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>0.27.x
+   </td>
+   <td>2021-11-02
+   </td>
+   <td>2022-04-19
+   </td>
+   <td>v1.20.x
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>0.26.x
+   </td>
+   <td>2021-09-21
+   </td>
+   <td>2022-03-08
+   </td>
+   <td>v1.19.x
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
    <td>0.25.x
    </td>
    <td>2021-08-10
@@ -249,7 +303,7 @@ tuple
    </td>
    <td>2021-06-29
    </td>
-   <td>2021-12-04
+   <td>2021-12-14
    </td>
    <td>v1.19.x
    </td>
@@ -595,6 +649,66 @@ tuple
    <td><strong>API Type Served</strong>
    </td>
    <td><strong>Availability</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>0.28.x
+   </td>
+   <td>2021-12-14
+   </td>
+   <td>2022-05-31
+   </td>
+   <td>v1.20.x
+   </td>
+   <td>v1
+   </td>
+   <td>N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>0.27.x
+   </td>
+   <td>2021-11-02
+   </td>
+   <td>2022-04-19
+   </td>
+   <td>v1.20.x
+   </td>
+   <td>v1
+   </td>
+   <td>N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
+   </td>
+  </tr>
+  <tr>
+   <td>0.26.x
+   </td>
+   <td>2021-09-21
+   </td>
+   <td>2022-03-08
+   </td>
+   <td>v1.19.x
+   </td>
+   <td>v1
+   </td>
+   <td>N/A
+   </td>
+   <td>v1
+   </td>
+   <td>v1
+   </td>
+   <td>default
    </td>
   </tr>
   <tr>
