@@ -603,22 +603,15 @@ orgs:
           eventing-couchdb: write
           eventing-github: write
           eventing-gitlab: write
-          eventing-kafka: write
           eventing-kogito: write
           eventing-natss: write
           eventing-prometheus: write
-          eventing-kafka-broker: write
           eventing-rabbitmq: write
           eventing-redis: write
           sample-source: write
           discovery: write
           reconciler-test: write
         teams:
-          Delivery WG Leads:
-            description: The Working Group leads for Event Delivery
-            members:
-            - matzew
-            privacy: closed
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
@@ -630,6 +623,19 @@ orgs:
             members:
             - lionelvillard
             privacy: closed
+      Eventing Kafka Writers:
+        description: Grants write access to Eventing Kafka WG leads on related repositories.
+        privacy: closed
+        repos:
+          eventing-kafka: write
+          eventing-kafka-broker: write
+        teams:          
+          Eventing Kafka WG Leads:
+            description: The Working Group leads for Eventing Kafka
+            members:
+            - devguyio
+            - lionelvillard
+            - travis-minke-sap
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -964,6 +970,7 @@ orgs:
           eventing-kafka-broker: write
         members:
         - pierDipi
+        - matzew
 
       eventing-natss Approvers:
         description: Approver group for eventing-natss - to be used in CODEOWNERS file
