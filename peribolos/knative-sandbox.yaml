@@ -60,6 +60,7 @@ orgs:
     - btardell
     - capri-xiyue
     - cardil
+    - carlisia
     - cathyzhyi
     - cbickel
     - cdlliuy
@@ -631,7 +632,7 @@ orgs:
         repos:
           eventing-kafka: write
           eventing-kafka-broker: write
-        teams:          
+        teams:
           Eventing Kafka WG Leads:
             description: The Working Group leads for Eventing Kafka
             members:
