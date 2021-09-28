@@ -69,7 +69,7 @@ aliases:
   - pierDipi
   - vaikas
   knative-admin:
-  - ZhiminXiang
+  - bmo
   - bsnchan
   - dprotaso
   - duglin
@@ -87,9 +87,33 @@ aliases:
   - spencerdillard
   - thisisnotapril
   - vaikas
-  knative-release-leads:
+  knative-milestone-maintainers:
+  - ImJasonH
   - ZhiminXiang
+  - andrew-su
+  - aslom
+  - chaodaiG
+  - chizhg
+  - csantanapr
+  - dprotaso
   - evankanderson
+  - igsong
+  - julz
+  - lionelvillard
+  - markusthoemmes
+  - matzew
+  - n3wscott
+  - nak3
+  - navidshaikh
+  - rhuss
+  - shashwathi
+  - tanzeeb
+  - tcnghia
+  - vagababov
+  - vaikas
+  knative-release-leads:
+  - bmo
+  - julz
   knative-robots:
   - knative-prow-releaser-robot
   - knative-prow-robot

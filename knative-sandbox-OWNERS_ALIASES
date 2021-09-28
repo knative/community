@@ -19,6 +19,10 @@ aliases:
   - dsimansk
   - navidshaikh
   - rhuss
+  container-freezer-approvers:
+  - julz
+  - markusthoemmes
+  - psschwei
   control-protocol-approvers:
   - devguyio
   - eric-sap
@@ -142,7 +146,7 @@ aliases:
   - nicolaferraro
   - rhuss
   knative-admin:
-  - ZhiminXiang
+  - bmo
   - bsnchan
   - dprotaso
   - evankanderson
@@ -157,9 +161,31 @@ aliases:
   - rhuss
   - thisisnotapril
   - vaikas
-  knative-release-leads:
+  knative-milestone-maintainers:
   - ZhiminXiang
+  - akashrv
+  - aslom
+  - chaodaiG
+  - csantanapr
+  - dprotaso
   - evankanderson
+  - josephburnett
+  - julz
+  - k4leung4
+  - lionelvillard
+  - markusthoemmes
+  - matzew
+  - mikehelmick
+  - n3wscott
+  - nak3
+  - navidshaikh
+  - rhuss
+  - tcnghia
+  - vagababov
+  - vaikas
+  knative-release-leads:
+  - bmo
+  - julz
   knative-robots:
   - knative-prow-releaser-robot
   - knative-prow-robot
