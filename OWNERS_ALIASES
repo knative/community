@@ -69,7 +69,7 @@ aliases:
   - pierDipi
   - vaikas
   knative-admin:
-  - bmo
+  - benmoss
   - bsnchan
   - dprotaso
   - duglin
@@ -112,7 +112,7 @@ aliases:
   - vagababov
   - vaikas
   knative-release-leads:
-  - bmo
+  - benmoss
   - julz
   knative-robots:
   - knative-prow-releaser-robot
@@ -124,6 +124,7 @@ aliases:
   - ZhiminXiang
   - andrew-su
   - arturenault
+  - carlisia
   - markusthoemmes
   - nak3
   - shashwathi
@@ -202,7 +203,9 @@ aliases:
   serving-observability-writers:
   - yanweiguo
   serving-reviewers:
+  - carlisia
   - julz
+  - nealhu
   - psschwei
   - whaught
   serving-writers:
