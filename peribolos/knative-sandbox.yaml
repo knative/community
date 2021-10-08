@@ -521,7 +521,7 @@ orgs:
         description: A Knative ingress controller for Istio.
         has_projects: true
         has_wiki: false
-      net-ingressv2:
+      net-gateway-api:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Integration between Knative and service-apis (ingress v2) for Knative Ingress migration.
@@ -685,7 +685,7 @@ orgs:
           net-contour: admin
           net-http01: admin
           net-istio: admin
-          net-ingressv2: admin
+          net-gateway-api: admin
           net-kourier: admin
           monitoring: admin
           reconciler-test: admin
@@ -799,7 +799,7 @@ orgs:
           net-contour: write
           net-http01: write
           net-istio: write
-          net-ingressv2: write
+          net-gateway-api: write
           net-kourier: write
           sample-controller: write
           async-component: write
@@ -1157,11 +1157,11 @@ orgs:
         members:
         - tcnghia
 
-      net-ingressv2 Approvers:
-        description: Approver group for net-ingressv2 - to be used in CODEOWNERS file
+      net-gateway-api Approvers:
+        description: Approver group for net-gateway-api - to be used in CODEOWNERS file
         privacy: closed
         repos:
-          net-ingressv2: write
+          net-gateway-api: write
         members:
         - markusthoemmes
         - nak3
