@@ -146,7 +146,7 @@ aliases:
   - nicolaferraro
   - rhuss
   knative-admin:
-  - bmo
+  - benmoss
   - bsnchan
   - dprotaso
   - evankanderson
@@ -184,7 +184,7 @@ aliases:
   - vagababov
   - vaikas
   knative-release-leads:
-  - bmo
+  - benmoss
   - julz
   knative-robots:
   - knative-prow-releaser-robot
@@ -200,11 +200,11 @@ aliases:
   net-contour-approvers:
   - dprotaso
   - tcnghia
-  net-http01-approvers:
-  - tcnghia
-  net-ingressv2-approvers:
+  net-gateway-api-approvers:
   - markusthoemmes
   - nak3
+  - tcnghia
+  net-http01-approvers:
   - tcnghia
   net-istio-approvers:
   - JRBANCEL
