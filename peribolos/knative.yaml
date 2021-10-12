@@ -1011,6 +1011,7 @@ orgs:
         - gerardo-lc
         - joshua-bone
         - steuhs
+        - kvmware
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
         privacy: closed
