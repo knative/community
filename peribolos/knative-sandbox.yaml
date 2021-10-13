@@ -890,6 +890,7 @@ orgs:
           eventing-awssqs: write
         members:
         - lberk
+        - matzew
 
       eventing-camel Approvers:
         description: Approver group for eventing-camel - to be used in CODEOWNERS file
@@ -906,6 +907,7 @@ orgs:
           eventing-ceph: write
         members:
         - lberk
+        - matzew
 
       eventing-couchdb Approvers:
         description: Approver group for eventing-couchdb - to be used in CODEOWNERS file
@@ -915,6 +917,7 @@ orgs:
         members:
         - lberk
         - lionelvillard
+        - matzew
 
       eventing-github Approvers:
         description: Approver group for eventing-github - to be used in CODEOWNERS file
@@ -923,6 +926,7 @@ orgs:
           eventing-github: write
         members:
         - lberk
+        - matzew
 
       eventing-gitlab Approvers:
         description: Approver group for eventing-gitlab - to be used in CODEOWNERS file
@@ -934,6 +938,7 @@ orgs:
         - lberk
         - sebgoa
         - tzununbekov
+        - matzew
 
       eventing-kafka Approvers:
         description: Approver group for eventing-kafka - to be used in CODEOWNERS file
@@ -991,6 +996,7 @@ orgs:
           eventing-prometheus: write
         members:
         - lberk
+        - matzew
 
       eventing-rabbitmq Approvers:
         description: Approver group for eventing-rabbitmq - to be used in CODEOWNERS file
@@ -1011,6 +1017,7 @@ orgs:
         members:
         - aavarghese
         - lionelvillard
+        - matzew
 
       homebrew-kn-plugins Approvers:
         description: Approver group for homebrew-kn-plugins - to be used in CODEOWNERS file
