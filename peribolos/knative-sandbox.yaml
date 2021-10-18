@@ -443,6 +443,12 @@ orgs:
         description: Kn plugin for migrating Knative services from one cluster to another.
         has_projects: true
         has_wiki: false
+      kn-plugin-operator:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kn plugin for managing Knative with Knative Operator.
+        has_projects: true
+        has_wiki: false
       kn-plugin-quickstart:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -570,6 +576,7 @@ orgs:
           kn-plugin-event: write
           kn-plugin-func: write
           kn-plugin-migration: write
+          kn-plugin-operator: write
           kn-plugin-quickstart: write
           kn-plugin-sample: write
           kn-plugin-service-log: write
@@ -673,6 +680,7 @@ orgs:
           kn-plugin-event: admin
           kn-plugin-func: admin
           kn-plugin-migration: admin
+          kn-plugin-operator: admin
           kn-plugin-quickstart: admin
           kn-plugin-sample: admin
           kn-plugin-service-log: admin
@@ -1078,6 +1086,19 @@ orgs:
         members:
         - zhangtbj
         - maximilien
+
+      kn-plugin-operator Approvers:
+        description: Approver group for kn-plugin-operator - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          kn-plugin-operator: write
+        members:
+          - houshengbo
+          - maximilien
+          - csantanapr
+          - omerbensaadon
+          - rhuss
+          - dsimansk
 
       kn-plugin-quickstart Approvers:
         description: Approver group for kn-plugin-quickstart - to be used in CODEOWNERS file
