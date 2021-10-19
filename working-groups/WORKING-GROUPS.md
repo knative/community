@@ -143,6 +143,7 @@ especially the [Docs](https://github.com/knative/docs/) repo.
 | ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
 | <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon | VMware  | [omerbensaadon](https://github.com/omerbensaadon) |
 | <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana | IBM     | [csantanapr](https://github.com/csantanapr)       |
+| <img width="30px" src="https://github.com/snneji.png">        | Samia Nneji    | VMware  | [snneji](https://github.com/snneji)               |
 
 | &nbsp;                                                     | Emeritus Leads  | Profile                                     | Duration  |
 | ---------------------------------------------------------- | --------------- | ------------------------------------------- | --------- |
