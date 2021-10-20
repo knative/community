@@ -9,7 +9,7 @@ type: "docs"
 
 ## Purpose
 
-The role of this election is to fill out the two (2) seats due for election
+The role of this election is to fill out the three (3) seats due for election
 this year on the [Knative Steering Committee]. Each elected member will serve a
 two (2) year term.
 
