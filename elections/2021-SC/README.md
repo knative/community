@@ -36,7 +36,7 @@ to check if you are eligible by logging into [Elekto]. See Voting Process below 
 
 | Date         | Event                    |
 | ------------ | ------------------------ |
-| October 25   | Announcement of Election, call for nominations |
+| October 25   | Announcement of Election, call for nominations, exceptions |
 | November 8   | All candidate nominations due by 0000 UTC (5pm Pacific) |
 | November 10  | Election Begins via Elekto UI |
 | November 19  | Voter exception requests due by 0000 UTC (5pm Pacific) |
@@ -63,7 +63,7 @@ your candidate profile in the `/elections/2021-SC` folder, with the following
 filename format:
 
 ```
-candidate-yourname.md
+candidate-githubid.md
 ```
 
 This profile should include:
@@ -73,7 +73,7 @@ This profile should include:
 * Your contributions to Knative
 * Why you are running
 
-You can find [a sample template in the folder](./candidate-template.md).
+You can find [a sample template in the folder](./nomination-template.md).
 
 Once you have created the PR, you may email knative-dev and/or knative-users
 *once* to let people know about your candidacy and encourage endorsements as
@@ -110,7 +110,7 @@ roles you may hold.
 Elections will be held using [Elekto], an online voting tool created by CNCF 
 intern Manish Sahani.  Elekto has one critical advantage over CIVS, which is
 that it relies on GitHub Oauth to log you in to vote, instead of relying on 
-email.
+email. More details on voting are in the [Elekto documentation].
 
 Thus, when you go to [Elekto] you will be prompted to log in your GitHub account.
 Please do, so, and then click on "Explore Election" to look at the list of 
@@ -134,9 +134,9 @@ and re-cast your ballot before November 29th.
 Employer diversity is encouraged, and thus maximal representation will be
 enforced as spelled out in the [SC Election Charter].
 
-All data for Elekto is stored on a pair of GCP instances operated by Josh Berkus
-and Manish Sahani, and is not shared with third parties.  Individual ballot data
-is encrypted, and not retrievable by anyone except in aggregate form.
+Elekto is being run on an OpenShift instance operated by Red Hat's Open Source 
+Practice Office.  Individual ballot data is encrypted, and not retrievable by 
+anyone except the voter, or in aggregate form.
 
 ### Decision
 
@@ -155,10 +155,11 @@ the [SC Election Charter].
 [limiting corporate campaigning]: https://github.com/kubernetes/steering/blob/master/elections.md#limiting-corporate-campaigning
 [pledge to recuse]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
 
-[Elekto]: https://test.elekto.io
+[Elekto]: https://elections.knative.io
+[Elekto documentation]: 
 
 [Knative Blog]: https://knative.dev/blog/
-[voters.md]: (todo: vaikas create) ./voters.yaml
+[voters.md]: ./voters.yaml
 
 [Eligibility for candidacy]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility
 [Eligibility for voting]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility#voter-eligibility
