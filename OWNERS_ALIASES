@@ -40,11 +40,16 @@ aliases:
   - omerbensaadon
   - pmbanugo
   - snneji
-  docs-wg-leads: []
+  docs-wg-leads:
+  - csantanapr
+  - omerbensaadon
+  - snneji
   docs-writers:
   - RichardJJG
   - abrennan89
   - carieshmarie
+  - csantanapr
+  - omerbensaadon
   - richieescarez
   - snneji
   eventing-reviewers:
@@ -87,6 +92,30 @@ aliases:
   - spencerdillard
   - thisisnotapril
   - vaikas
+  knative-milestone-maintainers:
+  - ImJasonH
+  - ZhiminXiang
+  - andrew-su
+  - aslom
+  - chaodaiG
+  - chizhg
+  - csantanapr
+  - dprotaso
+  - evankanderson
+  - igsong
+  - julz
+  - lionelvillard
+  - markusthoemmes
+  - matzew
+  - n3wscott
+  - nak3
+  - navidshaikh
+  - rhuss
+  - shashwathi
+  - tanzeeb
+  - tcnghia
+  - vagababov
+  - vaikas
   knative-release-leads:
   - ZhiminXiang
   - evankanderson
@@ -100,6 +129,7 @@ aliases:
   - ZhiminXiang
   - andrew-su
   - arturenault
+  - carlisia
   - markusthoemmes
   - nak3
   - shashwathi
@@ -157,6 +187,7 @@ aliases:
   - evankanderson
   - gerardo-lc
   - joshua-bone
+  - kvmware
   - steuhs
   productivity-wg-leads:
   - chizhg
@@ -178,7 +209,9 @@ aliases:
   serving-observability-writers:
   - yanweiguo
   serving-reviewers:
+  - carlisia
   - julz
+  - nealhu
   - psschwei
   - whaught
   serving-writers:
@@ -208,6 +241,8 @@ aliases:
   ux-wg-leads:
   - csantanapr
   - omerbensaadon
+  - snneji
   ux-writers:
   - csantanapr
   - omerbensaadon
+  - snneji
