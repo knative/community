@@ -87,6 +87,30 @@ aliases:
   - spencerdillard
   - thisisnotapril
   - vaikas
+  knative-milestone-maintainers:
+  - ImJasonH
+  - ZhiminXiang
+  - andrew-su
+  - aslom
+  - chaodaiG
+  - chizhg
+  - csantanapr
+  - dprotaso
+  - evankanderson
+  - igsong
+  - julz
+  - lionelvillard
+  - markusthoemmes
+  - matzew
+  - n3wscott
+  - nak3
+  - navidshaikh
+  - rhuss
+  - shashwathi
+  - tanzeeb
+  - tcnghia
+  - vagababov
+  - vaikas
   knative-release-leads:
   - ZhiminXiang
   - evankanderson
@@ -100,6 +124,7 @@ aliases:
   - ZhiminXiang
   - andrew-su
   - arturenault
+  - carlisia
   - markusthoemmes
   - nak3
   - shashwathi
@@ -157,6 +182,7 @@ aliases:
   - evankanderson
   - gerardo-lc
   - joshua-bone
+  - kvmware
   - steuhs
   productivity-wg-leads:
   - chizhg
@@ -178,7 +204,9 @@ aliases:
   serving-observability-writers:
   - yanweiguo
   serving-reviewers:
+  - carlisia
   - julz
+  - nealhu
   - psschwei
   - whaught
   serving-writers:
