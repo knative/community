@@ -84,6 +84,9 @@ Knative has a single
 [technical oversight committee](./TECH-OVERSIGHT-COMMITTEE.md) monitoring the
 overall project.
 
+There's also a [Knative Calendar](./CALENDAR.md) that has all the Knative
+related meetings in one place.
+
 ## How can I help
 
 If you're looking for something to do to get your feet wet working on Knative,
