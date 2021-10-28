@@ -12,7 +12,7 @@ info:
 * Speaker in conferences, meetups and online events for Knative (ie ibm-think, kubecon, oss, apachecon, knative meetups, ibm-developer, youtube streams, etc)
 * Maintain many tutorials used for presentations [knative-minikube](https://github.com/csantanapr/knative-minikube), [knative-kind](https://github.com/csantanapr/knative-kind), [knative-docker-desktop](https://github.com/csantanapr/knative-docker-desktop). [knative-tekton](https://github.com/csantanapr/knative-tekton), [knative-pi](https://github.com/csantanapr/knative-pi)
 * Workling Group Lead activities for Docs and User Experience
-* Contributed to the new kantive.dev website
+* Contributed to the new knative.dev website
 * Contributed to the new Getting Started experience
 
 ## Why I'm Running for SC
