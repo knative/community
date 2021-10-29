@@ -155,7 +155,7 @@ the [SC Election Charter].
 [limiting corporate campaigning]: https://github.com/kubernetes/steering/blob/master/elections.md#limiting-corporate-campaigning
 [pledge to recuse]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
 
-[Elekto]: https://elections.knative.io
+[Elekto]: https://elections.knative.dev
 [Elekto documentation]: 
 
 [Knative Blog]: https://knative.dev/blog/
