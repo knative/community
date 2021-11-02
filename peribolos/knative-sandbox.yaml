@@ -986,8 +986,7 @@ orgs:
         repos:
           eventing-rabbitmq: write
         members:
-        - sbawaska
-        - vaikas
+        - salaboy
         - benmoss
         - xtreme-sameer-vohra
 
