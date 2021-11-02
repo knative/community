@@ -29,7 +29,7 @@ Please refer to the [SC Election Charter] for:
 - [Eligibility for candidacy]
 - [Eligibility for voting]
 
-The list of eligible voters is stored (TODO: https://github.com/knative/community/issues/772)[in the community repository](./voters.yaml), but it is easier
+The list of eligible voters is stored [in the community repository](./voters.yaml), but it is easier
 to check if you are eligible by logging into [Elekto]. See Voting Process below for more details.
 
 ## Schedule
