@@ -961,6 +961,7 @@ orgs:
         members:
         - pierDipi
         - matzew
+        - aliok
 
       eventing-natss Approvers:
         description: Approver group for eventing-natss - to be used in CODEOWNERS file
