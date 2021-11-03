@@ -7,7 +7,7 @@ info:
 
 ## Contributions to Knative (list):
 
-* Involved with project since 2018 and the inital announcement at Google Next.
+* Involved with project since 2018 and the initial announcement at Google Next.
 * Initial contributions as far back as Knative build
 * Speaker in conferences, meetups and online events which highlighted Knative (ie kubecon, O'Reilly, DevOpsDays)
 * Contributed mostly issues to the docs/serving and eventing repo
