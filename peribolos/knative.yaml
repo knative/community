@@ -884,9 +884,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - julz
-            - benmoss
-            - salaboy
+            - nak3
+            - matzew
       Networking Reviewers:
         description: Receive reviews for networking directories
         privacy: closed

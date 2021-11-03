@@ -731,9 +731,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - julz
-            - benmoss
-            - salaboy
+            - nak3
+            - matzew
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
