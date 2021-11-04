@@ -177,6 +177,7 @@ orgs:
     - nachocano
     - nader-ziada
     - nak3
+    - nainaz
     - navidshaikh
     - nealhu
     - nicolaferraro
@@ -1051,6 +1052,8 @@ orgs:
         - lkingland
         - matejvasek
         - zroubalik
+        - omerbensaadon
+        - nainaz
 
       kn-plugin-migration Approvers:
         description: Approver group for kn-plugin-migration - to be used in CODEOWNERS file
