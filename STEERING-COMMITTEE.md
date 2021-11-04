@@ -96,7 +96,7 @@ first name):
 | <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi | Google       | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  | 2021     |
 | <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt)           | Bootstrap  | 2021     |
 | <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie       | Independent  | [@pmorie](https://github.com/pmorie)                 | 2020-12-11 | 2022     |
-| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas      | Independent  | [@vaikas](https://github.com/vaikas)                 | 2020-12-11 | 2022     |
+| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas      | Chainguard   | [@vaikas](https://github.com/vaikas)                 | 2020-12-11 | 2022     |
 
 ## Emeritus Committee Members
 
