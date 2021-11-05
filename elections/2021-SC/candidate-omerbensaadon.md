@@ -31,7 +31,7 @@ If I may wax poetic for a second: what is the point of a Steering Committee, rea
 
 I believe I can play these roles, especially running as an independent. I feel I have done my part to earn the trust of the many stellar members of this community and can effectively play the role of a trusted third party.
 
-I also feel I bring proven experience to the table, with a chops in developer experience, product thinking, marketing and effectively organizing contributors towards a share goal. Skillsets which I would argue are somewhat rare in the Knative Community.
+I also feel I bring proven experience to the table, with chops in developer experience, product thinking, marketing and effectively organizing contributors towards a share goal. Skillsets which I would argue are somewhat rare in the Knative Community.
 
 On top of the above responsibilities, since I am going to be working at Github on Github Projects, I plan to participate in roadmap planning where I can (functionally dog-fooding my own product while contributing to Knative). Also, happy to take feature requests 😉.
 
