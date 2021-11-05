@@ -29,7 +29,7 @@ If I may wax poetic for a second: what is the point of a Steering Committee, rea
 - Connecting end-users with the community at large (who does this community serve?)
 - General community leadership (who do we trust to resolve things when things go wrong? Are unclear?)
 
-I believe I can play these roles, especially running as an independent. I feel I have done my part to earn the trust of the many stellar members of this community and can effectively play the role of a trusted third party.
+I feel I have done my part to earn the trust of the many stellar members of this community and can effectively play these roles.
 
 I also feel I bring proven experience to the table, with chops in developer experience, product thinking, marketing and effectively organizing contributors towards a share goal. Skillsets which I would argue are somewhat rare in the Knative Community.
 
