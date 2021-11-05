@@ -17,8 +17,8 @@ info:
 * Active member of the Knative Trademark Committee
 * Introduced product practices, refinement, to many Knative processes (Roadmaps, namely)
 * Product leadership on Knative Functions
-* Many intangible contributions, like bringing stellar vibes to the table 💫
 * Helped connect end-users to Knative contributors (feedback, case study participants, ADOPTERS.MD)
+* Many intangible contributions, like bringing stellar vibes to the table 💫
 
 
 ## Why I'm Running
