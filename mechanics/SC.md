@@ -45,7 +45,7 @@ decision-making process.
 # Voter Eligibility
 
 Anyone who has at least 50 contributions in the last 12 months is eligible to
-vote in the TOC election. Contributions are defined as opening PRs, reviewing
+vote in the SC election. Contributions are defined as opening PRs, reviewing
 and commenting on PRs, opening and commenting on issues, writing documentation,
 commenting on docs, helping people on slack, participating in working
 groups, actively promoting the Knative project, running project events, and
