@@ -2,7 +2,7 @@ name: Knative 2021 Steering Committee Election
 organization: Knative
 start_datetime: 2021-11-10 00:00:01
 end_datetime: 2021-11-29 23:59:00
-no_winners: 3
+no_winners: 2
 allow_no_opinion: True
 delete_after: True
 show_candidate_fields:

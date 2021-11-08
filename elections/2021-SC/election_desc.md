@@ -1,6 +1,6 @@
 # 2021 Voters Guide - Knative Steering Election
 
-The role of this election is to fill the three (3) seats due for election this year on the [Knative Steering Committee](https://github.com/knative/community/blob/master/STEERING-COMMITTEE.md). The elected members will serve two (2) year terms. This election will shape the future of Knative as a community and project.
+The role of this election is to fill the two (2) Contributor seats due for election this year on the [Knative Steering Committee](https://github.com/knative/community/blob/master/STEERING-COMMITTEE.md). The elected members will serve two (2) year terms. This election will shape the future of Knative as a community and project.
 
 This is a brief summary of the election; for more details, such as how to become a candidate, [see the README](https://github.com/knative/community/blob/main/elections/2021-SC/README.md).
 
