@@ -9,9 +9,10 @@ type: "docs"
 
 ## Purpose
 
-The role of this election is to fill out the three (3) seats due for election
+The role of this election is to fill out the two (2) seats due for election
 this year on the [Knative Steering Committee]. Each elected member will serve a
-two (2) year term.
+two (2) year term.  The newly elected SC will, in turn, select the End User
+representative.
 
 ## Background
 
@@ -57,7 +58,7 @@ You can reach us by emailing elections@knative.team
 
 **Nomination**
 
-If you want to stand for election, open a PR against the
+If you want to stand for election for a Contributor Seat, open a PR against the
 [knative/community repository](https://github.com/knative/community) to include
 your candidate profile in the `/elections/2021-SC` folder, with the following
 filename format:
@@ -93,6 +94,9 @@ merge the profile PR.
 
 If you want to nominate someone else, you may do so, but PLEASE talk to them
 first.
+
+End Users interested in the End User seat will have a separate nomination 
+process (TBD) after the main election.
 
 **Campaigning**
 
