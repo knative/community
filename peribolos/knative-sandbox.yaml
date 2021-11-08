@@ -936,6 +936,7 @@ orgs:
         - lberk
         - matzew
         - phamilton
+        - pierDipi
         - travis-minke-sap
         teams:
           eventing-kafka-mtsource Approvers:
