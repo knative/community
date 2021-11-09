@@ -123,7 +123,7 @@ elections.  From there you can click on the "2021 Knative SC Election."
 The election page will, among other things, tell you if you are eligible to vote,
 via a button at the top of the screen. Due to limitations in our contributor
 data, many contributors may have been unfairly missed; if you are one of these,
-please [file a voting exception] by November 8th 2021 so that we can enfranchise
+please [file a voting exception] by November 19th 2021 so that we can enfranchise
 you.
 
 As candidates file their candidate statements in the community repo, they will
@@ -160,10 +160,12 @@ the [SC Election Charter].
 [pledge to recuse]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
 
 [Elekto]: https://elections.knative.dev
-[Elekto documentation]: 
+[Elekto documentation]: https://elekto.dev/docs/
 
 [Knative Blog]: https://knative.dev/blog/
 [voters.md]: ./voters.yaml
 
 [Eligibility for candidacy]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility
 [Eligibility for voting]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility#voter-eligibility
+
+[file a voting exception]: https://elections.knative.dev/app/elections/2021-SC/exception
