@@ -6,7 +6,7 @@ This is a brief summary of the election; for more details, such as how to become
 
 ## Eligibility
 
-All Knative contributors with 50 or more contributions over the last year are eligible to vote.  You will see either ELIGIBLE or NOT ELIGIBLE at the top of this screen.  If you are not eligible, but should be, please [file an exception request](https://test.elekto.io/app/elections/2021-SC/exception) or contact elections@knative.team.
+All Knative contributors with 50 or more contributions over the last year are eligible to vote.  You will see either ELIGIBLE or NOT ELIGIBLE at the top of this screen.  If you are not eligible, but should be, please [file an exception request](https://elections.knative.dev/app/elections/2021-SC/exception) or contact elections@knative.team.
 
 ### Schedule
 
