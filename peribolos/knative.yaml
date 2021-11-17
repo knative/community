@@ -770,7 +770,10 @@ orgs:
         teams:
           Docs WG Leads:
             description: The Working Group leads for Docs
-            members: []
+            members:
+            - csantanapr
+            - omerbensaadon
+            - snneji
             privacy: closed
         members:
         - abrennan89
@@ -1063,6 +1066,7 @@ orgs:
             members:
             - csantanapr
             - omerbensaadon
+            - snneji
         repos:
           docs: write
           website: write
