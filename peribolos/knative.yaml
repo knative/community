@@ -872,7 +872,7 @@ orgs:
           Trademark Committee:
             description: Knative Trademark Committee
             maintainers:
-            - omerbensaadon
+            - evankanderson
             - duglin
             - spencerdillard
             privacy: closed
