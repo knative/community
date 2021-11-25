@@ -29,9 +29,10 @@ webhooks, bugs)._
 ### K8s minimum version principle:
 
 We (the community) support the range of upstream minor Kubernetes versions that
-are Kubernetes community supported at the time of the cut. Only the latest patch
-release of the minor version is tested for support. Support for versions prior
-to that are best effort, or by vendors.
+are Kubernetes community supported at the time of the cut. This excludes releases
+which have entered maintenance mode. Only the latest patch release of the minor 
+version is tested for support. Support for versions prior to that are best effort, 
+or by vendors.
 
 Adoption of newer K8s minimum versions will also be on a best-effort basis. When a
 Kubernetes version is released it's availability in downstream distributions is
@@ -40,6 +41,8 @@ the version table below and make it known in the release's notes.
 
 This principle will be revisited when changes to upstream Kubernetes support 
 policy occur.
+
+Upstream reference: https://kubernetes.io/releases/patch-releases
 
 ### Knative community support window principle:
 
