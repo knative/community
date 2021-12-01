@@ -321,14 +321,15 @@ Autoscaling behavior of Knative Serving
 | Slack Channel              | [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                                                                              |
 | Github Team WG leads       | [@knative/autoscaling-wg-leads](https://github.com/orgs/knative/teams/autoscaling-wg-leads/members)                                                         |
 
-| &nbsp;                                                         | Leads          | Company | Profile                                             |
-| -------------------------------------------------------------- | -------------- | ------- | --------------------------------------------------- |
-| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes | Red Hat | [markusthoemmes](https://github.com/markusthoemmes) |
+| &nbsp;                                                         | Leads           | Company | Profile                                             |
+| -------------------------------------------------------------- | --------------- | ------- | --------------------------------------------------- |
+| <img width="30px" src="https://github.com/julz.png">           | Julian Friedman | IBM     | [julz](https://github.com/julz)                     |
 
-| &nbsp;                                                        | Emeritus Leads  | Profile                                           | Duration  |
-| ------------------------------------------------------------- | --------------- | ------------------------------------------------- | --------- |
-| <img width="30px" src="https://github.com/vagababov.png">     | Victor Agababov | [vagababov](https://github.com/vagababov)         | 2019-2021 |
-| <img width="30px" src="https://github.com/josephburnett.png"> | Joseph Burnett  | [josephburnett](https://github.com/josephburnett) | 2018-2019 |
+| &nbsp;                                                         | Emeritus Leads  | Profile                                             | Duration  |
+| -------------------------------------------------------------- | --------------- | --------------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes  | [markusthoemmes](https://github.com/markusthoemmes) | 2019-2021 |
+| <img width="30px" src="https://github.com/vagababov.png">      | Victor Agababov | [vagababov](https://github.com/vagababov)           | 2019-2021 |
+| <img width="30px" src="https://github.com/josephburnett.png">  | Joseph Burnett  | [josephburnett](https://github.com/josephburnett)   | 2018-2019 |
 
 ## Security
 
