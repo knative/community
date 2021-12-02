@@ -38,11 +38,11 @@ representing must be listed in the [Adopters](../ADOPTERS.md) file.
 
 If you want to stand for election for a Contributor Seat, open a PR against the
 [knative/community repository](https://github.com/knative/community) to include
-your candidate profile in the `/elections/2021-SC` folder, with the following
+your candidate profile in the `/elections/2021-SC-EU` folder, with the following
 filename format:
 
 ```
-candidate-enduser-githubid.md
+candidate-githubid.md
 ```
 
 This profile should include:
