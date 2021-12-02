@@ -94,7 +94,8 @@ first name):
 | &nbsp;                                                         | Member           | Organization | Profile                                              | Term Start | Term End |
 | -------------------------------------------------------------- | ---------------- | ------------ | ---------------------------------------------------- | ---------- | --------
 | <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi | Google       | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  | 2021     |
-| <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt | IBM          | [@mbehrendt](https://github.com/mbehrendt)           | Bootstrap  | 2021     |
+| <img width="30px" src="https://github.com/csantanapr.png">     | Carlos Santana   | IBM          | [@csantanapr](https://github.com/csantanapr)         | 2021-12-02 | 2023     |
+| <img width="30px" src="https://github.com/lance.png">          | Lance Ball       | Red Hat      | [@lance](https://github.com/lance)                   | 2021-12-02 | 2023     |
 | <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie       | Independent  | [@pmorie](https://github.com/pmorie)                 | 2020-12-11 | 2022     |
 | <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas      | Chainguard   | [@vaikas](https://github.com/vaikas)                 | 2020-12-11 | 2022     |
 
@@ -113,6 +114,7 @@ To recognize the folks that have served in the SC in the past, below we list the
 | <img width="30px" src="https://github.com/anicolao.png">       | Alex Nicolau        | [@anicolao](https://github.com/anicolao)     | 2020       | 2020     |
 | <img width="30px" src="https://github.com/ronavn.png">         | Ron Avnur           | [@ronavn](https://github.com/ronavn)         | 2020       | 2020     |
 | <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan         | [@bsnchan](https://github.com/bsnchan)       | Bootstrap  | 2021     |
+| <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt    | [@mbehrendt](https://github.com/mbehrendt)   | Bootstrap  | 2021     |
 
 ## Decision process
 

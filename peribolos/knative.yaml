@@ -862,9 +862,9 @@ orgs:
           Steering Committee:
             description: Knative Steering Committee
             maintainers:
+            - csantanapr
+            - lance
             - pmorie
-            - bsnchan
-            - mbehrendt
             - thisisnotapril
             - vaikas
             privacy: closed

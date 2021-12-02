@@ -714,9 +714,9 @@ orgs:
           Steering Committee:
             description: ""
             maintainers:
+            - csantanapr
+            - lance
             - pmorie
-            - bsnchan
-            - mbehrendt
             - thisisnotapril
             - vaikas
             privacy: closed
