@@ -772,7 +772,6 @@ orgs:
             description: The Working Group leads for Docs
             members:
             - csantanapr
-            - omerbensaadon
             - snneji
             privacy: closed
         members:
