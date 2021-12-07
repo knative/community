@@ -1062,7 +1062,6 @@ orgs:
             description: The Working Group leads for User Experience (UX)
             members:
             - csantanapr
-            - omerbensaadon
             - snneji
         repos:
           docs: write
