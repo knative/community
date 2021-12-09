@@ -772,7 +772,6 @@ orgs:
             description: The Working Group leads for Docs
             members:
             - csantanapr
-            - omerbensaadon
             - snneji
             privacy: closed
         members:
@@ -1063,7 +1062,6 @@ orgs:
             description: The Working Group leads for User Experience (UX)
             members:
             - csantanapr
-            - omerbensaadon
             - snneji
         repos:
           docs: write

@@ -813,7 +813,7 @@ orgs:
             description: The Working Group leads for User Experience (UX)
             members:
             - csantanapr
-            - omerbensaadon
+            - snneji
 
       # Per-repo owners groups for CODEOWNERS below here
       async-component Approvers:
