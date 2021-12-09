@@ -28,9 +28,11 @@ representing must be listed in the [Adopters](../ADOPTERS.md) file.
 
 | Date         | Event                    |
 | ------------ | ------------------------ |
-| December 6   | Announce the intent to select End User representative |
-| December 15  | All candidate nominations due by 0000 UTC (4pm Pacific) |
-| December 16  | Announcement of selection |
+| December 17  | Announce the intent to select End User representative |
+| January 26   | All candidate nominations due by 0000 UTC (4pm Pacific) |
+| January 31   | Announcement of selection |
+
+The one year term would be from February 1st, 2022 to January 31st, 2023
 
 ## Candidacy Process
 
