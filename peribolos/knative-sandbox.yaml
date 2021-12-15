@@ -603,8 +603,11 @@ orgs:
           Docs WG Leads:
             description: The Working Group leads for Docs
             members:
-            - abrennan89
+            - csantanapr
+            - snneji
             privacy: closed
+        members:
+        - abrennan89
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
