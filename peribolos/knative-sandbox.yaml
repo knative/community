@@ -737,8 +737,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - nak3
-            - matzew
+            - dprotaso
+            - psschwei
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed

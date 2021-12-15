@@ -880,8 +880,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - nak3
-            - matzew
+            - dprotaso
+            - psschwei
       Networking Reviewers:
         description: Receive reviews for networking directories
         privacy: closed
