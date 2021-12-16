@@ -294,13 +294,13 @@ performance/scale/load testing infrastructure
 | Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Github Team WG leads       | [@knative/productivity-wg-leads](https://github.com/orgs/knative/teams/productivity-wg-leads/members)                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-| &nbsp;                                                   | Leads         | Company | Profile                                 |
-| -------------------------------------------------------- | ------------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang     | Google  | [chizhg](https://github.com/chizhg)     |
-| <img width="30px" src="https://github.com/n3wscott.png"> | Scott Nichols |         | [n3wscott](https://github.com/n3wscott) |
+| &nbsp;                                                   | Leads     | Company | Profile                             |
+| -------------------------------------------------------- | --------- | ------- | ----------------------------------- |
+| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang | Google  | [chizhg](https://github.com/chizhg) |
 
 | &nbsp;                                                    | Emeritus Leads | Profile                                   | Duration  |
 | --------------------------------------------------------- | -------------- | ----------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/n3wscott.png">  | Scott Nichols  | [n3wscott](https://github.com/n3wscott)   | 2020-2021 |
 | <img width="30px" src="https://github.com/chaodaiG.png">  | Chao Dai       | [chaodaiG](https://github.com/chaodaiG)   | 2019-2020 |
 | <img width="30px" src="https://github.com/jessiezcc.png"> | Jessie Zhu     | [jessiezcc](https://github.com/jessiezcc) | 2018-2019 |
 | <img width="30px" src="https://github.com/adrcunha.png">  | Adriano Cunha  | [adrcunha](https://github.com/adrcunha)   | 2018-2020 |
