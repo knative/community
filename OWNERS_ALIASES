@@ -79,7 +79,6 @@ aliases:
   - knative-prow-updater-robot
   - knative-test-reporter-robot
   - lance
-  - markusthoemmes
   - matzew
   - nak3
   - pmorie
@@ -185,7 +184,6 @@ aliases:
   serving-writers:
   - dprotaso
   - julz
-  - markusthoemmes
   - tcnghia
   - vagababov
   source-wg-leads:
@@ -200,7 +198,6 @@ aliases:
   - dprotaso
   - evankanderson
   - julz
-  - markusthoemmes
   - rhuss
   trademark-committee:
   - duglin
