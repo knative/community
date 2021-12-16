@@ -11,8 +11,8 @@ type: "docs"
 
 The role of this election is to fill out the two (2) seats due for election
 this year on the [Knative Steering Committee]. Each elected member will serve a
-two (2) year term.  The newly elected SC will, in turn, select the End User
-representative.
+two (2) year term.  The newly elected SC will, in turn, select the [End User
+representative](../2021-SC-EU/enduser.md).
 
 ## Background
 
