@@ -18,7 +18,6 @@ orgs:
     - googlebot
     - julz
     - knative-prow-robot
-    - markusthoemmes
     - mbehrendt
     - pmorie
     - rhuss
@@ -160,6 +159,7 @@ orgs:
     - macruzbar
     - markfisher
     - markito
+    - markusthoemmes
     - matejvasek
     - mattmoor
     - matzew
@@ -730,7 +730,6 @@ orgs:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
             - rhuss
-            - markusthoemmes
             - evankanderson
             - dprotaso
             - julz
@@ -1172,7 +1171,6 @@ orgs:
         repos:
           net-gateway-api: write
         members:
-        - markusthoemmes
         - nak3
         - tcnghia
 

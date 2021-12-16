@@ -174,7 +174,6 @@ aliases:
   - knative-prow-updater-robot
   - knative-test-reporter-robot
   - lance
-  - markusthoemmes
   - matzew
   - nak3
   - pmorie
@@ -199,7 +198,6 @@ aliases:
   - dprotaso
   - tcnghia
   net-gateway-api-approvers:
-  - markusthoemmes
   - nak3
   - tcnghia
   net-http01-approvers:
@@ -250,7 +248,6 @@ aliases:
   - dprotaso
   - evankanderson
   - julz
-  - markusthoemmes
   - rhuss
   ux-wg-leads:
   - csantanapr
