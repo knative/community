@@ -753,9 +753,7 @@ orgs:
         description: Receive reviews for docs directories
         privacy: closed
         members:
-        - mpetason
         - omerbensaadon
-        - RichardJJG
         - snneji
         - pmbanugo
         - nainaz
@@ -775,10 +773,7 @@ orgs:
             privacy: closed
         members:
         - abrennan89
-        - carieshmarie
-        - richieescarez
-        - snneji
-        - RichardJJG
+        - psschwei
       Eventing Reviewers:
         description: Receive reviews for docs directories
         privacy: closed
