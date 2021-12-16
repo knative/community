@@ -608,6 +608,7 @@ orgs:
             privacy: closed
         members:
         - abrennan89
+        - psschwei
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed

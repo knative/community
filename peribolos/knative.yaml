@@ -774,6 +774,7 @@ orgs:
             privacy: closed
         members:
         - abrennan89
+        - psschwei
       Eventing Reviewers:
         description: Receive reviews for docs directories
         privacy: closed

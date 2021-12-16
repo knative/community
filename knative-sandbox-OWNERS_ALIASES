@@ -37,6 +37,7 @@ aliases:
   docs-writers:
   - abrennan89
   - csantanapr
+  - psschwei
   - snneji
   eventing-autoscaler-keda-approvers:
   - zroubalik
