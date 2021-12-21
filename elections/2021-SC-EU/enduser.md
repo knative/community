@@ -38,7 +38,7 @@ The one year term would be from February 1st, 2022 to January 31st, 2023
 
 **Nomination**
 
-If you want to stand for election for a Contributor Seat, open a PR against the
+If you want to stand for election for End User Seat, open a PR against the
 [knative/community repository](https://github.com/knative/community) to include
 your candidate profile in the `/elections/2021-SC-EU` folder, with the following
 filename format:
