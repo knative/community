@@ -8,7 +8,7 @@ If you would like to be included in this table, please submit a comment to [this
 
 | Organization                      | Product/Project Name                                                   | Status                   | More Information                                                     |
 | --------------------------------- | ---------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------- |
-| Alibaba Cloud                     | Knative on Alibaba Cloud                                               | Production               | [link](https://cs.console.aliyun.com/)                                         |
+| Alibaba Cloud                     | Knative on Alibaba Cloud                                               | Production               | [link](https://cs.console.aliyun.com/)                               |
 | Blue Origin                       |                                                                        | Production               | [link](https://www.blueorigin.com/)                                  |
 | Chainguard                        |                                                                        | Development              | [link](https://chainguard.dev)                                       |
 | Control Plane Corporation         | Control Plane Multi-Cloud Platform                                     | Production               | [link](https://www.controlplane.com/)                                |
@@ -18,10 +18,11 @@ If you would like to be included in this table, please submit a comment to [this
 | Google Cloud                      | Cloud Run for Anthos                                                   | Production / GA          | [link](https://cloud.google.com/anthos/run)                          |
 | Grey Rook                         |                                                                        | Production               | [link](https://www.greyrook.com)                                     |
 | IBM                               | IBM Cloud Code Engine                                                  | Production               | [link](https://cloud.ibm.com/codeengine)                             |
-| KubeSphere                        | [OpenFunction](https://github.com/OpenFunction/OpenFunction#serving) | Development & Production | [link](https://kubesphere.io/)                                       |
+| KubeSphere                        | [OpenFunction](https://github.com/OpenFunction/OpenFunction#serving)   | Development & Production | [link](https://kubesphere.io/)                                       |
 | Liquidx                           | InBlock                                                                | Production               | [link](https://www.liquidx.com/)                                     |
 | Optum                             |                                                                        | Production               | [link](https://optum.com/)                                           |
 | Red Hat                           | Red Hat OpenShift Serverless                                           | Generally Available      | [link](https://www.openshift.com/learn/topics/serverless)            |
+| SAP                               | SAP Event Mesh                                                         | Generally Available      | [link](https://help.sap.com/viewer/product/SAP_EM/Cloud/en-US)       |
 | Scaleway                          |                                                                        | Public Beta              | [link](https://www.scaleway.com/en)                                  |
 | Spider.com                        |                                                                        | Development              | [link](https://www.spider.com)                                       |
 | Tata Communications               |                                                                        | Development              | [link](https://www.tatacommunications.com/solutions/cloud/platforms) |
