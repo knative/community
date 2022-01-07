@@ -74,18 +74,19 @@ than three months left until the next regular annual election, the Steering
 Committee shall appoint a qualified contributor to fill that TOC seat until
 that election.
 
-Otherwise the candidate with the next most votes from the previous annual
+Otherwise the next most preferred candidate from the previous annual
 election will be offered the seat. If the seat cannot be filled from the
-previous annual election, the candidate with the next most votes from the most
+previous annual election, the next most preferred candidate from the most
 recent special election will be offered the seat. This process will continue
 until the seat is filled.
 
 In case this fails to fill the seat, a special election for that position will
 be held as soon as possible. Eligible voters from the most recent election will
 vote in the special election (ie: eligibility will not be redetermined at the
-time of the special election). Any elected replacement TOC member will serve
-out the remainder of the term for the person they are replacing, regardless of
-the length of that remainder.
+time of the special election). 
+
+Any replacement TOC member will serve out the remainder of the term for the person 
+they are replacing, regardless of the length of that remainder.
 
 ---
 
