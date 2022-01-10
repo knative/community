@@ -1146,6 +1146,7 @@ orgs:
         repos:
           net-contour: write
         members:
+        - carlisia
         - dprotaso
         - tcnghia
 
@@ -1172,6 +1173,7 @@ orgs:
         repos:
           net-gateway-api: write
         members:
+        - carlisia
         - nak3
         - tcnghia
 
