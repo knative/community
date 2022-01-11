@@ -19,9 +19,9 @@ With all the recent changes in the project I want to see it find a second wind, 
 
 I have always seen Knative as the only viable solution for a long term serverless solution on Kubernetes and gave up my own project Kubeless in favor of Knative. We need to balance the technical vision of the project with the real needs of the users to tackle practical issues in building event-driven systems and what I call a light weight PaaS.
 
-At TriggerMesh we have built an integration platform on top of Knative, our work is open source and leverages many Knative primitives. Check:
+At TriggerMesh we have built an integration platform on top of Knative, our work is open source and leverages many Knative primitives. Therefore we rely on Knative and contribute regularly fixes and issues to make the project better. Check:
 
 * [https://docs.triggermesh.io/](https://docs.triggermesh.io/)
 * [https://github.com/triggermesh/triggermesh](https://github.com/triggermesh/triggermesh)
 
-Finally, I think it is time for the project to align itself with the Cloud-Native community at large with a move to CNCF so that we can collaborate with more confidence and feeling of openness with our peers in other projects.
+Finally, with the donation to CNCF underway we need to do our best to collaborate and build an open environment with our peers in other projects. The long term viability and adoption of Knative depends on a vibrant community of end-users as well as vendors willing to support it.
