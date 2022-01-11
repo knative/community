@@ -21,7 +21,7 @@ Sponsoring WG:
 
 ## Actions to fulfill
 
-This area is used to track the [repo creation process](/mechanics/CREATING-A-SANDBOX-REPO.md).
+This area is used to track the [repo creation process](https://github.com/knative/community/blob/main/mechanics/CREATING-A-SANDBOX-REPO.md).
 The _requestor_ and _sponsoring WG lead_ should perform the steps listed below and cross out the checkmarks when done.
 The TOC is involved only in the **TOC Gate** steps.
 
