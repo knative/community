@@ -29,4 +29,4 @@ If you would like to be included in this table, please submit a comment to [this
 | TriggerMesh                       |                                                                        | Production               | [link](https://triggermesh.com)                                      |
 | VMware                            | Cloud Native Runtimes for VMware Tanzu                                 | Generally Available      | [link](https://network.tanzu.vmware.com/products/serverless)         |
 | VMware                            | VMware Event Broker Appliance                                          | Development              | [link](https://vmweventbroker.io/)                                   |
-| vorteil pty ltd                   | Serverless orchestration engine                                        | Development & Production | [link](http://vorteil.io) [link](https://github.com/vorteil/)        |
+| vorteil pty ltd                   | Serverless orchestration engine                                        | Development & Production | [link](http://vorteil.io)                                            |
