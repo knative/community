@@ -92,12 +92,13 @@ during the community feedback period at the end of each meeting.
 
 The current members of the TOC are shown below.
 
-| &nbsp;                                                         | Member           | Company | Profile                                              | Term Start | Term End |
-| -------------------------------------------------------------- | ---------------- | ------- | ---------------------------------------------------- | ---------- | --------
-| <img width="30px" src="https://github.com/dprotaso.png">       | Dave Protasowski | VMware  | [@dprotaso](https://github.com/dprotaso)             | 2021-05-26 | 2022     |
-| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson    | VMware  | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2023     |
-| <img width="30px" src="https://github.com/julz.png">           | Julian Friedman  | IBM     | [@julz](https://github.com/julz)                     | 2021-05-26 | 2023     |
-| <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß       | Red Hat | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022     |
+| &nbsp;                                                         | Member           | Company    | Profile                                              | Term Start | Term End |
+| -------------------------------------------------------------- | ---------------- | ---------- | ---------------------------------------------------- | ---------- | --------
+| <img width="30px" src="https://github.com/dprotaso.png">       | Dave Protasowski | VMware     | [@dprotaso](https://github.com/dprotaso)             | 2021-05-26 | 2022     |
+| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson    | VMware     | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2023     |
+| <img width="30px" src="https://github.com/julz.png">           | Julian Friedman  | IBM        | [@julz](https://github.com/julz)                     | 2021-05-26 | 2023     |
+| <img width="30px" src="https://github.com/n3wscott.png">       | Scott Nichols    | Chainguard | [@n3wscott](https://github.com/n3wscott)             | 2022-01-11 | 2022     |
+| <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß       | Red Hat    | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022     |
 
 ## Emeritus Committee Members
 
