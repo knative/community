@@ -1,9 +1,9 @@
 -------------------------------------------------------------
-name: Murugappan Sevugan Chetty
+Name: Murugappan Sevugan Chetty
 
 ID: itsmurugappan
 
-info:
+Info:
   - affiliation: Optum
 -------------------------------------------------------------
 
