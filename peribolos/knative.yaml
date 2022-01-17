@@ -699,6 +699,7 @@ orgs:
         - taragu
         - psschwei
         - nader-ziada
+        - skonto
       Autoscaling Writers:
         description: Approvers and write access for autoscaling-related repositories.
         privacy: closed
@@ -1026,6 +1027,7 @@ orgs:
         - nealhu
         - carlisia
         - nader-ziada
+        - skonto
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
