@@ -9,6 +9,7 @@ If you would like to be included in this table, please submit a comment to [this
 | Organization                      | Product/Project Name                                                   | Status                   | More Information                                                     |
 | --------------------------------- | ---------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------- |
 | Alibaba Cloud                     | Knative on Alibaba Cloud                                               | Production               | [link](https://cs.console.aliyun.com/)                               |
+| Bloomberg L.P.                    | Bloomberg Data Science Platform                                        | Production               | [link](https://www.bloomberg.net/)
 | Blue Origin                       |                                                                        | Production               | [link](https://www.blueorigin.com/)                                  |
 | Chainguard                        |                                                                        | Development              | [link](https://chainguard.dev)                                       |
 | Control Plane Corporation         | Control Plane Multi-Cloud Platform                                     | Production               | [link](https://www.controlplane.com/)                                |
