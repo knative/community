@@ -995,6 +995,7 @@ orgs:
         - benmoss
         - xtreme-sameer-vohra
         - gvmw
+        - gabo1208
 
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
