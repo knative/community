@@ -22,7 +22,7 @@ completed.
 ## Eligibility
 
 In order to be considered for End User seat, the company the user is
-representing must be listed in the [Adopters](../ADOPTERS.md) file.
+representing must be listed in the [Adopters](../../ADOPTERS.MD) file.
 
 ## Schedule
 
