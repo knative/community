@@ -100,6 +100,7 @@ aliases:
   eventing-rabbitmq-approvers:
   - benmoss
   - gvmw
+  - ikvmw
   - salaboy
   - xtreme-sameer-vohra
   eventing-redis-approvers:
