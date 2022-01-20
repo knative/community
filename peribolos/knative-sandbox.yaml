@@ -996,6 +996,7 @@ orgs:
         - xtreme-sameer-vohra
         - gvmw
         - ikvmw
+        - gabo1208
 
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
