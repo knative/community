@@ -99,6 +99,7 @@ aliases:
   - matzew
   eventing-rabbitmq-approvers:
   - benmoss
+  - chunyilyu
   - gabo1208
   - gvmw
   - ikvmw
