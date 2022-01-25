@@ -22,9 +22,7 @@ endif
 default: run
 
 .PHONY: run
-run: test
-	go run . $(runargs)
+run:
+	go get k8s.io/k8s.io/groups@v0.0.0-20220124221514-b894a331a999
+	groups $(runargs)
 
-.PHONY: test
-test:
-	go test
