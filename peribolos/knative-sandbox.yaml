@@ -1060,6 +1060,7 @@ orgs:
         - zroubalik
         - omerbensaadon
         - nainaz
+        - salaboy
 
       kn-plugin-migration Approvers:
         description: Approver group for kn-plugin-migration - to be used in CODEOWNERS file
