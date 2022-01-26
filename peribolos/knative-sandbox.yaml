@@ -763,6 +763,8 @@ orgs:
           actions-kind: write
           kperf: write
           knobots: write
+        members:
+          - psschwei
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
