@@ -67,6 +67,7 @@ orgs:
     - chaozbj
     - chizhg
     - christophd
+    - chunyilyu
     - cooperneil
     - coryrc
     - cr22rc
@@ -997,6 +998,7 @@ orgs:
         - gvmw
         - ikvmw
         - gabo1208
+        - chunyilyu
 
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
