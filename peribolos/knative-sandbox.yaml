@@ -765,6 +765,7 @@ orgs:
           knobots: write
         members:
           - psschwei
+          - cardil
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
