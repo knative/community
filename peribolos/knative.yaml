@@ -991,6 +991,7 @@ orgs:
         members:
         - chaodaiG
         - coryrc
+        - psschwei
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
