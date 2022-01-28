@@ -976,9 +976,7 @@ orgs:
         - efiturri
         - evankanderson
         - gerardo-lc
-        - joshua-bone
         - shinigambit
-        - steuhs
         - kvmware
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
@@ -992,6 +990,7 @@ orgs:
         - chaodaiG
         - coryrc
         - psschwei
+        - cardil
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
