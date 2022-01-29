@@ -883,8 +883,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - dprotaso
-            - psschwei
+            - carlisia
+            - xtreme-sameer-vohra
       Networking Reviewers:
         description: Receive reviews for networking directories
         privacy: closed
