@@ -1,0 +1,20 @@
+# Security WG
+groups:
+  - email-id: security@knative.team
+    name: security
+    description: |-
+      Security WG email
+    settings:
+      WhoCanPostMessage: "ANYONE_CAN_POST"
+      ReconcileMembers: "true"
+    owners:
+      - evan.k.anderson@gmail.com
+      - evana@vmware.com
+      - evankanderson@knative.team
+      - julz.friedman@uk.ibm.com
+      - julz@knative.team
+    members:
+      - pablo@triggermesh.com
+      - paulschw@us.ibm.com
+      - vaikas@gmail.com
+

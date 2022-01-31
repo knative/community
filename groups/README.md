@@ -25,9 +25,16 @@ k8s-infra-staging-<project-name>@knative.team
 
 ## Manual deploy
 
-- Must be run by someone who is a member of the k8s-infra-group-admins@kubernetes.io group
+- Must be run by someone who is a member of the productivity-infra-gcp-org@knative.team group
 - Run `gcloud auth application-default login` to login
 - Use `make run` to dry run the changes
 - Use `make run -- --confirm` if the changes suggested in the previous step looks good
 
 [post-k8sio-groups]: https://testgrid.k8s.io/sig-k8s-infra-k8sio#post-k8sio-groups
+
+## How does this work?
+
+- The groups are managed with the Google Admin SDK Groups API
+- Google has a process called Domain Wide Delegation(DWD) that allows a Google Service Account to
+  impersonate a google workspace user. https://developers.google.com/admin-sdk/directory/v1/guides/delegation
+- Configuring DWD is one time process as long as the Google Service Account impersonating is not deleted.

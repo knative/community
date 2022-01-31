@@ -1,14 +1,12 @@
 groups:
-  - email-id: conduct@kubernetes.io
-    name: conduct
+  - email-id: trademark@knative.team
+    name: trademark
     description: |-
-      Public list for the Code of Conduct Committee
+      Trademark Committee Mailing List
     settings:
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
     owners:
-      - celeste@cncf.io
-      - chu.karen.h@gmail.com
-      - ctadeu@gmail.com
-      - pal.nabarun95@gmail.com
-      - vallery@zeitgeistlabs.io
+      - bsnchan@knative.team
+      - duglin@gmail.com
+      - avnur@knative.team

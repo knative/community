@@ -10,12 +10,7 @@ options:
 approvers:
 - dprotaso
 - upodroid
-- chizing
+- chizhg
 
 reviewers:
-- MadhavJivrajani
-
-labels:
-- sig/k8s-infra
-- area/access
-- area/groups
+- productivity-reviewers

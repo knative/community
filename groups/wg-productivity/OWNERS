@@ -1,9 +1,10 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 approvers:
-- sig-windows-leads
+- productivity-writers
 reviewers:
-- sig-windows-leads
+- productivity-writers
+- productivity-reviewers
 
 labels:
 - sig/windows
