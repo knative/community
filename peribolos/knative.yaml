@@ -8,14 +8,14 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
-    - bsnchan
+    - csantanapr
     - dprotaso
     - evankanderson
     - google-admin
     - googlebot
     - julz
+    - itsmurugappan
     - knative-prow-robot
-    - mbehrendt
     - pmorie
     - rhuss
     - thisisnotapril
@@ -860,6 +860,7 @@ orgs:
             description: Knative Steering Committee
             maintainers:
             - csantanapr
+            - itsmurugappan
             - lance
             - pmorie
             - thisisnotapril
