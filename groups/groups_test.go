@@ -279,6 +279,9 @@ func TestHardcodedGroupsForParanoia(t *testing.T) {
 		"kn-infra-gcp-org-admins@knative.team": {
 			"chizhg@google.com",
 			"cy@borg.dev",
+			"chizhg@knative.team",
+			"cy@knative.team",
+			"racker-maha-66b7d200@gcp.rackspace.com",
 		},
 	}
 

@@ -1,7 +1,7 @@
 restrictions:
-#   - path: "committee-code-of-conduct/groups.yaml"
-#     allowedGroups:
-#       - "^conduct@knative.team$"
+  - path: "committee-code-of-conduct/groups.yaml"
+    allowedGroups:
+      - "^code-of-conduct@knative.team$"
 #   - path: "committee-security-response/groups.yaml"
 #     allowedGroups:
 #       - "^distributors-announce@knative.team$"
@@ -11,3 +11,4 @@ restrictions:
   - path: "committee-steering/groups.yaml"
     allowedGroups:
       - "^steering@knative.team$"
+      - "^elections@knative.team$"

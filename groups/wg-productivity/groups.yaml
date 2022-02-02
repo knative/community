@@ -7,6 +7,10 @@ groups:
   # required for membership in these groups.
   #
 
+  ###
+  ### GROUPS FOR GKE/GCP RBAC
+  ###
+
   - email-id: kn-infra-gcp-org-admins@knative.team
     name: kn-infra-gcp-org-admins
     description: |-
@@ -18,9 +22,12 @@ groups:
       ReconcileMembers: "true"
     members:
       - chizhg@google.com
+      - chizhg@knative.team
+      - cy@knative.team
+      - racker-maha-66b7d200@gcp.rackspace.com # Mahamed Ali
       - cy@borg.dev # Mahamed Ali
 
-  # Every RBAC group should be added here.
+  # Every GKE RBAC group should be added here.
   - email-id: gke-security-groups@knative.team
     name: gke-security-groups
     description: |-
@@ -31,7 +38,7 @@ groups:
     members:
       - k8s-infra-rbac-prow@knative.team
 
-  # RBAC groups:
+  # GKE RBAC groups:
   # - grant access to the `namespace-user` role for a single namespace on the `aaa` cluster
   # - must have WhoCanViewMemberShip: "ALL_MEMBERS_CAN_VIEW"
   # - must be members of gke-security-groups@kubernetes.io
@@ -44,4 +51,24 @@ groups:
       ReconcileMembers: "true"
       WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
     members:
+      - chizhg@google.com
+
+  ###
+  ### Productivity WG related mailing lists
+  ###
+
+  - email-id: automation@knative.team
+    name: automation
+    description: |-
+      User group for administrators of knative-automation.
+    settings:
+      AllowExternalMembers: "true"
+    owners:
+      - evana@gcp.vmware.com
+      - evankanderson@knative.team
+      - markusthoemmes@gmail.com
+      - mattmoor@knative.team
+      - mattomata@gmail.com
+      - tcnghia@gmail.com
+    managers:
       - chizhg@google.com

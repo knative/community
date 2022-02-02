@@ -9,9 +9,20 @@ groups:
       - pmorie@knative.team
       - thisisnotapril@knative.team
       - vaikas@knative.team
+      - csantanapr@knative.team
     members:
       - anassi@google.com
       - lball@knative.team
       - pmorie@redhat.com
       - vaikas@gmail.com
-      - csantanapr@knative.team
+      - itsmurugappan@knative.team
+
+  - email-id: elections@knative.team
+    name: elections
+    description: |-
+      Knative Elections Mailing List
+    settings:
+      ReconcileMembers: "true"
+    members:
+      - fosterd@vmware.com
+      - jberkus@redhat.com

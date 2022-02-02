@@ -1,0 +1,15 @@
+groups:
+  - email-id: code-of-conduct@knative.team
+    name: code-of-conduct
+    description: |-
+      Group for handling Code of Conduct issues.
+      Due to potentially sensitive nature of the issues discussed, this is a closed group.
+    settings:
+      ReconcileMembers: "true"
+      WhoCanPostMessage: "ANYONE_CAN_POST"
+    owners:
+      - pmorie@knative.team
+      - thisisnotapril@knative.team
+      - vaikas@knative.team
+      - lball@knative.team
+      - csantanapr@knative.team

@@ -53,3 +53,18 @@ groups:
       - villard@us.ibm.com
       - zhiminx@google.com
       - zhiminxiang@knative.team
+
+  - email-id: calendar-maintainers@knative.team
+    name: calendar-maintainers
+    description: |-
+      Folks that can manage Knative calendar
+    settings:
+      AllowExternalMembers: "false"
+    owners:
+      - omerbensaadon@knative.team
+      - pmorie@knative.team
+      - thisisnotapril@knative.team
+      - vaikas@knative.team
+    members:
+      - abrennan@knative.team
+      - abrennan89@knative.team
