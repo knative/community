@@ -25,4 +25,4 @@ This group will primarily concern itself with the content of the [Knative Docs r
 
 ## Documentation Working Group Roadmap
 
-[Link to Roadmap](https://docs.google.com/document/d/1A0H2lpH8FQ0RQxkdXbLz-tbFsM4qtUByARPHkLuDOdw/edit#)
+[Link to Roadmap](https://github.com/orgs/knative/projects/20)
