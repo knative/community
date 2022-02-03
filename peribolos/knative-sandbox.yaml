@@ -995,7 +995,6 @@ orgs:
           eventing-rabbitmq: write
         members:
         - salaboy
-        - benmoss
         - xtreme-sameer-vohra
         - gvmw
         - ikvmw
