@@ -2,5 +2,16 @@
 
 approvers:
 - steering-committee
+
 reviewers:
 - steering-committee
+
+filters:
+  # Allow TOC to also approve OWNERS_ALIASES changes for reviewers/approvers
+  ".*OWNERS_ALIASES":
+    reviewers:
+    - steering-committee
+    - technical-oversight-committee
+    approvers:
+    - steering-committee
+    - technical-oversight-committee
