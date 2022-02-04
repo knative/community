@@ -53,7 +53,7 @@ other system (Apple Calendar or Outlook, for example),
 
 The current working groups are:
 
-- [API Core](#api-core)
+- [Serving API](#serving-api)
 - [Client](#client)
 - [Documentation + User Experience](#documentation--user-experience)
 - [Eventing](#eventing)
