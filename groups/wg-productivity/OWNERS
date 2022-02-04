@@ -1,10 +1,7 @@
-# See the OWNERS docs at https://go.k8s.io/owners
+# The OWNERS file is used by prow to automatically merge approved PRs.
 
 approvers:
 - productivity-writers
 reviewers:
 - productivity-writers
 - productivity-reviewers
-
-labels:
-- sig/windows
