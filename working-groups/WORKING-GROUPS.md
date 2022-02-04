@@ -53,7 +53,7 @@ other system (Apple Calendar or Outlook, for example),
 
 The current working groups are:
 
-- [API Core](#api-core)
+- [Serving API](#serving-api)
 - [Client](#client)
 - [Documentation + User Experience](#documentation--user-experience)
 - [Eventing](#eventing)
@@ -66,7 +66,7 @@ The current working groups are:
 - [Security](#security)
   <!-- TODO add charters for each group -->
 
-## API Core
+## Serving API
 
 API [resources](https://github.com/knative/serving/tree/main/pkg/apis/serving),
 [validation](https://github.com/knative/pkg/tree/main/webhook), and
@@ -77,9 +77,9 @@ API [resources](https://github.com/knative/serving/tree/main/pkg/apis/serving),
 | Charter                    | TODO (historical, was created before formal WG process)                                                                                                         |
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/35)                                                                                                          |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                             |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1HqLJ8uNm5KmKPlMzQmbfDy0haybEUrPydsp7gNBrl20/edit)                                        |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                        |
 | Community Meeting Calendar | Wednesdays 10:30a-11:00a PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1HqLJ8uNm5KmKPlMzQmbfDy0haybEUrPydsp7gNBrl20/edit)                                                                   |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                                   |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9)                                                                              |
 | Repos                      | [`knative/serving`](https://github.com/knative/serving)                                                                                                         |
 | Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api)                                                                                                  |
@@ -239,9 +239,9 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | Charter                    | TODO (historical, was created before formal WG process)                                                                                                        |
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/32)                                                                                                         |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                            |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/18m2XUDe-5QMFFBpLhIC7ozFnq12niYAqebtS3nMorhk/edit)                                       |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                       |
 | Community Meeting Calendar | Thursdays at 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/18m2XUDe-5QMFFBpLhIC7ozFnq12niYAqebtS3nMorhk/edit)                                                                  |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                                  |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1bx86aDXjXhylDvFmEpjWSMn8o80_2_nR)                                                                             |
 | Repos                      | `net-*`                                                                                                                                                        |
 | Slack Channel              | [#networking](https://slack.knative.dev/messages/networking)                                                                                                   |
@@ -321,9 +321,9 @@ Autoscaling behavior of Knative Serving
 | Charter                    | TODO (historical, was created before formal WG process)                                                                                                     |
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/36/views/1)                                                                                              |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                         |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1-hezRkkLhnCkkEm6S09SkQR-BpF5xpTyhethYL5Zm6w/edit#)                                   |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                   |
 | Community Meeting Calendar | Wednesdays at 9:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1-hezRkkLhnCkkEm6S09SkQR-BpF5xpTyhethYL5Zm6w/edit#)                                                              |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                              |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K)                                                                          |
 | Repo prefixes              |                                                                                                                                                             |
 | Slack Channel              | [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                                                                              |
