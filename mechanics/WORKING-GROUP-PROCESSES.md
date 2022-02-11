@@ -15,6 +15,7 @@ are run, etc.
 - [Proposing a new working group](#proposing-a-new-working-group)
 - [Setting up a working group](#setting-up-a-working-group)
   - [Dissolving a working group](#dissolving-a-working-group)
+- [Leads](#leads)
 - [Running a working group](#running-a-working-group)
   - [Be open](#be-open)
   - [Making decisions](#making-decisions)
@@ -88,7 +89,7 @@ group. To do so, you need to:
   [below](#leads) for information on the responsibilities of leads and
   requirements for nominating them.
 
-- **Prepare a Roadmap**. Create a preliminary 3 month roadmap for what the
+- **Prepare a Roadmap**. Create a preliminary 3 month [roadmap](https://github.com/knative/community/blob/main/mechanics/ROADMAPS.md) for what the
   working group would focus on.
 
 - **Send an Email**. Write up an email with your charter, nominated leads, and
@@ -114,8 +115,7 @@ working group. _For an example of working group creation, see
 - **Create a Meeting Notes Document**. Create a blank document in the above
   folder and call it "GROUP_NAME Group Meeting Notes".
 
-- **Create a Roadmap Document**. Create a document in the above folder and call
-  it "GROUP_NAME Group Roadmap". Put your initial roadmap in the document.
+- **Create a Roadmap**. Create a new [Roadmap Project Board](https://github.com/knative/community/blob/main/mechanics/ROADMAPS.md).
 
 - **Schedule a Recurring Meeting**. Create a recurring meeting (weekly or
   bi-weekly, 30 or 60 minutes) on the
@@ -183,7 +183,7 @@ few activities:
   for design proposals. It's particularly important to focus on making it
   possible for new participants can find the history of decisions.
 
-- **Roadmap**. Establish **and maintain** a roadmap for the working group
+- **Roadmap**. Establish **and maintain** a [roadmap](https://github.com/knative/community/blob/main/mechanics/ROADMAPS.md) for the working group
   outlining the areas of focus for the working group over the next 3 months.
 
 - **Report**. Report current status to the main community meeting every 6 weeks.
