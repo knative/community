@@ -261,6 +261,7 @@ orgs:
     - joshua-bone
     - joshuawilson
     - josueetcom
+    - jrangelramos
     - JRBANCEL
     - jsanda
     - jskeet
@@ -306,6 +307,7 @@ orgs:
     - markito
     - MarkKropf
     - markusthoemmes
+    - maschmid
     - mattmoor
     - mattsoldo
     - matzew
@@ -332,6 +334,7 @@ orgs:
     - mrsabath
     - mszostok
     - mthenw
+    - mvinkler
     - mvladev
     - n3wscott
     - nachocano
@@ -976,6 +979,7 @@ orgs:
         - evankanderson
         - gerardo-lc
         - shinigambit
+        - mgencur
         - kvmware
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
