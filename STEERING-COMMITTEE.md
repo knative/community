@@ -96,10 +96,10 @@ first name):
 | <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi          | Google       | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  | 2021     |
 | <img width="30px" src="https://github.com/csantanapr.png">     | Carlos Santana            | IBM          | [@csantanapr](https://github.com/csantanapr)         | 2021-12-02 | 2023     |
 | <img width="30px" src="https://github.com/lance.png">          | Lance Ball                | Red Hat      | [@lance](https://github.com/lance)                   | 2021-12-02 | 2023     |
-| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Sevugan Chetty | Optum        | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022-02-01 | 2023     |
+| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty*         | Optum        | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022-02-01 | 2023     |
 | <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie                | Independent  | [@pmorie](https://github.com/pmorie)                 | 2020-12-11 | 2022     |
 | <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas               | Chainguard   | [@vaikas](https://github.com/vaikas)                 | 2020-12-11 | 2022     |
-
+> * Murugappan holds the End User seat
 ## Emeritus Committee Members
 
 To recognize the folks that have served in the SC in the past, below we list the previous members of the SC (sorted by their 'Term End').
@@ -231,6 +231,9 @@ End-user seats for 2021 elections are eligible if their company is listed in the
 Elections will be held using [Elekto], an online voting tool created by CNCF
 intern Manish Sahani. The details for 2021 KSC elections can be found [here]
 (./elections/2021-SC/README.md).
+
+The End User seat is elected by Steerring Committee. The details for the 2021 End
+User elections can be found [here](./elections/2021-SC-EU/README.md)
 
 ### Limitations on Company Representation
 
