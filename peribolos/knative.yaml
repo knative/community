@@ -871,7 +871,7 @@ orgs:
             description: Knative Trademark Committee
             maintainers:
             - evankanderson
-            - duglin
+            - smoser-ibm
             - spencerdillard
             privacy: closed
           Technical Oversight Committee:
