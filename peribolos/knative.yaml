@@ -927,6 +927,7 @@ orgs:
         - houshengbo
         - jcrossley3
         - matzew
+        - maximilien
         - trshafer
       Operations Writers:
         description: Grants write access to operations-related repositories.
@@ -938,6 +939,7 @@ orgs:
         - Cynocracy
         - jcrossley3
         - matzew
+        - maximilien
         - trshafer
         teams:
           Operations WG Leads:
