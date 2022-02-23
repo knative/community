@@ -1,0 +1,13 @@
+# Configuration for the kubernetes.io Google Groups setup
+
+# Secret version of the service account key to use
+secret-version: projects/knative-gsuite/secrets/gsuite-group-manager_key/versions/latest
+
+# Email id of the bot service account
+bot-id: prow-robot@knative.team # TO BE CREATED
+
+# Directory with groups.yaml files, relative to location of this config file
+groups-path: .
+
+# Path to restrictions.yaml file, relative to location of this config file
+restrictions-path: restrictions.yaml

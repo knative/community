@@ -1,0 +1,28 @@
+restrictions:
+  - path: "committee-code-of-conduct/groups.yaml"
+    allowedGroups:
+      - "^code-of-conduct@knative.team$"
+  - path: "committee-trademark/groups.yaml"
+    allowedGroups:
+      - "^trademark@knative.team$"
+  - path: "committee-oversight/groups.yaml"
+    allowedGroups:
+      - "^toc@knative.team$"
+  - path: "committee-steering/groups.yaml"
+    allowedGroups:
+      - "^steering@knative.team$"
+      - "^elections@knative.team$"
+  - path: "wg-productivity/groups.yaml"
+    allowedGroups:
+      - "^gke-security-groups@knative.team$"
+      - "^kn-infra-gcp-org-admins@knative.team$"
+      - "^k8s-infra-rbac-[a-z]{0,8}@knative.team$"
+      - "^automation@knative.team$"
+  - path: "wg-security/groups.yaml"
+    allowedGroups:
+      - "^security@knative.team$"
+  - path: "groups.yaml"
+    allowedGroups:
+      - "^wg-leads@knative.team$"
+      - "^calendar-maintainers@knative.team$"
+  - path: "**/*" # prevent any other file from containing anything

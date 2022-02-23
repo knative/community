@@ -1,0 +1,12 @@
+groups:
+  - email-id: trademark@knative.team
+    name: trademark
+    description: |-
+      Trademark Committee Mailing List
+    settings:
+      WhoCanPostMessage: "ANYONE_CAN_POST"
+      ReconcileMembers: "true"
+    owners:
+      - bsnchan@knative.team
+      - duglin@gmail.com
+      - avnur@knative.team

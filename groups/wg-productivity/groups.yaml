@@ -1,0 +1,74 @@
+groups:
+  #
+  # k8s-infra owners for sig-owned subprojects
+  #
+  # Each group here represents highly privileged access to kubernetes project
+  # infrastructure owned or managed by this SIG. A high level of trust is
+  # required for membership in these groups.
+  #
+
+  ###
+  ### GROUPS FOR GKE/GCP RBAC
+  ###
+
+  - email-id: kn-infra-gcp-org-admins@knative.team
+    name: kn-infra-gcp-org-admins
+    description: |-
+      granted owner access to the knative.team GCP organization, as well as
+      additional privileges necessary for billing and admin purposes
+
+      access granted via custom organization role organization.admin
+    settings:
+      ReconcileMembers: "true"
+    members:
+      - chizhg@google.com
+      - chizhg@knative.team
+      - cy@knative.team
+      - racker-maha-66b7d200@gcp.rackspace.com # Mahamed Ali
+      - cy@borg.dev # Mahamed Ali
+
+  # Every GKE RBAC group should be added here.
+  - email-id: gke-security-groups@knative.team
+    name: gke-security-groups
+    description: |-
+      Security Groups for GKE clusters
+    settings:
+      ReconcileMembers: "true"
+      WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # needed for RBAC
+    members:
+      - k8s-infra-rbac-prow@knative.team
+
+  # GKE RBAC groups:
+  # - grant access to the `namespace-user` role for a single namespace on the `aaa` cluster
+  # - must have WhoCanViewMemberShip: "ALL_MEMBERS_CAN_VIEW"
+  # - must be members of gke-security-groups@kubernetes.io
+
+  - email-id: k8s-infra-rbac-prow@knative.team
+    name: k8s-infra-rbac-prow
+    description: |-
+      Grants access to the prow cluster
+    settings:
+      ReconcileMembers: "true"
+      WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
+    members:
+      - chizhg@google.com
+
+  ###
+  ### Productivity WG related mailing lists
+  ###
+
+  - email-id: automation@knative.team
+    name: automation
+    description: |-
+      User group for administrators of knative-automation.
+    settings:
+      AllowExternalMembers: "true"
+    owners:
+      - evana@gcp.vmware.com
+      - evankanderson@knative.team
+      - markusthoemmes@gmail.com
+      - mattmoor@knative.team
+      - mattomata@gmail.com
+      - tcnghia@gmail.com
+    managers:
+      - chizhg@google.com
