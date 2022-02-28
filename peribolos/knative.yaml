@@ -887,6 +887,7 @@ orgs:
             maintainers:
             - carlisia
             - xtreme-sameer-vohra
+            - kvmware
       Networking Reviewers:
         description: Receive reviews for networking directories
         privacy: closed

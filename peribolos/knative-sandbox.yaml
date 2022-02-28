@@ -741,6 +741,7 @@ orgs:
             maintainers:
             - carlisia
             - xtreme-sameer-vohra
+            - kvmware
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
