@@ -5,6 +5,7 @@ groups:
     description: |-
       Technical Oversight Committee Email
     settings:
+      AllowExternalMembers: "false"
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
     owners:

@@ -1,9 +1,9 @@
 groups:
   #
-  # k8s-infra owners for sig-owned subprojects
+  # k8s-infra owners for Knative
   #
-  # Each group here represents highly privileged access to kubernetes project
-  # infrastructure owned or managed by this SIG. A high level of trust is
+  # Each group here represents highly privileged access to knative project
+  # infrastructure owned or managed by the Productivity WG. A high level of trust is
   # required for membership in these groups.
   #
 
@@ -14,7 +14,7 @@ groups:
   - email-id: kn-infra-gcp-org-admins@knative.team
     name: kn-infra-gcp-org-admins
     description: |-
-      granted owner access to the knative.team GCP organization, as well as
+      grants owner access to the knative.team GCP organization, as well as
       additional privileges necessary for billing and admin purposes
 
       access granted via custom organization role organization.admin
@@ -63,6 +63,7 @@ groups:
       User group for administrators of knative-automation.
     settings:
       AllowExternalMembers: "true"
+      ReconcileMembers: "true"
     owners:
       - evana@gcp.vmware.com
       - evankanderson@knative.team

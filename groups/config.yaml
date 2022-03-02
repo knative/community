@@ -4,7 +4,7 @@
 secret-version: projects/knative-gsuite/secrets/gsuite-group-manager_key/versions/latest
 
 # Email id of the bot service account
-bot-id: prow-robot@knative.team # TO BE CREATED
+bot-id: prow-robot@knative.team
 
 # Directory with groups.yaml files, relative to location of this config file
 groups-path: .
