@@ -614,6 +614,12 @@ orgs:
         description: 'DEPRECATED: Development continues in https://github.com/knative/operator/'
         has_projects: true
         has_wiki: false
+      infra:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Home of Infra (Productivity) that hosts configs for prow and other infrastructure related things.
+        has_projects: false
+        has_wiki: false
       homebrew-client:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -672,9 +678,8 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Test infrastructure for the Knative project
-        has_projects: true
+        has_projects: false
         has_wiki: false
-        homepage: https://knative.github.io/test-infra/
       hack:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -835,6 +840,7 @@ orgs:
           eventing: admin
           eventing-contrib: admin
           eventing-operator: admin
+          infra: admin
           homebrew-client: admin
           networking: admin
           observability: admin
@@ -989,6 +995,7 @@ orgs:
         privacy: closed
         repos:
           .github: write
+          infra: write
           test-infra: write
           hack: write
           release: write
