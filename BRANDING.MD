@@ -86,3 +86,7 @@ is to have a Conformance Working Group created soon.
 The Knative Trademark Owner and the Knative Trademark Committee reserve the
 right to deny trademark permission for specific use cases if the use case
 would not be in the best interest of the Knative Community.
+
+### 3. Logo presentation
+
+The Knative logo style uses specific fonts, colors, shapes (heptagon and nonagon) and size and placement relations. Use [this file](logo-guidelines.pdf) as a guide to the official logo fonts, colors and sizing.
