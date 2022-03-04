@@ -9,7 +9,6 @@ groups:
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
     owners:
-      - markusthoemmes@knative.team
       - evankanderson@knative.team
       - rhuss@knative.team
       - evana@vmware.com
@@ -17,3 +16,4 @@ groups:
     members:
       - mattmoor@knative.team
       - grantr@knative.team
+      - markusthoemmes@knative.team
