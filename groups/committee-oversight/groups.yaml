@@ -10,9 +10,10 @@ groups:
       ReconcileMembers: "true"
     owners:
       - markusthoemmes@knative.team
-    members:
       - evankanderson@knative.team
-      - grantr@knative.team
-      - mattmoor@knative.team
       - rhuss@knative.team
-
+      - evana@vmware.com
+      - evan.k.anderson@gmail.com
+    members:
+      - mattmoor@knative.team
+      - grantr@knative.team
