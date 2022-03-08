@@ -813,11 +813,6 @@ orgs:
             - devguyio
             - lionelvillard
             privacy: closed
-          Source WG Leads:
-            description: The Working Group leads for Sources
-            members:
-            - lionelvillard
-            privacy: closed
         members:
         - aliok
         - matzew
