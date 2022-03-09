@@ -637,11 +637,6 @@ orgs:
             - devguyio
             - lionelvillard
             privacy: closed
-          Source WG Leads:
-            description: The Working Group leads for Sources
-            members:
-            - lionelvillard
-            privacy: closed
       Eventing Kafka Writers:
         description: Grants write access to Eventing Kafka WG leads on related repositories.
         privacy: closed
