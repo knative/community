@@ -547,6 +547,11 @@ orgs:
         description: "Repository for sharing org-wide Github metadata and workflow templates."
         has_projects: true
         has_wiki: false
+      actions:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        has_project: false
+        has_wiki: false
       build:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -825,6 +830,7 @@ orgs:
         repos:
           # All repos should be listed here!
           .github: admin
+          actions: admin
           build: admin
           build-templates: admin
           caching: admin
@@ -990,6 +996,7 @@ orgs:
         privacy: closed
         repos:
           .github: write
+          actions: write
           infra: write
           test-infra: write
           hack: write
