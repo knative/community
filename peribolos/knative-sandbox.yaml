@@ -761,8 +761,12 @@ orgs:
           kperf: write
           knobots: write
         members:
-          - psschwei
-          - cardil
+        - cardil
+        - chaodaiG
+        - coryrc
+        - kvmware
+        - psschwei
+        - upodroid
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity

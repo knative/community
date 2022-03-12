@@ -990,7 +990,6 @@ orgs:
         - gerardo-lc
         - shinigambit
         - mgencur
-        - kvmware
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
         privacy: closed
@@ -1002,10 +1001,12 @@ orgs:
           hack: write
           release: write
         members:
+        - cardil
         - chaodaiG
         - coryrc
+        - kvmware
         - psschwei
-        - cardil
+        - upodroid
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
