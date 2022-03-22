@@ -412,6 +412,12 @@ orgs:
         description: Redis integration with Knative Eventing.
         has_projects: true
         has_wiki: false
+      func-tastic:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Templates and examples for Knative functions.
+        has_projects: true
+        has_wiki: false
       homebrew-kn-plugins:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -575,6 +581,7 @@ orgs:
         privacy: closed
         repos:
           build-spike: write
+          func-tastic: write
           homebrew-kn-plugins: write
           kn-plugin-admin: write
           kn-plugin-diag: write
@@ -684,6 +691,7 @@ orgs:
           eventing-prometheus: admin
           eventing-rabbitmq: admin
           eventing-redis: admin
+          func-tastic: admin
           homebrew-kn-plugins: admin
           kn-plugin-admin: admin
           kn-plugin-diag: admin
@@ -1019,6 +1027,20 @@ orgs:
         - lionelvillard
         - matzew
 
+      func-tastic Approvers:
+        description: Approver group for func-tastic
+        privacy: closed
+        repos:
+          func-tastic: write
+        members:
+        - lance
+        - lkingland
+        - matejvasek
+        - zroubalik
+        - omerbensaadon
+        - nainaz
+        - salaboy
+        
       homebrew-kn-plugins Approvers:
         description: Approver group for homebrew-kn-plugins - to be used in CODEOWNERS file
         privacy: closed
