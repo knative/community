@@ -227,6 +227,7 @@ orgs:
     - shrajfr12
     - shreejad
     - skim1420
+    - skonto
     - smarterclayton
     - smoser-ibm
     - snneji
@@ -1040,7 +1041,7 @@ orgs:
         - omerbensaadon
         - nainaz
         - salaboy
-        
+
       homebrew-kn-plugins Approvers:
         description: Approver group for homebrew-kn-plugins - to be used in CODEOWNERS file
         privacy: closed
@@ -1221,6 +1222,7 @@ orgs:
         members:
         - JRBANCEL
         - nak3
+        - skonto
         - tcnghia
         - vagababov
         - ZhiminXiang
@@ -1233,4 +1235,5 @@ orgs:
         members:
         - davidor
         - jmprusi
+        - skonto
         - tcnghia
