@@ -228,11 +228,13 @@ aliases:
   - JRBANCEL
   - ZhiminXiang
   - nak3
+  - skonto
   - tcnghia
   - vagababov
   net-kourier-approvers:
   - davidor
   - jmprusi
+  - skonto
   - tcnghia
   networking-wg-leads:
   - ZhiminXiang
