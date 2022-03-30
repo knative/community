@@ -749,9 +749,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - carlisia
-            - xtreme-sameer-vohra
-            - kvmware
+            - nader-ziada
+            - ikvmw
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
