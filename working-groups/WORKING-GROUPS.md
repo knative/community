@@ -172,12 +172,13 @@ Event sources, bindings, FaaS framework, and orchestration
 | &nbsp;                                                        | Leads                      | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------------------- | ------- | ------------------------------------------------- |
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard (Technical) | IBM     | [lionelvillard](https://github.com/lionelvillard) |
-| <img width="30px" src="https://github.com/devguyio.png">      | Ahmed Abdalla (Execution)  | Red Hat | [devguyio](https://github.com/devguyio)           |
 
-| &nbsp;                                                 | Emeritus Leads            | Profile                             | Duration  |
-| ------------------------------------------------------ | ------------------------- | ----------------------------------- | --------- |
-| <img width="30px" src="https://github.com/grantr.png"> | Grant Rodgers (Technical) | [grantr](https://github.com/grantr) | 2020-2021 |
-| <img width="30px" src="https://github.com/vaikas.png"> | Ville Aikas (Technical)   | [vaikas](https://github.com/vaikas) | 2018-2021 |
+
+| &nbsp;                                                  | Emeritus Leads            | Profile                                | Duration  |
+| ------------------------------------------------------- | ------------------------- | -------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/devguyio.png">| Ahmed Abdalla (Execution) | [devguyio](https://github.com/devguyio)| 2021-2022 |
+| <img width="30px" src="https://github.com/grantr.png">  | Grant Rodgers (Technical) | [grantr](https://github.com/grantr)    | 2020-2021 |
+| <img width="30px" src="https://github.com/vaikas.png">  | Ville Aikas (Technical)   | [vaikas](https://github.com/vaikas)    | 2018-2021 |
 
 ## Eventing Kafka
 
@@ -197,11 +198,11 @@ A dedicated working group for Kafka-based Knative Eventing components.
 
 | &nbsp;                                                           | Leads           | Company | Profile                                           |
 | ---------------------------------------------------------------- | --------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/devguyio.png">         | Ahmed Abdalla   | Red Hat | [devguyio](https://github.com/devguyio)           |
 | <img width="30px" src="https://github.com/travis-minke-sap.png"> | Travis Minke    | SAP     | [travis-minke-sap](https://github.com/travis-minke-sap) |
 
 | &nbsp;                                                         | Emeritus Leads  | Profile                                             | Duration  |
 | -------------------------------------------------------------- | --------------- | --------------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/devguyio.png">       | Ahmed Abdalla   | [devguyio](https://github.com/devguyio)             | 2021-2022 |
 | <img width="30px" src="https://github.com/lionelvillard.png">  | Lionel Villard  | [lionelvillard](https://github.com/lionelvillard)   | 2021-2022 |
 
 ## Eventing Sources

@@ -642,7 +642,6 @@ orgs:
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
-            - devguyio
             - lionelvillard
             privacy: closed
         members:
@@ -661,7 +660,6 @@ orgs:
           Eventing Kafka WG Leads:
             description: The Working Group leads for Eventing Kafka
             members:
-            - devguyio
             - lionelvillard
             - travis-minke-sap
       Knative Admin:
@@ -864,7 +862,6 @@ orgs:
         repos:
           control-protocol: write
         members:
-        - devguyio
         - eric-sap
         - matzew
         - lionelvillard
@@ -953,7 +950,6 @@ orgs:
         members:
         - aliok
         - davyodom
-        - devguyio
         - eric-sap
         - lberk
         - matzew
@@ -993,7 +989,6 @@ orgs:
         repos:
           eventing-natss: write
         members:
-        - devguyio
         - zhaojizhuang
 
       eventing-prometheus Approvers:
