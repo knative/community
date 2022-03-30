@@ -8,16 +8,17 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    - caniszczyk
     - csantanapr
     - dprotaso
     - evankanderson
     - google-admin
     - googlebot
-    - julz
     - itsmurugappan
     - knative-prow-robot
     - pmorie
     - rhuss
+    - thelinuxfoundation
     - thisisnotapril
     - vaikas
     members:
@@ -265,6 +266,7 @@ orgs:
     - JRBANCEL
     - jsanda
     - jskeet
+    - julz
     - justinjsmith
     - jzelinskie
     - k4leung4
