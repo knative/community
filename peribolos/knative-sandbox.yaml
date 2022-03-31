@@ -1014,6 +1014,7 @@ orgs:
         - ikvmw
         - gabo1208
         - chunyilyu
+        - gab-satchi
 
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
