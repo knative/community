@@ -5,13 +5,18 @@ groups:
     description: |-
       Technical Oversight Committee Email
     settings:
+      AllowExternalMembers: "false"
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
     owners:
-      - markusthoemmes@knative.team
-    members:
       - evankanderson@knative.team
-      - grantr@knative.team
-      - mattmoor@knative.team
       - rhuss@knative.team
-
+      - evana@vmware.com
+      - evan.k.anderson@gmail.com
+      - dprotaso@gmail.com
+      - n3wscott@knative.team
+      - rhuss@redhat.com
+    members:
+      - mattmoor@knative.team
+      - grantr@knative.team
+      - markusthoemmes@knative.team

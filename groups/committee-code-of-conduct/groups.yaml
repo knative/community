@@ -5,6 +5,7 @@ groups:
       Group for handling Code of Conduct issues.
       Due to potentially sensitive nature of the issues discussed, this is a closed group.
     settings:
+      AllowExternalMembers: "false"
       ReconcileMembers: "true"
       WhoCanPostMessage: "ANYONE_CAN_POST"
     owners:
