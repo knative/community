@@ -435,7 +435,6 @@ orgs:
     - sixolet
     - sjug
     - skim1420
-    - skonto
     - slwilliams
     - smarterclayton
     - smoser-ibm
@@ -714,7 +713,6 @@ orgs:
         - taragu
         - psschwei
         - nader-ziada
-        - skonto
       Autoscaling Writers:
         description: Approvers and write access for autoscaling-related repositories.
         privacy: closed
@@ -1029,7 +1027,6 @@ orgs:
         description: Receive reviews for serving observability directories
         privacy: closed
         members:
-        - skonto
         teams:
           Serving Observability Writers:
             description: Approve serving observability code
@@ -1046,7 +1043,6 @@ orgs:
         - nealhu
         - carlisia
         - nader-ziada
-        - skonto
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
