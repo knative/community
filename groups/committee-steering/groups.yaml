@@ -8,12 +8,10 @@ groups:
     owners:
       - pmorie@knative.team
       - thisisnotapril@knative.team
-      - vaikas@knative.team
-      - csantanapr@knative.team
-    members:
       - anassi@google.com
+      - csantanapr@knative.team
       - lball@knative.team
-      - pmorie@redhat.com
+      - vaikas@knative.team
       - vaikas@gmail.com
       - itsmurugappan@knative.team
 
