@@ -65,11 +65,11 @@ groups:
       AllowExternalMembers: "true"
       ReconcileMembers: "true"
     owners:
-      - evana@gcp.vmware.com
+      - evana@vmware.com
       - evankanderson@knative.team
-      - markusthoemmes@gmail.com
+      - dprotaso@gmail.com
       - mattmoor@knative.team
       - mattomata@gmail.com
-      - tcnghia@gmail.com
+      - n3wscott@knative.team
     managers:
       - chizhg@google.com
