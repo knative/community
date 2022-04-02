@@ -9,14 +9,10 @@ groups:
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
     owners:
-      - evankanderson@knative.team
       - rhuss@knative.team
+      - rhuss@redhat.com
+      - evankanderson@knative.team
       - evana@vmware.com
       - evan.k.anderson@gmail.com
       - dprotaso@gmail.com
       - n3wscott@knative.team
-      - rhuss@redhat.com
-    members:
-      - mattmoor@knative.team
-      - grantr@knative.team
-      - markusthoemmes@knative.team

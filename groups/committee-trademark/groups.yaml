@@ -7,9 +7,11 @@ groups:
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
     owners:
-      - evana@vmware.com
-      - duglin@gmail.com
+      # VMware
       - evankanderson@knative.team
+      - evana@vmware.com
+      # IBM / RedHat
       - sdmoser@googlemail.com
       - SMOSER@de.ibm.com
+      # Google
       - spencerdillard@google.com
