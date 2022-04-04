@@ -96,7 +96,7 @@ The current members of the TOC are shown below.
 | -------------------------------------------------------------- | ---------------- | ---------- | ---------------------------------------------------- | ---------- | --------
 | <img width="30px" src="https://github.com/dprotaso.png">       | Dave Protasowski | VMware     | [@dprotaso](https://github.com/dprotaso)             | 2021-05-26 | 2022     |
 | <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson    | VMware     | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2023     |
-| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore       | Chainguard | [@mattmoor](https://github.com/mattmoor)             | 2022-01-13 | 2022     |
+| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore       | Chainguard | [@mattmoor](https://github.com/mattmoor)             | 2022-02-07 | 2022     |
 | <img width="30px" src="https://github.com/n3wscott.png">       | Scott Nichols    | Chainguard | [@n3wscott](https://github.com/n3wscott)             | 2022-01-11 | 2022     |
 | <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß       | Red Hat    | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022     |
 
@@ -111,7 +111,7 @@ To recognize the folks that have served in the TOC in the past, below we list th
 | <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore      | [@mattmoor](https://github.com/mattmoor)             | Bootstrap  | 2021       |
 | <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers   | [@grantr](https://github.com/grantr)                 | 2020       | 2021       |
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes  | [@markusthoemmes](https://github.com/markusthoemmes) | 2020-06-09 | 2021-12-16 |
-| <img width="30px" src="https://github.com/julz.png">           | Julian Friedman | [@julz](https://github.com/julz)                     | 2021-05-26 | 2022-01-13 |
+| <img width="30px" src="https://github.com/julz.png">           | Julian Friedman | [@julz](https://github.com/julz)                     | 2021-05-26 | 2022-02-07 |
 
 ---
 
