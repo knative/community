@@ -85,8 +85,10 @@ be held as soon as possible. Eligible voters from the most recent election will
 vote in the special election (ie: eligibility will not be redetermined at the
 time of the special election). 
 
-Any replacement TOC member will serve out the remainder of the term for the person 
-they are replacing, regardless of the length of that remainder.
+Any replacement TOC member who was appointed more than three months
+before the next TOC election will serve out the remainder of the term for
+the person they are replacing, regardless of the length of that
+remainder.
 
 ---
 
