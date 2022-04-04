@@ -172,6 +172,7 @@ Event sources, bindings, FaaS framework, and orchestration
 | &nbsp;                                                        | Leads                      | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------------------- | ------- | ------------------------------------------------- |
 | <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard (Technical) | IBM     | [lionelvillard](https://github.com/lionelvillard) |
+| <img width="30px" src="https://github.com/pierdipi.png">      | Pierangelo Di Pilato (Technical) | Red Hat | [pierdipi](https://github.com/pierdipi)     |
 
 
 | &nbsp;                                                  | Emeritus Leads            | Profile                                | Duration  |
