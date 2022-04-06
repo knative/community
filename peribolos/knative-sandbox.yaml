@@ -639,11 +639,11 @@ orgs:
             description: The Working Group leads for Eventing
             members:
             - lionelvillard
+            - pierDipi
             privacy: closed
         members:
         - aliok
         - matzew
-        - pierDipi
         - vaikas
         - odacremolbap
       Eventing Kafka Writers:
