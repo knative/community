@@ -301,12 +301,6 @@ orgs:
         description: Github Action for Knative to test downstream repos upgradability from upstream repos.
         has_projects: true
         has_wiki: false
-      actions-kind:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: GitHub Action for performing KinD based workflows.
-        has_projects: true
-        has_wiki: false
       async-component:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -672,7 +666,6 @@ orgs:
           # All repos should be listed here!
           .github: admin
           actions-downstream-test: admin
-          actions-kind: admin
           async-component: admin
           build-spike: admin
           container-freezer: admin
@@ -771,7 +764,6 @@ orgs:
         repos:
           .github: write
           actions-downstream-test: write
-          actions-kind: write
           kperf: write
           knobots: write
         members:
