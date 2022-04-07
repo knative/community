@@ -146,11 +146,11 @@ There are two ways to raise issues to the steering committee for decision:
 
 The steering committee has 5 seats. Of these five seats, four (4) are
 Contributing seats, open to any project contributor, and one (1) seat is held
-by a KSC appointed end user seat. end user seat, is open to active end user
+by a KSC appointed end user seat. End user seat, is open to active end user
 community members whose company is listed in the [ADOPTERS](./ADOPTERS.MD) file.
 
 Steering Committee contributing members serve for 2-year terms, staggered in
-order to preserve continuity. end user member serves for 1-year term. Every year
+order to preserve continuity. End user member serves for 1-year term. Every year
 two contributor seats are elected.
 
 ## Election Procedure
