@@ -716,6 +716,7 @@ orgs:
           Knative Robots:
             description: Contains robots and only robots.
             members:
+            - knative-automation
             - knative-prow-robot
             - knative-prow-releaser-robot
             - knative-prow-updater-robot
