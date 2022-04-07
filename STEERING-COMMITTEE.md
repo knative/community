@@ -232,8 +232,8 @@ Elections will be held using [Elekto], an online voting tool created by CNCF
 intern Manish Sahani. The details for 2021 KSC elections can be found [here]
 (./elections/2021-SC/README.md).
 
-The End User seat is elected by Steering Committee. The details for the 2021 End
-User elections can be found [here](./elections/2021-SC-EU/README.md)
+The End User seat is appointed by Steering Committee. The details for the 2021 end
+user appointment can be found [here](./elections/2021-SC-EU/README.md)
 
 ### Limitations on Company Representation
 
@@ -266,6 +266,9 @@ away. Eligible voters from the most recent election will vote in the special
 election. Eligibility will not be redetermined at the time of the special
 election. Any replacement SC member will serve out the remainder of the term for
 the person they are replacing, regardless of the length of that remainder.
+
+In the event of a resignation or other loss of an appointed end user KSC member,
+the SC will appoint a new person to fill the end user SC seat.
 
 ## Changes to the charter
 
