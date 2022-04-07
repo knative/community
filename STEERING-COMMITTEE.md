@@ -146,11 +146,11 @@ There are two ways to raise issues to the steering committee for decision:
 
 The steering committee has 5 seats. Of these five seats, four (4) are
 Contributing seats, open to any project contributor, and one (1) seat is held
-by a KSC appointed End-User seat. End-User seat, is open to active end-user
+by a KSC appointed end user seat. end user seat, is open to active end user
 community members whose company is listed in the [ADOPTERS](./ADOPTERS.MD) file.
 
 Steering Committee contributing members serve for 2-year terms, staggered in
-order to preserve continuity. End-User member serves for 1-year term. Every year
+order to preserve continuity. end user member serves for 1-year term. Every year
 two contributor seats are elected.
 
 ## Election Procedure
@@ -223,7 +223,7 @@ To run for a Contributing seat, a candidate must additionally be at least a
 project Member as defined in
 [ROLES.md](https://github.com/knative/community/blob/main/ROLES.md).
 
-End-user seats for 2021 elections are eligible if their company is listed in the
+End user seat is eligible if their company is listed in the
 [ADOPTERS](./ADOPTERS.md) file.
 
 ### Voting Procedure
@@ -239,7 +239,7 @@ User elections can be found [here](./elections/2021-SC-EU/README.md)
 
 No more than two seats may be held by employees of the same organization (or
 conglomerate, in the case of companies owning each other). Additionally, each
-End-User seat (when available) must belong to an employee from a different
+end user seat (when available) must belong to an employee from a different
 organization. If the results of an election result in greater than two employees
 of the same organization, the lowest vote getters from any particular employer
 will be removed until representation on the committee is down to two.
