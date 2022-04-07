@@ -147,7 +147,7 @@ There are two ways to raise issues to the steering committee for decision:
 The steering committee has 5 seats. Of these five seats, four (4) are
 Contributing seats, open to any project contributor, and one (1) seat is held
 by a KSC appointed End-User seat. End-User seat, is open to active end-user
-community members whose company is listed in the [ADOPTERS](./ADOPTERS.md) file.
+community members whose company is listed in the [ADOPTERS](./ADOPTERS.MD) file.
 
 Steering Committee contributing members serve for 2-year terms, staggered in
 order to preserve continuity. End-User member serves for 1-year term. Every year
@@ -266,20 +266,6 @@ away. Eligible voters from the most recent election will vote in the special
 election. Eligibility will not be redetermined at the time of the special
 election. Any replacement SC member will serve out the remainder of the term for
 the person they are replacing, regardless of the length of that remainder.
-
-## Transition
-
-In order to transition from the original, organization-appointed Steering
-Committee structure (the "bootstrap" committee), elections will be phased in
-over 14 months.
-
-In October 2020, two positions will be elected, including two Contributing
-seats and zero End-User seats (because end-user seat mechanics are still being
-worked out). One Google, one IBM/RedHat, and one VMware seat will be retained
-from the current Steering Committee.
-
-In October or November 2021, the three remaining "bootstrap SC" seats will be
-replaced by elected seats (three Contributing and hopefully one End-User seat).
 
 ## Changes to the charter
 
