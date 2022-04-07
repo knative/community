@@ -11,6 +11,7 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    - blah
     - caniszczyk
     - csantanapr
     - dprotaso
@@ -735,6 +736,7 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
+            - blah
             - rhuss
             - evankanderson
             - dprotaso

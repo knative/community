@@ -22,6 +22,7 @@ orgs:
     - thisisnotapril
     - vaikas
     members:
+    - blah
     - a-thaler
     - aaron-prindle
     - aaronmeza
@@ -888,6 +889,7 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
+            - blah
             - rhuss
             - evankanderson
             - julz

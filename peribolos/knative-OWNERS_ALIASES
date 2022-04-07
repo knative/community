@@ -66,6 +66,7 @@ aliases:
   - pierDipi
   - vaikas
   knative-admin:
+  - blah
   - csantanapr
   - dprotaso
   - evankanderson
@@ -198,6 +199,7 @@ aliases:
   - thisisnotapril
   - vaikas
   technical-oversight-committee:
+  - blah
   - dprotaso
   - evankanderson
   - julz
