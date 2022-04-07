@@ -233,7 +233,7 @@ intern Manish Sahani. The details for 2021 KSC elections can be found [here]
 (./elections/2021-SC/README.md).
 
 The End User seat is appointed by Steering Committee. The details for the 2021 end
-user appointment can be found [here](./elections/2021-SC-EU/README.md)
+user candidacy can be found [here](./elections/2021-SC-EU/README.md)
 
 ### Limitations on Company Representation
 
