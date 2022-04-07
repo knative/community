@@ -53,17 +53,22 @@ other system (Apple Calendar or Outlook, for example),
 
 The current working groups are:
 
-- [Serving API](#serving-api)
-- [Client](#client)
-- [Documentation + User Experience](#documentation--user-experience)
-- [Eventing](#eventing)
-- [Eventing Kafka](#eventing-kafka)
-- [Eventing Sources](#eventing-sources)
-- [Networking](#networking)
-- [Operations](#operations)
-- [Productivity](#productivity)
-- [Scaling](#scaling)
-- [Security](#security)
+- [Working Groups](#working-groups)
+  - [Serving API](#serving-api)
+  - [Client](#client)
+  - [Documentation + User Experience](#documentation--user-experience)
+  - [Eventing](#eventing)
+  - [Eventing Kafka](#eventing-kafka)
+  - [Eventing Sources](#eventing-sources)
+  - [Networking](#networking)
+  - [Operations](#operations)
+  - [Productivity](#productivity)
+  - [Scaling](#scaling)
+  - [Security](#security)
+- [Emeritus Working Groups](#emeritus-working-groups)
+  - [Build](#build)
+  - [Event Delivery (previously called Eventing Channels Working Group)](#event-delivery-previously-called-eventing-channels-working-group)
+  - [Observability](#observability)
   <!-- TODO add charters for each group -->
 
 ## Serving API
@@ -306,9 +311,10 @@ performance/scale/load testing infrastructure
 | Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Github Team WG leads       | [@knative/productivity-wg-leads](https://github.com/orgs/knative/teams/productivity-wg-leads/members)                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-| &nbsp;                                                   | Leads     | Company | Profile                             |
-| -------------------------------------------------------- | --------- | ------- | ----------------------------------- |
-| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang | Google  | [chizhg](https://github.com/chizhg) |
+| &nbsp;                                                   | Leads            | Company | Profile                               |
+| -------------------------------------------------------- | ---------------- | ------- | ------------------------------------- |
+| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang        | Google  | [chizhg](https://github.com/chizhg)   |
+| <img width="30px" src="https://github.com/kvmware.png">  | Krsna Mahapatra  | VMware  | [kvmware](https://github.com/kvmware) |
 
 | &nbsp;                                                    | Emeritus Leads | Profile                                   | Duration  |
 | --------------------------------------------------------- | -------------- | ----------------------------------------- | --------- |
