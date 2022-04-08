@@ -644,7 +644,6 @@ orgs:
         members:
         - aliok
         - matzew
-        - vaikas
         - odacremolbap
       Eventing Kafka Writers:
         description: Grants write access to Eventing Kafka WG leads on related repositories.
@@ -860,7 +859,6 @@ orgs:
         - matzew
         - lionelvillard
         - travis-minke-sap
-        - vaikas
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
