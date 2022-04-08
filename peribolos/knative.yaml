@@ -824,7 +824,6 @@ orgs:
         members:
         - aliok
         - matzew
-        - vaikas
         - odacremolbap
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
