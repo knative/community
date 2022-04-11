@@ -26,6 +26,8 @@ groups:
       - cy@knative.team
       - racker-maha-66b7d200@gcp.rackspace.com # Mahamed Ali
       - cy@borg.dev # Mahamed Ali
+      - kmahapatra@vmware.com
+      - krsna@knative.team
 
   # Every GKE RBAC group should be added here.
   - email-id: gke-security-groups@knative.team
@@ -52,6 +54,7 @@ groups:
       WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
     members:
       - chizhg@google.com
+      - kmahapatra@vmware.com
 
   ###
   ### Productivity WG related mailing lists
@@ -73,3 +76,4 @@ groups:
       - n3wscott@knative.team
     managers:
       - chizhg@google.com
+      - kmahapatra@vmware.com

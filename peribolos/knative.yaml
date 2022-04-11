@@ -1004,6 +1004,7 @@ orgs:
         members:
         - cardil
         - chaodaiG
+        - chizhg
         - coryrc
         - kvmware
         - psschwei
@@ -1013,6 +1014,7 @@ orgs:
             description: The Working Group leads for Productivity
             members:
             - chizhg
+            - kvmware
             privacy: closed
       Security Writers:
         description: Grants write access to security-related repositories.
