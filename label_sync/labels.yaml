@@ -1,0 +1,330 @@
+# Copyright 2020 The Knative Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# default: global configuration to be applied to all repos
+# repos: list of repos with specific configuration to be applied in addition to default
+#   labels: list of labels - keys for each item: color, description, name, target, deleteAfter, previously
+#     deleteAfter: 2006-01-02T15:04:05Z (rfc3339)
+#     previously: list of previous labels (color name deleteAfter, previously)
+#     target: one of issues, prs, or both (also TBD)
+#     addedBy: human? prow plugin? other?
+---
+default:
+  labels:
+    # Common labels for triaging
+    - color: c5def5
+      description: Parked issue that required triaging/revisit in a near future.
+      name: kind/TBD
+      target: issues
+      prowPlugin: label
+      addedBy: humans
+    - color: 7057ff
+      description: Denotes an issue ready for a new contributor.
+      name: kind/good-first-issue
+      target: issues
+      prowPlugin: label
+      addedBy: anyone
+    - color: e11d21
+      description: Categorizes issue or PR as related to adding, removing, or otherwise changing an API
+      name: kind/api-change
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: ff0000
+      description: Categorizes issue or PR as related to a bug.
+      name: kind/bug
+      target: both
+      prowPlugin: label
+      addedBy: humans
+    - color: f9d3c4
+      name: kind/proposal
+      description: Issues or PRs related to proposals.
+      target: issues
+      prowPlugin: label
+      addedBy: humans
+    - color: 030ba0
+      description: Categorizes issue or PR as related to cleaning up code, process, or technical debt.
+      name: kind/cleanup
+      target: both
+      addedBy: humans
+    - color: e11d21
+      description: Categorizes issue or PR as related to a feature/enhancement marked for deprecation.
+      name: kind/deprecation
+      target: both
+      addedBy: humans
+    - color: 6103a0
+      description: Categorizes issue or PR as related to removing dead code, or deprecated apis/features.
+      name: kind/removal
+      target: both
+      prowPlugin: label
+      addedBy: humans
+    - color: f9d7c4
+      name: kind/feature-request
+      target: issues
+      prowPlugin: label
+      addedBy: humans
+    - color: f9d0c4
+      name: kind/documentation
+      target: both
+      prowPlugin: label
+      addedBy: humans
+    - color: a2eeef
+      name: kind/enhancement
+      target: issues
+      prowPlugin: both
+      addedBy: humans
+    - color: bfd4f2
+      name: kind/performance
+      target: both
+      prowPlugin: label
+      addedBy: humans
+    - color: 3e4b9e
+      description: Epics to group issues
+      name: Epic
+      target: issues
+      prowPlugin: label
+      addedBy: humans
+    - color: d4522c
+      description: Issues or PRs related to security or CVEs.
+      name: kind/security
+      target: both
+      prowPlugin: label
+      addedBy: humans
+    - color: 2596be
+      # (maybe) temporary label for CNCF migration, we'll
+      # decide if we still want to keep it after all issues under
+      # https://github.com/orgs/knative/projects/40/views/11 are addressed
+      name: kind/cncf-infra
+      target: both
+      prowPlugin: label
+      addedBy: humans
+    - color: be4d25
+      name: kind/cncf-after
+      target: both
+      prowPlugin: label
+      addedBy: humans
+
+    # Specific labels for issue triage
+    # See https://apenwarr.ca/log/20171213#slide32 for why we want to have these labels
+    - color: 47d29b
+      description: Issues which should be fixed (post-triage)
+      name: triage/accepted
+      target: issues
+      prowPlugin: label
+      addedby: humans
+    - color: 47d29b
+      description: Issues which are waiting on a response from the reporter
+      name: triage/needs-user-input
+      target: issues
+      prowPlugin: label
+      addedBy: humans
+
+    #############################################################################
+    # These labels are important for automation so normally should not be changed
+    #############################################################################
+
+    - color: abea59
+      description: Indicates a PR has been approved by an approver from all required OWNERS files.
+      name: approved
+      target: prs
+      prowPlugin: approve
+      addedBy: approvers
+    - color: e11d21
+      description: Indicates the PR's author has not signed the CLA.
+      name: 'cla: no'
+      target: prs
+      addedBy: googlebot
+    - color: 0c6a89
+      description: Indicates the PR's author has signed the CLA.
+      name: 'cla: yes'
+      target: prs
+      addedBy: googlebot
+    - color: e11d21
+      description: Indicates that a PR should not merge because someone has issued a /hold command.
+      name: do-not-merge/hold
+      target: prs
+      prowPlugin: hold
+      addedBy: anyone
+    - color: e11d21
+      description: Indicates that a PR should not merge because it has an invalid OWNERS file in it.
+      name: do-not-merge/invalid-owners-file
+      target: prs
+      prowPlugin: verify-owners
+      addedBy: prow
+    - color: e11d21
+      description: Indicates that a PR should not merge because it's missing one of the release note labels.
+      name: do-not-merge/release-note-label-needed
+      target: prs
+      prowPlugin: releasenote
+      addedBy: prow
+    - color: e11d21
+      description: Indicates that a PR should not merge because it is a work in progress.
+      name: do-not-merge/work-in-progress
+      target: prs
+      prowPlugin: wip
+      addedBy: prow
+    - color: 6aed75
+      description: Indicates that a PR is ready to be merged.
+      name: lgtm
+      target: prs
+      prowPlugin: lgtm
+      addedBy: reviewers or members
+    - color: d3e2f0
+      description: Indicates that an issue or PR should not be auto-closed due to staleness.
+      name: lifecycle/frozen
+      target: both
+      prowPlugin: lifecycle
+      addedBy: anyone
+    - color: 8fc951
+      description: Indicates that an issue or PR is actively being worked on by a contributor.
+      name: lifecycle/active
+      target: both
+      prowPlugin: lifecycle
+      addedBy: anyone
+    - color: "604460"
+      description: Denotes an issue or PR that has aged beyond stale and will be auto-closed.
+      name: lifecycle/rotten
+      target: both
+      prowPlugin: lifecycle
+      addedBy: anyone or the lifecycle management Prow job
+    - color: "795548"
+      description: Denotes an issue or PR has remained open with no activity and has become stale.
+      name: lifecycle/stale
+      target: both
+      prowPlugin: lifecycle
+      addedBy: anyone or the lifecycle management Prow job
+    - color: b60205
+      description: Indicates a PR that requires an org member to verify it is safe to test.  # This is to prevent spam/abuse of our CI system, and can be circumvented by becoming an org member. Org members can remove this label with the `/ok-to-test` command.
+      name: needs-ok-to-test
+      target: prs
+      prowPlugin: trigger
+      addedBy: prow
+    - color: e11d21
+      description: Indicates a PR cannot be merged because it has merge conflicts with HEAD.
+      name: needs-rebase
+      target: prs
+      prowPlugin: needs-rebase
+      addedBy: prow
+    - color: 790604
+      description: Indicates a PR needs to be cherry-pick to a release branch
+      name: needs-cherry-pick
+      target: prs
+      prowPlugin: needs-cherry-pick
+      addedBy: anyone
+    - color: 15dd18
+      description: Indicates a non-member PR verified by an org member that is safe to test.  # This is the opposite of needs-ok-to-test and should be mutually exclusive.
+      name: ok-to-test
+      target: prs
+      prowPlugin: trigger
+      addedBy: prow
+    - color: ee9900
+      description: Denotes a PR that changes 100-499 lines, ignoring generated files.
+      name: size/L
+      target: prs
+      prowPlugin: size
+      addedBy: prow
+    - color: eebb00
+      description: Denotes a PR that changes 30-99 lines, ignoring generated files.
+      name: size/M
+      target: prs
+      prowPlugin: size
+      addedBy: prow
+    - color: 77bb00
+      description: Denotes a PR that changes 10-29 lines, ignoring generated files.
+      name: size/S
+      target: prs
+      prowPlugin: size
+      addedBy: prow
+    - color: ee5500
+      description: Denotes a PR that changes 500-999 lines, ignoring generated files.
+      name: size/XL
+      target: prs
+      prowPlugin: size
+      addedBy: prow
+    - color: "009900"
+      description: Denotes a PR that changes 0-9 lines, ignoring generated files.
+      name: size/XS
+      target: prs
+      prowPlugin: size
+      addedBy: prow
+    - color: ee0000
+      description: Denotes a PR that changes 1000+ lines, ignoring generated files.
+      name: size/XXL
+      target: prs
+      prowPlugin: size
+      addedBy: prow
+
+repos:
+  knative/test-infra:
+    labels:
+    - color: f9d0c4
+      name: kind/project-support
+      target: issues
+      addedBy: humans
+    - color: 91bd6c
+      name: skip-review
+      target: prs
+      addedBy: prow
+  knative-sandbox/eventing-kafka-broker:
+    labels:
+    - color: 782b90
+      name: area/data-plane
+      target: issues
+      addedBy: humans
+    - color: 7fd5ea
+      name: area/control-plane
+      target: issues
+      addedBy: humans
+    - color: 72d5e0
+      name: area/api
+      target: issues
+      addedBy: humans
+    - color: bfe5bf
+      name: area/release
+      target: issues
+      addedBy: humans
+    - color: bfe5bf
+      name: area/test
+      target: issues
+      addedBy: humans
+  knative/ux:
+    labels:
+    - color: e10edc
+      description: High-level Outcomes that appear on the UX WG Rodmap
+      name: Outcome
+      target: both
+      addedBy: humans
+    - color: c36dea
+      description: UX bugs and enhancements related to improve knative install experience
+      name: Install
+      target: both
+      addedBy: humans
+  knative-sandbox/net-istio:
+    labels:
+    - color: 447cf6
+      name: area/mesh
+      target: issues
+      addedBy: humans
+    - color: 490130
+      name: area/sidecar
+      target: issues
+      addedBy: humans
+    - color: 2adcaa
+      name: area/perf
+      target: issues
+      addedBy: humans
+    - color: d17a50
+      name: area/status
+      target: issues
+      addedBy: humans
