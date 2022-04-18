@@ -19,7 +19,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"k8s.io/apimachinery/pkg/util/sets"
 	"os"
 	"path/filepath"
 	"reflect"
@@ -27,6 +26,8 @@ import (
 	"strings"
 	"testing"
 	"unicode/utf8"
+
+	"k8s.io/apimachinery/pkg/util/sets"
 )
 
 var cfg GroupsConfig
@@ -282,6 +283,8 @@ func TestHardcodedGroupsForParanoia(t *testing.T) {
 			"chizhg@knative.team",
 			"cy@knative.team",
 			"racker-maha-66b7d200@gcp.rackspace.com",
+			"kmahapatra@vmware.com",
+			"krsna@knative.team",
 		},
 	}
 

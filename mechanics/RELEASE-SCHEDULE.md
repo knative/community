@@ -11,7 +11,6 @@ With that said, it can be useful to have a list of when future releases will hap
 
 | Release | Date       | EOL        | Min K8s Version | Notes                         |
 | ------- | ---------- | ---------- | --------------- | ----------------------------- |
-| 0.26    | 2021-09-21 | 2022-03-08 | 1.19            | |
 | 1.0     | 2021-11-02 | 2022-04-19 | 1.20            | |
 | 1.1     | 2021-12-14 | 2022-05-31 | 1.20            | |
 | 1.2     | 2022-01-25 | 2022-07-12 | 1.21            | |
@@ -42,3 +41,4 @@ With that said, it can be useful to have a list of when future releases will hap
 | 0.23    | 2021-05-18 | 2021-11-02 | 1.18            | Removes v1beta1 Eventing APIs |
 | 0.24    | 2021-06-29 | 2021-12-14 | 1.19            | |
 | 0.25    | 2021-08-10 | 2022-01-25 | 1.19            | |
+| 0.26    | 2021-09-21 | 2022-03-08 | 1.19            | |

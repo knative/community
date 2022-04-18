@@ -1,16 +1,16 @@
 ---
-title: "Knative Steering Committee End User Seat"
-linkTitle: "Steering Committee End User Seat"
+title: "Knative Steering Committee end user Seat"
+linkTitle: "Steering Committee end user Seat"
 weight: 30
 type: "docs"
 ---
 
-# 2021 Knative Steering Committee End User Seat
+# 2021 Knative Steering Committee end user Seat
 
 ## Purpose
 
-This document describes the process for filling the End User Representative
-for Knative Steering Committee. The newly elected representative will serve a
+This document describes the process for filling the end user Representative
+for Knative Steering Committee. The newly appointed representative will serve a
 one (1) year term.
 
 ## Background
@@ -21,14 +21,14 @@ completed.
 
 ## Eligibility
 
-In order to be considered for End User seat, the company the user is
+In order to be considered for end user seat, the company the user is
 representing must be listed in the [Adopters](../../ADOPTERS.MD) file.
 
 ## Schedule
 
 | Date         | Event                    |
 | ------------ | ------------------------ |
-| December 17  | Announce the intent to select End User representative |
+| December 17  | Announce the intent to appoint end user representative |
 | January 26   | All candidate nominations due by 0000 UTC (4pm Pacific) |
 | January 31   | Announcement of selection |
 
@@ -38,7 +38,7 @@ The one year term would be from February 1st, 2022 to January 31st, 2023
 
 **Nomination**
 
-If you want to stand for election for End User Seat, open a PR against the
+If you want to be considered for end user Seat, open a PR against the
 [knative/community repository](https://github.com/knative/community) to include
 your candidate profile in the `/elections/2021-SC-EU` folder, with the following
 filename format:

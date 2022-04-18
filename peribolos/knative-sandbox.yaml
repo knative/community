@@ -11,16 +11,17 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    - caniszczyk
     - csantanapr
     - dprotaso
     - evankanderson
     - google-admin
     - googlebot
     - itsmurugappan
-    - julz
     - knative-prow-robot
     - pmorie
     - rhuss
+    - thelinuxfoundation
     - thisisnotapril
     - vaikas
     members:
@@ -139,6 +140,7 @@ orgs:
     - jrangelramos
     - JRBANCEL
     - jskeet
+    - julz
     - jzelinskie
     - k4leung4
     - knative-automation
@@ -227,6 +229,7 @@ orgs:
     - shrajfr12
     - shreejad
     - skim1420
+    - skonto
     - smarterclayton
     - smoser-ibm
     - snneji
@@ -296,12 +299,6 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Github Action for Knative to test downstream repos upgradability from upstream repos.
-        has_projects: true
-        has_wiki: false
-      actions-kind:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: GitHub Action for performing KinD based workflows.
         has_projects: true
         has_wiki: false
       async-component:
@@ -410,6 +407,12 @@ orgs:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Redis integration with Knative Eventing.
+        has_projects: true
+        has_wiki: false
+      func-tastic:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Templates and examples for Knative functions.
         has_projects: true
         has_wiki: false
       homebrew-kn-plugins:
@@ -575,6 +578,7 @@ orgs:
         privacy: closed
         repos:
           build-spike: write
+          func-tastic: write
           homebrew-kn-plugins: write
           kn-plugin-admin: write
           kn-plugin-diag: write
@@ -634,14 +638,13 @@ orgs:
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
-            - devguyio
             - lionelvillard
+            - pierDipi
             privacy: closed
-          Source WG Leads:
-            description: The Working Group leads for Sources
-            members:
-            - lionelvillard
-            privacy: closed
+        members:
+        - aliok
+        - matzew
+        - odacremolbap
       Eventing Kafka Writers:
         description: Grants write access to Eventing Kafka WG leads on related repositories.
         privacy: closed
@@ -652,7 +655,6 @@ orgs:
           Eventing Kafka WG Leads:
             description: The Working Group leads for Eventing Kafka
             members:
-            - devguyio
             - lionelvillard
             - travis-minke-sap
       Knative Admin:
@@ -663,7 +665,6 @@ orgs:
           # All repos should be listed here!
           .github: admin
           actions-downstream-test: admin
-          actions-kind: admin
           async-component: admin
           build-spike: admin
           container-freezer: admin
@@ -683,6 +684,7 @@ orgs:
           eventing-prometheus: admin
           eventing-rabbitmq: admin
           eventing-redis: admin
+          func-tastic: admin
           homebrew-kn-plugins: admin
           kn-plugin-admin: admin
           kn-plugin-diag: admin
@@ -713,6 +715,7 @@ orgs:
           Knative Robots:
             description: Contains robots and only robots.
             members:
+            - knative-automation
             - knative-prow-robot
             - knative-prow-releaser-robot
             - knative-prow-updater-robot
@@ -739,9 +742,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - carlisia
-            - xtreme-sameer-vohra
-            - kvmware
+            - nader-ziada
+            - ikvmw
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
@@ -762,17 +764,22 @@ orgs:
         repos:
           .github: write
           actions-downstream-test: write
-          actions-kind: write
           kperf: write
           knobots: write
         members:
-          - psschwei
-          - cardil
+        - cardil
+        - chaodaiG
+        - chizhg
+        - coryrc
+        - kvmware
+        - psschwei
+        - upodroid
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
             members:
             - chizhg
+            - kvmware
             privacy: closed
       Security Writers:
         description: Grants write access to security-related repositories.
@@ -850,12 +857,10 @@ orgs:
         repos:
           control-protocol: write
         members:
-        - devguyio
         - eric-sap
         - matzew
         - lionelvillard
         - travis-minke-sap
-        - vaikas
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
@@ -939,7 +944,6 @@ orgs:
         members:
         - aliok
         - davyodom
-        - devguyio
         - eric-sap
         - lberk
         - matzew
@@ -979,7 +983,6 @@ orgs:
         repos:
           eventing-natss: write
         members:
-        - devguyio
         - zhaojizhuang
 
       eventing-prometheus Approvers:
@@ -1003,6 +1006,7 @@ orgs:
         - ikvmw
         - gabo1208
         - chunyilyu
+        - gab-satchi
 
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
@@ -1013,6 +1017,20 @@ orgs:
         - aavarghese
         - lionelvillard
         - matzew
+
+      func-tastic Approvers:
+        description: Approver group for func-tastic
+        privacy: closed
+        repos:
+          func-tastic: write
+        members:
+        - lance
+        - lkingland
+        - matejvasek
+        - zroubalik
+        - omerbensaadon
+        - nainaz
+        - salaboy
 
       homebrew-kn-plugins Approvers:
         description: Approver group for homebrew-kn-plugins - to be used in CODEOWNERS file
@@ -1194,6 +1212,7 @@ orgs:
         members:
         - JRBANCEL
         - nak3
+        - skonto
         - tcnghia
         - vagababov
         - ZhiminXiang
@@ -1206,4 +1225,5 @@ orgs:
         members:
         - davidor
         - jmprusi
+        - skonto
         - tcnghia

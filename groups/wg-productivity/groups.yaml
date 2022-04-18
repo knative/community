@@ -1,9 +1,9 @@
 groups:
   #
-  # k8s-infra owners for sig-owned subprojects
+  # k8s-infra owners for Knative
   #
-  # Each group here represents highly privileged access to kubernetes project
-  # infrastructure owned or managed by this SIG. A high level of trust is
+  # Each group here represents highly privileged access to knative project
+  # infrastructure owned or managed by the Productivity WG. A high level of trust is
   # required for membership in these groups.
   #
 
@@ -14,7 +14,7 @@ groups:
   - email-id: kn-infra-gcp-org-admins@knative.team
     name: kn-infra-gcp-org-admins
     description: |-
-      granted owner access to the knative.team GCP organization, as well as
+      grants owner access to the knative.team GCP organization, as well as
       additional privileges necessary for billing and admin purposes
 
       access granted via custom organization role organization.admin
@@ -26,6 +26,8 @@ groups:
       - cy@knative.team
       - racker-maha-66b7d200@gcp.rackspace.com # Mahamed Ali
       - cy@borg.dev # Mahamed Ali
+      - kmahapatra@vmware.com
+      - krsna@knative.team
 
   # Every GKE RBAC group should be added here.
   - email-id: gke-security-groups@knative.team
@@ -52,6 +54,7 @@ groups:
       WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
     members:
       - chizhg@google.com
+      - kmahapatra@vmware.com
 
   ###
   ### Productivity WG related mailing lists
@@ -63,12 +66,14 @@ groups:
       User group for administrators of knative-automation.
     settings:
       AllowExternalMembers: "true"
+      ReconcileMembers: "true"
     owners:
-      - evana@gcp.vmware.com
+      - evana@vmware.com
       - evankanderson@knative.team
-      - markusthoemmes@gmail.com
+      - dprotaso@gmail.com
       - mattmoor@knative.team
       - mattomata@gmail.com
-      - tcnghia@gmail.com
+      - n3wscott@knative.team
     managers:
       - chizhg@google.com
+      - kmahapatra@vmware.com

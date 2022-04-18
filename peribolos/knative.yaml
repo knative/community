@@ -8,16 +8,17 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    - caniszczyk
     - csantanapr
     - dprotaso
     - evankanderson
     - google-admin
     - googlebot
-    - julz
     - itsmurugappan
     - knative-prow-robot
     - pmorie
     - rhuss
+    - thelinuxfoundation
     - thisisnotapril
     - vaikas
     members:
@@ -56,7 +57,6 @@ orgs:
     - arghya88
     - ariel-bentu
     - arturenault
-    - aryann
     - asaksena
     - asciimike
     - aslakknutsen
@@ -265,6 +265,7 @@ orgs:
     - JRBANCEL
     - jsanda
     - jskeet
+    - julz
     - justinjsmith
     - jzelinskie
     - k4leung4
@@ -460,6 +461,7 @@ orgs:
     - SurferJeffAtGoogle
     - swalkowski
     - syedriko
+    - Taction
     - tanner-bruce
     - tanzeeb
     - taragu
@@ -546,6 +548,11 @@ orgs:
         # See also: https://docs.github.com/en/actions/configuring-and-managing-workflows/sharing-workflow-templates-within-your-organization
         description: "Repository for sharing org-wide Github metadata and workflow templates."
         has_projects: true
+        has_wiki: false
+      actions:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        has_project: false
         has_wiki: false
       build:
         allow_merge_commit: false
@@ -810,19 +817,13 @@ orgs:
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
-            - devguyio
             - lionelvillard
-            privacy: closed
-          Source WG Leads:
-            description: The Working Group leads for Sources
-            members:
-            - lionelvillard
+            - pierDipi
             privacy: closed
         members:
         - aliok
         - matzew
-        - pierDipi
-        - vaikas
+        - odacremolbap
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -830,6 +831,7 @@ orgs:
         repos:
           # All repos should be listed here!
           .github: admin
+          actions: admin
           build: admin
           build-templates: admin
           caching: admin
@@ -858,6 +860,7 @@ orgs:
           Knative Robots:
             description: Contains robots and only robots.
             members:
+            - knative-automation
             - knative-prow-robot
             - knative-prow-releaser-robot
             - knative-prow-updater-robot
@@ -891,9 +894,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - carlisia
-            - xtreme-sameer-vohra
-            - kvmware
+            - nader-ziada
+            - ikvmw
       Networking Reviewers:
         description: Receive reviews for networking directories
         privacy: closed
@@ -984,31 +986,34 @@ orgs:
         privacy: closed
         members:
         - albertomilan
-        - efiturri
         - evankanderson
         - gerardo-lc
         - shinigambit
         - mgencur
-        - kvmware
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
         privacy: closed
         repos:
           .github: write
+          actions: write
           infra: write
           test-infra: write
           hack: write
           release: write
         members:
-        - chaodaiG
-        - coryrc
-        - psschwei
         - cardil
+        - chaodaiG
+        - chizhg
+        - coryrc
+        - kvmware
+        - psschwei
+        - upodroid
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
             members:
             - chizhg
+            - kvmware
             privacy: closed
       Security Writers:
         description: Grants write access to security-related repositories.
