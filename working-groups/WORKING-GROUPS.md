@@ -59,7 +59,6 @@ The current working groups are:
   - [Documentation + User Experience](#documentation--user-experience)
   - [Eventing](#eventing)
   - [Eventing Kafka](#eventing-kafka)
-  - [Eventing Sources](#eventing-sources)
   - [Networking](#networking)
   - [Operations](#operations)
   - [Productivity](#productivity)
@@ -68,6 +67,7 @@ The current working groups are:
 - [Emeritus Working Groups](#emeritus-working-groups)
   - [Build](#build)
   - [Event Delivery (previously called Eventing Channels Working Group)](#event-delivery-previously-called-eventing-channels-working-group)
+  - [Eventing Sources](#eventing-sources)
   - [Observability](#observability)
   <!-- TODO add charters for each group -->
 
@@ -211,32 +211,6 @@ A dedicated working group for Kafka-based Knative Eventing components.
 | <img width="30px" src="https://github.com/devguyio.png">       | Ahmed Abdalla   | [devguyio](https://github.com/devguyio)             | 2021-2022 |
 | <img width="30px" src="https://github.com/lionelvillard.png">  | Lionel Villard  | [lionelvillard](https://github.com/lionelvillard)   | 2021-2022 |
 
-## Eventing Sources
-
-Event producers and frameworks.
-
-| Artifact                   | Link                                                                                                                                                       |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Charter                    | [Charter](./sources/CHARTER.md)                                                                                                                            |
-| Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/34)                                                                                                     |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                        |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit)                                   |
-| Community Meeting Calendar | Wednesdays 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Xha-FeunojN49OJN7W0WBnPMcRtp1ycYpbkiir6XsE0/edit#) [(Notes before March 2021)](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit)                                                          |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/13idi0QRqj1vsp5X0vDGfUOULhIyeeLaG)                                                                         |
-| Repo prefixes              | (shares `eventing-*` with the eventing WG)                                                                                                                 |
-| Slack Channel              | [#eventing-sources](https://slack.knative.dev/messages/eventing-sources)                                                                                   |
-| Github Team WG leads       | [@knative/source-wg-leads](https://github.com/orgs/knative/teams/source-wg-leads/members)                                                                  |
-
-| &nbsp;                                                        | Leads          | Company | Profile                                           |
-| ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM     | [lionelvillard](https://github.com/lionelvillard) |
-
-| &nbsp;                                                    | Emeritus Leads       | Profile                                   | Duration  |
-| --------------------------------------------------------- | -------------------- | ----------------------------------------- | --------- |
-| <img width="30px" src="https://github.com/nachocano.png"> | Ignacio (Nacho) Cano | [nachocano](https://github.com/nachocano) | 2019-2020 |
-| <img width="30px" src="https://github.com/vaikas.png">    | Ville Aikas          | [vaikas](https://github.com/vaikas)       | 2019-2021 |
-| <img width="30px" src="https://github.com/n3wscott.png">  | Scott Nichols        | [n3wscott](https://github.com/n3wscott)   | 2019-2021 |
 
 ## Networking
 
@@ -388,6 +362,23 @@ Security concerns across Knative components
 | <img width="30px" src="https://github.com/harwayne.png">        | Adam Harwayne       | [Harwayne](https://github.com/harwayne)               | 2019-2021 |
 | <img width="30px" src="https://github.com/matzew.png">          | Matthias Wessendorf | [matzew](https://github.com/matzew)                   | 2019-2021 |
 | <img width="30px" src="https://github.com/slinkydeveloper.png"> | Francesco Guardiani | [slinkydeveloper](https://github.com/slinkydeveloper) | 2020-2021 |
+
+## Eventing Sources
+
+The Eventing Sources working group was responsible for various event producers, and has been started to split up the initial work to ramp up those soures. In 2022 it has been merged back into the parent Eventing working group.
+
+| Artifact                   | Link                                                                                                                                                       |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter                    | [Charter](./sources/CHARTER.md)                                                                                                                            |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1Xha-FeunojN49OJN7W0WBnPMcRtp1ycYpbkiir6XsE0/edit#) [(Notes before March 2021)](https://docs.google.com/document/d/19txVRqA6_eY6ClGqoLRa0gPB50Ok7PT6_B6zDP1KtKQ/edit)                                                          |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/13idi0QRqj1vsp5X0vDGfUOULhIyeeLaG)                                                                         |
+
+| &nbsp;                                                    | Emeritus Leads       | Profile                                   | Duration  |
+| --------------------------------------------------------- | -------------------- | ----------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM     | [lionelvillard](https://github.com/lionelvillard) |
+| <img width="30px" src="https://github.com/nachocano.png"> | Ignacio (Nacho) Cano | [nachocano](https://github.com/nachocano) | 2019-2020 |
+| <img width="30px" src="https://github.com/vaikas.png">    | Ville Aikas          | [vaikas](https://github.com/vaikas)       | 2019-2021 |
+| <img width="30px" src="https://github.com/n3wscott.png">  | Scott Nichols        | [n3wscott](https://github.com/n3wscott)   | 2019-2021 |
 
 ## Observability
 
