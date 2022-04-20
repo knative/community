@@ -141,6 +141,7 @@ For more information, definitions, and/or detailed election process, please refe
 the [TOC Election Charter].
 
 [Knative Technical Oversight Committee]: https://github.com/knative/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md
+[TOC Charter]: https://github.com/knative/community/blob/main/TECH-OVERSIGHT-COMMITTEE.md#charter
 [TOC Election Charter]: https://github.com/knative/community/blob/master/mechanics/TOC.md
 
 [limiting corporate campaigning]: https://github.com/kubernetes/steering/blob/master/elections.md#limiting-corporate-campaigning
