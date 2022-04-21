@@ -17,6 +17,7 @@ orgs:
     - evankanderson
     - google-admin
     - googlebot
+    - hh
     - itsmurugappan
     - knative-prow-robot
     - pmorie
@@ -114,6 +115,7 @@ orgs:
     - halvards
     - Haolicopter
     - hev
+    - hh
     - houshengbo
     - ian-mi
     - idoru
