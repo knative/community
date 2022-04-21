@@ -308,12 +308,6 @@ orgs:
         description: "Add-on component to enable asynchronous service requests to Knative Services"
         has_projects: true
         has_wiki: false
-      build-spike:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: Empty repo for testing external build integration with `kn`.
-        has_projects: true
-        has_wiki: false
       container-freezer:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -578,7 +572,6 @@ orgs:
         description: Grants write access to client-related repositories.
         privacy: closed
         repos:
-          build-spike: write
           func-tastic: write
           homebrew-kn-plugins: write
           kn-plugin-admin: write
@@ -667,7 +660,6 @@ orgs:
           .github: admin
           actions-downstream-test: admin
           async-component: admin
-          build-spike: admin
           container-freezer: admin
           control-protocol: admin
           discovery: admin
