@@ -51,7 +51,7 @@ commenting on docs, helping people on slack, participating in working
 groups, actively promoting the Knative project, running project events, and
 anything else that helps the Knative project succeed and grow.
 
-[This dashboard](https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year)
+[This dashboard](https://knative.devstats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year)
 shows only GitHub based contributions and does not capture all the contributions
 we value. _We expect this metric not to capture everyone who should be eligible
 to vote._ If a community member has had significant contributions over the past
@@ -60,8 +60,8 @@ to submit an exception form to the steering committee who will then review and
 determine whether this member should be marked as an exception.
 
 All eligible voters will be captured at
-`knative/community/elections/$YEAR/SC/voters.md` and the voters’ guide
-will be captured at `knative/community/elections/$YEAR/SC/README.md`
+`knative/community/elections/$YEAR-SC/voters.yaml` and the voters’ guide
+will be captured at `knative/community/elections/$YEAR-SC/README.md`
 similar to the kubernetes election process.
 
 We are committed to an inclusive process and will adapt future eligibility
