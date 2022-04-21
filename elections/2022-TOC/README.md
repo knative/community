@@ -26,7 +26,7 @@ Please refer to the [TOC Election Charter] for:
 - [Eligibility for candidacy]
 - [Eligibility for voting] 
 
-The list of eligible voters is stored [in the community repository](), but it is easier
+The list of eligible voters is stored [in the community repository](https://github.com/knative/community/elections/2022-TOC/), but it is easier
 to check if you are eligible by logging into [Elekto]. See Voting Process below for more details.
 
 ### Schedule
@@ -34,8 +34,9 @@ to check if you are eligible by logging into [Elekto]. See Voting Process below 
 | Date         | Event                    |
 | ------------ | ------------------------ |
 | April 26     | Announcement of Election |
-| May 10       | All candidate nominations and voting exception forms due by 23:59 UTC (4:59pm Pacific) |
+| May 10       | All candidate nominations are due by 23:59 UTC (4:59pm Pacific) |
 | May 13       | Election Begins via Elekto UI |
+| May 24       | Voting exception forms are due by 23:59 UTC (4:59pm Pacific)
 | May 27       | Election Closes by 23:59 UTC (4:59pm Pacific) |
 | June 1       | Announcement of Results |
 
@@ -61,6 +62,8 @@ filename format:
 ```
 candidate-yourname.md
 ```
+
+`yourname` in the template file should match your Github handle.
 
 We have included a template file as an example. This profile should include:
 
@@ -124,9 +127,6 @@ Once the vote begins, you will be able to rank the candidates in the order of
 your preference, and submit your ballot.  When you submit, you will be offered
 a chance to set a password, which is required if you want the ability to return
 and re-cast your ballot before the voting deadline above.
-
-Employer diversity is encouraged, and thus maximal representation will be
-enforced as spelled out in the [TOC Election Charter].
 
 All data for Elekto is stored on a pair of GCP instances operated by Josh Berkus
 and Manish Sahani, and is not shared with third parties.  Individual ballot data

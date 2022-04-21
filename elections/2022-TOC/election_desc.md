@@ -16,8 +16,9 @@ All Knative contributors with 50 or more contributions over the last year are el
 ### Schedule
 
 * April 26 - Announcement of Election 
-* May 10 - All candidate nominations and voting exception forms due by 23:59 UTC (4:59pm Pacific)
+* May 10 - All candidate nominations are due by 23:59 UTC (4:59pm Pacific)
 * May 13 - Election Begins via Elekto UI
+* May 24 - Voting exception forms are due by 23:59 UTC (4:59pm Pacific)
 * May 27 - Election Closes by 23:59 UTC (4:59pm Pacific)
 * June 1 - Announcement of Results
 
