@@ -5,67 +5,50 @@ weight: 30
 type: "docs"
 ---
 
-# Knative TOC Elections
+# Knative Elections
 
-This document section outlines how to conduct a Knative Technical Oversight Committee election. See [TOC election process](../mechanics/TOC.md) for more information of how the committee decides when to have elections, eligibility for voting, eligibility for candidacy, maximal representation, etc.
+This document outlines how to conduct Knative elections. See [TOC election process](../mechanics/TOC.md) and [Steering Committee election process](../mechanics/SC.md) for more information of how the committee decides when to have elections, eligibility for voting, eligibility for candidacy, maximal representation, etc.
 
 ## Process
 
-1. Steering committee prepare the election repository
+1. Steering committee selects election officers.
 
-    * Make knative/community/elections/$YEAR
-    * Make knative/community/elections/$YEAR/README.md, this is the voter's guide
+2. Prepare the election repository
+
+    * Make knative/community/elections/$YEAR-TOC or knative/community/elections/$YEAR-SC
+    * Create an OWNERS file in the above directory with the election officers as approvers / reviewers.
+    * Create the README.md in the above directory, this is the voter's guide
         * Copy over the voter's guide from the previous year. The voter's guide is the single source of truth for the election that year! All annoucements and notices should link to this document.
         * Update with new dates, candidates, and procedures (if necessary)
-    * Make knative/community/elections/$YEAR/voters.md
+    * Create voters.yaml in the above directory
         * Initial list is generated via the eligibility for voting requirements.
-        * Steering will update this list as voters submit the voting exception form.
+        * Election officers will update this list as voters submit the voting exception form.
+    * Create election.yaml and election_desc.md, which are used by Elekto
+        * Copy the one from the previous election and update with new information about the election.
+    * Create nomination-template.md
+        * Copy from the previous election - no need to update.
 
-1. Annouce voting schedule to the community
+3. Annouce voting schedule to the community
 
-    * Should be mostly links to the voter guide and the TOC charter.
+    * Should be mostly links to the voter guide, which contains links to other relevant details.
     * On knative-dev list, Knative Slack under #general, and twitter.
 
-3. Executing the Election in CIVS
+4. Executing the Election in Elekto
 
-    * Use [CIVS](http://civs.cs.cornell.edu/civs_create.html) to create the election, which CIVS calls a poll. Once you send out the ballots you cannot UNSEND the emails, ensure everything in the form is correct!
-    * Name of the poll - `Knative TOC Election for $YEAR`
-    * Name of supervisor - `Knative Steering Committee`
-    * Email - `elections@knative.team`
-    * Date and Time: Write in the date and time the election will stop. This field is not programmatic, the election is stopped by hand, so you can write this in plain text
-    * Description: Use the following text, modify it for either 3 or 2 positions, depending on the amount of open seats:
+    * Elections will be held using [Elekto](https://elekto.dev/), an online voting tool created
+      by CNCF intern Manish Sahani and administered by Josh Berkus. 
+    * It relies on GitHub Oauth for access to ballots
+    * More details can be found in the [Elekto documentation](https://elekto.dev/docs/)
+    * Remember to send periodic reminders about key deadlines and to encourage people to vote.
 
-      ```
-      This election is to nominate the Technical Oversight Committee for the Knative project.
-      Order the candidates by preference, the top $NUMBER candidates will be selected.
-      Please see the voter's guide for more information.
-      ```
+5. Announcing the results
 
-    * Add the candidate list to the form, with the format `Name (github-id)`
-    * How many choices will win: This number needs to be set to the amount of open seats of a given election (and updated in the description)
-    * More options, check the boxes for:
-        * Do not release results to all voters
-          * Enter `elections@knative.team` for the email address to receive the results
-        * Enable detailed ballot reporting
-          * Leave unchecked "reveal the identity of the voter"
-        * Enforce proportional representation
-          * Select "rank of their favorite choice"
-    * Click create poll, this will send elections@knative.team an email with instructions
-    * It will send you a link to “Poll Control”, bookmark this generated page as this is where you will add voters and also resend ballots to people if their ballot gets lost or filtered
-    * This page is where the “Start Poll” and “Stop Poll” buttons are, start the poll
-    * WARNING: This is the point of no return:
-    * Click "Start Poll" to begin the poll. You must do this before adding voters.
-    * Paste in the registered voters and click add voters
-        * It will mail the ballots to the participants
-        * It does duplicate detection so multiple entries are fine
-        * This might take a while and the web page will not update, this has taken up to 10m in the past as it's sending each ballot. Don't panic or refresh the page
-    * Leave the poll open for the duration of voting
-        * Remember to send a 24 hour reminder before closing the poll
-        * Click "Stop poll" at the end of the election, check the previously generated URL that CIVS mailed you when you started the poll
     * Reporting
-        * Mail results of the election to the Steering Committee members and incumbent TOC members who are not running for election
-        * Steering Committee announces the results to the entire community at once at the end of the election
-    * Push election results into knative/community/elections/$YEAR/results.md _after_ the Steering Commmittee has announced the results
+        * Mail results of the election to the Steering Committee to discuss next steps.
+        * Contact the candidates in advance of the announcement to let each of them know whether or not
+          they were selected and ask them to keep it confidential until the announcement.
+        * Steering Committee announces the results to the entire community at the end of the election
+    * Push election results into results.md in the above directory _after_ the Steering Commmittee has announced the results
 
 ## Roles and Responsibilities:
 
@@ -83,7 +66,7 @@ This document section outlines how to conduct a Knative Technical Oversight Comm
 
 ### Steering Committee
 
-- Runs the election, including setting dates and executing the voting
+- Oversees the election, including appointing election officers, approving dates, and monitoring the process
 - [Recuse themselves from public election activities][election-recusal] except those required to run the election
 - May vote
 - May answer questions about general election specifics, ie:
@@ -92,24 +75,26 @@ This document section outlines how to conduct a Knative Technical Oversight Comm
 - Will not answer questions about specific candidates, or anything that could be construed as endorsing, ie:
   - How is $candidate doing so far? (PS - we don't know anyway)
   - Who are your favorite candidates?
+
+### Election Officers
+- [Recuse themselves from public election activities][election-recusal] except those required to run the election
+- May vote
+- May answer questions about general election specifics, ie:
+  - Where do I find the schedule?
+  - How do I vote?
+- Will not answer questions about specific candidates, or anything that could be construed as endorsing, ie:
+  - How is $candidate doing so far? (PS - we don't know anyway)
+  - Who are your favorite candidates?
+- Manage the voting process within Elekto
 - Generate the voter guide and list of voters according to the criteria for that year's election
-- Generate exception form for non-code contributors to apply for voting
-  - Review and commit applicants to approved voter's list at least once a week until the election begins
+- Manage the exception process - Review applicants and add approved ones to the voter's list 
 - Track candidates
 - Monitor groups for nominations
-  - Keep track of nominees in a spreadsheet
-  - All nominations are conducted in the public, so sharing this sheet during the nomination process is encouraged
 - Update the community regularly
 - Post deadlines and reminders during the election season
 - Reissue ballots from CIVS to voters who might have not received their ballot.
-- Guard the privacy of the email addresses of voters
-- It is impossible for the steering committee to see the results of the election until the election ends; for purposes of transparency with the community it is encouraged to release some statistics during the election (ie. “65% of the community has voted so far!”)
+- It is impossible to see the results of the election until the election ends; for purposes of transparency with the community it is encouraged to release some statistics during the election (ie. “65% of the community has voted so far!”)
 
 
-[election-recusal]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
+[election-recusal]: https://github.com/kubernetes/steering/blob/main/elections.md#steering-committee-and-election-officer-recusal
 
-# Knative Steering Committee Elections
-
-For the 2020 bootstrap election, you can see the details and process
-[here](./2020/SC/README.md). We are going to revisit the process for 2021 elections
-and will update the process here as it gets solidified.
