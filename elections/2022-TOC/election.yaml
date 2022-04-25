@@ -1,0 +1,15 @@
+name: Knative 2022 TOC Election
+organization: Knative
+start_datetime: 2022-05-13 00:00:01
+end_datetime: 2022-05-27 23:59:00
+no_winners: 4
+allow_no_opinion: True
+delete_after: True
+show_candidate_fields:
+  - employer
+election_officers:
+  - geekygirldawn
+  - jberkus
+eligibility: All Knative contributors with more than 50 contributions are eligible to vote
+exception_description: If you should be eligible to vote, and find that you are unable to, please fill out the exceptions form.    Otherwise, contact elections@knative.team.
+exception_due: 2022-05-24 23:59:00
