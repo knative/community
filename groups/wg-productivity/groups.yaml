@@ -28,6 +28,8 @@ groups:
       - cy@borg.dev # Mahamed Ali
       - kmahapatra@vmware.com
       - krsna@knative.team
+      - hh@knative.team
+      - hh@cncf.io
 
   # Every GKE RBAC group should be added here.
   - email-id: gke-security-groups@knative.team
