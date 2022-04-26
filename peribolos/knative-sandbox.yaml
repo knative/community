@@ -736,8 +736,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - nader-ziada
-            - ikvmw
+            - dprotaso
+            - gab-satchi
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed

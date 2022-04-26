@@ -895,8 +895,8 @@ orgs:
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - nader-ziada
-            - ikvmw
+            - dprotaso
+            - gab-satchi
       Networking Reviewers:
         description: Receive reviews for networking directories
         privacy: closed
