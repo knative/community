@@ -12,6 +12,7 @@ orgs:
     default_repository_permission: read
     admins:
     - caniszczyk
+    - cncf-ci
     - csantanapr
     - dprotaso
     - evankanderson
