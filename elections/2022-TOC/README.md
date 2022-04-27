@@ -149,5 +149,5 @@ the [TOC Election Charter].
 
 [Eligibility for candidacy]: https://github.com/knative/community/blob/master/mechanics/TOC.md#candidate-eligibility
 [Eligibility for voting]: https://github.com/knative/community/blob/master/mechanics/TOC.md#candidate-eligibility#voter-eligibility
-[Elekto]: https://test.elekto.io
-[file a voting exception]: https://test.elekto.io/app/elections/2022-TOC/exception
+[Elekto]: https://elections.knative.dev
+[file a voting exception]: https://elections.knative.dev/app/elections/2022-TOC/exception
