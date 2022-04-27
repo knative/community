@@ -9,6 +9,7 @@ orgs:
     default_repository_permission: read
     admins:
     - caniszczyk
+    - cncf-ci
     - csantanapr
     - dprotaso
     - evankanderson
@@ -111,7 +112,6 @@ orgs:
     - chunyilyu
     - cjwagner
     - cloudrobx
-    - cncf-ci
     - cooperneil
     - coryrc
     - cppforlife

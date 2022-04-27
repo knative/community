@@ -12,6 +12,7 @@ orgs:
     default_repository_permission: read
     admins:
     - caniszczyk
+    - cncf-ci
     - csantanapr
     - dprotaso
     - evankanderson
@@ -70,7 +71,6 @@ orgs:
     - chizhg
     - christophd
     - chunyilyu
-    - cncf-ci
     - cooperneil
     - coryrc
     - cr22rc
