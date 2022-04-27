@@ -6,7 +6,8 @@ no_winners: 4
 allow_no_opinion: True
 delete_after: True
 show_candidate_fields:
-  - employer
+  - affiliation
+  - owners
 election_officers:
   - geekygirldawn
   - jberkus

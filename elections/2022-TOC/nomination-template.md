@@ -3,6 +3,7 @@ name: Your Name
 ID: GithubID
 info:
   - affiliation: Employer or other org affiliation
+  - owners: an owners file you're an approver in
 -------------------------------------------------------------
 
 Here's a paragraph about my contributions to Knative.
