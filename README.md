@@ -1,9 +1,3 @@
-_Important_. Before proceeding, please review the Knative community
-[Code of Conduct](./CODE-OF-CONDUCT.md).
-
-If you any have questions or concerns, please contact the authors at
-knative-code-of-conduct@googlegroups.com.
-
 ## Welcome!
 
 Welcome to the Knative community!
