@@ -17,6 +17,7 @@ orgs:
     - googlebot
     - itsmurugappan
     - knative-prow-robot
+    - n3wscott
     - pmorie
     - rhuss
     - thelinuxfoundation
@@ -341,7 +342,6 @@ orgs:
     - mthenw
     - mvinkler
     - mvladev
-    - n3wscott
     - nachocano
     - nader-ziada
     - nainaz
@@ -892,8 +892,8 @@ orgs:
             maintainers:
             - rhuss
             - evankanderson
-            - julz
             - dprotaso
+            - n3wscott
             privacy: closed
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
