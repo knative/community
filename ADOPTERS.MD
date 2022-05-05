@@ -19,6 +19,7 @@ If you would like to be included in this table, please submit a comment to [this
 | Google Cloud                       | Cloud Run for Anthos                                                   | Production / GA          | [link](https://cloud.google.com/anthos/run)                          |
 | Grey Rook*                         |                                                                        | Production               | [link](https://www.greyrook.com)                                     |
 | IBM                                | IBM Cloud Code Engine                                                  | Production               | [link](https://cloud.ibm.com/codeengine)                             |
+| HighCohesion                       | SaaS E-commerce Integration Platform                                   | Development              | [link](https://www.highcohesion.com/)                                |
 | KubeSphere*                        | [OpenFunction](https://github.com/OpenFunction/OpenFunction#serving)   | Development & Production | [link](https://kubesphere.io/)                                       |
 | Liquidx*                           | InBlock                                                                | Production               | [link](https://www.liquidx.com/)                                     |
 | Optum*                             |                                                                        | Production               | [link](https://optum.com/)                                           |
@@ -31,6 +32,4 @@ If you would like to be included in this table, please submit a comment to [this
 | VMware                             | Cloud Native Runtimes for VMware Tanzu                                 | Generally Available      | [link](https://network.tanzu.vmware.com/products/serverless)         |
 | VMware                             | VMware Event Broker Appliance                                          | Development              | [link](https://vmweventbroker.io/)                                   |
 | vorteil pty ltd*                   | Serverless orchestration engine                                        | Development & Production | [link](http://vorteil.io)                                            |
-| HighCohesion                       | SaaS E-commerce Integration Platform                                   | Development              | [link](https://www.highcohesion.com/)                                |
-
 `*` organization that is an end user of Knative and not a vendor/reseller
