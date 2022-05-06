@@ -801,6 +801,8 @@ orgs:
           sample-controller: write
           async-component: write
           reconciler-test: write
+        members:
+          - psschwei
         teams:
           API Core WG Leads:
             description: The Working Group leads for Serving API Core
