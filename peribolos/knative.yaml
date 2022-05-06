@@ -711,7 +711,7 @@ orgs:
         has_wiki: false
         homepage: https://knative.dev
     teams:
-      Autoscaling Reviewers:
+      autoscaling-reviewers:
         description: Receive reviews for autoscaling directories
         privacy: closed
         members:
@@ -719,7 +719,7 @@ orgs:
         - psschwei
         - nader-ziada
         - skonto
-      Autoscaling Writers:
+      autoscaling-writers:
         description: Approvers and write access for autoscaling-related repositories.
         privacy: closed
         repos:
@@ -729,17 +729,17 @@ orgs:
         - julz
         - yanweiguo
         teams:
-          Autoscaling WG Leads:
+          autoscaling-wg-leads:
             description: The Working Group leads for Autoscaling
             members:
             - julz
             privacy: closed
-      Client Reviewers:
+      client-reviewers:
         description: Receive reviews for client directories
         privacy: closed
         members:
         - itsmurugappan
-      Client Writers:
+      client-writers:
         description: Grants write access to client-related repositories.
         privacy: closed
         repos:
@@ -748,7 +748,7 @@ orgs:
           homebrew-client: write
           release: write
         teams:
-          Client WG Leads:
+          client-wg-leads:
             description: The Working Group Leads for Client
             members:
             - dsimansk
@@ -757,19 +757,19 @@ orgs:
             privacy: closed
         members:
         - maximilien
-      Conformance Writers:
+      conformance-writers:
         description: Grants write access to conformance-related repositories.
         privacy: closed
         repos:
           specs: write
         teams:
-          Conformance Task Force Leads:
+          conformance-task-force-leads:
             description: The Task Force leads for Conformance
             members:
             - omerbensaadon
             - salaboy
             privacy: closed
-      Docs Reviewers:
+      docs-reviewers:
         description: Receive reviews for docs directories
         privacy: closed
         members:
@@ -777,7 +777,7 @@ orgs:
         - snneji
         - pmbanugo
         - nainaz
-      Docs Writers:
+      docs-writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
         repos:
@@ -785,7 +785,7 @@ orgs:
           website: write
           release: write
         teams:
-          Docs WG Leads:
+          docs-wg-leads:
             description: The Working Group leads for Docs
             members:
             - csantanapr
@@ -794,14 +794,14 @@ orgs:
         members:
         - abrennan89
         - psschwei
-      Eventing Reviewers:
+      eventing-reviewers:
         description: Receive reviews for docs directories
         privacy: closed
         members:
         - aslom
         - tommyreddad
         - tayarani
-      Eventing Writers:
+      eventing-writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
         repos:
@@ -810,7 +810,7 @@ orgs:
           pkg: write
           release: write
         teams:
-          Eventing Triage:
+          eventing-triage:
             description: Temporary group to allow folks to continue to maintain eventing
               issues and milestones as we sort out roles
             members:
@@ -818,7 +818,7 @@ orgs:
             - akashrv
             - antoineco
             privacy: closed
-          Eventing WG Leads:
+          eventing-wg-leads:
             description: The Working Group leads for Eventing
             members:
             - lionelvillard
@@ -828,7 +828,7 @@ orgs:
         - aliok
         - matzew
         - odacremolbap
-      Knative Admin:
+      knative-admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
         privacy: closed
@@ -861,7 +861,7 @@ orgs:
           ux: admin
           website: admin
         teams:
-          Knative Robots:
+          knative-robots:
             description: Contains robots and only robots.
             members:
             - knative-automation
@@ -870,7 +870,7 @@ orgs:
             - knative-prow-updater-robot
             - knative-test-reporter-robot
             privacy: closed
-          Steering Committee:
+          steering-committee:
             description: Knative Steering Committee
             maintainers:
             - csantanapr
@@ -880,14 +880,14 @@ orgs:
             - thisisnotapril
             - vaikas
             privacy: closed
-          Trademark Committee:
+          trademark-committee:
             description: Knative Trademark Committee
             maintainers:
             - evankanderson
             - smoser-ibm
             - spencerdillard
             privacy: closed
-          Technical Oversight Committee:
+          technical-oversight-committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
             - rhuss
@@ -895,12 +895,12 @@ orgs:
             - dprotaso
             - n3wscott
             privacy: closed
-          Knative Release Leads:
+          knative-release-leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
             - dprotaso
             - gab-satchi
-      Networking Reviewers:
+      networking-reviewers:
         description: Receive reviews for networking directories
         privacy: closed
         members:
@@ -914,7 +914,7 @@ orgs:
         - vagababov
         - yanweiguo
         - ZhiminXiang
-      Networking Writers:
+      networking-writers:
         description: Approvers and write access for autoscaling-related repositories
         privacy: closed
         repos:
@@ -925,13 +925,13 @@ orgs:
         - JRBANCEL
         - vagababov
         teams:
-          Networking WG Leads:
+          networking-wg-leads:
             description: The Working Group leads for Networking
             members:
             - nak3
             - ZhiminXiang
             privacy: closed
-      Operations Reviewers:
+      operations-reviewers:
         description: Receive reviews for operations directories
         privacy: closed
         members:
@@ -942,7 +942,7 @@ orgs:
         - matzew
         - maximilien
         - trshafer
-      Operations Writers:
+      operations-writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
         repos:
@@ -955,29 +955,29 @@ orgs:
         - maximilien
         - trshafer
         teams:
-          Operations WG Leads:
+          operations-wg-leads:
             description: The Working Group leads for Operations
             members:
             - houshengbo
             privacy: closed
-      Pkg Configmap Reviewers:
+      pkg-configmap-reviewers:
         description: Receive reviews for configmap utilities in pkg
         privacy: closed
         teams:
-          Pkg Configmap Writers:
+          pkg-configmap-writers:
             description: Approvers for configmap utilities in pkg
             privacy: closed
             members:
             - dprotaso
             - mattmoor
             - vagababov
-      Pkg Controller Reviewers:
+      pkg-controller-reviewers:
         description: Receive reviews for controller utilities in pkg
         privacy: closed
         members:
         - whaught
         teams:
-          Pkg Controller Writers:
+          pkg-controller-writers:
             description: Approvers for controller utilities in pkg
             privacy: closed
             members:
@@ -985,7 +985,7 @@ orgs:
             - mattmoor
             - tcnghia
             - vagababov
-      Productivity Reviewers:
+      productivity-reviewers:
         description: Receive reviews for productivity directories
         privacy: closed
         members:
@@ -994,7 +994,7 @@ orgs:
         - gerardo-lc
         - shinigambit
         - mgencur
-      Productivity Writers:
+      productivity-writers:
         description: Grants write access to productivity-related repositories.
         privacy: closed
         repos:
@@ -1013,35 +1013,35 @@ orgs:
         - psschwei
         - upodroid
         teams:
-          Productivity WG Leads:
+          productivity-wg-leads:
             description: The Working Group leads for Productivity
             members:
             - chizhg
             - kvmware
             privacy: closed
-      Security Writers:
+      security-writers:
         description: Grants write access to security-related repositories.
         privacy: closed
         teams:
-          Security WG Leads:
+          security-wg-leads:
             description: The Working Group leads for Security
             members:
             - evankanderson
             - julz
         repos:
           release: write
-      Serving Observability Reviewers:
+      serving-observability-reviewers:
         description: Receive reviews for serving observability directories
         privacy: closed
         members:
         - skonto
         teams:
-          Serving Observability Writers:
+          serving-observability-writers:
             description: Approve serving observability code
             privacy: closed
             members:
             - yanweiguo
-      Serving Reviewers:
+      serving-reviewers:
         description: Receive reviews for serving-api-related directories
         privacy: closed
         members:
@@ -1052,7 +1052,7 @@ orgs:
         - carlisia
         - nader-ziada
         - skonto
-      Serving Writers:
+      serving-writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
@@ -1066,16 +1066,16 @@ orgs:
         - vagababov
         - julz
         teams:
-          API Core WG Leads:
+          api-core-wg-leads:
             description: The Working Group leads for Serving API Core
             members:
             - dprotaso
             privacy: closed
-      UX Writers:
+      ux-writers:
         description: Grants write access to ux related repositories.
         privacy: closed
         teams:
-          UX WG Leads:
+          ux-wg-leads:
             description: The Working Group leads for User Experience (UX)
             members:
             - csantanapr

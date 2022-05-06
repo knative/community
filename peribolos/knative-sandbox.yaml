@@ -572,7 +572,7 @@ orgs:
         has_projects: true
         has_wiki: false
     teams:
-      Client Writers:
+      client-writers:
         description: Grants write access to client-related repositories.
         privacy: closed
         repos:
@@ -591,19 +591,19 @@ orgs:
           kn-plugin-source-kamelet: write
           kn-plugin-source-pkg: write
         teams:
-          Client WG Leads:
+          client-wg-leads:
             description: The Working Group Leads for Client
             members:
             - dsimansk
             - navidshaikh
             - rhuss
             privacy: closed
-      Docs Writers:
+      docs-writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
         repos: {}
         teams:
-          Docs WG Leads:
+          docs-wg-leads:
             description: The Working Group leads for Docs
             members:
             - csantanapr
@@ -612,7 +612,7 @@ orgs:
         members:
         - abrennan89
         - psschwei
-      Eventing Writers:
+      eventing-writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
         repos:
@@ -633,7 +633,7 @@ orgs:
           discovery: write
           reconciler-test: write
         teams:
-          Eventing WG Leads:
+          eventing-wg-leads:
             description: The Working Group leads for Eventing
             members:
             - lionelvillard
@@ -643,19 +643,19 @@ orgs:
         - aliok
         - matzew
         - odacremolbap
-      Eventing Kafka Writers:
+      eventing-kafka-writers:
         description: Grants write access to Eventing Kafka WG leads on related repositories.
         privacy: closed
         repos:
           eventing-kafka: write
           eventing-kafka-broker: write
         teams:
-          Eventing Kafka WG Leads:
+          eventing-kafka-wg-leads:
             description: The Working Group leads for Eventing Kafka
             members:
             - lionelvillard
             - travis-minke-sap
-      Knative Admin:
+      knative-admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
         privacy: closed
@@ -709,7 +709,7 @@ orgs:
           sample-source: admin
           wg-repository: admin
         teams:
-          Knative Robots:
+          knative-robots:
             description: Contains robots and only robots.
             members:
             - knative-automation
@@ -718,7 +718,7 @@ orgs:
             - knative-prow-updater-robot
             - knative-test-reporter-robot
             privacy: closed
-          Steering Committee:
+          steering-committee:
             description: ""
             maintainers:
             - csantanapr
@@ -728,7 +728,7 @@ orgs:
             - thisisnotapril
             - vaikas
             privacy: closed
-          Technical Oversight Committee:
+          technical-oversight-committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
             - rhuss
@@ -736,12 +736,12 @@ orgs:
             - dprotaso
             - n3wscott
             privacy: closed
-          Knative Release Leads:
+          knative-release-leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
             - dprotaso
             - gab-satchi
-      Operations Writers:
+      operations-writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
         repos:
@@ -750,12 +750,12 @@ orgs:
         - dprotaso
         - upodroid
         teams:
-          Operations WG Leads:
+          operations-wg-leads:
             description: The Working Group leads for Operations
             members:
             - houshengbo
             privacy: closed
-      Productivity Writers:
+      productivity-writers:
         description: Grants write access to productivity-related repositories.
         privacy: closed
         repos:
@@ -772,22 +772,22 @@ orgs:
         - psschwei
         - upodroid
         teams:
-          Productivity WG Leads:
+          productivity-wg-leads:
             description: The Working Group leads for Productivity
             members:
             - chizhg
             - kvmware
             privacy: closed
-      Security Writers:
+      security-writers:
         description: Grants write access to security-related repositories.
         privacy: closed
         teams:
-          Security WG Leads:
+          security-wg-leads:
             description: The Working Group leads for Security
             members:
             - evankanderson
             - julz
-      Serving Writers:
+      serving-writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
@@ -802,34 +802,34 @@ orgs:
           async-component: write
           reconciler-test: write
         teams:
-          API Core WG Leads:
+          api-core-wg-leads:
             description: The Working Group leads for Serving API Core
             members:
             - dprotaso
             privacy: closed
-          Autoscaling WG Leads:
+          autoscaling-wg-leads:
             description: The Working Group leads for Autoscaling
             members:
             - julz
             privacy: closed
-          Networking WG Leads:
+          networking-wg-leads:
             description: The Working Group leads for Networking
             members:
             - nak3
             - ZhiminXiang
             privacy: closed
-      UX Writers:
+      ux-writers:
         description: Grants write access to ux related repositories.
         privacy: closed
         teams:
-          UX WG Leads:
+          ux-wg-leads:
             description: The Working Group leads for User Experience (UX)
             members:
             - csantanapr
             - snneji
 
       # Per-repo owners groups for CODEOWNERS below here
-      async-component Approvers:
+      async-component-approvers:
         description: Approver group for async-component - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -839,7 +839,7 @@ orgs:
         - julz
         - maximilien
 
-      container-freezer Approvers:
+      container-freezer-approvers:
         description: Approver group for container-freezer - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -848,7 +848,7 @@ orgs:
         - julz
         - psschwei
 
-      control-protocol Approvers:
+      control-protocol-approvers:
         description: Approver group for control-protocol - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -859,7 +859,7 @@ orgs:
         - lionelvillard
         - travis-minke-sap
 
-      discovery Approvers:
+      discovery-approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -868,7 +868,7 @@ orgs:
         - lberk
         - n3wscott
 
-      eventing-autoscaler-keda Approvers:
+      eventing-autoscaler-keda-approvers:
         description: Approver group for eventing-autoscaler-keda - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -876,7 +876,7 @@ orgs:
         members:
         - zroubalik
 
-      eventing-awssqs Approvers:
+      eventing-awssqs-approvers:
         description: Approver group for eventing-awssqs - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -885,7 +885,7 @@ orgs:
         - lberk
         - matzew
 
-      eventing-camel Approvers:
+      eventing-camel-approvers:
         description: Approver group for eventing-camel - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -893,7 +893,7 @@ orgs:
         members:
         - nicolaferraro
 
-      eventing-ceph Approvers:
+      eventing-ceph-approvers:
         description: Approver group for eventing-ceph - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -902,7 +902,7 @@ orgs:
         - lberk
         - matzew
 
-      eventing-couchdb Approvers:
+      eventing-couchdb-approvers:
         description: Approver group for eventing-couchdb - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -912,7 +912,7 @@ orgs:
         - lionelvillard
         - matzew
 
-      eventing-github Approvers:
+      eventing-github-approvers:
         description: Approver group for eventing-github - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -921,7 +921,7 @@ orgs:
         - lberk
         - matzew
 
-      eventing-gitlab Approvers:
+      eventing-gitlab-approvers:
         description: Approver group for eventing-gitlab - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -933,7 +933,7 @@ orgs:
         - tzununbekov
         - matzew
 
-      eventing-kafka Approvers:
+      eventing-kafka-approvers:
         description: Approver group for eventing-kafka - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -948,13 +948,13 @@ orgs:
         - pierDipi
         - travis-minke-sap
         teams:
-          eventing-kafka-mtsource Approvers:
+          eventing-kafka-mtsource-approvers:
             description: Approver group for eventing-kafka-mtsource - to be used in CODEOWNERS file
             privacy: closed
             members:
             - steven0711dong
 
-      eventing-kogito Approvers:
+      eventing-kogito-approvers:
         description: Approver group for eventing-kogito - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -964,7 +964,7 @@ orgs:
         - spolti
         - vaibhavjainwiz
 
-      eventing-kafka-broker Approvers:
+      eventing-kafka-broker-approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -974,7 +974,7 @@ orgs:
         - matzew
         - aliok
 
-      eventing-natss Approvers:
+      eventing-natss-approvers:
         description: Approver group for eventing-natss - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -982,7 +982,7 @@ orgs:
         members:
         - zhaojizhuang
 
-      eventing-prometheus Approvers:
+      eventing-prometheus-approvers:
         description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -991,7 +991,7 @@ orgs:
         - lberk
         - matzew
 
-      eventing-rabbitmq Approvers:
+      eventing-rabbitmq-approvers:
         description: Approver group for eventing-rabbitmq - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1005,7 +1005,7 @@ orgs:
         - chunyilyu
         - gab-satchi
 
-      eventing-redis Approvers:
+      eventing-redis-approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1015,7 +1015,7 @@ orgs:
         - lionelvillard
         - matzew
 
-      func-tastic Approvers:
+      func-tastic-approvers:
         description: Approver group for func-tastic
         privacy: closed
         repos:
@@ -1029,7 +1029,7 @@ orgs:
         - nainaz
         - salaboy
 
-      homebrew-kn-plugins Approvers:
+      homebrew-kn-plugins-approvers:
         description: Approver group for homebrew-kn-plugins - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1039,7 +1039,7 @@ orgs:
         - maximilien
         - rhuss
 
-      kn-plugin-admin Approvers:
+      kn-plugin-admin-approvers:
         description: Approver group for kn-plugin-admin - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1050,7 +1050,7 @@ orgs:
         - maximilien
         - navidshaikh
 
-      kn-plugin-diag Approvers:
+      kn-plugin-diag-approvers:
         description: Approver group for kn-plugin-diag - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1060,7 +1060,7 @@ orgs:
         - maximilien
         - navidshaikh
 
-      kn-plugin-event Approvers:
+      kn-plugin-event-approvers:
         description: Approver group for kn-plugin-event - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1069,7 +1069,7 @@ orgs:
         - cardil
         - rhuss
 
-      kn-plugin-func Approvers:
+      kn-plugin-func-approvers:
         description: Approver group for kn-plugin-func
         privacy: closed
         repos:
@@ -1083,7 +1083,7 @@ orgs:
         - nainaz
         - salaboy
 
-      kn-plugin-migration Approvers:
+      kn-plugin-migration-approvers:
         description: Approver group for kn-plugin-migration - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1092,7 +1092,7 @@ orgs:
         - zhangtbj
         - maximilien
 
-      kn-plugin-operator Approvers:
+      kn-plugin-operator-approvers:
         description: Approver group for kn-plugin-operator - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1105,7 +1105,7 @@ orgs:
           - rhuss
           - dsimansk
 
-      kn-plugin-quickstart Approvers:
+      kn-plugin-quickstart-approvers:
         description: Approver group for kn-plugin-quickstart - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1115,7 +1115,7 @@ orgs:
         - omerbensaadon
         - psschwei
 
-      kn-plugin-sample Approvers:
+      kn-plugin-sample-approvers:
         description: Approver group for kn-plugin-sample - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1125,7 +1125,7 @@ orgs:
         - rhuss
         - navidshaikh
 
-      kn-plugin-service-log Approvers:
+      kn-plugin-service-log-approvers:
         description: Approver group for kn-plugin-service-log - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1133,7 +1133,7 @@ orgs:
         members:
         - rhuss
 
-      kn-plugin-source-kafka Approvers:
+      kn-plugin-source-kafka-approvers:
         description: Approver group for kn-plugin-source-kafka - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1145,7 +1145,7 @@ orgs:
         - rhuss
         - navidshaikh
 
-      kn-plugin-source-kamelet Approvers:
+      kn-plugin-source-kamelet-approvers:
         description: Approver group for kn-plugin-source-kamelet - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1155,7 +1155,7 @@ orgs:
         - nicolaferraro
         - rhuss
 
-      kperf Approvers:
+      kperf-approvers:
         description: Approver group for kperf - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1164,7 +1164,7 @@ orgs:
         - maximilien
         - zhanggbj
 
-      net-contour Approvers:
+      net-contour-approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1174,7 +1174,7 @@ orgs:
         - dprotaso
         - tcnghia
 
-      net-certmanager Approvers:
+      net-certmanager-approvers:
         description: Approver group for net-certmanager - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1183,7 +1183,7 @@ orgs:
         - tcnghia
         - ZhiminXiang
 
-      net-http01 Approvers:
+      net-http01-approvers:
         description: Approver group for net-http01 - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1191,7 +1191,7 @@ orgs:
         members:
         - tcnghia
 
-      net-gateway-api Approvers:
+      net-gateway-api-approvers:
         description: Approver group for net-gateway-api - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1201,7 +1201,7 @@ orgs:
         - nak3
         - tcnghia
 
-      net-istio Approvers:
+      net-istio-approvers:
         description: Approver group for net-istio - to be used in CODEOWNERS file
         privacy: closed
         repos:
@@ -1214,7 +1214,7 @@ orgs:
         - vagababov
         - ZhiminXiang
 
-      net-kourier Approvers:
+      net-kourier-approvers:
         description: Approver group for net-kourier - to be used in CODEOWNERS file
         privacy: closed
         repos:
