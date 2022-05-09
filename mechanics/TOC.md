@@ -27,9 +27,12 @@ up for election the following year.
 
 Current TOC members and
 [Approvers](https://github.com/knative/community/blob/main/ROLES.md#approver)
-with at least 3 months tenure are eligible to stand for election. Candidates may
-self-nominate or be nominated by another eligible member. The approximate time
-commitment of a TOC member is around 8 hours per week.
+with at least 3 months tenure are eligible to stand for election. The approver
+role may be held within either 
+[Knative](https://github.com/knative/community/blob/main/peribolos/knative.yaml) or
+[Knative Sandbox](https://github.com/knative/community/blob/main/peribolos/knative-sandbox.yaml).
+Candidates may self-nominate or be nominated by another eligible member. The
+approximate time commitment of a TOC member is around 8 hours per week.
 
 # Voter Eligibility
 
