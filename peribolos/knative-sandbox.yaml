@@ -1163,6 +1163,7 @@ orgs:
         members:
         - maximilien
         - zhanggbj
+        - psschwei
 
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
