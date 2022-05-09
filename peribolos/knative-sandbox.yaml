@@ -20,6 +20,7 @@ orgs:
     - googlebot
     - itsmurugappan
     - knative-prow-robot
+    - lance
     - n3wscott
     - pmorie
     - rhuss
