@@ -20,6 +20,7 @@ orgs:
     - googlebot
     - itsmurugappan
     - knative-prow-robot
+    - lance
     - n3wscott
     - pmorie
     - rhuss
@@ -156,7 +157,6 @@ orgs:
     - krumts
     - kthakar1990
     - kvmware
-    - lance
     - lberk
     - lesv
     - lichuqiang

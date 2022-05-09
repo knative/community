@@ -17,6 +17,7 @@ orgs:
     - googlebot
     - itsmurugappan
     - knative-prow-robot
+    - lance
     - n3wscott
     - pmorie
     - rhuss
@@ -294,7 +295,6 @@ orgs:
     - labadav
     - lachie83
     - lambertjosh
-    - lance
     - lberk
     - LED2001
     - lesv
