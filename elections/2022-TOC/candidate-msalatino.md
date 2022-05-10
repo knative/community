@@ -9,7 +9,7 @@ info:
 Hello everyone!
 
 I'm Mauricio. Currently working with the Functions WG.
-I've started my Knative journey long time ago as a project supporter and promoter and now I am currently working as a Tech Lead for VMware with Knative Eventing and heavily invokved with Knative Functions.
+I've started my Knative journey long time ago as a project supporter and promoter and now I am currently working as a Tech Lead for VMware with Knative Eventing and heavily involved with Knative Functions.
 I am really looking forward to help driving different implementations of Knative Eventing forward, growing the community and making sure that Knative Functions is a successful project. 
 I wrote a detailed blog post about my history with the project and why I ended up working on it full time that you can read here: [https://salaboy.com/2021/11/30/my-story-with-knative/](https://salaboy.com/2021/11/30/my-story-with-knative/)
 
