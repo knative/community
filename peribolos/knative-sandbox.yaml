@@ -840,6 +840,7 @@ orgs:
         - bvennam
         - julz
         - maximilien
+        - AngeloDanducci
 
       container-freezer Approvers:
         description: Approver group for container-freezer - to be used in CODEOWNERS file
