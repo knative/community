@@ -4,6 +4,16 @@
 aliases:
   api-core-wg-leads:
   - dprotaso
+  autoscaling-reviewers:
+  - nader-ziada
+  - psschwei
+  - skonto
+  - taragu
+  autoscaling-wg-leads:
+  - julz
+  autoscaling-writers:
+  - julz
+  - yanweiguo
   client-reviewers:
   - itsmurugappan
   client-wg-leads:
@@ -174,8 +184,6 @@ aliases:
   - psschwei
   - skonto
   - whaught
-  serving-wg-leads:
-  - dprotaso
   serving-writers:
   - dprotaso
   - julz
