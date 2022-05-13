@@ -3,7 +3,7 @@ name: Paul Schweigert
 ID: psschwei
 info:
   - affiliation: IBM
-  - owners: Docs, Productivity
+  - owners: Serving, Docs, Productivity
 -------------------------------------------------------------
 
 Hi, I'm Paul. I've been involved in a number of areas in the Knative project since I joined the
