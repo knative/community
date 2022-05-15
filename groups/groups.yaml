@@ -24,7 +24,7 @@ groups:
       - rhuss@redhat.com
       - tcnghia@gmail.com
     members:
-      - chizhg@google.com	
+      - chizhg@google.com
       - chizhg@knative.team
       - csantanapr@knative.team
       - devguyio@knative.team
@@ -59,14 +59,18 @@ groups:
   - email-id: calendar-maintainers@knative.team
     name: calendar-maintainers
     description: |-
-      Folks that can manage Knative calendar
+      Folks that can manage Knative calendar for one-off calendar invites
     settings:
       AllowExternalMembers: "false"
+      WhoCanPostMessage: "ANYONE_CAN_POST"
     owners:
-      - omerbensaadon@knative.team
       - pmorie@knative.team
       - thisisnotapril@knative.team
+      - anassi@google.com
+      - csantanapr@knative.team
+      - csantana23@gmail.com
+      - lball@knative.team
       - vaikas@knative.team
-    members:
-      - abrennan@knative.team
-      - abrennan89@knative.team
+      - vaikas@gmail.com
+      - itsmurugappan@knative.team
+
