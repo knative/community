@@ -82,12 +82,12 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | Roadmap                    | [API](https://github.com/orgs/knative/projects/35), [Scaling](https://github.com/orgs/knative/projects/36/views/1)                                                   |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                  |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                             |
-| Community Meeting Calendar | Wednesdays 9:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)             |
+| Community Meeting Calendar | Alternating Wed 9:30am & 4pm PST <br/>Combined with [Networking](#networking)</br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)  |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                                        |
 | Document Folder            | [API](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9), [Scaling](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K) |
-| Repos                      | [`knative/serving`](https://github.com/knative/serving),                                                                                                             |
+| Repos                      | [`knative/serving`](https://github.com/knative/serving)                                                                                                             |
 | Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api), [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                       |
-| Github Team WG Leads       | [@knative/serving-wg-leads](https://github.com/orgs/knative/teams/api-core-wg-leads/members)                                                                        |
+| Github Team WG Leads       | [@knative/serving-wg-leads](https://github.com/orgs/knative/teams/serving-wg-leads/members)                                                                        |
 
 | &nbsp;                                                   | Leads            | Company | Profile                                 |
 | -------------------------------------------------------- | ---------------- | ------- | --------------------------------------- |
@@ -227,10 +227,10 @@ interest include: load balancing, routing, DNS configuration and TLS support.
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/32)                                                                                                         |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                            |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                       |
-| Community Meeting Calendar | Thursdays at 9:00a-9:30a PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Community Meeting Calendar | Alternating Wed 9:30am & 4pm PST<br/>Combined with [Serving](#serving)<br/>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                                  |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1bx86aDXjXhylDvFmEpjWSMn8o80_2_nR)                                                                             |
-| Repos                      | `net-*`                                                                                                                                                        |
+| Repos                      | [knative/networking](https://github.com/knative/networking), [knative-sandbox/net-*](https://github.com/knative-sandbox?q=net)
 | Slack Channel              | [#networking](https://slack.knative.dev/messages/networking)                                                                                                   |
 | Github Team WG leads       | [@knative/networking-wg-leads](https://github.com/orgs/knative/teams/networking-wg-leads/members)                                                              |
 
