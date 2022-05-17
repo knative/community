@@ -714,29 +714,6 @@ orgs:
         has_wiki: false
         homepage: https://knative.dev
     teams:
-      Autoscaling Reviewers:
-        description: Receive reviews for autoscaling directories
-        privacy: closed
-        members:
-        - taragu
-        - psschwei
-        - nader-ziada
-        - skonto
-      Autoscaling Writers:
-        description: Approvers and write access for autoscaling-related repositories.
-        privacy: closed
-        repos:
-          pkg: write
-          serving: write
-        members:
-        - julz
-        - yanweiguo
-        teams:
-          Autoscaling WG Leads:
-            description: The Working Group leads for Autoscaling
-            members:
-            - julz
-            privacy: closed
       Client Reviewers:
         description: Receive reviews for client directories
         privacy: closed
@@ -1071,7 +1048,12 @@ orgs:
         - psschwei
         teams:
           API Core WG Leads:
-            description: The Working Group leads for Serving API Core
+            description: The Working Group leads for Serving
+            members:
+            - dprotaso
+            privacy: closed
+          Serving WG Leads:
+            description: The Working Group leads for Serving
             members:
             - dprotaso
             privacy: closed
