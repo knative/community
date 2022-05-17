@@ -87,7 +87,7 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | Document Folder            | [API](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9), [Scaling](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K) |
 | Repos                      | [`knative/serving`](https://github.com/knative/serving)                                                                                                             |
 | Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api), [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                       |
-| Github Team WG Leads       | [@knative/serving-wg-leads](https://github.com/orgs/knative/teams/api-core-wg-leads/members)                                                                        |
+| Github Team WG Leads       | [@knative/serving-wg-leads](https://github.com/orgs/knative/teams/serving-wg-leads/members)                                                                        |
 
 | &nbsp;                                                   | Leads            | Company | Profile                                 |
 | -------------------------------------------------------- | ---------------- | ------- | --------------------------------------- |
