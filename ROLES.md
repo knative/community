@@ -7,6 +7,8 @@ aliases:
   - /contributing/roles/
 ---
 
+TEST: does the new cla work? 
+
 This document describes the set of roles individuals might have within the
 Knative community, the requirements of each role, and the privileges that each
 role grants.
