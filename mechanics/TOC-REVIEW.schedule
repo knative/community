@@ -5,73 +5,29 @@
 # awk -F \| '/^[0-9]/ {cmd "/bin/date -j -f %FT%T " substr($1, 0, 19) " +%e\\ %b" | getline date; cmd "/bin/date -j -f %FT%T -v-4d " substr($1, 0, 19) " +%b\\ %e" | getline reminder; print "/remind #wg-leads " $2 " is presenting at TOC on " date " (this week) :heart: " reminder}' mechanics/TOC-REVIEW.schedule
 
 # Start | Group
-2021-03-11T08:30:00-08:00 | Security WG
-# US Daylight savings
-2021-03-18T08:30:00-07:00 | User Experience WG
-2021-03-25T08:30:00-07:00 | Productivity WG
-2021-04-01T08:30:00-07:00 | Client WG
-2021-04-08T08:30:00-07:00 | Sources WG
-2021-04-15T08:30:00-07:00 | Serving API WG
-2021-04-22T08:30:00-07:00 | Scaling WG
-2021-04-29T08:30:00-07:00 | Event Delivery WG
-2021-05-06T08:30:00-07:00 | no presentation
-2021-05-13T08:30:00-07:00 | (Cancelled)
-2021-05-20T08:30:00-07:00 | Operations WG
-2021-05-27T08:30:00-07:00 | Eventing WG
-2021-06-03T08:30:00-07:00 | Networking WG
-2021-06-10T08:30:00-07:00 | DUX WG
-2021-06-17T08:30:00-07:00 | Security WG
-2021-07-01T08:30:00-07:00 | Productivity WG
-2021-07-08T08:30:00-07:00 | Client WG
-2021-07-15T08:30:00-07:00 | Sources WG
-2021-07-22T08:30:00-07:00 | Serving API WG
-2021-08-05T08:30:00-07:00 | Scaling WG
-2021-08-19T08:30:00-07:00 | Event Delivery WG
-2021-08-26T08:30:00-07:00 | Operations WG
-2021-09-02T08:30:00-07:00 | Eventing WG
-2021-09-09T08:30:00-07:00 | Networking WG
-2021-09-23T08:30:00-07:00 | DUX WG
-2021-09-30T08:30:00-07:00 | Security WG
-2021-10-07T08:30:00-07:00 | Productivity WG
-# 2021-10-14 is Kubecon NA
-2021-10-21T08:30:00-07:00 | Client WG
-2021-10-28T08:30:00-07:00 | Sources WG
-2021-11-04T08:30:00-07:00 | Serving API WG
-2021-11-11T08:30:00-08:00 | Scaling WG
-2021-11-18T08:30:00-08:00 | Operations WG
-# 2021-11-15 is US Thanksgiving
-2021-12-02T08:30:00-08:00 | Eventing WG
-2021-12-09T08:30:00-08:00 | Networking WG
-2021-12-16T08:30:00-08:00 | DUX WG
-# 2022-01-06 skipped because of missing the quorum
-2022-01-13T08:30:00-08:00 | Security WG
-2022-01-20T08:30:00-07:00 | Productivity WG
-2022-01-27T08:30:00-07:00 | Client WG
-2022-02-03T08:30:00-07:00 | Sources WG
-2022-02-10T08:30:00-07:00 | Serving API WG
-2022-02-17T08:30:00-07:00 | Scaling WG
-2022-02-24T08:30:00-07:00 | Operations WG
-2022-03-03T08:30:00-07:00 | Eventing WG
-2022-03-10T08:30:00-07:00 | Networking WG
-2022-03-17T08:30:00-07:00 | DUX WG
-# 2022-03-24 skipped because we forgot to extend the schedule
-2022-03-31T08:30:00-08:00 | Security WG
-2022-04-07T08:30:00-07:00 | Productivity WG
-# 2022-04-14 skipped because of missing the quorum
-2022-04-21T08:30:00-07:00 | Client WG
-2022-04-28T08:30:00-07:00 | Serving API WG
-2022-05-05T08:30:00-07:00 | Scaling WG
-2022-05-12T08:30:00-07:00 | Operations WG
-# 2022-05-19 is KnativeCon/Kubecon EU week
-2022-05-26T08:30:00-07:00 | Eventing WG
-2022-06-02T08:30:00-07:00 | Networking WG
-2022-06-09T08:30:00-08:00 | DUX WG
-2022-06-16T08:30:00-07:00 | Security WG
-2022-06-23T08:30:00-07:00 | Productivity WG
-2022-06-30T08:30:00-07:00 | Client WG
-2022-07-07T08:30:00-07:00 | Serving API WG
-2022-07-14T08:30:00-07:00 | Scaling WG
+# 2022-05-26 skipped because of missing the quorum
+2022-06-02T08:30:00-07:00 | Eventing WG
+2022-06-09T08:30:00-08:00 | Networking WG
+2022-06-16T08:30:00-07:00 | DUX WG
+2022-06-23T08:30:00-07:00 | Security WG
+2022-06-30T08:30:00-07:00 | Productivity WG
+2022-07-07T08:30:00-07:00 | Client WG
+2022-07-14T08:30:00-07:00 | Serving API WG
 2022-07-21T08:30:00-07:00 | Operations WG
 2022-07-28T08:30:00-07:00 | Eventing WG
 2022-08-04T08:30:00-07:00 | Networking WG
 2022-08-11T08:30:00-07:00 | DUX WG
+2022-08-18T08:30:00-07:00 | Security WG
+2022-08-25T08:30:00-07:00 | Productivity WG
+2022-09-01T08:30:00-07:00 | Client WG
+2022-09-08T08:30:00-07:00 | Serving API WG
+2022-09-15T08:30:00-07:00 | Operations WG
+2022-09-22T08:30:00-07:00 | Eventing WG
+2022-09-29T08:30:00-07:00 | Networking WG
+2022-10-06T08:30:00-07:00 | DUX WG
+2022-10-13T08:30:00-07:00 | Security WG
+2022-10-20T08:30:00-07:00 | Productivity WG
+2022-10-27T08:30:00-07:00 | Client WG
+2022-11-03T08:30:00-07:00 | Serving API WG
+2022-11-10T08:30:00-07:00 | Operations WG
+
