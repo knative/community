@@ -1184,6 +1184,7 @@ orgs:
         repos:
           net-certmanager: write
         members:
+        - carlisia
         - tcnghia
         - ZhiminXiang
 
@@ -1193,6 +1194,7 @@ orgs:
         repos:
           net-http01: write
         members:
+        - carlisia
         - tcnghia
 
       net-gateway-api Approvers:
@@ -1211,6 +1213,7 @@ orgs:
         repos:
           net-istio: write
         members:
+        - carlisia
         - JRBANCEL
         - nak3
         - skonto
@@ -1224,6 +1227,7 @@ orgs:
         repos:
           net-kourier: write
         members:
+        - carlisia
         - davidor
         - jmprusi
         - skonto
