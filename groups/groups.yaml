@@ -54,8 +54,6 @@ groups:
       - travis.minke@sap.com
       - vagababov@gmail.com
       - villard@us.ibm.com
-      - zhiminx@google.com
-      - zhiminxiang@knative.team
 
   - email-id: calendar-maintainers@knative.team
     name: calendar-maintainers
