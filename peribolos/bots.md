@@ -1,6 +1,6 @@
 # Knative Automation Bots
 
-The peribolos configuration in this document is used to configure users and groups in GitHub.
+The peribolos configuration in this directory is used to configure users and groups in GitHub.
 Among those accounts configured are several bot accounts that are used for automated tasks
 in the Knative testing and release infrastructure. Those user accounts are listed here:
 
