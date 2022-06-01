@@ -28,7 +28,7 @@ in the Knative testing and release infrastructure. Those user accounts are liste
 
 ## Knative Prow Releaser Robot [@knative-prow-releaser-robot](https://github.com/knative-prow-releaser-robot)
 
-- No recent activity
+- Creates releases via Prow and the GitHub API across all projects
 
 ## Knative Prow Updater Robot [@knative-prow-updater-robot](https://github.com/knative-prow-updater-robot)
 
