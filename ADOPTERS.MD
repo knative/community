@@ -11,6 +11,7 @@ If you would like to be included in this table, please submit a comment to [this
 | Alibaba Cloud                      | Knative on Alibaba Cloud                                               | Production               | [link](https://cs.console.aliyun.com/)                               |
 | Bloomberg L.P.*                    | Bloomberg Data Science Platform                                        | Production               | [link](https://www.bloomberg.net/)
 | Blue Origin*                       |                                                                        | Production               | [link](https://www.blueorigin.com/)                                  |
+| Box* | | Development | [link](https://box.com/) |
 | Chainguard*                        |                                                                        | Development              | [link](https://chainguard.dev)                                       |
 | Control Plane Corporation*         | Control Plane Multi-Cloud Platform                                     | Production               | [link](https://www.controlplane.com/)                                |
 | deepc.ai*                          |                                                                        | Production               | [link](https://www.deepc.ai/)                                        |
@@ -33,6 +34,5 @@ If you would like to be included in this table, please submit a comment to [this
 | VMware                             | Cloud Native Runtimes for VMware Tanzu                                 | Generally Available      | [link](https://network.tanzu.vmware.com/products/serverless)         |
 | VMware                             | VMware Event Broker Appliance                                          | Development              | [link](https://vmweventbroker.io/)                                   |
 | vorteil pty ltd*                   | Serverless orchestration engine                                        | Development & Production | [link](http://vorteil.io)                                            |
-| Box* | | Development | [link](https://box.com/) |
 
 `*` organization that is an end user of Knative and not a vendor/reseller
