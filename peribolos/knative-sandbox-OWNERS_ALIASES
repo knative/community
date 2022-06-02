@@ -205,6 +205,7 @@ aliases:
   - zhanggbj
   net-certmanager-approvers:
   - ZhiminXiang
+  - carlisia
   - tcnghia
   net-contour-approvers:
   - carlisia
@@ -215,15 +216,18 @@ aliases:
   - nak3
   - tcnghia
   net-http01-approvers:
+  - carlisia
   - tcnghia
   net-istio-approvers:
   - JRBANCEL
   - ZhiminXiang
+  - carlisia
   - nak3
   - skonto
   - tcnghia
   - vagababov
   net-kourier-approvers:
+  - carlisia
   - davidor
   - jmprusi
   - skonto
