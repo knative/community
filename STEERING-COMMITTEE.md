@@ -96,7 +96,7 @@ first name):
 | <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi          | Google       | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  | 2021     |
 | <img width="30px" src="https://github.com/csantanapr.png">     | Carlos Santana            | IBM          | [@csantanapr](https://github.com/csantanapr)         | 2021-12-02 | 2023     |
 | <img width="30px" src="https://github.com/lance.png">          | Lance Ball                | Red Hat      | [@lance](https://github.com/lance)                   | 2021-12-02 | 2023     |
-| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty*         | Optum        | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022-02-01 | 2023     |
+| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty*         | Box        | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022-02-01 | 2023     |
 | <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie                | Independent  | [@pmorie](https://github.com/pmorie)                 | 2020-12-11 | 2022     |
 | <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas               | Chainguard   | [@vaikas](https://github.com/vaikas)                 | 2020-12-11 | 2022     |
 > * Murugappan holds the End User seat
