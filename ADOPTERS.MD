@@ -11,6 +11,7 @@ If you would like to be included in this table, please submit a comment to [this
 | Alibaba Cloud                      | Knative on Alibaba Cloud                                               | Production               | [link](https://cs.console.aliyun.com/)                               |
 | Bloomberg L.P.*                    | Bloomberg Data Science Platform                                        | Production               | [link](https://www.bloomberg.net/)
 | Blue Origin*                       |                                                                        | Production               | [link](https://www.blueorigin.com/)                                  |
+| Box* | Serverless PaaS for internal use cases | Development | [link](https://box.com/) |
 | Chainguard*                        |                                                                        | Development              | [link](https://chainguard.dev)                                       |
 | Control Plane Corporation*         | Control Plane Multi-Cloud Platform                                     | Production               | [link](https://www.controlplane.com/)                                |
 | deepc.ai*                          |                                                                        | Production               | [link](https://www.deepc.ai/)                                        |
