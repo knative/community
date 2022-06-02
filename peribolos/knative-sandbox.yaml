@@ -1164,6 +1164,7 @@ orgs:
         - maximilien
         - zhanggbj
         - psschwei
+        - nader-ziada
 
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file

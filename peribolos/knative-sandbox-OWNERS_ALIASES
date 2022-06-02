@@ -200,6 +200,7 @@ aliases:
   - knative-test-reporter-robot
   kperf-approvers:
   - maximilien
+  - nader-ziada
   - psschwei
   - zhanggbj
   net-certmanager-approvers:
