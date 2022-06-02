@@ -43,7 +43,6 @@ orgs:
     - andrew-su
     - AngeloDanducci
     - anishj0shi
-    - antoineco
     - arghya88
     - arturenault
     - aslakknutsen
@@ -929,7 +928,6 @@ orgs:
         repos:
           eventing-gitlab: write
         members:
-        - antoineco
         - lberk
         - sebgoa
         - tzununbekov
