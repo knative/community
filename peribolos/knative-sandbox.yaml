@@ -803,11 +803,6 @@ orgs:
         members:
           - psschwei
         teams:
-          API Core WG Leads:
-            description: The Working Group leads for Serving
-            members:
-            - dprotaso
-            privacy: closed
           Serving WG Leads:
             description: The Working Group leads for Serving
             members:

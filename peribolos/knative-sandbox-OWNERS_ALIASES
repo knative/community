@@ -2,8 +2,6 @@
 # Do not modify this file, instead modify peribolos/knative-sandbox.yaml
 
 aliases:
-  api-core-wg-leads:
-  - dprotaso
   async-component-approvers:
   - AngeloDanducci
   - bvennam
