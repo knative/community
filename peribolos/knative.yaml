@@ -814,10 +814,6 @@ orgs:
         privacy: closed
         repos:
           func: write
-        teams:
-          Func WG Leads:
-            description: The Working Group Leads for Functions
-            privacy: closed
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
