@@ -52,6 +52,9 @@ aliases:
   - matzew
   - odacremolbap
   - pierDipi
+  func-reviewers: []
+  func-wg-leads: []
+  func-writers: []
   knative-admin:
   - csantanapr
   - dprotaso
