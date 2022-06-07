@@ -731,10 +731,11 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
-            - rhuss
             - evankanderson
             - dprotaso
             - n3wscott
+            - dsimansk
+            - zroubalik
             privacy: closed
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
