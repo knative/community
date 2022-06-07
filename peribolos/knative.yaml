@@ -769,6 +769,7 @@ orgs:
             members:
             - csantanapr
             - snneji
+            - abrennan89
             privacy: closed
         members:
         - abrennan89
@@ -1063,6 +1064,7 @@ orgs:
             members:
             - csantanapr
             - snneji
+            - abrennan89
         repos:
           docs: write
           website: write

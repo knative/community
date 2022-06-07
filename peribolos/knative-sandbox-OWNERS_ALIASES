@@ -27,6 +27,7 @@ aliases:
   - lberk
   - n3wscott
   docs-wg-leads:
+  - abrennan89
   - csantanapr
   - snneji
   docs-writers:
@@ -274,8 +275,10 @@ aliases:
   - n3wscott
   - rhuss
   ux-wg-leads:
+  - abrennan89
   - csantanapr
   - snneji
   ux-writers:
+  - abrennan89
   - csantanapr
   - snneji
