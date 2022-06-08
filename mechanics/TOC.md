@@ -20,8 +20,11 @@ aliases:
 The TOC will have five seats with a 2 year term.
 
 There will be an annual election to determine the composition of the TOC for the
-following year. Three seats will be up for election in one year and two will be
-up for election the following year.
+following year. Ideally, three seats will be up for election in one year and two will be
+up for election the following year. If more than 3 seats are up for re-election, then the
+term for 1 or more seats will be 1 year as needed to maintain a balance of having either
+2 or 3 seats up for election each year. The 2 year seats will be given to the most
+preferred candidates in the election.
 
 # Candidate Eligibility
 
