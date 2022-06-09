@@ -608,6 +608,7 @@ orgs:
             members:
             - csantanapr
             - snneji
+            - abrennan89
             privacy: closed
         members:
         - abrennan89
@@ -824,6 +825,7 @@ orgs:
             members:
             - csantanapr
             - snneji
+            - abrennan89
 
       # Per-repo owners groups for CODEOWNERS below here
       async-component Approvers:

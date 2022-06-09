@@ -149,10 +149,11 @@ especially the [Docs](https://github.com/knative/docs/) repo.
 | Github Repository          | [/ux](https://github.com/knative/ux) + [/docs](https://github.com/knative/docs)                                                                                  |
 | Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                                |
 
-| &nbsp;                                                        | Leads          | Company | Profile                                           |
-| ------------------------------------------------------------- | -------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana | IBM     | [csantanapr](https://github.com/csantanapr)       |
-| <img width="30px" src="https://github.com/snneji.png">        | Samia Nneji    | VMware  | [snneji](https://github.com/snneji)               |
+| &nbsp;                                                        | Leads            | Company  | Profile                                           |
+| ------------------------------------------------------------- | ---------------- | -------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana   | IBM      | [csantanapr](https://github.com/csantanapr)       |
+| <img width="30px" src="https://github.com/snneji.png">        | Samia Nneji      | VMware   | [snneji](https://github.com/snneji)               |
+| <img width="30px" src="https://github.com/abrennan89.png">    | Ashleigh Brennan | Red Hat  | [abrennan89](https://github.com/abrennan89)       |
 
 | &nbsp;                                                     | Emeritus Leads  | Profile                                     | Duration  |
 | ---------------------------------------------------------- | --------------- | ------------------------------------------- | --------- |

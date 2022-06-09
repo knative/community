@@ -27,6 +27,7 @@ aliases:
   - pmbanugo
   - snneji
   docs-wg-leads:
+  - abrennan89
   - csantanapr
   - snneji
   docs-writers:
@@ -199,8 +200,10 @@ aliases:
   - smoser-ibm
   - spencerdillard
   ux-wg-leads:
+  - abrennan89
   - csantanapr
   - snneji
   ux-writers:
+  - abrennan89
   - csantanapr
   - snneji
