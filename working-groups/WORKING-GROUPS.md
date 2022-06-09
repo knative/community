@@ -289,10 +289,11 @@ performance/scale/load testing infrastructure
 | Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Github Team WG leads       | [@knative/productivity-wg-leads](https://github.com/orgs/knative/teams/productivity-wg-leads/members)                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-| &nbsp;                                                   | Leads            | Company | Profile                               |
-| -------------------------------------------------------- | ---------------- | ------- | ------------------------------------- |
-| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang        | Google  | [chizhg](https://github.com/chizhg)   |
-| <img width="30px" src="https://github.com/kvmware.png">  | Krsna Mahapatra  | VMware  | [kvmware](https://github.com/kvmware) |
+| &nbsp;                                                   | Leads            | Company   | Profile                                 |
+| -------------------------------------------------------- | ---------------- | --------- | --------------------------------------- |
+| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang        | Google    | [chizhg](https://github.com/chizhg)     |
+| <img width="30px" src="https://github.com/kvmware.png">  | Krsna Mahapatra  | VMware    | [kvmware](https://github.com/kvmware)   |
+| <img width="30px" src="https://github.com/upodroid.png">  | Mahamed Ali     | Rackspace Technology | [upodroid](https://github.com/upodroid) |
 
 | &nbsp;                                                    | Emeritus Leads | Profile                                   | Duration  |
 | --------------------------------------------------------- | -------------- | ----------------------------------------- | --------- |
