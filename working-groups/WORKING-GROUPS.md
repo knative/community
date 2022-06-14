@@ -59,6 +59,7 @@ The current working groups are:
   - [Documentation + User Experience](#documentation--user-experience)
   - [Eventing](#eventing)
   - [Eventing Kafka](#eventing-kafka)
+  - [Functions](#functions)
   - [Networking](#networking)
   - [Operations](#operations)
   - [Productivity](#productivity)
@@ -215,6 +216,27 @@ A dedicated working group for Kafka-based Knative Eventing components.
 | <img width="30px" src="https://github.com/devguyio.png">       | Ahmed Abdalla   | [devguyio](https://github.com/devguyio)             | 2021-2022 |
 | <img width="30px" src="https://github.com/lionelvillard.png">  | Lionel Villard  | [lionelvillard](https://github.com/lionelvillard)   | 2021-2022 |
 
+
+## Functions
+
+Knative Functions [CLI](https://github.com/knative-sandbox/kn-plugin-func), API, and [language packs](https://github.com/knative-sandbox/func-tastic)
+
+| Artifact                   | Link                                                                                                                     |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------|
+| Charter / Mission          | [Charter](https://github.com/lance/community/blob/add-func-wg/working-groups/functions/CHARTER.md)                                                                              |
+| Roadmap                    | [Roadmap](https://github.com/orgs/knative-sandbox/projects/7)                                                            |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                      |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1zydqnsw2ty5siL_FT2U7klMTK7OuKWRZNmkUJMx3cWE/edit?usp=sharing)
+| Community Meeting Calendar | Tuesdays 10:00a-10:30a EDT <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)|
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1zydqnsw2ty5siL_FT2U7klMTK7OuKWRZNmkUJMx3cWE/edit?usp=sharing)                            |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/1Ebe9blQDgDjFOylqAtUe85UNecEfOzes?usp=sharing)                           |
+| Slack Channel              | [#functions-sandbox](https://slack.knative.dev/messages/functions-sandbox)                                                     |
+| Github Team WG leads       | [@knative/func-wg-leads](https://github.com/orgs/knative/teams/func-wg-leads/members)                                                                       |
+
+| &nbsp;                                                           | Leads           | Company | Profile                                           |
+| ---------------------------------------------------------------- | --------------- | ------- | ------------------------------------------------- |
+| <img width="30px" src="https://github.com/lance.png"> | Lance Ball    | Red Hat     | [lance](https://github.com/lance) |
+| <img width="30px" src="https://github.com/salaboy.png"> | Mauricio Salatino    | VMWare     | [salaboy](https://github.com/salaboy) |
 
 ## Networking
 
