@@ -223,7 +223,7 @@ Knative Functions [CLI](https://github.com/knative-sandbox/kn-plugin-func), API,
 
 | Artifact                   | Link                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------|
-| Charter / Mission          | [Charter](https://docs.google.com/document/d/1rwRt4Hi27Jgoqg8wK6tmtVZJdxOFheQei-_Wx3KPsQc/edit?usp=sharing)                                                                              |
+| Charter / Mission          | [Charter](https://github.com/lance/community/blob/add-func-wg/working-groups/functions/CHARTER.md)                                                                              |
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative-sandbox/projects/7)                                                            |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                      |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1zydqnsw2ty5siL_FT2U7klMTK7OuKWRZNmkUJMx3cWE/edit?usp=sharing)
