@@ -20,6 +20,7 @@ orgs:
     - googlebot
     - itsmurugappan
     - knative-prow-robot
+    - lance
     - n3wscott
     - pmorie
     - rhuss
@@ -42,7 +43,6 @@ orgs:
     - andrew-su
     - AngeloDanducci
     - anishj0shi
-    - antoineco
     - arghya88
     - arturenault
     - aslakknutsen
@@ -156,7 +156,6 @@ orgs:
     - krumts
     - kthakar1990
     - kvmware
-    - lance
     - lberk
     - lesv
     - lichuqiang
@@ -190,6 +189,7 @@ orgs:
     - nealhu
     - nicolaferraro
     - nimbcode
+    - norbjd
     - novahe
     - nlopezgi
     - odacremolbap
@@ -608,6 +608,7 @@ orgs:
             members:
             - csantanapr
             - snneji
+            - abrennan89
             privacy: closed
         members:
         - abrennan89
@@ -731,16 +732,17 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
-            - rhuss
             - evankanderson
             - dprotaso
             - n3wscott
+            - dsimansk
+            - zroubalik
             privacy: closed
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - dprotaso
-            - gab-satchi
+            - evankanderson
+            - psschwei
       Operations Writers:
         description: Grants write access to operations-related repositories.
         privacy: closed
@@ -777,6 +779,7 @@ orgs:
             members:
             - chizhg
             - kvmware
+            - upodroid
             privacy: closed
       Security Writers:
         description: Grants write access to security-related repositories.
@@ -801,22 +804,18 @@ orgs:
           sample-controller: write
           async-component: write
           reconciler-test: write
+        members:
+          - psschwei
         teams:
-          API Core WG Leads:
-            description: The Working Group leads for Serving API Core
+          Serving WG Leads:
+            description: The Working Group leads for Serving
             members:
             - dprotaso
-            privacy: closed
-          Autoscaling WG Leads:
-            description: The Working Group leads for Autoscaling
-            members:
-            - julz
             privacy: closed
           Networking WG Leads:
             description: The Working Group leads for Networking
             members:
             - nak3
-            - ZhiminXiang
             privacy: closed
       UX Writers:
         description: Grants write access to ux related repositories.
@@ -827,6 +826,7 @@ orgs:
             members:
             - csantanapr
             - snneji
+            - abrennan89
 
       # Per-repo owners groups for CODEOWNERS below here
       async-component Approvers:
@@ -838,6 +838,7 @@ orgs:
         - bvennam
         - julz
         - maximilien
+        - AngeloDanducci
 
       container-freezer Approvers:
         description: Approver group for container-freezer - to be used in CODEOWNERS file
@@ -927,7 +928,6 @@ orgs:
         repos:
           eventing-gitlab: write
         members:
-        - antoineco
         - lberk
         - sebgoa
         - tzununbekov
@@ -1163,6 +1163,8 @@ orgs:
         members:
         - maximilien
         - zhanggbj
+        - psschwei
+        - nader-ziada
 
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
@@ -1180,6 +1182,7 @@ orgs:
         repos:
           net-certmanager: write
         members:
+        - carlisia
         - tcnghia
         - ZhiminXiang
 
@@ -1189,6 +1192,7 @@ orgs:
         repos:
           net-http01: write
         members:
+        - carlisia
         - tcnghia
 
       net-gateway-api Approvers:
@@ -1207,6 +1211,7 @@ orgs:
         repos:
           net-istio: write
         members:
+        - carlisia
         - JRBANCEL
         - nak3
         - skonto
@@ -1220,6 +1225,7 @@ orgs:
         repos:
           net-kourier: write
         members:
+        - carlisia
         - davidor
         - jmprusi
         - skonto

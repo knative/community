@@ -17,6 +17,7 @@ orgs:
     - googlebot
     - itsmurugappan
     - knative-prow-robot
+    - lance
     - n3wscott
     - pmorie
     - rhuss
@@ -55,7 +56,6 @@ orgs:
     - anishj0shi
     - ankushchadha
     - anniefu
-    - antoineco
     - apolito
     - arghya88
     - ariel-bentu
@@ -294,7 +294,6 @@ orgs:
     - labadav
     - lachie83
     - lambertjosh
-    - lance
     - lberk
     - LED2001
     - lesv
@@ -303,6 +302,7 @@ orgs:
     - lindydonna
     - lionelvillard
     - liu-cong
+    - lkingland
     - loewenstein
     - loganlee
     - lynxbat
@@ -314,6 +314,7 @@ orgs:
     - MarkKropf
     - markusthoemmes
     - maschmid
+    - matejvasek
     - mattmoor
     - mattsoldo
     - matzew
@@ -540,6 +541,7 @@ orgs:
     - zhruan
     - zouyee
     - zrob
+    - zroubalik
     - zrss
     - zsxking
     repos:
@@ -711,29 +713,6 @@ orgs:
         has_wiki: false
         homepage: https://knative.dev
     teams:
-      Autoscaling Reviewers:
-        description: Receive reviews for autoscaling directories
-        privacy: closed
-        members:
-        - taragu
-        - psschwei
-        - nader-ziada
-        - skonto
-      Autoscaling Writers:
-        description: Approvers and write access for autoscaling-related repositories.
-        privacy: closed
-        repos:
-          pkg: write
-          serving: write
-        members:
-        - julz
-        - yanweiguo
-        teams:
-          Autoscaling WG Leads:
-            description: The Working Group leads for Autoscaling
-            members:
-            - julz
-            privacy: closed
       Client Reviewers:
         description: Receive reviews for client directories
         privacy: closed
@@ -790,6 +769,7 @@ orgs:
             members:
             - csantanapr
             - snneji
+            - abrennan89
             privacy: closed
         members:
         - abrennan89
@@ -816,7 +796,6 @@ orgs:
             members:
             - lberk
             - akashrv
-            - antoineco
             privacy: closed
           Eventing WG Leads:
             description: The Working Group leads for Eventing
@@ -890,16 +869,23 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
-            - rhuss
             - evankanderson
             - dprotaso
             - n3wscott
+            - dsimansk
+            - zroubalik
             privacy: closed
           Knative Release Leads:
             description: Active member of the Knative Release Leads rotation.
             maintainers:
-            - dprotaso
-            - gab-satchi
+            - evankanderson
+            - psschwei
+          Productivity WG Leads:
+            description: Active Productivity WG Leads.
+            maintainers:
+            - chizhg
+            - kvmware
+            - upodroid
       Networking Reviewers:
         description: Receive reviews for networking directories
         privacy: closed
@@ -929,7 +915,6 @@ orgs:
             description: The Working Group leads for Networking
             members:
             - nak3
-            - ZhiminXiang
             privacy: closed
       Operations Reviewers:
         description: Receive reviews for operations directories
@@ -1018,6 +1003,7 @@ orgs:
             members:
             - chizhg
             - kvmware
+            - upodroid
             privacy: closed
       Security Writers:
         description: Grants write access to security-related repositories.
@@ -1065,9 +1051,15 @@ orgs:
         - tcnghia
         - vagababov
         - julz
+        - psschwei
         teams:
           API Core WG Leads:
-            description: The Working Group leads for Serving API Core
+            description: The Working Group leads for Serving
+            members:
+            - dprotaso
+            privacy: closed
+          Serving WG Leads:
+            description: The Working Group leads for Serving
             members:
             - dprotaso
             privacy: closed
@@ -1080,6 +1072,7 @@ orgs:
             members:
             - csantanapr
             - snneji
+            - abrennan89
         repos:
           docs: write
           website: write

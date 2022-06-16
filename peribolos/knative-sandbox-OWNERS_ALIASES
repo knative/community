@@ -2,14 +2,11 @@
 # Do not modify this file, instead modify peribolos/knative-sandbox.yaml
 
 aliases:
-  api-core-wg-leads:
-  - dprotaso
   async-component-approvers:
+  - AngeloDanducci
   - bvennam
   - julz
   - maximilien
-  autoscaling-wg-leads:
-  - julz
   client-wg-leads:
   - dsimansk
   - navidshaikh
@@ -30,6 +27,7 @@ aliases:
   - lberk
   - n3wscott
   docs-wg-leads:
+  - abrennan89
   - csantanapr
   - snneji
   docs-writers:
@@ -55,7 +53,6 @@ aliases:
   - lberk
   - matzew
   eventing-gitlab-approvers:
-  - antoineco
   - lberk
   - matzew
   - sebgoa
@@ -177,8 +174,8 @@ aliases:
   knative-admin:
   - csantanapr
   - dprotaso
+  - dsimansk
   - evankanderson
-  - gab-satchi
   - itsmurugappan
   - knative-automation
   - knative-prow-releaser-robot
@@ -188,12 +185,13 @@ aliases:
   - lance
   - n3wscott
   - pmorie
-  - rhuss
+  - psschwei
   - thisisnotapril
   - vaikas
+  - zroubalik
   knative-release-leads:
-  - dprotaso
-  - gab-satchi
+  - evankanderson
+  - psschwei
   knative-robots:
   - knative-automation
   - knative-prow-releaser-robot
@@ -202,9 +200,12 @@ aliases:
   - knative-test-reporter-robot
   kperf-approvers:
   - maximilien
+  - nader-ziada
+  - psschwei
   - zhanggbj
   net-certmanager-approvers:
   - ZhiminXiang
+  - carlisia
   - tcnghia
   net-contour-approvers:
   - carlisia
@@ -215,21 +216,23 @@ aliases:
   - nak3
   - tcnghia
   net-http01-approvers:
+  - carlisia
   - tcnghia
   net-istio-approvers:
   - JRBANCEL
   - ZhiminXiang
+  - carlisia
   - nak3
   - skonto
   - tcnghia
   - vagababov
   net-kourier-approvers:
+  - carlisia
   - davidor
   - jmprusi
   - skonto
   - tcnghia
   networking-wg-leads:
-  - ZhiminXiang
   - nak3
   operations-wg-leads:
   - houshengbo
@@ -240,6 +243,7 @@ aliases:
   productivity-wg-leads:
   - chizhg
   - kvmware
+  - upodroid
   productivity-writers:
   - cardil
   - chaodaiG
@@ -254,11 +258,12 @@ aliases:
   security-writers:
   - evankanderson
   - julz
-  serving-writers:
-  - ZhiminXiang
+  serving-wg-leads:
   - dprotaso
-  - julz
+  serving-writers:
+  - dprotaso
   - nak3
+  - psschwei
   steering-committee:
   - csantanapr
   - itsmurugappan
@@ -268,12 +273,15 @@ aliases:
   - vaikas
   technical-oversight-committee:
   - dprotaso
+  - dsimansk
   - evankanderson
   - n3wscott
-  - rhuss
+  - zroubalik
   ux-wg-leads:
+  - abrennan89
   - csantanapr
   - snneji
   ux-writers:
+  - abrennan89
   - csantanapr
   - snneji

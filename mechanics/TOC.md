@@ -20,16 +20,22 @@ aliases:
 The TOC will have five seats with a 2 year term.
 
 There will be an annual election to determine the composition of the TOC for the
-following year. Three seats will be up for election in one year and two will be
-up for election the following year.
+following year. Ideally, three seats will be up for election in one year and two will be
+up for election the following year. If more than 3 seats are up for re-election, then the
+term for 1 or more seats will be 1 year as needed to maintain a balance of having either
+2 or 3 seats up for election each year. The 2 year seats will be given to the most
+preferred candidates in the election.
 
 # Candidate Eligibility
 
 Current TOC members and
 [Approvers](https://github.com/knative/community/blob/main/ROLES.md#approver)
-with at least 3 months tenure are eligible to stand for election. Candidates may
-self-nominate or be nominated by another eligible member. The approximate time
-commitment of a TOC member is around 8 hours per week.
+with at least 3 months tenure are eligible to stand for election. The approver
+role may be held within either 
+[Knative](https://github.com/knative/community/blob/main/peribolos/knative.yaml) or
+[Knative Sandbox](https://github.com/knative/community/blob/main/peribolos/knative-sandbox.yaml).
+Candidates may self-nominate or be nominated by another eligible member. The
+approximate time commitment of a TOC member is around 8 hours per week.
 
 # Voter Eligibility
 
@@ -46,6 +52,9 @@ to vote._ If a community member has had significant contributions over the past
 year but is not captured in the stats.knative.dev dashboard, they will be able
 to submit an exception form to the steering committee who will then review and
 determine whether this member should be marked as an exception.
+
+Additionally, anyone serving on the SC, TOC, or Trademark Committee will 
+automatically be eligible to vote regardless of their number of contributions.
 
 All eligible voters will be captured at
 `knative/community/elections/$YEAR-TOC/voters.yaml` and the voters’ guide

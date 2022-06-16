@@ -4,16 +4,6 @@
 aliases:
   api-core-wg-leads:
   - dprotaso
-  autoscaling-reviewers:
-  - nader-ziada
-  - psschwei
-  - skonto
-  - taragu
-  autoscaling-wg-leads:
-  - julz
-  autoscaling-writers:
-  - julz
-  - yanweiguo
   client-reviewers:
   - itsmurugappan
   client-wg-leads:
@@ -37,6 +27,7 @@ aliases:
   - pmbanugo
   - snneji
   docs-wg-leads:
+  - abrennan89
   - csantanapr
   - snneji
   docs-writers:
@@ -50,7 +41,6 @@ aliases:
   - tommyreddad
   eventing-triage:
   - akashrv
-  - antoineco
   - lberk
   eventing-wg-leads:
   - lionelvillard
@@ -58,34 +48,37 @@ aliases:
   eventing-writers:
   - akashrv
   - aliok
-  - antoineco
   - lberk
   - lionelvillard
   - matzew
   - odacremolbap
   - pierDipi
   knative-admin:
+  - chizhg
   - csantanapr
   - dprotaso
+  - dsimansk
   - evankanderson
-  - gab-satchi
   - itsmurugappan
   - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
+  - kvmware
   - lance
   - n3wscott
   - pmorie
-  - rhuss
+  - psschwei
   - smoser-ibm
   - spencerdillard
   - thisisnotapril
+  - upodroid
   - vaikas
+  - zroubalik
   knative-release-leads:
-  - dprotaso
-  - gab-satchi
+  - evankanderson
+  - psschwei
   knative-robots:
   - knative-automation
   - knative-prow-releaser-robot
@@ -104,11 +97,9 @@ aliases:
   - vagababov
   - yanweiguo
   networking-wg-leads:
-  - ZhiminXiang
   - nak3
   networking-writers:
   - JRBANCEL
-  - ZhiminXiang
   - nak3
   - vagababov
   operations-reviewers:
@@ -157,6 +148,7 @@ aliases:
   productivity-wg-leads:
   - chizhg
   - kvmware
+  - upodroid
   productivity-writers:
   - cardil
   - chaodaiG
@@ -184,9 +176,12 @@ aliases:
   - psschwei
   - skonto
   - whaught
+  serving-wg-leads:
+  - dprotaso
   serving-writers:
   - dprotaso
   - julz
+  - psschwei
   - tcnghia
   - vagababov
   steering-committee:
@@ -198,16 +193,19 @@ aliases:
   - vaikas
   technical-oversight-committee:
   - dprotaso
+  - dsimansk
   - evankanderson
   - n3wscott
-  - rhuss
+  - zroubalik
   trademark-committee:
   - evankanderson
   - smoser-ibm
   - spencerdillard
   ux-wg-leads:
+  - abrennan89
   - csantanapr
   - snneji
   ux-writers:
+  - abrennan89
   - csantanapr
   - snneji
