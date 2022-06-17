@@ -1,7 +1,7 @@
 ## Knative Brand Guidelines
 
 The Knative trademark, ![Knative Logo](icons/logo.svg "The Knative Logo")
-logo ("Knative Trademarks") and knative.dev domain are trademarks of Google,
+logo ("Knative Trademarks") and knative.dev domain are trademarks of the CNCF,
 and are treated separately from the copyright or patent license grants
 contained in the Apache-licensed Knative repositories on GitHub. Any use of
 the Knative Trademarks other than those permitted in these guidelines must be
@@ -18,7 +18,7 @@ trademark law.
 
 Given the open nature of Knative, you may use the Knative trademark to refer
 to the project without prior written permission in accordance with these
-guidelines.
+guidelines. Please contact the Knative Trademark Committee if your proposed use case does not fall within these pre-approved categories.
 
 Examples of approved references include the following:
 
@@ -41,9 +41,9 @@ Suggested templates:
 ### 3. Usage Guidelines
 
 * The Knative name may not be used or registered in a manner that would cause
-  confusion as to Google’s affiliation or endorsement (as the trademark owner).
+  confusion as to the CNCF’s affiliation or endorsement (as the trademark owner).
 * Don't use the Knative name as part of your company name, product name,
-  domain name, or social media profile.
+  domain name, or social media profile unless explicitly approved in advance by the Knative Trademark Committee.
 * Other than as permitted by these guidelines, the Knative name should not be
   combined with other trademarks, terms, or source identifiers.
 * Don't remove, distort or alter any element of the Knative Trademarks without
@@ -83,9 +83,11 @@ Kubernetes project did not implement the [Certified Kubernetes Conformance
 Program](https://github.com/cncf/k8s-conformance) until version 1.7. Our goal
 is to have a Conformance Working Group created soon.
 
+For details on the conformance process, see [Qualifying Offerings and Self-Testing](https://github.com/knative/specs/blob/main/knative-conformance.md) and [Knative Conformance Certification](https://github.com/knative/specs/blob/main/docs/conformance_procedure.md).
+
 The Knative Trademark Owner and the Knative Trademark Committee reserve the
-right to deny trademark permission for specific use cases if the use case
-would not be in the best interest of the Knative Community.
+right to approve or deny trademark permission for specific use cases
+in the best interest of the Knative Community.
 
 ### 3. Logo presentation
 
