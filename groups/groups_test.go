@@ -167,9 +167,8 @@ func TestDescriptionLength(t *testing.T) {
 func TestGroupConventions(t *testing.T) {
 	for _, g := range cfg.Groups {
 		// groups are easier to reason about if email and name match
-		expectedEmailId := g.Name + "@knative.team"
-		if g.EmailId != expectedEmailId {
-			t.Errorf("group '%s': expected email '%s', got '%s'", g.Name, expectedEmailId, g.EmailId)
+		if !(g.EmailId == g.Name+"@knative.team" || g.EmailId == g.Name+"@knative.dev") {
+			t.Errorf("group '%s': expected email '%s@knative.dev or %s@knative.team', got '%s'", g.Name, g.Name, g.Name, g.EmailId)
 		}
 	}
 }
