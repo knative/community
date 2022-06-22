@@ -73,3 +73,13 @@ groups:
       - vaikas@gmail.com
       - itsmurugappan@knative.team
 
+  - email-id: admins@knative.dev
+    name: admins
+    description: |-
+      Admins mailing group.
+    settings:
+      AllowExternalMembers: "false"
+      WhoCanPostMessage: "ANYONE_CAN_POST"
+    members:
+      - toc@knative.team
+      - steering@knative.team
