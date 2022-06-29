@@ -807,6 +807,14 @@ orgs:
         - aliok
         - matzew
         - odacremolbap
+      Func Reviewers:
+        description: Receive reviews for func directories
+        privacy: closed
+      Func Writers:
+        description: Grants write access to function related repositories
+        privacy: closed
+        repos:
+          func: write
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
