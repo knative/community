@@ -2,7 +2,7 @@ orgs:
   knative-sandbox:
     name: Knative Sandbox
     description: Sandbox for projects that are part of the broader knative project
-    email: knative-admins@googlegroups.com
+    email: admins@knative.dev
     billing_email: knative@google.com
     company: ""
     location: ""
