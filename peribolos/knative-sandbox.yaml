@@ -768,7 +768,6 @@ orgs:
         members:
         - cardil
         - chaodaiG
-        - chizhg
         - coryrc
         - kvmware
         - psschwei
@@ -777,7 +776,6 @@ orgs:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
             members:
-            - chizhg
             - kvmware
             - upodroid
             privacy: closed
