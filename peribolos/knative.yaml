@@ -2,7 +2,7 @@ orgs:
   knative:
     description: Kubernetes-based platform to build, deploy, and manage modern serverless workloads
     name: Knative
-    email: knative-admins@googlegroups.com
+    email: admins@knative.dev
     has_organization_projects: true
     has_repository_projects: true
     members_can_create_repositories: false
