@@ -45,7 +45,7 @@ productivity and inter-personal interactions.
 ## Contributor license agreements
 
 We'd love to accept your patches! But before we can take them, you will have to
-fill out the [Google CLA](https://cla.developers.google.com). (Make sure to fill
+sign the CNCF [EasyCLA](https://easycla.lfx.linuxfoundation.org/). (Make sure to fill
 out the CLA with the same email address you used to register for Github.)
 
 Once you are CLA'ed, we'll be able to accept your pull requests. This is
