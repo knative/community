@@ -580,12 +580,10 @@ orgs:
         description: Grants write access to client-related repositories.
         privacy: closed
         repos:
-          func-tastic: write
           homebrew-kn-plugins: write
           kn-plugin-admin: write
           kn-plugin-diag: write
           kn-plugin-event: write
-          kn-plugin-func: write
           kn-plugin-migration: write
           kn-plugin-operator: write
           kn-plugin-quickstart: write
@@ -660,6 +658,23 @@ orgs:
             members:
             - lionelvillard
             - travis-minke-sap
+      Func Writers:
+        description: Grants write access to function related repositories
+        privacy: closed
+        repos:
+          func-tastic: write
+          kn-plugin-func: write
+        teams:
+          Functions WG Leads:
+            description: The Working Group leads for Functions
+            members:
+            - lance
+            - salaboy
+        members:
+        - lkingland
+        - matejvasek
+        - zroubalik
+        - nainaz
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -1037,7 +1052,6 @@ orgs:
         - lkingland
         - matejvasek
         - zroubalik
-        - omerbensaadon
         - nainaz
         - salaboy
 
@@ -1091,7 +1105,6 @@ orgs:
         - lkingland
         - matejvasek
         - zroubalik
-        - omerbensaadon
         - nainaz
         - salaboy
 
