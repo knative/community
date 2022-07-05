@@ -11,13 +11,11 @@ groups:
   ### GROUPS FOR GKE/GCP RBAC
   ###
 
-  - email-id: kn-infra-gcp-org-admins@knative.team
+  - email-id: kn-infra-gcp-org-admins@knative.dev
     name: kn-infra-gcp-org-admins
     description: |-
-      grants owner access to the knative.team GCP organization, as well as
+      grants owner access to the knative.dev GCP organization, as well as
       additional privileges necessary for billing and admin purposes
-
-      access granted via custom organization role organization.admin
     settings:
       ReconcileMembers: "true"
     members:
@@ -32,7 +30,7 @@ groups:
       - hh@cncf.io
 
   # Every GKE RBAC group should be added here.
-  - email-id: gke-security-groups@knative.team
+  - email-id: gke-security-groups@knative.dev
     name: gke-security-groups
     description: |-
       Security Groups for GKE clusters
@@ -40,14 +38,15 @@ groups:
       ReconcileMembers: "true"
       WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # needed for RBAC
     members:
-      - k8s-infra-rbac-prow@knative.team
+      - k8s-infra-rbac-prow@knative.dev
+      - k8s-infra-rbac-perf-tests@knative.dev
 
   # GKE RBAC groups:
-  # - grant access to the `namespace-user` role for a single namespace on the `aaa` cluster
+  # - grant access to the `namespace-user` role for a single namespace on a cluster
   # - must have WhoCanViewMemberShip: "ALL_MEMBERS_CAN_VIEW"
-  # - must be members of gke-security-groups@kubernetes.io
+  # - must be members of gke-security-groups@knative.dev
 
-  - email-id: k8s-infra-rbac-prow@knative.team
+  - email-id: k8s-infra-rbac-prow@knative.dev
     name: k8s-infra-rbac-prow
     description: |-
       Grants access to the prow cluster
@@ -57,6 +56,16 @@ groups:
     members:
       - chizhg@google.com
       - kmahapatra@vmware.com
+
+  - email-id: k8s-infra-rbac-perf-tests@knative.dev
+    name: k8s-infra-rbac-perf-tests
+    description: |-
+      Grants access to the shared community cluster perf-tests namespace
+    settings:
+      ReconcileMembers: "true"
+      WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
+    members:
+      - nziada@vmware.com
 
   ###
   ### Productivity WG related mailing lists

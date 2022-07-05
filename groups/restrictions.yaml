@@ -14,9 +14,9 @@ restrictions:
       - "^elections@knative.team$"
   - path: "wg-productivity/groups.yaml"
     allowedGroups:
-      - "^gke-security-groups@knative.team$"
-      - "^kn-infra-gcp-org-admins@knative.team$"
-      - "^k8s-infra-rbac-[a-z]{0,8}@knative.team$"
+      - "^gke-security-groups@knative.dev$"
+      - "^kn-infra-gcp-org-admins@knative.dev$"
+      - "^k8s-infra-rbac-[a-z,-]{0,30}@knative.dev$"
       - "^automation@knative.team$"
   - path: "wg-security/groups.yaml"
     allowedGroups:
