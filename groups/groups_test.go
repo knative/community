@@ -209,7 +209,7 @@ func TestK8sInfraRBACGroupConventions(t *testing.T) {
 	}
 	foundGKEGroup := false
 	for _, g := range cfg.Groups {
-		if g.EmailId == "gke-security-groups@knative.team" {
+		if g.EmailId == "gke-security-groups@knative.dev" {
 			foundGKEGroup = true
 			// this is necessary for group-based rbac to work
 			whoCanViewMembership, ok := g.Settings["WhoCanViewMembership"]
@@ -218,7 +218,7 @@ func TestK8sInfraRBACGroupConventions(t *testing.T) {
 			}
 			for _, email := range g.Members {
 				if _, ok := rbacEmails[email]; !ok {
-					t.Errorf("group '%s': invalid member '%s', must be a k8s-infra-rbac-*@knative.team group", g.Name, email)
+					t.Errorf("group '%s': invalid member '%s', must be a k8s-infra-rbac-*@knative.dev group", g.Name, email)
 				} else {
 					rbacEmails[email] = true
 				}
@@ -226,11 +226,11 @@ func TestK8sInfraRBACGroupConventions(t *testing.T) {
 		}
 	}
 	if !foundGKEGroup {
-		t.Errorf("group '%s' is missing", "gke-security-groups@knative.team")
+		t.Errorf("group '%s' is missing", "gke-security-groups@knative.dev")
 	}
 	for email, found := range rbacEmails {
 		if !found {
-			t.Errorf("group '%s': must be a member of gke-security-groups@knative.team", email)
+			t.Errorf("group '%s': must be a member of gke-security-groups@knative.dev", email)
 		}
 	}
 }
@@ -276,7 +276,7 @@ func TestNoDuplicateMembers(t *testing.T) {
 // // of these groups, we don't want to accidentally lock ourselves out
 func TestHardcodedGroupsForParanoia(t *testing.T) {
 	groups := map[string][]string{
-		"kn-infra-gcp-org-admins@knative.team": {
+		"kn-infra-gcp-org-admins@knative.dev": {
 			"chizhg@google.com",
 			"cy@borg.dev",
 			"chizhg@knative.team",
