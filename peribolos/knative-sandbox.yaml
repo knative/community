@@ -414,6 +414,11 @@ orgs:
         description: Templates and examples for Knative functions.
         has_projects: true
         has_wiki: false
+      getting-started:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "A \"batteries included\" opinionated reference deployment of Knative"
+        has_projects: true
       homebrew-kn-plugins:
         allow_merge_commit: false
         allow_rebase_merge: false
