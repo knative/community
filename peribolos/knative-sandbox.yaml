@@ -1210,6 +1210,7 @@ orgs:
         repos:
           net-istio: write
         members:
+        - AngeloDanducci
         - carlisia
         - JRBANCEL
         - nak3
