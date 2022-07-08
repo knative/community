@@ -1209,6 +1209,7 @@ orgs:
         repos:
           net-istio: write
         members:
+        - AngeloDanducci
         - carlisia
         - JRBANCEL
         - nak3
@@ -1216,7 +1217,6 @@ orgs:
         - tcnghia
         - vagababov
         - ZhiminXiang
-        - AngeloDanducci
 
       net-kourier Approvers:
         description: Approver group for net-kourier - to be used in CODEOWNERS file
