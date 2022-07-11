@@ -56,15 +56,15 @@ tools, platforms, languages, and products. By submitting a tutorial you can
 share your experience and help others who are solving similar problems.
 
 Community tutorials are stored in Markdown files under the `community` folder
-[Community Samples](https://github.com/knative/docs/tree/main/community/samples/README.md).
+[Community Samples](https://github.com/knative/docs/blob/main/code-samples/community/README.md).
 These documents are contributed, reviewed, and maintained by the community.
 
 Submit a Pull Request to the community sample directory under the Knative
 component folder that aligns with your document. For example, Knative Serving
 samples are under the `serving` folder. A reviewer will be assigned to review
 your submission. They'll work with you to ensure that your submission is clear,
-correct, and meets the [style guide](./docs/DOCS-CONTRIBUTING.md), but it helps
-if you follow it as you write your tutorial.
+correct, and meets the [style guide](https://github.com/knative/docs/blob/main/contribute-to-docs/README.md),
+but it helps if you follow it as you write your tutorial.
 
 ## Meetings and work groups
 
