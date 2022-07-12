@@ -228,12 +228,12 @@ End user seat is eligible if their company is listed in the
 
 ### Voting Procedure
 
-Elections will be held using [Elekto], an online voting tool created by CNCF
-intern Manish Sahani. The details for 2021 KSC elections can be found [here]
-(./elections/2021-SC/README.md).
+Elections will be held using [Elekto](https://elekto.dev/), an online voting tool
+created by CNCF intern Manish Sahani. The details for previous KSC elections can be
+found in the [elections folder](./elections).
 
-The End User seat is appointed by Steering Committee. The details for the 2021 end
-user candidacy can be found [here](./elections/2021-SC-EU/README.md)
+The End User seat is appointed by Steering Committee. The details for previous end
+user candidacy can also be found in the [elections folder](./elections).
 
 ### Limitations on Company Representation
 
