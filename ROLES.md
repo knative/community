@@ -249,9 +249,9 @@ Getting to be a tech lead of an existing working group:
 
 - Member for at least 6 months.
 
-- Primary reviewer for 20 substantial PRs.
+- Should have reviewed or contributed to substantial PRs to the codebase.
 
-- Reviewed or merged at least 50 PRs.
+- Should be a `reviewer` in the OWNERS file.
 
 - Sponsored by the technical oversight committee.
 
