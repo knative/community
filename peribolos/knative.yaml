@@ -741,6 +741,7 @@ orgs:
             privacy: closed
         members:
         - maximilien
+        - vyasgun
       Conformance Writers:
         description: Grants write access to conformance-related repositories.
         privacy: closed
