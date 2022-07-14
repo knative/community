@@ -75,11 +75,11 @@ the trademark committee invites your feedback there. See
 
 ## Committee Members
 
-| Member                   | Organization | Profile                                              |
-| ------------------------ | ------------ | ---------------------------------------------------- |
-| Spencer Dillard          | Google       | [@spencerdillard](https://github.com/spencerdillard) |
-| Doug Davis               | IBM/RedHat   | [@duglin](https://github.com/duglin)                 |
-| Evan Anderson            | VMware       | [@evankanderson](https://github.com/evankanderson)   |
+| Member        | Organization | Profile                                            |
+| ------------- | ------------ | -------------------------------------------------- |
+| Mark Chmarny  | Google       | [@mchmarny](https://github.com/mchmarny)           |
+| Simon Moser   | IBM/RedHat   | [@smoser-ibm](https://github.com/smoser-ibm)       |
+| Evan Anderson | VMware       | [@evankanderson](https://github.com/evankanderson) |
 
 ## Decision process
 
