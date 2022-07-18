@@ -188,16 +188,9 @@ approver in an OWNERS file:
 
 - Reviewer of the codebase for at least 3 months.
 
-- Primary reviewer for at least 10 substantial PRs to the codebase.
+- Should have reviewed or contributed to substantial PRs to the codebase.
 
-  - One path for getting the necessary reviews is to add yourself to the
-    `reviewers` section of the OWNERS file. Note that this does not give you any
-    additional privileges. By having yourself listed in this section in OWNERS
-    file means that you will get PRs assigned to you for code review. Getting
-    added to `reviewers` section is at the discretion of an approver after
-    enough evidence of quality contributions.
-
-- Reviewed at least 30 PRs to the codebase.
+- Should be a `reviewer` in the OWNERS file.
 
 - Nominated by an a WG lead (with no objections from other leads).
 
@@ -256,9 +249,9 @@ Getting to be a tech lead of an existing working group:
 
 - Member for at least 6 months.
 
-- Primary reviewer for 20 substantial PRs.
+- Should have reviewed or contributed to substantial PRs to the codebase.
 
-- Reviewed or merged at least 50 PRs.
+- Should be a `reviewer` in the OWNERS file.
 
 - Sponsored by the technical oversight committee.
 
