@@ -887,11 +887,6 @@ orgs:
             maintainers:
             - evankanderson
             - psschwei
-          Productivity WG Leads:
-            description: Active Productivity WG Leads.
-            maintainers:
-            - kvmware
-            - upodroid
       Networking Reviewers:
         description: Receive reviews for networking directories
         privacy: closed
