@@ -984,7 +984,6 @@ orgs:
         repos:
           eventing-natss: write
         members:
-        - astelmashenko
         - zhaojizhuang
 
       eventing-prometheus Approvers:
