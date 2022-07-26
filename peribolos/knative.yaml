@@ -565,7 +565,7 @@ orgs:
       actions:
         allow_merge_commit: false
         allow_rebase_merge: false
-        has_project: false
+        has_projects: false
         has_wiki: false
       build:
         allow_merge_commit: false
@@ -884,6 +884,7 @@ orgs:
             - zroubalik
             privacy: closed
           Knative Release Leads:
+            privacy: closed
             description: Active member of the Knative Release Leads rotation.
             maintainers:
             - evankanderson
@@ -1010,6 +1011,7 @@ orgs:
         privacy: closed
         teams:
           Security WG Leads:
+            privacy: closed
             description: The Working Group leads for Security
             members:
             - evankanderson
@@ -1068,6 +1070,7 @@ orgs:
         privacy: closed
         teams:
           UX WG Leads:
+            privacy: closed
             description: The Working Group leads for User Experience (UX)
             members:
             - csantanapr
