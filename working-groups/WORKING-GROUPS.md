@@ -318,7 +318,7 @@ performance/scale/load testing infrastructure
 
 | &nbsp;                                                    | Emeritus Leads | Profile                                   | Duration  |
 | --------------------------------------------------------- | -------------- | ----------------------------------------- | --------- |
-| <img width="30px" src="https://github.com/chizhg.png">    | Chi Zhang      | [chizhg](https://github.com/chizhg)       | ?-2022    |
+| <img width="30px" src="https://github.com/chizhg.png">    | Chi Zhang      | [chizhg](https://github.com/chizhg)       | 2020-2022    |
 | <img width="30px" src="https://github.com/n3wscott.png">  | Scott Nichols  | [n3wscott](https://github.com/n3wscott)   | 2020-2021 |
 | <img width="30px" src="https://github.com/chaodaiG.png">  | Chao Dai       | [chaodaiG](https://github.com/chaodaiG)   | 2019-2020 |
 | <img width="30px" src="https://github.com/jessiezcc.png"> | Jessie Zhu     | [jessiezcc](https://github.com/jessiezcc) | 2018-2019 |
