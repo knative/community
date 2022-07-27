@@ -4,8 +4,6 @@ orgs:
     description: Sandbox for projects that are part of the broader knative project
     email: admins@knative.dev
     billing_email: knative@google.com
-    company: ""
-    location: ""
     has_organization_projects: true
     has_repository_projects: true
     members_can_create_repositories: false
@@ -607,7 +605,6 @@ orgs:
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
-        repos: {}
         teams:
           Docs WG Leads:
             description: The Working Group leads for Docs
@@ -658,6 +655,7 @@ orgs:
           eventing-kafka-broker: write
         teams:
           Eventing Kafka WG Leads:
+            privacy: closed
             description: The Working Group leads for Eventing Kafka
             members:
             - lionelvillard
@@ -745,6 +743,7 @@ orgs:
             - zroubalik
             privacy: closed
           Knative Release Leads:
+            privacy: closed
             description: Active member of the Knative Release Leads rotation.
             maintainers:
             - evankanderson
@@ -790,6 +789,7 @@ orgs:
         privacy: closed
         teams:
           Security WG Leads:
+            privacy: closed
             description: The Working Group leads for Security
             members:
             - evankanderson
@@ -826,6 +826,7 @@ orgs:
         privacy: closed
         teams:
           UX WG Leads:
+            privacy: closed
             description: The Working Group leads for User Experience (UX)
             members:
             - csantanapr
