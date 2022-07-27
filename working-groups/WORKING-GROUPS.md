@@ -313,7 +313,6 @@ performance/scale/load testing infrastructure
 
 | &nbsp;                                                   | Leads            | Company   | Profile                                 |
 | -------------------------------------------------------- | ---------------- | --------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang        | Google    | [chizhg](https://github.com/chizhg)     |
 | <img width="30px" src="https://github.com/kvmware.png">  | Krsna Mahapatra  | VMware    | [kvmware](https://github.com/kvmware)   |
 | <img width="30px" src="https://github.com/upodroid.png">  | Mahamed Ali     | Rackspace Technology | [upodroid](https://github.com/upodroid) |
 
