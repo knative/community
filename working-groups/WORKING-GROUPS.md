@@ -313,12 +313,12 @@ performance/scale/load testing infrastructure
 
 | &nbsp;                                                   | Leads            | Company   | Profile                                 |
 | -------------------------------------------------------- | ---------------- | --------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/chizhg.png">   | Chi Zhang        | Google    | [chizhg](https://github.com/chizhg)     |
 | <img width="30px" src="https://github.com/kvmware.png">  | Krsna Mahapatra  | VMware    | [kvmware](https://github.com/kvmware)   |
 | <img width="30px" src="https://github.com/upodroid.png">  | Mahamed Ali     | Rackspace Technology | [upodroid](https://github.com/upodroid) |
 
 | &nbsp;                                                    | Emeritus Leads | Profile                                   | Duration  |
 | --------------------------------------------------------- | -------------- | ----------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/chizhg.png">    | Chi Zhang      | [chizhg](https://github.com/chizhg)       | 2020-2022    |
 | <img width="30px" src="https://github.com/n3wscott.png">  | Scott Nichols  | [n3wscott](https://github.com/n3wscott)   | 2020-2021 |
 | <img width="30px" src="https://github.com/chaodaiG.png">  | Chao Dai       | [chaodaiG](https://github.com/chaodaiG)   | 2019-2020 |
 | <img width="30px" src="https://github.com/jessiezcc.png"> | Jessie Zhu     | [jessiezcc](https://github.com/jessiezcc) | 2018-2019 |
@@ -390,3 +390,4 @@ Except as otherwise noted, the content of this page is licensed under the
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/),
 and code samples are licensed under the
 [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+
