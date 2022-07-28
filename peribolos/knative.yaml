@@ -885,10 +885,17 @@ orgs:
             privacy: closed
           Knative Release Leads:
             privacy: closed
-            description: Active member of the Knative Release Leads rotation.
+            description: Active members of the Knative Release Leads rotation.
             maintainers:
             - evankanderson
             - psschwei
+          Productivity Leads:
+            #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
+            privacy: closed
+            description: Members of the Productivity WG Leads.
+            maintainers:
+            - kvmware
+            - upodroid
       Networking Reviewers:
         description: Receive reviews for networking directories
         privacy: closed
