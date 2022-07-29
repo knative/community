@@ -666,6 +666,7 @@ orgs:
           kn-plugin-func: write
         teams:
           Functions WG Leads:
+            privacy: closed
             description: The Working Group leads for Functions
             members:
             - lance
