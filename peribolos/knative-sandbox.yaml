@@ -570,11 +570,11 @@ orgs:
         has_projects: true
         has_wiki: false
       security-guard:
-         allow_merge_commit: false
-         allow_rebase_merge: false
-         description: Runtime security plug to protect user containers
-         has_projects: true
-         has_wiki: false
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Runtime security plug to protect user containers
+        has_projects: true
+        has_wiki: false
       wg-repository:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -1254,12 +1254,12 @@ orgs:
         - tcnghia
 
       security-guard Approvers:
-         description: Approver group for security-guard - to be used in CODEOWNERS file
-         privacy: closed
-         repos:
-           security-guard: write
-         members:
-         - davidhadas
-         - psschwei
-         - maximilien
-         - rhuss
+        description: Approver group for security-guard - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          security-guard: write
+        members:
+        - davidhadas
+        - psschwei
+        - maximilien
+        - rhuss
