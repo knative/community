@@ -569,6 +569,12 @@ orgs:
         description: A template project for writing your own Knative eventing source.
         has_projects: true
         has_wiki: false
+      security-guard:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Runtime security plug to protect user containers
+        has_projects: true
+        has_wiki: false
       wg-repository:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -712,6 +718,7 @@ orgs:
           reconciler-test: admin
           sample-controller: admin
           sample-source: admin
+          security-guard: admin
           wg-repository: admin
         teams:
           Knative Robots:
@@ -794,6 +801,8 @@ orgs:
       Security Writers:
         description: Grants write access to security-related repositories.
         privacy: closed
+        repos:
+          security-guard: write
         teams:
           Security WG Leads:
             privacy: closed
@@ -1243,3 +1252,14 @@ orgs:
         - jmprusi
         - skonto
         - tcnghia
+
+      security-guard Approvers:
+        description: Approver group for security-guard - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          security-guard: write
+        members:
+        - davidhadas
+        - psschwei
+        - maximilien
+        - rhuss
