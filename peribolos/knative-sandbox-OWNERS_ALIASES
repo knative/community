@@ -201,11 +201,11 @@ aliases:
   - knative-prow-updater-robot
   - knative-test-reporter-robot
   kperf-approvers:
+  - chzhyang
   - maximilien
   - nader-ziada
   - psschwei
   - zhanggbj
-  - chzhyang
   net-certmanager-approvers:
   - ZhiminXiang
   - carlisia
