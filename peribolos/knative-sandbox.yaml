@@ -831,6 +831,7 @@ orgs:
             description: The Working Group leads for Serving
             members:
             - dprotaso
+            - psschwei
             privacy: closed
           Networking WG Leads:
             description: The Working Group leads for Networking
