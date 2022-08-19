@@ -97,7 +97,7 @@ The current members of the TOC are shown below.
 | <img width="30px" src="https://github.com/dprotaso.png">       | Dave Protasowski | VMware     | [@dprotaso](https://github.com/dprotaso)             | 2021-05-26 | 2024     |
 | <img width="30px" src="https://github.com/dsimansk.png">       | David Simansky   | Red Hat    | [@dsimansk](https://github.com/dsimansk)             | 2022-06-01 | 2024     |
 | <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson    | VMware     | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2023     |
-| <img width="30px" src="https://github.com/n3wscott.png">       | Scott Nichols    | Chainguard | [@n3wscott](https://github.com/n3wscott)             | 2022-01-11 | 2024     |
+| <img width="30px" src="https://github.com/n3wscott.png">       | Scott Nichols    | _None_     | [@n3wscott](https://github.com/n3wscott)             | 2022-01-11 | 2024     |
 | <img width="30px" src="https://github.com/zroubalik.png">      | Zbynek Roubalik  | Red Hat    | [@zroubalik](https://github.com/zroubalik)           | 2022-06-01 | 2024     |
 
 ## Emeritus Committee Members
