@@ -153,15 +153,14 @@ especially the [Docs](https://github.com/knative/docs/) repo.
 
 | &nbsp;                                                        | Leads            | Company  | Profile                                           |
 | ------------------------------------------------------------- | ---------------- | -------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana   | IBM      | [csantanapr](https://github.com/csantanapr)       |
 | <img width="30px" src="https://github.com/snneji.png">        | Samia Nneji      | VMware   | [snneji](https://github.com/snneji)               |
 | <img width="30px" src="https://github.com/abrennan89.png">    | Ashleigh Brennan | Red Hat  | [abrennan89](https://github.com/abrennan89)       |
 
-| &nbsp;                                                     | Emeritus Leads  | Profile                                     | Duration  |
-| ---------------------------------------------------------- | --------------- | ------------------------------------------- | --------- |
-| <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon | [omerbensaadon](https://github.com/omerbensaadon) | 2020-2021|
-| <img width="30px" src="https://github.com/abrennan89.png">    | Ashleigh Brennan    | [abrennan89](https://github.com/abrennan89)       | 2020-2021 |
-| <img width="30px" src="https://github.com/samodell.png">    | Sam O'Dell    | [samodell](https://github.com/samodell)       | 2018-2020 |
+| &nbsp;                                                        | Emeritus Leads  | Profile                                           | Duration  |
+| ------------------------------------------------------------- | --------------- | ------------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana  | [csantanapr](https://github.com/csantanapr)       | 2020-2022 |
+| <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon  | [omerbensaadon](https://github.com/omerbensaadon) | 2020-2021 |
+| <img width="30px" src="https://github.com/samodell.png">      | Sam O'Dell      | [samodell](https://github.com/samodell)           | 2018-2020 |
 
 ## Eventing
 
