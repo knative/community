@@ -776,13 +776,13 @@ orgs:
           Docs WG Leads:
             description: The Working Group leads for Docs
             members:
-            - csantanapr
             - snneji
             - abrennan89
             privacy: closed
         members:
         - abrennan89
         - psschwei
+        - csantanapr
       Eventing Reviewers:
         description: Receive reviews for docs directories
         privacy: closed
@@ -1082,7 +1082,6 @@ orgs:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
             members:
-            - csantanapr
             - snneji
             - abrennan89
         repos:
