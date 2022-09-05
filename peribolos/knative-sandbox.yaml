@@ -1147,8 +1147,9 @@ orgs:
         repos:
           kn-plugin-quickstart: write
         members:
-        - csantanapr
-        - omerbensaadon
+        - dsimansk
+        - navidshaikh
+        - rhuss
         - psschwei
 
       kn-plugin-sample Approvers:
