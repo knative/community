@@ -5,15 +5,27 @@ weight: 50
 type: "docs"
 ---
 
-Knative releases every 6 weeks. As much as possible, releases should be driven by automation, and repos should be ready to release at any point. It should also be possible to produce and consume nightly artifacts.
+Knative currently releases quarterly, on the 4th Tuesday of January, April, July, and October. See [this document](https://docs.google.com/document/d/12yboQGExbbow5yYbIjNlZegOvw5X9ohYCaRT4kepP4s/edit#) for the rationale behind the current schedule. Previously, Knative released on a 6-weekly schedule.
 
-With that said, it can be useful to have a list of when future releases will happen, so this document provides a schedule for the next 6+ months of releases.
+The current release schedule can be expressed with the following crontab expression:
+
+```
+# minute   hour   day      month        weekday
+0          0      22-28    1,4,7,10     2
+```
+
+The date range 22-28 restricts the days to the 4th week of the month; the weekday specification restricts further the day to be the day of the week which is a Tuesday within that 4th week of the month. As much as possible, releases should be driven by automation, and repos should be ready to release at any point. It should also be possible to produce and consume nightly artifacts.
+
+As a transition point, and due to Kubecon occurring on 24 Oct 2022, the first quarterly release has been moved a week earlier. We expect that subsequent conferences / etc will not have a similar release date change. (See [#1096](https://github.com/knative/community/issues/1096).)
+
+Here is the current release schedule for the next year:
 
 | Release | Date       | EOL        | Min K8s Version | Notes                         |
 | ------- | ---------- | ---------- | --------------- | ----------------------------- |
-| 1.8     | 2022-10-04 | 2023-04-04 | 1.23            | |
-| 1.9     | 2022-11-15 | 2023-05-16 | 1.23            | |
-| 1.10    | 2023-01-10 | 2023-06-27 | 1.24            | |
+| 1.8     | 2022-10-18 | 2023-04-25 | 1.23            | |
+| 1.9     | 2023-01-24 | 2023-07-25 | 1.24            | |
+| 1.10    | 2023-04-25 | 2023-10-24 | <unknown>       | |
+| 1.11    | 2023-07-25 | 2024-01-23 | <unknown>       | |
 
 
 ## Historical (no longer supported) releases:
