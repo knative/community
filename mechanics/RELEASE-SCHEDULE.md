@@ -5,18 +5,21 @@ weight: 50
 type: "docs"
 ---
 
-Knative releases every 6 weeks. As much as possible, releases should be driven by automation, and repos should be ready to release at any point. It should also be possible to produce and consume nightly artifacts.
+Knative releases quarterly. As much as possible, releases should be driven by automation, and repos should be ready to release at any point. It should also be possible to produce and consume nightly artifacts.
 
-With that said, it can be useful to have a list of when future releases will happen, so this document provides a schedule for the next 6+ months of releases.
+With that said, it can be useful to have a list of when future releases will happen, so this document provides a schedule for the next 12 months of releases.
+
+## Upcoming releases
 
 | Release | Date       | EOL        | Min K8s Version | Notes                         |
 | ------- | ---------- | ---------- | --------------- | ----------------------------- |
-| 1.8     | 2022-10-04 | 2023-04-04 | 1.23            | |
-| 1.9     | 2022-11-15 | 2023-05-16 | 1.23            | |
-| 1.10    | 2023-01-10 | 2023-06-27 | 1.24            | |
+| 1.8     | 2022-10-18 | 2023-05-02 | 1.23            | |
+| 1.9     | 2023-01-24 | 2023-08-01 | 1.24            | |
+| 1.10    | 2023-04-25 | 2023-10-31 | 1.25            | |
+| 1.11    | 2023-07-25 | 2024-01-30 | TBD             | |
+| 1.12    | 2023-10-24 | 2024-04-30 | TBD            | |
 
-
-## Historical (no longer supported) releases:
+## Releases supported by community
 
 | Release | Date       | EOL        | Min K8s Version | Notes                    |
 | ------- | ---------- | ---------- | --------------- | ------------------------ |
@@ -24,6 +27,11 @@ With that said, it can be useful to have a list of when future releases will hap
 | 1.6     | 2022-07-12 | 2023-01-10 | 1.22            | |
 | 1.5     | 2022-05-31 | 2022-11-29 | 1.22            | |
 | 1.4     | 2022-04-19 | 2022-10-11 | 1.22            | |
+
+## No longer supported releases
+
+| Release | Date       | EOL        | Min K8s Version | Notes                    |
+| ------- | ---------- | ---------- | --------------- | ------------------------ |
 | 1.3     | 2022-03-08 | 2022-08-30 | 1.21            | |
 | 1.2     | 2022-01-25 | 2022-07-12 | 1.21            | |
 | 1.1     | 2021-12-14 | 2022-05-31 | 1.20            | |
