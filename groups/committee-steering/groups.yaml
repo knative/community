@@ -6,12 +6,12 @@ groups:
     settings:
       ReconcileMembers: "true"
     owners:
+      - anassi@google.com
+      - csantana23@gmail.com
+      - lball@redhat.com
       - pmorie@knative.team
       - thisisnotapril@knative.team
-      - anassi@google.com
-      - csantanapr@knative.team
       - lball@knative.team
-      - vaikas@knative.team
       - vaikas@gmail.com
       - itsmurugappan@knative.team
 
