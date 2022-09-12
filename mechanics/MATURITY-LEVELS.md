@@ -63,7 +63,7 @@ Additional requirements beyond "initiating":
     the release artifacts. Commercial products with production usage count
     towards this target. This can be documented in something
     [like an ADOPTERS.md file](https://www.google.com/url?q=https://github.com/cncf/toc/blob/master/process/graduation_criteria.adoc&sa=D&ust=1597952611892000&usg=AFQjCNFymwghRnNGVqbD0O_01TsfEeto5w).
-- Unit test automation meeting the Knative standards with respect to coverage
+- Unit test automation meeting the Knative standards with respect to coverage for usable components (50% + using [codecov](https://app.codecov.io/gh/knative/serving))
   and flakiness / test failures.
 - Provide at least monthly progress reports at the appropriate WG(s). WGs should
   roll these reports up into their TOC reports.
@@ -93,6 +93,7 @@ Additional requirements beyond "usable":
   The API contract should be explicitly documented in the repo.
 - Identified and named set of project leads managing both development roadmap
   and overall project success.
+- Unit test automation meeting the Knative standards with respect to coverage for usable components (70% + using [codecov](https://app.codecov.io/gh/knative/serving))
 - Release schedule aligned with the core Knative release schedule.
 - At least 5 end-users consuming the release artifacts in installations of
   sufficient quality and scope.
