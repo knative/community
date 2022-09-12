@@ -5,19 +5,28 @@ weight: 50
 type: "docs"
 ---
 
-Knative releases quarterly. As much as possible, releases should be driven by automation, and repos should be ready to release at any point. It should also be possible to produce and consume nightly artifacts.
+The Knative project releases quarterly, on Tuesday of the 4th week of January, April, July, October, represented by the following Crontab expression:
 
-With that said, it can be useful to have a list of when future releases will happen, so this document provides a schedule for the next 12 months of releases.
+```
+# minute   hour   day      month        weekday
+0          0      22-28    1,4,7,10     2
+```
+
+The end of life (EOL) date for given release is calculated, by taking release date of a `n+2` release, and adding one week to it. 
+
+As much as possible, releases should be driven by automation, and repos should be ready to release at any point. It should also be possible to produce and consume nightly artifacts.
+
+With that said, it can be useful to have a list of when future releases will happen, so this document provides a schedule for the next 12 months of releases and a list of supported and historical releases.
 
 ## Upcoming releases
 
-| Release | Date       | EOL        | Min K8s Version | Notes                         |
-| ------- | ---------- | ---------- | --------------- | ----------------------------- |
-| 1.8     | 2022-10-18 | 2023-05-02 | 1.23            | |
+| Release | Date       | EOL        | Min K8s Version | Notes                    |
+| ------- | ---------- | ---------- | --------------- | ------------------------ |
+| 1.8     | 2022-10-18 | 2023-05-02 | 1.23            | Change to quarterly release cycle |
 | 1.9     | 2023-01-24 | 2023-08-01 | 1.24            | |
-| 1.10    | 2023-04-25 | 2023-10-31 | 1.25            | |
+| 1.10    | 2023-04-25 | 2023-10-31 | TBD             | |
 | 1.11    | 2023-07-25 | 2024-01-30 | TBD             | |
-| 1.12    | 2023-10-24 | 2024-04-30 | TBD            | |
+| 1.12    | 2023-10-24 | 2024-04-30 | TBD             | |
 
 ## Releases supported by community
 
