@@ -46,7 +46,7 @@ Upstream reference: https://kubernetes.io/releases/patch-releases
 
 ### Knative community support window principle:
 
-We (the community) support the most recent 4 versions of Knative. The term
+We (the community) support the most recent 2 versions of Knative. The term
 support as used here means that we will maintain release branches for these
 releases. We will consider backporting applicable fixes to these release
 branches depending on severity and feasibility.
