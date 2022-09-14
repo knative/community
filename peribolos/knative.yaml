@@ -552,6 +552,7 @@ orgs:
     - zroubalik
     - zrss
     - zsxking
+    - jwcesign
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
