@@ -335,7 +335,7 @@ be the tech lead in a smaller working group, but they are distinct roles.
 - Write access to repo (assign issues/PRs, add/remove labels and milestones,
   edit project, issues, and PRs, edit wiki, create/delete labels and milestones).
 
-- Expected to work to holistically maintain the health of the working through:
+- Expected to work to holistically maintain the health of the working group through:
 
   - Being a good role model
 
