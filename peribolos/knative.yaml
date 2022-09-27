@@ -623,12 +623,16 @@ orgs:
         has_projects: true
         has_wiki: false
         homepage: https://knative.dev/docs/eventing
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       eventing-contrib:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Event Sources
         has_projects: true
         has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       eventing-operator:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -664,12 +668,16 @@ orgs:
         description: Combined operator for Knative.
         has_projects: true
         has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       pkg:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Knative common packages
         has_projects: true
         has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       release:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -683,6 +691,8 @@ orgs:
         has_projects: true
         has_wiki: false
         homepage: https://knative.dev/docs/serving/
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       serving-operator:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -696,24 +706,32 @@ orgs:
         description: Knative specs and conformance tests
         has_projects: true
         has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       test-infra:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Test infrastructure for the Knative project
         has_projects: false
         has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       hack:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Knative common scripts.
         has_projects: true
         has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       ux:
         allow_merge_commit: false
         allow_rebase_merge: false
         description: UX WG repository for assets and stories
         has_projects: true
         has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       website:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -721,6 +739,8 @@ orgs:
         has_projects: false
         has_wiki: false
         homepage: https://knative.dev
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
     teams:
       Client Reviewers:
         description: Receive reviews for client directories
