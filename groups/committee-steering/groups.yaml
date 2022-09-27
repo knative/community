@@ -2,7 +2,7 @@ groups:
   - email-id: steering@knative.team
     name: steering
     description: |-
-      Private list for current members of the Knative Steering Committee
+      List for current members of the Knative Steering Committee
     settings:
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
