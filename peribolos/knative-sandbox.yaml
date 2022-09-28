@@ -20,6 +20,7 @@ orgs:
     - knative-prow-robot
     - lance
     - pmorie
+    - psschwei
     - rhuss
     - thelinuxfoundation
     - thisisnotapril
@@ -204,7 +205,6 @@ orgs:
     - pkosiec
     - priyawadhwa
     - prydonius
-    - psschwei
     - qibobo
     - radufa
     - radtriste
@@ -764,6 +764,7 @@ orgs:
             - dprotaso
             - dsimansk
             - zroubalik
+            - psschwei
             privacy: closed
           Knative Release Leads:
             privacy: closed
