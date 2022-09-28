@@ -18,7 +18,6 @@ orgs:
     - itsmurugappan
     - knative-prow-robot
     - lance
-    - n3wscott
     - pmorie
     - rhuss
     - thelinuxfoundation
@@ -881,7 +880,6 @@ orgs:
             maintainers:
             - evankanderson
             - dprotaso
-            - n3wscott
             - dsimansk
             - zroubalik
             privacy: closed

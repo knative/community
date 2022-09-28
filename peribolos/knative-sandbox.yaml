@@ -19,7 +19,6 @@ orgs:
     - itsmurugappan
     - knative-prow-robot
     - lance
-    - n3wscott
     - pmorie
     - rhuss
     - thelinuxfoundation
@@ -763,7 +762,6 @@ orgs:
             maintainers:
             - evankanderson
             - dprotaso
-            - n3wscott
             - dsimansk
             - zroubalik
             privacy: closed
@@ -906,7 +904,6 @@ orgs:
           discovery: write
         members:
         - lberk
-        - n3wscott
 
       eventing-autoscaler-keda Approvers:
         description: Approver group for eventing-autoscaler-keda - to be used in CODEOWNERS file
