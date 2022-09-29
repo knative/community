@@ -832,9 +832,9 @@ orgs:
           Functions WG Leads:
             description: The Working Group leads for Functions
             members:
-              - lance
-              - salaboy
-              privacy: closed
+            - lance
+            - salaboy
+            privacy: closed
         members:
           - lkingland
           - matejvasek
@@ -843,8 +843,8 @@ orgs:
         description: Receive reviews for function repositories
         privacy: closed
         members:
-          - jrangelramos
-          - nainaz
+        - jrangelramos
+        - nainaz
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
