@@ -2,7 +2,7 @@ name: Knative 2022 Steering Committee Election
 organization: Knative
 start_datetime: 2022-11-10 00:00:01
 end_datetime: 2022-11-30 23:59:59
-no_winners: 3
+no_winners: 2
 allow_no_opinion: True
 delete_after: True
 show_candidate_fields:
