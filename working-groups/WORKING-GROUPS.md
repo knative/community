@@ -83,7 +83,7 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | Roadmap                    | [API](https://github.com/orgs/knative/projects/35), [Scaling](https://github.com/orgs/knative/projects/36/views/1)                                                   |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                  |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                             |
-| Community Meeting Calendar | Alternating Wed 9:30am & 4pm PST <br/>Combined with [Networking](#networking)</br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)  |
+| Community Meeting Calendar | Alternating Wed 9:30am & 5pm PST <br/>Combined with [Networking](#networking)</br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)  |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                                        |
 | Document Folder            | [API](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9), [Scaling](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K) |
 | Repos                      | [`knative/serving`](https://github.com/knative/serving)                                                                                                             |
