@@ -145,9 +145,9 @@ There are two ways to raise issues to the steering committee for decision:
 
 ## Composition
 
-The steering committee has 5 seats. Of these five seats, four (4) are elected
-Contributing seats, open to any project contributor, and one (1) is a
-KSC appointed [End User Seat](#end-user-seat).
+The Steering Committee has five (5) seats. Of these five seats, four (4) are elected
+Contributing seats, open to any project contributor, and one (1) is an
+[End User Seat](#end-user-seat) appointed by the Steering Committee.
 
 Steering Committee contributing members serve for 2-year terms, staggered in
 order to preserve continuity. End user member serves for 1-year term. Every year
