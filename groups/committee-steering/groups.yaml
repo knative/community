@@ -22,6 +22,7 @@ groups:
       Knative Elections Mailing List
     settings:
       ReconcileMembers: "true"
+      WhoCanPostMessage: "ANYONE_CAN_POST"
     members:
       - fosterd@vmware.com
       - jberkus@redhat.com
