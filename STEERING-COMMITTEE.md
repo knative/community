@@ -247,7 +247,7 @@ special elections held. In the event of a question of company membership (for
 example evaluating independence of corporate subsidiaries) a majority of all
 non-involved Steering Committee members will decide.
 
-# End User Seat
+## End User Seat
 
 A person is eligible to serve in the end user seat if their company is listed in the
 [ADOPTERS](./ADOPTERS.md) file.
