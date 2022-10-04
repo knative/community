@@ -47,7 +47,7 @@ have been asked by the Steering Committee to run this election:
 
 - [Josh Berkus](https://github.com/jberkus)
 - [Dawn Foster](https://github.com/geekygirldawn)
-- TBD
+- [Mahamed Ali](https://github.com/upodroid)
 
 You can reach us by emailing elections@knative.team
 
