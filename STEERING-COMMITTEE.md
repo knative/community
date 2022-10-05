@@ -27,6 +27,7 @@ evolve as the community and project change.
   - [Candidate Eligibility](#candidate-eligibility)
   - [Voting Procedure](#voting-procedure)
   - [Limitations on Company Representation](#limitations-on-company-representation)
+- [End User Seat](#end-user-seat)
 - [Vacancies](#vacancies)
 - [Transition](#transition)
 - [Changes to the charter](#changes-to-the-charter)
@@ -144,10 +145,9 @@ There are two ways to raise issues to the steering committee for decision:
 
 ## Composition
 
-The steering committee has 5 seats. Of these five seats, four (4) are
-Contributing seats, open to any project contributor, and one (1) seat is held
-by a KSC appointed end user seat. End user seat, is open to active end user
-community members whose company is listed in the [ADOPTERS](./ADOPTERS.MD) file.
+The Steering Committee has five (5) seats. Of these five seats, four (4) are elected
+Contributing seats, open to any project contributor, and one (1) is an
+[End User Seat](#end-user-seat) appointed by the Steering Committee.
 
 Steering Committee contributing members serve for 2-year terms, staggered in
 order to preserve continuity. End user member serves for 1-year term. Every year
@@ -223,17 +223,11 @@ To run for a Contributing seat, a candidate must additionally be at least a
 project Member as defined in
 [ROLES.md](https://github.com/knative/community/blob/main/ROLES.md).
 
-End user seat is eligible if their company is listed in the
-[ADOPTERS](./ADOPTERS.md) file.
-
 ### Voting Procedure
 
 Elections will be held using [Elekto](https://elekto.dev/), an online voting tool
 created by CNCF intern Manish Sahani. The details for previous KSC elections can be
 found in the [elections folder](./elections).
-
-The End User seat is appointed by Steering Committee. The details for previous end
-user candidacy can also be found in the [elections folder](./elections).
 
 ### Limitations on Company Representation
 
@@ -252,6 +246,19 @@ members to resign, all employees of that organization will be removed and new
 special elections held. In the event of a question of company membership (for
 example evaluating independence of corporate subsidiaries) a majority of all
 non-involved Steering Committee members will decide.
+
+## End User Seat
+
+A person is eligible to serve in the end user seat if their company is listed in the
+[ADOPTERS](./ADOPTERS.md) file.
+
+The end user seat is appointed by Steering Committee to serve for a 1-year term.
+
+When the new Steering Committee members are seated in December after the elections
+for the Contributing Seats, the Steering Committee is responsible for appointing a
+new person to the end user seat.
+
+The person filling the end user seat will take office in February.
 
 ## Vacancies
 
