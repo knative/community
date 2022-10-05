@@ -635,6 +635,12 @@ orgs:
         description: 'DEPRECATED: Development continues in https://github.com/knative/operator/'
         has_projects: true
         has_wiki: false
+      func:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: 'Knative Functions client API and CLI'
+        has_projects: true
+        has_wiki: false
       infra:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -816,6 +822,29 @@ orgs:
         - aliok
         - matzew
         - odacremolbap
+      Func Writers:
+        description: Grants write access to function repositories
+        privacy: closed
+        repos:
+          func: write
+          release: write
+        teams:
+          Functions WG Leads:
+            description: The Working Group leads for Functions
+            members:
+            - lance
+            - salaboy
+            privacy: closed
+        members:
+          - lkingland
+          - matejvasek
+          - zroubalik
+      Func Reviewers:
+        description: Receive reviews for function repositories
+        privacy: closed
+        members:
+        - jrangelramos
+        - nainaz
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -834,6 +863,7 @@ orgs:
           eventing: admin
           eventing-contrib: admin
           eventing-operator: admin
+          func: admin
           infra: admin
           homebrew-client: admin
           networking: admin
