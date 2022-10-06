@@ -164,8 +164,8 @@ call for nominations, publish the list of voters, and open the call for
 exceptions. One week before the election the call for nominations and exceptions
 will be closed. The election will be open for voting not less than two weeks and
 not more than four. The results of the election will be announced within one
-week of closing the election. New Steering Committee members will take office on
-December 1 of each year.
+week of closing the election. New Steering Committee members will take office in
+December of each year on the date the results are announced.
 
 ### Election Officer(s)
 
