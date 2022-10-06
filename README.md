@@ -1,5 +1,7 @@
 ## Welcome!
 
+(easycla test)
+
 Welcome to the Knative community!
 
 This is the starting point for becoming a contributor - improving code,
