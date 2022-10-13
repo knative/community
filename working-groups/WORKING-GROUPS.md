@@ -219,18 +219,18 @@ A dedicated working group for Kafka-based Knative Eventing components.
 
 ## Functions
 
-Knative Functions [CLI](https://github.com/knative-sandbox/kn-plugin-func), API, and [language packs](https://github.com/knative-sandbox/func-tastic)
+Knative Functions [CLI](https://github.com/knative/func), API, and [language packs](https://github.com/knative-sandbox/func-tastic)
 
 | Artifact                   | Link                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------|
 | Charter / Mission          | [Charter](https://github.com/lance/community/blob/add-func-wg/working-groups/functions/CHARTER.md)                                                                              |
-| Roadmap                    | [Roadmap](https://github.com/orgs/knative-sandbox/projects/7)                                                            |
+| Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/49)                                                            |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                      |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1zydqnsw2ty5siL_FT2U7klMTK7OuKWRZNmkUJMx3cWE/edit?usp=sharing)
 | Community Meeting Calendar | Tuesdays 10:00a-10:30a EDT <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)|
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1zydqnsw2ty5siL_FT2U7klMTK7OuKWRZNmkUJMx3cWE/edit?usp=sharing)                            |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1Ebe9blQDgDjFOylqAtUe85UNecEfOzes?usp=sharing)                           |
-| Slack Channel              | [#functions-sandbox](https://slack.knative.dev/messages/functions-sandbox)                                                     |
+| Slack Channel              | [#functions-sandbox](https://slack.knative.dev/messages/functions)                                                     |
 | Github Team WG leads       | [@knative/func-wg-leads](https://github.com/orgs/knative/teams/func-wg-leads/members)                                                                       |
 
 | &nbsp;                                                           | Leads           | Company | Profile                                           |
