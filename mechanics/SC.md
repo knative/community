@@ -36,11 +36,11 @@ To run for a Contributing seat, a candidate must additionally be at least a
 project Member as defined in
 [ROLES.md](https://github.com/knative/community/blob/main/ROLES.md).
 
-End-user seats are planned to enable employees of organizations which use but do
-not sell Knative-derived products. The mechanics of eligibility for end-user
-seats are still in progress; it is expected that end-user seats will add to the
-current Steering options to specific include end-user perspectives in the
-decision-making process.
+End-user seats are planned to enable members of organizations which use but do
+not sell Knative-derived products. A person is eligible to serve in the end user 
+seat if their organization is listed in the [ADOPTERS](./ADOPTERS.md) file.
+
+The end user seat is appointed by Steering Committee to serve for a 1-year term.
 
 # Voter Eligibility
 

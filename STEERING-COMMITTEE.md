@@ -249,7 +249,7 @@ non-involved Steering Committee members will decide.
 
 ## End User Seat
 
-A person is eligible to serve in the end user seat if their company is listed in the
+A person is eligible to serve in the end user seat if their organization is listed in the
 [ADOPTERS](./ADOPTERS.md) file.
 
 The end user seat is appointed by Steering Committee to serve for a 1-year term.
