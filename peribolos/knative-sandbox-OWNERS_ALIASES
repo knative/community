@@ -25,7 +25,6 @@ aliases:
   - travis-minke-sap
   discovery-approvers:
   - lberk
-  - n3wscott
   docs-wg-leads:
   - abrennan89
   - snneji
@@ -115,16 +114,13 @@ aliases:
   - nainaz
   - salaboy
   - zroubalik
-  func-writers:
+  functastic-writers:
   - lance
   - lkingland
   - matejvasek
   - nainaz
   - salaboy
   - zroubalik
-  functions-wg-leads:
-  - lance
-  - salaboy
   homebrew-kn-plugins-approvers:
   - dsimansk
   - maximilien
@@ -141,14 +137,6 @@ aliases:
   kn-plugin-event-approvers:
   - cardil
   - rhuss
-  kn-plugin-func-approvers:
-  - jrangelramos
-  - lance
-  - lkingland
-  - matejvasek
-  - nainaz
-  - salaboy
-  - zroubalik
   kn-plugin-migration-approvers:
   - maximilien
   - zhangtbj
@@ -192,16 +180,17 @@ aliases:
   - knative-test-reporter-robot
   - kvmware
   - lance
-  - matzew
-  - n3wscott
+  - lionelvillard
+  - nak3
   - pmorie
+  - psschwei
   - thisisnotapril
   - upodroid
   - vaikas
   - zroubalik
   knative-release-leads:
-  - dprotaso
-  - matzew
+  - lionelvillard
+  - nak3
   knative-robots:
   - knative-automation
   - knative-prow-releaser-robot
@@ -294,7 +283,7 @@ aliases:
   - dprotaso
   - dsimansk
   - evankanderson
-  - n3wscott
+  - psschwei
   - zroubalik
   ux-wg-leads:
   - abrennan89

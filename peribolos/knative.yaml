@@ -18,8 +18,8 @@ orgs:
     - itsmurugappan
     - knative-prow-robot
     - lance
-    - n3wscott
     - pmorie
+    - psschwei
     - rhuss
     - thelinuxfoundation
     - thisisnotapril
@@ -391,7 +391,6 @@ orgs:
     - pritianka-zz
     - priyawadhwa
     - prydonius
-    - psschwei
     - PTDelaney
     - qingling128
     - quentin-cha
@@ -640,6 +639,12 @@ orgs:
         description: 'DEPRECATED: Development continues in https://github.com/knative/operator/'
         has_projects: true
         has_wiki: false
+      func:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: 'Knative Functions client API and CLI'
+        has_projects: true
+        has_wiki: false
       infra:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -837,6 +842,29 @@ orgs:
         - aliok
         - matzew
         - odacremolbap
+      Func Writers:
+        description: Grants write access to function repositories
+        privacy: closed
+        repos:
+          func: write
+          release: write
+        teams:
+          Functions WG Leads:
+            description: The Working Group leads for Functions
+            members:
+            - lance
+            - salaboy
+            privacy: closed
+        members:
+          - lkingland
+          - matejvasek
+          - zroubalik
+      Func Reviewers:
+        description: Receive reviews for function repositories
+        privacy: closed
+        members:
+        - jrangelramos
+        - nainaz
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -855,6 +883,7 @@ orgs:
           eventing: admin
           eventing-contrib: admin
           eventing-operator: admin
+          func: admin
           infra: admin
           homebrew-client: admin
           networking: admin
@@ -901,16 +930,16 @@ orgs:
             maintainers:
             - evankanderson
             - dprotaso
-            - n3wscott
             - dsimansk
             - zroubalik
+            - psschwei
             privacy: closed
           Knative Release Leads:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
             maintainers:
-            - dprotaso
-            - matzew
+            - nak3
+            - lionelvillard
           Productivity Leads:
             #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
             privacy: closed

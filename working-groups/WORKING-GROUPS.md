@@ -83,7 +83,7 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | Roadmap                    | [API](https://github.com/orgs/knative/projects/35), [Scaling](https://github.com/orgs/knative/projects/36/views/1)                                                   |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                  |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                             |
-| Community Meeting Calendar | Alternating Wed 9:30am & 4pm PST <br/>Combined with [Networking](#networking)</br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)  |
+| Community Meeting Calendar | Alternating Wed 9:30am & 5pm PST <br/>Combined with [Networking](#networking)</br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)  |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                                        |
 | Document Folder            | [API](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9), [Scaling](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K) |
 | Repos                      | [`knative/serving`](https://github.com/knative/serving)                                                                                                             |
@@ -115,7 +115,7 @@ conventions
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/37)                                                                                                                                                                                           |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                                                                                               |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1cD7NkJJhSBpo2Q6RBHrbrSe6R5zjTZgO_YDGAluQ_oI/edit)                                                                                                                          |
-| Community Meeting Calendar | Tuesdays, alternating between 10:30a-11:00a Pacific and 3:30p-4:00p Central European every two weeks<br>[Calendar Invitation](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Community Meeting Calendar | Every other Tuesday 10:30a Pacific<br>[Calendar Invitation](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1cD7NkJJhSBpo2Q6RBHrbrSe6R5zjTZgO_YDGAluQ_oI/edit)                                                                                                                                                     |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1QffYD_XM0vqaXDvFlZVsJHAT6-AahJCO)                                                                                                                                                                |
 | Repos                      | [`knative/client`](https://github.com/knative/client), `kn-plugin-*`                                                                                                                                                                              |
@@ -144,7 +144,7 @@ especially the [Docs](https://github.com/knative/docs/) repo.
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                           |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                              |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                             |
-| Community Meeting Calendar | Tuesday from 9:30-10:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Community Meeting Calendar | Every other Tuesday from 9:30-10:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                                        |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                                   |
 | Slack Channel              | [#user-experience](https://slack.knative.dev/messages/user-experience) + [#docs](https://slack.knative.dev/messages/user-experience)                             |
@@ -219,18 +219,18 @@ A dedicated working group for Kafka-based Knative Eventing components.
 
 ## Functions
 
-Knative Functions [CLI](https://github.com/knative-sandbox/kn-plugin-func), API, and [language packs](https://github.com/knative-sandbox/func-tastic)
+Knative Functions [CLI](https://github.com/knative/func), API, and [language packs](https://github.com/knative-sandbox/func-tastic)
 
 | Artifact                   | Link                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------|
 | Charter / Mission          | [Charter](https://github.com/lance/community/blob/add-func-wg/working-groups/functions/CHARTER.md)                                                                              |
-| Roadmap                    | [Roadmap](https://github.com/orgs/knative-sandbox/projects/7)                                                            |
+| Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/49)                                                            |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                      |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1zydqnsw2ty5siL_FT2U7klMTK7OuKWRZNmkUJMx3cWE/edit?usp=sharing)
 | Community Meeting Calendar | Tuesdays 10:00a-10:30a EDT <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)|
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1zydqnsw2ty5siL_FT2U7klMTK7OuKWRZNmkUJMx3cWE/edit?usp=sharing)                            |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1Ebe9blQDgDjFOylqAtUe85UNecEfOzes?usp=sharing)                           |
-| Slack Channel              | [#functions-sandbox](https://slack.knative.dev/messages/functions-sandbox)                                                     |
+| Slack Channel              | [#functions-sandbox](https://slack.knative.dev/messages/functions)                                                     |
 | Github Team WG leads       | [@knative/func-wg-leads](https://github.com/orgs/knative/teams/func-wg-leads/members)                                                                       |
 
 | &nbsp;                                                           | Leads           | Company | Profile                                           |
@@ -333,7 +333,7 @@ Security concerns across Knative components
 | Charter / Mission          | [Charter](https://docs.google.com/document/d/194bECSbxPIONzhgGj1g9tccUsP8I-M7WIvbBqcT-tXY/edit)                                                        |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                    |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1b-aCADlUBo2FZEDp5z5XoXlfUT6CvED339fcAdKY66o/edit)                               |
-| Community Meeting Calendar | Tuesdays at 9am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Community Meeting Calendar | Every other Monday at 8:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1b-aCADlUBo2FZEDp5z5XoXlfUT6CvED339fcAdKY66o/edit)                                                          |
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1yOy_yU5vvUTFuxeYvhlY7uzIL4c4SSzX)                                                                 |
 | Repo prefixes              |                                                                                                                                                        |
