@@ -645,6 +645,8 @@ orgs:
         description: 'Knative Functions client API and CLI'
         has_projects: true
         has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       infra:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -664,6 +666,7 @@ orgs:
       observability:
         allow_merge_commit: false
         allow_rebase_merge: false
+        archived: true
         description: The controllers and config for custom resources pertaining to egressing logs and metrics.
         has_projects: true
         has_wiki: false
