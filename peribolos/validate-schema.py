@@ -43,6 +43,8 @@ schema = Map({
                 Str(), Map({
                     "allow_merge_commit": Bool(),
                     "allow_rebase_merge": Bool(),
+                    Optional("squash_merge_commit_title"): Str(),
+                    Optional("squash_merge_commit_message"): Str(),
                     Optional("archived"): Bool(),
                     Optional("description"): Str(),
                     "has_projects": Bool(),
