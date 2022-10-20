@@ -12,7 +12,7 @@ If you would like to be included in this table, please submit a comment to [this
 | Bloomberg L.P.*                    | Bloomberg Data Science Platform                                        | Production               | [link](https://www.bloomberg.net/)
 | Blue Origin*                       |                                                                        | Production               | [link](https://www.blueorigin.com/)                                  |
 | Box* | Serverless PaaS for internal use cases | Development | [link](https://box.com/) |
-| Chainguard*                        |                                                                        | Development              | [link](https://chainguard.dev)                                       |
+| Chainguard*                        |                                                                        | Production               | [link](https://chainguard.dev)                                       |
 | Control Plane Corporation*         | Control Plane Multi-Cloud Platform                                     | Production               | [link](https://www.controlplane.com/)                                |
 | deepc.ai*                          |                                                                        | Production               | [link](https://www.deepc.ai/)                                        |
 | EASE lab @ University of Edinbugh* | [vHive](https://github.com/ease-lab/vhive )                            | Production               | [link](https://easelab.inf.ed.ac.uk)                                 |
