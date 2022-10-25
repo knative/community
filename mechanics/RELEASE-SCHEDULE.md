@@ -22,7 +22,6 @@ With that said, it can be useful to have a list of when future releases will hap
 
 | Release | Date       | EOL        | Min K8s Version | Notes                    |
 | ------- | ---------- | ---------- | --------------- | ------------------------ |
-| 1.8     | 2022-10-18 | 2023-05-02 | 1.23            | Change to quarterly release cycle |
 | 1.9     | 2023-01-24 | 2023-08-01 | 1.24            | |
 | 1.10    | 2023-04-25 | 2023-10-31 | TBD             | |
 | 1.11    | 2023-07-25 | 2024-01-30 | TBD             | |
@@ -32,15 +31,16 @@ With that said, it can be useful to have a list of when future releases will hap
 
 | Release | Date       | EOL        | Min K8s Version | Notes                    |
 | ------- | ---------- | ---------- | --------------- | ------------------------ |
+| 1.8     | 2022-10-18 | 2023-05-02 | 1.23            | Change to quarterly release cycle |
 | 1.7     | 2022-08-23 | 2023-02-21 | 1.22            | |
 | 1.6     | 2022-07-12 | 2023-01-10 | 1.22            | |
 | 1.5     | 2022-05-31 | 2022-11-29 | 1.22            | |
-| 1.4     | 2022-04-19 | 2022-10-11 | 1.22            | |
 
 ## No longer supported releases
 
 | Release | Date       | EOL        | Min K8s Version | Notes                    |
 | ------- | ---------- | ---------- | --------------- | ------------------------ |
+| 1.4     | 2022-04-19 | 2022-10-11 | 1.22            | |
 | 1.3     | 2022-03-08 | 2022-08-30 | 1.21            | |
 | 1.2     | 2022-01-25 | 2022-07-12 | 1.21            | |
 | 1.1     | 2021-12-14 | 2022-05-31 | 1.20            | |
