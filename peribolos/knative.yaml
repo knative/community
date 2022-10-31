@@ -448,7 +448,6 @@ orgs:
     - smarterclayton
     - smoser-ibm
     - snneji
-    - spencerdillard
     - squee1945
     - sreetummidi
     - srinivashegde86
@@ -925,7 +924,7 @@ orgs:
             maintainers:
             - evankanderson
             - smoser-ibm
-            - spencerdillard
+            - mchmarny
             privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
