@@ -925,8 +925,6 @@ orgs:
             privacy: closed
           Networking WG Leads:
             description: The Working Group leads for Networking
-            members:
-            - nak3
             privacy: closed
       UX Writers:
         description: Grants write access to ux related repositories.
