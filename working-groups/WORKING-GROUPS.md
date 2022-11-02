@@ -181,12 +181,12 @@ Event sources, bindings, FaaS framework, and orchestration
 
 | &nbsp;                                                        | Leads                      | Company | Profile                                           |
 | ------------------------------------------------------------- | -------------------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard (Technical) | IBM     | [lionelvillard](https://github.com/lionelvillard) |
 | <img width="30px" src="https://github.com/pierdipi.png">      | Pierangelo Di Pilato (Technical) | Red Hat | [pierdipi](https://github.com/pierdipi)     |
 
 
 | &nbsp;                                                  | Emeritus Leads            | Profile                                | Duration  |
 | ------------------------------------------------------- | ------------------------- | -------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard (Technical) |  [lionelvillard](https://github.com/lionelvillard) | 2020-2022
 | <img width="30px" src="https://github.com/devguyio.png">| Ahmed Abdalla (Execution) | [devguyio](https://github.com/devguyio)| 2021-2022 |
 | <img width="30px" src="https://github.com/grantr.png">  | Grant Rodgers (Technical) | [grantr](https://github.com/grantr)    | 2020-2021 |
 | <img width="30px" src="https://github.com/vaikas.png">  | Ville Aikas (Technical)   | [vaikas](https://github.com/vaikas)    | 2018-2021 |

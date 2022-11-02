@@ -725,7 +725,6 @@ orgs:
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
-            - lionelvillard
             - pierDipi
             privacy: closed
         members:
@@ -743,7 +742,6 @@ orgs:
             privacy: closed
             description: The Working Group leads for Eventing Kafka
             members:
-            - lionelvillard
             - travis-minke-sap
       Functastic Writers:
         description: Grants write access to function related repositories
