@@ -836,7 +836,6 @@ orgs:
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
-            - lionelvillard
             - pierDipi
             privacy: closed
         members:

@@ -72,10 +72,8 @@ aliases:
   eventing-kafka-mtsource-approvers:
   - steven0711dong
   eventing-kafka-wg-leads:
-  - lionelvillard
   - travis-minke-sap
   eventing-kafka-writers:
-  - lionelvillard
   - travis-minke-sap
   eventing-kogito-approvers:
   - ricardozanini
@@ -99,11 +97,9 @@ aliases:
   - lionelvillard
   - matzew
   eventing-wg-leads:
-  - lionelvillard
   - pierDipi
   eventing-writers:
   - aliok
-  - lionelvillard
   - matzew
   - odacremolbap
   - pierDipi
