@@ -233,8 +233,7 @@ aliases:
   - jmprusi
   - skonto
   - tcnghia
-  networking-wg-leads:
-  - nak3
+  networking-wg-leads: []
   operations-wg-leads:
   - houshengbo
   operations-writers:
@@ -270,7 +269,6 @@ aliases:
   - psschwei
   serving-writers:
   - dprotaso
-  - nak3
   - psschwei
   steering-committee:
   - csantanapr

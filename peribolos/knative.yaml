@@ -976,7 +976,6 @@ orgs:
           Networking WG Leads:
             description: The Working Group leads for Networking
             members:
-            - nak3
             privacy: closed
       Operations Reviewers:
         description: Receive reviews for operations directories
