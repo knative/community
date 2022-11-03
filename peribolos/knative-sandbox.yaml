@@ -731,6 +731,7 @@ orgs:
         - aliok
         - matzew
         - odacremolbap
+        - lionelvillard
       Eventing Kafka Writers:
         description: Grants write access to Eventing Kafka WG leads on related repositories.
         privacy: closed
