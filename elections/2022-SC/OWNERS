@@ -1,5 +1,9 @@
 # The OWNERS file is used by prow to automatically merge approved PRs.
 
+# Ignores /approve from SC members
+options:
+  no_parent_owners: true
+
 approvers:
 - geekygirldawn
 - jberkus

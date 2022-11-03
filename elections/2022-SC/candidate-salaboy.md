@@ -1,6 +1,10 @@
-name: Mauricio Salatino ID: salaboy info: [https://salaboy.com/about](https://salaboy.com/about)
-
-affiliation: [VMware](https://vmware.com)
+-------------------------------------------------------------
+name: Mauricio Salatino
+ID: salaboy
+info:
+  - affiliation: VMware
+  - owners: functions, eventing
+-------------------------------------------------------------
 
 I am currently working as the Working Group Co-Lead for the [Knative Functions WG](https://github.com/knative/func) and was involved in the 1.0 relase for Knative. 
 I've done contributions to Knative Eventing, Knative Functions and conformance testing in the past. 
