@@ -343,7 +343,10 @@ Security concerns across Knative components
 | &nbsp;                                                        | Leads           | Company | Profile                                           |
 | ------------------------------------------------------------- | --------------- | ------- | ------------------------------------------------- |
 | <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson   | VMware  | [evankanderson](https://github.com/evankanderson) |
-| <img width="30px" src="https://github.com/julz.png">          | Julian Friedman | IBM     | [julz](https://github.com/julz)                   |
+
+| &nbsp;                                                     | Emeritus Leads | Profile                                     | Duration  |
+| ---------------------------------------------------------- | -------------- | ------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/julz.png">          | Julian Friedman |[julz](https://github.com/julz)                   | 2021-2022 |
 
 ---
 
@@ -375,7 +378,7 @@ The Eventing Sources working group was responsible for various event producers, 
 
 | &nbsp;                                                    | Emeritus Leads       | Profile                                   | Duration  |
 | --------------------------------------------------------- | -------------------- | ----------------------------------------- | --------- |
-| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | IBM     | [lionelvillard](https://github.com/lionelvillard) |
+| <img width="30px" src="https://github.com/lionelvillard.png"> | Lionel Villard | [lionelvillard](https://github.com/lionelvillard) | 2019-2022 |
 | <img width="30px" src="https://github.com/nachocano.png"> | Ignacio (Nacho) Cano | [nachocano](https://github.com/nachocano) | 2019-2020 |
 | <img width="30px" src="https://github.com/vaikas.png">    | Ville Aikas          | [vaikas](https://github.com/vaikas)       | 2019-2021 |
 | <img width="30px" src="https://github.com/n3wscott.png">  | Scott Nichols        | [n3wscott](https://github.com/n3wscott)   | 2019-2021 |
