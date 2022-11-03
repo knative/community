@@ -898,7 +898,6 @@ orgs:
             description: The Working Group leads for Security
             members:
             - evankanderson
-            - julz
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed

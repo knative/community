@@ -1071,7 +1071,6 @@ orgs:
             description: The Working Group leads for Security
             members:
             - evankanderson
-            - julz
         repos:
           release: write
       Serving Observability Reviewers:

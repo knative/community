@@ -257,10 +257,8 @@ aliases:
   - rhuss
   security-wg-leads:
   - evankanderson
-  - julz
   security-writers:
   - evankanderson
-  - julz
   serving-wg-leads:
   - dprotaso
   - psschwei
