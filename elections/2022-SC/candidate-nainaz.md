@@ -2,7 +2,7 @@
 name: Naina Singh
 ID: nainaz
 info:
-  - affiliation: Red Hat ( https://www.redhat.com/en)
+  - affiliation: Red Hat
 -------------------------------------------------------------
 
 Here's a paragraph about my contributions to Knative.
