@@ -1,5 +1,5 @@
 -------------------------------------------------------------
-Name: Simon Moser 
+name: Simon Moser 
 ID: smoser-ibm
 info:
   - affiliation: IBM
