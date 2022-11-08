@@ -11,5 +11,4 @@ of the Knative Trademark committee for some time now.
 
 As stated above, I'm the chief architect / Engineering Lead of IBM CLoud Code Engine, a Knative based Cloud Service running on IBM Cloud 
 (and probbly the largest Knative based Cloud Service out there at the moment). As such, me and my team are active contributors to Knative 
-(and ISTIO, FWIW), and I can bring great insights into the steering commmittee on what Knative needs to become more mature, to become even better suited 
-for larger scale deployments and obviously I want to use this as giveback mechanism to the community. 
+(and ISTIO, FWIW), and I can bring great insights into the steering commmittee on what Knative needs to become more mature, to try to help growing Knative's contributor base and to become even better suited for larger scale deployments and obviously I want to use this as giveback mechanism to the community. 
