@@ -852,8 +852,8 @@ orgs:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
             maintainers:
-            - nak3
-            - lionelvillard
+            - psschwei
+            - evankanderson
           Productivity Leads:
             #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
             privacy: closed
