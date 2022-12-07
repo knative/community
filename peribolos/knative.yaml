@@ -18,12 +18,11 @@ orgs:
     - itsmurugappan
     - knative-prow-robot
     - lance
-    - pmorie
+    - nainaz
     - psschwei
+    - salaboy
     - rhuss
     - thelinuxfoundation
-    - thisisnotapril
-    - vaikas
     members:
     - a-thaler
     - aaron-prindle
@@ -352,7 +351,6 @@ orgs:
     - mvladev
     - nachocano
     - nader-ziada
-    - nainaz
     - nak3
     - navidshaikh
     - nealhu
@@ -388,6 +386,7 @@ orgs:
     - PK85
     - pkosiec
     - pmbanugo
+    - pmorie
     - pnagpur
     - pradeepto
     - pritianka-zz
@@ -425,7 +424,6 @@ orgs:
     - rwetzold-sap
     - ryanstewart
     - rybit
-    - salaboy
     - samodell
     - saturnism
     - savitaashture
@@ -484,6 +482,7 @@ orgs:
     - tekgrrl
     - tequilarista
     - thansmann
+    - thisisnotapril
     - thockin
     - thoraxe
     - timothyshelton
@@ -508,6 +507,7 @@ orgs:
     - uwefassnacht
     - vagababov
     - vaikas-personal
+    - vaikas
     - vantuvt
     - vasu1124
     - vbatts
@@ -918,9 +918,8 @@ orgs:
             - csantanapr
             - itsmurugappan
             - lance
-            - pmorie
-            - thisisnotapril
-            - vaikas
+            - nainaz
+            - salaboy
             privacy: closed
           Trademark Committee:
             description: Knative Trademark Committee
