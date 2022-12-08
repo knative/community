@@ -19,12 +19,10 @@ orgs:
     - itsmurugappan
     - knative-prow-robot
     - lance
-    - pmorie
+    - nainaz
     - psschwei
-    - rhuss
+    - salaboy
     - thelinuxfoundation
-    - thisisnotapril
-    - vaikas
     members:
     - aavarghese
     - abrennan89
@@ -189,7 +187,6 @@ orgs:
     - nachocano
     - nader-ziada
     - nak3
-    - nainaz
     - navidshaikh
     - nealhu
     - nicolaferraro
@@ -205,6 +202,7 @@ orgs:
     - phamilton
     - pierDipi
     - piotrmsc
+    - pmorie
     - pkosiec
     - priyawadhwa
     - prydonius
@@ -219,13 +217,13 @@ orgs:
     - rfranzke
     - ricardozanini
     - richterdavid
+    - rhuss
     - rmorgan
     - rosenhouse
     - rprakashg
     - rseroter
     - runzexia
     - rusde
-    - salaboy
     - saturnism
     - savitaashture
     - sbawaska
@@ -259,6 +257,7 @@ orgs:
     - tayarani
     - tcnghia
     - tejal29
+    - thisisnotapril
     - tom24d
     - travis-minke-sap
     - TristonianJones
@@ -269,6 +268,7 @@ orgs:
     - upodroid
     - uwefassnacht
     - vaibhavjainwiz
+    - vaikas
     - vagababov
     - vbatts
     - vdemeester
@@ -827,9 +827,8 @@ orgs:
             - csantanapr
             - itsmurugappan
             - lance
-            - pmorie
-            - thisisnotapril
-            - vaikas
+            - nainaz
+            - salaboy
             privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)

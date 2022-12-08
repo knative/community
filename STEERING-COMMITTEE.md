@@ -94,29 +94,31 @@ first name):
 
 | &nbsp;                                                         | Member                    | Organization | Profile                                              | Term Start | Term End |
 | -------------------------------------------------------------- | ------------------------- | ------------ | ---------------------------------------------------- | ---------- | --------
-| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi          | Google       | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  | 2021     |
 | <img width="30px" src="https://github.com/csantanapr.png">     | Carlos Santana            | Independent  | [@csantanapr](https://github.com/csantanapr)         | 2021-12-02 | 2023     |
 | <img width="30px" src="https://github.com/lance.png">          | Lance Ball                | Red Hat      | [@lance](https://github.com/lance)                   | 2021-12-02 | 2023     |
 | <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty*        | Box          | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022-02-01 | 2023     |
-| <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie                | Independent  | [@pmorie](https://github.com/pmorie)                 | 2020-12-11 | 2022     |
-| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas               | Chainguard   | [@vaikas](https://github.com/vaikas)                 | 2020-12-11 | 2022     |
+| <img width="30px" src="https://github.com/nainaz.png">         | Naina Singh               | Red Hat      | [@nainaz](https://github.com/nainaz)                 | 2022-12-06 | 2024     |
+| <img width="30px" src="https://github.com/salaboy.png">        | Mauricio Salatino         | VMware       | [@salaboy](https://github.com/salaboy)               | 2022-12-06 | 2024     |
 > * Murugappan holds the End User seat
 ## Emeritus Committee Members
 
 To recognize the folks that have served in the SC in the past, below we list the previous members of the SC (sorted by their 'Term End').
 
-| &nbsp;                                                         | Member              | Profile                                      | Term Start | Term End |
-| -------------------------------------------------------------- | ------------------- | -------------------------------------------- | ---------- | --------
-| <img width="30px" src="https://github.com/dewitt.png">         | Dewitt Clinton      | [@dewitt](https://github.com/dewitt)         | Bootstrap  | 2019     |
-| <img width="30px" src="https://github.com/mchmarny.png">       | Mark Charmny        | [@mchmarny](https://github.com/mchmarny)     | Bootstrap  | 2019     |
-| <img width="30px" src="https://github.com/jdumars.png">        | Jaice Singer DuMars | [@jdumars](https://github.com/jdumars)       | 2019       | 2020     |
-| <img width="30px" src="https://github.com/lindydonna.png">     | Donna Malayeri      | [@lindydonna](https://github.com/lindydonna) | 2019       | 2020     |
-| <img width="30px" src="https://github.com/rgregg.png">         | Ryan Gregg          | [@rgregg](https://github.com/rgregg)         | Bootstrap  | 2020     |
-| <img width="30px" src="https://github.com/isdal.png">          | Tomas Isdal         | [@isdal](https://github.com/isdal)           | Bootstrap  | 2020     |
-| <img width="30px" src="https://github.com/anicolao.png">       | Alex Nicolau        | [@anicolao](https://github.com/anicolao)     | 2020       | 2020     |
-| <img width="30px" src="https://github.com/ronavn.png">         | Ron Avnur           | [@ronavn](https://github.com/ronavn)         | 2020       | 2020     |
-| <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan         | [@bsnchan](https://github.com/bsnchan)       | Bootstrap  | 2021     |
-| <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt    | [@mbehrendt](https://github.com/mbehrendt)   | Bootstrap  | 2021     |
+| &nbsp;                                                         | Member              | Profile                                               | Term Start | Term End |
+| -------------------------------------------------------------- | ------------------- | ----------------------------------------------------- | ---------- | --------
+| <img width="30px" src="https://github.com/dewitt.png">         | Dewitt Clinton      | [@dewitt](https://github.com/dewitt)                  | Bootstrap  | 2019     |
+| <img width="30px" src="https://github.com/mchmarny.png">       | Mark Charmny        | [@mchmarny](https://github.com/mchmarny)              | Bootstrap  | 2019     |
+| <img width="30px" src="https://github.com/jdumars.png">        | Jaice Singer DuMars | [@jdumars](https://github.com/jdumars)                | 2019       | 2020     |
+| <img width="30px" src="https://github.com/lindydonna.png">     | Donna Malayeri      | [@lindydonna](https://github.com/lindydonna)          | 2019       | 2020     |
+| <img width="30px" src="https://github.com/rgregg.png">         | Ryan Gregg          | [@rgregg](https://github.com/rgregg)                  | Bootstrap  | 2020     |
+| <img width="30px" src="https://github.com/isdal.png">          | Tomas Isdal         | [@isdal](https://github.com/isdal)                    | Bootstrap  | 2020     |
+| <img width="30px" src="https://github.com/anicolao.png">       | Alex Nicolau        | [@anicolao](https://github.com/anicolao)              | 2020       | 2020     |
+| <img width="30px" src="https://github.com/ronavn.png">         | Ron Avnur           | [@ronavn](https://github.com/ronavn)                  | 2020       | 2020     |
+| <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan         | [@bsnchan](https://github.com/bsnchan)                | Bootstrap  | 2021     |
+| <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt    | [@mbehrendt](https://github.com/mbehrendt)            | Bootstrap  | 2021     |
+| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas         | [@vaikas](https://github.com/vaikas)                  | 2020       | 2022     |
+| <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie          | [@pmorie](https://github.com/pmorie)                  | 2020       | 2022     |
+| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi    | [@thisisnotapril](https://github.com/thisisnotapril)  | Bootstrap  | 2022     |
 
 ## Decision process
 
