@@ -18,12 +18,10 @@ orgs:
     - itsmurugappan
     - knative-prow-robot
     - lance
-    - pmorie
+    - nainaz
     - psschwei
-    - rhuss
+    - salaboy
     - thelinuxfoundation
-    - thisisnotapril
-    - vaikas
     members:
     - a-thaler
     - aaron-prindle
@@ -919,9 +917,8 @@ orgs:
             - csantanapr
             - itsmurugappan
             - lance
-            - pmorie
-            - thisisnotapril
-            - vaikas
+            - nainaz
+            - salaboy
             privacy: closed
           Trademark Committee:
             description: Knative Trademark Committee

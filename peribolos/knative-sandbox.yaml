@@ -19,12 +19,11 @@ orgs:
     - itsmurugappan
     - knative-prow-robot
     - lance
+    - nainaz
     - pmorie
     - psschwei
-    - rhuss
+    - salaboy
     - thelinuxfoundation
-    - thisisnotapril
-    - vaikas
     members:
     - aavarghese
     - abrennan89
@@ -827,9 +826,8 @@ orgs:
             - csantanapr
             - itsmurugappan
             - lance
-            - pmorie
-            - thisisnotapril
-            - vaikas
+            - nainaz
+            - salaboy
             privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)

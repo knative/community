@@ -66,14 +66,11 @@ groups:
       WhoCanPostMessage: "ANYONE_CAN_POST"
     owners:
       - pmorie@knative.team
-      - thisisnotapril@knative.team
-      - anassi@google.com
-      - csantanapr@knative.team
       - csantana23@gmail.com
       - lball@knative.team
-      - vaikas@knative.team
-      - vaikas@gmail.com
       - itsmurugappan@knative.team
+      - naina.sng@gmail.com
+      - salaboy@gmail.com
 
   - email-id: admins@knative.dev
     name: admins

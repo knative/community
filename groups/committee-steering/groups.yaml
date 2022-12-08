@@ -7,14 +7,12 @@ groups:
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
     owners:
-      - anassi@google.com
       - csantana23@gmail.com
       - lball@redhat.com
-      - pmorie@knative.team
-      - thisisnotapril@knative.team
       - lball@knative.team
-      - vaikas@gmail.com
       - itsmurugappan@knative.team
+      - naina.sng@gmail.com
+      - salaboy@gmail.com
 
   - email-id: elections@knative.team
     name: elections
