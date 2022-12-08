@@ -19,8 +19,9 @@ orgs:
     - itsmurugappan
     - knative-prow-robot
     - lance
-    - pmorie
+    - nainaz
     - psschwei
+    - salaboy
     - thelinuxfoundation
     members:
     - aavarghese
@@ -186,7 +187,6 @@ orgs:
     - nachocano
     - nader-ziada
     - nak3
-    - nainaz
     - navidshaikh
     - nealhu
     - nicolaferraro
@@ -202,6 +202,7 @@ orgs:
     - phamilton
     - pierDipi
     - piotrmsc
+    - pmorie
     - pkosiec
     - priyawadhwa
     - prydonius
@@ -216,13 +217,13 @@ orgs:
     - rfranzke
     - ricardozanini
     - richterdavid
+    - rhuss
     - rmorgan
     - rosenhouse
     - rprakashg
     - rseroter
     - runzexia
     - rusde
-    - salaboy
     - saturnism
     - savitaashture
     - sbawaska
@@ -256,6 +257,7 @@ orgs:
     - tayarani
     - tcnghia
     - tejal29
+    - thisisnotapril
     - tom24d
     - travis-minke-sap
     - TristonianJones
@@ -266,6 +268,7 @@ orgs:
     - upodroid
     - uwefassnacht
     - vaibhavjainwiz
+    - vaikas
     - vagababov
     - vbatts
     - vdemeester
