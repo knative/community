@@ -98,7 +98,7 @@ first name):
 | <img width="30px" src="https://github.com/lance.png">          | Lance Ball                | Red Hat      | [@lance](https://github.com/lance)                   | 2021-12-02 | 2023     |
 | <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty*        | Box          | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022-02-01 | 2023     |
 | <img width="30px" src="https://github.com/nainaz.png">         | Naina Singh               | Red Hat      | [@nainaz](https://github.com/nainaz)                 | 2022-12-06 | 2024     |
-| <img width="30px" src="https://github.com/salaboy.png">        | Mauricio Salatino         | VMware       | [@salaboy](https://github.com/salaboy)               | 2022-12-06 | 2024     |
+| <img width="30px" src="https://github.com/salaboy.png">        | Mauricio Salatino         | Diagrid       | [@salaboy](https://github.com/salaboy)               | 2022-12-06 | 2024     |
 > * Murugappan holds the End User seat
 ## Emeritus Committee Members
 
