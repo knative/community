@@ -1156,7 +1156,7 @@ orgs:
         - matzew
 
       Function Runtime Approvers:
-        description: Approver group for func-tastic
+        description: Approver group for func-go
         privacy: closed
         repos:
           func-go: write
