@@ -118,6 +118,20 @@ aliases:
   - nainaz
   - salaboy
   - zroubalik
+  function-runtime-approvers:
+  - lance
+  - lkingland
+  - matejvasek
+  - nainaz
+  - salaboy
+  - zroubalik
+  function-runtime-writers:
+  - lance
+  - lkingland
+  - matejvasek
+  - nainaz
+  - salaboy
+  - zroubalik
   homebrew-kn-plugins-approvers:
   - dsimansk
   - maximilien
