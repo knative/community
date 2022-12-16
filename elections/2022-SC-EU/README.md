@@ -28,7 +28,7 @@ representing must be listed in the [Adopters](../../ADOPTERS.MD) file.
 
 | Date         | Event                    |
 | ------------ | ------------------------ |
-| December 17  | Announce the intent to appoint end user representative |
+| December 16  | Announce the intent to appoint end user representative |
 | January 26   | All candidate nominations due by 0000 UTC (4pm Pacific) |
 | January 31   | Announcement of selection |
 
