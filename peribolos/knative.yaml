@@ -39,7 +39,6 @@ orgs:
     - akrausesap
     - akyyy
     - alanfx
-    - albertomilan
     - alculquicondor
     - AlexandraRoatis
     - alexdebrie
@@ -1038,7 +1037,6 @@ orgs:
         description: Receive reviews for productivity directories
         privacy: closed
         members:
-        - albertomilan
         - evankanderson
         - shinigambit
         - mgencur
