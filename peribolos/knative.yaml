@@ -599,7 +599,6 @@ orgs:
       Pkg Controller Reviewers:
         description: Receive reviews for controller utilities in pkg
         privacy: closed
-        members: []
         teams:
           Pkg Controller Writers:
             description: Approvers for controller utilities in pkg
