@@ -568,6 +568,7 @@ orgs:
           eventing-couchdb: write
           eventing-github: write
           eventing-gitlab: write
+          eventing-istio: write
           eventing-kogito: write
           eventing-natss: write
           eventing-prometheus: write
@@ -643,6 +644,7 @@ orgs:
           eventing-couchdb: admin
           eventing-github: admin
           eventing-gitlab: admin
+          eventing-istio: admin
           eventing-kafka: admin
           eventing-kogito: admin
           eventing-kafka-broker: admin
