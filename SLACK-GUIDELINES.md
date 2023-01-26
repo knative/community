@@ -19,8 +19,22 @@ video recording or in another public space. Please be courteous to others.
 from these commands and we are a global project - please be kind. Note: `@all`
 is only to be used by admins.
 
-You can join the [Knative Slack](https://slack.knative.dev) instance at
-https://slack.knative.dev.
+You can join the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) instance at
+https://slack.cncf.io.
+
+The Knative specific channels are:
+* [#knative](https://cloud-native.slack.com/archives/C04LGHDR9K7)
+* [#knative-client](https://cloud-native.slack.com/archives/C04LY4SKBQR)
+* [#knative-conformance](https://cloud-native.slack.com/archives/C04LKFZ1UFL)
+* [#knative-contributors](https://cloud-native.slack.com/archives/C04LN0620E8)
+* [#knative-documentation](https://cloud-native.slack.com/archives/C04LY5G9ED7)
+* [#knative-eventing](https://cloud-native.slack.com/archives/C04LMU33V1S)
+* [#knative-functions](https://cloud-native.slack.com/archives/C04LKEZUXEE)
+* [#knative-productivity](https://cloud-native.slack.com/archives/C04LY4M2G49)
+* [#knative-release](https://cloud-native.slack.com/archives/C04LY4Y3EHF)
+* [#knative-security](https://cloud-native.slack.com/archives/C04LGJ0D5FF)
+* [#knative-serving](https://cloud-native.slack.com/archives/C04LMU0AX60)
+* [#knative-toc-sc-questions](https://cloud-native.slack.com/archives/C04LQCW0C03)
 
 ## Code of Conduct
 
