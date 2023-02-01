@@ -85,7 +85,7 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                                        |
 | Document Folder            | [API](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9), [Scaling](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K), [Networking](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit) |
 | Repos                      | [`knative/serving`](https://github.com/knative/serving), [`knative/networking`](https://github.com/knative/networking), [`knative-sandbox/net-*`](https://github.com/knative-sandbox?q=net) |
-| Slack Channel              | [#knative-serving](https://cloud-native.slack.com/archives/C04LMU0AX60) , [#knative](https://cloud-native.slack.com/archives/C04LGHDR9K7) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                      |
+| Slack Channel              | [#knative-serving](https://cloud-native.slack.com/archives/C04LMU0AX60) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                      |
 | Github Team WG Leads       | [@knative/serving-wg-leads](https://github.com/orgs/knative/teams/serving-wg-leads/members)                                                                        |
 
 | &nbsp;                                                   | Leads            | Company | Profile                                 |
@@ -149,7 +149,7 @@ especially the [Docs](https://github.com/knative/docs/) repo.
 | Community Meeting Calendar | Every other Tuesday from 9:30-10:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                                        |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                                   |
-| Slack Channel              | [#knative](https://cloud-native.slack.com/archives/C04LGHDR9K7) + [#knative-documentation](https://cloud-native.slack.com/archives/C04LY5G9ED7) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                            |
+| Slack Channel              | [#knative-documentation](https://cloud-native.slack.com/archives/C04LY5G9ED7) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                            |
 | Github Repository          | [/ux](https://github.com/knative/ux) + [/docs](https://github.com/knative/docs)                                                                                  |
 | Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                                |
 
