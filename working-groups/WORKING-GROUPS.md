@@ -68,7 +68,6 @@ The current working groups are:
   - [Event Delivery (previously called Eventing Channels Working Group)](#event-delivery-previously-called-eventing-channels-working-group)
   - [Eventing Sources](#eventing-sources)
   - [Observability](#observability)
-  <!-- TODO add charters for each group -->
 
 ## Serving
 
@@ -86,7 +85,7 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                                        |
 | Document Folder            | [API](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9), [Scaling](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K), [Networking](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit) |
 | Repos                      | [`knative/serving`](https://github.com/knative/serving), [`knative/networking`](https://github.com/knative/networking), [`knative-sandbox/net-*`](https://github.com/knative-sandbox?q=net) |
-| Slack Channel              | [#serving-api](https://slack.knative.dev/messages/serving-api), [#autoscaling](https://slack.knative.dev/messages/autoscaling)                                       |
+| Slack Channel              | [#knative-serving](https://cloud-native.slack.com/archives/C04LMU0AX60) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                      |
 | Github Team WG Leads       | [@knative/serving-wg-leads](https://github.com/orgs/knative/teams/serving-wg-leads/members)                                                                        |
 
 | &nbsp;                                                   | Leads            | Company | Profile                                 |
@@ -122,7 +121,7 @@ conventions
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1cD7NkJJhSBpo2Q6RBHrbrSe6R5zjTZgO_YDGAluQ_oI/edit)                                                                                                                                                     |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1QffYD_XM0vqaXDvFlZVsJHAT6-AahJCO)                                                                                                                                                                |
 | Repos                      | [`knative/client`](https://github.com/knative/client), `kn-plugin-*`                                                                                                                                                                              |
-| Slack Channel              | [#cli](https://slack.knative.dev)                                                                                                                                                                                                                 |
+| Slack Channel              | [#knative-client](https://cloud-native.slack.com/archives/C04LY4SKBQR) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                                                                                                                                                                                |
 | Github Team WG leads       | [@knative/client-wg-leads](https://github.com/orgs/knative/teams/client-leads/members)                                                                                                                                                            |
 
 | &nbsp;                                                      | Leads          | Company | Profile                                       |
@@ -150,7 +149,7 @@ especially the [Docs](https://github.com/knative/docs/) repo.
 | Community Meeting Calendar | Every other Tuesday from 9:30-10:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                                        |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                                   |
-| Slack Channel              | [#user-experience](https://slack.knative.dev/messages/user-experience) + [#docs](https://slack.knative.dev/messages/user-experience)                             |
+| Slack Channel              | [#knative-documentation](https://cloud-native.slack.com/archives/C04LY5G9ED7) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                            |
 | Github Repository          | [/ux](https://github.com/knative/ux) + [/docs](https://github.com/knative/docs)                                                                                  |
 | Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                                |
 
@@ -179,7 +178,7 @@ Event sources, bindings, FaaS framework, and orchestration
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1Xha-FeunojN49OJN7W0WBnPMcRtp1ycYpbkiir6XsE0/edit)                                                                |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/16A4v6Qv9MNSumpy6geGm0u1izDqAfiNo)                                                                           |
 | Repos                      | [`knative/eventing`](https://github.com/knative/eventing), `eventing-*`                                                                                      |
-| Slack Channel              | [#eventing](https://slack.knative.dev/messages/eventing)                                                                                                     |
+| Slack Channel              | [#knative-eventing](https://cloud-native.slack.com/archives/C04LMU33V1S) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                                                                    |
 | Github Team WG leads       | [@knative/eventing-wg-leads](https://github.com/orgs/knative/teams/eventing-wg-leads/members)                                                                |
 
 | &nbsp;                                                        | Leads                      | Company | Profile                                           |
@@ -207,7 +206,7 @@ A dedicated working group for Kafka-based Knative Eventing components.
 | Community Meeting Calendar | Tuesdays 8:30a-9:00a PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)|
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1ykBVPtiosGoDjzBklMt9HxbinGrMod6itOvfe6DeVmA/edit)                            |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1ra5czyKOaMsWuwWXzkhce6_g6rFBdCxg?usp=sharing)                           |
-| Slack Channel              | [#eventing-kafka](https://slack.knative.dev/messages/eventing-kafka)                                                     |
+| Slack Channel              | [#knative-eventing](https://cloud-native.slack.com/archives/C04LMU33V1S) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                    |
 | Github Team WG leads       | [@knative/kafka-wg-leads](https://github.com/orgs/knative/teams/kafka-wg-leads/members)                                                                       |
 
 | &nbsp;                                                           | Leads           | Company | Profile                                           |
@@ -233,7 +232,7 @@ Knative Functions [CLI](https://github.com/knative/func), API, and [language pac
 | Community Meeting Calendar | Tuesdays 10:00a-10:30a EDT <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)|
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1zydqnsw2ty5siL_FT2U7klMTK7OuKWRZNmkUJMx3cWE/edit?usp=sharing)                            |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1Ebe9blQDgDjFOylqAtUe85UNecEfOzes?usp=sharing)                           |
-| Slack Channel              | [#functions-sandbox](https://slack.knative.dev/messages/functions)                                                     |
+| Slack Channel              | [#knative-functions](https://cloud-native.slack.com/archives/C04LKEZUXEE) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                    |
 | Github Team WG leads       | [@knative/func-wg-leads](https://github.com/orgs/knative/teams/func-wg-leads/members)                                                                       |
 
 | &nbsp;                                                           | Leads           | Company | Profile                                           |
@@ -254,7 +253,7 @@ Managing, assessing system health and maintaining Knative clusters
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1m9oFlelI292Fzwi_sRUTrf69I-CcCwEVXkGcMAjDYqM/edit)                                                              |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1GgBCtyWWGx8v8PHGbzJ_tu7DROyBl6x7)                                                                         |
 | Repo prefixes              |                                                                                                                                                            |
-| Slack Channel              | [#operations](https://slack.knative.dev/messages/operations)                                                                                               |
+| Slack Channel              | [#knative](https://cloud-native.slack.com/archives/C04LGHDR9K7) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                                                              |
 | Github Team WG leads       | [@knative/operations-wg-leads](https://github.com/orgs/knative/teams/operations-wg-leads/members)                                                          |
 
 | &nbsp;                                                     | Leads       | Company | Profile                                     |
@@ -283,7 +282,7 @@ performance/scale/load testing infrastructure
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1_1oWL7skjVt2211T0aagpwzDEfWmEIQK)                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Repo prefixes              | `actions-*`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Repos                      | [`knative/hack`](https://github.com/knative/hack), [`knative/test-infra`](https://github.com/knative/test-infra), [`knative-sandbox/.github`](https://github.com/knative-sandbox/.github), [`knative-sandbox/kperf`](https://github.com/knative-sandbox/kperf), [`knative-sandbox/reconciler-test`](https://github.com/knative-sandbox/reconciler-test), [`knative-sandbox/knobots`](https://github.com/knative-sandbox/knobots), [`knative-sandbox/actions-downstream-test`](https://github.com/knative-sandbox/actions-downstream-test) |
-| Slack Channel              | [#productivity](https://slack.knative.dev/messages/productivity)                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Slack Channel              | [#knative-productivity](https://cloud-native.slack.com/archives/C04LY4M2G49) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Github Team WG leads       | [@knative/productivity-wg-leads](https://github.com/orgs/knative/teams/productivity-wg-leads/members)                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 | &nbsp;                                                   | Leads            | Company   | Profile                                 |
@@ -312,7 +311,7 @@ Security concerns across Knative components
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1b-aCADlUBo2FZEDp5z5XoXlfUT6CvED339fcAdKY66o/edit)                                                          |
 | Document Folder            | [Folder](https://drive.google.com/drive/u/0/folders/1yOy_yU5vvUTFuxeYvhlY7uzIL4c4SSzX)                                                                 |
 | Repo prefixes              |                                                                                                                                                        |
-| Slack Channel              | [#security](https://slack.knative.dev/messages/security)                                                                                               |
+| Slack Channel              | [#knative-security](https://cloud-native.slack.com/archives/C04LGJ0D5FF) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                                                              |
 | Github Team WG leads       | [@knative/security-wg-leads](https://github.com/orgs/knative/teams/security-wg-leads/members)                                                          |
 
 | &nbsp;                                                        | Leads           | Company | Profile                                           |
