@@ -160,6 +160,14 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+      catalog:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "Metadata collection of Knative resources"
+        has_projects: false
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       container-freezer:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -524,6 +532,7 @@ orgs:
         description: Grants write access to client-related repositories.
         privacy: closed
         repos:
+          catalog: write
           homebrew-kn-plugins: write
           kn-plugin-admin: write
           kn-plugin-diag: write
@@ -634,6 +643,7 @@ orgs:
           .github: admin
           actions-downstream-test: admin
           async-component: admin
+          catalog: admin
           container-freezer: admin
           scaling-group: admin
           control-protocol: admin
