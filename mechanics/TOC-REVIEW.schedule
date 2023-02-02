@@ -2,7 +2,7 @@
 #@ duration: 45m
 
 # To generate reminders (on a mac):
-# awk -F \| '/^[0-9]/ {cmd "/bin/date -j -f %FT%T " substr($1, 0, 19) " +%e\\ %b" | getline date; cmd "/bin/date -j -f %FT%T -v-4d " substr($1, 0, 19) " +%b\\ %e" | getline reminder; print "/remind #wg-leads " $2 " is presenting at TOC on " date " (this week) :heart: " reminder}' mechanics/TOC-REVIEW.schedule
+# awk -F \| '/^[0-9]/ {cmd "/bin/date -j -f %FT%T " substr($1, 0, 19) " +%e\\ %b" | getline date; cmd "/bin/date -j -f %FT%T -v-4d " substr($1, 0, 19) " +%b\\ %e" | getline reminder; print "/remind #knative-leads " $2 " is presenting at TOC on " date " (this week) :heart: " reminder}' mechanics/TOC-REVIEW.schedule
 
 # Start | Group
 2022-11-17T08:30:00-07:00 | Security WG
@@ -16,23 +16,23 @@
 2022-01-12T08:30:00-07:00 | Serving API WG
 2023-01-19T08:30:00-07:00 | Operations WG
 # 2023-01-26T08:30:00-07:00 | no quorum
-2023-02-02T08:30:00-07:00 | Functions WG
+# 2023-02-02T08:30:00-07:00 | not prepared
 
-2023-02-09T08:30:00-07:00 | Eventing WG
-2023-02-16T08:30:00-07:00 | Security WG
-2023-02-23T08:30:00-07:00 | Productivity WG
-2023-03-02T08:30:00-07:00 | DUX WG
-2023-03-09T08:30:00-07:00 | Client WG
-2023-03-16T08:30:00-07:00 | Serving API WG
-2023-03-23T08:30:00-07:00 | Operations WG
-2023-03-30T08:30:00-07:00 | Functions WG
+2023-02-09T08:30:00-07:00 | Functions WG
+2023-02-16T08:30:00-07:00 | Eventing WG
+2023-02-23T08:30:00-07:00 | Security WG
+2023-03-02T08:30:00-07:00 | Productivity WG
+2023-03-09T08:30:00-07:00 | DUX WG
+2023-03-16T08:30:00-07:00 | Client WG
+2023-03-23T08:30:00-07:00 | Serving API WG
+2023-03-30T08:30:00-07:00 | Operations WG
 
-2023-04-06T08:30:00-07:00 | Eventing WG
-2023-04-13T08:30:00-07:00 | Security WG
+2023-04-06T08:30:00-07:00 | Functions WG
+2023-04-13T08:30:00-07:00 | Eventing WG
 # 2023-04-20T08:30:00-07:00 | skip - KubeCon
-2023-04-27T08:30:00-07:00 | Productivity WG
-2023-05-04T08:30:00-07:00 | DUX WG
-2023-05-11T08:30:00-07:00 | Client WG
-2023-05-18T08:30:00-07:00 | Serving API WG
-2023-05-25T08:30:00-07:00 | Operations WG
-2023-06-01T08:30:00-07:00 | Functions WG
+2023-04-27T08:30:00-07:00 | Security WG
+2023-05-04T08:30:00-07:00 | Productivity WG
+2023-05-11T08:30:00-07:00 | DUX WG
+2023-05-18T08:30:00-07:00 | Client WG
+2023-05-25T08:30:00-07:00 | Serving API WG
+2023-06-01T08:30:00-07:00 | Operations WG
