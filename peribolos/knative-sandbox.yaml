@@ -768,6 +768,10 @@ orgs:
             description: The Working Group leads for Security
             members:
             - evankanderson
+      Serving Reviewers:
+        description: Receive reviews for serving-related directories
+        privacy: closed
+        members: []
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
