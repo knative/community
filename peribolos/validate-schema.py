@@ -1,5 +1,5 @@
 import sys
-from strictyaml import load, Map, Str, Int, Seq, Email, Bool, Optional,MapPattern, YAMLError
+from strictyaml import dirty_load, Map, Str, Int, Seq, Email, Bool, Optional,MapPattern, YAMLError
 
 if len(sys.argv) != 2:
     raise RuntimeError(f"\n\tUsage:\n\t{sys.argv[0]} <path_to_peribolos_yml.")
@@ -57,5 +57,5 @@ schema = Map({
     )
 })
 
-load(yaml, schema)
+dirty_load(yaml, schema, allow_flow_style=True)
 print(f"{sys.argv[1]} validated.")
