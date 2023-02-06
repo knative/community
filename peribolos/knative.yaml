@@ -371,14 +371,12 @@ orgs:
           Conformance Task Force Leads:
             description: The Task Force leads for Conformance
             members:
-            - omerbensaadon
             - salaboy
             privacy: closed
       Docs Reviewers:
         description: Receive reviews for docs directories
         privacy: closed
         members:
-        - omerbensaadon
         - snneji
         - pmbanugo
         - nainaz
@@ -534,40 +532,12 @@ orgs:
             maintainers:
             - kvmware
             - upodroid
-      Networking Reviewers:
-        description: Receive reviews for networking directories
-        privacy: closed
-        members:
-        - andrew-su
-        - carlisia
-        - JRBANCEL
-        - nak3
-        - tcnghia
-        - vagababov
-        - yanweiguo
-        - ZhiminXiang
-      Networking Writers:
-        description: Approvers and write access for autoscaling-related repositories
-        privacy: closed
-        repos:
-          serving: write
-          pkg: write
-          networking: write
-        members:
-        - JRBANCEL
-        - vagababov
-        teams:
-          Networking WG Leads:
-            description: The Working Group leads for Networking
-            privacy: closed
       Operations Reviewers:
         description: Receive reviews for operations directories
         privacy: closed
         members:
         - aliok
-        - Cynocracy
         - houshengbo
-        - jcrossley3
         - matzew
         - maximilien
       Operations Writers:
@@ -577,8 +547,6 @@ orgs:
           operator: write
         members:
         - aliok
-        - Cynocracy
-        - jcrossley3
         - matzew
         - maximilien
         teams:
@@ -587,35 +555,11 @@ orgs:
             members:
             - houshengbo
             privacy: closed
-      Pkg Configmap Reviewers:
-        description: Receive reviews for configmap utilities in pkg
-        privacy: closed
-        teams:
-          Pkg Configmap Writers:
-            description: Approvers for configmap utilities in pkg
-            privacy: closed
-            members:
-            - dprotaso
-            - mattmoor
-            - vagababov
-      Pkg Controller Reviewers:
-        description: Receive reviews for controller utilities in pkg
-        privacy: closed
-        teams:
-          Pkg Controller Writers:
-            description: Approvers for controller utilities in pkg
-            privacy: closed
-            members:
-            - dprotaso
-            - mattmoor
-            - tcnghia
-            - vagababov
       Productivity Reviewers:
         description: Receive reviews for productivity directories
         privacy: closed
         members:
         - evankanderson
-        - shinigambit
         - mgencur
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
@@ -629,8 +573,6 @@ orgs:
           release: write
         members:
         - cardil
-        - chaodaiG
-        - coryrc
         - kvmware
         - psschwei
         - upodroid
@@ -652,25 +594,16 @@ orgs:
             - evankanderson
         repos:
           release: write
-      Serving Observability Reviewers:
-        description: Receive reviews for serving observability directories
-        privacy: closed
-        members:
-        - skonto
-        teams:
-          Serving Observability Writers:
-            description: Approve serving observability code
-            privacy: closed
-            members:
-            - yanweiguo
       Serving Reviewers:
-        description: Receive reviews for serving-api-related directories
+        description: Receive reviews for serving-related directories
         privacy: closed
         members:
-        - julz
-        - psschwei
+        - KauzClay
         - carlisia
-        - nader-ziada
+        - izabelacg
+        - jsanin-vmw
+        - kauana
+        - retocode
         - skonto
       Serving Writers:
         description: Grants write access to serving-related repositories.
@@ -681,16 +614,11 @@ orgs:
           pkg: write
           serving: write
           release: write
-        members:
-        - tcnghia
-        - vagababov
-        - julz
-        - psschwei
         teams:
-          API Core WG Leads:
+          Serving Approvers:
             description: The Working Group leads for Serving
             members:
-            - dprotaso
+            - nak3
             privacy: closed
           Serving WG Leads:
             description: The Working Group leads for Serving

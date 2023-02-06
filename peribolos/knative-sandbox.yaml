@@ -745,8 +745,6 @@ orgs:
           knobots: write
         members:
         - cardil
-        - chaodaiG
-        - coryrc
         - kvmware
         - psschwei
         - upodroid
@@ -771,25 +769,37 @@ orgs:
       Serving Reviewers:
         description: Receive reviews for serving-related directories
         privacy: closed
-        members: []
+        members:
+        - KauzClay
+        - carlisia
+        - izabelacg
+        - jsanin-vmw
+        - kauana
+        - retocode
+        - skonto
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
+          async-component: write
           container-freezer: write
-          scaling-group: write
+          control-protocol: write
+          kperf: write
           net-certmanager: write
           net-contour: write
+          net-gateway-api: write
           net-http01: write
           net-istio: write
-          net-gateway-api: write
           net-kourier: write
-          sample-controller: write
-          async-component: write
           reconciler-test: write
-        members:
-          - psschwei
+          sample-controller: write
+          scaling-group: write
         teams:
+          Serving Approvers:
+            description: The Working Group leads for Serving
+            members:
+            - nak3
+            privacy: closed
           Serving WG Leads:
             description: The Working Group leads for Serving
             members:
@@ -817,7 +827,6 @@ orgs:
         repos:
           async-component: write
         members:
-        - julz
         - maximilien
         - AngeloDanducci
 
@@ -827,7 +836,6 @@ orgs:
         repos:
           container-freezer: write
         members:
-        - julz
         - psschwei
 
       control-protocol Approvers:
@@ -1066,7 +1074,6 @@ orgs:
         members:
           - houshengbo
           - maximilien
-          - omerbensaadon
           - rhuss
           - dsimansk
 
@@ -1127,10 +1134,7 @@ orgs:
           kperf: write
         members:
         - maximilien
-        - zhanggbj
         - psschwei
-        - nader-ziada
-        - chzhyang
 
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
@@ -1139,27 +1143,22 @@ orgs:
           net-contour: write
         members:
         - carlisia
+        - KauzClay
         - dprotaso
-        - tcnghia
 
       net-certmanager Approvers:
         description: Approver group for net-certmanager - to be used in CODEOWNERS file
         privacy: closed
         repos:
           net-certmanager: write
-        members:
-        - carlisia
-        - tcnghia
-        - ZhiminXiang
+        members: []
 
       net-http01 Approvers:
         description: Approver group for net-http01 - to be used in CODEOWNERS file
         privacy: closed
         repos:
           net-http01: write
-        members:
-        - carlisia
-        - tcnghia
+        members: []
 
       net-gateway-api Approvers:
         description: Approver group for net-gateway-api - to be used in CODEOWNERS file
@@ -1167,9 +1166,8 @@ orgs:
         repos:
           net-gateway-api: write
         members:
-        - carlisia
+        - dprotaso
         - nak3
-        - tcnghia
 
       net-istio Approvers:
         description: Approver group for net-istio - to be used in CODEOWNERS file
@@ -1178,13 +1176,8 @@ orgs:
           net-istio: write
         members:
         - AngeloDanducci
-        - carlisia
-        - JRBANCEL
         - nak3
         - skonto
-        - tcnghia
-        - vagababov
-        - ZhiminXiang
 
       net-kourier Approvers:
         description: Approver group for net-kourier - to be used in CODEOWNERS file
@@ -1192,10 +1185,8 @@ orgs:
         repos:
           net-kourier: write
         members:
-        - carlisia
         - nak3
         - skonto
-        - tcnghia
 
       scaling-group Approvers:
         description: Approver group for scaling-group - to be used in CODEOWNERS file
