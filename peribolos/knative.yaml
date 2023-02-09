@@ -446,6 +446,7 @@ orgs:
           - lkingland
           - matejvasek
           - zroubalik
+          - jrangelramos
       Func Reviewers:
         description: Receive reviews for function repositories
         privacy: closed
