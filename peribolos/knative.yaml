@@ -144,6 +144,12 @@ orgs:
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
+      .artifacthub:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "Repository for sharing Knative resources to ArtifactHub"
+        has_projects: false
+        has_wiki: false
       .github:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -348,6 +354,7 @@ orgs:
         description: Grants write access to client-related repositories.
         privacy: closed
         repos:
+          .artifacthub: write
           client: write
           client-pkg: write
           homebrew-client: write
@@ -459,6 +466,7 @@ orgs:
         privacy: closed
         repos:
           # All repos should be listed here!
+          .artifacthub: write
           .github: admin
           actions: admin
           build: admin
