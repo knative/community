@@ -66,10 +66,10 @@ func main() {
 	prevOut, err := ioutil.ReadFile(outfile)
 	if err == nil && string(prevOut) == string(output) {
 		log.Print("No changes to ", outfile)
-		return
+	} else {
+		ioutil.WriteFile(outfile, output, 0644)
+		log.Print("Wrote ", outfile)
 	}
-	ioutil.WriteFile(outfile, output, 0644)
-	log.Print("Wrote ", outfile)
 }
 
 func expandTeams(seed map[string]peribolos.Team) []expandedTeam {
