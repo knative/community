@@ -28,8 +28,6 @@ groups:
       - krsna@knative.team
       - hh@knative.team
       - hh@cncf.io
-      - dprotaso@gmail.com
-      - dprotaso@knative.team
 
   # Every GKE RBAC group should be added here.
   - email-id: gke-security-groups@knative.dev
