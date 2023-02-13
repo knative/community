@@ -466,7 +466,7 @@ orgs:
         privacy: closed
         repos:
           # All repos should be listed here!
-          .artifacthub: write
+          .artifacthub: admin
           .github: admin
           actions: admin
           build: admin
