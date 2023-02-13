@@ -65,7 +65,7 @@ func main() {
 	output = append([]byte(preamble), output...)
 	prevOut, err := ioutil.ReadFile(outfile)
 	if err == nil && string(prevOut) == string(output) {
-		log.Print("No changes to ", outfile)
+		log.Print("No changes needed for ", outfile)
 	} else {
 		ioutil.WriteFile(outfile, output, 0644)
 		log.Print("Wrote ", outfile)
