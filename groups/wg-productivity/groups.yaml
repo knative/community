@@ -19,8 +19,6 @@ groups:
     settings:
       ReconcileMembers: "true"
     members:
-      - chizhg@google.com
-      - chizhg@knative.team
       - cy@knative.team
       - racker-maha-66b7d200@gcp.rackspace.com # Mahamed Ali
       - cy@borg.dev # Mahamed Ali
@@ -39,7 +37,7 @@ groups:
       WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # needed for RBAC
     members:
       - k8s-infra-rbac-prow@knative.dev
-      - k8s-infra-rbac-perf-tests@knative.dev
+      # - k8s-infra-rbac-perf-tests@knative.dev
 
   # GKE RBAC groups:
   # - grant access to the `namespace-user` role for a single namespace on a cluster
@@ -54,18 +52,17 @@ groups:
       ReconcileMembers: "true"
       WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
     members:
-      - chizhg@google.com
       - kmahapatra@vmware.com
+      - cy@borg.dev # Mahamed Ali
 
-  - email-id: k8s-infra-rbac-perf-tests@knative.dev
-    name: k8s-infra-rbac-perf-tests
-    description: |-
-      Grants access to the shared community cluster perf-tests namespace
-    settings:
-      ReconcileMembers: "true"
-      WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
-    members:
-      - nziada@vmware.com
+  # - email-id: k8s-infra-rbac-perf-tests@knative.dev
+  #   name: k8s-infra-rbac-perf-tests
+  #   description: |-
+  #     Grants access to the shared community cluster perf-tests namespace
+  #   settings:
+  #     ReconcileMembers: "true"
+  #     WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
+  #   members:
 
   ###
   ### Productivity WG related mailing lists
@@ -82,11 +79,8 @@ groups:
       - evana@vmware.com
       - evankanderson@knative.team
       - dprotaso@gmail.com
-      - mattmoor@knative.team
-      - mattomata@gmail.com
-      - n3wscott@knative.team
       - paul@paulschweigert.com
       - paulschw@us.ibm.com
     managers:
-      - chizhg@google.com
-      - kmahapatra@vmware.com
+       - kmahapatra@vmware.com
+       - cy@borg.dev # Mahamed Ali
