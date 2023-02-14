@@ -79,7 +79,7 @@ groups:
       - evana@vmware.com
       - evankanderson@knative.team
       - dprotaso@gmail.com
-       - paul@paulschweigert.com
+      - paul@paulschweigert.com
       - paulschw@us.ibm.com
     managers:
        - kmahapatra@vmware.com
