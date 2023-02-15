@@ -8,9 +8,9 @@ options:
   no_parent_owners: true
 
 approvers:
-- dprotaso
-- upodroid
-- kvmware
+- technical-oversight-committee
+- productivity-wg-leads
 
 reviewers:
+- productivity-writers
 - productivity-reviewers
