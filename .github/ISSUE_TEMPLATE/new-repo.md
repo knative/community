@@ -36,7 +36,7 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
 
 **TOC Gate**: _Once the TOC has approved the above, it will merge and Peribolos will create an empty repository._
 
-- [ ] Ask Steering to add the repo to EasyCLA in [Slack](https://knative.slack.com/archives/CU9DGL4FM).
+- [ ] Ask Steering to add the repo to EasyCLA in [Slack](https://cloud-native.slack.com/archives/C04LQCW0C03/p1676466607624469).
 
 - [ ] (golang) Send a PR to add aliases for `knative.dev/$REPONAME` import paths ([sample](https://github.com/knative/docs/pull/4160)).
 
