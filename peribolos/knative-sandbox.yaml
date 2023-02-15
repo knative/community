@@ -56,15 +56,17 @@ orgs:
     - gab-satchi
     - gabo1208
     - haubenr
-    - houshengbo
     - hh
+    - houshengbo
     - ikvmw
     - izabelacg
     - jcrossley3
     - jkjell
     - jrangelramos
     - JRBANCEL
+    - jsanin-vmw
     - julz
+    - jwcesign
     - k4leung4
     - kauana
     - KauzClay
@@ -77,6 +79,7 @@ orgs:
     - kvmware
     - lberk
     - lionelvillard
+    - liuchangyan
     - lkingland
     - macruzbar
     - maschmid
@@ -95,11 +98,12 @@ orgs:
     - omerbensaadon
     - pierDipi
     - pmorie
+    - pradnyavmw
     - RamyChaabane
     - ReToCode
+    - rhuss
     - ricardozanini
     - richterdavid
-    - rhuss
     - sebgoa
     - senthilnathan
     - Shashankft9
@@ -116,11 +120,10 @@ orgs:
     - thisisnotapril
     - travis-minke-sap
     - tzununbekov
-    - liuchangyan
     - upodroid
+    - vagababov
     - vaibhavjainwiz
     - vaikas
-    - vagababov
     - vdemeester
     - vyasgun
     - xtreme-sameer-vohra
@@ -133,9 +136,6 @@ orgs:
     - zhaojizhuang
     - ZhiminXiang
     - zroubalik
-    - jwcesign
-    - jsanin-vmw
-    - pradnyavmw
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
@@ -771,13 +771,35 @@ orgs:
         description: Receive reviews for serving-related directories
         privacy: closed
         members:
-        - KauzClay
         - carlisia
         - izabelacg
         - jsanin-vmw
         - kauana
+        - KauzClay
+        - pradnyavmw
         - retocode
         - skonto
+      Serving Triage:
+        description: Grants triage access to serving-related repositories.
+        privacy: closed
+        members:
+        - KauzClay
+        - retocode
+        - skonto
+        repos:
+          async-component: triage
+          container-freezer: triage
+          control-protocol: triage
+          kperf: triage
+          net-certmanager: triage
+          net-contour: triage
+          net-gateway-api: triage
+          net-http01: triage
+          net-istio: triage
+          net-kourier: triage
+          reconciler-test: triage
+          sample-controller: triage
+          scaling-group: triage
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed

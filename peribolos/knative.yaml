@@ -67,7 +67,9 @@ orgs:
     - jkjell
     - jrangelramos
     - JRBANCEL
+    - jsanin-vmw
     - julz
+    - jwcesign
     - k4leung4
     - kauana
     - KauzClay
@@ -80,6 +82,7 @@ orgs:
     - kvmware
     - lberk
     - lionelvillard
+    - liuchangyan
     - lkingland
     - macruzbar
     - maschmid
@@ -99,11 +102,12 @@ orgs:
     - pierDipi
     - pmbanugo
     - pmorie
+    - pradnyavmw
     - quentin-cha
     - ReToCode
     - rhuss
-    - RichieEscarez
     - ricardozanini
+    - RichieEscarez
     - richterdavid
     - sebgoa
     - senthilnathan
@@ -121,7 +125,6 @@ orgs:
     - travis-minke-sap
     - trisberg
     - tzununbekov
-    - liuchangyan
     - upodroid
     - vagababov
     - vaikas
@@ -138,9 +141,6 @@ orgs:
     - zhaojizhuang
     - ZhiminXiang
     - zroubalik
-    - jwcesign
-    - jsanin-vmw
-    - pradnyavmw
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
@@ -608,13 +608,27 @@ orgs:
         description: Receive reviews for serving-related directories
         privacy: closed
         members:
-        - KauzClay
         - carlisia
         - izabelacg
         - jsanin-vmw
         - kauana
+        - KauzClay
+        - pradnyavmw
         - retocode
         - skonto
+      Serving Triage:
+        description: Ability to triage serving-related repos
+        privacy: closed
+        members:
+        - KauzClay
+        - retocode
+        - skonto
+        repos:
+          caching: triage
+          networking: triage
+          pkg: triage
+          serving: triage
+          release: triage
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
