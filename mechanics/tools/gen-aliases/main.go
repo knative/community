@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
@@ -26,7 +25,7 @@ func main() {
 	}
 	infile, outfile := os.Args[2], os.Args[3]
 
-	f, err := ioutil.ReadFile(infile)
+	f, err := os.ReadFile(infile)
 	if err != nil {
 		log.Print("Unable to open ", err)
 		os.Exit(1)
@@ -63,11 +62,11 @@ func main() {
 
 `, infile)
 	output = append([]byte(preamble), output...)
-	prevOut, err := ioutil.ReadFile(outfile)
+	prevOut, err := os.ReadFile(outfile)
 	if err == nil && string(prevOut) == string(output) {
 		log.Print("No changes needed for ", outfile)
 	} else {
-		ioutil.WriteFile(outfile, output, 0644)
+		os.WriteFile(outfile, output, 0644)
 		log.Print("Wrote ", outfile)
 	}
 }
