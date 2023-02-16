@@ -96,7 +96,7 @@ first name):
 | -------------------------------------------------------------- | ------------------------- | ------------ | ---------------------------------------------------- | ---------- | --------
 | <img width="30px" src="https://github.com/csantanapr.png">     | Carlos Santana            | Independent  | [@csantanapr](https://github.com/csantanapr)         | 2021-12-02 | 2023     |
 | <img width="30px" src="https://github.com/lance.png">          | Lance Ball                | Red Hat      | [@lance](https://github.com/lance)                   | 2021-12-02 | 2023     |
-| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty*        | Box          | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022-02-01 | 2023     |
+| <img width="30px" src="https://github.com/puerco.png">  | Adolfo García Veytia *        | Box          | [@puerco](https://github.com/puerco)   | 2023-02-16 | 2024     |
 | <img width="30px" src="https://github.com/nainaz.png">         | Naina Singh               | Red Hat      | [@nainaz](https://github.com/nainaz)                 | 2022-12-06 | 2024     |
 | <img width="30px" src="https://github.com/salaboy.png">        | Mauricio Salatino         | Diagrid       | [@salaboy](https://github.com/salaboy)               | 2022-12-06 | 2024     |
 > * Murugappan holds the End User seat
@@ -108,6 +108,7 @@ To recognize the folks that have served in the SC in the past, below we list the
 | -------------------------------------------------------------- | ------------------- | ----------------------------------------------------- | ---------- | --------
 | <img width="30px" src="https://github.com/dewitt.png">         | Dewitt Clinton      | [@dewitt](https://github.com/dewitt)                  | Bootstrap  | 2019     |
 | <img width="30px" src="https://github.com/mchmarny.png">       | Mark Charmny        | [@mchmarny](https://github.com/mchmarny)              | Bootstrap  | 2019     |
+| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty   | [@itsmurugappan](https://github.com/itsmurugappan)          | 2022 | 2023     |
 | <img width="30px" src="https://github.com/jdumars.png">        | Jaice Singer DuMars | [@jdumars](https://github.com/jdumars)                | 2019       | 2020     |
 | <img width="30px" src="https://github.com/lindydonna.png">     | Donna Malayeri      | [@lindydonna](https://github.com/lindydonna)          | 2019       | 2020     |
 | <img width="30px" src="https://github.com/rgregg.png">         | Ryan Gregg          | [@rgregg](https://github.com/rgregg)                  | Bootstrap  | 2020     |
