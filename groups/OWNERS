@@ -1,12 +1,5 @@
 # The OWNERS file is used by prow to automatically merge approved PRs.
 
-# root approval is restricted to members of k8s-infra-group-admins@
-# because they have the ability to manually run, troubleshoot, and undo
-# changes
-
-options:
-  no_parent_owners: true
-
 approvers:
 - technical-oversight-committee
 - productivity-wg-leads
