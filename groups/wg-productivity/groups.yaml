@@ -37,6 +37,7 @@ groups:
       WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # needed for RBAC
     members:
       - k8s-infra-rbac-prow@knative.dev
+      - k8s-infra-rbac-release@knative.dev
       # - k8s-infra-rbac-perf-tests@knative.dev
 
   # GKE RBAC groups:
