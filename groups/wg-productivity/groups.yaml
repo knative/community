@@ -37,6 +37,7 @@ groups:
       WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # needed for RBAC
     members:
       - k8s-infra-rbac-prow@knative.dev
+      - k8s-infra-rbac-release@knative.dev
       # - k8s-infra-rbac-perf-tests@knative.dev
 
   # GKE RBAC groups:
@@ -54,6 +55,19 @@ groups:
     members:
       - kmahapatra@vmware.com
       - cy@borg.dev # Mahamed Ali
+
+  - email-id: k8s-infra-rbac-release@knative.dev
+    name: k8s-infra-rbac-release
+    description: |-
+      Grants access to submit prowjobs via Kubernetes API
+    settings:
+      ReconcileMembers: "true"
+      WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
+    members:
+      - evana@vmware.com
+      - evan.k.anderson@gmail.com
+      - paul@paulschweigert.com
+      - paulschw@us.ibm.com
 
   # - email-id: k8s-infra-rbac-perf-tests@knative.dev
   #   name: k8s-infra-rbac-perf-tests
