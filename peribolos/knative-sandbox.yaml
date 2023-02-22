@@ -3,7 +3,7 @@ orgs:
     name: Knative Sandbox
     description: Sandbox for projects that are part of the broader knative project
     email: admins@knative.dev
-    billing_email: knative@google.com
+    billing_email: admins@knative.dev
     has_organization_projects: true
     has_repository_projects: true
     members_can_create_repositories: false
@@ -14,8 +14,6 @@ orgs:
     - csantanapr
     - dprotaso
     - evankanderson
-    - google-admin
-    - googlebot
     - itsmurugappan
     - knative-prow-robot
     - lance
