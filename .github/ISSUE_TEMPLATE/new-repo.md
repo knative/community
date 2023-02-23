@@ -1,7 +1,7 @@
 ---
 name: Request a new repo
 about: Request creation of a new repo in the knative or knative-sandbox orgs
-title: "New Repo: $REPONAME"
+title: "New Repo: `$REPONAME`"
 ---
 
 Use this issue type to request a new repo in `knative-sandbox` (or
@@ -11,9 +11,11 @@ Use this issue type to request a new repo in `knative-sandbox` (or
 
 ## Repo information
 
-Org: knative-sandbox
+Org: `knative-sandbox`
 
-Repo:
+Repo: `$REPONAME`
+
+Go module (Optional): `knative.dev/$REPONAME`
 
 Purpose (Description):
 
@@ -25,7 +27,7 @@ This area is used to track the [repo creation process](https://github.com/knativ
 The _requestor_ and _sponsoring WG lead_ should perform the steps listed below and cross out the checkmarks when done.
 The TOC is involved only in the **TOC Gate** steps.
 
-- [ ] Add this issue to the [TOC project board](https://github.com/orgs/knative/projects/9) for review. You are responsible for moving your entry on the board to "Needs Discussion" or "In Progress" as you move forward in this checklist.
+- [ ] Add this issue to the [TOC project board](https://github.com/orgs/knative/projects/43) for review. You are responsible for moving your entry on the board to "Needs Discussion" or "In Progress" as you move forward in this checklist.
 
 _You may not be able to use the Projects quick menu on this page. In that case, go to the project board and use the **Add cards** interface._
 
