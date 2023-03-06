@@ -405,10 +405,11 @@ orgs:
         - psschwei
         - csantanapr
       Eventing Reviewers:
-        description: Receive reviews for docs directories
+        description: Receive reviews for eventing related repositories
         privacy: closed
         members:
         - aslom
+        - creydr
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
