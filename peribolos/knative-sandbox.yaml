@@ -556,6 +556,11 @@ orgs:
         - abrennan89
         - psschwei
         - csantanapr
+      Eventing Reviewers:
+        description: Receive reviews for eventing-related repositories
+        privacy: closed
+        members:
+        - creydr
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
