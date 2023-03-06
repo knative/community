@@ -258,7 +258,7 @@ Managing, assessing system health and maintaining Knative clusters
 
 | &nbsp;                                                     | Leads       | Company | Profile                                     |
 | ---------------------------------------------------------- | ----------- | ------- | ------------------------------------------- |
-| <img width="30px" src="https://github.com/houshengbo.png"> | Vincent Hou | IBM     | [houshengbo](https://github.com/houshengbo) |
+| <img width="30px" src="https://github.com/houshengbo.png"> | Vincent Hou | Bloomberg | [houshengbo](https://github.com/houshengbo) |
 
 | &nbsp;                                                     | Emeritus Leads | Profile                                     | Duration  |
 | ---------------------------------------------------------- | -------------- | ------------------------------------------- | --------- |
