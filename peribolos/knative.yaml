@@ -319,10 +319,10 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
-      tools:
+      toolbox:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: Tools used in Knative project
+        description: 'Toolbox: tools used in Knative project'
         has_projects: false
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
@@ -499,7 +499,7 @@ orgs:
           specs: admin
           release: admin
           test-infra: admin
-          tools: admin
+          toolbox: admin
           hack: admin
           ux: admin
           website: admin
@@ -588,7 +588,7 @@ orgs:
           actions: write
           infra: write
           test-infra: write
-          tools: write
+          toolbox: write
           hack: write
           release: write
         members:
