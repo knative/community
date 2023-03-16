@@ -13,7 +13,7 @@ orgs:
     - csantanapr
     - dprotaso
     - evankanderson
-    - itsmurugappan
+    - puerco
     - knative-prow-robot
     - lance
     - nainaz
@@ -517,7 +517,7 @@ orgs:
             description: Knative Steering Committee
             maintainers:
             - csantanapr
-            - itsmurugappan
+            - puerco
             - lance
             - nainaz
             - salaboy
