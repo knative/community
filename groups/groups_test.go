@@ -277,9 +277,7 @@ func TestNoDuplicateMembers(t *testing.T) {
 func TestHardcodedGroupsForParanoia(t *testing.T) {
 	groups := map[string][]string{
 		"kn-infra-gcp-org-admins@knative.dev": {
-			"chizhg@google.com",
 			"cy@borg.dev",
-			"chizhg@knative.team",
 			"cy@knative.team",
 			"hh@cncf.io",
 			"hh@knative.team",
@@ -315,7 +313,8 @@ func TestHardcodedGroupsForParanoia(t *testing.T) {
 // access to the group not only via gmail but also via web (you can see the list
 // and history of threads and also use web interface to operate the group)
 // More info:
-// 	https://developers.google.com/admin-sdk/groups-settings/v1/reference/groups#allowWebPosting
+//
+//	https://developers.google.com/admin-sdk/groups-settings/v1/reference/groups#allowWebPosting
 func TestGroupsWhichShouldSupportHistory(t *testing.T) {
 	groups := map[string]struct{}{
 		"wg-leads@knative.team": {},

@@ -13,8 +13,6 @@ orgs:
     - csantanapr
     - dprotaso
     - evankanderson
-    - google-admin
-    - googlebot
     - itsmurugappan
     - knative-prow-robot
     - lance
@@ -67,7 +65,9 @@ orgs:
     - jkjell
     - jrangelramos
     - JRBANCEL
+    - jsanin-vmw
     - julz
+    - jwcesign
     - k4leung4
     - kauana
     - KauzClay
@@ -80,6 +80,7 @@ orgs:
     - kvmware
     - lberk
     - lionelvillard
+    - liuchangyan
     - lkingland
     - macruzbar
     - maschmid
@@ -99,11 +100,12 @@ orgs:
     - pierDipi
     - pmbanugo
     - pmorie
+    - pradnyavmw
     - quentin-cha
     - ReToCode
     - rhuss
-    - RichieEscarez
     - ricardozanini
+    - RichieEscarez
     - richterdavid
     - sebgoa
     - senthilnathan
@@ -121,7 +123,6 @@ orgs:
     - travis-minke-sap
     - trisberg
     - tzununbekov
-    - liuchangyan
     - upodroid
     - vagababov
     - vaikas
@@ -138,12 +139,16 @@ orgs:
     - zhaojizhuang
     - ZhiminXiang
     - zroubalik
-    - jwcesign
-    - jsanin-vmw
-    - pradnyavmw
+    - kahirokunn
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
+      .artifacthub:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "Repository for sharing Knative resources to ArtifactHub"
+        has_projects: false
+        has_wiki: false
       .github:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -313,6 +318,14 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+      toolbox:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: 'Toolbox: tools used in Knative project'
+        has_projects: false
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       hack:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -348,6 +361,7 @@ orgs:
         description: Grants write access to client-related repositories.
         privacy: closed
         repos:
+          .artifacthub: write
           client: write
           client-pkg: write
           homebrew-client: write
@@ -400,10 +414,11 @@ orgs:
         - psschwei
         - csantanapr
       Eventing Reviewers:
-        description: Receive reviews for docs directories
+        description: Receive reviews for eventing related repositories
         privacy: closed
         members:
         - aslom
+        - creydr
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
@@ -459,6 +474,7 @@ orgs:
         privacy: closed
         repos:
           # All repos should be listed here!
+          .artifacthub: admin
           .github: admin
           actions: admin
           build: admin
@@ -483,6 +499,7 @@ orgs:
           specs: admin
           release: admin
           test-infra: admin
+          toolbox: admin
           hack: admin
           ux: admin
           website: admin
@@ -571,6 +588,7 @@ orgs:
           actions: write
           infra: write
           test-infra: write
+          toolbox: write
           hack: write
           release: write
         members:
@@ -600,13 +618,27 @@ orgs:
         description: Receive reviews for serving-related directories
         privacy: closed
         members:
-        - KauzClay
         - carlisia
         - izabelacg
         - jsanin-vmw
         - kauana
+        - KauzClay
+        - pradnyavmw
         - retocode
         - skonto
+      Serving Triage:
+        description: Ability to triage serving-related repos
+        privacy: closed
+        members:
+        - KauzClay
+        - retocode
+        - skonto
+        repos:
+          caching: triage
+          networking: triage
+          pkg: triage
+          serving: triage
+          release: triage
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed

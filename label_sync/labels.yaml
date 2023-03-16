@@ -29,12 +29,6 @@ default:
       target: issues
       prowPlugin: label
       addedBy: humans
-    - color: 7057ff
-      description: Denotes an issue ready for a new contributor.
-      name: kind/good-first-issue
-      target: issues
-      prowPlugin: label
-      addedBy: anyone
     - color: e11d21
       description: Categorizes issue or PR as related to adding, removing, or otherwise changing an API
       name: kind/api-change
