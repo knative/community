@@ -13,7 +13,6 @@ orgs:
     - csantanapr
     - dprotaso
     - evankanderson
-    - itsmurugappan
     - knative-prow-robot
     - lance
     - nainaz
@@ -60,6 +59,7 @@ orgs:
     - houshengbo
     - ikvmw
     - ImJasonH
+    - itsmurugappan
     - izabelacg
     - jberkus
     - jcrossley3
@@ -518,7 +518,6 @@ orgs:
             description: Knative Steering Committee
             maintainers:
             - csantanapr
-            - itsmurugappan
             - lance
             - nainaz
             - puerco
