@@ -96,10 +96,10 @@ first name):
 | -------------------------------------------------------------- | ------------------------- | ------------ | ---------------------------------------------------- | ---------- | --------
 | <img width="30px" src="https://github.com/csantanapr.png">     | Carlos Santana            | Independent  | [@csantanapr](https://github.com/csantanapr)         | 2021-12-02 | 2023     |
 | <img width="30px" src="https://github.com/lance.png">          | Lance Ball                | Red Hat      | [@lance](https://github.com/lance)                   | 2021-12-02 | 2023     |
-| <img width="30px" src="https://github.com/puerco.png">  | Adolfo García Veytia *        | Box          | [@puerco](https://github.com/puerco)   | 2023-02-16 | 2024     |
+| <img width="30px" src="https://github.com/puerco.png">  | Adolfo García Veytia *        | Chainguard          | [@puerco](https://github.com/puerco)   | 2023-02-16 | 2024     |
 | <img width="30px" src="https://github.com/nainaz.png">         | Naina Singh               | Red Hat      | [@nainaz](https://github.com/nainaz)                 | 2022-12-06 | 2024     |
 | <img width="30px" src="https://github.com/salaboy.png">        | Mauricio Salatino         | Diagrid       | [@salaboy](https://github.com/salaboy)               | 2022-12-06 | 2024     |
-> * Murugappan holds the End User seat
+> * Adolfo holds the End User seat
 ## Emeritus Committee Members
 
 To recognize the folks that have served in the SC in the past, below we list the previous members of the SC (sorted by their 'Term End').
