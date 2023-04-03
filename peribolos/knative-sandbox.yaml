@@ -13,6 +13,7 @@ orgs:
     - cncf-ci
     - csantanapr
     - dprotaso
+    - dsimansk
     - evankanderson
     - itsmurugappan
     - knative-prow-robot
@@ -21,6 +22,7 @@ orgs:
     - psschwei
     - salaboy
     - thelinuxfoundation
+    - zroubalik
     members:
     - aavarghese
     - abrennan89
@@ -48,7 +50,6 @@ orgs:
     - davidhadas
     - devguyio
     - dilipgb
-    - dsimansk
     - duglin
     - eric-sap
     - gab-satchi
@@ -133,7 +134,6 @@ orgs:
     - zhanggbj
     - zhaojizhuang
     - ZhiminXiang
-    - zroubalik
     - kahirokunn
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
