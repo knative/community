@@ -284,6 +284,7 @@ func TestHardcodedGroupsForParanoia(t *testing.T) {
 			"racker-maha-66b7d200@gcp.rackspace.com",
 			"kmahapatra@vmware.com",
 			"krsna@knative.team",
+			"jeffrey@cncf.io",
 		},
 	}
 
