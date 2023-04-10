@@ -543,8 +543,10 @@ orgs:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
             maintainers:
-            - psschwei
-            - evankanderson
+            - dsimansk
+            - kvmware
+            - pierDipi
+            - pradnyavmw
           Productivity Leads:
             #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
             privacy: closed
