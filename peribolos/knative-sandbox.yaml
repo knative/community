@@ -146,12 +146,6 @@ orgs:
         description: "Repository for sharing org-wide Github metadata and workflow templates."
         has_projects: true
         has_wiki: false
-      actions-downstream-test:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: Github Action for Knative to test downstream repos upgradability from upstream repos.
-        has_projects: true
-        has_wiki: false
       async-component:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -637,7 +631,6 @@ orgs:
         repos:
           # All repos should be listed here!
           .github: admin
-          actions-downstream-test: admin
           async-component: admin
           container-freezer: admin
           scaling-group: admin
@@ -745,7 +738,6 @@ orgs:
         privacy: closed
         repos:
           .github: write
-          actions-downstream-test: write
           kperf: write
           knobots: write
         members:
