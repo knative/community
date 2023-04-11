@@ -24,7 +24,6 @@ orgs:
     - zroubalik
     members:
     - aavarghese
-    - abrennan89
     - aliok
     - andrew-su
     - AngeloDanducci
@@ -408,10 +407,8 @@ orgs:
             description: The Working Group leads for Docs
             members:
             - snneji
-            - abrennan89
             privacy: closed
         members:
-        - abrennan89
         - psschwei
         - csantanapr
       Eventing Reviewers:
@@ -672,7 +669,6 @@ orgs:
             description: The Working Group leads for User Experience (UX)
             members:
             - snneji
-            - abrennan89
         repos:
           docs: write
           website: write
