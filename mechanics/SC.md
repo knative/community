@@ -73,8 +73,7 @@ requirements based on community feedback.
 # Election Process
 
 Elections will be held using a time-limited
-[Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) ranking on
-[CIVS](http://civs.cs.cornell.edu/) using the
+[Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) ranking using the
 [Schulze](https://en.wikipedia.org/wiki/Schulze_method) method. The top
 vote-getters will be elected to the open seats. This is the same process used
 for TOC elections.
