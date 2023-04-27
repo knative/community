@@ -614,6 +614,7 @@ orgs:
             description: The Working Group leads for Security
             members:
             - evankanderson
+            - davidhadas
         repos:
           release: write
       Serving Reviewers:
