@@ -764,6 +764,7 @@ orgs:
             description: The Working Group leads for Security
             members:
             - evankanderson
+            - davidhadas
       Serving Reviewers:
         description: Receive reviews for serving-related directories
         privacy: closed

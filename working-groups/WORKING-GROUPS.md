@@ -317,6 +317,7 @@ Security concerns across Knative components
 | &nbsp;                                                        | Leads           | Company | Profile                                           |
 | ------------------------------------------------------------- | --------------- | ------- | ------------------------------------------------- |
 | <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson   | VMware  | [evankanderson](https://github.com/evankanderson) |
+| <img width="30px" src="https://github.com/davidhadas.png">    | David Hadas     | IBM     | [davidhadas](https://github.com/davidhadas)       |
 
 | &nbsp;                                                     | Emeritus Leads | Profile                                     | Duration  |
 | ---------------------------------------------------------- | -------------- | ------------------------------------------- | --------- |
