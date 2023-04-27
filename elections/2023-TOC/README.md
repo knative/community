@@ -134,7 +134,7 @@ is encrypted, and not retrievable by anyone except in aggregate form.
 
 ### Decision
 
-Ballots are compiled by Elekto and all candidates are ranked using the Condorcet
+Ballots are compiled by Elekto and all candidates are ranked using the [Condorcet]
 method, Schultze variant.
 
 For more information, definitions, and/or detailed election process, please refer to
@@ -151,3 +151,4 @@ the [TOC Election Charter].
 [Eligibility for voting]: https://github.com/knative/community/blob/master/mechanics/TOC.md#candidate-eligibility#voter-eligibility
 [Elekto]: https://elections.knative.dev
 [file a voting exception]: https://elections.knative.dev/app/elections/2023-TOC/exception
+[Condorcet]: https://en.wikipedia.org/wiki/Condorcet_method
