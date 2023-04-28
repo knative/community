@@ -251,6 +251,7 @@ aliases:
   - evankanderson
   serving-approvers:
   - nak3
+  - skonto
   serving-reviewers:
   - KauzClay
   - carlisia
