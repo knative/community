@@ -3,7 +3,7 @@
 The role of this election is to fill the one (1) seat due for election this year on the [Knative Technical Oversight Committee](https://github.com/knative/community/blob/master/TECH-OVERSIGHT-COMMITTEE.md). The elected member will serve a two (2) year term.
 
 This election will shape the future of Knative as a community and project.
-While WGs help shape the individual direction of the project, the
+While working groups help shape the direction of individual subprojects, the
 TOC Charter covers the technical direction, health of the project
 and community as a whole.
 

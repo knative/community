@@ -76,7 +76,7 @@ You can find [examples from the last TOC election](https://github.com/knative/co
 
 Once you have created the PR, you may email knative-dev and/or knative-users *once* to let
 people know about your candidacy and encourage endorsements as comments on the PR.
-Please use something like for your email in order to encourage endorsements
+Please use something like the text below for your email in order to encourage endorsements
 in GitHub and not on the mailing list:
 
 ```
@@ -97,7 +97,7 @@ first.
 
 Please refer to the [TOC Election Charter] and understand
 that we care deeply about [limiting corporate campaigning]. The election
-officers and members of the steering committee [pledge to recuse] themselves
+officers and members of the Steering Committee [pledge to recuse] themselves
 from any form of electioneering.
 
 You should be running as a "brand free" individual, based on your contribution
