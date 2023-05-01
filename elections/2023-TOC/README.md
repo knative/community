@@ -74,10 +74,11 @@ We have included a template file as an example. This profile should include:
 
 You can find [examples from the last TOC election](https://github.com/knative/community/tree/main/elections/2022-TOC).
 
-Once you have created the PR, you may email knative-dev and/or knative-users *once* to let
-people know about your candidacy and encourage endorsements as comments on the PR.
-Please use something like the text below for your email in order to encourage endorsements
-in GitHub and not on the mailing list:
+Once you have created the PR, you may email knative-dev@googlegroups.com and/or
+knative-users@googlegroups.com *once* to let people know about your candidacy
+and encourage endorsements as comments on the PR.  Please use something like
+the text below for your email in order to encourage endorsements in GitHub and
+not on the mailing list:
 
 ```
 Fellow Knative community members,
