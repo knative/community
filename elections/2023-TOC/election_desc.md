@@ -15,7 +15,7 @@ All Knative contributors with [50 or more contributions](https://knative.devstat
 
 ### Schedule
 
-* May 2  - Announcement of Election 
+* May 3  - Announcement of Election 
 * May 10 - All candidate nominations are due by 23:59 UTC (4:59pm Pacific)
 * May 13 - Election Begins via Elekto UI
 * May 24 - Voting exception forms are due by 23:59 UTC (4:59pm Pacific)
