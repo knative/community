@@ -108,7 +108,7 @@ roles you may hold.
 ## Voting Process
 
 Elections will be held once again using [Elekto], an online voting tool created
-by CNCF intern Manish Sahani. As a reminder it relies on GitHub Oauth to log you
+as a CNCF internal project. As a reminder it relies on GitHub Oauth to log you
 in to vote, instead of relying on email.
 
 Thus, when you go to [Elekto] you will be prompted to log in your GitHub account.
@@ -129,9 +129,9 @@ your preference, and submit your ballot.  When you submit, you will be offered
 a chance to set a password, which is required if you want the ability to return
 and re-cast your ballot before the voting deadline above.
 
-All data for Elekto is stored on a pair of GCP instances operated by Josh Berkus
-and Manish Sahani, and is not shared with third parties.  Individual ballot data
-is encrypted, and not retrievable by anyone except in aggregate form.
+Our Elekto system runs on a server blade in the Red Hat Open Source Community Infrastructure (OSCI) 
+lab, and data is not shared with third parties.  Individual ballot data is encrypted, and not retrievable 
+by anyone except in aggregate form.
 
 ### Decision
 
