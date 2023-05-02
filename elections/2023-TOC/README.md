@@ -15,7 +15,7 @@ member will serve a two (2) year term.
 ## Background
 
 This election will shape the future of Knative as a community and project.
-While WGs help shape the individual direction of the project, the
+While working groups help shape the direction of individual subprojects, the
 [TOC Charter] covers the technical direction, health of the project
 and community as a whole.
 
