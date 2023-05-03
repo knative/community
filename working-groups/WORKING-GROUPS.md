@@ -58,12 +58,12 @@ The current working groups are:
   - [Client](#client)
   - [Documentation + User Experience](#documentation--user-experience)
   - [Eventing](#eventing)
-  - [Eventing Kafka](#eventing-kafka)
   - [Functions](#functions)
   - [Operations](#operations)
   - [Productivity](#productivity)
   - [Security](#security)
 - [Emeritus Working Groups](#emeritus-working-groups)
+  - [Eventing Kafka](#eventing-kafka)
   - [Build](#build)
   - [Event Delivery (previously called Eventing Channels Working Group)](#event-delivery-previously-called-eventing-channels-working-group)
   - [Eventing Sources](#eventing-sources)
@@ -193,32 +193,6 @@ Event sources, bindings, FaaS framework, and orchestration
 | <img width="30px" src="https://github.com/grantr.png">  | Grant Rodgers (Technical) | [grantr](https://github.com/grantr)    | 2020-2021 |
 | <img width="30px" src="https://github.com/vaikas.png">  | Ville Aikas (Technical)   | [vaikas](https://github.com/vaikas)    | 2018-2021 |
 
-## Eventing Kafka
-
-A dedicated working group for Kafka-based Knative Eventing components.
-
-| Artifact                   | Link                                                                                                                     |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------|
-| Charter / Mission          | [Charter](/working-groups/kafka/CHARTER.md)                                                                              |
-| Roadmap                    | [Roadmap](https://github.com/orgs/knative-sandbox/projects/8)                                                            |
-| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                      |
-| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1ykBVPtiosGoDjzBklMt9HxbinGrMod6itOvfe6DeVmA/edit) |
-| Community Meeting Calendar | Tuesdays 8:30a-9:00a PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)|
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1ykBVPtiosGoDjzBklMt9HxbinGrMod6itOvfe6DeVmA/edit)                            |
-| Document Folder            | [Folder](https://drive.google.com/drive/folders/1ra5czyKOaMsWuwWXzkhce6_g6rFBdCxg?usp=sharing)                           |
-| Slack Channel              | [#knative-eventing](https://cloud-native.slack.com/archives/C04LMU33V1S) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                    |
-| Github Team WG leads       | [@knative/kafka-wg-leads](https://github.com/orgs/knative/teams/kafka-wg-leads/members)                                                                       |
-
-| &nbsp;                                                           | Leads           | Company | Profile                                           |
-| ---------------------------------------------------------------- | --------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/travis-minke-sap.png"> | Travis Minke    | SAP     | [travis-minke-sap](https://github.com/travis-minke-sap) |
-
-| &nbsp;                                                         | Emeritus Leads  | Profile                                             | Duration  |
-| -------------------------------------------------------------- | --------------- | --------------------------------------------------- | --------- |
-| <img width="30px" src="https://github.com/devguyio.png">       | Ahmed Abdalla   | [devguyio](https://github.com/devguyio)             | 2021-2022 |
-| <img width="30px" src="https://github.com/lionelvillard.png">  | Lionel Villard  | [lionelvillard](https://github.com/lionelvillard)   | 2021-2022 |
-
-
 ## Functions
 
 Knative Functions [CLI](https://github.com/knative/func), API, and [language packs](https://github.com/knative-sandbox/func-tastic)
@@ -326,6 +300,24 @@ Security concerns across Knative components
 ---
 
 # Emeritus Working Groups
+
+## Eventing Kafka
+
+The Eventing Kafka was a dedicated working group for Kafka-based Knative Eventing components. In 2023 it has been merged back into the parent Eventing working group.
+
+| Artifact                   | Link                                                                                                                     |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------|
+| Charter / Mission          | [Charter](/working-groups/kafka/CHARTER.md)                                                                              |
+| Roadmap                    | [Roadmap](https://github.com/orgs/knative-sandbox/projects/8)                                                            |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                      |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1ykBVPtiosGoDjzBklMt9HxbinGrMod6itOvfe6DeVmA/edit)                            |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/1ra5czyKOaMsWuwWXzkhce6_g6rFBdCxg?usp=sharing)                           |
+
+| &nbsp;                                                           | Leads           | Profile                                                 | Duration  |
+| ---------------------------------------------------------------- | --------------- | ------------------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/travis-minke-sap.png"> | Travis Minke    | [travis-minke-sap](https://github.com/travis-minke-sap) | 2022      |
+| <img width="30px" src="https://github.com/devguyio.png">         | Ahmed Abdalla   | [devguyio](https://github.com/devguyio)                 | 2021-2022 |
+| <img width="30px" src="https://github.com/lionelvillard.png">    | Lionel Villard  | [lionelvillard](https://github.com/lionelvillard)       | 2021-2022 |
 
 ## Build
 
