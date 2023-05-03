@@ -26,7 +26,7 @@ Please refer to the [TOC Election Charter] for:
 - [Eligibility for candidacy]
 - [Eligibility for voting] 
 
-The list of eligible voters is stored [in the community repository](https://github.com/knative/community/elections/2023-TOC/), but it is easier
+The list of eligible voters is stored [in the community repository](https://github.com/knative/community/tree/main/elections/2023-TOC), but it is easier
 to check if you are eligible by logging into [Elekto]. See Voting Process below for more details.
 
 ### Schedule
@@ -149,7 +149,7 @@ the [TOC Election Charter].
 [pledge to recuse]: https://github.com/kubernetes/steering/blob/master/elections.md#steering-committee-and-election-officer-recusal
 
 [Eligibility for candidacy]: https://github.com/knative/community/blob/master/mechanics/TOC.md#candidate-eligibility
-[Eligibility for voting]: https://github.com/knative/community/blob/master/mechanics/TOC.md#candidate-eligibility#voter-eligibility
+[Eligibility for voting]: https://github.com/knative/community/blob/master/mechanics/TOC.md#voter-eligibility
 [Elekto]: https://elections.knative.dev
 [file a voting exception]: https://elections.knative.dev/app/elections/2023-TOC/exception
 [Condorcet]: https://en.wikipedia.org/wiki/Condorcet_method
