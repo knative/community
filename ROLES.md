@@ -136,8 +136,8 @@ this is not a requirement.
 ### Requirements
 
 - Member of the Knative github org. Create a PR adding you to
-[knative.yaml](../peribolos/knative.yaml) and/or to
-[knative-sandbox.yaml](../peribolos/knative-sandbox.yaml) which after when
+[knative.yaml](../main/peribolos/knative.yaml) and/or to
+[knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml) which after when
 merged will send you an invite that you have to accept to become a member
 of these organizations.
 
