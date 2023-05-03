@@ -92,7 +92,6 @@ This document outlines how to conduct Knative elections. See [TOC election proce
 - Monitor groups for nominations
 - Update the community regularly
 - Post deadlines and reminders during the election season
-- Reissue ballots from CIVS to voters who might have not received their ballot.
 - It is impossible to see the results of the election until the election ends; for purposes of transparency with the community it is encouraged to release some statistics during the election (ie. “65% of the community has voted so far!”)
 
 
