@@ -17,6 +17,7 @@ If you would like to be included in this table, please submit a comment to [this
 | deepc.ai*                          |                                                                        | Production               | [link](https://www.deepc.ai/)                                        |
 | EASE lab @ University of Edinbugh* | [vHive](https://github.com/ease-lab/vhive )                            | Production               | [link](https://easelab.inf.ed.ac.uk)                                 |
 | Fulcrum*                           | Fulcrum                                                                | Production               | [link](https://www.fulcrumapp.com/)                                  |
+| Gojek                              | [CaraML MLOps Platform](https://github.com/caraml-dev)                 | Production               | [link](https://www.gojek.com)                          |
 | Google Cloud                       | Cloud Run for Anthos                                                   | Production / GA          | [link](https://cloud.google.com/anthos/run)                          |
 | Grey Rook*                         |                                                                        | Production               | [link](https://www.greyrook.com)                                     |
 | HighCohesion                       | SaaS E-commerce Integration Platform                                   | Development              | [link](https://www.highcohesion.com/)                                |
