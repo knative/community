@@ -285,8 +285,8 @@ The following apply to the area / component for which one would be a lead.
 
 # Notes
 
-Within this section "manager" refers to a member who is an Execution Lead, Tech
-Lead, Approver or Scribe. (this is different from a WG or Organization Member).
+Within this section "manager" refers to a Member who is a Working Group Lead or
+Approver.
 
 - Initial managers are defined at the founding of the WG or Subproject as part
   of the acceptance of that WG or Subproject.
