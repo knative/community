@@ -1,123 +1,88 @@
----
-title: "Knative community roles"
-linkTitle: "Community roles"
-weight: 55
-type: "docs"
-aliases:
-  - /contributing/roles/
----
-
 This document describes the set of roles individuals might have within the
 Knative community, the requirements of each role, and the privileges that each
-role grants.
+role grants. Community members generally start at the first levels of the
+"ladder" and advance up it as their involvement in the project grows.  Our
+project members are happy to help you advance along the contributor ladder.
 
 - [Role Summary](#role-summary)
+- [Contributor](#contributor)
 - [Member](#member)
 - [Approver](#approver)
-- [Working Group Technical Lead](#working-group-technical-lead)
-- [Working Group Execution Lead](#working-group-execution-lead)
-- [Scribe](#scribe)
+- [Working Group Lead](#working-group-lead)
 
 See also [notes](#notes) on roles.
 
 ## Role Summary
 
 The following table lists the roles we use within the Knative community. The
-table describes:
-
-- General responsibilities expected by individuals in each role
-- Requirements necessary to join or stay in a given role for repos in the Knative GitHub org
-- How the role manifests in terms of permissions and privileges.
+table describes general responsibilities expected by individuals in each role.
+A detailed description of the responsibilities and requirements for each role
+is provided below the table.
 
 <table>
   <thead>
     <tr>
     <th>Role</th>
     <th>Responsibilities</th>
-    <th>Requirements</th>
-    <th>Privileges</th>
-    <th>Scope</th>
     </tr>
   </thead>
 
   <tr>
+    <td>Contributor</td>
+    <td>Follow the CNCF Code of Conduct</c>
+  </tr>
+
+  <tr>
     <td>Member</td>
     <td>Regular active contributor in the community</td>
-    <td>
-        <p>Has made multiple contributions to the project</p>
-    </td>
-    <td>
-        <p>Member of the GitHub Knative org</p>
-        <p>Member of the Knative Slack workspace</p>
-        <p>Edit access to team drive</p>
-    </td>
-    <td>GitHub Organization</td>
   </tr>
 
   <tr>
     <td>Approver</td>
-    <td>
-        <p>Approve contributions from other members</p>
-    </td>
-    <td>Highly experienced and active reviewer and contributor to an area</td>
-    <td>Entry in one or more OWNERS files in GitHub, and write permissions
-        on one or more repos allowing PRs to be merged
-    </td>
-    <td>GitHub Directory</td>
+    <td>Approve contributions from Members and Contributors</td>
   </tr>
 
   <tr>
-    <td>Working Group Technical Lead</td>
-    <td>
-        <p>Set priorities for a functional area and approve proposals</p>
-        <p>Triage incoming issues, set milestones, repo labels</p>
-        <p>Roadmap alignment with top-level backlog</p>
-        <p>Mentor new contributors, project members, and approvers</p>
-        <p>Succession - identifying next steps for members of the working group</p>
-        <p>Responsible for technical health of their functional area</p>
-    </td>
-    <td>Sponsored by the technical oversight committee as documented
-        <a href="./mechanics/WORKING-GROUP-PROCESSES.md">here</a>
-    </td>
-    <td>Write permissions on one or more repos allowing issues to be manipulated</td>
-    <td>Working Group</td>
+    <td>Working Group Lead</td>
+    <td>Responsible for the technical health and growth of their functional area or subproject</td>
   </tr>
-
-  <tr>
-    <td>Working Group Execution Lead</td>
-    <td>
-        <p>Run their working group: Meetings, notes, roadmap, report</p>
-        <p>Responsible for the holistic health of the <i>working group</i></p>
-        <p>Work organization, planning, high-level execution</p>
-        <p>Triage incoming issues, set milestones, repo labels</p>
-        <p>Ensure all required skills are present within the working group</p>
-        <p>Mentor new contributors, project members, and approvers</p>
-    </td>
-    <td>Sponsored by the technical oversight committee as documented
-        <a href="./mechanics/WORKING-GROUP-PROCESSES.md">here</a>
-    </td>
-    <td>Write permissions on one or more repos allowing issues to be manipulated</td>
-    <td>Working Group</td>
-  </tr>
-
-  <tr>
-    <td>Scribe</td>
-    <td>
-        <p>Ensure important information is represented in working group notes</p>
-        <p>Post WG recordings to team drive</p>
-    </td>
-    <td>Sponsored by a working group execution or technical lead.</td>
-    <td>Write permissions to team drive and team calendar</td>
-    <td>Working Group</td>
-  </tr>
-
 </table>
 
-Please note that repos in the knative-sandbox GitHub org are a reflection of the WG leads. These leads are free to use their judgement to set the bar for what is required to become an approver and/or owner for knative-sandbox repos they are responsible for.
+Please note that repos in the knative-sandbox GitHub org are a reflection of
+the WG leads. These leads are free to use their judgement to set the bar for
+what is required to become an approver and/or lead for knative-sandbox repos
+they are responsible for.
+
+## Contributor
+
+This role describes people who have just started contributing, or who
+contribute occasionally but don't participate in project governance or
+have defined responsibilities.
+
+A Contributor contributes directly to the project and adds value to it.
+Contributions need not be code. People at the Contributor level may be new
+contributors, or they may only contribute occasionally.
+### Requirements
+
+Contributors should be familiar with the project and its processes, and should
+contribute to the project in one or more of the following ways.
+
+- Report and sometimes resolve issues
+- Occasionally submit PRs
+- Contribute to the documentation
+- Show up at meetings
+- Submit feedback on issues and PRs
+- Test releases and patches and submit reviews
+- Run or helps run events
+- Promote the project in public
 
 ## Member
 
-Established community members are expected to demonstrate their adherence to the
+A Member is an established Contributor who regularly participates in the
+project. Members have privileges in both project repositories and elections,
+and as such are expected to act in the interests of the whole project.
+
+Members are expected to demonstrate their adherence to the
 principles in this document, familiarity with project organization, roles,
 policies, procedures, conventions, etc., and technical and/or writing ability.
 
@@ -126,8 +91,8 @@ issues and PRs assigned to them, participate in working group meetings, and
 pre-submit tests are automatically run for their PRs. Members are expected to
 remain active contributors to the community.
 
-All members are encouraged to help with the code review burden, although each PR
-must be reviewed by an official [Approver](#approver).
+All members are encouraged to help with code reviews, although each PR
+must be reviewed and approved by an official [Approver](#approver).
 
 When reviewing, members should focus on code quality and correctness, including
 testing and factoring. Members might also review for more holistic issues, but
@@ -135,42 +100,43 @@ this is not a requirement.
 
 ### Requirements
 
-- Member of the Knative github org. Create a PR adding you to
+- Member of the Knative github org. Create a PR adding yourself as a Member to
 [knative.yaml](../main/peribolos/knative.yaml) and/or to
-[knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml) which after when
-merged will send you an invite that you have to accept to become a member
-of these organizations.
+[knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml), and as a `reviewer`
+on the repositories to which you will be contributing. After the PR is
+merged you will receive an invite that you must accept to become a Member
+of these GitHub organizations.
 
 - Has made multiple contributions to the project or community. Contributions
   might include, but are not limited to:
 
-  - Authoring and reviewing PRs on GitHub.
-
-  - Filing and commenting on issues on GitHub.
-
-  - Contributing to working group or community discussions.
+  - Authoring and reviewing PRs on GitHub
+  - Submitting and commenting on issues on GitHub
+  - Contributing to working group or community discussions
 
 - Subscribed to
-  [knative-dev@googlegroups.com](https://groups.google.com/forum/#!forum/knative-dev).
+  [knative-dev@googlegroups.com](https://groups.google.com/forum/#!forum/knative-dev)
 
-- Actively contributing to 1 or more areas.
+- Actively contributing to 1 or more areas
+
+- Nominated by two Knative Members, at least one of whom does not work for the same employer
 
 ### Responsibilities and privileges
 
-- Responsive to issues and PRs assigned to them.
+- Responsive to issues and PRs assigned to them
 
 - Active owner of code they have contributed (unless ownership is explicitly
-  transferred).
+  transferred)
 
-  - Code is well tested.
+  - Code is well tested
 
-  - Tests consistently pass.
+  - Tests consistently pass
 
-  - Addresses bugs or issues discovered after code is accepted.
+  - Addresses bugs or issues discovered after code is accepted
 
-Members who frequently contribute code are expected to proactively perform code
-reviews and work towards becoming an approver for the area that they are active
-in.
+Members who frequently contribute code should proactively perform code
+reviews and may work towards becoming an Approver for the area that they
+are active in.
 
 ## Approver
 
@@ -186,34 +152,37 @@ status is scoped to a part of the codebase.
 The following apply to the part of the codebase for which one would be an
 approver in an OWNERS file:
 
-- Reviewer of the codebase for at least 3 months.
+- Add yourself as a `writer` for the repositories you are responsible for
+  in [knative.yaml](../main/peribolos/knative.yaml) and/or
+  [knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml). After
+  this you should be an `approver` in the OWNERS file.
 
-- Should have reviewed or contributed to substantial PRs to the codebase.
+- Reviewer of the codebase for at least 3 months
 
-- Should be a `reviewer` in the OWNERS file.
+- Should have reviewed or contributed to substantial PRs to the codebase
 
-- Nominated by an a WG lead (with no objections from other leads).
+- Nominated by a Working Group Lead with no objections from other leads
 
 ### Responsibilities and privileges
 
 The following apply to the part of the codebase for which one would be an
 approver in an OWNERS file:
 
-- Approver status can be a precondition to accepting large code contributions.
+- Approver status may be a precondition to accepting large code contributions
 
-- Demonstrate sound technical judgment.
+- Demonstrate sound technical judgment
 
-* Responsible for project quality control via [code reviews](./REVIEWING.md).
+* Responsible for project quality control via [code reviews](./REVIEWING.md)
 
   - Focus on holistic acceptance of contribution such as dependencies with other
     features, backward / forward compatibility, API and flag definitions, etc.
 
 * Expected to be responsive to review requests as per
-  [community expectations](./REVIEWING.md).
+  [community expectations](./REVIEWING.md)
 
-* Mentor new contributors and project members.
+* Mentor new contributors and project members
 
-* Approve code contributions for acceptance.
+* Approve code contributions for acceptance
 
 Approvers are also expected to participate in community contact rotations
 ([Serving](
@@ -224,15 +193,7 @@ to support users and keep test quality high, as well as release leads
 [rotation](https://github.com/knative/pkg/blob/main/RELEASE-LEADS.md) to
 shepherd Knative releases.
 
-# Working Group Leadership Roles
-
-We differentiate here between two key roles, WG Execution Lead and WG Technical
-Lead. In small working groups, often these roles will be performed by one
-person; in larger working groups it might be best to have different individuals
-performing these roles. There is no 'formula', it is up to the working group
-leadership to determine what is best for their working group.
-
-## Working Group Technical Lead
+## Working Group Lead
 
 Working group technical leads, or just ‘tech leads’, are approvers of an entire
 area that have demonstrated good judgement and responsibility. Tech leads accept
@@ -241,75 +202,32 @@ are responsible for the overall technical health of their functional area.
 
 ### Requirements
 
-Getting to be a tech lead of an existing working group:
+For existing working groups:
 
-- Recognized as having expertise in the group’s subject matter.
+- Recognized as having expertise in the group’s subject matter
 
-- Approver for a relevant part of the codebase for at least 3 months.
+- Approver for a relevant part of the codebase for at least 3 months
 
-- Member for at least 6 months.
+- Member for at least 6 months
 
-- Should have reviewed or contributed to substantial PRs to the codebase.
+- Should have reviewed or contributed to substantial PRs to the codebase
 
-- Should be a `reviewer` in the OWNERS file.
+- Should be an `approver` in the OWNERS file
 
-- Sponsored by the technical oversight committee.
+- Sponsored by the Technical Oversight Committee
+
+- Participant in the working group for at least 3 months, for example as a
+  reviewer or approver
+
+- Recognized as having expertise in the group’s subject matter
 
 Additional requirements for leads of a new working group:
 
-- Originally authored or contributed major functionality to the group's area.
+- Originally authored or contributed major functionality to the group's area
 
 ### Responsibilities and privileges
 
-The following apply to the area / component for which one would be an owner.
-
-- Design/proposal approval authority over the area / component, though
-  escalation to the technical oversight committee is possible.
-
-- Technical review of [feature tracks](./mechanics/FEATURE-TRACKS.md).
-
-- Perform issue triage on GitHub.
-
-- Apply/remove/create/delete GitHub labels and milestones.
-
-- Write access to repo (assign issues/PRs, add/remove labels and milestones,
-  edit issues and PRs, edit wiki, create/delete labels and milestones).
-
-- Capable of directly applying lgtm + approve labels for any PR.
-
-  - Expected to respect OWNERS files approvals and use
-    [standard procedure for merging code](./REVIEWING.md#merging-prs).
-
-- Expected to work to holistically maintain the health of the project through:
-
-  - Reviewing PRs.
-
-  - Fixing bugs.
-
-  - Identifying needed enhancements / areas for improvement / etc.
-
-  - Execute pay-down of technical debt.
-
-- Mentoring and guiding approvers, members, and new contributors.
-
-## Working Group Execution Lead
-
-Working group execution leads, or just ‘execution leads’, are responsible for
-the overall health and execution of the working group itself. Execution leads
-work with tech leads to ensure that the working group is making progress toward
-its goals, is aligned with the project roadmap, etc. The execution lead may also
-be the tech lead in a smaller working group, but they are distinct roles.
-
-### Requirements
-
-- Participant in the working group for at least 3 months, for example as scribe
-  or approver.
-
-- Recognized as having expertise in the group’s subject matter.
-
-- Sponsored by the technical oversight committee.
-
-### Responsibilities and privileges
+The following apply to the area / component for which one would be a lead.
 
 - Run their working group as explained in the
   [Working Group Processes](./mechanics/WORKING-GROUP-PROCESSES.md).
@@ -325,15 +243,35 @@ be the tech lead in a smaller working group, but they are distinct roles.
 
   - Report. Report current status to the TOC meeting every 6 weeks.
 
+- Expected to work to holistically maintain the health of the project through:
+
+  - Reviewing PRs
+
+  - Fixing bugs
+
+  - Identifying needed enhancements / areas for improvement / etc.
+
+  - Execute pay-down of technical debt
+
+- Design/proposal approval authority over the area / component, though
+  escalation to the technical oversight committee is possible
+
 - Holistic responsibility for their working group's [feature
-  tracks](./mechanics/FEATURE-TRACKS.md): tracking, health, and execution.
+  tracks](./mechanics/FEATURE-TRACKS.md): review, tracking, health, and execution.
 
-- Perform issue triage on GitHub.
+- Perform issue triage on GitHub
 
-- Apply/remove/create/delete GitHub labels and milestones.
+- Apply/remove/create/delete GitHub labels and milestones
 
 - Write access to repo (assign issues/PRs, add/remove labels and milestones,
-  edit project, issues, and PRs, edit wiki, create/delete labels and milestones).
+  edit issues and PRs, edit wiki, create/delete labels and milestones)
+
+- Capable of directly applying `lgtm` and `approve` labels for any PR
+
+  - Expected to respect OWNERS files approvals and use
+    [standard procedure for merging code](./REVIEWING.md#merging-prs)
+
+- Mentoring and guiding Approvers, Members, and Contributors
 
 - Expected to work to holistically maintain the health of the working group through:
 
@@ -344,31 +282,6 @@ be the tech lead in a smaller working group, but they are distinct roles.
   - Foster a welcoming and collegial environment
 
   - Mentoring and guiding approvers, members, and new contributors.
-
-## Scribe
-
-One of the most underrated roles in open source projects is the role of note
-taker. The importance and value of this role is frequently overlooked and
-underestimated. Since one of the core project values is transparency, we have an
-explicit scribe role to recognize these types of contributions. Working group
-scribes assist the Working Group leads with the mechanical processes around
-Working Group meetings.
-
-### Requirements
-
-- Participant in the working group for at least 1 month.
-
-- Pattern of attendance and note-taking during working group meetings and one-offs.
-
-- Sponsored by a working group execution or technical lead.
-
-### Responsibilities and privileges
-
-- Attend working group meetings and one-offs whenever possible.
-
-- Ensure that important information from meetings makes it into the WG notes.
-
-- Post WG recordings to the team drive.
 
 # Notes
 
@@ -397,7 +310,7 @@ Lead, Approver or Scribe. (this is different from a WG or Organization Member).
 - Managers MAY decide to step down at anytime and nominate a replacement who
   will be approved through the regular process for that role.
 
-It is the hope of the steering committee that effective communication will make
+It is the hope of the Steering Committee that effective communication will make
 the use of these rules something that happens under exceptional circumstances
 only. In circumstances where it is unavoidable, these are presented so that the
 process is clear.
