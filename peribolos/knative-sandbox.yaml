@@ -70,12 +70,12 @@ orgs:
     - kauana
     - KauzClay
     - kellyaa
-    - krithika369
     - knative-automation
     - knative-metrics-robot
     - knative-prow-releaser-robot
     - knative-prow-updater-robot
     - knative-test-reporter-robot
+    - krithika369
     - kvmware
     - lberk
     - lionelvillard
