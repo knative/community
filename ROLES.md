@@ -92,7 +92,7 @@ pre-submit tests are automatically run for their PRs. Members are expected to
 remain active contributors to the community.
 
 All members are encouraged to help with code reviews, although each PR
-must be reviewed and approved by an official [Approver](#approver).
+must be approved by an official [Approver](#approver).
 
 When reviewing, members should focus on code quality and correctness, including
 testing and factoring. Members might also review for more holistic issues, but
@@ -168,7 +168,6 @@ approver in an OWNERS file:
 The following apply to the part of the codebase for which one would be an
 approver in an OWNERS file:
 
-- Approver status may be a precondition to accepting large code contributions
 
 - Demonstrate sound technical judgment
 
@@ -195,7 +194,7 @@ shepherd Knative releases.
 
 ## Working Group Lead
 
-Working group technical leads, or just ‘tech leads’, are approvers of an entire
+Working group leads are approvers of an entire
 area that have demonstrated good judgement and responsibility. Tech leads accept
 design proposals and approve design decisions for their area of ownership, and
 are responsible for the overall technical health of their functional area.
@@ -206,9 +205,8 @@ For existing working groups:
 
 - Recognized as having expertise in the group’s subject matter
 
-- Approver for a relevant part of the codebase for at least 3 months
+- Approver for a relevant part of the codebase
 
-- Member for at least 6 months
 
 - Should have reviewed or contributed to substantial PRs to the codebase
 
@@ -216,14 +214,12 @@ For existing working groups:
 
 - Sponsored by the Technical Oversight Committee
 
-- Participant in the working group for at least 3 months, for example as a
-  reviewer or approver
+- Recognized in the project as an active participant
 
 - Recognized as having expertise in the group’s subject matter
 
 Additional requirements for leads of a new working group:
 
-- Originally authored or contributed major functionality to the group's area
 
 ### Responsibilities and privileges
 
@@ -251,7 +247,7 @@ The following apply to the area / component for which one would be a lead.
 
   - Identifying needed enhancements / areas for improvement / etc.
 
-  - Execute pay-down of technical debt
+  - Be aware of and work to reduce technical debt where it may exist
 
 - Design/proposal approval authority over the area / component, though
   escalation to the technical oversight committee is possible
@@ -266,7 +262,6 @@ The following apply to the area / component for which one would be a lead.
 - Write access to repo (assign issues/PRs, add/remove labels and milestones,
   edit issues and PRs, edit wiki, create/delete labels and milestones)
 
-- Capable of directly applying `lgtm` and `approve` labels for any PR
 
   - Expected to respect OWNERS files approvals and use
     [standard procedure for merging code](./REVIEWING.md#merging-prs)
