@@ -208,7 +208,6 @@ For existing working groups:
 
 - Approver for a relevant part of the codebase
 
-
 - Should have reviewed or contributed to substantial PRs to the codebase
 
 - Should be an `approver` in the OWNERS file
@@ -218,8 +217,6 @@ For existing working groups:
 - Recognized in the project as an active participant
 
 - Recognized as having expertise in the group’s subject matter
-
-Additional requirements for leads of a new working group:
 
 
 ### Responsibilities and privileges
