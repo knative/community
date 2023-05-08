@@ -39,7 +39,7 @@ is provided below the table.
 
   <tr>
     <td>Approver</td>
-    <td>Approve contributions from Members and Contributors</td>
+    <td>Approve PRs from Members and Contributors</td>
   </tr>
 
   <tr>
@@ -100,18 +100,19 @@ this is not a requirement.
 
 ### Requirements
 
-- Member of the Knative github org. Create a PR adding yourself as a Member to
+- Member of the Knative github org
+  - Create a PR adding yourself as a Member to
 [knative.yaml](../main/peribolos/knative.yaml) and/or to
-[knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml), and as a `reviewer`
-on the repositories to which you will be contributing. After the PR is
-merged you will receive an invite that you must accept to become a Member
-of these GitHub organizations.
+[knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml)
+  - After the PR is merged you will receive an invite that you must accept to become a Member
+  - If you would like to work towards becoming an Approver, open a second PR and add yourself as a `reviewer` on the repositories to which you will be contributing.
 
 - Has made multiple contributions to the project or community. Contributions
   might include, but are not limited to:
 
   - Authoring and reviewing PRs on GitHub
   - Submitting and commenting on issues on GitHub
+  - Triaging and resolving issues on GitHub
   - Contributing to working group or community discussions
 
 - Subscribed to
