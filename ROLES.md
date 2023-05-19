@@ -29,7 +29,7 @@ is provided below the table.
 
   <tr>
     <td>Contributor</td>
-    <td>Follow the CNCF Code of Conduct</c>
+    <td>Follow the CNCF Code of Conduct and contribute to the project</c>
   </tr>
 
   <tr>
@@ -44,7 +44,7 @@ is provided below the table.
 
   <tr>
     <td>Working Group Lead</td>
-    <td>Responsible for the technical health and growth of their functional area or subproject</td>
+    <td>Responsible for the health and growth of their functional area or subproject</td>
   </tr>
 </table>
 
@@ -73,7 +73,7 @@ contribute to the project in one or more of the following ways.
 - Show up at meetings
 - Submit feedback on issues and PRs
 - Test releases and patches and submit reviews
-- Run or helps run events
+- Run or help run events
 - Promote the project in public
 
 ## Member
@@ -100,7 +100,7 @@ this is not a requirement.
 
 ### Requirements
 
-- Member of the Knative github org
+- Member of the Knative GitHub org
   - Create a PR adding yourself as a Member to
 [knative.yaml](../main/peribolos/knative.yaml) and/or to
 [knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml)
@@ -126,16 +126,16 @@ this is not a requirement.
 
 - Responsive to issues and PRs assigned to them
 
-- Active owner of code they have contributed (unless ownership is explicitly
+- Active owner of contributions (unless ownership is explicitly
   transferred)
 
-  - Code is well tested
+  - Contributions are well tested
 
   - Tests consistently pass
 
-  - Addresses bugs or issues discovered after code is accepted
+  - Addresses bugs or issues discovered after a contribution
 
-Members who frequently contribute code should proactively perform code
+Members who frequently contribute should proactively perform
 reviews and may work towards becoming an Approver for the area that they
 are active in.
 
@@ -150,7 +150,7 @@ status is scoped to a part of the codebase.
 
 ### Requirements
 
-The following apply to the part of the codebase for which one would be an
+The following apply to the part of the repository for which one would be an
 approver in an OWNERS file:
 
 - Add yourself as a `writer` for the repositories you are responsible for
@@ -158,21 +158,21 @@ approver in an OWNERS file:
   [knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml). After
   this you should be an `approver` in the OWNERS file.
 
-- Reviewer of the codebase for at least 3 months
+- Reviewer of other people's contributions for about 3 months
 
-- Should have reviewed or contributed to substantial PRs to the codebase
+- Should have reviewed or contributed to non-trivial PRs
 
 - Nominated by a Working Group Lead with no objections from other leads
 
 ### Responsibilities and privileges
 
-The following apply to the part of the codebase for which one would be an
+The following apply to the part of the repository for which one would be an
 approver in an OWNERS file:
 
 
-- Demonstrate sound technical judgment
+- Demonstrate sound judgment
 
-* Responsible for project quality control via [code reviews](./REVIEWING.md)
+* Responsible for project quality control via [reviews](./REVIEWING.md)
 
   - Focus on holistic acceptance of contribution such as dependencies with other
     features, backward / forward compatibility, API and flag definitions, etc.
@@ -182,7 +182,7 @@ approver in an OWNERS file:
 
 * Mentor new contributors and project members
 
-* Approve code contributions for acceptance
+* Approve contributions for acceptance
 
 Approvers are also expected to participate in community contact rotations
 ([Serving](
@@ -206,9 +206,9 @@ For existing working groups:
 
 - Recognized as having expertise in the group’s subject matter
 
-- Approver for a relevant part of the codebase
+- Approver for a relevant part of the repository for about 3 months
 
-- Should have reviewed or contributed to substantial PRs to the codebase
+- Should have reviewed or contributed to non-trivial PRs
 
 - Should be an `approver` in the OWNERS file
 
