@@ -79,7 +79,7 @@ contribute to the project in one or more of the following ways.
 ## Member
 
 A Member is an established Contributor who regularly participates in the
-project. Members have privileges in both project repositories and elections,
+project. Members have privileges in project repositories,
 and as such are expected to act in the interests of the whole project.
 
 Members are expected to demonstrate their adherence to the
