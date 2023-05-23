@@ -623,14 +623,13 @@ orgs:
         description: Receive reviews for serving-related directories
         privacy: closed
         members:
-        - carlisia
-        - izabelacg
+        - KauzClay
         - jsanin-vmw
         - kauana
-        - KauzClay
-        - pradnyavmw
+        - kvmware
         - retocode
         - skonto
+        - xtreme-vikram-yadav
       Serving Triage:
         description: Ability to triage serving-related repos
         privacy: closed
