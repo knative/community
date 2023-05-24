@@ -96,15 +96,15 @@ repository is retired and no longer maintained.
 
 It is beneficial for Knative working groups to be able to own code outside the
 core `knative` organization, which is kept intentionally small and has a high
-bar for entry.  The `knative-sandbox` GitHub organization was created for this
-purpose.  Repositories in `knative-sandbox` are intended to give working groups
+bar for entry.  The `knative-extensions` GitHub organization was created for this
+purpose.  Repositories in `knative-extensions` are intended to give working groups
 more latitude to experiment with new ideas and to self-organize and manage
 contributions which may be important to the project but which do not need the
 level of governance of the core project.
 
-Note that `knative-sandbox` is **not** an incubation area for projects entering
+Note that `knative-extensions` is **not** an incubation area for projects entering
 the `knative` github org; in most cases, projects in the sandbox will remain
-there for the entire duration. `knative-sandbox` also provides a location for
+there for the entire duration. `knative-extensions` also provides a location for
 implementations of core interfaces which do not themselves need to be part of
 every knative installation, such as networking or eventing integrations. In the
 event that a working group wants a project in sandbox to be considered for
@@ -112,7 +112,7 @@ transfer to the `knative` org, the request will be considered on a case-by-case
 basis by joint decision of the Steering Committee and the Technical Oversight
 Committee.
 
-### Mechanics of working-group owned repositories in `knative-sandbox`
+### Mechanics of working-group owned repositories in `knative-extensions`
 
 #### Creation
 
@@ -189,7 +189,7 @@ The following are not required to create a working-group-owned repository:
 ### The fine print
 
 Steering and Trademark reserve the right to require that repos be removed or
-transferred out of the `knative-sandbox` organization and API groups to be
+transferred out of the `knative-extensions` organization and API groups to be
 renamed. This is intended to simplify the process in the common case, while
 giving Steering or Trademark the ability to step in and rectify problems that
 may arise.
@@ -198,7 +198,7 @@ may arise.
 
 Working groups are responsible for the upkeep of their repositories and are
 expected to keep a high quality bar. Inactive or non-conforming repositories
-should be archived, deleted, or moved out of the `knative-sandbox` organization,
+should be archived, deleted, or moved out of the `knative-extensions` organization,
 following the general [Procedure for Removal](#procedure-for-removal) for
 repositories.
 
