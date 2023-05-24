@@ -1,5 +1,5 @@
 orgs:
-  knative-sandbox:
+  knative-extension:
     name: Knative Sandbox
     description: Sandbox for projects that are part of the broader knative project
     email: admins@knative.dev
@@ -602,7 +602,7 @@ orgs:
             members:
             - travis-minke-sap
       Function Runtime Writers:
-        description: Grants write access to knative-sandbox/func-go
+        description: Grants write access to knative-extension/func-go
         privacy: closed
         repos:
           func-go: write

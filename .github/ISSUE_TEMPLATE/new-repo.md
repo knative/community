@@ -1,17 +1,17 @@
 ---
 name: Request a new repo
-about: Request creation of a new repo in the knative or knative-sandbox orgs
+about: Request creation of a new repo in the knative or knative-extension orgs
 title: "New Repo: `$REPONAME`"
 ---
 
-Use this issue type to request a new repo in `knative-sandbox` (or
+Use this issue type to request a new repo in `knative-extension` (or
 `knative`, which may require additional discussion).
 
 <!-- Update the information below with your request -->
 
 ## Repo information
 
-Org: `knative-sandbox`
+Org: `knative-extension`
 
 Repo: `$REPONAME`
 
@@ -31,7 +31,7 @@ The TOC is involved only in the **TOC Gate** steps.
 
 _You may not be able to use the Projects quick menu on this page. In that case, go to the project board and use the **Add cards** interface._
 
-- [ ] Send a PR adding entries for this repo in [`/peribolos/knative-sandbox.yaml`](https://github.com/knative/community/blob/main/peribolos/knative-sandbox.yaml). Please mind the alphabetical order when adding to a list.
+- [ ] Send a PR adding entries for this repo in [`/peribolos/knative-extension.yaml`](https://github.com/knative/community/blob/main/peribolos/knative-extension.yaml). Please mind the alphabetical order when adding to a list.
   - [ ] Add the repository and a description.
   - [ ] Grant `Knative Admin` the `admin` privilege.
   - [ ] Grant the sponsoring WG the `write` privilege.
@@ -43,15 +43,15 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
 - [ ] (golang) Send a PR to add aliases for `knative.dev/$REPONAME` import paths ([sample](https://github.com/knative/docs/pull/4160)).
 
 - [ ] Have a lead from the sponsoring WG bootstrap the Git repository by pushing an
-  appropriate "template" repository ([basic](https://github.com/knative-sandbox/wg-repository),
-  [sample-controller](https://github.com/knative-sandbox/sample-controller),
-  [sample-source](https://github.com/knative-sandbox/sample-source)) to the new repository as
+  appropriate "template" repository ([basic](https://github.com/knative-extension/wg-repository),
+  [sample-controller](https://github.com/knative-extension/sample-controller),
+  [sample-source](https://github.com/knative-extension/sample-source)) to the new repository as
   a git remote.  For example:
 
   ```shell
-    git clone https://github.com/knative-sandbox/sample-controller.git
+    git clone https://github.com/knative-extension/sample-controller.git
     cd sample-controller
-    git remote add newrepo https://github.com/knative-sandbox/$REPONAME.git
+    git remote add newrepo https://github.com/knative-extension/$REPONAME.git
     git push newrepo main
   ```
 
@@ -66,4 +66,4 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
 - [ ] Verify that within 24 hours the appropriate branch protections have been applied
    requiring `tide` to pass before PRs are merged.
 
-- [ ] (optional) Send a PR adding the repo to [knobots](https://github.com/knative-sandbox/knobots).
+- [ ] (optional) Send a PR adding the repo to [knobots](https://github.com/knative-extension/knobots).

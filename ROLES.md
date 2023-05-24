@@ -113,7 +113,7 @@ table describes:
 
 </table>
 
-Please note that repos in the knative-sandbox GitHub org are a reflection of the WG leads. These leads are free to use their judgement to set the bar for what is required to become an approver and/or owner for knative-sandbox repos they are responsible for.
+Please note that repos in the knative-extension GitHub org are a reflection of the WG leads. These leads are free to use their judgement to set the bar for what is required to become an approver and/or owner for knative-extension repos they are responsible for.
 
 ## Member
 
@@ -137,7 +137,7 @@ this is not a requirement.
 
 - Member of the Knative github org. Create a PR adding you to
 [knative.yaml](../main/peribolos/knative.yaml) and/or to
-[knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml) which after when
+[knative-extension.yaml](../main/peribolos/knative-extension.yaml) which after when
 merged will send you an invite that you have to accept to become a member
 of these organizations.
 
