@@ -157,6 +157,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       container-freezer:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -165,6 +166,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       scaling-group:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -173,6 +175,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       control-protocol:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -786,8 +789,6 @@ orgs:
         - retocode
         - skonto
         repos:
-          async-component: triage
-          container-freezer: triage
           control-protocol: triage
           kperf: triage
           net-certmanager: triage
@@ -798,13 +799,10 @@ orgs:
           net-kourier: triage
           reconciler-test: triage
           sample-controller: triage
-          scaling-group: triage
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
-          async-component: write
-          container-freezer: write
           control-protocol: write
           kperf: write
           net-certmanager: write
@@ -815,7 +813,6 @@ orgs:
           net-kourier: write
           reconciler-test: write
           sample-controller: write
-          scaling-group: write
         teams:
           Serving Approvers:
             description: The Working Group leads for Serving
@@ -841,24 +838,6 @@ orgs:
             description: The Working Group leads for User Experience (UX)
             members:
             - snneji
-
-      # Per-repo owners groups for CODEOWNERS below here
-      async-component Approvers:
-        description: Approver group for async-component - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          async-component: write
-        members:
-        - maximilien
-        - AngeloDanducci
-
-      container-freezer Approvers:
-        description: Approver group for container-freezer - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          container-freezer: write
-        members:
-        - psschwei
 
       control-protocol Approvers:
         description: Approver group for control-protocol - to be used in CODEOWNERS file
@@ -1210,14 +1189,6 @@ orgs:
         members:
         - nak3
         - skonto
-
-      scaling-group Approvers:
-        description: Approver group for scaling-group - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          scaling-group: write
-        members:
-        - jwcesign
 
       security-guard Approvers:
         description: Approver group for security-guard - to be used in CODEOWNERS file
