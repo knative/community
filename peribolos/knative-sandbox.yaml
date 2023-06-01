@@ -14,7 +14,6 @@ orgs:
     - csantanapr
     - dprotaso
     - dsimansk
-    - evankanderson
     - itsmurugappan
     - knative-prow-robot
     - lance
@@ -23,6 +22,8 @@ orgs:
     - salaboy
     - thelinuxfoundation
     - zroubalik
+    - kvmware
+    - upodroid
     members:
     - aavarghese
     - aliok
@@ -53,6 +54,7 @@ orgs:
     - dilipgb
     - duglin
     - eric-sap
+    - evankanderson
     - gab-satchi
     - gabo1208
     - haubenr
@@ -78,7 +80,6 @@ orgs:
     - knative-prow-updater-robot
     - knative-test-reporter-robot
     - krithika369
-    - kvmware
     - lberk
     - lionelvillard
     - liuchangyan
@@ -124,7 +125,6 @@ orgs:
     - thisisnotapril
     - travis-minke-sap
     - tzununbekov
-    - upodroid
     - vagababov
     - vaibhavjainwiz
     - vaikas
@@ -707,11 +707,11 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
-            - evankanderson
             - dprotaso
             - dsimansk
             - zroubalik
             - psschwei
+            - kvmware
             privacy: closed
           Knative Release Leads:
             privacy: closed
