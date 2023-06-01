@@ -25,6 +25,7 @@ groups:
       - tcnghia@gmail.com
       - paul@paulschweigert.com
       - paulschw@us.ibm.com
+      - kmahapatra@vmware.com
     members:
       - chizhg@google.com
       - chizhg@knative.team
@@ -37,7 +38,6 @@ groups:
       - fguardia@redhat.com
       - grantr@knative.team
       - houshengbo@knative.team
-      - kmahapatra@vmware.com
       - knakayam@redhat.com
       - krsna@knative.team
       - lionelvillard@knative.team
