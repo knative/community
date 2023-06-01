@@ -96,6 +96,7 @@ groups:
       - dprotaso@gmail.com
       - paul@paulschweigert.com
       - paulschw@us.ibm.com
+      - kmahapatra@vmware.com
+      - krsna@knative.team
     managers:
-       - kmahapatra@vmware.com
        - cy@borg.dev # Mahamed Ali
