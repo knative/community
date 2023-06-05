@@ -86,10 +86,11 @@ groups:
   - email-id: automation@knative.team
     name: automation
     description: |-
-      User group for administrators of knative-automation.
+      User group for administrators of Knative GitHub bots
     settings:
       AllowExternalMembers: "true"
       ReconcileMembers: "true"
+      WhoCanPostMessage: "ANYONE_CAN_POST"
     owners:
       - evana@vmware.com
       - evankanderson@knative.team
