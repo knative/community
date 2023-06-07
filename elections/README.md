@@ -94,6 +94,7 @@ This document outlines how to conduct Knative elections. See [TOC election proce
 - Post deadlines and reminders during the election season
 - It is impossible to see the results of the election until the election ends; for purposes of transparency with the community it is encouraged to release some statistics during the election (ie. “65% of the community has voted so far!”)
 
+Diary for 2023 Knative TOC election can be found in this [Gist](https://gist.github.com/aliok/136be152fef14912b9a73eb753b3267b) for reference.
 
 [election-recusal]: https://github.com/kubernetes/steering/blob/main/elections.md#steering-committee-and-election-officer-recusal
 
