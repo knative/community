@@ -187,6 +187,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       discovery:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -567,7 +568,6 @@ orgs:
         description: Grants write access to eventing-related repositories.
         privacy: closed
         repos:
-          control-protocol: write
           eventing-autoscaler-keda: write
           eventing-awssqs: write
           eventing-camel: write
@@ -641,7 +641,6 @@ orgs:
           async-component: admin
           container-freezer: admin
           scaling-group: admin
-          control-protocol: admin
           discovery: admin
           eventing-autoscaler-keda: admin
           eventing-awssqs: admin
@@ -792,7 +791,6 @@ orgs:
         - retocode
         - skonto
         repos:
-          control-protocol: triage
           kperf: triage
           net-certmanager: triage
           net-contour: triage
@@ -806,7 +804,6 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
-          control-protocol: write
           kperf: write
           net-certmanager: write
           net-contour: write
@@ -841,17 +838,6 @@ orgs:
             description: The Working Group leads for User Experience (UX)
             members:
             - snneji
-
-      control-protocol Approvers:
-        description: Approver group for control-protocol - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          control-protocol: write
-        members:
-        - eric-sap
-        - matzew
-        - lionelvillard
-        - travis-minke-sap
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
