@@ -93,3 +93,5 @@ other WGs to review and approve impacting changes.
    - Under "Branches" add a branch protection rule for `main`:
      - Require status checks to pass (except `...-go-coverage` checks)
      - Include administrators
+
+1. Encourage repository sponsor to add the repository to [CLOMonitor](https://clomonitor.io/projects/cncf/knative) ([more information](/REPOSITORY-GUIDELINES.md#clomonitor-and-clotributor)).

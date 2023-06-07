@@ -67,3 +67,5 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
    requiring `tide` to pass before PRs are merged.
 
 - [ ] (optional) Send a PR adding the repo to [knobots](https://github.com/knative-sandbox/knobots).
+
+- [ ] (optional) Send a PR adding the repo to [CLOMonitor](https://clomonitor.io/projects/cncf/knative) ([more information](/REPOSITORY-GUIDELINES.md#clomonitor-and-clotributor)).

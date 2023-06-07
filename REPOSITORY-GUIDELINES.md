@@ -202,6 +202,32 @@ should be archived, deleted, or moved out of the `knative-sandbox` organization,
 following the general [Procedure for Removal](#procedure-for-removal) for
 repositories.
 
+## CLOMonitor and CLOTributor
+
+[CLOMonitor](https://clomonitor.io/) is a CNCF tool that periodically checks open source projects repositories to verify they meet certain project health best practices.
+
+[CLOTributor](https://clotributor.dev/) is a CNCF tool that makes it easier to discover great opportunities to become a Cloud Native contributor.
+
+When a new repository is created, consider adding it to CLOMonitor [data file](https://github.com/cncf/clomonitor/blob/main/data/cncf.yaml), similar to:
+
+```yaml
+    - name: eventing
+      url: https://github.com/knative/eventing
+      check_sets:
+        - code-lite
+```
+
+This will make the repository will be listed in CLOMonitor's Knative project [health report](https://clomonitor.io/projects/cncf/knative). It will also make CLOTributor to list `good-first-issue`s of the new repository.
+
+If you would like to exclude the repository from the health report but have the `good-first-issues` in CLOTributor, add following the field:
+
+```yaml
+      exclude:
+        - clomonitor
+```
+
+Based on the maturity of the repository, it is possible to use different `check_sets`. See CLOMonitor's [checks documentation](https://github.com/cncf/clomonitor/blob/main/docs/checks.md) for more information.
+
 ---
 
 Contents of this page are adopted from the
