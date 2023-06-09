@@ -1,0 +1,54 @@
+name: Let us know you are using Knative
+description: If your company is using Knative in production or some stage of development, please add your company information here and it will be added to the ADOPTERS.md file.
+title: "[ADOPTERS]: ${COMPANY NAME HERE}"
+labels: ["kind/documentation", "size/S"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🥳 Thanks for taking the time to let us know you are using Knative! Welcome to the community. 🥳
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: company
+    attributes:
+      label: Company or Organization
+      description: Tell us what your company or organization's name is
+      placeholder: Company or organization name
+    validations:
+      required: true
+  - type: input
+    id: product
+    attributes:
+      label: Product or Project
+      description: If you would like to share the name of the product or project where you are using Knative, we'd love to know!
+      placeholder: Product or project name
+    validations:
+      required: false
+  - type: checkboxes
+    id: status
+    attributes:
+      label: Status
+      description: How are you using Knative today?
+      options:
+        - label: We have a project or product that is in development
+        - label: We have a project or product that is publicly available in prerelease form
+        - label: We have a project or product that is in production and publicly available
+        - label: We have a project or product that is in production and used internally
+  - type: input
+    id: info-link
+    attributes:
+      label: Where can we learn more?
+      description: If you have a link to information about your project or your usage of Knative, please let us know!
+      placeholder: https://link.to/awesome/project
+  - type: textarea
+    id: more
+    attributes:
+      label: More information
+      description: If you would like to share any more information with us about how you are using Knative or your plans for the future, we'd love to hear about it.
