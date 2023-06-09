@@ -50,5 +50,5 @@ body:
   - type: textarea
     id: more
     attributes:
-      label: More inforation
+      label: More information
       description: If you would like to share any more information with us about how you are using Knative or your plans for the future, we'd love to hear about it.
