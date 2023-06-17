@@ -75,11 +75,11 @@ the trademark committee invites your feedback there. See
 
 ## Committee Members
 
-| Member        | Organization | Profile                                            |
-| ------------- | ------------ | -------------------------------------------------- |
-| Mark Chmarny  | Google       | [@mchmarny](https://github.com/mchmarny)           |
-| Simon Moser   | IBM/RedHat   | [@smoser-ibm](https://github.com/smoser-ibm)       |
-| Evan Anderson | VMware       | [@evankanderson](https://github.com/evankanderson) |
+| Member        | Organization | Profile                                                        |
+| ------------- | ------------ | -------------------------------------------------------------- |
+| Mark Chmarny  | Google       | [@mchmarny](https://github.com/mchmarny)                       |
+| Simon Moser   | IBM/RedHat   | [@smoser-ibm](https://github.com/smoser-ibm)                   |
+| Sameer Vohra  | VMware       | [@xtreme-sameer-vohra](https://github.com/xtreme-sameer-vohra) |
 
 ## Decision process
 
