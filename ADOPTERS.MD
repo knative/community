@@ -28,6 +28,7 @@ If you would like to be included in this table, please submit a comment to [this
 | Optum*                             |                                                                        | Production               | [link](https://optum.com/)                                           |
 | Red Hat                            | Red Hat OpenShift Serverless                                           | Generally Available      | [link](https://www.openshift.com/learn/topics/serverless)            |
 | Scaleway*                          |                                                                        | Public Beta              | [link](https://www.scaleway.com/en)                                  |
+| Sonavi Labs                        | Sonavi Cloud                                                           | Public Beta              | [link](https://www.sonavilabs.com)                                   |
 | Spider.com*                        |                                                                        | Development              | [link](https://www.spider.com)                                       |
 | Tata Communications*               |                                                                        | Development              | [link](https://www.tatacommunications.com/solutions/cloud/platforms) |
 | TriggerMesh*                       |                                                                        | Production               | [link](https://triggermesh.com)                                      |
