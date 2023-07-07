@@ -91,7 +91,6 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | &nbsp;                                                   | Leads            | Company | Profile                                 |
 | -------------------------------------------------------- | ---------------- | ------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/dprotaso.png"> | Dave Protasowski | VMware  | [dprotaso](https://github.com/dprotaso) |
-| <img width="30px" src="https://github.com/psschwei.png"> | Paul Schweigert | IBM  | [psschwei](https://github.com/psschwei) |
 
 | &nbsp;                                                         | Emeritus Leads   | Subgroup   | Profile                                             | Duration  |
 | -------------------------------------------------------------- | ---------------- | ---------- | --------------------------------------------------- | --------- |
@@ -104,6 +103,7 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran       | Networking | [tcnghia](https://github.com/tcnghia)               | 2018-2021 |
 | <img width="30px" src="https://github.com/ZhiminXiang.png">    | Zhimin Xiang     | Networking | [ZhiminXiang](https://github.com/ZhiminXiang)       | 2020-2022 |
 | <img width="30px" src="https://github.com/nak3.png">           | Kenjiro Nakayama | Networking | [nak3](https://github.com/nak3)                     | 2020-2022 |
+| <img width="30px" src="https://github.com/psschwei.png"> | Paul Schweigert | Serving | [psschwei](https://github.com/psschwei) | 2022-2023 |
 
 
 ## Client
