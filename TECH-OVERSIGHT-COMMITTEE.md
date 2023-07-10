@@ -96,7 +96,6 @@ The current members of the TOC are shown below.
 | -------------------------------------------------------------- | ---------------- | ---------- | ---------------------------------------------------- | ---------- | --------
 | <img width="30px" src="https://github.com/dprotaso.png">       | Dave Protasowski | VMware     | [@dprotaso](https://github.com/dprotaso)             | 2021-05-26 | 2024     |
 | <img width="30px" src="https://github.com/dsimansk.png">       | David Simansky   | Red Hat    | [@dsimansk](https://github.com/dsimansk)             | 2022-06-01 | 2024     |
-| <img width="30px" src="https://github.com/zroubalik.png">      | Zbynek Roubalik  | Red Hat    | [@zroubalik](https://github.com/zroubalik)           | 2022-06-01 | 2024     |
 | <img width="30px" src="https://github.com/psschwei.png"> | Paul Schweigert | IBM | [@psschwei](https://github.com/psschwei) | 2022-09-28 | 2024 |
 | <img width="30px" src="https://github.com/kvmware.png"> | Krsna Mahapatra | VMWare | [@kvmware](https://github.com/kvmware) | 2023-06-01 | 2025 |
 ## Emeritus Committee Members
@@ -114,7 +113,8 @@ To recognize the folks that have served in the TOC in the past, below we list th
 | <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß      | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022       |
 | <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore      | [@mattmoor](https://github.com/mattmoor)             | 2022-02-07 | 2022       |
 | <img width="30px" src="https://github.com/n3wscott.png">       | Scott Nichols   | [@n3wscott](https://github.com/n3wscott)             | 2022-01-11 | 2022-09-27 |
-| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson   | [@evankanderson](https://github.com/evankanderson)        | Bootstrap  | 2023-06-01 |
+| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson   | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2023-06-01 |
+| <img width="30px" src="https://github.com/zroubalik.png">      | Zbynek Roubalik | [@zroubalik](https://github.com/zroubalik)           | 2022-06-01 | 2023-07-31 |
 
 ---
 
