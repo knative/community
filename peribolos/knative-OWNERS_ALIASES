@@ -59,7 +59,6 @@ aliases:
   - csantanapr
   - dprotaso
   - dsimansk
-  - evankanderson
   - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
@@ -76,6 +75,7 @@ aliases:
   - salaboy
   - smoser-ibm
   - upodroid
+  - xtreme-sameer-vohra
   - zroubalik
   knative-release-leads:
   - dsimansk
@@ -156,9 +156,9 @@ aliases:
   - psschwei
   - zroubalik
   trademark-committee:
-  - xtreme-sameer-vohra
   - mchmarny
   - smoser-ibm
+  - xtreme-sameer-vohra
   ux-wg-leads:
   - snneji
   ux-writers:
