@@ -530,7 +530,7 @@ orgs:
           Trademark Committee:
             description: Knative Trademark Committee
             maintainers:
-            - evankanderson
+            - xtreme-sameer-vohra
             - smoser-ibm
             - mchmarny
             privacy: closed
