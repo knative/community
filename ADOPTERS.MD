@@ -2,7 +2,7 @@
 
 This page contains a list of organizations who are using Knative in production or in stages of development.
 
-If you would like to be included in this table, please submit a comment to [this issue](https://github.com/knative/community/issues/696) and your information will be added.
+If you would like to be included in this table, please open [an issue](https://github.com/knative/community/issues/new?assignees=&labels=kind%2Fdocumentation%2Csize%2FS&projects=&template=ADOPTERS.yaml&title=%5BADOPTERS%5D%3A+%24%7BCOMPANY+NAME+HERE%7D) and your information will be added.
 
 ## Adopters
 
