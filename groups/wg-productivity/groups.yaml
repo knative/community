@@ -20,7 +20,6 @@ groups:
       ReconcileMembers: "true"
     members:
       - cy@knative.team
-      - racker-maha-66b7d200@gcp.rackspace.com # Mahamed Ali
       - cy@borg.dev # Mahamed Ali
       - kmahapatra@vmware.com
       - krsna@knative.team
