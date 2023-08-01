@@ -1,7 +1,7 @@
 orgs:
   knative-extensions:
-    name: Knative Sandbox
-    description: Sandbox for projects that are part of the broader knative project
+    name: Knative Extensions
+    description: Extensions and plugins that extend the Knative project.
     email: admins@knative.dev
     billing_email: admins@knative.dev
     has_organization_projects: true
