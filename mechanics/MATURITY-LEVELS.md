@@ -1,7 +1,7 @@
 # Knative Migration-To-Core Process
 
 This document provides a maturity model for projects in the Knative community.
-This includes projects in knative-sandbox (broader community) or as well as
+This includes projects in knative-extensions (broader community) or as well as
 projects in other GitHub organizations which wish to participate in the
 community process. It also defines a process for
 [migrating community projects into the Knative core](#migration-to-core), if
@@ -22,7 +22,7 @@ are not in the core may be equally valuable and production-worthy.
 
 In the initiating phase, a project is starting up, and may have minimal
 additional artifacts around the code itself. The minimum bar for an initiating
-project in the knative-sandbox org is:
+project in the knative-extensions org is:
 
 - [Adopted the CLA bot and OWNERS file / Tide merge process](https://github.com/knative/community/blob/master/mechanics/CREATING-A-SANDBOX-REPO.md#technical-requirements),
   to ensure IP ownership
@@ -42,9 +42,9 @@ This phase is suitable for:
 - Templates
 - etc
 
-Note that Initiating projects do not need to be hosted in knative-sandbox, and
+Note that Initiating projects do not need to be hosted in knative-extensions, and
 can be hosted under either individual accounts or in other orgs. For projects in
-knative-sandbox, review requirements and cadence are at the discretion of the
+knative-extensions, review requirements and cadence are at the discretion of the
 sponsoring WG lead.
 
 ## Usable
