@@ -48,9 +48,9 @@ is provided below the table.
   </tr>
 </table>
 
-Please note that repos in the knative-sandbox GitHub org are a reflection of
+Please note that repos in the knative-extensions GitHub org are a reflection of
 the WG leads. These leads are free to use their judgement to set the bar for
-what is required to become an approver and/or lead for knative-sandbox repos
+what is required to become an approver and/or lead for knative-extensions repos
 they are responsible for.
 
 ## Contributor
@@ -103,7 +103,7 @@ this is not a requirement.
 - Member of the Knative GitHub org
   - Create a PR adding yourself as a Member to
 [knative.yaml](../main/peribolos/knative.yaml) and/or to
-[knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml)
+[knative-extensions.yaml](../main/peribolos/knative-extensions.yaml)
   - After the PR is merged you will receive an invite that you must accept to become a Member
   - If you would like to work towards becoming an Approver, open a second PR and add yourself as a `reviewer` on the repositories to which you will be contributing.
 
@@ -155,7 +155,7 @@ approver in an OWNERS file:
 
 - Add yourself as a `writer` for the repositories you are responsible for
   in [knative.yaml](../main/peribolos/knative.yaml) and/or
-  [knative-sandbox.yaml](../main/peribolos/knative-sandbox.yaml). After
+  [knative-extensions.yaml](../main/peribolos/knative-extensions.yaml). After
   this you should be an `approver` in the OWNERS file.
 
 - Reviewer of other people's contributions for about 3 months

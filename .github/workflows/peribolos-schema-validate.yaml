@@ -32,5 +32,5 @@ jobs:
     - run: pip install strictyaml
     - name: Validate knative.yaml
       run: python3 peribolos/validate-schema.py peribolos/knative.yaml
-    - name: Validate knative-sandbox.yaml
-      run: python3 peribolos/validate-schema.py peribolos/knative-sandbox.yaml
+    - name: Validate knative-extensions.yaml
+      run: python3 peribolos/validate-schema.py peribolos/knative-extensions.yaml

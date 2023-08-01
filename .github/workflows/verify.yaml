@@ -14,7 +14,7 @@
 
 # This file is **********NOT********** automagically synced here by knobots
 # because its too hard to opt-in to a single action. See
-# https://github.com/knative-sandbox/knobots/pull/99 for a potential solution.
+# https://github.com/knative-extensions/knobots/pull/99 for a potential solution.
 
 name: Verify
 
