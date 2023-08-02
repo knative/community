@@ -53,6 +53,7 @@ orgs:
     - debasishbsws
     - devguyio
     - dilipgb
+    - dolfolife
     - duglin
     - eric-sap
     - evankanderson
@@ -66,6 +67,7 @@ orgs:
     - izabelacg
     - jcrossley3
     - jkjell
+    - joeeltgroth
     - jrangelramos
     - JRBANCEL
     - jsanin-vmw
@@ -92,6 +94,7 @@ orgs:
     - mattmoor
     - matzew
     - maximilien
+    - menehune23
     - mgencur
     - mvinkler
     - nader-ziada
@@ -967,12 +970,16 @@ orgs:
         repos:
           eventing-rabbitmq: write
         members:
+        - andrew-su
+        - bbtong
+        - chunyilyu
+        - dolfolife
+        - gabo1208
+        - ikvmw
+        - joeeltgroth
+        - menehune23
         - salaboy
         - xtreme-sameer-vohra
-        - ikvmw
-        - gabo1208
-        - chunyilyu
-
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
         privacy: closed
