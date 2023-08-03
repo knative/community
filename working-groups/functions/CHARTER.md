@@ -33,5 +33,5 @@ By providing higher-level abstractions through functions, the working group aims
 - Mauricio Salatino - VMWare
 
 ## Roadmap
-https://github.com/orgs/knative-sandbox/projects/7
+https://github.com/orgs/knative/projects/49
 
