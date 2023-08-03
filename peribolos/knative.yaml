@@ -218,8 +218,7 @@ orgs:
       eventing:
         allow_merge_commit: false
         allow_rebase_merge: false
-        description: Open source specification and implementation of Knative event
-          binding and delivery
+        description: Event-driven application platform for Kubernetes
         has_projects: true
         has_wiki: false
         homepage: https://knative.dev/docs/eventing
