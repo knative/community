@@ -20,7 +20,6 @@ orgs:
     - puerco
     - salaboy
     - thelinuxfoundation
-    - zroubalik
     - kvmware
     - upodroid
     members:
@@ -471,7 +470,6 @@ orgs:
         members:
           - lkingland
           - matejvasek
-          - zroubalik
           - jrangelramos
       Func Reviewers:
         description: Receive reviews for function repositories
@@ -546,7 +544,6 @@ orgs:
             maintainers:
             - dprotaso
             - dsimansk
-            - zroubalik
             - psschwei
             - kvmware
             privacy: closed

@@ -21,7 +21,6 @@ orgs:
     - psschwei
     - salaboy
     - thelinuxfoundation
-    - zroubalik
     - kvmware
     - upodroid
     members:
@@ -623,7 +622,6 @@ orgs:
           - matejvasek
           - nainaz
           - salaboy
-          - zroubalik
       Functastic Writers:
         description: Grants write access to function related repositories
         privacy: closed
@@ -635,7 +633,6 @@ orgs:
         - matejvasek
         - nainaz
         - salaboy
-        - zroubalik
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -713,7 +710,6 @@ orgs:
             maintainers:
             - dprotaso
             - dsimansk
-            - zroubalik
             - psschwei
             - kvmware
             privacy: closed
@@ -858,8 +854,7 @@ orgs:
         privacy: closed
         repos:
           eventing-autoscaler-keda: write
-        members:
-        - zroubalik
+        members: []
 
       eventing-awssqs Approvers:
         description: Approver group for eventing-awssqs - to be used in CODEOWNERS file
@@ -1000,7 +995,6 @@ orgs:
         - lance
         - lkingland
         - matejvasek
-        - zroubalik
         - nainaz
         - salaboy
 
@@ -1013,7 +1007,6 @@ orgs:
         - lance
         - lkingland
         - matejvasek
-        - zroubalik
         - nainaz
         - salaboy
 
