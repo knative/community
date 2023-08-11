@@ -103,11 +103,11 @@ contributions which may be important to the project but which do not need the
 level of governance of the core project.
 
 Note that `knative-extensions` is **not** an incubation area for projects entering
-the `knative` github org; in most cases, projects in the sandbox will remain
+the `knative` github org; in most cases, projects in the extensions will remain
 there for the entire duration. `knative-extensions` also provides a location for
 implementations of core interfaces which do not themselves need to be part of
 every knative installation, such as networking or eventing integrations. In the
-event that a working group wants a project in sandbox to be considered for
+event that a working group wants a project in extensions to be considered for
 transfer to the `knative` org, the request will be considered on a case-by-case
 basis by joint decision of the Steering Committee and the Technical Oversight
 Committee.

@@ -2,7 +2,7 @@
 
 ## Overview
 
-All [working groups](../working-groups/WORKING-GROUPS.md) should maintain a current and up-to-date roadmap in a GitHub Project. It's recommended that a _single org-level project_ in the `knative` org should be used; for linking to issues in `knative-extensions`, cards with the URL of the sandbox issue can be used.
+All [working groups](../working-groups/WORKING-GROUPS.md) should maintain a current and up-to-date roadmap in a GitHub Project. It's recommended that a _single org-level project_ in the `knative` org should be used; for linking to issues in `knative-extensions`, cards with the URL of the extensions issue can be used.
 
 Working Groups should link to their roadmaps in the Working Group documentation, and should work off the roadmap on a week-to-week or month-to-month basis.
 

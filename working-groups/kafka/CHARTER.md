@@ -2,7 +2,7 @@
 
 # Motivation/Abstract
 
-Within the knative-sandbox org, Kafka based eventing currently includes 2 channel implementations, 2 sources implementations, 1 broker and 1 sink with more than three vendors and multiple users for production workloads. With that, it is desired to have a dedicated forum for Kafka based Eventing which can be really beneficial both for exposure and focus.
+Within the knative-extensions org, Kafka based eventing currently includes 2 channel implementations, 2 sources implementations, 1 broker and 1 sink with more than three vendors and multiple users for production workloads. With that, it is desired to have a dedicated forum for Kafka based Eventing which can be really beneficial both for exposure and focus.
 
 # Mission Statement
 
@@ -16,7 +16,7 @@ The Eventing Kafka working group is the innovation forum for Kafka experts, end 
 
 # In Scope
 
-* Maintain a roadmap that covers all the Kafka based projects within knative-sandbox.
+* Maintain a roadmap that covers all the Kafka based projects within knative-extensions.
 * Funnel the feedback of Kafka eventing components and surface that to other working groups (e.g. to unblock a specific feature development or enhance the user experience of Kafka based Eventing components)
 * Work with the Docs WG to maintain and enhance the Kafka components docs.
 * Maintain a guide that helps Eventing users understand the differences between existing Kafka components and how to choose between them.

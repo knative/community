@@ -1,6 +1,6 @@
 ---
-title: "Creating a sandbox repo"
-linkTitle: "Sandbox repo process"
+title: "Creating a extensions repo"
+linkTitle: "extensions repo process"
 weight: 30
 type: "docs"
 ---
