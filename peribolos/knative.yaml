@@ -464,11 +464,11 @@ orgs:
           Functions WG Leads:
             description: The Working Group leads for Functions
             members:
-            - lance
+            - lkingland
             - salaboy
             privacy: closed
         members:
-          - lkingland
+          - lance
           - matejvasek
           - jrangelramos
       Func Reviewers:
@@ -666,7 +666,7 @@ orgs:
             members:
             - nak3
             - skonto
-            - psschwei            
+            - psschwei
             privacy: closed
           Serving WG Leads:
             description: The Working Group leads for Serving
