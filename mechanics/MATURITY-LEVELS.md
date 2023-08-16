@@ -24,7 +24,7 @@ In the initiating phase, a project is starting up, and may have minimal
 additional artifacts around the code itself. The minimum bar for an initiating
 project in the knative-extensions org is:
 
-- [Adopted the CLA bot and OWNERS file / Tide merge process](https://github.com/knative/community/blob/master/mechanics/CREATING-A-EXTENTIONS-REPO.md#technical-requirements),
+- [Adopted the CLA bot and OWNERS file / Tide merge process](https://github.com/knative/community/blob/master/mechanics/CREATING-AN-EXTENTIONS-REPO.md#technical-requirements),
   to ensure IP ownership
 - Adopt the
   [Knative Code of Conduct](https://github.com/knative/community/blob/master/CODE-OF-CONDUCT.md)

@@ -211,8 +211,13 @@ Knative Functions [CLI](https://github.com/knative/func), API, and [language pac
 
 | &nbsp;                                                           | Leads           | Company | Profile                                           |
 | ---------------------------------------------------------------- | --------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/lance.png"> | Lance Ball    | Red Hat     | [lance](https://github.com/lance) |
+| <img width="30px" src="https://github.com/lkingland.png"> | Luke Kingland    | Red Hat     | [lkingland](https://github.com/lkingland) |
 | <img width="30px" src="https://github.com/salaboy.png"> | Mauricio Salatino    | VMWare     | [salaboy](https://github.com/salaboy) |
+
+| &nbsp;                                                     | Emeritus Leads | Profile                                     | Duration  |
+| ---------------------------------------------------------- | -------------- | ------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/lance.png">   | Lance Ball    | [lance](https://github.com/lance)     | 2022-2023 |
+
 
 ## Operations
 
