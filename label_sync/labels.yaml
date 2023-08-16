@@ -95,14 +95,6 @@ default:
       target: both
       prowPlugin: label
       addedBy: humans
-    - color: 2596be
-      # (maybe) temporary label for CNCF migration, we'll
-      # decide if we still want to keep it after all issues under
-      # https://github.com/orgs/knative/projects/40/views/11 are addressed
-      name: kind/cncf-infra
-      target: both
-      prowPlugin: label
-      addedBy: humans
     - color: be4d25
       name: kind/cncf-after
       target: both
