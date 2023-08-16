@@ -47,7 +47,7 @@ evolve as the community and project change.
    promoting the community. This advice is non-binding on the Trademark
    Committee.
 1. Define and evolve the scope of the Knative community and extensions, and the
-   process for migration of sandbox projects into Knative Extensions.
+   process for migration of extensions projects into Knative Extensions.
 1. Receive and handle reports about [code of conduct](./CODE-OF-CONDUCT.md)
    violations and maintain confidentiality.
 1. Receive security reports; work with the appropriate technical leads to accept

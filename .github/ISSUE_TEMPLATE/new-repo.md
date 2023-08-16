@@ -23,7 +23,7 @@ Sponsoring WG:
 
 ## Actions to fulfill
 
-This area is used to track the [repo creation process](https://github.com/knative/community/blob/main/mechanics/CREATING-A-SANDBOX-REPO.md).
+This area is used to track the [repo creation process](https://github.com/knative/community/blob/main/mechanics/CREATING-AN-EXTENSIONS-REPO.md).
 The _requestor_ and _sponsoring WG lead_ should perform the steps listed below and cross out the checkmarks when done.
 The TOC is involved only in the **TOC Gate** steps.
 
@@ -59,7 +59,7 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
 
 - [ ] [Set up](https://github.com/knative/test-infra/blob/main/guides/prow_knative_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge) prow for a new repo
 
-- [ ] Bootstrap your CI jobs using [hack](https://github.com/knative/hack) project (look at other sandbox repos for reference)
+- [ ] Bootstrap your CI jobs using [hack](https://github.com/knative/hack) project (look at other extensions repos for reference)
 
 - [ ] Create a sample PR to verify Prow (e.g., edit the boilerplate README)
 
