@@ -28,7 +28,7 @@ project in the knative-extensions org is:
   to ensure IP ownership
 - Adopt the
   [Knative Code of Conduct](https://github.com/knative/community/blob/master/CODE-OF-CONDUCT.md)
-- [Sponsored by a WG lead](https://github.com/knative/community/blob/master/mechanics/CREATING-A-EXTENTIONS-REPO.md#criteria)
+- [Sponsored by a WG lead](https://github.com/knative/community/blob/master/mechanics/CREATING-AN-EXTENTIONS-REPO.md#criteria)
 - Have a README.md that describes the repo(s)
 
 Projects which do not declare otherwise are assumed to be in the "Initiating"
