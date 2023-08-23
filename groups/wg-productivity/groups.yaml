@@ -38,7 +38,7 @@ groups:
     members:
       - k8s-infra-rbac-prow@knative.dev
       - k8s-infra-rbac-release@knative.dev
-      # - k8s-infra-rbac-perf-tests@knative.dev
+      - k8s-infra-rbac-perf-tests@knative.dev
 
   # GKE RBAC groups:
   # - grant access to the `namespace-user` role for a single namespace on a cluster
@@ -69,16 +69,17 @@ groups:
       - paul@paulschweigert.com
       - paulschw@us.ibm.com
 
-  # - email-id: k8s-infra-rbac-perf-tests@knative.dev
-  #   name: k8s-infra-rbac-perf-tests
-  #   description: |-
-  #     Grants access to the shared community cluster perf-tests namespace
-  #   settings:
-  #     ReconcileMembers: "true"
-  #     WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
-  #   members:
+  - email-id: k8s-infra-rbac-perf-tests@knative.dev
+    name: k8s-infra-rbac-perf-tests
+    description: |-
+      Grants access to the shared community cluster perf-tests namespace
+    settings:
+      ReconcileMembers: "true"
+      WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
+    members:
+      - retocode@gmail.com
 
-  ###
+  ##
   ### Productivity WG related mailing lists
   ###
 
