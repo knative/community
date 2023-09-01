@@ -18,11 +18,6 @@ runtime.
 CI systems (Prow and Github Actions) should try to always be on the most recent patch
 level.
 
-## Consistency
-
-All repositories should depend on the same Golang version, evidenced in their respective
-`go.mod` file.
-
 ## Caution
 
 Major Golang version bumps (i.e. 1.14 to 1.15) should be made deliberately and should not
