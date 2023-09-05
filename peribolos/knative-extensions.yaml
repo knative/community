@@ -566,6 +566,7 @@ orgs:
         privacy: closed
         members:
         - creydr
+        - cali0707
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
@@ -941,6 +942,12 @@ orgs:
         - pierDipi
         - matzew
         - aliok
+
+      eventing-kafka-broker Reviewers:
+        description: Receive reviews for eventing-kafka-broker - to be used in CODEOWNERS file
+        privacy: closed
+        members:
+        - cali0707
 
       eventing-natss Approvers:
         description: Approver group for eventing-natss - to be used in CODEOWNERS file

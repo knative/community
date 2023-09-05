@@ -428,6 +428,7 @@ orgs:
         members:
         - aslom
         - creydr
+        - cali0707
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
