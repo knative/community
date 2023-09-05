@@ -95,14 +95,6 @@ default:
       target: both
       prowPlugin: label
       addedBy: humans
-    - color: 2596be
-      # (maybe) temporary label for CNCF migration, we'll
-      # decide if we still want to keep it after all issues under
-      # https://github.com/orgs/knative/projects/40/views/11 are addressed
-      name: kind/cncf-infra
-      target: both
-      prowPlugin: label
-      addedBy: humans
     - color: be4d25
       name: kind/cncf-after
       target: both
@@ -330,7 +322,7 @@ repos:
       description: Issues or PRs related to testing docker images found at /images
       target: issues
       addedBy: anyone
-  knative-sandbox/eventing-kafka-broker:
+  knative-extensions/eventing-kafka-broker:
     labels:
     - color: 782b90
       name: area/data-plane
@@ -364,7 +356,7 @@ repos:
       name: Install
       target: both
       addedBy: humans
-  knative-sandbox/net-istio:
+  knative-extensions/net-istio:
     labels:
     - color: 447cf6
       name: area/mesh

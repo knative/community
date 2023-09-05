@@ -7,7 +7,7 @@ info:
 -------------------------------------------------------------
 
 Hi, I am Zbynek Roubalik (Zbyněk Roubalík if you fancy Czech diacritics). My main focus have been around Functions on Knative,
-ie. some initial not so successful attempts, then Boson project, that later became Knative Sandbox project (`func` kn plugin)
+ie. some initial not so successful attempts, then Boson project, that later became Knative extensions project (`func` kn plugin)
 and is now on it's way to become a full-fledged Working Group, yay!
 The other area of my interest is around KEDA & Knative integration, which initally enabled autoscaling of a few Eventing Sources
 and has a great potential to be expanded even more. This really makes even the Knative infrastructure serverless.

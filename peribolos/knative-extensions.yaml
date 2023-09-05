@@ -1,7 +1,7 @@
 orgs:
-  knative-sandbox:
-    name: Knative Sandbox
-    description: Sandbox for projects that are part of the broader knative project
+  knative-extensions:
+    name: Knative Extensions
+    description: Extensions and plugins that extend the Knative project.
     email: admins@knative.dev
     billing_email: admins@knative.dev
     has_organization_projects: true
@@ -14,7 +14,6 @@ orgs:
     - csantanapr
     - dprotaso
     - dsimansk
-    - evankanderson
     - itsmurugappan
     - knative-prow-robot
     - lance
@@ -22,7 +21,8 @@ orgs:
     - psschwei
     - salaboy
     - thelinuxfoundation
-    - zroubalik
+    - kvmware
+    - upodroid
     members:
     - aavarghese
     - aliok
@@ -33,6 +33,7 @@ orgs:
     - bbtong
     - benmoss
     - BobyMCbobs
+    - Cali0707
     - cardil
     - carlisia
     - cdlliuy
@@ -46,11 +47,15 @@ orgs:
     - creydr
     - Cynocracy
     - daisy-ycguo
+    - dan-j
     - davidhadas
+    - debasishbsws
     - devguyio
     - dilipgb
+    - dolfolife
     - duglin
     - eric-sap
+    - evankanderson
     - gab-satchi
     - gabo1208
     - haubenr
@@ -61,6 +66,7 @@ orgs:
     - izabelacg
     - jcrossley3
     - jkjell
+    - joeeltgroth
     - jrangelramos
     - JRBANCEL
     - jsanin-vmw
@@ -76,11 +82,11 @@ orgs:
     - knative-prow-updater-robot
     - knative-test-reporter-robot
     - krithika369
-    - kvmware
     - lberk
     - lionelvillard
     - liuchangyan
     - lkingland
+    - Leo6Leo
     - macruzbar
     - maschmid
     - matejvasek
@@ -121,7 +127,6 @@ orgs:
     - thisisnotapril
     - travis-minke-sap
     - tzununbekov
-    - upodroid
     - vagababov
     - vaibhavjainwiz
     - vaikas
@@ -184,6 +189,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       discovery:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -564,7 +570,6 @@ orgs:
         description: Grants write access to eventing-related repositories.
         privacy: closed
         repos:
-          control-protocol: write
           eventing-autoscaler-keda: write
           eventing-awssqs: write
           eventing-camel: write
@@ -589,6 +594,7 @@ orgs:
             privacy: closed
         members:
         - aliok
+        - creydr
         - matzew
         - odacremolbap
         - lionelvillard
@@ -605,7 +611,7 @@ orgs:
             members:
             - travis-minke-sap
       Function Runtime Writers:
-        description: Grants write access to knative-sandbox/func-go
+        description: Grants write access to knative-extensions/func-go
         privacy: closed
         repos:
           func-go: write
@@ -615,7 +621,6 @@ orgs:
           - matejvasek
           - nainaz
           - salaboy
-          - zroubalik
       Functastic Writers:
         description: Grants write access to function related repositories
         privacy: closed
@@ -627,7 +632,6 @@ orgs:
         - matejvasek
         - nainaz
         - salaboy
-        - zroubalik
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -638,7 +642,6 @@ orgs:
           async-component: admin
           container-freezer: admin
           scaling-group: admin
-          control-protocol: admin
           discovery: admin
           eventing-autoscaler-keda: admin
           eventing-awssqs: admin
@@ -704,20 +707,20 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
-            - evankanderson
             - dprotaso
             - dsimansk
-            - zroubalik
             - psschwei
+            - kvmware
             privacy: closed
           Knative Release Leads:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
             maintainers:
             - dsimansk
-            - kvmware
+            - skonto
             - pierDipi
-            - pradnyavmw
+            - Vishal-Chdhry
+            - creydr
           Productivity Leads:
             #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
             privacy: closed
@@ -789,7 +792,6 @@ orgs:
         - retocode
         - skonto
         repos:
-          control-protocol: triage
           kperf: triage
           net-certmanager: triage
           net-contour: triage
@@ -803,7 +805,6 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
-          control-protocol: write
           kperf: write
           net-certmanager: write
           net-contour: write
@@ -819,12 +820,12 @@ orgs:
             members:
             - nak3
             - skonto
+            - psschwei            
             privacy: closed
           Serving WG Leads:
             description: The Working Group leads for Serving
             members:
             - dprotaso
-            - psschwei
             privacy: closed
           Networking WG Leads:
             description: The Working Group leads for Networking
@@ -839,17 +840,6 @@ orgs:
             members:
             - snneji
 
-      control-protocol Approvers:
-        description: Approver group for control-protocol - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          control-protocol: write
-        members:
-        - eric-sap
-        - matzew
-        - lionelvillard
-        - travis-minke-sap
-
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
         privacy: closed
@@ -863,8 +853,7 @@ orgs:
         privacy: closed
         repos:
           eventing-autoscaler-keda: write
-        members:
-        - zroubalik
+        members: []
 
       eventing-awssqs Approvers:
         description: Approver group for eventing-awssqs - to be used in CODEOWNERS file
@@ -976,13 +965,15 @@ orgs:
         repos:
           eventing-rabbitmq: write
         members:
+        - andrew-su
+        - bbtong
+        - chunyilyu
+        - dolfolife
+        - gabo1208
+        - ikvmw
+        - joeeltgroth
         - salaboy
         - xtreme-sameer-vohra
-        - ikvmw
-        - gabo1208
-        - chunyilyu
-        - gab-satchi
-
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
         privacy: closed
@@ -1002,7 +993,6 @@ orgs:
         - lance
         - lkingland
         - matejvasek
-        - zroubalik
         - nainaz
         - salaboy
 
@@ -1015,7 +1005,6 @@ orgs:
         - lance
         - lkingland
         - matejvasek
-        - zroubalik
         - nainaz
         - salaboy
 

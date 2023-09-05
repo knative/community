@@ -1,7 +1,7 @@
 # Knative Migration-To-Core Process
 
 This document provides a maturity model for projects in the Knative community.
-This includes projects in knative-sandbox (broader community) or as well as
+This includes projects in knative-extensions (broader community) or as well as
 projects in other GitHub organizations which wish to participate in the
 community process. It also defines a process for
 [migrating community projects into the Knative core](#migration-to-core), if
@@ -11,7 +11,7 @@ API", "eventing delivery" and "eventing sources", each of which has artifacts in
 multiple repositories).
 
 Note that this document intentionally refers to the process of selecting
-implemented interfaces from sandbox which should be part of core as
+implemented interfaces from extensions which should be part of core as
 "migration-to-core" rather than "incubation" or "promotion" – while it may be
 personally satisfying to have a component be part of the core, components which
 are not in the core may be equally valuable and production-worthy.
@@ -22,13 +22,13 @@ are not in the core may be equally valuable and production-worthy.
 
 In the initiating phase, a project is starting up, and may have minimal
 additional artifacts around the code itself. The minimum bar for an initiating
-project in the knative-sandbox org is:
+project in the knative-extensions org is:
 
-- [Adopted the CLA bot and OWNERS file / Tide merge process](https://github.com/knative/community/blob/master/mechanics/CREATING-A-SANDBOX-REPO.md#technical-requirements),
+- [Adopted the CLA bot and OWNERS file / Tide merge process](https://github.com/knative/community/blob/master/mechanics/CREATING-AN-EXTENTIONS-REPO.md#technical-requirements),
   to ensure IP ownership
 - Adopt the
   [Knative Code of Conduct](https://github.com/knative/community/blob/master/CODE-OF-CONDUCT.md)
-- [Sponsored by a WG lead](https://github.com/knative/community/blob/master/mechanics/CREATING-A-SANDBOX-REPO.md#criteria)
+- [Sponsored by a WG lead](https://github.com/knative/community/blob/master/mechanics/CREATING-AN-EXTENTIONS-REPO.md#criteria)
 - Have a README.md that describes the repo(s)
 
 Projects which do not declare otherwise are assumed to be in the "Initiating"
@@ -42,9 +42,9 @@ This phase is suitable for:
 - Templates
 - etc
 
-Note that Initiating projects do not need to be hosted in knative-sandbox, and
+Note that Initiating projects do not need to be hosted in knative-extensions, and
 can be hosted under either individual accounts or in other orgs. For projects in
-knative-sandbox, review requirements and cadence are at the discretion of the
+knative-extensions, review requirements and cadence are at the discretion of the
 sponsoring WG lead.
 
 ## Usable

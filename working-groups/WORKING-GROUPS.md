@@ -84,14 +84,13 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | Community Meeting Calendar | Wed 9:30am PST [Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)  |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit)                                                                        |
 | Document Folder            | [API](https://drive.google.com/drive/folders/1eCSmaqJ4LYcuS3TlOqjW0xETnzLmo6Q9), [Scaling](https://drive.google.com/drive/folders/1IDDkJ3FD47xFSHY3iA9U2Q8th3Cwdo0K), [Networking](https://docs.google.com/document/d/1rpag5-zffHGxAT7V4Nv28C_xx5Ow6L4mZuHbe3ebOQ8/edit) |
-| Repos                      | [`knative/serving`](https://github.com/knative/serving), [`knative/networking`](https://github.com/knative/networking), [`knative-sandbox/net-*`](https://github.com/knative-sandbox?q=net) |
+| Repos                      | [`knative/serving`](https://github.com/knative/serving), [`knative/networking`](https://github.com/knative/networking), [`knative-extensions/net-*`](https://github.com/knative-extensions?q=net) |
 | Slack Channel              | [#knative-serving](https://cloud-native.slack.com/archives/C04LMU0AX60) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                      |
 | Github Team WG Leads       | [@knative/serving-wg-leads](https://github.com/orgs/knative/teams/serving-wg-leads/members)                                                                        |
 
 | &nbsp;                                                   | Leads            | Company | Profile                                 |
 | -------------------------------------------------------- | ---------------- | ------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/dprotaso.png"> | Dave Protasowski | VMware  | [dprotaso](https://github.com/dprotaso) |
-| <img width="30px" src="https://github.com/psschwei.png"> | Paul Schweigert | IBM  | [psschwei](https://github.com/psschwei) |
 
 | &nbsp;                                                         | Emeritus Leads   | Subgroup   | Profile                                             | Duration  |
 | -------------------------------------------------------------- | ---------------- | ---------- | --------------------------------------------------- | --------- |
@@ -104,6 +103,7 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 | <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran       | Networking | [tcnghia](https://github.com/tcnghia)               | 2018-2021 |
 | <img width="30px" src="https://github.com/ZhiminXiang.png">    | Zhimin Xiang     | Networking | [ZhiminXiang](https://github.com/ZhiminXiang)       | 2020-2022 |
 | <img width="30px" src="https://github.com/nak3.png">           | Kenjiro Nakayama | Networking | [nak3](https://github.com/nak3)                     | 2020-2022 |
+| <img width="30px" src="https://github.com/psschwei.png"> | Paul Schweigert | Serving | [psschwei](https://github.com/psschwei) | 2022-2023 |
 
 
 ## Client
@@ -195,7 +195,7 @@ Event sources, bindings, FaaS framework, and orchestration
 
 ## Functions
 
-Knative Functions [CLI](https://github.com/knative/func), API, and [language packs](https://github.com/knative-sandbox/func-tastic)
+Knative Functions [CLI](https://github.com/knative/func), API, and [language packs](https://github.com/knative-extensions/func-tastic)
 
 | Artifact                   | Link                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------|
@@ -211,8 +211,13 @@ Knative Functions [CLI](https://github.com/knative/func), API, and [language pac
 
 | &nbsp;                                                           | Leads           | Company | Profile                                           |
 | ---------------------------------------------------------------- | --------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/lance.png"> | Lance Ball    | Red Hat     | [lance](https://github.com/lance) |
+| <img width="30px" src="https://github.com/lkingland.png"> | Luke Kingland    | Red Hat     | [lkingland](https://github.com/lkingland) |
 | <img width="30px" src="https://github.com/salaboy.png"> | Mauricio Salatino    | VMWare     | [salaboy](https://github.com/salaboy) |
+
+| &nbsp;                                                     | Emeritus Leads | Profile                                     | Duration  |
+| ---------------------------------------------------------- | -------------- | ------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/lance.png">   | Lance Ball    | [lance](https://github.com/lance)     | 2022-2023 |
+
 
 ## Operations
 
@@ -252,17 +257,17 @@ performance/scale/load testing infrastructure
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Community Meeting Calendar | Thursdays, 10am PST<br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com)                                                                                                                                                                                                                                                                                                                                                                                     |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/16go22yTCiaNBtdjghhrqSxnsWkMbxRs4i_gSIezGzUk/edit)                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1aPRwYGD4XscRIqlBzbNsSB886PJ0G-vZYUAAUjoydko)                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1_1oWL7skjVt2211T0aagpwzDEfWmEIQK)                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Repo prefixes              | `actions-*`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Repos                      | [`knative/hack`](https://github.com/knative/hack), [`knative/test-infra`](https://github.com/knative/test-infra), [`knative-sandbox/.github`](https://github.com/knative-sandbox/.github), [`knative-sandbox/kperf`](https://github.com/knative-sandbox/kperf), [`knative-sandbox/reconciler-test`](https://github.com/knative-sandbox/reconciler-test), [`knative-sandbox/knobots`](https://github.com/knative-sandbox/knobots) |
+| Repos                      | [`knative/hack`](https://github.com/knative/hack), [`knative/test-infra`](https://github.com/knative/test-infra), [`knative-extensions/.github`](https://github.com/knative-extensions/.github), [`knative-extensions/kperf`](https://github.com/knative-extensions/kperf), [`knative-extensions/reconciler-test`](https://github.com/knative-extensions/reconciler-test), [`knative-extensions/knobots`](https://github.com/knative-extensions/knobots) |
 | Slack Channel              | [#knative-productivity](https://cloud-native.slack.com/archives/C04LY4M2G49) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Github Team WG leads       | [@knative/productivity-wg-leads](https://github.com/orgs/knative/teams/productivity-wg-leads/members)                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 | &nbsp;                                                   | Leads            | Company   | Profile                                 |
 | -------------------------------------------------------- | ---------------- | --------- | --------------------------------------- |
 | <img width="30px" src="https://github.com/kvmware.png">  | Krsna Mahapatra  | VMware    | [kvmware](https://github.com/kvmware)   |
-| <img width="30px" src="https://github.com/upodroid.png">  | Mahamed Ali     | Rackspace Technology | [upodroid](https://github.com/upodroid) |
+| <img width="30px" src="https://github.com/upodroid.png">  | Mahamed Ali     | Cisco     | [upodroid](https://github.com/upodroid) |
 
 | &nbsp;                                                    | Emeritus Leads | Profile                                   | Duration  |
 | --------------------------------------------------------- | -------------- | ----------------------------------------- | --------- |
@@ -308,7 +313,7 @@ The Eventing Kafka was a dedicated working group for Kafka-based Knative Eventin
 | Artifact                   | Link                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------|
 | Charter / Mission          | [Charter](/working-groups/kafka/CHARTER.md)                                                                              |
-| Roadmap                    | [Roadmap](https://github.com/orgs/knative-sandbox/projects/8)                                                            |
+| Roadmap                    | [Roadmap](https://github.com/orgs/knative-extensions/projects/8)                                                            |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                      |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1ykBVPtiosGoDjzBklMt9HxbinGrMod6itOvfe6DeVmA/edit)                            |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1ra5czyKOaMsWuwWXzkhce6_g6rFBdCxg?usp=sharing)                           |

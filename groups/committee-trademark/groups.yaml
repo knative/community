@@ -8,8 +8,7 @@ groups:
       ReconcileMembers: "true"
     owners:
       # VMware
-      - evankanderson@knative.team
-      - evana@vmware.com
+      - vsameer@vmware.com
       # IBM / RedHat
       - sdmoser@googlemail.com
       - SMOSER@de.ibm.com

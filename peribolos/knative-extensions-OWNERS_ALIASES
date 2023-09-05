@@ -1,5 +1,5 @@
 # This file is auto-generated from peribolos.
-# Do not modify this file, instead modify peribolos/knative-sandbox.yaml
+# Do not modify this file, instead modify peribolos/knative-extensions.yaml
 
 aliases:
   client-wg-leads:
@@ -10,11 +10,6 @@ aliases:
   - dsimansk
   - navidshaikh
   - rhuss
-  control-protocol-approvers:
-  - eric-sap
-  - lionelvillard
-  - matzew
-  - travis-minke-sap
   discovery-approvers:
   - lberk
   docs-wg-leads:
@@ -23,8 +18,7 @@ aliases:
   - csantanapr
   - psschwei
   - snneji
-  eventing-autoscaler-keda-approvers:
-  - zroubalik
+  eventing-autoscaler-keda-approvers: []
   eventing-awssqs-approvers:
   - lberk
   - matzew
@@ -73,10 +67,13 @@ aliases:
   - lberk
   - matzew
   eventing-rabbitmq-approvers:
+  - andrew-su
+  - bbtong
   - chunyilyu
-  - gab-satchi
+  - dolfolife
   - gabo1208
   - ikvmw
+  - joeeltgroth
   - salaboy
   - xtreme-sameer-vohra
   eventing-redis-approvers:
@@ -90,6 +87,7 @@ aliases:
   - pierDipi
   eventing-writers:
   - aliok
+  - creydr
   - lionelvillard
   - matzew
   - odacremolbap
@@ -100,28 +98,24 @@ aliases:
   - matejvasek
   - nainaz
   - salaboy
-  - zroubalik
   functastic-writers:
   - lance
   - lkingland
   - matejvasek
   - nainaz
   - salaboy
-  - zroubalik
   function-runtime-approvers:
   - lance
   - lkingland
   - matejvasek
   - nainaz
   - salaboy
-  - zroubalik
   function-runtime-writers:
   - lance
   - lkingland
   - matejvasek
   - nainaz
   - salaboy
-  - zroubalik
   homebrew-kn-plugins-approvers:
   - dsimansk
   - maximilien
@@ -166,10 +160,11 @@ aliases:
   - christophd
   - rhuss
   knative-admin:
+  - Vishal-Chdhry
+  - creydr
   - csantanapr
   - dprotaso
   - dsimansk
-  - evankanderson
   - itsmurugappan
   - knative-automation
   - knative-prow-releaser-robot
@@ -180,16 +175,16 @@ aliases:
   - lance
   - nainaz
   - pierDipi
-  - pradnyavmw
   - psschwei
   - salaboy
+  - skonto
   - upodroid
-  - zroubalik
   knative-release-leads:
+  - Vishal-Chdhry
+  - creydr
   - dsimansk
-  - kvmware
   - pierDipi
-  - pradnyavmw
+  - skonto
   knative-robots:
   - knative-automation
   - knative-prow-releaser-robot
@@ -247,6 +242,7 @@ aliases:
   - evankanderson
   serving-approvers:
   - nak3
+  - psschwei
   - skonto
   serving-reviewers:
   - KauzClay
@@ -262,7 +258,6 @@ aliases:
   - skonto
   serving-wg-leads:
   - dprotaso
-  - psschwei
   serving-writers:
   - dprotaso
   - nak3
@@ -277,9 +272,8 @@ aliases:
   technical-oversight-committee:
   - dprotaso
   - dsimansk
-  - evankanderson
+  - kvmware
   - psschwei
-  - zroubalik
   ux-wg-leads:
   - snneji
   ux-writers:

@@ -18,7 +18,7 @@ My main focus in the area of Knative Security is two folded:
 
 Knative creates uniformity between deployed services, I see such uniformity as a great opportunity to also secure such services "out-of-the-box".
 I aim for Knative to be a secure-by-default system that deploys secure-by-default services. As part of this Security Agenda:
-- I contributed Security-Guard to Knative (https://github.com/knative-sandbox/security-guard)
+- I contributed Security-Guard to Knative (https://github.com/knative-extensions/security-guard)
 - I now work with others in the community to expedite support for end-to-end TLS and mTLS that will assure service data is secured, even without a service mesh.
 
 A Second important aspect of my work is in helping the Knative community grow by showing its value for the deployment of microservices (beyond serverless, and functions).
