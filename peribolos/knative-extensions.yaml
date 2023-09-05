@@ -838,7 +838,9 @@ orgs:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
             members:
-            - snneji
+            - cali0707
+            - mmejia02
+            - zainabhusain227
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file

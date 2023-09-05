@@ -681,8 +681,8 @@ orgs:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
             members:
-            - snneji
+            - cali0707
+            - mmejia02
+            - zainabhusain227
         repos:
-          docs: write
-          website: write
           ux: write
