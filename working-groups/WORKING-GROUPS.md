@@ -127,7 +127,10 @@ conventions
 
 | &nbsp;                                                      | Leads          | Company | Profile                                       |
 | ----------------------------------------------------------- | -------------- | ------- | --------------------------------------------- |
-| <img width="30px" src="https://github.com/dsimansk.png">    | David Simansky | Red Hat | [dsimansk](https://github.com/dsimansk)       | | <img width="30px" src="https://github.com/navidshaikh.png"> | Navid Shaikh   | VMware  | [navidshaikh](https://github.com/navidshaikh) | | <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß     | Red Hat | [rhuss](https://github.com/rhuss)             |
+| <img width="30px" src="https://github.com/dsimansk.png">    | David Simansky | Red Hat | [dsimansk](https://github.com/dsimansk)       |
+| <img width="30px" src="https://github.com/navidshaikh.png"> | Navid Shaikh   | VMware  | [navidshaikh](https://github.com/navidshaikh) |
+| <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß     | Red Hat | [rhuss](https://github.com/rhuss)             |
+
 | &nbsp;                                                     | Emeritus Leads  | Profile                                     | Duration  |
 | ---------------------------------------------------------- | --------------- | ------------------------------------------- | --------- |
 | <img width="30px" src="https://github.com/sixolet.png">    | Naomi Seyfer    | [sixolet](https://github.com/sixolet)       | 2018-2021 |
