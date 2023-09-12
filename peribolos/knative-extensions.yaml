@@ -14,11 +14,11 @@ orgs:
     - csantanapr
     - dprotaso
     - dsimansk
-    - itsmurugappan
     - knative-prow-robot
     - lance
     - nainaz
     - psschwei
+    - puerco
     - salaboy
     - thelinuxfoundation
     - kvmware
@@ -63,6 +63,7 @@ orgs:
     - hhk7734
     - houshengbo
     - ikvmw
+    - itsmurugappan
     - izabelacg
     - jcrossley3
     - jkjell
