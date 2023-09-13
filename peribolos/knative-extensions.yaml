@@ -12,6 +12,7 @@ orgs:
     - caniszczyk
     - cncf-ci
     - csantanapr
+    - davidhadas
     - dprotaso
     - dsimansk
     - knative-prow-robot
@@ -48,7 +49,6 @@ orgs:
     - Cynocracy
     - daisy-ycguo
     - dan-j
-    - davidhadas
     - debasishbsws
     - devguyio
     - dilipgb
@@ -709,6 +709,7 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
+            - davidhadas
             - dprotaso
             - dsimansk
             - psschwei
