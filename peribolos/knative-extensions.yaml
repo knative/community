@@ -422,6 +422,7 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
       kperf:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: A benchmarking tool to evaluate Knative performance
@@ -750,7 +751,6 @@ orgs:
         privacy: closed
         repos:
           .github: write
-          kperf: write
           knobots: write
         members:
         - cardil
@@ -795,7 +795,6 @@ orgs:
         - retocode
         - skonto
         repos:
-          kperf: triage
           net-certmanager: triage
           net-contour: triage
           net-gateway-api: triage
@@ -808,7 +807,6 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
-          kperf: write
           net-certmanager: write
           net-contour: write
           net-gateway-api: write
@@ -1125,16 +1123,6 @@ orgs:
         members:
         - christophd
         - rhuss
-
-      kperf Approvers:
-        description: Approver group for kperf - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          kperf: write
-        members:
-        - maximilien
-        - psschwei
-        - chzhyang
 
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
