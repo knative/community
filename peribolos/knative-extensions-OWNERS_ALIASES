@@ -242,9 +242,7 @@ aliases:
   - psschwei
   - skonto
   serving-progressive-rollout-approvers:
-  - dprotaso
   - houshengbo
-  - skonto
   - sukumargaonkar
   - yuzisun
   serving-reviewers:
