@@ -241,6 +241,12 @@ aliases:
   - nak3
   - psschwei
   - skonto
+  serving-progressive-rollout-approvers:
+  - dprotaso
+  - houshengbo
+  - skonto
+  - sukumargaonkar
+  - yuzisun
   serving-reviewers:
   - KauzClay
   - jsanin-vmw
