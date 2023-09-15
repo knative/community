@@ -748,7 +748,6 @@ orgs:
         privacy: closed
         repos:
           monitoring: write
-          serving-progressive-rollout: write
         members:
         - dprotaso
         - upodroid
@@ -1199,8 +1198,6 @@ orgs:
           - houshengbo
           - yuzisun
           - sukumargaonkar
-          - dprotaso
-          - skonto
 
       security-guard Approvers:
         description: Approver group for security-guard - to be used in CODEOWNERS file
