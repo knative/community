@@ -308,7 +308,7 @@ Security concerns across Knative components
 
 ## Documentation (previously Documentation + User Experience)
 
-Documentation concerns across Knative and Knative Extensions,
+Documentation concerns across Knative -
 especially the [Docs](https://github.com/knative/docs/) repo.
 
 | Artifact                   | Link                                                                                                                                                             |
