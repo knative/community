@@ -306,7 +306,7 @@ Security concerns across Knative components
 
 # Emeritus Working Groups
 
-## Documentation (previously Documentation + User Experience)
+## Documentation
 
 Documentation concerns across Knative -
 especially the [Docs](https://github.com/knative/docs/) repo.
