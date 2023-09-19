@@ -513,6 +513,14 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+      serving-progressive-rollout:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative Serving extension to roll out the revision progressively
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       security-guard:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -688,6 +696,7 @@ orgs:
           reconciler-test: admin
           sample-controller: admin
           sample-source: admin
+          serving-progressive-rollout: admin
           security-guard: admin
           wg-repository: admin
         teams:
@@ -805,6 +814,7 @@ orgs:
           net-kourier: triage
           reconciler-test: triage
           sample-controller: triage
+          serving-progressive-rollout: triage
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
@@ -817,6 +827,7 @@ orgs:
           net-kourier: write
           reconciler-test: write
           sample-controller: write
+          serving-progressive-rollout: write
         teams:
           Serving Approvers:
             description: The Working Group leads for Serving
@@ -1177,6 +1188,16 @@ orgs:
         members:
         - nak3
         - skonto
+
+      serving-progressive-rollout Approvers:
+        description: Approver group for serving-progressive-rollout - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          serving-progressive-rollout: write
+        members:
+          - houshengbo
+          - yuzisun
+          - sukumargaonkar
 
       security-guard Approvers:
         description: Approver group for security-guard - to be used in CODEOWNERS file
