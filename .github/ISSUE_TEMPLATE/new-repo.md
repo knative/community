@@ -38,24 +38,18 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
 
 **TOC Gate**: _Once the TOC has approved the above, it will merge and Peribolos will create an empty repository._
 
-- [ ] Ask Steering to add the repo to EasyCLA in [Slack](https://cloud-native.slack.com/archives/C04LQCW0C03/p1676466607624469).
-
 - [ ] (golang) Send a PR to add aliases for `knative.dev/$REPONAME` import paths ([sample](https://github.com/knative/docs/pull/4160)).
 
-- [ ] Have a lead from the sponsoring WG bootstrap the Git repository by pushing an
+- [ ] Have a lead from the sponsoring WG bootstrap the Git repository by using an 
   appropriate "template" repository ([basic](https://github.com/knative-extensions/wg-repository),
   [sample-controller](https://github.com/knative-extensions/sample-controller),
-  [sample-source](https://github.com/knative-extensions/sample-source)) to the new repository as
-  a git remote.  For example:
+  [sample-source](https://github.com/knative-extensions/sample-source)).
 
-  ```shell
-    git clone https://github.com/knative-extensions/sample-controller.git
-    cd sample-controller
-    git remote add newrepo https://github.com/knative-extensions/$REPONAME.git
-    git push newrepo main
-  ```
+  Follow the instructions from [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
-- [ ] Add your GitHub ID to the `OWNERS` file for your repo.
+- [ ] Send a PR adding the repo to [knobots](https://github.com/knative-extensions/knobots). Then run the community files update action to propagate new OWNER_ALIASES.
+
+- [ ] Add your GitHub Team to the `OWNERS` file for your repo.
 
 - [ ] [Set up](https://github.com/knative/test-infra/blob/main/guides/prow_knative_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge) prow for a new repo
 
@@ -65,7 +59,5 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
 
 - [ ] Verify that within 24 hours the appropriate branch protections have been applied
    requiring `tide` to pass before PRs are merged.
-
-- [ ] (optional) Send a PR adding the repo to [knobots](https://github.com/knative-extensions/knobots).
 
 - [ ] (optional) Send a PR adding the repo to [CLOMonitor](https://clomonitor.io/projects/cncf/knative) ([more information](/REPOSITORY-GUIDELINES.md#clomonitor-and-clotributor)).
