@@ -94,10 +94,11 @@ The current members of the TOC are shown below.
 
 | &nbsp;                                                         | Member           | Company    | Profile                                              | Term Start | Term End |
 | -------------------------------------------------------------- | ---------------- | ---------- | ---------------------------------------------------- | ---------- | --------
+| <img width="30px" src="https://github.com/davidhadas.png">     | David Hadas      | IBM        | [@davidhadas](https://github.com/davidhadas)         | 2023-09-12 | 2024     |
 | <img width="30px" src="https://github.com/dprotaso.png">       | Dave Protasowski | VMware     | [@dprotaso](https://github.com/dprotaso)             | 2021-05-26 | 2024     |
 | <img width="30px" src="https://github.com/dsimansk.png">       | David Simansky   | Red Hat    | [@dsimansk](https://github.com/dsimansk)             | 2022-06-01 | 2024     |
-| <img width="30px" src="https://github.com/psschwei.png"> | Paul Schweigert | IBM | [@psschwei](https://github.com/psschwei) | 2022-09-28 | 2024 |
-| <img width="30px" src="https://github.com/kvmware.png"> | Krsna Mahapatra | VMWare | [@kvmware](https://github.com/kvmware) | 2023-06-01 | 2025 |
+| <img width="30px" src="https://github.com/psschwei.png">       | Paul Schweigert  | IBM        | [@psschwei](https://github.com/psschwei)             | 2022-09-28 | 2024     |
+| <img width="30px" src="https://github.com/kvmware.png">        | Krsna Mahapatra  | VMWare     | [@kvmware](https://github.com/kvmware)               | 2023-06-01 | 2025     |
 ## Emeritus Committee Members
 
 To recognize the folks that have served in the TOC in the past, below we list the previous members of the TOC (sorted by their 'Term End').

@@ -46,8 +46,7 @@ using Knative.
 
 Knative is an open source project with an active development community. The
 project was started by Google but has contributions from a growing number of
-industry-leading companies. For a current list of the authors, see
-[Authors](https://github.com/knative/serving/blob/main/AUTHORS).
+industry-leading companies.
 
 ### Authoring samples
 

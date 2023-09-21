@@ -11,6 +11,7 @@ orgs:
     - caniszczyk
     - cncf-ci
     - csantanapr
+    - davidhadas
     - dprotaso
     - dsimansk
     - knative-prow-robot
@@ -45,7 +46,6 @@ orgs:
     - creydr
     - Cynocracy
     - daisy-ycguo
-    - davidhadas
     - debasishbsws
     - devguyio
     - dilipgb
@@ -123,6 +123,7 @@ orgs:
     - snneji
     - steren
     - steven0711dong
+    - sukumargaonkar
     - Taction
     - tardieu
     - tcnghia
@@ -142,6 +143,7 @@ orgs:
     - yanweiguo
     - yaron2
     - yuvalif
+    - yuzisun
     - zhanggbj
     - zhaojizhuang
     - ZhiminXiang
@@ -428,6 +430,7 @@ orgs:
         members:
         - aslom
         - creydr
+        - cali0707
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
@@ -542,6 +545,7 @@ orgs:
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
+            - davidhadas
             - dprotaso
             - dsimansk
             - psschwei
