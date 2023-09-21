@@ -324,11 +324,11 @@ especially the [Docs](https://github.com/knative/docs/) repo.
 | Github Repository          | [/docs](https://github.com/knative/docs)                                                                                  |
 | Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                                |
 
-| &nbsp;                                                        | Leads            | Company  | Profile                                           |
-| ------------------------------------------------------------- | ---------------- | -------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/snneji.png">        | Samia Nneji      | VMware   | [snneji](https://github.com/snneji)               |
-| <img width="30px" src="https://github.com/abrennan89.png">    | Ashleigh Brennan | [abrennan89](https://github.com/abrennan89)       | 2020-2023 |
-| <img width="30px" src="https://github.com/samodell.png">      | Sam O'Dell       | [samodell](https://github.com/samodell)           | 2018-2020 |
+| &nbsp;                                                        | Leads            | Company  | Profile                                           | Duration  |
+| ------------------------------------------------------------- | ---------------- | -------- | ------------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/snneji.png">        | Samia Nneji      | VMware   | [snneji](https://github.com/snneji)               | 2021-2023 |
+| <img width="30px" src="https://github.com/abrennan89.png">    | Ashleigh Brennan | Red Hat  | [abrennan89](https://github.com/abrennan89)       | 2020-2023 |
+| <img width="30px" src="https://github.com/samodell.png">      | Sam O'Dell       | Google   | [samodell](https://github.com/samodell)           | 2018-2020 |
 
 ## Eventing Kafka
 
