@@ -56,7 +56,7 @@ The current working groups are:
 - [Working Groups](#working-groups)
   - [Serving](#serving)
   - [Client](#client)
-  - [Documentation + User Experience](#documentation--user-experience)
+  - [User Experience](#user-experience)
   - [Eventing](#eventing)
   - [Functions](#functions)
   - [Operations](#operations)
@@ -65,6 +65,7 @@ The current working groups are:
 - [Emeritus Working Groups](#emeritus-working-groups)
   - [Eventing Kafka](#eventing-kafka)
   - [Build](#build)
+  - [Documentation](#documentation)
   - [Event Delivery (previously called Eventing Channels Working Group)](#event-delivery-previously-called-eventing-channels-working-group)
   - [Eventing Sources](#eventing-sources)
   - [Observability](#observability)
@@ -135,34 +136,33 @@ conventions
 | <img width="30px" src="https://github.com/sixolet.png">    | Naomi Seyfer    | [sixolet](https://github.com/sixolet)       | 2018-2021 |
 | <img width="30px" src="https://github.com/cppforlife.png"> | Dmitriy Kalinin | [cppforlife](https://github.com/cppforlife) | 2018-2020 |
 
-## Documentation + User Experience
+## User Experience
 
-User Experience concerns across Knative components and Knative documentation,
-especially the [Docs](https://github.com/knative/docs/) repo.
-
+User Experience concerns across Knative components, as well as designer contribution experience.
 | Artifact                   | Link                                                                                                                                                             |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Charter / Mission          | [Charter](https://docs.google.com/document/d/1-opvSEzJMRbB6fybvjuCyhFBZvHwXnkbgyOIzjlmrpo/edit)                                                                  |
+| Charter / Mission          | [Charter](https://docs.google.com/document/d/1b_CliwhqjwcHHLh_UU-DwsRMDxE50cGc6vuJh0OW57E/edit?usp=sharing)                                                      |
 | Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                           |
 | Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                              |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                             |
-| Community Meeting Calendar | Every other Tuesday from 9:30-10:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
-| Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                                        |
+| Community Meeting Calendar | Every other Thursday from 9:00-10:00am EST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1VCObP1IQFPDGzGG5KIgytQwX7RrU0tyeB7FGjkY0pPk/edit)                                                                    |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                                   |
-| Slack Channel              | [#knative-documentation](https://cloud-native.slack.com/archives/C04LY5G9ED7) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                            |
-| Github Repository          | [/ux](https://github.com/knative/ux) + [/docs](https://github.com/knative/docs)                                                                                  |
+| Slack Channel              | [#knative-ux](https://cloud-native.slack.com/messages/knative-ux) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                         |
+| Github Repository          | [/ux](https://github.com/knative/ux)                                                                                                                             |
 | Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                                |
 
-| &nbsp;                                                        | Leads            | Company  | Profile                                           |
-| ------------------------------------------------------------- | ---------------- | -------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/snneji.png">        | Samia Nneji      | VMware   | [snneji](https://github.com/snneji)               |
+| &nbsp;                                                               | Leads            | Company          | Profile                                                  |
+| -------------------------------------------------------------------- | ---------------- | ---------------- | -------------------------------------------------------- |
+| <img width="30px" src="https://github.com/cali0707.png">             | Calum Murray     | Red Hat          | [cali0707](https://github.com/cali0707)                  |
+| <img width="30px" src="https://github.com/zainabhusain227.png">      | Zainab Husain    | OCAD University  | [zainabhusain227](https://github.com/zainabhusain227)    |
+| <img width="30px" src="https://github.com/mmejia02.png">             | Mariana Mejia    | OCAD University  | [mmejia02](https://github.com/mmejia02)                  |
+| <img width="30px" src="https://github.com/Leo6Leo.png">              | Leo Li           | Red Hat          | [Leo Li](https://github.com/Leo6Leo)                     |
 
 | &nbsp;                                                        | Emeritus Leads   | Profile                                           | Duration  |
 | ------------------------------------------------------------- | ---------------- | ------------------------------------------------- | --------- |
-| <img width="30px" src="https://github.com/abrennan89.png">    | Ashleigh Brennan | [abrennan89](https://github.com/abrennan89)       | 2020-2023 |
 | <img width="30px" src="https://github.com/csantanapr.png">    | Carlos Santana   | [csantanapr](https://github.com/csantanapr)       | 2020-2022 |
 | <img width="30px" src="https://github.com/omerbensaadon.png"> | Omer Bensaadon   | [omerbensaadon](https://github.com/omerbensaadon) | 2020-2021 |
-| <img width="30px" src="https://github.com/samodell.png">      | Sam O'Dell       | [samodell](https://github.com/samodell)           | 2018-2020 |
 
 ## Eventing
 
@@ -305,6 +305,30 @@ Security concerns across Knative components
 ---
 
 # Emeritus Working Groups
+
+## Documentation
+
+Documentation concerns across Knative -
+especially the [Docs](https://github.com/knative/docs/) repo.
+
+| Artifact                   | Link                                                                                                                                                             |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Charter / Mission          | [Charter](https://docs.google.com/document/d/1-opvSEzJMRbB6fybvjuCyhFBZvHwXnkbgyOIzjlmrpo/edit)                                                                  |
+| Roadmap                    | [Roadmap](https://github.com/orgs/knative/projects/20)                                                                                                           |
+| Forum                      | [knative-dev@](https://groups.google.com/forum/#!forum/knative-dev)                                                                                              |
+| Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                             |
+| Community Meeting Calendar | Every other Tuesday from 9:30-10:30am PST <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Meeting Notes              | [Notes](https://docs.google.com/document/d/1NSlGHen5Dh6c2A0LGavGWibddWrlSLV_PbEbMpNjSTU/edit?usp=sharing)                                                        |
+| Document Folder            | [Folder](https://drive.google.com/drive/folders/1XzZGqV7yHo38d_l7rH1uSIrbQp3JlbBP?usp=sharing)                                                                   |
+| Slack Channel              | [#knative-documentation](https://cloud-native.slack.com/archives/C04LY5G9ED7) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                            |
+| Github Repository          | [/docs](https://github.com/knative/docs)                                                                                  |
+| Github Team WG leads       | [@knative/ux-wg-leads](https://github.com/orgs/knative/teams/ux-wg-leads/members)                                                                                |
+
+| &nbsp;                                                        | Leads            | Company  | Profile                                           | Duration  |
+| ------------------------------------------------------------- | ---------------- | -------- | ------------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/snneji.png">        | Samia Nneji      | VMware   | [snneji](https://github.com/snneji)               | 2021-2023 |
+| <img width="30px" src="https://github.com/abrennan89.png">    | Ashleigh Brennan | Red Hat  | [abrennan89](https://github.com/abrennan89)       | 2020-2023 |
+| <img width="30px" src="https://github.com/samodell.png">      | Sam O'Dell       | Google   | [samodell](https://github.com/samodell)           | 2018-2020 |
 
 ## Eventing Kafka
 

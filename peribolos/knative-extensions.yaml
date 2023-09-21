@@ -95,6 +95,7 @@ orgs:
     - matzew
     - maximilien
     - mgencur
+    - mmejia02
     - mvinkler
     - nader-ziada
     - nak3
@@ -141,6 +142,7 @@ orgs:
     - yanweiguo
     - yaron2
     - yuvalif
+    - zainabhusain227
     - yuzisun
     - zhanggbj
     - zhaojizhuang
@@ -852,7 +854,10 @@ orgs:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
             members:
-            - snneji
+            - cali0707
+            - mmejia02
+            - zainabhusain227
+            - leo6leo
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file

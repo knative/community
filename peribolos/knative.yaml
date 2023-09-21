@@ -96,6 +96,7 @@ orgs:
     - maximilien
     - mchmarny
     - mgencur
+    - mmejia02
     - mvinkler
     - nader-ziada
     - nak3
@@ -144,6 +145,7 @@ orgs:
     - yaron2
     - yuvalif
     - yuzisun
+    - zainabhusain227
     - zhanggbj
     - zhaojizhuang
     - ZhiminXiang
@@ -685,8 +687,9 @@ orgs:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
             members:
-            - snneji
+            - cali0707
+            - mmejia02
+            - zainabhusain227
+            - leo6leo
         repos:
-          docs: write
-          website: write
           ux: write
