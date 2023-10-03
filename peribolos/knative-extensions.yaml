@@ -573,8 +573,10 @@ orgs:
             - snneji
             privacy: closed
         members:
-        - psschwei
         - csantanapr
+        - skonto
+        - retocode
+        - nak3
       Eventing Reviewers:
         description: Receive reviews for eventing-related repositories
         privacy: closed
@@ -768,7 +770,6 @@ orgs:
         members:
         - cardil
         - kvmware
-        - psschwei
         - upodroid
         teams:
           Productivity WG Leads:
