@@ -421,7 +421,6 @@ orgs:
             - snneji
             privacy: closed
         members:
-        - psschwei
         - csantanapr
         - skonto
         - retocode
@@ -612,7 +611,6 @@ orgs:
         members:
         - cardil
         - kvmware
-        - psschwei
         - upodroid
         teams:
           Productivity WG Leads:
