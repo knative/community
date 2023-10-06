@@ -292,7 +292,9 @@ It is important for contributors to be and stay active to set an example and sho
 
 ## Involuntary Removal or Demotion
 
-Removal or demotion of a contributor happens when responsibilities and requirements aren't being met. This may include repeated patterns of inactivity, extended period of inactivity, a period of failing to meet the requirements of your role, and/or a violation of the Code of Conduct. This process is important because it protects the community and its deliverables while also opens up opportunities for new contributors to step in.
+Removal or demotion of a contributor happens when responsibilities and requirements aren't being met. This may include repeated patterns of inactivity, extended period of inactivity, a period of failing to meet the requirements of your role. This process is important because it protects the community and its deliverables while also opens up opportunities for new contributors to step in.
+
+Similarly, a disciplinary action such as a violation of the Code of Conduct, will result in a removal or demotion of a contributor.
 
 Involuntary removal or demotion is handled through a vote by a current Steering Committee members, requiring 4 of 5 votes (80%) in favor of removal.
 
