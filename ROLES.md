@@ -276,6 +276,28 @@ The following apply to the area / component for which one would be a lead.
 
   - Mentoring and guiding approvers, members, and new contributors.
 
+## Stepping Down/Emeritus Process
+If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) or moving to emeritus status (completely stepping away from the project).
+
+Once a member has decided to move to emeritus or step down the contributor ladder, their entries in Peribolos should be removed or modified according to the specific change. Members moving to emiritus status should be removed from the Knative GitHub organization in Peribolos through a PR submitted by the member or a member of the Steering Committee.
+
+## Inactivity
+It is important for contributors to be and stay active to set an example and show commitment to the project. Inactivity is harmful to the project as it may lead to unexpected delays, contributor attrition, and a lost of trust in the project.
+
+* Inactivity is measured by:
+    * Periods of no contributions for longer than 12 months
+    * Periods of no communication for longer than 12 months
+* Consequences of being inactive include:
+    * Involuntary Removal or demotion
+
+## Involuntary Removal or Demotion
+
+Removal or demotion of a contributor happens when responsibilities and requirements aren't being met. This may include repeated patterns of inactivity, extended period of inactivity, a period of failing to meet the requirements of your role. This process is important because it protects the community and its deliverables while also opens up opportunities for new contributors to step in.
+
+Similarly, a disciplinary action such as a violation of the Code of Conduct, will result in a removal or demotion of a contributor.
+
+Involuntary removal or demotion is handled through a vote by a current Steering Committee members, requiring 4 of 5 votes (80%) in favor of removal.
+
 # Notes
 
 Within this section "manager" refers to a Member who is a Working Group Lead or
