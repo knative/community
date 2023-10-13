@@ -583,6 +583,7 @@ orgs:
         members:
         - creydr
         - cali0707
+        - Leo6Leo
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
@@ -968,6 +969,7 @@ orgs:
         privacy: closed
         members:
         - cali0707
+        - Leo6Leo
 
       eventing-natss Approvers:
         description: Approver group for eventing-natss - to be used in CODEOWNERS file

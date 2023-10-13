@@ -432,6 +432,7 @@ orgs:
         - aslom
         - creydr
         - cali0707
+        - Leo6Leo
       Eventing Writers:
         description: Grants write access to eventing-related repositories.
         privacy: closed
