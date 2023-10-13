@@ -54,7 +54,7 @@ You can reach us by emailing elections@knative.team
 
 **Nomination**
 
-If you want to stand for election for a Contributor Seat, open a PR against the
+If you want to stand for election for a Steering Committee Seat, open a PR against the
 [knative/community repository](https://github.com/knative/community) to include
 your candidate profile in the `/elections/2023-SC` folder, with the following
 filename format:
