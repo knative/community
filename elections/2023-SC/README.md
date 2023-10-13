@@ -72,9 +72,9 @@ This profile should include:
 
 You can find [a sample template in the folder](./nomination-template.md).
 
-Once you have created the PR, you may email knative-dev and/or knative-users
+Once you have created the PR, you may email knative-dev@googlegroups.com and/or knative-users@googlegroups.com
 *once* to let people know about your candidacy and encourage endorsements as
-comments on the PR. Please use something like this for your email in order to
+comments on the PR. Please use a text similar to the text below for your email in order to
 encourage endorsements in Github and not on the mailing list:
 
 ```
@@ -104,13 +104,12 @@ roles you may hold.
 
 ## Voting Process
 
-Elections will be held using [Elekto], an online voting tool created by CNCF 
-intern Manish Sahani.  Elekto has one critical advantage over CIVS, which is
-that it relies on GitHub Oauth to log you in to vote, instead of relying on 
-email. More details on voting are in the [Elekto documentation].
+Elections will be held using [Elekto], an online voting tool created
+as a CNCF internal project. As a reminder it relies on GitHub Oauth to log you
+in to vote, instead of relying on email. More details on voting are in the [Elekto documentation].
 
 Thus, when you go to [Elekto] you will be prompted to log in your GitHub account.
-Please do, so, and then click on "Explore Election" to look at the list of 
+Please do so, and then click on "Explore Election" to look at the list of 
 elections.  From there you can click on the "2023 Knative SC Election."
 
 The election page will, among other things, tell you if you are eligible to vote,
@@ -136,6 +135,8 @@ Practice Office.  Individual ballot data is encrypted, and not retrievable by
 anyone except the voter, or in aggregate form.
 
 ### Decision
+Ballots are compiled by Elekto and all candidates are ranked using the [Condorcet]
+method, Schultze variant.
 
 The newly elected body will be announced on the knative-dev mailing list.
 
@@ -161,3 +162,4 @@ the [SC Election Charter].
 [Eligibility for voting]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility#voter-eligibility
 
 [file a voting exception]: https://elections.knative.dev/app/elections/2023-SC/exception
+[Condorcet]: https://en.wikipedia.org/wiki/Condorcet_method
