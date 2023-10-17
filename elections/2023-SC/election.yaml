@@ -10,6 +10,6 @@ show_candidate_fields:
 election_officers:
   - geekygirldawn
   - ReToCode
-eligibility: All Knative contributors with more than 50 contributions are eligible to vote
+eligibility: All Knative contributors with more than 25 contributions are eligible to vote
 exception_description: If you should be eligible to vote, and find that you are unable to, please fill out the exceptions form. Otherwise, contact elections@knative.team.
 exception_due: 2023-11-28 23:59:59
