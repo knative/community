@@ -372,6 +372,7 @@ repos:
       target: both
       addedBy: humans
   knative/docs:
+    labels:
     - color: 0eb33a
       description: Issues or PRs related to accessibility improvements or problems
       name: kind/accessibility
