@@ -356,6 +356,38 @@ repos:
       name: Install
       target: both
       addedBy: humans
+    - color: 0eb33a
+      description: Issues or PRs related to accessibility improvements or problems
+      name: kind/accessibility
+      target: both
+      addedBy: humans
+    - color: c25f0e
+      description: Issues or PRs related to UI changes
+      name: kind/ui
+      target: both
+      addedBy: humans
+    - color: 640cb0
+      description: Issues or PRs related to UX changes
+      name: kind/ux
+      target: both
+      addedBy: humans
+  knative/docs:
+    labels:
+    - color: 0eb33a
+      description: Issues or PRs related to accessibility improvements or problems
+      name: kind/accessibility
+      target: both
+      addedBy: humans
+    - color: c25f0e
+      description: Issues or PRs related to UI changes
+      name: kind/ui
+      target: both
+      addedBy: humans
+    - color: 640cb0
+      description: Issues or PRs related to UX changes
+      name: kind/ux
+      target: both
+      addedBy: humans
   knative-extensions/net-istio:
     labels:
     - color: 447cf6
