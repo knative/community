@@ -120,7 +120,7 @@ declaration that the project will no longer managed or maintained. For a project
 which is currently in the "stable" phase, there should be a clear commitment to
 support the project with bug and security fixes as applicable
 [based on the Knative release principles](https://github.com/knative/community/blob/master/mechanics/RELEASE-VERSIONING-PRINCIPLES.md)
-(4 versions of Knative).
+(2 versions of Knative).
 
 # Migration to Core
 
