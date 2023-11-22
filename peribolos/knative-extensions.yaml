@@ -872,16 +872,16 @@ orgs:
             - zainabhusain227
             - leo6leo
 
+      backstage-plugins Reviewers:
+        description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file
+        privacy: closed
+        members: []
+
       backstage-plugins Writers:
         description: Grants write access to backstage-plugins.
         privacy: closed
         repos:
           backstage-plugins: write
-        members: []
-
-      backstage-plugins Reviewers:
-        description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file
-        privacy: closed
         members: []
 
       discovery Approvers:
