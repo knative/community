@@ -4,9 +4,6 @@
 aliases:
   backstage-plugins-writers: []
   backstage-plugins-reviewers: []
-  - dsimansk
-  - navidshaikh
-  - rhuss
   client-wg-leads:
   - dsimansk
   - navidshaikh
