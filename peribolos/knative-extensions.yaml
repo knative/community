@@ -872,8 +872,8 @@ orgs:
             - zainabhusain227
             - leo6leo
 
-      backstage-plugins Approvers:
-        description: Approver group for discovery - to be used in CODEOWNERS file
+      backstage-plugins Writers:
+        description: Grants write access to backstage-plugins.
         privacy: closed
         repos:
           backstage-plugins: write
