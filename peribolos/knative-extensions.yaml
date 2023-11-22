@@ -652,7 +652,6 @@ orgs:
         description: Grants write access to function related repositories
         privacy: closed
         repos:
-          backstage-plugins: write
           func-tastic: write
         members:
         - lance
