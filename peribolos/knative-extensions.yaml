@@ -168,6 +168,14 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
         archived: true
+      backstage-plugins:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative plugins for Backstage.
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       container-freezer:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -588,6 +596,7 @@ orgs:
         description: Grants write access to eventing-related repositories.
         privacy: closed
         repos:
+          backstage-plugins: write
           eventing-autoscaler-keda: write
           eventing-awssqs: write
           eventing-camel: write
@@ -658,6 +667,7 @@ orgs:
           # All repos should be listed here!
           .github: admin
           async-component: admin
+          backstage-plugins: admin
           container-freezer: admin
           scaling-group: admin
           discovery: admin
@@ -861,6 +871,18 @@ orgs:
             - mmejia02
             - zainabhusain227
             - leo6leo
+
+      backstage-plugins Reviewers:
+        description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file
+        privacy: closed
+        members: []
+
+      backstage-plugins Writers:
+        description: Grants write access to backstage-plugins.
+        privacy: closed
+        repos:
+          backstage-plugins: write
+        members: []
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
