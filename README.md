@@ -88,6 +88,7 @@ look for GitHub issues marked with the Help Wanted label:
 - [Eventing issues](https://github.com/knative/eventing/labels/kind%2Fgood-first-issue)
 - [Serving issues](https://github.com/knative/serving/labels/kind%2Fgood-first-issue)
 - [Documentation repo](https://github.com/knative/docs/labels/kind%2Fgood-first-issue)
+- [All of Knative](https://clotributor.dev/search?project=knative&page=1)
 
 Even if there's not an issue opened for it, we can always use more testing
 throughout the platform. Similarly, we can always use more docs, richer docs,
