@@ -10,5 +10,5 @@ Lance Ball and Carlos Santana, who are both ending their terms.
 
 Cheers,
 Dawn Foster and Reto Lehmann
-TOC Election Officers
+SC Election Officers
 To contact us, email elections@knative.team
