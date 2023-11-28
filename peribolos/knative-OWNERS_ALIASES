@@ -67,18 +67,18 @@ aliases:
   knative-admin:
   - Cali0707
   - ReToCode
+  - aliok
   - creydr
-  - csantanapr
   - davidhadas
   - dprotaso
   - dsimansk
+  - evankanderson
   - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
   - krsna-m
-  - lance
   - mchmarny
   - nainaz
   - pierDipi
@@ -157,8 +157,8 @@ aliases:
   - psschwei
   - skonto
   steering-committee:
-  - csantanapr
-  - lance
+  - aliok
+  - evankanderson
   - nainaz
   - puerco
   - salaboy

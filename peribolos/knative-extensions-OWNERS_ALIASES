@@ -169,22 +169,22 @@ aliases:
   knative-admin:
   - Cali0707
   - ReToCode
+  - aliok
   - creydr
-  - csantanapr
   - davidhadas
   - dprotaso
   - dsimansk
-  - itsmurugappan
+  - evankanderson
   - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
   - krsna-m
-  - lance
   - nainaz
   - pierDipi
   - psschwei
+  - puerco
   - salaboy
   - skonto
   - upodroid
@@ -274,10 +274,10 @@ aliases:
   - psschwei
   - skonto
   steering-committee:
-  - csantanapr
-  - itsmurugappan
-  - lance
+  - aliok
+  - evankanderson
   - nainaz
+  - puerco
   - salaboy
   technical-oversight-committee:
   - davidhadas
