@@ -180,7 +180,7 @@ aliases:
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
-  - kvmware
+  - krsna-m
   - lance
   - nainaz
   - pierDipi
@@ -225,14 +225,14 @@ aliases:
   - houshengbo
   - upodroid
   productivity-leads:
-  - kvmware
+  - krsna-m
   - upodroid
   productivity-wg-leads:
-  - kvmware
+  - krsna-m
   - upodroid
   productivity-writers:
   - cardil
-  - kvmware
+  - krsna-m
   - upodroid
   security-guard-approvers:
   - davidhadas
@@ -258,7 +258,7 @@ aliases:
   - KauzClay
   - jsanin-vmw
   - kauana
-  - kvmware
+  - krsna-m
   - retocode
   - skonto
   - xtreme-vikram-yadav
@@ -283,7 +283,7 @@ aliases:
   - davidhadas
   - dprotaso
   - dsimansk
-  - kvmware
+  - krsna-m
   - psschwei
   ux-wg-leads:
   - cali0707

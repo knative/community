@@ -21,7 +21,7 @@ orgs:
     - puerco
     - salaboy
     - thelinuxfoundation
-    - kvmware
+    - krsna-m
     - upodroid
     members:
     - aavarghese
@@ -553,7 +553,7 @@ orgs:
             - dprotaso
             - dsimansk
             - psschwei
-            - kvmware
+            - krsna-m
             privacy: closed
           Knative Release Leads:
             privacy: closed
@@ -570,7 +570,7 @@ orgs:
             privacy: closed
             description: Members of the Productivity WG Leads.
             maintainers:
-            - kvmware
+            - krsna-m
             - upodroid
       Operations Reviewers:
         description: Receive reviews for operations directories
@@ -614,13 +614,13 @@ orgs:
           release: write
         members:
         - cardil
-        - kvmware
+        - krsna-m
         - upodroid
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
             members:
-            - kvmware
+            - krsna-m
             - upodroid
             privacy: closed
       Security Writers:
@@ -642,7 +642,7 @@ orgs:
         - KauzClay
         - jsanin-vmw
         - kauana
-        - kvmware
+        - krsna-m
         - retocode
         - skonto
         - xtreme-vikram-yadav
