@@ -9,14 +9,14 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    - aliok
     - caniszczyk
     - cncf-ci
-    - csantanapr
     - davidhadas
     - dprotaso
     - dsimansk
+    - evankanderson
     - knative-prow-robot
-    - lance
     - nainaz
     - psschwei
     - puerco
@@ -27,7 +27,6 @@ orgs:
     members:
     - aavarghese
     - alexagriffith
-    - aliok
     - andrew-su
     - AngeloDanducci
     - aslom
@@ -47,6 +46,7 @@ orgs:
     - coryrc
     - cr22rc
     - creydr
+    - csantanapr
     - Cynocracy
     - daisy-ycguo
     - dan-j
@@ -56,7 +56,6 @@ orgs:
     - dolfolife
     - duglin
     - eric-sap
-    - evankanderson
     - gab-satchi
     - gabo1208
     - haubenr
@@ -84,6 +83,7 @@ orgs:
     - knative-prow-updater-robot
     - knative-test-reporter-robot
     - krithika369
+    - lance
     - lberk
     - lionelvillard
     - liuchangyan
@@ -729,10 +729,10 @@ orgs:
           Steering Committee:
             description: ""
             maintainers:
-            - csantanapr
-            - itsmurugappan
-            - lance
+            - aliok
+            - evankanderson
             - nainaz
+            - puerco
             - salaboy
             privacy: closed
           Technical Oversight Committee:

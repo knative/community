@@ -66,9 +66,8 @@ groups:
       AllowExternalMembers: "false"
       WhoCanPostMessage: "ANYONE_CAN_POST"
     owners:
-      - pmorie@knative.team
-      - csantana23@gmail.com
-      - lball@knative.team
+      - aliok@redhat.com
+      - evan.k.anderson@gmail.com
       - lkinglan@redhat.com
       - puerco@chainguard.dev
       - naina.sng@gmail.com
