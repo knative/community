@@ -68,8 +68,6 @@ groups:
     owners:
       - aliok@redhat.com
       - evan.k.anderson@gmail.com
-      - evana@vmware.com
-      - evankanderson@knative.team
       - lkinglan@redhat.com
       - puerco@chainguard.dev
       - naina.sng@gmail.com
