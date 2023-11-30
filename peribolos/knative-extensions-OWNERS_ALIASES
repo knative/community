@@ -250,10 +250,10 @@ aliases:
   - psschwei
   - skonto
   serving-progressive-rollout-approvers:
+  - alexagriffith
   - houshengbo
   - sukumargaonkar
   - yuzisun
-  - alexagriffith
   serving-reviewers:
   - KauzClay
   - jsanin-vmw
