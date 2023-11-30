@@ -1228,9 +1228,10 @@ orgs:
         repos:
           serving-progressive-rollout: write
         members:
+          - alexagriffith
           - houshengbo
-          - yuzisun
           - sukumargaonkar
+          - yuzisun
 
       security-guard Approvers:
         description: Approver group for security-guard - to be used in CODEOWNERS file
