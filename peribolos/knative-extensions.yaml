@@ -1231,6 +1231,7 @@ orgs:
           - houshengbo
           - yuzisun
           - sukumargaonkar
+          - alexagriffith
 
       security-guard Approvers:
         description: Approver group for security-guard - to be used in CODEOWNERS file
