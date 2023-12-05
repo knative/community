@@ -478,13 +478,13 @@ orgs:
           - lance
           - matejvasek
           - jrangelramos
+          - gauron99
       Func Reviewers:
         description: Receive reviews for function repositories
         privacy: closed
         members:
         - jrangelramos
         - nainaz
-        - gauron99
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
