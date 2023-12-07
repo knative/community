@@ -30,8 +30,6 @@ groups:
       - pierdipi@knative.team
       - shou@us.ibm.com
 
-
-
   - email-id: calendar-maintainers@knative.team
     name: calendar-maintainers
     description: |-
