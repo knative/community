@@ -1001,6 +1001,8 @@ orgs:
         repos:
           eventing-natss: write
         members:
+        - astelmashenko
+        - dan-j
         - zhaojizhuang
 
       eventing-prometheus Approvers:
