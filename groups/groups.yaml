@@ -28,6 +28,8 @@ groups:
       - navidshaikh@knative.team
       - nshaikh@redhat.com
       - pierdipi@knative.team
+      - rhuss@knative.team
+      - rhuss@redhat.com
       - shou@us.ibm.com
 
   - email-id: calendar-maintainers@knative.team
