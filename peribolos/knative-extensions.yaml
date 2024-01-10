@@ -62,7 +62,6 @@ orgs:
     - hh
     - hhk7734
     - houshengbo
-    - ikvmw
     - itsmurugappan
     - izabelacg
     - jcrossley3
@@ -811,11 +810,9 @@ orgs:
         members:
         - KauzClay
         - jsanin-vmw
-        - kauana
         - krsna-m
         - retocode
         - skonto
-        - xtreme-vikram-yadav
       Serving Triage:
         description: Grants triage access to serving-related repositories.
         privacy: closed
@@ -1022,11 +1019,8 @@ orgs:
           eventing-rabbitmq: write
         members:
         - andrew-su
-        - bbtong
         - chunyilyu
-        - dolfolife
         - gabo1208
-        - ikvmw
         - joeeltgroth
         - salaboy
         - xtreme-sameer-vohra
@@ -1179,7 +1173,6 @@ orgs:
         repos:
           net-contour: write
         members:
-        - carlisia
         - KauzClay
         - dprotaso
 
@@ -1212,7 +1205,6 @@ orgs:
         repos:
           net-istio: write
         members:
-        - AngeloDanducci
         - nak3
         - skonto
 

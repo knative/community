@@ -61,7 +61,6 @@ orgs:
     - hh
     - hhk7734
     - houshengbo
-    - ikvmw
     - ImJasonH
     - itsmurugappan
     - izabelacg
@@ -642,11 +641,9 @@ orgs:
         members:
         - KauzClay
         - jsanin-vmw
-        - kauana
         - krsna-m
         - retocode
         - skonto
-        - xtreme-vikram-yadav
       Serving Triage:
         description: Ability to triage serving-related repos
         privacy: closed
