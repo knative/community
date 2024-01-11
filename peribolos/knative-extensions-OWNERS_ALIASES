@@ -74,6 +74,7 @@ aliases:
   - lberk
   - matzew
   eventing-rabbitmq-approvers:
+  - gabo1208
   - tcnghia
   eventing-redis-approvers:
   - aavarghese
