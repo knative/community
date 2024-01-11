@@ -15,48 +15,22 @@ groups:
       - evan.k.anderson@gmail.com
       - evana@vmware.com
       - evankanderson@knative.team
-      - julz.friedman@uk.ibm.com
-      - julz@knative.team
-      - markusthoemmes@knative.team
-      - markusthoemmes@me.com
-      - me.markusthoemmes@googlemail.com
-      - rhuss@knative.team
-      - rhuss@redhat.com
-      - tcnghia@gmail.com
       - paul@paulschweigert.com
       - paulschw@us.ibm.com
       - kmahapatra@vmware.com
     members:
-      - chizhg@google.com
-      - chizhg@knative.team
-      - csantanapr@knative.team
-      - devguyio@knative.team
       - dprotaso@knative.team
       - dsimansk@knative.team
       - dsimansk@redhat.com
-      - eng.a.abdalla@gmail.com
-      - fguardia@redhat.com
-      - grantr@knative.team
       - houshengbo@knative.team
-      - knakayam@redhat.com
       - krsna@knative.team
-      - lionelvillard@knative.team
       - lkinglan@redhat.com
-      - matzew@knative.team
-      - mwessend@redhat.com
-      - mwessendorf@gmail.com
-      - n3wscott@knative.team
-      - nak3@knative.team
       - navidshaikh@knative.team
       - nshaikh@redhat.com
-      - omerbensaadon@knative.team
       - pierdipi@knative.team
+      - rhuss@knative.team
+      - rhuss@redhat.com
       - shou@us.ibm.com
-      - slinkydeveloper@knative.team
-      - snneji@knative.team
-      - travis.minke@sap.com
-      - vagababov@gmail.com
-      - villard@us.ibm.com
 
   - email-id: calendar-maintainers@knative.team
     name: calendar-maintainers
