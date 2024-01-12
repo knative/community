@@ -1018,12 +1018,8 @@ orgs:
         repos:
           eventing-rabbitmq: write
         members:
-        - andrew-su
-        - chunyilyu
+        - tcnghia
         - gabo1208
-        - joeeltgroth
-        - salaboy
-        - xtreme-sameer-vohra
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
         privacy: closed
