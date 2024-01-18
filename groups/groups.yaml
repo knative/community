@@ -19,6 +19,7 @@ groups:
       - paulschw@us.ibm.com
       - kmahapatra@vmware.com
     members:
+      - cmurray@redhat.com
       - dprotaso@knative.team
       - dsimansk@knative.team
       - dsimansk@redhat.com
