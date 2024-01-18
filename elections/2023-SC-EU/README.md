@@ -32,7 +32,7 @@ representing must be listed in the [Adopters](../../ADOPTERS.MD) file.
 | February 2   | All candidate nominations due by 0000 UTC (4pm Pacific) |
 | February 7   | Announcement of selection |
 
-The one year term would be from February 12, 2024 to February 11 , 2025
+The one year term would be from February 12, 2024 to until a new representative is chosen in January 2025
 
 ## Candidacy Process
 
