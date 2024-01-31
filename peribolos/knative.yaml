@@ -99,7 +99,6 @@ orgs:
     - mmejia02
     - mvinkler
     - nader-ziada
-    - nak3
     - navidshaikh
     - norman465
     - odacremolbap
@@ -407,7 +406,6 @@ orgs:
         - nainaz
         - skonto
         - retocode
-        - nak3
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
@@ -425,7 +423,6 @@ orgs:
         - csantanapr
         - skonto
         - retocode
-        - nak3
       Eventing Reviewers:
         description: Receive reviews for eventing related repositories
         privacy: closed
@@ -670,7 +667,6 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
-            - nak3
             - skonto
             - psschwei
             privacy: closed
