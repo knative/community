@@ -98,7 +98,6 @@ orgs:
     - mmejia02
     - mvinkler
     - nader-ziada
-    - nak3
     - navidshaikh
     - norbjd
     - norman465
@@ -585,7 +584,6 @@ orgs:
         - csantanapr
         - skonto
         - retocode
-        - nak3
       Eventing Reviewers:
         description: Receive reviews for eventing-related repositories
         privacy: closed
@@ -847,7 +845,6 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
-            - nak3
             - skonto
             - psschwei
             privacy: closed
@@ -1193,7 +1190,6 @@ orgs:
           net-gateway-api: write
         members:
         - dprotaso
-        - nak3
 
       net-istio Approvers:
         description: Approver group for net-istio - to be used in CODEOWNERS file
@@ -1201,7 +1197,6 @@ orgs:
         repos:
           net-istio: write
         members:
-        - nak3
         - skonto
 
       net-kourier Approvers:
@@ -1210,7 +1205,6 @@ orgs:
         repos:
           net-kourier: write
         members:
-        - nak3
         - skonto
 
       serving-progressive-rollout Approvers:
