@@ -2,9 +2,6 @@ restrictions:
   - path: "committee-code-of-conduct/groups.yaml"
     allowedGroups:
       - "^code-of-conduct@knative.team$"
-  - path: "committee-trademark/groups.yaml"
-    allowedGroups:
-      - "^trademark@knative.team$"
   - path: "committee-oversight/groups.yaml"
     allowedGroups:
       - "^toc@knative.team$"
