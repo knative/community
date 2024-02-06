@@ -5,7 +5,7 @@ weight: 30
 type: "docs"
 ---
 
-# 2023 Knative Steering Committee end user Seat
+# 2024 Knative Steering Committee end user Seat
 
 ## Purpose
 
@@ -40,7 +40,7 @@ The one year term would be from February 12, 2024 to until a new representative 
 
 If you want to be considered for end user Seat, open a PR against the
 [knative/community repository](https://github.com/knative/community) to include
-your candidate profile in the `/elections/2023-SC-EU` folder, with the following
+your candidate profile in the `/elections/2024-SC-EU` folder, with the following
 filename format:
 
 ```
