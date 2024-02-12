@@ -180,7 +180,7 @@ of pluggability.
 
 The following are not required to create a working-group-owned repository:
 
-- Steering or Trademark approval (see ["the fine print"](#the-fine-print))
+- Steering approval (see ["the fine print"](#the-fine-print))
 - TOC approval
   - TOC may request certain naming patterns (e.g. `kn-plugin` for client WG)
 - Solving an unique problem (exploring different approaches to problems outside
@@ -188,10 +188,10 @@ The following are not required to create a working-group-owned repository:
 
 ### The fine print
 
-Steering and Trademark reserve the right to require that repos be removed or
+Steering reserve the right to require that repos be removed or
 transferred out of the `knative-extensions` organization and API groups to be
 renamed. This is intended to simplify the process in the common case, while
-giving Steering or Trademark the ability to step in and rectify problems that
+giving Steering the ability to step in and rectify problems that
 may arise.
 
 ### Deletion

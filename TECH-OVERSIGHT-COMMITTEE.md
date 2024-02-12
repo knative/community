@@ -37,6 +37,9 @@ product and design decisions.
 
   - Approve the creation/deletion of GitHub repositories, along with other
     high-level administrative issues around GitHub and our other tools.
+  
+  - Advise the Steering Committe on conformance rules and tests that 
+    define brand use decisions.
 
 - Happy Healthy Community
 

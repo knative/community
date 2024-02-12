@@ -43,9 +43,8 @@ evolve as the community and project change.
 1. Steward, control access, delegate access, and establish processes regarding
    all Knative project resources and has the final say in the disposition of
    those resources.
-1. Advise the Trademark Committee on usage of the brand and marks in relation to
-   promoting the community. This advice is non-binding on the Trademark
-   Committee.
+1. Coordinate with the CNCF regarding usage of the Knative brand and how that 
+   brand can be used in relation to other efforts or vendors.
 1. Define and evolve the scope of the Knative community and extensions, and the
    process for migration of extensions projects into Knative Extensions.
 1. Receive and handle reports about [code of conduct](./CODE-OF-CONDUCT.md)

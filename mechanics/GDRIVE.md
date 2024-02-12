@@ -51,7 +51,6 @@ There are several mailing lists set up to manage permission groups (some could a
 
 *   wg-leads – all working group leads, gives update permission on the Knative official events calendar
 *   steering – steering committee members
-*   trademark – trademark committee members
 *   (TODO) toc – tech oversight committee members
 
 

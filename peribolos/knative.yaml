@@ -536,13 +536,6 @@ orgs:
             - puerco
             - salaboy
             privacy: closed
-          Trademark Committee:
-            description: Knative Trademark Committee
-            maintainers:
-            - xtreme-sameer-vohra
-            - smoser-ibm
-            - mchmarny
-            privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
             maintainers:
