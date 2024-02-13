@@ -807,6 +807,7 @@ orgs:
         description: Receive reviews for serving-related directories
         privacy: closed
         members:
+        - izabelacg
         - KauzClay
         - krsna-m
         - retocode
@@ -815,6 +816,7 @@ orgs:
         description: Grants triage access to serving-related repositories.
         privacy: closed
         members:
+        - izabelacg
         - KauzClay
         - retocode
         - skonto
