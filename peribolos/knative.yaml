@@ -630,6 +630,7 @@ orgs:
         description: Receive reviews for serving-related directories
         privacy: closed
         members:
+        - izabelacg
         - KauzClay
         - krsna-m
         - retocode
@@ -638,6 +639,7 @@ orgs:
         description: Ability to triage serving-related repos
         privacy: closed
         members:
+        - izabelacg
         - KauzClay
         - retocode
         - skonto
