@@ -31,6 +31,7 @@ If you would like to be included in this table, please open [an issue](https://g
 | Scaleway*                          |                                                                        | Public Beta              | [link](https://www.scaleway.com/en)                                  |
 | Sonavi Labs                        | Sonavi Cloud                                                           | Public Beta              | [link](https://www.sonavilabs.com)                                   |
 | Spider.com*                        |                                                                        | Development              | [link](https://www.spider.com)                                       |
+| SVA System Vertrieb Alexander GmbH*| Serverless PaaS for Public Sector Clients                            | Production                | [link](https://www.cncf.io/case-studies/system-vertrieb-alexander-gmbh/)  |
 | Tata Communications*               |                                                                        | Development              | [link](https://www.tatacommunications.com/solutions/cloud/platforms) |
 | TriggerMesh*                       |                                                                        | Production               | [link](https://triggermesh.com)                                      |
 | VMware                             | Cloud Native Runtimes for VMware Tanzu                                 | Generally Available      | [link](https://network.tanzu.vmware.com/products/serverless)         |
