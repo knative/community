@@ -632,8 +632,6 @@ orgs:
         privacy: closed
         members:
         - izabelacg
-        - KauzClay
-        - krsna-m
         - retocode
         - skonto
       Serving Triage:
@@ -641,7 +639,6 @@ orgs:
         privacy: closed
         members:
         - izabelacg
-        - KauzClay
         - retocode
         - skonto
         repos:
