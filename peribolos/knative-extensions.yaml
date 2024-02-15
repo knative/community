@@ -872,14 +872,22 @@ orgs:
       backstage-plugins Reviewers:
         description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file
         privacy: closed
-        members: []
+        members:
+        - aliok
+        - cali0707
+        - pierdipi
+        - leo6leo
 
       backstage-plugins Writers:
         description: Grants write access to backstage-plugins.
         privacy: closed
         repos:
           backstage-plugins: write
-        members: []
+        members:
+        - aliok
+        - cali0707
+        - pierdipi
+        - leo6leo
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
