@@ -18,8 +18,8 @@ orgs:
     - evankanderson
     - knative-prow-robot
     - nainaz
+    - nrrso
     - psschwei
-    - puerco
     - salaboy
     - thelinuxfoundation
     - krsna-m
@@ -731,7 +731,7 @@ orgs:
             - aliok
             - evankanderson
             - nainaz
-            - puerco
+            - nrrso
             - salaboy
             privacy: closed
           Technical Oversight Committee:

@@ -44,8 +44,8 @@ groups:
       - aliok@redhat.com
       - evan.k.anderson@gmail.com
       - lkinglan@redhat.com
-      - puerco@chainguard.dev
       - naina.sng@gmail.com
+      - norris.samosarenkhoe@sva.de
       - salaboy@gmail.com
 
   - email-id: admins@knative.dev
