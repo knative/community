@@ -759,7 +759,7 @@ orgs:
             privacy: closed
             description: Members of the Productivity WG Leads.
             maintainers:
-            - krsna-m
+            - cardil
             - upodroid
       Operations Writers:
         description: Grants write access to operations-related repositories.
@@ -789,7 +789,7 @@ orgs:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
             members:
-            - krsna-m
+            - cardil
             - upodroid
             privacy: closed
       Security Writers:

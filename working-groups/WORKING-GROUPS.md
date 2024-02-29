@@ -266,11 +266,12 @@ performance/scale/load testing infrastructure
 
 | &nbsp;                                                   | Leads            | Company   | Profile                                 |
 | -------------------------------------------------------- | ---------------- | --------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/krsna-m.png">  | Krsna Mahapatra  | Broadcom    | [krsna-m](https://github.com/krsna-m)   |
 | <img width="30px" src="https://github.com/upodroid.png">  | Mahamed Ali     | Cisco     | [upodroid](https://github.com/upodroid) |
+| <img width="30px" src="https://github.com/cardil.png">    | Chris Suszynski | Red Hat   | [cardil](https://github.com/cardil) |
 
 | &nbsp;                                                    | Emeritus Leads | Profile                                   | Duration  |
 | --------------------------------------------------------- | -------------- | ----------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/krsna-m.png">  | Krsna Mahapatra  | [krsna-m](https://github.com/krsna-m)   | 2022-2024  |
 | <img width="30px" src="https://github.com/chizhg.png">    | Chi Zhang      | [chizhg](https://github.com/chizhg)       | 2020-2022    |
 | <img width="30px" src="https://github.com/n3wscott.png">  | Scott Nichols  | [n3wscott](https://github.com/n3wscott)   | 2020-2021 |
 | <img width="30px" src="https://github.com/chaodaiG.png">  | Chao Dai       | [chaodaiG](https://github.com/chaodaiG)   | 2019-2020 |
