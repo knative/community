@@ -42,10 +42,10 @@ groups:
       WhoCanPostMessage: "ANYONE_CAN_POST"
     owners:
       - aliok@redhat.com
+      - developer@nrrso.com
       - evan.k.anderson@gmail.com
       - lkinglan@redhat.com
       - naina.sng@gmail.com
-      - norris.samosarenkhoe@sva.de
       - salaboy@gmail.com
 
   - email-id: admins@knative.dev

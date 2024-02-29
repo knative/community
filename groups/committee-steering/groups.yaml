@@ -8,9 +8,9 @@ groups:
       ReconcileMembers: "true"
     owners:
       - aliok@redhat.com
+      - developer@nrrso.com
       - evan.k.anderson@gmail.com
       - naina.sng@gmail.com
-      - norris.samosarenkhoe@sva.de
       - salaboy@gmail.com
 
   - email-id: elections@knative.team
