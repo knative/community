@@ -1,0 +1,17 @@
+# UX WG
+groups:
+  - email-id: ux@knative.team
+    name: ux
+    description: |-
+      UX WG email
+    settings:
+      WhoCanPostMessage: "ANYONE_CAN_POST"
+      ReconcileMembers: "true"
+    owners:
+      - zainabhusain@ocadu.ca
+      - mariana.mejia@ocadu.ca
+      - leoli@redhat.com
+      - cmurray@redhat.com
+    members:
+      - aliok@redhat.com
+
