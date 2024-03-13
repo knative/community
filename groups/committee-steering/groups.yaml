@@ -8,8 +8,8 @@ groups:
       ReconcileMembers: "true"
     owners:
       - aliok@redhat.com
+      - developer@nrrso.com
       - evan.k.anderson@gmail.com
-      - puerco@chainguard.dev
       - naina.sng@gmail.com
       - salaboy@gmail.com
 

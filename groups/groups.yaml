@@ -42,9 +42,9 @@ groups:
       WhoCanPostMessage: "ANYONE_CAN_POST"
     owners:
       - aliok@redhat.com
+      - developer@nrrso.com
       - evan.k.anderson@gmail.com
       - lkinglan@redhat.com
-      - puerco@chainguard.dev
       - naina.sng@gmail.com
       - salaboy@gmail.com
 
