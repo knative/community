@@ -17,8 +17,8 @@ orgs:
     - evankanderson
     - knative-prow-robot
     - nainaz
+    - nrrso
     - psschwei
-    - puerco
     - salaboy
     - thelinuxfoundation
     - krsna-m
@@ -108,6 +108,7 @@ orgs:
     - pmbanugo
     - pmorie
     - pradnyavmw
+    - puerco
     - pymhq
     - quentin-cha
     - ReToCode

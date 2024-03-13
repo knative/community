@@ -9,8 +9,8 @@ groups:
     owners:
       - aliok@redhat.com
       - evan.k.anderson@gmail.com
-      - puerco@chainguard.dev
       - naina.sng@gmail.com
+      - Norris.SamOsarenkhoe@sva.de
       - salaboy@gmail.com
 
   - email-id: elections@knative.team

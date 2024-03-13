@@ -18,8 +18,8 @@ orgs:
     - evankanderson
     - knative-prow-robot
     - nainaz
+    - nrrso
     - psschwei
-    - puerco
     - salaboy
     - thelinuxfoundation
     - krsna-m
@@ -107,6 +107,7 @@ orgs:
     - pierDipi
     - pmorie
     - pradnyavmw
+    - puerco
     - pymhq
     - RamyChaabane
     - ReToCode
