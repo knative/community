@@ -63,6 +63,7 @@ orgs:
     - hh
     - hhk7734
     - houshengbo
+    - ikavgo
     - itsmurugappan
     - izabelacg
     - jcrossley3
@@ -1023,6 +1024,7 @@ orgs:
         repos:
           eventing-rabbitmq: write
         members:
+        - ikavgo
         - tcnghia
         - gabo1208
       eventing-redis Approvers:
