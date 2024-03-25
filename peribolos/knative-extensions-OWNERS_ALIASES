@@ -82,10 +82,8 @@ aliases:
   - matzew
   eventing-rabbitmq-approvers:
   - Zerpet
-  - gabo1208
   - ikavgo
   - mkuratczyk
-  - tcnghia
   eventing-redis-approvers:
   - aavarghese
   - lionelvillard
