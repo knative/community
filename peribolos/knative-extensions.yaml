@@ -56,7 +56,6 @@ orgs:
     - dilipgb
     - dolfolife
     - duglin
-    - eric-sap
     - gab-satchi
     - gabo1208
     - haubenr
@@ -130,7 +129,6 @@ orgs:
     - tardieu
     - tcnghia
     - thisisnotapril
-    - travis-minke-sap
     - tzununbekov
     - vagababov
     - vaibhavjainwiz
@@ -640,8 +638,7 @@ orgs:
           Eventing Kafka WG Leads:
             privacy: closed
             description: The Working Group leads for Eventing Kafka
-            members:
-            - travis-minke-sap
+            members: []
       Function Runtime Writers:
         description: Grants write access to knative-extensions/func-go
         privacy: closed
@@ -962,11 +959,9 @@ orgs:
           eventing-kafka: write
         members:
         - aliok
-        - eric-sap
         - lberk
         - matzew
         - pierDipi
-        - travis-minke-sap
         teams:
           eventing-kafka-mtsource Approvers:
             description: Approver group for eventing-kafka-mtsource - to be used in CODEOWNERS file
