@@ -1023,8 +1023,6 @@ orgs:
         members:
         - ikavgo
         - mkuratczyk
-        - tcnghia
-        - gabo1208
         - Zerpet
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
