@@ -52,7 +52,6 @@ aliases:
   - lberk
   - matzew
   - pierDipi
-  - steven0711dong
   eventing-kafka-broker-approvers:
   - aliok
   - matzew
@@ -61,7 +60,7 @@ aliases:
   - Leo6Leo
   - cali0707
   eventing-kafka-mtsource-approvers:
-  - steven0711dong
+  - pierDipi
   eventing-kafka-wg-leads: []
   eventing-kafka-writers: []
   eventing-kogito-approvers:

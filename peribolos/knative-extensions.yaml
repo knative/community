@@ -966,7 +966,7 @@ orgs:
             description: Approver group for eventing-kafka-mtsource - to be used in CODEOWNERS file
             privacy: closed
             members:
-            - steven0711dong
+            - pierDipi
 
       eventing-kogito Approvers:
         description: Approver group for eventing-kogito - to be used in CODEOWNERS file
