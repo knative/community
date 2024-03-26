@@ -2,6 +2,9 @@
 
 Welcome to the Knative community!
 
+![Kuack the Knative Duck](./mascot/kuack.png)
+*Meet Kuack, the Knative Duck - our community mascot!*
+
 This is the starting point for becoming a contributor - improving code,
 improving docs, giving talks, etc.
 
