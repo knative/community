@@ -949,7 +949,6 @@ orgs:
         members:
         - lberk
         - sebgoa
-        - tzununbekov
         - matzew
 
       eventing-kafka Approvers:
