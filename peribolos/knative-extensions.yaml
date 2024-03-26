@@ -975,8 +975,6 @@ orgs:
           eventing-kogito: write
         members:
         - ricardozanini
-        - spolti
-        - vaibhavjainwiz
 
       eventing-kafka-broker Approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
