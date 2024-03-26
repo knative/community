@@ -121,7 +121,6 @@ orgs:
     - skonto
     - smoser-ibm
     - snneji
-    - spolti
     - steren
     - steven0711dong
     - sukumargaonkar
@@ -975,7 +974,6 @@ orgs:
           eventing-kogito: write
         members:
         - ricardozanini
-        - spolti
         - vaibhavjainwiz
 
       eventing-kafka-broker Approvers:
