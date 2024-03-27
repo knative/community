@@ -392,17 +392,6 @@ orgs:
         members:
         - maximilien
         - vyasgun
-      Conformance Writers:
-        description: Grants write access to conformance-related repositories.
-        privacy: closed
-        repos:
-          specs: write
-        teams:
-          Conformance Task Force Leads:
-            description: The Task Force leads for Conformance
-            members:
-            - salaboy
-            privacy: closed
       Docs Reviewers:
         description: Receive reviews for docs directories
         privacy: closed
@@ -419,12 +408,6 @@ orgs:
           docs: write
           website: write
           release: write
-        teams:
-          Docs WG Leads:
-            description: The Working Group leads for Docs
-            members:
-            - snneji
-            privacy: closed
         members:
         - csantanapr
         - skonto
@@ -446,12 +429,6 @@ orgs:
           pkg: write
           release: write
         teams:
-          Eventing Triage:
-            description: Temporary group to allow folks to continue to maintain eventing
-              issues and milestones as we sort out roles
-            members:
-            - lberk
-            privacy: closed
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
