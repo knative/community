@@ -117,19 +117,25 @@ aliases:
   - maximilien
   - rhuss
   kn-plugin-admin-approvers:
+  - dsimansk
   - maximilien
   - navidshaikh
   - rhuss
   - zhanggbj
   kn-plugin-diag-approvers:
   - cdlliuy
+  - dsimansk
   - maximilien
   - navidshaikh
+  - rhuss
   kn-plugin-event-approvers:
   - cardil
+  - dsimansk
   - rhuss
   kn-plugin-migration-approvers:
+  - dsimansk
   - maximilien
+  - rhuss
   kn-plugin-operator-approvers:
   - dsimansk
   - houshengbo
@@ -141,10 +147,12 @@ aliases:
   - psschwei
   - rhuss
   kn-plugin-sample-approvers:
+  - dsimansk
   - maximilien
   - navidshaikh
   - rhuss
   kn-plugin-service-log-approvers:
+  - dsimansk
   - rhuss
   kn-plugin-source-kafka-approvers:
   - daisy-ycguo
@@ -154,6 +162,7 @@ aliases:
   - rhuss
   kn-plugin-source-kamelet-approvers:
   - christophd
+  - dsimansk
   - rhuss
   knative-admin:
   - Cali0707
