@@ -386,7 +386,6 @@ orgs:
             description: The Working Group Leads for Client
             members:
             - dsimansk
-            - navidshaikh
             - rhuss
             privacy: closed
         members:

@@ -571,7 +571,6 @@ orgs:
             description: The Working Group Leads for Client
             members:
             - dsimansk
-            - navidshaikh
             - rhuss
             privacy: closed
       Docs Writers:
@@ -1054,7 +1053,6 @@ orgs:
         - zhanggbj
         - rhuss
         - maximilien
-        - navidshaikh
 
       kn-plugin-diag Approvers:
         description: Approver group for kn-plugin-diag - to be used in CODEOWNERS file
@@ -1064,7 +1062,6 @@ orgs:
         members:
         - cdlliuy
         - maximilien
-        - navidshaikh
 
       kn-plugin-event Approvers:
         description: Approver group for kn-plugin-event - to be used in CODEOWNERS file
@@ -1101,7 +1098,6 @@ orgs:
           kn-plugin-quickstart: write
         members:
         - dsimansk
-        - navidshaikh
         - rhuss
         - psschwei
 
@@ -1113,7 +1109,6 @@ orgs:
         members:
         - maximilien
         - rhuss
-        - navidshaikh
 
       kn-plugin-service-log Approvers:
         description: Approver group for kn-plugin-service-log - to be used in CODEOWNERS file
@@ -1133,7 +1128,6 @@ orgs:
         - dsimansk
         - maximilien
         - rhuss
-        - navidshaikh
 
       kn-plugin-source-kamelet Approvers:
         description: Approver group for kn-plugin-source-kamelet - to be used in CODEOWNERS file
