@@ -23,6 +23,8 @@ orgs:
     - thelinuxfoundation
     - krsna-m
     - upodroid
+    # Temporary promotion to transfer issues from wavesoftware
+    - cardil
     members:
     - aavarghese
     - alexagriffith
@@ -35,7 +37,6 @@ orgs:
     - bikramnehra
     - BobyMCbobs
     - Cali0707
-    - cardil
     - carlisia
     - chaodaiG
     - chizhg
