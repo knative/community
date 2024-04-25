@@ -834,6 +834,7 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
+            - ReToCode
             - skonto
             privacy: closed
           Serving WG Leads:
