@@ -334,6 +334,14 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+      func-python:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Python runtime and invocation framework for Knative functions
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       func-tastic:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -628,10 +636,11 @@ orgs:
           eventing-kafka: write
           eventing-kafka-broker: write
       Function Runtime Writers:
-        description: Grants write access to knative-extensions/func-go
+        description: Grants write access to knative-extensions func-go, func-python
         privacy: closed
         repos:
           func-go: write
+          func-python: write
         members:
           - lance
           - lkingland
@@ -677,6 +686,7 @@ orgs:
           eventing-rabbitmq: admin
           eventing-redis: admin
           func-go: admin
+          func-python: admin
           func-tastic: admin
           homebrew-kn-plugins: admin
           kn-plugin-admin: admin
@@ -1012,10 +1022,11 @@ orgs:
         - matzew
 
       Function Runtime Approvers:
-        description: Approver group for func-go
+        description: Approver group for func-go, func-python
         privacy: closed
         repos:
           func-go: write
+          func-python: write
         members:
         - lance
         - lkingland
