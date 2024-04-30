@@ -96,18 +96,21 @@ aliases:
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - nainaz
   - salaboy
   function-runtime-approvers:
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - nainaz
   - salaboy
   function-runtime-writers:
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - nainaz
   - salaboy
   homebrew-kn-plugins-approvers:
