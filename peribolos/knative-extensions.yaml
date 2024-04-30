@@ -469,6 +469,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       net-contour:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -701,7 +702,6 @@ orgs:
           kn-plugin-source-kamelet: admin
           knobots: admin
           kperf: admin
-          net-certmanager: admin
           net-contour: admin
           net-http01: admin
           net-istio: admin
@@ -818,7 +818,6 @@ orgs:
         - retocode
         - skonto
         repos:
-          net-certmanager: triage
           net-contour: triage
           net-gateway-api: triage
           net-http01: triage
@@ -831,7 +830,6 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
-          net-certmanager: write
           net-contour: write
           net-gateway-api: write
           net-http01: write
@@ -1158,13 +1156,6 @@ orgs:
         members:
         - KauzClay
         - dprotaso
-
-      net-certmanager Approvers:
-        description: Approver group for net-certmanager - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          net-certmanager: write
-        members: []
 
       net-http01 Approvers:
         description: Approver group for net-http01 - to be used in CODEOWNERS file
