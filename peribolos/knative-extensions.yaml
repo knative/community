@@ -171,6 +171,14 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
         archived: true
+      autoscaler-keda:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "Keda based Knative HPA Autoscaler"
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       backstage-plugins:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -669,6 +677,7 @@ orgs:
           # All repos should be listed here!
           .github: admin
           async-component: admin
+          autoscaler-keda: admin
           backstage-plugins: admin
           container-freezer: admin
           scaling-group: admin
@@ -820,6 +829,8 @@ orgs:
         - retocode
         - skonto
         repos:
+          autoscaler-keda: triage
+          net-certmanager: triage
           net-contour: triage
           net-gateway-api: triage
           net-http01: triage
@@ -832,6 +843,8 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
+          autoscaler-keda: write
+          net-certmanager: write
           net-contour: write
           net-gateway-api: write
           net-http01: write
@@ -864,6 +877,15 @@ orgs:
             - mmejia02
             - zainabhusain227
             - leo6leo
+
+      autoscaler-keda Approvers:
+        description: Approver group for autoscaler-keda - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          autoscaler-keda: write
+        members:
+          - skonto
+          - ReToCode
 
       backstage-plugins Reviewers:
         description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file
