@@ -530,17 +530,9 @@ orgs:
           Knative Release Leads:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
-            maintainers:
-            - dsimansk
-            - skonto
-            - pierDipi
-            - creydr
-            - ReToCode
-            - Cali0707
-            - Leo6Leo
-            - izabelacg
+            maintainers: []
           Productivity Leads:
-            #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
+            #Using the same team name as below `Productivity WG Leads` puts peribolos in a weird state.
             privacy: closed
             description: Members of the Productivity WG Leads.
             maintainers:
