@@ -386,7 +386,6 @@ orgs:
             description: The Working Group Leads for Client
             members:
             - dsimansk
-            - navidshaikh
             - rhuss
             privacy: closed
         members:
@@ -531,16 +530,9 @@ orgs:
           Knative Release Leads:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
-            maintainers:
-            - dsimansk
-            - skonto
-            - pierDipi
-            - creydr
-            - ReToCode
-            - Cali0707
-            - Leo6Leo
+            maintainers: []
           Productivity Leads:
-            #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
+            #Using the same team name as below `Productivity WG Leads` puts peribolos in a weird state.
             privacy: closed
             description: Members of the Productivity WG Leads.
             maintainers:
@@ -642,8 +634,8 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
+            - ReToCode
             - skonto
-            - psschwei
             privacy: closed
           Serving WG Leads:
             description: The Working Group leads for Serving

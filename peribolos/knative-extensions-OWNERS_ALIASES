@@ -2,6 +2,9 @@
 # Do not modify this file, instead modify peribolos/knative-extensions.yaml
 
 aliases:
+  autoscaler-keda-approvers:
+  - ReToCode
+  - skonto
   backstage-plugins-reviewers:
   - aliok
   - cali0707
@@ -14,11 +17,9 @@ aliases:
   - pierdipi
   client-wg-leads:
   - dsimansk
-  - navidshaikh
   - rhuss
   client-writers:
   - dsimansk
-  - navidshaikh
   - rhuss
   discovery-approvers:
   - lberk
@@ -98,18 +99,21 @@ aliases:
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - nainaz
   - salaboy
   function-runtime-approvers:
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - nainaz
   - salaboy
   function-runtime-writers:
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - nainaz
   - salaboy
   homebrew-kn-plugins-approvers:
@@ -119,14 +123,12 @@ aliases:
   kn-plugin-admin-approvers:
   - dsimansk
   - maximilien
-  - navidshaikh
   - rhuss
   - zhanggbj
   kn-plugin-diag-approvers:
   - cdlliuy
   - dsimansk
   - maximilien
-  - navidshaikh
   - rhuss
   kn-plugin-event-approvers:
   - cardil
@@ -143,13 +145,11 @@ aliases:
   - rhuss
   kn-plugin-quickstart-approvers:
   - dsimansk
-  - navidshaikh
   - psschwei
   - rhuss
   kn-plugin-sample-approvers:
   - dsimansk
   - maximilien
-  - navidshaikh
   - rhuss
   kn-plugin-service-log-approvers:
   - dsimansk
@@ -158,19 +158,14 @@ aliases:
   - daisy-ycguo
   - dsimansk
   - maximilien
-  - navidshaikh
   - rhuss
   kn-plugin-source-kamelet-approvers:
   - christophd
   - dsimansk
   - rhuss
   knative-admin:
-  - Cali0707
-  - Leo6Leo
-  - ReToCode
   - aliok
   - cardil
-  - creydr
   - davidhadas
   - dprotaso
   - dsimansk
@@ -182,26 +177,16 @@ aliases:
   - knative-test-reporter-robot
   - krsna-m
   - nainaz
-  - pierDipi
   - psschwei
   - salaboy
-  - skonto
   - upodroid
-  knative-release-leads:
-  - Cali0707
-  - Leo6Leo
-  - ReToCode
-  - creydr
-  - dsimansk
-  - pierDipi
-  - skonto
+  knative-release-leads: []
   knative-robots:
   - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
-  net-certmanager-approvers: []
   net-contour-approvers:
   - KauzClay
   - dprotaso
@@ -240,7 +225,7 @@ aliases:
   - davidhadas
   - evankanderson
   serving-approvers:
-  - psschwei
+  - ReToCode
   - skonto
   serving-progressive-rollout-approvers:
   - alexagriffith
@@ -258,8 +243,8 @@ aliases:
   serving-wg-leads:
   - dprotaso
   serving-writers:
+  - ReToCode
   - dprotaso
-  - psschwei
   - skonto
   steering-committee:
   - aliok

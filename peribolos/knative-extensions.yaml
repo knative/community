@@ -171,6 +171,14 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
         archived: true
+      autoscaler-keda:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "Keda based Knative HPA Autoscaler"
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       backstage-plugins:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -334,6 +342,14 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+      func-python:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Python runtime and invocation framework for Knative functions
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       func-tastic:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -461,6 +477,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       net-contour:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -571,7 +588,6 @@ orgs:
             description: The Working Group Leads for Client
             members:
             - dsimansk
-            - navidshaikh
             - rhuss
             privacy: closed
       Docs Writers:
@@ -629,14 +645,16 @@ orgs:
           eventing-kafka: write
           eventing-kafka-broker: write
       Function Runtime Writers:
-        description: Grants write access to knative-extensions/func-go
+        description: Grants write access to knative-extensions func-go, func-python
         privacy: closed
         repos:
           func-go: write
+          func-python: write
         members:
           - lance
           - lkingland
           - matejvasek
+          - matzew
           - nainaz
           - salaboy
       Functastic Writers:
@@ -648,6 +666,7 @@ orgs:
         - lance
         - lkingland
         - matejvasek
+        - matzew
         - nainaz
         - salaboy
       Knative Admin:
@@ -658,6 +677,7 @@ orgs:
           # All repos should be listed here!
           .github: admin
           async-component: admin
+          autoscaler-keda: admin
           backstage-plugins: admin
           container-freezer: admin
           scaling-group: admin
@@ -678,6 +698,7 @@ orgs:
           eventing-rabbitmq: admin
           eventing-redis: admin
           func-go: admin
+          func-python: admin
           func-tastic: admin
           homebrew-kn-plugins: admin
           kn-plugin-admin: admin
@@ -692,7 +713,6 @@ orgs:
           kn-plugin-source-kamelet: admin
           knobots: admin
           kperf: admin
-          net-certmanager: admin
           net-contour: admin
           net-http01: admin
           net-istio: admin
@@ -735,16 +755,9 @@ orgs:
           Knative Release Leads:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
-            maintainers:
-            - dsimansk
-            - skonto
-            - pierDipi
-            - creydr
-            - ReToCode
-            - Cali0707
-            - Leo6Leo
+            maintainers: []
           Productivity Leads:
-            #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
+            #Using the same team name as below `Productivity WG Leads` puts peribolos in a weird state.
             privacy: closed
             description: Members of the Productivity WG Leads.
             maintainers:
@@ -808,6 +821,7 @@ orgs:
         - retocode
         - skonto
         repos:
+          autoscaler-keda: triage
           net-certmanager: triage
           net-contour: triage
           net-gateway-api: triage
@@ -821,6 +835,7 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
+          autoscaler-keda: write
           net-certmanager: write
           net-contour: write
           net-gateway-api: write
@@ -834,8 +849,8 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
+            - ReToCode
             - skonto
-            - psschwei
             privacy: closed
           Serving WG Leads:
             description: The Working Group leads for Serving
@@ -854,6 +869,15 @@ orgs:
             - mmejia02
             - zainabhusain227
             - leo6leo
+
+      autoscaler-keda Approvers:
+        description: Approver group for autoscaler-keda - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          autoscaler-keda: write
+        members:
+          - skonto
+          - ReToCode
 
       backstage-plugins Reviewers:
         description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file
@@ -1012,14 +1036,16 @@ orgs:
         - matzew
 
       Function Runtime Approvers:
-        description: Approver group for func-go
+        description: Approver group for func-go, func-python
         privacy: closed
         repos:
           func-go: write
+          func-python: write
         members:
         - lance
         - lkingland
         - matejvasek
+        - matzew
         - nainaz
         - salaboy
 
@@ -1055,7 +1081,6 @@ orgs:
         - dsimansk
         - rhuss
         - maximilien
-        - navidshaikh
 
       kn-plugin-diag Approvers:
         description: Approver group for kn-plugin-diag - to be used in CODEOWNERS file
@@ -1067,7 +1092,6 @@ orgs:
         - rhuss
         - cdlliuy
         - maximilien
-        - navidshaikh
 
       kn-plugin-event Approvers:
         description: Approver group for kn-plugin-event - to be used in CODEOWNERS file
@@ -1107,7 +1131,6 @@ orgs:
           kn-plugin-quickstart: write
         members:
         - dsimansk
-        - navidshaikh
         - rhuss
         - psschwei
 
@@ -1120,7 +1143,6 @@ orgs:
         - dsimansk
         - maximilien
         - rhuss
-        - navidshaikh
 
       kn-plugin-service-log Approvers:
         description: Approver group for kn-plugin-service-log - to be used in CODEOWNERS file
@@ -1141,7 +1163,6 @@ orgs:
         - dsimansk
         - maximilien
         - rhuss
-        - navidshaikh
 
       kn-plugin-source-kamelet Approvers:
         description: Approver group for kn-plugin-source-kamelet - to be used in CODEOWNERS file
@@ -1161,13 +1182,6 @@ orgs:
         members:
         - KauzClay
         - dprotaso
-
-      net-certmanager Approvers:
-        description: Approver group for net-certmanager - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          net-certmanager: write
-        members: []
 
       net-http01 Approvers:
         description: Approver group for net-http01 - to be used in CODEOWNERS file
