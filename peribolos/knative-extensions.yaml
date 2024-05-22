@@ -22,7 +22,6 @@ orgs:
     - psschwei
     - salaboy
     - thelinuxfoundation
-    - krsna-m
     - upodroid
     members:
     - aavarghese
@@ -750,7 +749,6 @@ orgs:
             - dprotaso
             - dsimansk
             - psschwei
-            - krsna-m
             privacy: closed
           Knative Release Leads:
             privacy: closed
@@ -785,7 +783,6 @@ orgs:
           knobots: write
         members:
         - cardil
-        - krsna-m
         - upodroid
         teams:
           Productivity WG Leads:

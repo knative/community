@@ -21,7 +21,6 @@ groups:
     members:
       - cy@knative.team
       - cy@borg.dev # Mahamed Ali
-      - kmahapatra@vmware.com
       - krsna@knative.team
       - hh@knative.team
       - hh@cncf.io
@@ -53,7 +52,6 @@ groups:
       ReconcileMembers: "true"
       WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW" # required
     members:
-      - kmahapatra@vmware.com
       - cy@borg.dev # Mahamed Ali
 
   - email-id: k8s-infra-rbac-release@knative.dev
@@ -97,7 +95,6 @@ groups:
       - dprotaso@gmail.com
       - paul@paulschweigert.com
       - paulschw@us.ibm.com
-      - kmahapatra@vmware.com
       - krsna@knative.team
     managers:
        - cy@borg.dev # Mahamed Ali
