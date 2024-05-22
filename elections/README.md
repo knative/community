@@ -50,6 +50,11 @@ This document outlines how to conduct Knative elections. See [TOC election proce
         * Steering Committee announces the results to the entire community at the end of the election
     * Push election results into results.md in the above directory _after_ the Steering Commmittee has announced the results
 
+6. Setting up reminders for the next election
+
+    * Add a calendar entry (or ask an SC member) for the next election to remind the Steering Committee to start the process.
+    * An example of a calendar entry can be found in the [Knative calendar](https://calendar.google.com/calendar/u/0/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s@group.calendar.google.com) at April 2nd, 2024 for the upcoming TOC election.
+
 ## Roles and Responsibilities:
 
 ### Technical Oversight Committee
@@ -93,6 +98,7 @@ This document outlines how to conduct Knative elections. See [TOC election proce
 - Update the community regularly
 - Post deadlines and reminders during the election season
 - It is impossible to see the results of the election until the election ends; for purposes of transparency with the community it is encouraged to release some statistics during the election (ie. “65% of the community has voted so far!”)
+- Tell the Steering Committee when the next election will be and ask them to set a reminder
 
 Diary for 2023 Knative TOC election can be found in this [Gist](https://gist.github.com/aliok/136be152fef14912b9a73eb753b3267b) for reference.
 
