@@ -494,6 +494,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       net-istio:
         allow_merge_commit: false
         allow_rebase_merge: false
