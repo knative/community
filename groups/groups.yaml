@@ -17,7 +17,6 @@ groups:
       - evankanderson@knative.team
       - paul@paulschweigert.com
       - paulschw@us.ibm.com
-      - kmahapatra@vmware.com
     members:
       - cmurray@redhat.com
       - dprotaso@knative.team
