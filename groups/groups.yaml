@@ -26,10 +26,10 @@ groups:
       - paulschw@us.ibm.com
     members:
       # Serving
-      - dprotaso@gmail.com
+      # - dprotaso@gmail.com: already in the owners list
       # Client
-      - dsimansk@knative.team
-      - dsimansk@redhat.com
+      # - dsimansk@knative.team: already in the owners list
+      # - dsimansk@redhat.com: already in the owners list
       - rhuss@knative.team
       - rhuss@redhat.com
       # UX
@@ -41,15 +41,15 @@ groups:
       - pierdipi@knative.team
       # Functions
       - lkinglan@redhat.com
-      - salaboy@gmail.com
+      # - salaboy@gmail.com: already in the owners list
       # Operations
       - houshengbo@knative.team
       # Productivity
       - cy@borg.dev
       - ksuszyns@redhat.com
       # Security
-      - david.hadas@gmail.com
-      - evan.k.anderson@gmail.com
+      # - david.hadas@gmail.com: already in the owners list
+      # - evan.k.anderson@gmail.com: already in the owners list
 
   - email-id: calendar-maintainers@knative.team
     name: calendar-maintainers
