@@ -437,7 +437,6 @@ orgs:
         - cali0707
         - creydr
         - matzew
-        - odacremolbap
         - lionelvillard
       Func Writers:
         description: Grants write access to function repositories
