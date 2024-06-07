@@ -394,8 +394,6 @@ orgs:
         description: Receive reviews for docs directories
         privacy: closed
         members:
-        - snneji
-        - pmbanugo
         - nainaz
         - skonto
         - retocode
