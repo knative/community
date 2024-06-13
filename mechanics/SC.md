@@ -44,7 +44,7 @@ The end user seat is appointed by Steering Committee to serve for a 1-year term.
 
 # Voter Eligibility
 
-Anyone who has at least 50 contributions in the last 12 months is eligible to
+Anyone who has at least 25 contributions in the last 12 months is eligible to
 vote in the SC election. Contributions are defined as opening PRs, reviewing
 and commenting on PRs, opening and commenting on issues, writing documentation,
 commenting on docs, helping people on slack, participating in working
@@ -59,7 +59,7 @@ year but is not captured in the stats.knative.dev dashboard, they will be able
 to submit an exception form to the steering committee who will then review and
 determine whether this member should be marked as an exception.
 
-Additionally, anyone serving on the SC, TOC, or Trademark Committee will 
+Additionally, anyone serving on the SC or TOC will 
 automatically be eligible to vote regardless of their number of contributions.
 
 All eligible voters will be captured at

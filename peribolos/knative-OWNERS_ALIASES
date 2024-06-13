@@ -6,95 +6,65 @@ aliases:
   - itsmurugappan
   client-wg-leads:
   - dsimansk
-  - navidshaikh
   - rhuss
   client-writers:
   - dsimansk
   - maximilien
-  - navidshaikh
   - rhuss
   - vyasgun
-  conformance-task-force-leads:
-  - salaboy
-  conformance-writers:
-  - salaboy
   docs-reviewers:
   - nainaz
-  - nak3
-  - pmbanugo
   - retocode
   - skonto
-  - snneji
-  docs-wg-leads:
-  - snneji
   docs-writers:
   - csantanapr
-  - nak3
   - retocode
   - skonto
-  - snneji
   eventing-reviewers:
   - Leo6Leo
   - aslom
   - cali0707
   - creydr
-  eventing-triage:
-  - lberk
   eventing-wg-leads:
   - pierDipi
   eventing-writers:
   - aliok
+  - cali0707
   - creydr
-  - lberk
   - lionelvillard
   - matzew
-  - odacremolbap
   - pierDipi
   func-reviewers:
-  - gauron99
   - jrangelramos
   - nainaz
   func-writers:
+  - gauron99
   - jrangelramos
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - salaboy
   functions-wg-leads:
   - lkingland
   - salaboy
   knative-admin:
-  - Cali0707
-  - ReToCode
-  - creydr
-  - csantanapr
+  - aliok
+  - cardil
   - davidhadas
   - dprotaso
   - dsimansk
+  - evankanderson
   - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
-  - kvmware
-  - lance
-  - mchmarny
   - nainaz
-  - pierDipi
   - psschwei
-  - puerco
   - salaboy
-  - skonto
-  - smoser-ibm
   - upodroid
-  - xtreme-sameer-vohra
-  knative-release-leads:
-  - Cali0707
-  - ReToCode
-  - creydr
-  - dsimansk
-  - pierDipi
-  - skonto
+  knative-release-leads: []
   knative-robots:
   - knative-automation
   - knative-prow-releaser-robot
@@ -114,17 +84,16 @@ aliases:
   - matzew
   - maximilien
   productivity-leads:
-  - kvmware
+  - cardil
   - upodroid
   productivity-reviewers:
   - evankanderson
   - mgencur
   productivity-wg-leads:
-  - kvmware
+  - cardil
   - upodroid
   productivity-writers:
   - cardil
-  - kvmware
   - upodroid
   security-wg-leads:
   - davidhadas
@@ -133,44 +102,32 @@ aliases:
   - davidhadas
   - evankanderson
   serving-approvers:
-  - nak3
-  - psschwei
+  - ReToCode
   - skonto
   serving-reviewers:
-  - KauzClay
-  - jsanin-vmw
-  - kauana
-  - kvmware
+  - izabelacg
   - retocode
   - skonto
-  - xtreme-vikram-yadav
   serving-triage:
-  - KauzClay
+  - izabelacg
   - retocode
   - skonto
   serving-wg-leads:
   - dprotaso
   serving-writers:
+  - ReToCode
   - dprotaso
-  - nak3
-  - psschwei
   - skonto
   steering-committee:
-  - csantanapr
-  - lance
+  - aliok
+  - evankanderson
   - nainaz
-  - puerco
   - salaboy
   technical-oversight-committee:
   - davidhadas
   - dprotaso
   - dsimansk
-  - kvmware
   - psschwei
-  trademark-committee:
-  - mchmarny
-  - smoser-ibm
-  - xtreme-sameer-vohra
   ux-wg-leads:
   - cali0707
   - leo6leo

@@ -2,9 +2,6 @@ restrictions:
   - path: "committee-code-of-conduct/groups.yaml"
     allowedGroups:
       - "^code-of-conduct@knative.team$"
-  - path: "committee-trademark/groups.yaml"
-    allowedGroups:
-      - "^trademark@knative.team$"
   - path: "committee-oversight/groups.yaml"
     allowedGroups:
       - "^toc@knative.team$"
@@ -26,4 +23,7 @@ restrictions:
       - "^wg-leads@knative.team$"
       - "^calendar-maintainers@knative.team$"
       - "^admins@knative.dev$"
+  - path: "wg-ux/groups.yaml"
+    allowedGroups:
+      - "^ux@knative.team$"
   - path: "**/*" # prevent any other file from containing anything

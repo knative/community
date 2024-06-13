@@ -1,4 +1,28 @@
-# Knative Migration-To-Core Process
+# MATURITY LEVELS
+
+## Lifecycle
+
+When components, features, and extensions are introduced to Knative, they follow a lifecycle of three stages:
+
+### Alpha stage
+
+- Might contain bugs.
+- Support for the feature might be dropped at any time without notice.
+- The API might change in a later software release in ways that make it incompatible with older releases without notice.
+- Recommended for use only in short-lived testing clusters, due to increased risk of bugs and lack of long-term support.
+
+### Beta stage
+
+- The feature is well tested and safe to enable.
+- Support for the overall feature will not be dropped, though details might change.
+- The schema and semantics of objects might change in incompatible ways in a subsequent beta or stable release. If this happens, instructions are provided for migrating to the next version. These types of changes might require you to delete, modify, or re-create API objects, and might require downtime for applications that rely on the feature.
+- Recommended for only non-business-critical uses because of the potential for incompatible changes in subsequent releases. If you have multiple clusters that can be upgraded independently, you might be able to relax this restriction.
+
+### General Availability (GA) stage
+
+- Stable versions of the feature or extension are included in official, stable Knative releases.
+
+## Knative Migration-To-Core Process
 
 This document provides a maturity model for projects in the Knative community.
 This includes projects in knative-extensions (broader community) or as well as
@@ -16,9 +40,9 @@ implemented interfaces from extensions which should be part of core as
 personally satisfying to have a component be part of the core, components which
 are not in the core may be equally valuable and production-worthy.
 
-# Maturity phases
+## Maturity phases
 
-## Initiating
+### Initiating
 
 In the initiating phase, a project is starting up, and may have minimal
 additional artifacts around the code itself. The minimum bar for an initiating
@@ -47,7 +71,7 @@ can be hosted under either individual accounts or in other orgs. For projects in
 knative-extensions, review requirements and cadence are at the discretion of the
 sponsoring WG lead.
 
-## Usable
+### Usable
 
 A usable project has reached the point where it is releasing executable
 artifacts which are in use by at least two end users (preferably different
@@ -77,7 +101,7 @@ abstractions with wide utility, beta+ APIs) may apply to the TOC and SC for
 [migration to core](#migration-to-core), but approval is more likely for
 projects in the "Stable" category.
 
-## Stable
+### Stable
 
 A stable project has graduated beyond the bar in "usable" and is widely-adopted
 with a stable API and well-understood operational characteristics. This would be
@@ -113,16 +137,16 @@ Additional requirements beyond "usable":
 Projects are generally encouraged to reach stable maturity before considering
 [migration to core](#migration-to-core).
 
-## Sunsetting
+### Sunsetting
 
 At any time, a project may move into the "sunsetting" phase. This is a
 declaration that the project will no longer managed or maintained. For a project
 which is currently in the "stable" phase, there should be a clear commitment to
 support the project with bug and security fixes as applicable
 [based on the Knative release principles](https://github.com/knative/community/blob/master/mechanics/RELEASE-VERSIONING-PRINCIPLES.md)
-(4 versions of Knative).
+(2 versions of Knative).
 
-# Migration to Core
+## Migration to Core
 
 A stable project may apply to the SC and TOC to be admitted to the Knative core.
 Not all stable projects are suitable for "core"; this is a judgement as to the

@@ -9,7 +9,6 @@ Access to add new events to the calendar is available to folks that have a
 
 * Working Group leads
 * Steering Committee members
-* Knative Trademark Committee members
 
 However, if there are other folks that have a need to have a @knative.team
 account, please file an issue with Steering Committee, or send an email to

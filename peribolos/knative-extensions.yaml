@@ -9,24 +9,23 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    - aliok
     - caniszczyk
     - cncf-ci
-    - csantanapr
     - davidhadas
     - dprotaso
     - dsimansk
+    - evankanderson
     - knative-prow-robot
-    - lance
     - nainaz
+    - nrrso
     - psschwei
-    - puerco
     - salaboy
     - thelinuxfoundation
-    - kvmware
     - upodroid
     members:
     - aavarghese
-    - aliok
+    - alexagriffith
     - andrew-su
     - AngeloDanducci
     - aslom
@@ -43,9 +42,11 @@ orgs:
     - christophd
     - chunyilyu
     - chzhyang
+    - converge
     - coryrc
     - cr22rc
     - creydr
+    - csantanapr
     - Cynocracy
     - daisy-ycguo
     - dan-j
@@ -54,15 +55,13 @@ orgs:
     - dilipgb
     - dolfolife
     - duglin
-    - eric-sap
-    - evankanderson
     - gab-satchi
     - gabo1208
     - haubenr
     - hh
     - hhk7734
     - houshengbo
-    - ikvmw
+    - ikavgo
     - itsmurugappan
     - izabelacg
     - jcrossley3
@@ -83,6 +82,7 @@ orgs:
     - knative-prow-updater-robot
     - knative-test-reporter-robot
     - krithika369
+    - lance
     - lberk
     - lionelvillard
     - liuchangyan
@@ -95,10 +95,10 @@ orgs:
     - matzew
     - maximilien
     - mgencur
+    - mkuratczyk
     - mmejia02
     - mvinkler
     - nader-ziada
-    - nak3
     - navidshaikh
     - norbjd
     - norman465
@@ -128,7 +128,6 @@ orgs:
     - tardieu
     - tcnghia
     - thisisnotapril
-    - travis-minke-sap
     - tzununbekov
     - vagababov
     - vaibhavjainwiz
@@ -139,10 +138,13 @@ orgs:
     - xtreme-sameer-vohra
     - xtreme-vikram-yadav
     - xxinran
+    - xiangpingjiang
     - yanweiguo
     - yaron2
+    - yijie-04
     - yuvalif
     - zainabhusain227
+    - Zerpet
     - yuzisun
     - zhanggbj
     - zhaojizhuang
@@ -168,6 +170,22 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
         archived: true
+      autoscaler-keda:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "Keda based Knative HPA Autoscaler"
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
+      backstage-plugins:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Knative plugins for Backstage.
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       container-freezer:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -323,6 +341,14 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+      func-python:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Python runtime and invocation framework for Knative functions
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       func-tastic:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -450,6 +476,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       net-contour:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -466,6 +493,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       net-istio:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -560,23 +588,15 @@ orgs:
             description: The Working Group Leads for Client
             members:
             - dsimansk
-            - navidshaikh
             - rhuss
             privacy: closed
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
-        teams:
-          Docs WG Leads:
-            description: The Working Group leads for Docs
-            members:
-            - snneji
-            privacy: closed
         members:
         - csantanapr
         - skonto
         - retocode
-        - nak3
       Eventing Reviewers:
         description: Receive reviews for eventing-related repositories
         privacy: closed
@@ -588,6 +608,7 @@ orgs:
         description: Grants write access to eventing-related repositories.
         privacy: closed
         repos:
+          backstage-plugins: write
           eventing-autoscaler-keda: write
           eventing-awssqs: write
           eventing-camel: write
@@ -612,9 +633,9 @@ orgs:
             privacy: closed
         members:
         - aliok
+        - cali0707
         - creydr
         - matzew
-        - odacremolbap
         - lionelvillard
       Eventing Kafka Writers:
         description: Grants write access to Eventing Kafka WG leads on related repositories.
@@ -622,21 +643,17 @@ orgs:
         repos:
           eventing-kafka: write
           eventing-kafka-broker: write
-        teams:
-          Eventing Kafka WG Leads:
-            privacy: closed
-            description: The Working Group leads for Eventing Kafka
-            members:
-            - travis-minke-sap
       Function Runtime Writers:
-        description: Grants write access to knative-extensions/func-go
+        description: Grants write access to knative-extensions func-go, func-python
         privacy: closed
         repos:
           func-go: write
+          func-python: write
         members:
           - lance
           - lkingland
           - matejvasek
+          - matzew
           - nainaz
           - salaboy
       Functastic Writers:
@@ -648,6 +665,7 @@ orgs:
         - lance
         - lkingland
         - matejvasek
+        - matzew
         - nainaz
         - salaboy
       Knative Admin:
@@ -658,6 +676,8 @@ orgs:
           # All repos should be listed here!
           .github: admin
           async-component: admin
+          autoscaler-keda: admin
+          backstage-plugins: admin
           container-freezer: admin
           scaling-group: admin
           discovery: admin
@@ -677,6 +697,7 @@ orgs:
           eventing-rabbitmq: admin
           eventing-redis: admin
           func-go: admin
+          func-python: admin
           func-tastic: admin
           homebrew-kn-plugins: admin
           kn-plugin-admin: admin
@@ -691,7 +712,6 @@ orgs:
           kn-plugin-source-kamelet: admin
           knobots: admin
           kperf: admin
-          net-certmanager: admin
           net-contour: admin
           net-http01: admin
           net-istio: admin
@@ -717,9 +737,8 @@ orgs:
           Steering Committee:
             description: ""
             maintainers:
-            - csantanapr
-            - itsmurugappan
-            - lance
+            - aliok
+            - evankanderson
             - nainaz
             - salaboy
             privacy: closed
@@ -730,24 +749,17 @@ orgs:
             - dprotaso
             - dsimansk
             - psschwei
-            - kvmware
             privacy: closed
           Knative Release Leads:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
-            maintainers:
-            - dsimansk
-            - skonto
-            - pierDipi
-            - creydr
-            - ReToCode
-            - Cali0707
+            maintainers: []
           Productivity Leads:
-            #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
+            #Using the same team name as below `Productivity WG Leads` puts peribolos in a weird state.
             privacy: closed
             description: Members of the Productivity WG Leads.
             maintainers:
-            - kvmware
+            - cardil
             - upodroid
       Operations Writers:
         description: Grants write access to operations-related repositories.
@@ -771,13 +783,12 @@ orgs:
           knobots: write
         members:
         - cardil
-        - kvmware
         - upodroid
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
             members:
-            - kvmware
+            - cardil
             - upodroid
             privacy: closed
       Security Writers:
@@ -796,21 +807,18 @@ orgs:
         description: Receive reviews for serving-related directories
         privacy: closed
         members:
-        - KauzClay
-        - jsanin-vmw
-        - kauana
-        - kvmware
+        - izabelacg
         - retocode
         - skonto
-        - xtreme-vikram-yadav
       Serving Triage:
         description: Grants triage access to serving-related repositories.
         privacy: closed
         members:
-        - KauzClay
+        - izabelacg
         - retocode
         - skonto
         repos:
+          autoscaler-keda: triage
           net-certmanager: triage
           net-contour: triage
           net-gateway-api: triage
@@ -824,6 +832,7 @@ orgs:
         description: Grants write access to serving-related repositories.
         privacy: closed
         repos:
+          autoscaler-keda: write
           net-certmanager: write
           net-contour: write
           net-gateway-api: write
@@ -837,17 +846,13 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
-            - nak3
+            - ReToCode
             - skonto
-            - psschwei
             privacy: closed
           Serving WG Leads:
             description: The Working Group leads for Serving
             members:
             - dprotaso
-            privacy: closed
-          Networking WG Leads:
-            description: The Working Group leads for Networking
             privacy: closed
       UX Writers:
         description: Grants write access to ux related repositories.
@@ -861,6 +866,35 @@ orgs:
             - mmejia02
             - zainabhusain227
             - leo6leo
+
+      autoscaler-keda Approvers:
+        description: Approver group for autoscaler-keda - to be used in CODEOWNERS file
+        privacy: closed
+        repos:
+          autoscaler-keda: write
+        members:
+          - skonto
+          - ReToCode
+
+      backstage-plugins Reviewers:
+        description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file
+        privacy: closed
+        members:
+        - aliok
+        - cali0707
+        - pierdipi
+        - leo6leo
+
+      backstage-plugins Writers:
+        description: Grants write access to backstage-plugins.
+        privacy: closed
+        repos:
+          backstage-plugins: write
+        members:
+        - aliok
+        - cali0707
+        - pierdipi
+        - leo6leo
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
@@ -922,7 +956,6 @@ orgs:
         members:
         - lberk
         - sebgoa
-        - tzununbekov
         - matzew
 
       eventing-kafka Approvers:
@@ -932,17 +965,9 @@ orgs:
           eventing-kafka: write
         members:
         - aliok
-        - eric-sap
         - lberk
         - matzew
         - pierDipi
-        - travis-minke-sap
-        teams:
-          eventing-kafka-mtsource Approvers:
-            description: Approver group for eventing-kafka-mtsource - to be used in CODEOWNERS file
-            privacy: closed
-            members:
-            - steven0711dong
 
       eventing-kogito Approvers:
         description: Approver group for eventing-kogito - to be used in CODEOWNERS file
@@ -951,8 +976,6 @@ orgs:
           eventing-kogito: write
         members:
         - ricardozanini
-        - spolti
-        - vaibhavjainwiz
 
       eventing-kafka-broker Approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
@@ -977,6 +1000,8 @@ orgs:
         repos:
           eventing-natss: write
         members:
+        - astelmashenko
+        - dan-j
         - zhaojizhuang
 
       eventing-prometheus Approvers:
@@ -994,15 +1019,9 @@ orgs:
         repos:
           eventing-rabbitmq: write
         members:
-        - andrew-su
-        - bbtong
-        - chunyilyu
-        - dolfolife
-        - gabo1208
-        - ikvmw
-        - joeeltgroth
-        - salaboy
-        - xtreme-sameer-vohra
+        - ikavgo
+        - mkuratczyk
+        - Zerpet
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
         privacy: closed
@@ -1014,14 +1033,16 @@ orgs:
         - matzew
 
       Function Runtime Approvers:
-        description: Approver group for func-go
+        description: Approver group for func-go, func-python
         privacy: closed
         repos:
           func-go: write
+          func-python: write
         members:
         - lance
         - lkingland
         - matejvasek
+        - matzew
         - nainaz
         - salaboy
 
@@ -1056,7 +1077,6 @@ orgs:
         - zhanggbj
         - rhuss
         - maximilien
-        - navidshaikh
 
       kn-plugin-diag Approvers:
         description: Approver group for kn-plugin-diag - to be used in CODEOWNERS file
@@ -1066,7 +1086,6 @@ orgs:
         members:
         - cdlliuy
         - maximilien
-        - navidshaikh
 
       kn-plugin-event Approvers:
         description: Approver group for kn-plugin-event - to be used in CODEOWNERS file
@@ -1103,7 +1122,6 @@ orgs:
           kn-plugin-quickstart: write
         members:
         - dsimansk
-        - navidshaikh
         - rhuss
         - psschwei
 
@@ -1115,7 +1133,6 @@ orgs:
         members:
         - maximilien
         - rhuss
-        - navidshaikh
 
       kn-plugin-service-log Approvers:
         description: Approver group for kn-plugin-service-log - to be used in CODEOWNERS file
@@ -1135,7 +1152,6 @@ orgs:
         - dsimansk
         - maximilien
         - rhuss
-        - navidshaikh
 
       kn-plugin-source-kamelet Approvers:
         description: Approver group for kn-plugin-source-kamelet - to be used in CODEOWNERS file
@@ -1152,16 +1168,8 @@ orgs:
         repos:
           net-contour: write
         members:
-        - carlisia
         - KauzClay
         - dprotaso
-
-      net-certmanager Approvers:
-        description: Approver group for net-certmanager - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          net-certmanager: write
-        members: []
 
       net-http01 Approvers:
         description: Approver group for net-http01 - to be used in CODEOWNERS file
@@ -1177,7 +1185,6 @@ orgs:
           net-gateway-api: write
         members:
         - dprotaso
-        - nak3
 
       net-istio Approvers:
         description: Approver group for net-istio - to be used in CODEOWNERS file
@@ -1185,8 +1192,6 @@ orgs:
         repos:
           net-istio: write
         members:
-        - AngeloDanducci
-        - nak3
         - skonto
 
       net-kourier Approvers:
@@ -1195,7 +1200,6 @@ orgs:
         repos:
           net-kourier: write
         members:
-        - nak3
         - skonto
 
       serving-progressive-rollout Approvers:
@@ -1204,9 +1208,10 @@ orgs:
         repos:
           serving-progressive-rollout: write
         members:
+          - alexagriffith
           - houshengbo
-          - yuzisun
           - sukumargaonkar
+          - yuzisun
 
       security-guard Approvers:
         description: Approver group for security-guard - to be used in CODEOWNERS file

@@ -2,24 +2,31 @@
 # Do not modify this file, instead modify peribolos/knative-extensions.yaml
 
 aliases:
+  autoscaler-keda-approvers:
+  - ReToCode
+  - skonto
+  backstage-plugins-reviewers:
+  - aliok
+  - cali0707
+  - leo6leo
+  - pierdipi
+  backstage-plugins-writers:
+  - aliok
+  - cali0707
+  - leo6leo
+  - pierdipi
   client-wg-leads:
   - dsimansk
-  - navidshaikh
   - rhuss
   client-writers:
   - dsimansk
-  - navidshaikh
   - rhuss
   discovery-approvers:
   - lberk
-  docs-wg-leads:
-  - snneji
   docs-writers:
   - csantanapr
-  - nak3
   - retocode
   - skonto
-  - snneji
   eventing-autoscaler-keda-approvers: []
   eventing-awssqs-approvers:
   - lberk
@@ -38,15 +45,11 @@ aliases:
   - lberk
   - matzew
   - sebgoa
-  - tzununbekov
   eventing-kafka-approvers:
   - aliok
-  - eric-sap
   - lberk
   - matzew
   - pierDipi
-  - steven0711dong
-  - travis-minke-sap
   eventing-kafka-broker-approvers:
   - aliok
   - matzew
@@ -54,31 +57,20 @@ aliases:
   eventing-kafka-broker-reviewers:
   - Leo6Leo
   - cali0707
-  eventing-kafka-mtsource-approvers:
-  - steven0711dong
-  eventing-kafka-wg-leads:
-  - travis-minke-sap
-  eventing-kafka-writers:
-  - travis-minke-sap
+  eventing-kafka-writers: []
   eventing-kogito-approvers:
   - ricardozanini
-  - spolti
-  - vaibhavjainwiz
   eventing-natss-approvers:
+  - astelmashenko
+  - dan-j
   - zhaojizhuang
   eventing-prometheus-approvers:
   - lberk
   - matzew
   eventing-rabbitmq-approvers:
-  - andrew-su
-  - bbtong
-  - chunyilyu
-  - dolfolife
-  - gabo1208
-  - ikvmw
-  - joeeltgroth
-  - salaboy
-  - xtreme-sameer-vohra
+  - Zerpet
+  - ikavgo
+  - mkuratczyk
   eventing-redis-approvers:
   - aavarghese
   - lionelvillard
@@ -91,10 +83,10 @@ aliases:
   - pierDipi
   eventing-writers:
   - aliok
+  - cali0707
   - creydr
   - lionelvillard
   - matzew
-  - odacremolbap
   - pierDipi
   func-tastic-approvers:
   - lance
@@ -106,18 +98,21 @@ aliases:
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - nainaz
   - salaboy
   function-runtime-approvers:
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - nainaz
   - salaboy
   function-runtime-writers:
   - lance
   - lkingland
   - matejvasek
+  - matzew
   - nainaz
   - salaboy
   homebrew-kn-plugins-approvers:
@@ -126,13 +121,11 @@ aliases:
   - rhuss
   kn-plugin-admin-approvers:
   - maximilien
-  - navidshaikh
   - rhuss
   - zhanggbj
   kn-plugin-diag-approvers:
   - cdlliuy
   - maximilien
-  - navidshaikh
   kn-plugin-event-approvers:
   - cardil
   - rhuss
@@ -145,12 +138,10 @@ aliases:
   - rhuss
   kn-plugin-quickstart-approvers:
   - dsimansk
-  - navidshaikh
   - psschwei
   - rhuss
   kn-plugin-sample-approvers:
   - maximilien
-  - navidshaikh
   - rhuss
   kn-plugin-service-log-approvers:
   - rhuss
@@ -158,63 +149,43 @@ aliases:
   - daisy-ycguo
   - dsimansk
   - maximilien
-  - navidshaikh
   - rhuss
   kn-plugin-source-kamelet-approvers:
   - christophd
   - rhuss
   knative-admin:
-  - Cali0707
-  - ReToCode
-  - creydr
-  - csantanapr
+  - aliok
+  - cardil
   - davidhadas
   - dprotaso
   - dsimansk
-  - itsmurugappan
+  - evankanderson
   - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
-  - kvmware
-  - lance
   - nainaz
-  - pierDipi
   - psschwei
   - salaboy
-  - skonto
   - upodroid
-  knative-release-leads:
-  - Cali0707
-  - ReToCode
-  - creydr
-  - dsimansk
-  - pierDipi
-  - skonto
+  knative-release-leads: []
   knative-robots:
   - knative-automation
   - knative-prow-releaser-robot
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
-  net-certmanager-approvers: []
   net-contour-approvers:
   - KauzClay
-  - carlisia
   - dprotaso
   net-gateway-api-approvers:
   - dprotaso
-  - nak3
   net-http01-approvers: []
   net-istio-approvers:
-  - AngeloDanducci
-  - nak3
   - skonto
   net-kourier-approvers:
-  - nak3
   - skonto
-  networking-wg-leads: []
   operations-wg-leads:
   - houshengbo
   operations-writers:
@@ -222,14 +193,13 @@ aliases:
   - houshengbo
   - upodroid
   productivity-leads:
-  - kvmware
+  - cardil
   - upodroid
   productivity-wg-leads:
-  - kvmware
+  - cardil
   - upodroid
   productivity-writers:
   - cardil
-  - kvmware
   - upodroid
   security-guard-approvers:
   - davidhadas
@@ -243,43 +213,36 @@ aliases:
   - davidhadas
   - evankanderson
   serving-approvers:
-  - nak3
-  - psschwei
+  - ReToCode
   - skonto
   serving-progressive-rollout-approvers:
+  - alexagriffith
   - houshengbo
   - sukumargaonkar
   - yuzisun
   serving-reviewers:
-  - KauzClay
-  - jsanin-vmw
-  - kauana
-  - kvmware
+  - izabelacg
   - retocode
   - skonto
-  - xtreme-vikram-yadav
   serving-triage:
-  - KauzClay
+  - izabelacg
   - retocode
   - skonto
   serving-wg-leads:
   - dprotaso
   serving-writers:
+  - ReToCode
   - dprotaso
-  - nak3
-  - psschwei
   - skonto
   steering-committee:
-  - csantanapr
-  - itsmurugappan
-  - lance
+  - aliok
+  - evankanderson
   - nainaz
   - salaboy
   technical-oversight-committee:
   - davidhadas
   - dprotaso
   - dsimansk
-  - kvmware
   - psschwei
   ux-wg-leads:
   - cali0707

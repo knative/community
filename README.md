@@ -2,6 +2,9 @@
 
 Welcome to the Knative community!
 
+![Kuack the Knative Duck](./mascot/kuack.png)
+*Meet Kuack, the Knative Duck - our community mascot!*
+
 This is the starting point for becoming a contributor - improving code,
 improving docs, giving talks, etc.
 
@@ -27,7 +30,6 @@ Other Documents
   committee
 - [Technical Oversight Committee](./TECH-OVERSIGHT-COMMITTEE.md) - describes our
   technical oversight committee
-- [Trademark Committee](./TRADEMARK-COMMITTEE.md) - describes our trademark committee
 - [Community Roles](./ROLES.md) - describes the roles individuals can assume
   within the Knative community
 - [Reviewing and Merging Pull Requests](./REVIEWING.md) - how we manage pull
@@ -88,6 +90,7 @@ look for GitHub issues marked with the Help Wanted label:
 - [Eventing issues](https://github.com/knative/eventing/labels/kind%2Fgood-first-issue)
 - [Serving issues](https://github.com/knative/serving/labels/kind%2Fgood-first-issue)
 - [Documentation repo](https://github.com/knative/docs/labels/kind%2Fgood-first-issue)
+- [All of Knative](https://clotributor.dev/search?project=knative&page=1)
 
 Even if there's not an issue opened for it, we can always use more testing
 throughout the platform. Similarly, we can always use more docs, richer docs,

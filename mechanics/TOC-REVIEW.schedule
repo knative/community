@@ -1,26 +1,17 @@
-#@ title: ToC Working Group Update
-#@ duration: 45m
-
-# To generate reminders (on a mac):
-# awk -F \| '/^[0-9]/ {cmd "/bin/date -j -f %FT%T " substr($1, 0, 19) " +%e\\ %b" | getline date; cmd "/bin/date -j -f %FT%T -v-4d " substr($1, 0, 19) " +%b\\ %e" | getline reminder; print "/remind #knative-leads " $2 " is presenting at TOC on " date " (this week) :heart: " reminder}' mechanics/TOC-REVIEW.schedule
-
-# Start | Group
-2023-05-25T08:30:00-07:00 | Eventing WG
-2023-06-08T08:30:00-07:00 | Security WG
-# 2023-06-22T08:30:00-07:00 | skip 
-2023-07-06T08:30:00-07:00 | Productivity WG
-# 2023-07-20T08:30:00-07:00 | skip - no quorum
-2023-08-03T08:30:00-07:00 | Client WG
-2023-08-17T08:30:00-07:00 | Serving API WG
-2023-08-31T08:30:00-07:00 | Operations WG
-#2023-09-14T08:30:00-07:00 | skip
-2023-09-28T08:30:00-07:00 | Functions WG
-2023-10-12T08:30:00-07:00 | Eventing WG
-2023-10-26T08:30:00-07:00 | Security WG
-2023-11-09T08:30:00-07:00 | Productivity WG
-# 2023-11-23T08:30:00-07:00 | skip - US holiday
-2023-12-07T08:30:00-07:00 | DUX WG
-# 2023-12-21T08:30:00-07:00 | skip
-2024-01-04T08:30:00-07:00 | Client WG
-2024-01-18T08:30:00-07:00 | Serving API WG
-2024-01-25T08:30:00-07:00 | Operations WG
+# Date in %F format ie: YYYY-DD-MM | Working Group | Members to be notified
+2024-02-14 | Security WG | @Evan Anderson @David Hadas
+2024-02-28 | Productivity WG | @Krsna Mahapatra @Mahamed Ali
+2024-03-27 | UX WG | <@U05999D66LD> <@U059QSFTWQH> <@U05KBM5KXL2> <@U05MMMAFX1D>
+2024-04-10 | Client WG | <@U04M6CBMLD7> <@U015VV08WP2>
+2024-04-24 | Serving API WG | <@ULXQUF6RK>
+# 2024-05-08 | skipped
+2024-05-22 | Operations WG | <@U04ME6E2ZSL>
+2024-06-05 | Functions WG | <@UM847GSTU> <@U021DUWTHK6>
+2024-06-19 | Eventing WG | <@U018JAXEV9V>
+2024-07-03 | Security WG | <@USE6QPTEG> <@U042ELWDYLQ>
+2024-07-17 | Productivity WG | <@U01EUH1TFRR> <@U04M85SQZ97>
+2024-07-31 | UX WG | <@U05999D66LD> <@U059QSFTWQH> <@U05KBM5KXL2> <@U05MMMAFX1D>
+2024-08-14 | Client WG | <@U04M6CBMLD7> <@U015VV08WP2>
+2024-08-28 | Serving API WG | <@ULXQUF6RK>
+2024-09-11 | Operations WG | <@U04ME6E2ZSL>
+2024-09-25 | Functions WG | <@UM847GSTU> <@U021DUWTHK6>

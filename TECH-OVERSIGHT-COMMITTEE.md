@@ -37,6 +37,9 @@ product and design decisions.
 
   - Approve the creation/deletion of GitHub repositories, along with other
     high-level administrative issues around GitHub and our other tools.
+  
+  - Advise the Steering Committe on conformance rules and tests that 
+    define brand use decisions.
 
 - Happy Healthy Community
 
@@ -84,7 +87,7 @@ during the community feedback period at the end of each meeting.
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Google Group               | [knative-tech-oversight@googlegroups.com](https://groups.google.com/forum/#!forum/knative-tech-oversight)                                                   |
 | Community Meeting VC       | See the top of the [Meeting notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)                                    |
-| Community Meeting Calendar | Thursdays at 8:30a-9:15a <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
+| Community Meeting Calendar | Wednesdays at 10:00a-10:45a ET <br>[Calendar](https://calendar.google.com/calendar/embed?src=knative.team_9q83bg07qs5b9rrslp5jor4l6s%40group.calendar.google.com) |
 | Meeting Notes              | [Notes](https://docs.google.com/document/d/1LzOUbTMkMEsCRfwjYm5TKZUWfyXpO589-r9K2rXlHfk/edit)                                                               |
 | Document Folder            | [Folder](https://drive.google.com/drive/folders/13-h81zualjRSNkCSFItODfk-NZ7dkMut)                                                                          |
 
@@ -98,7 +101,6 @@ The current members of the TOC are shown below.
 | <img width="30px" src="https://github.com/dprotaso.png">       | Dave Protasowski | VMware     | [@dprotaso](https://github.com/dprotaso)             | 2021-05-26 | 2024     |
 | <img width="30px" src="https://github.com/dsimansk.png">       | David Simansky   | Red Hat    | [@dsimansk](https://github.com/dsimansk)             | 2022-06-01 | 2024     |
 | <img width="30px" src="https://github.com/psschwei.png">       | Paul Schweigert  | IBM        | [@psschwei](https://github.com/psschwei)             | 2022-09-28 | 2024     |
-| <img width="30px" src="https://github.com/kvmware.png">        | Krsna Mahapatra  | VMWare     | [@kvmware](https://github.com/kvmware)               | 2023-06-01 | 2025     |
 ## Emeritus Committee Members
 
 To recognize the folks that have served in the TOC in the past, below we list the previous members of the TOC (sorted by their 'Term End').
@@ -116,6 +118,7 @@ To recognize the folks that have served in the TOC in the past, below we list th
 | <img width="30px" src="https://github.com/n3wscott.png">       | Scott Nichols   | [@n3wscott](https://github.com/n3wscott)             | 2022-01-11 | 2022-09-27 |
 | <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson   | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2023-06-01 |
 | <img width="30px" src="https://github.com/zroubalik.png">      | Zbynek Roubalik | [@zroubalik](https://github.com/zroubalik)           | 2022-06-01 | 2023-07-31 |
+| <img width="30px" src="https://github.com/krsna-m.png">        | Krsna Mahapatra | [@krsna-m](https://github.com/krsna-m)               | 2023-06-01 | 2024       |
 
 ---
 

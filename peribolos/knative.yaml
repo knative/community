@@ -8,24 +8,23 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    - aliok
     - caniszczyk
     - cncf-ci
-    - csantanapr
     - davidhadas
     - dprotaso
     - dsimansk
+    - evankanderson
     - knative-prow-robot
-    - lance
     - nainaz
+    - nrrso
     - psschwei
-    - puerco
     - salaboy
     - thelinuxfoundation
-    - kvmware
     - upodroid
     members:
     - aavarghese
-    - aliok
+    - alexagriffith
     - andrew-su
     - AngeloDanducci
     - aslom
@@ -41,9 +40,11 @@ orgs:
     - chizhg
     - chunyilyu
     - chzhyang
+    - converge
     - coryrc
     - cr22rc
     - creydr
+    - csantanapr
     - Cynocracy
     - daisy-ycguo
     - debasishbsws
@@ -52,7 +53,6 @@ orgs:
     - dolfolife
     - duglin
     - eallred-google
-    - evankanderson
     - gab-satchi
     - gabo1208
     - gauron99
@@ -61,7 +61,7 @@ orgs:
     - hh
     - hhk7734
     - houshengbo
-    - ikvmw
+    - ikavgo
     - ImJasonH
     - itsmurugappan
     - izabelacg
@@ -83,6 +83,7 @@ orgs:
     - knative-prow-updater-robot
     - knative-test-reporter-robot
     - krithika369
+    - lance
     - lberk
     - lionelvillard
     - liuchangyan
@@ -96,10 +97,10 @@ orgs:
     - maximilien
     - mchmarny
     - mgencur
+    - mkuratczyk
     - mmejia02
     - mvinkler
     - nader-ziada
-    - nak3
     - navidshaikh
     - norman465
     - odacremolbap
@@ -115,6 +116,7 @@ orgs:
     - ricardozanini
     - RichieEscarez
     - richterdavid
+    - sadath-12
     - sebgoa
     - senthilnathan
     - Shashankft9
@@ -141,11 +143,14 @@ orgs:
     - xtreme-sameer-vohra
     - xtreme-vikram-yadav
     - xxinran
+    - xiangpingjiang
     - yanweiguo
     - yaron2
+    - yijie-04
     - yuvalif
     - yuzisun
     - zainabhusain227
+    - Zerpet
     - zhanggbj
     - zhaojizhuang
     - ZhiminXiang
@@ -380,33 +385,18 @@ orgs:
             description: The Working Group Leads for Client
             members:
             - dsimansk
-            - navidshaikh
             - rhuss
             privacy: closed
         members:
         - maximilien
         - vyasgun
-      Conformance Writers:
-        description: Grants write access to conformance-related repositories.
-        privacy: closed
-        repos:
-          specs: write
-        teams:
-          Conformance Task Force Leads:
-            description: The Task Force leads for Conformance
-            members:
-            - salaboy
-            privacy: closed
       Docs Reviewers:
         description: Receive reviews for docs directories
         privacy: closed
         members:
-        - snneji
-        - pmbanugo
         - nainaz
         - skonto
         - retocode
-        - nak3
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
@@ -414,17 +404,10 @@ orgs:
           docs: write
           website: write
           release: write
-        teams:
-          Docs WG Leads:
-            description: The Working Group leads for Docs
-            members:
-            - snneji
-            privacy: closed
         members:
         - csantanapr
         - skonto
         - retocode
-        - nak3
       Eventing Reviewers:
         description: Receive reviews for eventing related repositories
         privacy: closed
@@ -442,12 +425,6 @@ orgs:
           pkg: write
           release: write
         teams:
-          Eventing Triage:
-            description: Temporary group to allow folks to continue to maintain eventing
-              issues and milestones as we sort out roles
-            members:
-            - lberk
-            privacy: closed
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
@@ -455,9 +432,9 @@ orgs:
             privacy: closed
         members:
         - aliok
+        - cali0707
         - creydr
         - matzew
-        - odacremolbap
         - lionelvillard
       Func Writers:
         description: Grants write access to function repositories
@@ -475,14 +452,15 @@ orgs:
         members:
           - lance
           - matejvasek
+          - matzew
           - jrangelramos
+          - gauron99
       Func Reviewers:
         description: Receive reviews for function repositories
         privacy: closed
         members:
         - jrangelramos
         - nainaz
-        - gauron99
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -531,18 +509,10 @@ orgs:
           Steering Committee:
             description: Knative Steering Committee
             maintainers:
-            - csantanapr
-            - lance
+            - aliok
+            - evankanderson
             - nainaz
-            - puerco
             - salaboy
-            privacy: closed
-          Trademark Committee:
-            description: Knative Trademark Committee
-            maintainers:
-            - xtreme-sameer-vohra
-            - smoser-ibm
-            - mchmarny
             privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
@@ -551,24 +521,17 @@ orgs:
             - dprotaso
             - dsimansk
             - psschwei
-            - kvmware
             privacy: closed
           Knative Release Leads:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
-            maintainers:
-            - dsimansk
-            - skonto
-            - pierDipi
-            - creydr
-            - ReToCode
-            - Cali0707
+            maintainers: []
           Productivity Leads:
-            #Using the same team name as below `Productivity WG Leads` puts periboilos in a weird state.
+            #Using the same team name as below `Productivity WG Leads` puts peribolos in a weird state.
             privacy: closed
             description: Members of the Productivity WG Leads.
             maintainers:
-            - kvmware
+            - cardil
             - upodroid
       Operations Reviewers:
         description: Receive reviews for operations directories
@@ -612,13 +575,12 @@ orgs:
           release: write
         members:
         - cardil
-        - kvmware
         - upodroid
         teams:
           Productivity WG Leads:
             description: The Working Group leads for Productivity
             members:
-            - kvmware
+            - cardil
             - upodroid
             privacy: closed
       Security Writers:
@@ -637,18 +599,14 @@ orgs:
         description: Receive reviews for serving-related directories
         privacy: closed
         members:
-        - KauzClay
-        - jsanin-vmw
-        - kauana
-        - kvmware
+        - izabelacg
         - retocode
         - skonto
-        - xtreme-vikram-yadav
       Serving Triage:
         description: Ability to triage serving-related repos
         privacy: closed
         members:
-        - KauzClay
+        - izabelacg
         - retocode
         - skonto
         repos:
@@ -670,9 +628,8 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
-            - nak3
+            - ReToCode
             - skonto
-            - psschwei
             privacy: closed
           Serving WG Leads:
             description: The Working Group leads for Serving

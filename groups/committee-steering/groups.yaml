@@ -7,10 +7,9 @@ groups:
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
     owners:
-      - csantana23@gmail.com
-      - lball@redhat.com
-      - lball@knative.team
-      - puerco@chainguard.dev
+      - aliok@redhat.com
+      - developer@nrrso.com
+      - evan.k.anderson@gmail.com
       - naina.sng@gmail.com
       - salaboy@gmail.com
 
@@ -24,4 +23,4 @@ groups:
     members:
       - dawn@dawnfoster.com
       - jberkus@redhat.com
-      - aliok@redhat.com
+      - rlehmann@redhat.com
