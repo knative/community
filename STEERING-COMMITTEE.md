@@ -1,14 +1,16 @@
 ---
 title: "Knative steering committee"
 linkTitle: "Steering committee"
-weight: 40
+weight: 35
 type: "docs"
 aliases:
   - /contributing/steering-committee/
+  - /contributing/tech-oversight-committee/
 ---
 
-The Knative Steering Committee (KSC) is
-[responsible for the general health of the Knative community](./GOVERNANCE.md).
+The Knative Steering Committee (KSC) is [responsible for the general health of
+the Knative community, as well as establishing and coordinating other working
+groups](./GOVERNANCE.md).
 
 The governance of Knative is an open, living document, and will continue to
 evolve as the community and project change.
@@ -38,15 +40,20 @@ evolve as the community and project change.
 1. Define, evolve, and promote the vision, values, and mission of the project.
 1. Define and evolve project governance structures and policies, including
    project roles and how collaborators become members, approvers, leads, and/or
-   administrators. This includes policy for the creation and administration of
+   administrators. This includes the creation and administration of
    [working groups](./working-groups/WORKING-GROUPS.md) and committees.
+1. Coordinate and empower subcomponents of the Knative project, including
+   ensuring compatibility between components, and developing long-term vision
+   for the project's technical direction.
 1. Steward, control access, delegate access, and establish processes regarding
-   all Knative project resources and has the final say in the disposition of
-   those resources.
+   all Knative project resources (including repositories and GitHub
+   organizations), and provide the final say in the disposition of those
+   resources.
 1. Coordinate with the CNCF regarding usage of the Knative brand and how that 
    brand can be used in relation to other efforts or vendors.
-1. Define and evolve the scope of the Knative community and extensions, and the
-   process for migration of extensions projects into Knative Extensions.
+1. Define and evolve the scope of the Knative community and extensions, the
+   lifecycle of community-maintained code and releases, and processes and
+   standards for accepting project contributions.
 1. Receive and handle reports about [code of conduct](./CODE-OF-CONDUCT.md)
    violations and maintain confidentiality.
 1. Receive security reports; work with the appropriate technical leads to accept
@@ -60,8 +67,8 @@ evolve as the community and project change.
 KSC may choose to delegate its authority to other committees as-needed. The
 committee currently recognizes this delegated authority for:
 
-- Technical guidance is delegated to the
-  [Technical Oversight Committee](./TECH-OVERSIGHT-COMMITTEE.md).
+- Individual Working Groups, as described in [the working groups
+  document](./working-groups/WORKING-GROUPS.md).
 
 ## Committee Meetings
 
@@ -86,7 +93,10 @@ for other options.
 ## Committee members
 
 Seats on the Steering Committee are held by an individual, not by their
-employer.
+employer.  The current composition of the Steering Committee consists of members
+elected to the Steering Committee in 2022 and 2023, and the members of the
+Technical Oversight Committee elected in 2022; this is a temporary measure until
+elections are held in 2024.
 
 The current membership of the committee is currently (listed alphabetically by
 first name):
@@ -98,30 +108,11 @@ first name):
 | <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson           | VMware       | [@evankanderson](https://github.com/evankanderson) | 2023-11-28 | 2025     |
 | <img width="30px" src="https://github.com/nainaz.png">        | Naina Singh             | Red Hat      | [@nainaz](https://github.com/nainaz)               | 2022-12-06 | 2024     |
 | <img width="30px" src="https://github.com/salaboy.png">       | Mauricio Salatino       | Diagrid      | [@salaboy](https://github.com/salaboy)             | 2022-12-06 | 2024     |
+| <img width="30px" src="https://github.com/davidhadas.png">    | David Hadas             | IBM          | [@davidhadas](https://github.com/davidhadas)       | 2023-09-12 | 2024     |
+| <img width="30px" src="https://github.com/dprotaso.png">      | Dave Protasowski        | VMware       | [@dprotaso](https://github.com/dprotaso)           | 2021-05-26 | 2024     |
+| <img width="30px" src="https://github.com/dsimansk.png">      | David Simansky          | Red Hat      | [@dsimansk](https://github.com/dsimansk)           | 2022-06-01 | 2024     |
+| <img width="30px" src="https://github.com/psschwei.png">      | Paul Schweigert         | IBM          | [@psschwei](https://github.com/psschwei)           | 2022-09-28 | 2024     |
 > * Norris holds the End User seat
-## Emeritus Committee Members
-
-To recognize the folks that have served in the SC in the past, below we list the previous members of the SC (sorted by their 'Term End').
-
-| &nbsp;                                                         | Member               | Profile                                              | Term Start | Term End |
-|----------------------------------------------------------------|----------------------|------------------------------------------------------|------------|----------|
-| <img width="30px" src="https://github.com/dewitt.png">         | Dewitt Clinton       | [@dewitt](https://github.com/dewitt)                 | Bootstrap  | 2019     |
-| <img width="30px" src="https://github.com/mchmarny.png">       | Mark Charmny         | [@mchmarny](https://github.com/mchmarny)             | Bootstrap  | 2019     |
-| <img width="30px" src="https://github.com/jdumars.png">        | Jaice Singer DuMars  | [@jdumars](https://github.com/jdumars)               | 2019       | 2020     |
-| <img width="30px" src="https://github.com/lindydonna.png">     | Donna Malayeri       | [@lindydonna](https://github.com/lindydonna)         | 2019       | 2020     |
-| <img width="30px" src="https://github.com/rgregg.png">         | Ryan Gregg           | [@rgregg](https://github.com/rgregg)                 | Bootstrap  | 2020     |
-| <img width="30px" src="https://github.com/isdal.png">          | Tomas Isdal          | [@isdal](https://github.com/isdal)                   | Bootstrap  | 2020     |
-| <img width="30px" src="https://github.com/anicolao.png">       | Alex Nicolau         | [@anicolao](https://github.com/anicolao)             | 2020       | 2020     |
-| <img width="30px" src="https://github.com/ronavn.png">         | Ron Avnur            | [@ronavn](https://github.com/ronavn)                 | 2020       | 2020     |
-| <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan          | [@bsnchan](https://github.com/bsnchan)               | Bootstrap  | 2021     |
-| <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt     | [@mbehrendt](https://github.com/mbehrendt)           | Bootstrap  | 2021     |
-| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas          | [@vaikas](https://github.com/vaikas)                 | 2020       | 2022     |
-| <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie           | [@pmorie](https://github.com/pmorie)                 | 2020       | 2022     |
-| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi     | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  | 2022     |
-| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty    | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022       | 2023     |
-| <img width="30px" src="https://github.com/csantanapr.png">     | Carlos Santana       | [@csantanapr](https://github.com/csantanapr)         | 2021       | 2023     |
-| <img width="30px" src="https://github.com/lance.png">          | Lance Ball           | [@lance](https://github.com/lance)                   | 2021       | 2023     |
-| <img width="30px" src="https://github.com/puerco.png">         | Adolfo García Veytia | [@puerco](https://github.com/puerco)                 | 2023       | 2024     |
 
 ## Decision process
 
@@ -139,7 +130,7 @@ Quorum is considered reached when at least half of the members are present.
 
 ## Getting in touch
 
-There are two ways to raise issues to the steering committee for decision:
+There are three ways to raise issues to the steering committee for decision:
 
 1. Emailing the steering committee at
    [steering@knative.team](mailto:steering@knative.team).
@@ -147,16 +138,33 @@ There are two ways to raise issues to the steering committee for decision:
    access.
 2. Open an issue on a knative repository and indicate that you would like
    attention from the steering committee.
+   
+3. Asking a question on the
+   [#knative-toc-sc-questions](https://cloud-native.slack.com/archives/C04LQCW0C03)
+   channel on [CNCF Slack](https://cloud-native.slack.com/).
 
 ## Composition
 
-The Steering Committee has five (5) seats. Of these five seats, four (4) are elected
-Contributing seats, open to any project contributor, and one (1) is an
-[End User Seat](#end-user-seat) appointed by the Steering Committee.
+The Steering Committee has five (7) seats. These 7 seats are composed as follows:
+
+- Four (4) are elected Contributing Seats, open to any project contributor.
+  Contributing Seats are elected every year, and serve a two-year term.  In the
+  event of a vacancy, the Steering Committee may select a replacement to serve
+  out the remainder of the term.
+
+- One (1) is an [End User Seat](#end-user-seat) appointed by the Steering
+  Committee.  The End User Seat serves until the next elected Steering Committee
+  appoints a replacement in the two months after members are seated, as
+  described below.
+
+- Up to two Selected Seats (2) are appointed by the Steering Committee to
+  balance the set of skills on the Steering Committee.  These seats serve a
+  1-year term, until Contributing Seats for the next Steering Committee election
+  are seated.
 
 Steering Committee contributing members serve for 2-year terms, staggered in
-order to preserve continuity. End user member serves for 1-year term. Every year
-two contributor seats are elected.
+order to preserve continuity. End user and selected members serve for 1-year
+terms. Every year two contributor seats are elected.
 
 ## Election Procedure
 
@@ -236,20 +244,20 @@ found in the [elections folder](./elections).
 
 ### Limitations on Company Representation
 
-No more than two seats may be held by employees of the same organization (or
-conglomerate, in the case of companies owning each other). Additionally, each
+No more than two contributing seats may be held by employees of the same organization
+(or conglomerate, in the case of companies owning each other). Additionally, each
 end user seat (when available) must belong to an employee from a different
 organization. If the results of an election result in greater than two employees
 of the same organization, the lowest vote getters from any particular employer
 will be removed until representation on the committee is down to two.
 
 If employers change because of job changes, acquisitions, or other events, in a
-way that would yield more than 2 seats being held by employees of the same
-organization, sufficient members of the committee must resign until only two
-employees of the same employer are left. If it is impossible to find sufficient
-members to resign, all employees of that organization will be removed and new
-special elections held. In the event of a question of company membership (for
-example evaluating independence of corporate subsidiaries) a majority of all
+way that would yield more than 2 contributing seats being held by employees of
+the same organization, sufficient members of the committee must resign until only
+two employees of the same employer are left. If it is impossible to find
+sufficient members to resign, all employees of that organization will be removed
+and new special elections held. In the event of a question of company membership
+(for example evaluating independence of corporate subsidiaries) a majority of all
 non-involved Steering Committee members will decide.
 
 ## End User Seat
@@ -264,6 +272,24 @@ for the Contributing Seats, the Steering Committee is responsible for appointing
 new person to the end user seat.
 
 The person filling the end user seat will take office in February.
+
+## Selected Seats
+
+The Steering Committee shall have the discretion to appoint up to two additional
+members to the Steering Commitee to balance out the set of skills on the
+committee.  (For example, if the current Steering Committee is lacking anyone
+with marketing background, it might choose to appoint a community member with
+thas expertise to a selected seat.)
+
+Selected seats serve for a 1-year term, until the next Steering Committee
+Contributed Seats take office.
+
+When new Steering Commitee members are seated in December after the elections
+for the Contributing Seats, the newly-constituted Steering Committee (consisting
+of the four Contributing Seats and the End-User Seat) may appoint additional
+Selected Seats.  The Steering Committee is not required to fill these Selected
+Seats.  The persons filling the Selected Seats will take office upon accepting
+the appointment.
 
 ## Vacancies
 
@@ -280,7 +306,9 @@ election. Any replacement SC member will serve out the remainder of the term for
 the person they are replacing, regardless of the length of that remainder.
 
 In the event of a resignation or other loss of an appointed end user KSC member,
-the SC will appoint a new person to fill the end user SC seat.
+the SC will appoint a new person to fill the end user SC seat.  In the event of
+a resignation or other loss of an appointed select KSC member, the SC may choose
+whether to appoint a new person to fill the seat.
 
 ## Changes to the charter
 
@@ -294,20 +322,69 @@ one week for comments and questions before a vote will occur.
 ## Authority, Facilitation, and Decision Making in Knative
 
 Ideally most decisions will be made at the lowest possible level within the
-project: within individual working groups. When this is not possible for
-technical decisions, the TOC can help facilitate a conversation to work through
-the contended issue. When facilitation by the TOC does not resolve the contended
-issue, the Steering Committee can help facilitate. When facilitation by the SC
-does not resolve the contention, the SC may have to make a decision.
+project: within individual working groups. When this is not possible, the
+Steering Committee can help facilitate a conversation to work through the
+contended issue.  When facilitation by the SC does not resolve the contention,
+the SC may have to make a decision.
 
 Note that if the SC is called to resolve contended decisions regularly, it is a
 symptom of a larger problem in the community that will need to be addressed.
+
+
+
+## Emeritus Committee Members
+
+
+
+### Steering Committee
+
+To recognize the folks that have served in the SC in the past, below we list the previous members of the SC (sorted by their 'Term End').
+
+| &nbsp;                                                         | Member               | Profile                                              | Term Start | Term End |
+|----------------------------------------------------------------|----------------------|------------------------------------------------------|------------|----------|
+| <img width="30px" src="https://github.com/dewitt.png">         | Dewitt Clinton       | [@dewitt](https://github.com/dewitt)                 | Bootstrap  | 2019     |
+| <img width="30px" src="https://github.com/mchmarny.png">       | Mark Charmny         | [@mchmarny](https://github.com/mchmarny)             | Bootstrap  | 2019     |
+| <img width="30px" src="https://github.com/jdumars.png">        | Jaice Singer DuMars  | [@jdumars](https://github.com/jdumars)               | 2019       | 2020     |
+| <img width="30px" src="https://github.com/lindydonna.png">     | Donna Malayeri       | [@lindydonna](https://github.com/lindydonna)         | 2019       | 2020     |
+| <img width="30px" src="https://github.com/rgregg.png">         | Ryan Gregg           | [@rgregg](https://github.com/rgregg)                 | Bootstrap  | 2020     |
+| <img width="30px" src="https://github.com/isdal.png">          | Tomas Isdal          | [@isdal](https://github.com/isdal)                   | Bootstrap  | 2020     |
+| <img width="30px" src="https://github.com/anicolao.png">       | Alex Nicolau         | [@anicolao](https://github.com/anicolao)             | 2020       | 2020     |
+| <img width="30px" src="https://github.com/ronavn.png">         | Ron Avnur            | [@ronavn](https://github.com/ronavn)                 | 2020       | 2020     |
+| <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan          | [@bsnchan](https://github.com/bsnchan)               | Bootstrap  | 2021     |
+| <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt     | [@mbehrendt](https://github.com/mbehrendt)           | Bootstrap  | 2021     |
+| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas          | [@vaikas](https://github.com/vaikas)                 | 2020       | 2022     |
+| <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie           | [@pmorie](https://github.com/pmorie)                 | 2020       | 2022     |
+| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi     | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  | 2022     |
+| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty    | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022       | 2023     |
+| <img width="30px" src="https://github.com/csantanapr.png">     | Carlos Santana       | [@csantanapr](https://github.com/csantanapr)         | 2021       | 2023     |
+| <img width="30px" src="https://github.com/lance.png">          | Lance Ball           | [@lance](https://github.com/lance)                   | 2021       | 2023     |
+| <img width="30px" src="https://github.com/puerco.png">         | Adolfo García Veytia | [@puerco](https://github.com/puerco)                 | 2023       | 2024     |
+
+### Technical Oversight Committee
+
+To recognize the folks that have served in the TOC in the past, below we list the previous members of the TOC (sorted by their 'Term End').
+
+| &nbsp;                                                         | Member          | Profile                                              | Term Start | Term End   |
+| -------------------------------------------------------------- | ---------------  | --------------------------------------------------- | ---------- | ---------- |
+| <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas     | [@vaikas](https://github.com/vaikas)                 | Bootstrap  | 2020       |
+| <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran      | [@tcnghia](https://github.com/tcnghia)               | 2020       | 2021       |
+| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore      | [@mattmoor](https://github.com/mattmoor)             | Bootstrap  | 2021       |
+| <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers   | [@grantr](https://github.com/grantr)                 | 2020       | 2021       |
+| <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes  | [@markusthoemmes](https://github.com/markusthoemmes) | 2020-06-09 | 2021-12-16 |
+| <img width="30px" src="https://github.com/julz.png">           | Julian Friedman | [@julz](https://github.com/julz)                     | 2021-05-26 | 2022-02-07 |
+| <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß      | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022       |
+| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore      | [@mattmoor](https://github.com/mattmoor)             | 2022-02-07 | 2022       |
+| <img width="30px" src="https://github.com/n3wscott.png">       | Scott Nichols   | [@n3wscott](https://github.com/n3wscott)             | 2022-01-11 | 2022-09-27 |
+| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson   | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2023-06-01 |
+| <img width="30px" src="https://github.com/zroubalik.png">      | Zbynek Roubalik | [@zroubalik](https://github.com/zroubalik)           | 2022-06-01 | 2023-07-31 |
+| <img width="30px" src="https://github.com/krsna-m.png">        | Krsna Mahapatra | [@krsna-m](https://github.com/krsna-m)               | 2023-06-01 | 2024       |
+
 
 ---
 
 Portions of this document are adapted from the
 [Istio Steering Committee](https://github.com/istio/community/blob/master/STEERING-COMMITTEE.md)
-documentation, and other portions are copied from the
+documentation, the [CNCF Charter](https://github.com/cncf/foundation/blob/main/charter.md), and other portions are copied from the
 [Kubernetes Steering Committee](https://github.com/kubernetes/steering/blob/master/elections.md),
 both of which are licensed under the Apache License 2.0.
 
