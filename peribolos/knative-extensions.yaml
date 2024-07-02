@@ -1076,6 +1076,7 @@ orgs:
           kn-plugin-admin: write
         members:
         - zhanggbj
+        - dsimansk
         - rhuss
         - maximilien
 
@@ -1085,6 +1086,8 @@ orgs:
         repos:
           kn-plugin-diag: write
         members:
+        - dsimansk
+        - rhuss
         - cdlliuy
         - maximilien
 
@@ -1094,6 +1097,7 @@ orgs:
         repos:
           kn-plugin-event: write
         members:
+        - dsimansk
         - cardil
         - rhuss
 
@@ -1103,6 +1107,8 @@ orgs:
         repos:
           kn-plugin-migration: write
         members:
+        - dsimansk
+        - rhuss
         - maximilien
 
       kn-plugin-operator Approvers:
@@ -1132,6 +1138,7 @@ orgs:
         repos:
           kn-plugin-sample: write
         members:
+        - dsimansk
         - maximilien
         - rhuss
 
@@ -1141,6 +1148,7 @@ orgs:
         repos:
           kn-plugin-service-log: write
         members:
+        - dsimansk
         - rhuss
 
       kn-plugin-source-kafka Approvers:
@@ -1160,6 +1168,7 @@ orgs:
         repos:
           kn-plugin-source-kamelet: write
         members:
+        - dsimansk
         - christophd
         - rhuss
 
