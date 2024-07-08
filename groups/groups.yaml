@@ -11,26 +11,45 @@ groups:
       MessageModerationLevel: "MODERATE_NON_MEMBERS"
       ReconcileMembers: "true"
     owners:
-      - dprotaso@gmail.com
+      # SC
+      - aliok@redhat.com
+      - developer@nrrso.com
       - evan.k.anderson@gmail.com
-      - evana@vmware.com
-      - evankanderson@knative.team
+      - naina.sng@gmail.com
+      - salaboy@gmail.com
+      # TOC
+      - david.hadas@gmail.com
+      - dprotaso@gmail.com
+      - dsimansk@redhat.com
+      - d.simansky@gmail.com
       - paul@paulschweigert.com
       - paulschw@us.ibm.com
     members:
-      - cmurray@redhat.com
-      - dprotaso@knative.team
-      - dsimansk@knative.team
-      - dsimansk@redhat.com
-      - houshengbo@knative.team
-      - krsna@knative.team
-      - lkinglan@redhat.com
-      - navidshaikh@knative.team
-      - nshaikh@redhat.com
-      - pierdipi@knative.team
+      # Serving
+      # - dprotaso@gmail.com: already in the owners list
+      # Client
+      # - dsimansk@knative.team: already in the owners list
+      # - dsimansk@redhat.com: already in the owners list
       - rhuss@knative.team
       - rhuss@redhat.com
-      - shou@us.ibm.com
+      # UX
+      - zainabhusain@ocadu.ca
+      - mariana.mejia@ocadu.ca
+      - leoli@redhat.com
+      - cmurray@redhat.com
+      # Eventing
+      - pierdipi@knative.team
+      # Functions
+      - lkinglan@redhat.com
+      # - salaboy@gmail.com: already in the owners list
+      # Operations
+      - houshengbo@knative.team
+      # Productivity
+      - cy@borg.dev
+      - ksuszyns@redhat.com
+      # Security
+      # - david.hadas@gmail.com: already in the owners list
+      # - evan.k.anderson@gmail.com: already in the owners list
 
   - email-id: calendar-maintainers@knative.team
     name: calendar-maintainers
