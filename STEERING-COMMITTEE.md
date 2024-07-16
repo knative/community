@@ -245,19 +245,20 @@ found in the [elections folder](./elections).
 ### Limitations on Company Representation
 
 No more than two contributing seats may be held by employees of the same organization
-(or conglomerate, in the case of companies owning each other). Additionally, each
-end user seat (when available) must belong to an employee from a different
-organization. If the results of an election result in greater than two employees
-of the same organization, the lowest vote getters from any particular employer
-will be removed until representation on the committee is down to two.
+(or conglomerate, in the case of companies owning each other). Additionally, each end
+user seat (when available) must belong to an employee from a different
+organization. No company may hold a majority (fifty percent or more) of the total
+Steering Committee seats through any combination of contributing, end-user, and
+selected seats. If the results of an election result in greater than two employees of
+the same organization, the lowest vote getters from any particular employer will be
+removed until representation on the committee is down to two from that organization.
 
-If employers change because of job changes, acquisitions, or other events, in a
-way that would yield more than 2 contributing seats being held by employees of
-the same organization, sufficient members of the committee must resign until only
-two employees of the same employer are left. If it is impossible to find
-sufficient members to resign, all employees of that organization will be removed
-and new special elections held. In the event of a question of company membership
-(for example evaluating independence of corporate subsidiaries) a majority of all
+If employers change because of job changes, acquisitions, or other events, in a way
+that would violate the company representation rules above, sufficient members of the
+committee must resign until the composition rules are met. If it is impossible to
+find sufficient members to resign, all employees of that organization will be removed
+and new special elections held. In the event of a question of company membership (for
+example evaluating independence of corporate subsidiaries) a majority of all
 non-involved Steering Committee members will decide.
 
 ## End User Seat
