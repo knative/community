@@ -105,7 +105,7 @@ first name):
 |---------------------------------------------------------------|-------------------------|--------------|----------------------------------------------------|------------|----------|
 | <img width="30px" src="https://github.com/nrrso.png">         | Norris Sam Osarenkhoe * | SVA          | [@nrrso](https://github.com/nrrso)                 | 2024-02-28 | 2025     |
 | <img width="30px" src="https://github.com/aliok.png">         | Ali Ok                  | Red Hat      | [@aliok](https://github.com/aliok)                 | 2023-11-28 | 2025     |
-| <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson           | VMware       | [@evankanderson](https://github.com/evankanderson) | 2023-11-28 | 2025     |
+| <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson           | Stacklok     | [@evankanderson](https://github.com/evankanderson) | 2023-11-28 | 2025     |
 | <img width="30px" src="https://github.com/nainaz.png">        | Naina Singh             | Red Hat      | [@nainaz](https://github.com/nainaz)               | 2022-12-06 | 2024     |
 | <img width="30px" src="https://github.com/salaboy.png">       | Mauricio Salatino       | Diagrid      | [@salaboy](https://github.com/salaboy)             | 2022-12-06 | 2024     |
 | <img width="30px" src="https://github.com/davidhadas.png">    | David Hadas             | IBM          | [@davidhadas](https://github.com/davidhadas)       | 2023-09-12 | 2024     |
