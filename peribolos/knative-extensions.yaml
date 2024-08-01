@@ -636,6 +636,7 @@ orgs:
         - cali0707
         - creydr
         - matzew
+        - Leo6Leo
         - lionelvillard
       Eventing Kafka Writers:
         description: Grants write access to Eventing Kafka WG leads on related repositories.
