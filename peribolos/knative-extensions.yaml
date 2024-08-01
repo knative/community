@@ -223,6 +223,14 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+      educational-game:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: "An educational game to teach Knative concepts, primarily focused around Event Driven Architectures"
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       eventing-awssqs:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -683,6 +691,7 @@ orgs:
           container-freezer: admin
           scaling-group: admin
           discovery: admin
+          educational-game: admin
           eventing-autoscaler-keda: admin
           eventing-awssqs: admin
           eventing-camel: admin
@@ -859,6 +868,8 @@ orgs:
       UX Writers:
         description: Grants write access to ux related repositories.
         privacy: closed
+        repos:
+          educational-game: write
         teams:
           UX WG Leads:
             privacy: closed
