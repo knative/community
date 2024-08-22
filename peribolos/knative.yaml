@@ -53,6 +53,7 @@ orgs:
     - dolfolife
     - duglin
     - eallred-google
+    - firatbezir
     - gab-satchi
     - gabo1208
     - gauron99
@@ -111,6 +112,7 @@ orgs:
     - pradnyavmw
     - pymhq
     - quentin-cha
+    - rahulii
     - ReToCode
     - rhuss
     - ricardozanini
@@ -121,6 +123,7 @@ orgs:
     - senthilnathan
     - Shashankft9
     - shinigambit
+    - ShravaniAK
     - skonto
     - smoser-ibm
     - snneji
@@ -435,6 +438,7 @@ orgs:
         - cali0707
         - creydr
         - matzew
+        - Leo6Leo
         - lionelvillard
       Func Writers:
         description: Grants write access to function repositories

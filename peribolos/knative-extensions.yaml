@@ -55,6 +55,7 @@ orgs:
     - dilipgb
     - dolfolife
     - duglin
+    - firatbezir
     - gab-satchi
     - gabo1208
     - haubenr
@@ -117,6 +118,7 @@ orgs:
     - senthilnathan
     - Shashankft9
     - shinigambit
+    - ShravaniAK
     - skonto
     - smoser-ibm
     - snneji
@@ -374,6 +376,7 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
       kn-plugin-diag:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Kn plugin for exposing detailed information for different layers of knative objects for diagnose.
@@ -388,6 +391,7 @@ orgs:
         has_projects: true
         has_wiki: false
       kn-plugin-migration:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Kn plugin for migrating Knative services from one cluster to another.
@@ -574,9 +578,7 @@ orgs:
         repos:
           homebrew-kn-plugins: write
           kn-plugin-admin: write
-          kn-plugin-diag: write
           kn-plugin-event: write
-          kn-plugin-migration: write
           kn-plugin-operator: write
           kn-plugin-quickstart: write
           kn-plugin-sample: write
@@ -636,6 +638,7 @@ orgs:
         - cali0707
         - creydr
         - matzew
+        - Leo6Leo
         - lionelvillard
       Eventing Kafka Writers:
         description: Grants write access to Eventing Kafka WG leads on related repositories.
@@ -1078,15 +1081,6 @@ orgs:
         - rhuss
         - maximilien
 
-      kn-plugin-diag Approvers:
-        description: Approver group for kn-plugin-diag - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          kn-plugin-diag: write
-        members:
-        - cdlliuy
-        - maximilien
-
       kn-plugin-event Approvers:
         description: Approver group for kn-plugin-event - to be used in CODEOWNERS file
         privacy: closed
@@ -1095,14 +1089,6 @@ orgs:
         members:
         - cardil
         - rhuss
-
-      kn-plugin-migration Approvers:
-        description: Approver group for kn-plugin-migration - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          kn-plugin-migration: write
-        members:
-        - maximilien
 
       kn-plugin-operator Approvers:
         description: Approver group for kn-plugin-operator - to be used in CODEOWNERS file
