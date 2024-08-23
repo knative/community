@@ -91,7 +91,7 @@ Covers API [resources](https://github.com/knative/serving/tree/main/pkg/apis/ser
 
 | &nbsp;                                                   | Leads            | Company | Profile                                 |
 | -------------------------------------------------------- | ---------------- | ------- | --------------------------------------- |
-| <img width="30px" src="https://github.com/dprotaso.png"> | Dave Protasowski | VMware  | [dprotaso](https://github.com/dprotaso) |
+| <img width="30px" src="https://github.com/dprotaso.png"> | Dave Protasowski | Independent | [dprotaso](https://github.com/dprotaso) |
 
 | &nbsp;                                                         | Emeritus Leads   | Subgroup   | Profile                                             | Duration  |
 | -------------------------------------------------------------- | ---------------- | ---------- | --------------------------------------------------- | --------- |
