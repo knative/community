@@ -145,12 +145,13 @@ There are three ways to raise issues to the steering committee for decision:
 
 ## Composition
 
-The Steering Committee has seven (7) seats. These 7 seats are composed as follows:
+The Steering Committee has between five (5) and seven (7) members. These seats are
+composed as follows:
 
 - Four (4) are elected Contributing Seats, open to any project contributor.
-  Contributing Seats are elected every year, and serve a two-year term.  In the
-  event of a vacancy, the Steering Committee may select a replacement to serve
-  out the remainder of the term.
+  Two (2) Contributing Seats are elected every year, and serve a two-year term.
+  In the event of a vacancy, the Steering Committee may select a replacement to
+  serve out the remainder of the term.
 
 - One (1) is an [End User Seat](#end-user-seat) appointed by the Steering
   Committee.  The End User Seat serves until the next elected Steering Committee
@@ -165,6 +166,25 @@ The Steering Committee has seven (7) seats. These 7 seats are composed as follow
 Steering Committee contributing members serve for 2-year terms, staggered in
 order to preserve continuity. End user and selected members serve for 1-year
 terms. Every year two contributor seats are elected.
+
+### Limitations on Company Representation
+
+No more than two contributing seats may be held by employees of the same organization
+(or conglomerate, in the case of companies owning each other). Additionally, the end
+user seat must belong to an employee from a different organization. No company may
+hold a majority (fifty percent or more) of the total Steering Committee seats through
+any combination of contributing, end-user, and selected seats. If the results of an
+election result in greater than two employees of the same organization, the lowest
+vote getters from any particular employer will be removed until representation on
+the committee is down to two from that organization.
+
+If employers change because of job changes, acquisitions, or other events, in a way
+that would violate the company representation rules above, sufficient members of the
+committee must resign until the composition rules are met. If it is impossible to
+find sufficient members to resign, all employees of that organization will be removed
+and new special elections held. In the event of a question of company membership (for
+example evaluating independence of corporate subsidiaries) a majority of all
+non-involved Steering Committee members will decide.
 
 ## Election Procedure
 
@@ -229,8 +249,7 @@ requirements based on community feedback.
 Community members must be eligible to vote in order to stand for election (this
 includes voters who qualify for an exception). Candidates may self-nominate or
 be nominated by another eligible member. There are no term limits for KSC
-members. Nothing prevents a qualified member from serving on both the TOC and SC
-simultaneously.
+members.
 
 To run for a Contributing seat, a candidate must additionally be at least a
 project Member as defined in
@@ -241,25 +260,6 @@ project Member as defined in
 Elections will be held using [Elekto](https://elekto.dev/), an online voting tool
 created by CNCF intern Manish Sahani. The details for previous KSC elections can be
 found in the [elections folder](./elections).
-
-### Limitations on Company Representation
-
-No more than two contributing seats may be held by employees of the same organization
-(or conglomerate, in the case of companies owning each other). Additionally, each end
-user seat (when available) must belong to an employee from a different
-organization. No company may hold a majority (fifty percent or more) of the total
-Steering Committee seats through any combination of contributing, end-user, and
-selected seats. If the results of an election result in greater than two employees of
-the same organization, the lowest vote getters from any particular employer will be
-removed until representation on the committee is down to two from that organization.
-
-If employers change because of job changes, acquisitions, or other events, in a way
-that would violate the company representation rules above, sufficient members of the
-committee must resign until the composition rules are met. If it is impossible to
-find sufficient members to resign, all employees of that organization will be removed
-and new special elections held. In the event of a question of company membership (for
-example evaluating independence of corporate subsidiaries) a majority of all
-non-involved Steering Committee members will decide.
 
 ## End User Seat
 
@@ -283,7 +283,7 @@ with marketing background, it might choose to appoint a community member with
 thas expertise to a selected seat.)
 
 Selected seats serve for a 1-year term, until the next Steering Committee
-Contributed Seats take office.
+Contributing Seats take office.
 
 When new Steering Commitee members are seated in December after the elections
 for the Contributing Seats, the newly-constituted Steering Committee (consisting
@@ -294,21 +294,21 @@ the appointment.
 
 ## Vacancies
 
-In the event of a resignation or other loss of an elected SC member, the
+In the event of a resignation or other loss of an elected KSC member, the
 candidate with the next most votes from the previous election will be offered
-the seat, provided that person otherwise qualifies to join the SC. This process
+the seat, provided that person otherwise qualifies to join the KSC. This process
 will continue until the seat is filled.
 
 In case this fails to fill the seat, a special election for that position will
-be held as soon as possible, unless the regular SC election is less than 7 weeks
+be held as soon as possible, unless the regular KSC election is less than 7 weeks
 away. Eligible voters from the most recent election will vote in the special
 election. Eligibility will not be redetermined at the time of the special
-election. Any replacement SC member will serve out the remainder of the term for
+election. Any replacement KSC member will serve out the remainder of the term for
 the person they are replacing, regardless of the length of that remainder.
 
 In the event of a resignation or other loss of an appointed end user KSC member,
-the SC will appoint a new person to fill the end user SC seat.  In the event of
-a resignation or other loss of an appointed select KSC member, the SC may choose
+the KSC will appoint a new person to fill the end user KSC seat.  In the event of
+a resignation or other loss of an appointed select KSC member, the KSC may choose
 whether to appoint a new person to fill the seat.
 
 ## Changes to the charter
@@ -325,10 +325,10 @@ one week for comments and questions before a vote will occur.
 Ideally most decisions will be made at the lowest possible level within the
 project: within individual working groups. When this is not possible, the
 Steering Committee can help facilitate a conversation to work through the
-contended issue.  When facilitation by the SC does not resolve the contention,
-the SC may have to make a decision.
+contended issue.  When facilitation by the KSC does not resolve the contention,
+the KSC may have to make a decision.
 
-Note that if the SC is called to resolve contended decisions regularly, it is a
+Note that if the KSC is called to resolve contended decisions regularly, it is a
 symptom of a larger problem in the community that will need to be addressed.
 
 
@@ -339,7 +339,7 @@ symptom of a larger problem in the community that will need to be addressed.
 
 ### Steering Committee
 
-To recognize the folks that have served in the SC in the past, below we list the previous members of the SC (sorted by their 'Term End').
+To recognize the folks that have served in the KSC in the past, below we list the previous members of the KSC (sorted by their 'Term End').
 
 | &nbsp;                                                         | Member               | Profile                                              | Term Start | Term End |
 |----------------------------------------------------------------|----------------------|------------------------------------------------------|------------|----------|
@@ -364,6 +364,11 @@ To recognize the folks that have served in the SC in the past, below we list the
 ### Technical Oversight Committee
 
 To recognize the folks that have served in the TOC in the past, below we list the previous members of the TOC (sorted by their 'Term End').
+
+The _Technical Oversight Committee (TOC)_ was a separate committee responsible
+for setting the overall technical direction and roadmap of the project before
+2024. In 2024, SC and TOC [were merged](https://github.com/knative/community/issues/1549) into a single governance body.
+
 
 | &nbsp;                                                         | Member          | Profile                                              | Term Start | Term End   |
 | -------------------------------------------------------------- | ---------------  | --------------------------------------------------- | ---------- | ---------- |
