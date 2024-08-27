@@ -145,7 +145,7 @@ There are three ways to raise issues to the steering committee for decision:
 
 ## Composition
 
-The Steering Committee has five (7) seats. These 7 seats are composed as follows:
+The Steering Committee has seven (7) seats. These 7 seats are composed as follows:
 
 - Four (4) are elected Contributing Seats, open to any project contributor.
   Contributing Seats are elected every year, and serve a two-year term.  In the
