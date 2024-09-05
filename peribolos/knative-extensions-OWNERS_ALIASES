@@ -123,7 +123,6 @@ aliases:
   kn-plugin-admin-approvers:
   - maximilien
   - rhuss
-  - zhanggbj
   kn-plugin-event-approvers:
   - cardil
   - rhuss

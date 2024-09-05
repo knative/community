@@ -1077,7 +1077,6 @@ orgs:
         repos:
           kn-plugin-admin: write
         members:
-        - zhanggbj
         - rhuss
         - maximilien
 
