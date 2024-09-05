@@ -1005,7 +1005,6 @@ orgs:
         members:
         - astelmashenko
         - dan-j
-        - zhaojizhuang
 
       eventing-prometheus Approvers:
         description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
