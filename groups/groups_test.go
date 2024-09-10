@@ -281,7 +281,7 @@ func TestHardcodedGroupsForParanoia(t *testing.T) {
 			"cy@knative.team",
 			"hh@cncf.io",
 			"hh@knative.team",
-			"krsna@knative.team",
+			"dprotaso@gmail.com",
 			"jeffrey@cncf.io",
 		},
 	}

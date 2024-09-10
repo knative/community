@@ -1005,7 +1005,6 @@ orgs:
         members:
         - astelmashenko
         - dan-j
-        - zhaojizhuang
 
       eventing-prometheus Approvers:
         description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
@@ -1068,7 +1067,6 @@ orgs:
           homebrew-kn-plugins: write
         members:
         - dsimansk
-        - maximilien
         - rhuss
 
       kn-plugin-admin Approvers:
@@ -1077,9 +1075,8 @@ orgs:
         repos:
           kn-plugin-admin: write
         members:
-        - zhanggbj
         - rhuss
-        - maximilien
+        - dsimansk
 
       kn-plugin-event Approvers:
         description: Approver group for kn-plugin-event - to be used in CODEOWNERS file
@@ -1097,7 +1094,6 @@ orgs:
           kn-plugin-operator: write
         members:
           - houshengbo
-          - maximilien
           - rhuss
           - dsimansk
 
@@ -1117,7 +1113,7 @@ orgs:
         repos:
           kn-plugin-sample: write
         members:
-        - maximilien
+        - dsimansk
         - rhuss
 
       kn-plugin-service-log Approvers:
@@ -1136,7 +1132,6 @@ orgs:
         members:
         - daisy-ycguo
         - dsimansk
-        - maximilien
         - rhuss
 
       kn-plugin-source-kamelet Approvers:
@@ -1207,5 +1202,4 @@ orgs:
         members:
         - davidhadas
         - psschwei
-        - maximilien
         - rhuss
