@@ -173,7 +173,7 @@ No more than two contributing seats may be held by employees of the same organiz
 (or conglomerate, in the case of companies owning each other). Additionally, the end
 user seat must belong to an employee from a different organization. No company may
 hold a majority (fifty percent or more) of the total Steering Committee seats through
-any combination of contributing, end-user, and selected seats. If the results of an
+any combination of seats. If the results of an
 election result in greater than two employees of the same organization, the lowest
 vote getters from any particular employer will be removed until representation on
 the committee is down to two from that organization.
