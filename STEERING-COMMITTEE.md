@@ -1,9 +1,10 @@
 ---
 title: "Knative steering committee"
 linkTitle: "Steering committee"
-weight: 35
+weight: 20
 type: "docs"
 aliases:
+  - /contributing/governance/
   - /contributing/steering-committee/
   - /contributing/tech-oversight-committee/
 ---
@@ -109,7 +110,7 @@ first name):
 | <img width="30px" src="https://github.com/nainaz.png">        | Naina Singh             | Red Hat      | [@nainaz](https://github.com/nainaz)               | 2022-12-06 | 2024     |
 | <img width="30px" src="https://github.com/salaboy.png">       | Mauricio Salatino       | Diagrid      | [@salaboy](https://github.com/salaboy)             | 2022-12-06 | 2024     |
 | <img width="30px" src="https://github.com/davidhadas.png">    | David Hadas             | IBM          | [@davidhadas](https://github.com/davidhadas)       | 2023-09-12 | 2024     |
-| <img width="30px" src="https://github.com/dprotaso.png">      | Dave Protasowski        | VMware       | [@dprotaso](https://github.com/dprotaso)           | 2021-05-26 | 2024     |
+| <img width="30px" src="https://github.com/dprotaso.png">      | Dave Protasowski        | Independent  | [@dprotaso](https://github.com/dprotaso)           | 2021-05-26 | 2024     |
 | <img width="30px" src="https://github.com/dsimansk.png">      | David Simansky          | Red Hat      | [@dsimansk](https://github.com/dsimansk)           | 2022-06-01 | 2024     |
 | <img width="30px" src="https://github.com/psschwei.png">      | Paul Schweigert         | IBM          | [@psschwei](https://github.com/psschwei)           | 2022-09-28 | 2024     |
 > * Norris holds the End User seat
@@ -185,6 +186,12 @@ find sufficient members to resign, all employees of that organization will be re
 and new special elections held. In the event of a question of company membership (for
 example evaluating independence of corporate subsidiaries) a majority of all
 non-involved Steering Committee members will decide.
+
+The above limits shall be relaxed for the temporary combination of the 2024 Steering
+and Technical Oversight Committees, with the limitation that the so-constituted
+committee may not pass any governance changes except by the abstention of Red Hat or
+IBM members such that the remaining voting member do not constitute a majority of
+the committee.
 
 ## Election Procedure
 
@@ -363,12 +370,11 @@ To recognize the folks that have served in the KSC in the past, below we list th
 
 ### Technical Oversight Committee
 
-To recognize the folks that have served in the TOC in the past, below we list the previous members of the TOC (sorted by their 'Term End').
-
 The _Technical Oversight Committee (TOC)_ was a separate committee responsible
 for setting the overall technical direction and roadmap of the project before
 2024. In 2024, SC and TOC [were merged](https://github.com/knative/community/issues/1549) into a single governance body.
 
+To recognize the folks that have served in the TOC in the past, below we list the previous members of the TOC (sorted by their 'Term End').
 
 | &nbsp;                                                         | Member          | Profile                                              | Term Start | Term End   |
 | -------------------------------------------------------------- | ---------------  | --------------------------------------------------- | ---------- | ---------- |
