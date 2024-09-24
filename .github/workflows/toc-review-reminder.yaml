@@ -12,48 +12,48 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name: 'TOC review reminder'
+# name: 'TOC review reminder'
 
-on:
-  workflow_dispatch:
-  schedule: ## At 09:00 on Mondays
-    - cron: 0 9 * * MON
+# on:
+#   workflow_dispatch:
+#   schedule: ## At 09:00 on Mondays
+#     - cron: 0 9 * * MON
 
-jobs:
-  remind:
-    name: toc-review-reminder
-    runs-on: 'ubuntu-latest'
+# jobs:
+#   remind:
+#     name: toc-review-reminder
+#     runs-on: 'ubuntu-latest'
 
-    steps:
-      - name: checkout TOC-REVIEW.schedule
-        uses: actions/checkout@v4
-        with:
-          repository: knative/community
-          sparse-checkout: |
-            mechanics/TOC-REVIEW.schedule
-          sparse-checkout-cone-mode: false
+#     steps:
+#       - name: checkout TOC-REVIEW.schedule
+#         uses: actions/checkout@v4
+#         with:
+#           repository: knative/community
+#           sparse-checkout: |
+#             mechanics/TOC-REVIEW.schedule
+#           sparse-checkout-cone-mode: false
 
-      - name: check who is scheduled this week
-        id: schedule
-        run: |
-          SLACK_MSG="NONE"
-          SCHED=$(cat mechanics/TOC-REVIEW.schedule | grep $(date --date="next wednesday" +%F) || true)
-          if [[ $SCHED ]]; then
-            DATE=$(echo $SCHED | cut -d '|' -f 1 | xargs)
-            WG=$(echo $SCHED | cut -d '|' -f 2 | xargs)
-            MEMBERS=$(echo $SCHED | cut -d '|' -f 3 | xargs)
-            SLACK_MSG="The $WG is up for TOC review on $DATE. $MEMBERS"
-          fi
-          echo "result=${SLACK_MSG}" >> "$GITHUB_OUTPUT"
+#       - name: check who is scheduled this week
+#         id: schedule
+#         run: |
+#           SLACK_MSG="NONE"
+#           SCHED=$(cat mechanics/TOC-REVIEW.schedule | grep $(date --date="next wednesday" +%F) || true)
+#           if [[ $SCHED ]]; then
+#             DATE=$(echo $SCHED | cut -d '|' -f 1 | xargs)
+#             WG=$(echo $SCHED | cut -d '|' -f 2 | xargs)
+#             MEMBERS=$(echo $SCHED | cut -d '|' -f 3 | xargs)
+#             SLACK_MSG="The $WG is up for TOC review on $DATE. $MEMBERS"
+#           fi
+#           echo "result=${SLACK_MSG}" >> "$GITHUB_OUTPUT"
 
-      - name: Post reminder to Slack
-        if: steps.schedule.outputs.result != 'NONE'
-        uses: rtCamp/action-slack-notify@v2.2.1
-        env:
-          SLACK_ICON: http://github.com/knative.png?size=48
-          SLACK_USERNAME: github-actions
-          SLACK_TITLE: TOC review reminder
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          MSG_MINIMAL: 'true'
-          SLACK_CHANNEL: 'knative-contributors'
-          SLACK_MESSAGE: ${{ steps.schedule.outputs.result }}
+#       - name: Post reminder to Slack
+#         if: steps.schedule.outputs.result != 'NONE'
+#         uses: rtCamp/action-slack-notify@v2.2.1
+#         env:
+#           SLACK_ICON: http://github.com/knative.png?size=48
+#           SLACK_USERNAME: github-actions
+#           SLACK_TITLE: TOC review reminder
+#           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+#           MSG_MINIMAL: 'true'
+#           SLACK_CHANNEL: 'knative-contributors'
+#           SLACK_MESSAGE: ${{ steps.schedule.outputs.result }}
