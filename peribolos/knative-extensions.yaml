@@ -269,14 +269,6 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
-      eventing-integrations:
-        allow_merge_commit: false
-        allow_rebase_merge: false
-        description: Eventing integration container images
-        has_projects: true
-        has_wiki: false
-        squash_merge_commit_title: PR_TITLE
-        squash_merge_commit_message: COMMIT_MESSAGES
       eventing-istio:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -624,7 +616,6 @@ orgs:
           eventing-couchdb: write
           eventing-github: write
           eventing-gitlab: write
-          eventing-integrations: write
           eventing-istio: write
           eventing-kogito: write
           eventing-natss: write
@@ -698,7 +689,6 @@ orgs:
           eventing-couchdb: admin
           eventing-github: admin
           eventing-gitlab: admin
-          eventing-integrations: admin
           eventing-istio: admin
           eventing-kafka: admin
           eventing-kogito: admin
