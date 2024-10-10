@@ -301,6 +301,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       eventing-kafka-broker:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -982,14 +983,6 @@ orgs:
         - lberk
         - matzew
         - pierDipi
-
-      eventing-kogito Approvers:
-        description: Approver group for eventing-kogito - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-kogito: write
-        members:
-        - ricardozanini
 
       eventing-kafka-broker Approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
