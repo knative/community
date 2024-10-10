@@ -25,11 +25,11 @@ jobs:
     name: Check peribolos schema.
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
         lfs: true
-    - run: pip install strictyaml
+    - run: pip install strictyaml --break-system-packages
     - name: Validate knative.yaml
       run: python3 peribolos/validate-schema.py peribolos/knative.yaml
     - name: Validate knative-extensions.yaml
