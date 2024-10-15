@@ -515,14 +515,14 @@ orgs:
             - evankanderson
             - nainaz
             - salaboy
-            privacy: closed
-          Technical Oversight Committee:
-            description: Members of the Knative Technical Oversight Committee (TOC)
-            maintainers:
             - davidhadas
             - dprotaso
             - dsimansk
             - psschwei
+            privacy: closed
+          Technical Oversight Committee:
+            description: Members of the Knative Technical Oversight Committee (TOC)
+            maintainers: []
             privacy: closed
           Knative Release Leads:
             privacy: closed
