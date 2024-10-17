@@ -24,7 +24,7 @@ Major Golang version bumps (i.e. 1.14 to 1.15) should be made deliberately and s
 be taken too lightly. Such a change should not happen too closely to a release of
 Knative. If the bump would be within two weeks of the Knative release cycle, it should be
 postponed until the next release to allow for thorough testing and hardening. Exceptions
-to this should be discussed and agreed upon through the TOC.
+to this should be discussed and agreed upon through the Steering Committee.
 
 Since such a version bump can potentially be breaking to some repositories, the change
 should be announced and discussed and agreed upon between the impacted working groups.

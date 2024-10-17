@@ -33,7 +33,7 @@ All steering committee members have “Super Admin” [privileges](https://suppo
 
 #### Technical Oversight Committee
 
-The technical oversight committee members each have a knative.team GSuite account. This is to allow TOC members to assist with some of the GSuite automation and GDrive migration. In addition to this, TOC members will need a knative.team account to allow people without a knative.team account into public meetings hosted on Google Hangouts.
+The technical oversight committee members each have a knative.team GSuite account. This is to allow Steering Committee members to assist with some of the GSuite automation and GDrive migration. In addition to this, Steering Committee members will need a knative.team account to allow people without a knative.team account into public meetings hosted on Google Hangouts.
 
 
 #### Working Group Leads
@@ -58,4 +58,4 @@ There are several mailing lists set up to manage permission groups (some could a
 
 The Knative.team GSuite is a [Business Standard](https://workspace.google.com/intl/en/pricing.html) GSuite Plan. This is required so that WG meetings have the ability to record meetings. If we need changes made to the GSuite package-type on this account, [April Nassi](mailto:anassi@google.com) can help with this.
 
-The GSuite org is currently paid by Google. [Mary Radomile](mailto:maryr@google.com) is the point of contact if we need help re: billing. 
+The GSuite org is currently paid by Google. [Mary Radomile](mailto:maryr@google.com) is the point of contact if we need help re: billing.

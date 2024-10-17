@@ -75,9 +75,9 @@ steps:
 - A proposal to remove the repository is brought to the attention of the
   Technical Oversight Committee through a GitHub issue posted in the
   [community](https://github.com/knative/community) repo.
-  - Feedback is encouraged during a Technical Oversight Committee meeting before
+  - Feedback is encouraged during a Steering Committee meeting before
     any action is taken.
-- Once the TOC has approved of the removal, if the repo is not moving to another
+- Once the Steering Committee has approved of the removal, if the repo is not moving to another
   actively maintained project:
   - The repo description is edited to start with the phrase "[EOL]"
   - All open issues and PRs are closed
@@ -120,7 +120,7 @@ Note: prior art here from the
 [Kubernetes community](https://github.com/kubernetes/community/blob/master/github-management/kubernetes-repositories.md).
 
 Working groups are allowed to request repositories that meet the following
-requirements. The Steering Committee and TOC will maintain the process and
+requirements. The Steering Committee will maintain the process and
 perform the repository creation steps to ensure that the following requirements
 have been met:
 
@@ -153,7 +153,7 @@ have been met:
 - Clearly document the stability and API guarantees (both in the top-level
   `README.md` and by using appropriate API versioning for Kubernetes apigroups).
 
-  - The TOC will maintain a template which will be used during the creation of
+  - The Steering Committee will maintain a template which will be used during the creation of
     new repositories. Existing repositiories are encouraged to update their
     `README`s from time to time as the format changes.
 
@@ -163,7 +163,7 @@ have been met:
   - APIs under `knative.dev` should:
 
     1. Be under a subdomain managed by the owning Working Group (e.g.
-       `sources.knative.dev`, not `knative.dev`). The TOC is considered the
+       `sources.knative.dev`, not `knative.dev`). The Steering Committee is considered the
        authority for assigning subdomains to working groups.
 
     1. Coordinate with the Working Group in API naming to avoid collisions or
@@ -181,8 +181,8 @@ of pluggability.
 The following are not required to create a working-group-owned repository:
 
 - Steering approval (see ["the fine print"](#the-fine-print))
-- TOC approval
-  - TOC may request certain naming patterns (e.g. `kn-plugin` for client WG)
+- Steering Committee approval
+  - Steering Committee may request certain naming patterns (e.g. `kn-plugin` for client WG)
 - Solving an unique problem (exploring different approaches to problems outside
   the core is actively encouraged!)
 

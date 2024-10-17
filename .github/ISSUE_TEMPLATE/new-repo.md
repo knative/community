@@ -25,9 +25,9 @@ Sponsoring WG:
 
 This area is used to track the [repo creation process](https://github.com/knative/community/blob/main/mechanics/CREATING-AN-EXTENSIONS-REPO.md).
 The _requestor_ and _sponsoring WG lead_ should perform the steps listed below and cross out the checkmarks when done.
-The TOC is involved only in the **TOC Gate** steps.
+The Steering Committee is involved only in the **KSC Gate** steps.
 
-- [ ] Add this issue to the [TOC project board](https://github.com/orgs/knative/projects/43) for review. You are responsible for moving your entry on the board to "Needs Discussion" or "In Progress" as you move forward in this checklist.
+- [ ] Add this issue to the [Steering Committee project board](https://github.com/orgs/knative/projects/52) for review. You are responsible for moving your entry on the board to "Needs Discussion" or "In Progress" as you move forward in this checklist.
 
 _You may not be able to use the Projects quick menu on this page. In that case, go to the project board and use the **Add cards** interface._
 
@@ -36,11 +36,11 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
   - [ ] Grant `Knative Admin` the `admin` privilege.
   - [ ] Grant the sponsoring WG the `write` privilege.
 
-**TOC Gate**: _Once the TOC has approved the above, it will merge and Peribolos will create an empty repository._
+**KSC Gate**: _Once the KSC has approved the above, it will merge and Peribolos will create an empty repository._
 
 - [ ] (golang) Send a PR to add aliases for `knative.dev/$REPONAME` import paths ([sample](https://github.com/knative/docs/pull/4160)).
 
-- [ ] Have a lead from the sponsoring WG bootstrap the Git repository by using an 
+- [ ] Have a lead from the sponsoring WG bootstrap the Git repository by using an
   appropriate "template" repository ([basic](https://github.com/knative-extensions/wg-repository),
   [sample-controller](https://github.com/knative-extensions/sample-controller),
   [sample-source](https://github.com/knative-extensions/sample-source)).
