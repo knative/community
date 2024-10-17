@@ -28,8 +28,8 @@ When lazy consensus is used, you should:
 * Allow time for your colleagues to read and think about the message
   * Please allow an appropriate amount of time, at least 3 business days
   * Give healthy consideration to reasonable objections
-  * If consensus cannot be achieved within the discussion, you should attempt to resolve it within the appropriate working group, then engage the TOC or Steering as appropriate if that fails
-* Record the decision in writing 
+  * If consensus cannot be achieved within the discussion, you should attempt to resolve it within the appropriate working group, then engage Steering as appropriate if that fails
+* Record the decision in writing
   * In increasing order of durability: decision announced in meeting minutes, send a mail to the mailing list, approval in Google Doc by WG lead, GitHub PR (possibly in “docs” directory or the like)
 
 ---

@@ -235,7 +235,7 @@ The following apply to the area / component for which one would be a lead.
   - Roadmap. Establish and maintain a roadmap for the working group outlining
     the areas of focus for the working group over the next 6 months.
 
-  - Report. Report current status to the TOC meeting every 6 weeks.
+  - Report. Report current status to the Steering Committee meeting every 6 weeks.
 
 - Expected to work to holistically maintain the health of the project through:
 
@@ -316,12 +316,12 @@ Approver.
   not fulfilling their documented responsibilities for more than 1 month.
   - This MAY be done through a super-majority vote of managers, or if there are
     not enough active managers to get a super-majority of votes cast, then
-    removal MAY occur through exception process to the TOC.  The PR removing the
+    removal MAY occur through exception process to the Steering Committee.  The PR removing the
     manager should be open for at least 72 hours.
   - Prior to voting to remove a manager, leads SHOULD reach out to the affected
     manager and see if they need to take a leave.
 - Membership disagreements MAY be escalated to the WG leads. WG lead membership
-  disagreements MAY be escalated to the TOC.
+  disagreements MAY be escalated to the Steering Committee.
 - Managers MAY decide to step down at anytime and nominate a replacement who
   will be approved through the regular process for that role.
 

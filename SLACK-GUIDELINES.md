@@ -44,7 +44,6 @@ project, and includes all communication mediums.
 ## Admins
 
 Members of the
-[Technical Oversight Committee (TOC)](TECH-OVERSIGHT-COMMITTEE.md) and
 [Knative Steering Committee (KSC)](STEERING-COMMITTEE.md) are also the
 administrators for the Knative Slack instance.
 
@@ -52,8 +51,7 @@ Slack admins should make sure to mention this in the “What I do” section of
 their Slack profile, as well as for which time zone.
 
 To connect: please reach out in the #slack-admins channel or DM (Direct Message)
-a member of the [KSC](STEERING-COMMITTEE.md) or
-[TOC](TECH-OVERSIGHT-COMMITTEE.md).
+a member of the [KSC](STEERING-COMMITTEE.md).
 
 ### Admin expectations and guidelines
 
@@ -144,7 +142,7 @@ in the purpose or pinned docs of that channel.
 
 ## Threaded Conversations
 
-Slack threads in public channels are extremely useful for quickly and openly collaborating with your fellow contributors.  
+Slack threads in public channels are extremely useful for quickly and openly collaborating with your fellow contributors.
 
 Unfortunately, while Slack threads are good for quick discussion, they serve as a poor record of decisions. Discoverability and searchability of threads isn't nearly as good as alternatives (see below), particularly for contributors arriving weeks or months later. For this reason it's important that Slack discussions make their way to less ephemeral and more comprehensive artifacts for sharing ideas and proposals with the wider community.
 

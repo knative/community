@@ -11,11 +11,11 @@ The are multiple benefits of this process:
 * Working Groups should already be using GitHub issues to track their upcoming work; adding project boards minimizes the amount of additional bookkeeping needed to produce a roadmap.
 * Having a single process for all Working Groups makes it easier for new contributors to approach a WG and contribute.
 * Org-level projects are editable via the web GUI for all org members, making the additional permissions required simple and light-weight.
-* Having roadmaps which track which items are at which stage of implementation is helpful in [managing the flow of work](https://en.wikipedia.org/wiki/Kanban) for contributors, WG leads, and the [TOC](../TECHNICAL-OVERSIGHT-COMMITTE.md).
+* Having roadmaps which track which items are at which stage of implementation is helpful in [managing the flow of work](https://en.wikipedia.org/wiki/Kanban) for contributors, WG leads, and the [Steering Committee](../STEERING-COMMITTE.md).
 
 ## Roadmap Columns and Guidance
 
-Roadmaps should have the following columns. Additional columns can be added temporarily, but it should be possible to map them to these groupings during a TOC review:
+Roadmaps should have the following columns. Additional columns can be added temporarily, but it should be possible to map them to these groupings during a Steering Committee review:
 
 ### `In Progress` Column
 These are issues / feature requests which are currently being implemented (code written) by contributors. The goal should be that contributors should be able to focus their efforts on _one_ of these issues at a time, and complete the issue efficiently without a lot of context switching.
@@ -58,8 +58,8 @@ This is the intake column for new issues and feature requests which haven't been
 
 See https://github.com/knative/community/issues/746 for the original discussion / impetus of this process.
 
-* These guidelines may be subject to refinement and change in the future. The [TOC](../TECH-OVERSIGHT-COMMITTEE.md) will be responsible for updates and communication of process changes. Working Group leads _are_ encouraged to experiment with the process within the general guidelines laid out above.
+* These guidelines may be subject to refinement and change in the future. The [Steering Committee](../STEERING-COMMITTEE.md) will be responsible for updates and communication of process changes. Working Group leads _are_ encouraged to experiment with the process within the general guidelines laid out above.
 
-* The TOC does not yet have a recommended process for handling issues which have reached "In Progress" but have some type of time-based delay (e.g. feature is released in "alpha", needs to be progressed to "beta" after one release). One option is to create a new "Ready To Work" issue like `Post-1.3: promote $FEATURE to Beta` and close the original issue, but this is up to Working Group leads to manage.
+* The Steering Committee does not yet have a recommended process for handling issues which have reached "In Progress" but have some type of time-based delay (e.g. feature is released in "alpha", needs to be progressed to "beta" after one release). One option is to create a new "Ready To Work" issue like `Post-1.3: promote $FEATURE to Beta` and close the original issue, but this is up to Working Group leads to manage.
 
-* TOC reviews will generally focus on management and possibly coordination implications of work items, and will generally rely on the judgement of the working group in terms of which items to complete first.
+* Steering Committee reviews will generally focus on management and possibly coordination implications of work items, and will generally rely on the judgement of the working group in terms of which items to complete first.

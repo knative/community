@@ -90,14 +90,14 @@ Additional requirements beyond "initiating":
 - Unit test automation meeting the Knative standards with respect to coverage
   and flakiness / test failures.
 - Provide at least monthly progress reports at the appropriate WG(s). WGs should
-  roll these reports up into their TOC reports.
+  roll these reports up into their SC reports.
 - User-facing documentation for the following areas: install, usage
 - Contributor facing documentation for: development setup
 - Ongoing contributions from multiple contributors and management of user
   issues, etc.
 
 Usable projects which meet the criteria for core (i.e. developer-facing
-abstractions with wide utility, beta+ APIs) may apply to the TOC and SC for
+abstractions with wide utility, beta+ APIs) may apply to the SC for
 [migration to core](#migration-to-core), but approval is more likely for
 projects in the "Stable" category.
 
@@ -148,7 +148,7 @@ support the project with bug and security fixes as applicable
 
 ## Migration to Core
 
-A stable project may apply to the SC and TOC to be admitted to the Knative core.
+A stable project may apply to the SC to be admitted to the Knative core.
 Not all stable projects are suitable for "core"; this is a judgement as to the
 degree to which the project should be considered a part of a "expected developer
 experience" across Knative installations. Projects may be graded on the
