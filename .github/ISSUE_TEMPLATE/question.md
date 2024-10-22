@@ -1,5 +1,5 @@
 ---
 name: Question
-about: Question for TOC or Steering Committee
+about: Question for Steering Committee
 title: ""
 ---

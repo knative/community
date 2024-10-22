@@ -23,13 +23,13 @@ A Working Group Lead (either
 [execution](../ROLES.md#working-group-execution-lead)) may request a new repo in
 `knative-extensions` by filing an issue in the
 [knative/community](https://github.com/knative/community/issues/new?template=new-repo.md)
-repo. Once filed, the TOC should handle these promptly, though it should also be
+repo. Once filed, the Steering Committee should handle these promptly, though it should also be
 considered fine to ping members or the group on Slack if it hasn't been acted on
-in a few days. Generally, the request will be granted, though the TOC may have
+in a few days. Generally, the request will be granted, though the Steering Committee may have
 additional questions or suggest an alternate mechanism in some cases.
 
 Some of the following steps may require permissions that are only available to
-the TOC or Steering Committee, though others are largely self-service or require
+the Steering Committee, though others are largely self-service or require
 other WGs to review and approve impacting changes.
 
 ### Technical requirements
@@ -46,7 +46,7 @@ other WGs to review and approve impacting changes.
   `knative-extensions`, but the Google CLA bot and OWNERS files/tide merge should
   be enforced.
 
-## Process (to be executed by TOC or Steering member)
+## Process (to be executed by Steering member)
 
 1. (Requires Org owner) Create the new repo in
    https://github.com/knative-extensions using the "New" button. Set the repo to
@@ -54,7 +54,7 @@ other WGs to review and approve impacting changes.
 
 1. (Requires repo write/org owner) Create:
 
-   - `OWNERS` file listing TOC and WG members as approvers, and WG members as
+   - `OWNERS` file listing Steering Committee and WG members as approvers, and WG members as
      reviewers
 
    - `CODE-OF-CONDUCT.md` (that links to
