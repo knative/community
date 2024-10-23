@@ -29,7 +29,10 @@ jobs:
       with:
         fetch-depth: 0
         lfs: true
-    - run: pip install strictyaml --break-system-packages
+    - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"    
+    - run: pip install strictyaml
     - name: Validate knative.yaml
       run: python3 peribolos/validate-schema.py peribolos/knative.yaml
     - name: Validate knative-extensions.yaml
