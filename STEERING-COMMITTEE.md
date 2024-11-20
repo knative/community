@@ -230,12 +230,12 @@ reviewing and commenting on PRs, opening and commenting on issues, writing
 design docs, commenting on design docs, helping people on slack, participating
 in working groups, and other efforts that help advance Knative the project.
 
-[This dashboard](https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year)
+[This dashboard](https://knative.devstats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year)
 shows only GitHub based contributions and does not capture all the contributions
 we value. We expect this metric not to capture everyone who should be eligible
 to vote. If a community member has had significant contributions over the past
 year but is not captured in the
-[stats.knative.dev dashboard](https://knative.teststats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year),
+[stats.knative.dev dashboard](https://knative.devstats.cncf.io/d/9/developer-activity-counts-by-repository-group-table?orgId=1&var-period_name=Last%20year),
 they will be able to submit an exception form to the Elections Officer(s) who
 will then review and determine whether this member should be eligible to vote.
 All exceptions, and the reasons for them, will be recorded in a log that will be
