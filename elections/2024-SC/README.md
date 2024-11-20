@@ -159,7 +159,7 @@ the [SC Election Charter].
 [voters.md]: ./voters.yaml
 
 [Eligibility for candidacy]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility
-[Eligibility for voting]: https://github.com/knative/community/blob/main/mechanics/SC.md#candidate-eligibility#voter-eligibility
+[Eligibility for voting]: https://github.com/knative/community/blob/main/mechanics/SC.md#voter-eligibility
 
 [file a voting exception]: https://elections.knative.dev/app/elections/2023-SC/exception
 [Condorcet]: https://en.wikipedia.org/wiki/Condorcet_method
