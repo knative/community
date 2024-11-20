@@ -17,7 +17,7 @@ two (2) year term.
 
 This election will shape the future of Knative as a community and project. The
 Knative Steering Committee (SC) is responsible for the general health of the
-Knative community. 
+Knative community, as well as establishing and coordinating other working groups.
 
 ## Eligibility
 
