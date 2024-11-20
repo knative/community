@@ -224,7 +224,7 @@ will be responsible for:
 
 ### Eligibility to Vote
 
-Anyone who has at least 50 contributions in the last 12 months is eligible to
+Anyone who has at least 25 contributions in the last 12 months is eligible to
 vote in the Steering election. Contributions are defined as opening PRs,
 reviewing and commenting on PRs, opening and commenting on issues, writing
 design docs, commenting on design docs, helping people on slack, participating
