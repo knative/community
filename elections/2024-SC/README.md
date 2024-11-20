@@ -38,7 +38,7 @@ to check if you are eligible by logging into [Elekto]. See Voting Process below 
 | December 5   | Election Begins via Elekto UI |
 | December 17  | Voter exception requests due by 23:59 UTC (4:59pm Pacific) |
 | December 20  | Election Closes by 23:59 UTC (4:59pm Pacific) |
-| December 23  | Announcement of Results |
+| January 7    | Announcement of Results |
 
 ## Election Officers
 
