@@ -9,6 +9,7 @@ If you would like to be included in this table, please open [an issue](https://g
 | Organization                         | Product/Project Name                                                 | Status                   | More Information                                                         |
 |--------------------------------------|----------------------------------------------------------------------|--------------------------|--------------------------------------------------------------------------|
 | Alibaba Cloud                        | Knative on Alibaba Cloud                                             | Production               | [link](https://cs.console.aliyun.com/)                                   |
+| Alauda                               | Alauda Container Platform                                            | Production               | [link](https://www.alauda.io/)                                   |
 | Bloomberg L.P.*                      | Bloomberg Data Science Platform                                      | Production               | [link](https://www.bloomberg.net/)                                       |
 | Blue Origin*                         |                                                                      | Production               | [link](https://www.blueorigin.com/)                                      |
 | Box*                                 | Serverless PaaS for internal use cases                               | Development              | [link](https://box.com/)                                                 |
