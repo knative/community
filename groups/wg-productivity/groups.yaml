@@ -25,6 +25,8 @@ groups:
       - hh@knative.team
       - hh@cncf.io
       - jeffrey@cncf.io
+      - dkrook@linuxfoundation.org
+      - mario@kubermatic.com
 
   # Every GKE RBAC group should be added here.
   - email-id: gke-security-groups@knative.dev
