@@ -29,7 +29,6 @@ If you would like to be included in this table, please open [an issue](https://g
 | Liquidx*                             | InBlock                                                              | Production               | [link](https://www.liquidx.com/)                                         |
 | [ManoMano](https://www.manomano.es/) |                                                                      | Development & Production | [link](https://www.manomano.es/)                                         |
 | Optum*                               |                                                                      | Production               | [link](https://optum.com/)                                               |
-| Property.xyz*                        | Property.xyz                                                         | Production               | [link](https://property.xyz/)                                            |
 | Red Hat                              | Red Hat OpenShift Serverless                                         | Generally Available      | [link](https://www.openshift.com/learn/topics/serverless)                |
 | Scaleway*                            |                                                                      | Public Beta              | [link](https://www.scaleway.com/en)                                      |
 | Sonavi Labs                          | Sonavi Cloud                                                         | Public Beta              | [link](https://www.sonavilabs.com)                                       |
@@ -38,7 +37,7 @@ If you would like to be included in this table, please open [an issue](https://g
 | Tata Communications*                 |                                                                      | Development              | [link](https://www.tatacommunications.com/solutions/cloud/platforms)     |
 | VMware                               | Tanzu Application Platform                                           | Generally Available      | [link](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html) |
 | VMware                               | VMware Event Broker Appliance                                        | Development              | [link](https://vmweventbroker.io/)                                       |
-| vorteil pty ltd*                     | Serverless orchestration engine                                      | Development & Production | [link](http://vorteil.io)                                                |
+| vorteil pty ltd                      | Serverless orchestration engine                                      | Development & Production | [link](https://www.direktiv.io/)                                                |
 | KA-NABELL*                           | Largest trading card E-commerce in Japan                             | Development              | [link](https://www.ka-nabell.com)                                        |
 | Y Meadows*                           | AI and Workflow Automation Platform for Customer Service             | Production               | [link](https://www.ymeadows.com)                                         |
 
