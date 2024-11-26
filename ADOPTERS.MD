@@ -37,6 +37,7 @@ If you would like to be included in this table, please open [an issue](https://g
 | Tata Communications*                 |                                                                      | Development              | [link](https://www.tatacommunications.com/solutions/cloud/platforms)     |
 | VMware                               | Tanzu Application Platform                                           | Generally Available      | [link](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html) |
 | VMware                               | VMware Event Broker Appliance                                        | Development              | [link](https://vmweventbroker.io/)                                       |
+| vorteil pty ltd                      | Serverless orchestration engine                                      | Development & Production | [link](https://www.direktiv.io/)                                                |
 | KA-NABELL*                           | Largest trading card E-commerce in Japan                             | Development              | [link](https://www.ka-nabell.com)                                        |
 | Y Meadows*                           | AI and Workflow Automation Platform for Customer Service             | Production               | [link](https://www.ymeadows.com)                                         |
 
