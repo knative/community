@@ -768,7 +768,15 @@ orgs:
             privacy: closed
           Technical Oversight Committee:
             description: Members of the Knative Technical Oversight Committee (TOC)
-            maintainers: []
+            maintainers:
+            - aliok
+            - evankanderson
+            - nainaz
+            - salaboy
+            - davidhadas
+            - dprotaso
+            - dsimansk
+            - psschwei
             privacy: closed
           Knative Release Leads:
             privacy: closed
