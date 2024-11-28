@@ -7,7 +7,6 @@ allow_no_opinion: True
 delete_after: True
 show_candidate_fields:
   - affiliation
-  - owners
 election_officers:
   - geekygirldawn
   - jberkus
