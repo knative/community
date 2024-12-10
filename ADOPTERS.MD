@@ -27,10 +27,10 @@ If you would like to be included in this table, please open [an issue](https://g
 | IBM                                  | IBM Cloud Code Engine                                                | Production               | [link](https://cloud.ibm.com/codeengine)                                 |
 | KubeSphere*                          | [OpenFunction](https://github.com/OpenFunction/OpenFunction#serving) | Development & Production | [link](https://kubesphere.io/)                                           |
 | Liquidx*                             | InBlock                                                              | Production               | [link](https://www.liquidx.com/)                                         |
-| [ManoMano](https://www.manomano.es/) |                                                                      | Development & Production | [link](https://www.manomano.es/)                                         |
+| ManoMano*                            |                                                                      | Development & Production | [link](https://www.manomano.es/)                                         |
 | Optum*                               |                                                                      | Production               | [link](https://optum.com/)                                               |
 | Red Hat                              | Red Hat OpenShift Serverless                                         | Generally Available      | [link](https://www.openshift.com/learn/topics/serverless)                |
-| Scaleway*                            |                                                                      | Public Beta              | [link](https://www.scaleway.com/en)                                      |
+| Scaleway*                            |                                                                      | Production               | [link](https://www.scaleway.com/en)                                      |
 | Sonavi Labs                          | Sonavi Cloud                                                         | Public Beta              | [link](https://www.sonavilabs.com)                                       |
 | Spider.com*                          |                                                                      | Development              | [link](https://www.spider.com)                                           |
 | SVA System Vertrieb Alexander GmbH*  | Serverless PaaS for Public Sector Clients                            | Production               | [link](https://www.cncf.io/case-studies/system-vertrieb-alexander-gmbh/) |
@@ -39,7 +39,7 @@ If you would like to be included in this table, please open [an issue](https://g
 | VMware                               | Tanzu Application Platform                                           | Generally Available      | [link](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html) |
 | VMware                               | VMware Event Broker Appliance                                        | Development              | [link](https://vmweventbroker.io/)                                       |
 | vorteil pty ltd                      | Serverless orchestration engine                                      | Development & Production | [link](https://www.direktiv.io/)                                         |
-| KA-NABELL*                           | Largest trading card E-commerce in Japan                             | Development              | [link](https://www.ka-nabell.com)                                        |
+| KA-NABELL*                           | Largest trading card E-commerce in Japan                             | Production               | [link](https://www.ka-nabell.com)                                        |
 | Y Meadows*                           | AI and Workflow Automation Platform for Customer Service             | Production               | [link](https://www.ymeadows.com)                                         |
 
 `*` organization that is an end user of Knative and not a vendor/reseller
