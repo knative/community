@@ -29,8 +29,8 @@ With that said, it can be useful to have a list of when future releases will hap
 ## Releases supported by community
 
 | Release | Date       | EOL        | Min K8s Version | Notes |
-|---------| ---------- | ---------- |-----------------| ----- |
-| 1.16    | 2024-10-22 | 2024-10-22 | 1.29            |       |
+|---------| ---------- |------------|-----------------| ----- |
+| 1.16    | 2024-10-22 | 2025-04-22 | 1.29            |       |
 | 1.15    | 2024-07-23 | 2025-01-21 | 1.28            |       |
 
 ## No longer supported releases
