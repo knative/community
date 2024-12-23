@@ -612,7 +612,6 @@ orgs:
         members:
         - csantanapr
         - skonto
-        - retocode
       Eventing Reviewers:
         description: Receive reviews for eventing-related repositories
         privacy: closed
@@ -836,14 +835,12 @@ orgs:
         privacy: closed
         members:
         - izabelacg
-        - retocode
         - skonto
       Serving Triage:
         description: Grants triage access to serving-related repositories.
         privacy: closed
         members:
         - izabelacg
-        - retocode
         - skonto
         repos:
           autoscaler-keda: triage
@@ -874,7 +871,6 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
-            - ReToCode
             - skonto
             privacy: closed
           Serving WG Leads:
@@ -904,7 +900,6 @@ orgs:
           autoscaler-keda: write
         members:
           - skonto
-          - ReToCode
 
       backstage-plugins Reviewers:
         description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file

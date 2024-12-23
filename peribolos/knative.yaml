@@ -396,7 +396,6 @@ orgs:
         members:
         - nainaz
         - skonto
-        - retocode
       Docs Writers:
         description: Grants write access to docs-related repositories.
         privacy: closed
@@ -407,7 +406,6 @@ orgs:
         members:
         - csantanapr
         - skonto
-        - retocode
       Eventing Reviewers:
         description: Receive reviews for eventing related repositories
         privacy: closed
@@ -607,14 +605,12 @@ orgs:
         privacy: closed
         members:
         - izabelacg
-        - retocode
         - skonto
       Serving Triage:
         description: Ability to triage serving-related repos
         privacy: closed
         members:
         - izabelacg
-        - retocode
         - skonto
         repos:
           caching: triage
@@ -635,7 +631,6 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
-            - ReToCode
             - skonto
             privacy: closed
           Serving WG Leads:
