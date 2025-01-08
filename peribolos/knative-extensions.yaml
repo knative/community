@@ -780,7 +780,10 @@ orgs:
           Knative Release Leads:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
-            maintainers: []
+            maintainers:
+            - dsimansk
+            - skonto
+            - dprotaso
           Productivity Leads:
             #Using the same team name as below `Productivity WG Leads` puts peribolos in a weird state.
             privacy: closed

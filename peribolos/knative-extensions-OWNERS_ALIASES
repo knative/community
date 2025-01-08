@@ -155,7 +155,10 @@ aliases:
   - psschwei
   - salaboy
   - upodroid
-  knative-release-leads: []
+  knative-release-leads:
+  - dsimansk
+  - skonto
+  - dprotaso
   knative-robots:
   - knative-automation
   - knative-prow-releaser-robot
