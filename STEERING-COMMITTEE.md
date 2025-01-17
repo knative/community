@@ -104,15 +104,11 @@ first name):
 
 | &nbsp;                                                        | Member                  | Organization | Profile                                            | Term Start | Term End |
 |---------------------------------------------------------------|-------------------------|--------------|----------------------------------------------------|------------|----------|
-| <img width="30px" src="https://github.com/nrrso.png">         | Norris Sam Osarenkhoe * | SVA          | [@nrrso](https://github.com/nrrso)                 | 2024-02-28 | 2025     |
 | <img width="30px" src="https://github.com/aliok.png">         | Ali Ok                  | Red Hat      | [@aliok](https://github.com/aliok)                 | 2023-11-28 | 2025     |
 | <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson           | Stacklok     | [@evankanderson](https://github.com/evankanderson) | 2023-11-28 | 2025     |
-| <img width="30px" src="https://github.com/nainaz.png">        | Naina Singh             | Red Hat      | [@nainaz](https://github.com/nainaz)               | 2022-12-06 | 2024     |
-| <img width="30px" src="https://github.com/salaboy.png">       | Mauricio Salatino       | Diagrid      | [@salaboy](https://github.com/salaboy)             | 2022-12-06 | 2024     |
-| <img width="30px" src="https://github.com/davidhadas.png">    | David Hadas             | IBM          | [@davidhadas](https://github.com/davidhadas)       | 2023-09-12 | 2024     |
-| <img width="30px" src="https://github.com/dprotaso.png">      | Dave Protasowski        | Independent  | [@dprotaso](https://github.com/dprotaso)           | 2021-05-26 | 2024     |
-| <img width="30px" src="https://github.com/dsimansk.png">      | David Simansky          | Red Hat      | [@dsimansk](https://github.com/dsimansk)           | 2022-06-01 | 2024     |
-| <img width="30px" src="https://github.com/psschwei.png">      | Paul Schweigert         | IBM          | [@psschwei](https://github.com/psschwei)           | 2022-09-28 | 2024     |
+| <img width="30px" src="https://github.com/nrrso.png">         | Norris Sam Osarenkhoe * | SVA          | [@nrrso](https://github.com/nrrso)                 | 2024-02-28 | 2025     |
+| <img width="30px" src="https://github.com/dprotaso.png">      | Dave Protasowski        | Independent  | [@dprotaso](https://github.com/dprotaso)           | 2024-09-17 | 2026     |
+| <img width="30px" src="https://github.com/matzew.png">        | Matthias Wessendorf     | Red Hat      | [matzew](https://github.com/matzew)                | 2024-12-24 | 2026     |
 > * Norris holds the End User seat
 
 ## Decision process
@@ -352,20 +348,22 @@ To recognize the folks that have served in the KSC in the past, below we list th
 |----------------------------------------------------------------|----------------------|------------------------------------------------------|------------|----------|
 | <img width="30px" src="https://github.com/dewitt.png">         | Dewitt Clinton       | [@dewitt](https://github.com/dewitt)                 | Bootstrap  | 2019     |
 | <img width="30px" src="https://github.com/mchmarny.png">       | Mark Charmny         | [@mchmarny](https://github.com/mchmarny)             | Bootstrap  | 2019     |
-| <img width="30px" src="https://github.com/jdumars.png">        | Jaice Singer DuMars  | [@jdumars](https://github.com/jdumars)               | 2019       | 2020     |
-| <img width="30px" src="https://github.com/lindydonna.png">     | Donna Malayeri       | [@lindydonna](https://github.com/lindydonna)         | 2019       | 2020     |
 | <img width="30px" src="https://github.com/rgregg.png">         | Ryan Gregg           | [@rgregg](https://github.com/rgregg)                 | Bootstrap  | 2020     |
 | <img width="30px" src="https://github.com/isdal.png">          | Tomas Isdal          | [@isdal](https://github.com/isdal)                   | Bootstrap  | 2020     |
-| <img width="30px" src="https://github.com/anicolao.png">       | Alex Nicolau         | [@anicolao](https://github.com/anicolao)             | 2020       | 2020     |
-| <img width="30px" src="https://github.com/ronavn.png">         | Ron Avnur            | [@ronavn](https://github.com/ronavn)                 | 2020       | 2020     |
 | <img width="30px" src="https://github.com/bsnchan.png">        | Brenda Chan          | [@bsnchan](https://github.com/bsnchan)               | Bootstrap  | 2021     |
 | <img width="30px" src="https://github.com/mbehrendt.png">      | Michael Behrendt     | [@mbehrendt](https://github.com/mbehrendt)           | Bootstrap  | 2021     |
+| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi     | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  | 2022     |
+| <img width="30px" src="https://github.com/jdumars.png">        | Jaice Singer DuMars  | [@jdumars](https://github.com/jdumars)               | 2019       | 2020     |
+| <img width="30px" src="https://github.com/lindydonna.png">     | Donna Malayeri       | [@lindydonna](https://github.com/lindydonna)         | 2019       | 2020     |
+| <img width="30px" src="https://github.com/anicolao.png">       | Alex Nicolau         | [@anicolao](https://github.com/anicolao)             | 2020       | 2020     |
+| <img width="30px" src="https://github.com/ronavn.png">         | Ron Avnur            | [@ronavn](https://github.com/ronavn)                 | 2020       | 2020     |
 | <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas          | [@vaikas](https://github.com/vaikas)                 | 2020       | 2022     |
 | <img width="30px" src="https://github.com/pmorie.png">         | Paul Morie           | [@pmorie](https://github.com/pmorie)                 | 2020       | 2022     |
-| <img width="30px" src="https://github.com/thisisnotapril.png"> | April Kyle Nassi     | [@thisisnotapril](https://github.com/thisisnotapril) | Bootstrap  | 2022     |
-| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty    | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022       | 2023     |
 | <img width="30px" src="https://github.com/csantanapr.png">     | Carlos Santana       | [@csantanapr](https://github.com/csantanapr)         | 2021       | 2023     |
 | <img width="30px" src="https://github.com/lance.png">          | Lance Ball           | [@lance](https://github.com/lance)                   | 2021       | 2023     |
+| <img width="30px" src="https://github.com/itsmurugappan.png">  | Murugappan Chetty    | [@itsmurugappan](https://github.com/itsmurugappan)   | 2022       | 2023     |
+| <img width="30px" src="https://github.com/nainaz.png">         | Naina Singh          | [@nainaz](https://github.com/nainaz)                 | 2022-12-06 | 2024     |
+| <img width="30px" src="https://github.com/salaboy.png">        | Mauricio Salatino    | [@salaboy](https://github.com/salaboy)               | 2022-12-06 | 2024     |
 | <img width="30px" src="https://github.com/puerco.png">         | Adolfo García Veytia | [@puerco](https://github.com/puerco)                 | 2023       | 2024     |
 
 ### Technical Oversight Committee
@@ -379,19 +377,21 @@ To recognize the folks that have served in the TOC in the past, below we list th
 | &nbsp;                                                         | Member          | Profile                                              | Term Start | Term End   |
 | -------------------------------------------------------------- | ---------------  | --------------------------------------------------- | ---------- | ---------- |
 | <img width="30px" src="https://github.com/vaikas.png">         | Ville Aikas     | [@vaikas](https://github.com/vaikas)                 | Bootstrap  | 2020       |
-| <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran      | [@tcnghia](https://github.com/tcnghia)               | 2020       | 2021       |
+| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson   | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2023-06-01 |
 | <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore      | [@mattmoor](https://github.com/mattmoor)             | Bootstrap  | 2021       |
+| <img width="30px" src="https://github.com/tcnghia.png">        | Nghia Tran      | [@tcnghia](https://github.com/tcnghia)               | 2020       | 2021       |
 | <img width="30px" src="https://github.com/grantr.png">         | Grant Rodgers   | [@grantr](https://github.com/grantr)                 | 2020       | 2021       |
 | <img width="30px" src="https://github.com/markusthoemmes.png"> | Markus Thömmes  | [@markusthoemmes](https://github.com/markusthoemmes) | 2020-06-09 | 2021-12-16 |
 | <img width="30px" src="https://github.com/julz.png">           | Julian Friedman | [@julz](https://github.com/julz)                     | 2021-05-26 | 2022-02-07 |
 | <img width="30px" src="https://github.com/rhuss.png">          | Roland Huß      | [@rhuss](https://github.com/rhuss)                   | 2021-02-16 | 2022       |
-| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore      | [@mattmoor](https://github.com/mattmoor)             | 2022-02-07 | 2022       |
+| <img width="30px" src="https://github.com/dprotaso.png">       | Dave Protasowski| [@dprotaso](https://github.com/dprotaso)             | 2021-05-26 | 2024       |
 | <img width="30px" src="https://github.com/n3wscott.png">       | Scott Nichols   | [@n3wscott](https://github.com/n3wscott)             | 2022-01-11 | 2022-09-27 |
-| <img width="30px" src="https://github.com/evankanderson.png">  | Evan Anderson   | [@evankanderson](https://github.com/evankanderson)   | Bootstrap  | 2023-06-01 |
+| <img width="30px" src="https://github.com/mattmoor.png">       | Matt Moore      | [@mattmoor](https://github.com/mattmoor)             | 2022-02-07 | 2022       |
 | <img width="30px" src="https://github.com/zroubalik.png">      | Zbynek Roubalik | [@zroubalik](https://github.com/zroubalik)           | 2022-06-01 | 2023-07-31 |
+| <img width="30px" src="https://github.com/dsimansk.png">       | David Simansky  | [@dsimansk](https://github.com/dsimansk)             | 2022-06-01 | 2024       |
+| <img width="30px" src="https://github.com/psschwei.png">       | Paul Schweigert | [@psschwei](https://github.com/psschwei)             | 2022-09-28 | 2024       |
 | <img width="30px" src="https://github.com/krsna-m.png">        | Krsna Mahapatra | [@krsna-m](https://github.com/krsna-m)               | 2023-06-01 | 2024       |
-
-
+| <img width="30px" src="https://github.com/davidhadas.png">     | David Hadas     | [@davidhadas](https://github.com/davidhadas)         | 2023-09-12 | 2024       |
 ---
 
 Portions of this document are adapted from the
