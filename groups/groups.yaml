@@ -59,4 +59,8 @@ groups:
       AllowExternalMembers: "false"
       WhoCanPostMessage: "ANYONE_CAN_POST"
     members:
-      - steering@knative.team
+      - aliok@redhat.com
+      - developer@nrrso.com
+      - evan.k.anderson@gmail.com
+      - dprotaso@gmail.com
+      - mwessend@redhat.com
