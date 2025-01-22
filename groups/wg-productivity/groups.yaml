@@ -39,7 +39,6 @@ groups:
     members:
       - k8s-infra-rbac-prow@knative.dev
       - k8s-infra-rbac-release@knative.dev
-      - k8s-infra-rbac-perf-tests@knative.dev
 
   # GKE RBAC groups:
   # - grant access to the `namespace-user` role for a single namespace on a cluster
