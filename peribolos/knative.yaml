@@ -610,13 +610,11 @@ orgs:
         description: Receive reviews for serving-related directories
         privacy: closed
         members:
-        - izabelacg
         - skonto
       Serving Triage:
         description: Ability to triage serving-related repos
         privacy: closed
         members:
-        - izabelacg
         - skonto
         repos:
           caching: triage
