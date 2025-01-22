@@ -11,25 +11,13 @@ groups:
       MessageModerationLevel: "MODERATE_NON_MEMBERS"
       ReconcileMembers: "true"
     owners:
-      # SC
-      - aliok@redhat.com
-      - developer@nrrso.com
-      - evan.k.anderson@gmail.com
-      - naina.sng@gmail.com
-      - salaboy@gmail.com
-      # TOC
-      - david.hadas@gmail.com
-      - dprotaso@gmail.com
-      - dsimansk@redhat.com
-      - d.simansky@gmail.com
-      - paul@paulschweigert.com
-      - paulschw@us.ibm.com
+    - steering@knative.team
     members:
       # Serving
       # - dprotaso@gmail.com: already in the owners list
       # Client
-      # - dsimansk@knative.team: already in the owners list
-      # - dsimansk@redhat.com: already in the owners list
+      - dsimansk@knative.team
+      - dsimansk@redhat.com
       - rhuss@knative.team
       - rhuss@redhat.com
       # UX
@@ -41,14 +29,14 @@ groups:
       - pierdipi@knative.team
       # Functions
       - lkinglan@redhat.com
-      # - salaboy@gmail.com: already in the owners list
+      - salaboy@gmail.com
       # Operations
       - houshengbo@knative.team
       # Productivity
       - cy@borg.dev
       - ksuszyns@redhat.com
       # Security
-      # - david.hadas@gmail.com: already in the owners list
+      - david.hadas@gmail.com
       # - evan.k.anderson@gmail.com: already in the owners list
 
   - email-id: calendar-maintainers@knative.team
@@ -59,12 +47,9 @@ groups:
       AllowExternalMembers: "false"
       WhoCanPostMessage: "ANYONE_CAN_POST"
     owners:
-      - aliok@redhat.com
-      - developer@nrrso.com
-      - evan.k.anderson@gmail.com
-      - lkinglan@redhat.com
-      - naina.sng@gmail.com
-      - salaboy@gmail.com
+    - steering@knative.team
+    members:
+    - wg-leads@knative.team
 
   - email-id: admins@knative.dev
     name: admins
@@ -74,5 +59,4 @@ groups:
       AllowExternalMembers: "false"
       WhoCanPostMessage: "ANYONE_CAN_POST"
     members:
-      - toc@knative.team
       - steering@knative.team

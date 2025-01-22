@@ -10,15 +10,8 @@ groups:
       - aliok@redhat.com
       - developer@nrrso.com
       - evan.k.anderson@gmail.com
-      - naina.sng@gmail.com
-      - salaboy@gmail.com
-      - david.hadas@gmail.com
       - dprotaso@gmail.com
-      - dsimansk@redhat.com
-      - d.simansky@gmail.com
-      - paul@paulschweigert.com
-      - paulschw@us.ibm.com
-
+      - mwessend@redhat.com
 
   - email-id: elections@knative.team
     name: elections
@@ -30,4 +23,3 @@ groups:
     members:
       - dawn@dawnfoster.com
       - jberkus@redhat.com
-      - rlehmann@redhat.com

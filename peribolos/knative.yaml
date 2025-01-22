@@ -8,20 +8,19 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    # steering
     - aliok
+    - dprotaso
+    - evankanderson
+    - matzew
+    - nrrso
+    # cncf
+    - thelinuxfoundation
     - caniszczyk
     - cncf-ci
-    - davidhadas
-    - dprotaso
-    - dsimansk
-    - evankanderson
-    - knative-prow-robot
-    - nainaz
-    - nrrso
-    - psschwei
-    - salaboy
-    - thelinuxfoundation
+    # productivity wg lead
     - upodroid
+    - knative-prow-robot
     members:
     - aavarghese
     - alexagriffith
@@ -47,10 +46,12 @@ orgs:
     - csantanapr
     - Cynocracy
     - daisy-ycguo
+    - davidhadas
     - debasishbsws
     - devguyio
     - dilipgb
     - dolfolife
+    - dsimansk
     - duglin
     - eallred-google
     - firatbezir
@@ -75,6 +76,7 @@ orgs:
     - julz
     - jwcesign
     - k4leung4
+    - kahirokunn
     - kauana
     - KauzClay
     - kellyaa
@@ -86,15 +88,14 @@ orgs:
     - krithika369
     - lance
     - lberk
+    - Leo6Leo
     - lionelvillard
     - liuchangyan
     - lkingland
-    - Leo6Leo
     - macruzbar
     - maschmid
     - matejvasek
     - mattmoor
-    - matzew
     - maximilien
     - mchmarny
     - mgencur
@@ -102,6 +103,7 @@ orgs:
     - mmejia02
     - mvinkler
     - nader-ziada
+    - nainaz
     - navidshaikh
     - norman465
     - odacremolbap
@@ -110,6 +112,7 @@ orgs:
     - pmbanugo
     - pmorie
     - pradnyavmw
+    - psschwei
     - pymhq
     - quentin-cha
     - rahulii
@@ -119,6 +122,7 @@ orgs:
     - RichieEscarez
     - richterdavid
     - sadath-12
+    - salaboy
     - sebgoa
     - senthilnathan
     - Shashankft9
@@ -142,10 +146,10 @@ orgs:
     - vishal-chdhry
     - vyasgun
     - wlynch
+    - xiangpingjiang
     - xtreme-sameer-vohra
     - xtreme-vikram-yadav
     - xxinran
-    - xiangpingjiang
     - yanweiguo
     - yaron2
     - yijie-04
@@ -155,7 +159,6 @@ orgs:
     - zhanggbj
     - zhaojizhuang
     - ZhiminXiang
-    - kahirokunn
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.

@@ -95,8 +95,5 @@ groups:
       - evana@vmware.com
       - evankanderson@knative.team
       - dprotaso@gmail.com
-      - paul@paulschweigert.com
-      - paulschw@us.ibm.com
-      - krsna@knative.team
     managers:
        - cy@borg.dev # Mahamed Ali

@@ -1,7 +1,4 @@
 restrictions:
-  - path: "committee-code-of-conduct/groups.yaml"
-    allowedGroups:
-      - "^code-of-conduct@knative.team$"
   - path: "committee-steering/groups.yaml"
     allowedGroups:
       - "^steering@knative.team$"

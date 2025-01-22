@@ -9,20 +9,19 @@ orgs:
     members_can_create_repositories: false
     default_repository_permission: read
     admins:
+    # steering
     - aliok
+    - dprotaso
+    - evankanderson
+    - matzew
+    - nrrso
+    # cncf
+    - thelinuxfoundation
     - caniszczyk
     - cncf-ci
-    - davidhadas
-    - dprotaso
-    - dsimansk
-    - evankanderson
-    - knative-prow-robot
-    - nainaz
-    - nrrso
-    - psschwei
-    - salaboy
-    - thelinuxfoundation
+    # productivity
     - upodroid
+    - knative-prow-robot
     members:
     - aavarghese
     - alexagriffith
@@ -50,10 +49,12 @@ orgs:
     - Cynocracy
     - daisy-ycguo
     - dan-j
+    - davidhadas
     - debasishbsws
     - devguyio
     - dilipgb
     - dolfolife
+    - dsimansk
     - duglin
     - firatbezir
     - gab-satchi
@@ -74,6 +75,7 @@ orgs:
     - julz
     - jwcesign
     - k4leung4
+    - kahirokunn
     - kauana
     - KauzClay
     - kellyaa
@@ -85,21 +87,21 @@ orgs:
     - krithika369
     - lance
     - lberk
+    - Leo6Leo
     - lionelvillard
     - liuchangyan
     - lkingland
-    - Leo6Leo
     - macruzbar
     - maschmid
     - matejvasek
     - mattmoor
-    - matzew
     - maximilien
     - mgencur
     - mkuratczyk
     - mmejia02
     - mvinkler
     - nader-ziada
+    - nainaz
     - navidshaikh
     - norbjd
     - norman465
@@ -108,12 +110,14 @@ orgs:
     - pierDipi
     - pmorie
     - pradnyavmw
+    - psschwei
     - pymhq
     - RamyChaabane
     - ReToCode
     - rhuss
     - ricardozanini
     - richterdavid
+    - salaboy
     - sebgoa
     - senthilnathan
     - Shashankft9
@@ -135,20 +139,19 @@ orgs:
     - vdemeester
     - vishal-chdhry
     - vyasgun
+    - xiangpingjiang
     - xtreme-sameer-vohra
     - xtreme-vikram-yadav
     - xxinran
-    - xiangpingjiang
     - yanweiguo
     - yaron2
     - yijie-04
     - yuvalif
-    - zainabhusain227
     - yuzisun
+    - zainabhusain227
     - zhanggbj
     - zhaojizhuang
     - ZhiminXiang
-    - kahirokunn
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
