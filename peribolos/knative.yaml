@@ -15,7 +15,6 @@ orgs:
     - matzew
     - nrrso
     # cncf
-    - thelinuxfoundation
     - caniszczyk
     - cncf-ci
     # productivity wg lead
@@ -69,9 +68,7 @@ orgs:
     - izabelacg
     - jberkus
     - jcrossley3
-    - jkjell
     - jrangelramos
-    - JRBANCEL
     - jsanin-vmw
     - julz
     - jwcesign
@@ -512,25 +509,10 @@ orgs:
             description: Knative Steering Committee
             maintainers:
             - aliok
-            - evankanderson
-            - nainaz
-            - salaboy
-            - davidhadas
             - dprotaso
-            - dsimansk
-            - psschwei
-            privacy: closed
-          Technical Oversight Committee:
-            description: Members of the Knative Technical Oversight Committee (TOC)
-            maintainers:
-            - aliok
             - evankanderson
-            - nainaz
-            - salaboy
-            - davidhadas
-            - dprotaso
-            - dsimansk
-            - psschwei
+            - matzew
+            - nrrso
             privacy: closed
           Knative Release Leads:
             privacy: closed
