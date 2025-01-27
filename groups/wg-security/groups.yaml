@@ -9,6 +9,5 @@ groups:
       ReconcileMembers: "true"
     owners:
       - evan.k.anderson@gmail.com
-      - evana@vmware.com
       - evankanderson@knative.team
       - david.hadas@gmail.com

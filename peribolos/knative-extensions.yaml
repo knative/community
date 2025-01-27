@@ -16,9 +16,9 @@ orgs:
     - matzew
     - nrrso
     # cncf
-    - thelinuxfoundation
     - caniszczyk
     - cncf-ci
+    - linuxfoundation
     # productivity
     - upodroid
     - knative-prow-robot
@@ -67,10 +67,8 @@ orgs:
     - itsmurugappan
     - izabelacg
     - jcrossley3
-    - jkjell
     - joeeltgroth
     - jrangelramos
-    - JRBANCEL
     - jsanin-vmw
     - julz
     - jwcesign
@@ -760,25 +758,10 @@ orgs:
             description: ""
             maintainers:
             - aliok
-            - evankanderson
-            - nainaz
-            - salaboy
-            - davidhadas
             - dprotaso
-            - dsimansk
-            - psschwei
-            privacy: closed
-          Technical Oversight Committee:
-            description: Members of the Knative Technical Oversight Committee (TOC)
-            maintainers:
-            - aliok
             - evankanderson
-            - nainaz
-            - salaboy
-            - davidhadas
-            - dprotaso
-            - dsimansk
-            - psschwei
+            - matzew
+            - nrrso
             privacy: closed
           Knative Release Leads:
             privacy: closed
