@@ -5,7 +5,7 @@ weight: 30
 type: "docs"
 ---
 
-# 2025 Knative Steering Committee end user Seat
+# 2025 Knative Steering Committee End User Seat
 
 ## Purpose
 
