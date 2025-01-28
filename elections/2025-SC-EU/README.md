@@ -38,7 +38,7 @@ The one year term would be from February 19, 2025 to until a new representative 
 
 **Nomination**
 
-If you want to be considered for end user Seat, open a PR against the
+If you want to be considered for end user seat, open a PR against the
 [knative/community repository](https://github.com/knative/community) to include
 your candidate profile in the `/elections/2025-SC-EU` folder, with the following
 filename format:
