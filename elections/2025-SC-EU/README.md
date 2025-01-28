@@ -58,7 +58,7 @@ You can find [a sample template in the folder](./nomination-template.md).
 
 ### Decision
 
-The newly elected body will be announced in the Knative Steering Meeting on the
-scheduled announcement date.
+The newly elected representative will be announced in the Knative Steering meeting on the
+scheduled date.
 
 [Knative Steering Committee]: https://github.com/knative/community/blob/main/STEERING-COMMITTEE.md
