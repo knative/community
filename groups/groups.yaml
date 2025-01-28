@@ -51,9 +51,37 @@ groups:
       AllowExternalMembers: "false"
       WhoCanPostMessage: "ANYONE_CAN_POST"
     owners:
-    - steering@knative.team
+      - aliok@redhat.com
+      - developer@nrrso.com
+      - evan.k.anderson@gmail.com
+      - dprotaso@gmail.com
+      - mwessend@redhat.com
     members:
-    - wg-leads@knative.team
+      # Serving
+      # - dprotaso@gmail.com: already in the owners list
+      # Client
+      - dsimansk@knative.team
+      - dsimansk@redhat.com
+      - rhuss@knative.team
+      - rhuss@redhat.com
+      # UX
+      - zainabhusain@ocadu.ca
+      - mariana.mejia@ocadu.ca
+      - leeoo.li@mail.utoronto.ca
+      - calumramurray@gmail.com
+      # Eventing
+      - pierdipi@knative.team
+      # Functions
+      - lkinglan@redhat.com
+      - salaboy@gmail.com
+      # Operations
+      - houshengbo@knative.team
+      # Productivity
+      - cy@borg.dev
+      - ksuszyns@redhat.com
+      # Security
+      - david.hadas@gmail.com
+      # - evan.k.anderson@gmail.com: already in the owners list
 
   - email-id: admins@knative.dev
     name: admins
