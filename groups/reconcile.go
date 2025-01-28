@@ -325,8 +325,14 @@ func (r *Reconciler) printGroupMembersAndSettings() error {
 
 		groupsConfig.Groups = append(groupsConfig.Groups, group)
 	}
-
-	cm := genyaml.NewCommentMap("reconcile.go")
+	file, err := os.ReadFile("reconcile.go")
+	if err != nil {
+		return fmt.Errorf("unable to read file yaml for groups : %w", err)
+	}
+	cm, err := genyaml.NewCommentMap(map[string][]byte{"reconcile.go": file}, "reconcile.go")
+	if err != nil {
+		return fmt.Errorf("unable to generate yaml for groups : %w", err)
+	}
 	yamlSnippet, err := cm.GenYaml(groupsConfig)
 	if err != nil {
 		return fmt.Errorf("unable to generate yaml for groups : %w", err)
