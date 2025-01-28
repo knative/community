@@ -30,6 +30,3 @@ require (
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/protobuf v1.36.4 // indirect
 )
-
-// k8s.io/test-infra requires old tektoncd/pipeline that'd pull old knative.dev/pkg
-replace github.com/tektoncd/pipeline => github.com/tektoncd/pipeline v0.26.1-0.20210811222006-76cb481f504c

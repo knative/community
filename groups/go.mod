@@ -1,6 +1,8 @@
 module k8s.io/k8s.io/groups
 
-go 1.22.7
+go 1.23.0
+
+toolchain go1.23.5
 
 require (
 	cloud.google.com/go/secretmanager v1.14.3
@@ -46,5 +48,3 @@ require (
 	google.golang.org/protobuf v1.36.4 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
-
-replace k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190817020851-f2f3a405f61d
