@@ -9,7 +9,7 @@ type: "docs"
 
 ## Purpose
 
-This document describes the process for filling the end user Representative
+This document describes the process for filling the end user representative
 for Knative Steering Committee. The newly appointed representative will serve a
 one (1) year term.
 
