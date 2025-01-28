@@ -1,6 +1,6 @@
 ---
-title: "Knative Steering Committee end user Seat"
-linkTitle: "Steering Committee end user Seat"
+title: "Knative Steering Committee End User Seat"
+linkTitle: "Steering Committee End User Seat"
 weight: 30
 type: "docs"
 ---
