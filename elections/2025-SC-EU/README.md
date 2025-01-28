@@ -15,9 +15,7 @@ one (1) year term.
 
 ## Background
 
-In 2021 we introduced one end user seat to bring more diversity into the SC
-representation which is to be elected by the SC once the SC election was
-completed.
+In 2021 it was decided that after a Steering Committee election there would be an additional election for an end-user seat on the committee. The goal is to give end-users a voice on the Steering Committee.
 
 ## Eligibility
 
