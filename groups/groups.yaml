@@ -11,7 +11,11 @@ groups:
       MessageModerationLevel: "MODERATE_NON_MEMBERS"
       ReconcileMembers: "true"
     owners:
-    - steering@knative.team
+    - aliok@redhat.com
+    - developer@nrrso.com
+    - evan.k.anderson@gmail.com
+    - dprotaso@gmail.com
+    - mwessend@redhat.com
     members:
       # Serving
       # - dprotaso@gmail.com: already in the owners list

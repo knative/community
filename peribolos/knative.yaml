@@ -17,7 +17,7 @@ orgs:
     # cncf
     - caniszczyk
     - cncf-ci
-    - linuxfoundation
+    - thelinuxfoundation
     # productivity wg lead
     - upodroid
     - knative-prow-robot
