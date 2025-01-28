@@ -51,7 +51,7 @@ This profile should include:
 
 * Your name
 * Your company affiliation (employer or otherwise)
-* Your contributions to Knative
+* Your contributions to Knative (if any)
 * Why you are running
 
 You can find [a sample template in the folder](./nomination-template.md).
