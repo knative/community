@@ -1105,7 +1105,6 @@ orgs:
         members:
         - dsimansk
         - rhuss
-        - psschwei
 
       kn-plugin-sample Approvers:
         description: Approver group for kn-plugin-sample - to be used in CODEOWNERS file
@@ -1201,5 +1200,4 @@ orgs:
           security-guard: write
         members:
         - davidhadas
-        - psschwei
         - rhuss
