@@ -618,6 +618,7 @@ orgs:
           Serving Approvers:
             description: The Working Group leads for Serving
             members:
+            - dsimansk
             - skonto
             privacy: closed
           Serving WG Leads:
