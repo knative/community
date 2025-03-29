@@ -647,6 +647,7 @@ orgs:
             description: The Working Group leads for Eventing
             members:
             - pierDipi
+            - creydr
             privacy: closed
         members:
         - aliok
