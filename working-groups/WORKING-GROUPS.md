@@ -180,9 +180,10 @@ Event sources, bindings, FaaS framework, and orchestration
 | Slack Channel              | [#knative-eventing](https://cloud-native.slack.com/archives/C04LMU33V1S) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                                                                    |
 | Github Team WG leads       | [@knative/eventing-wg-leads](https://github.com/orgs/knative/teams/eventing-wg-leads/members)                                                                |
 
-| &nbsp;                                                        | Leads                      | Company | Profile                                           |
-| ------------------------------------------------------------- | -------------------------- | ------- | ------------------------------------------------- |
-| <img width="30px" src="https://github.com/pierdipi.png">      | Pierangelo Di Pilato (Technical) | Red Hat | [pierdipi](https://github.com/pierdipi)     |
+| &nbsp;                                                        | Leads                | Company | Profile                                     |
+| ------------------------------------------------------------- | -------------------- | ------- | ------------------------------------------- |
+| <img width="30px" src="https://github.com/pierdipi.png">      | Pierangelo Di Pilato | Red Hat | [pierdipi](https://github.com/pierdipi)     |
+| <img width="30px" src="https://github.com/creydr.png">        | Christoph Stäbler    | Red Hat | [creydr](https://github.com/creydr)         |
 
 
 | &nbsp;                                                  | Emeritus Leads            | Profile                                | Duration  |
