@@ -112,7 +112,6 @@ orgs:
     - pymhq
     - RamyChaabane
     - ReToCode
-    - rhuss
     - ricardozanini
     - richterdavid
     - salaboy
@@ -605,7 +604,6 @@ orgs:
             description: The Working Group Leads for Client
             members:
             - dsimansk
-            - rhuss
             privacy: closed
       Docs Writers:
         description: Grants write access to docs-related repositories.
@@ -1070,7 +1068,6 @@ orgs:
           homebrew-kn-plugins: write
         members:
         - dsimansk
-        - rhuss
 
       kn-plugin-admin Approvers:
         description: Approver group for kn-plugin-admin - to be used in CODEOWNERS file
@@ -1078,7 +1075,6 @@ orgs:
         repos:
           kn-plugin-admin: write
         members:
-        - rhuss
         - dsimansk
 
       kn-plugin-event Approvers:
@@ -1088,7 +1084,6 @@ orgs:
           kn-plugin-event: write
         members:
         - cardil
-        - rhuss
 
       kn-plugin-operator Approvers:
         description: Approver group for kn-plugin-operator - to be used in CODEOWNERS file
@@ -1097,7 +1092,6 @@ orgs:
           kn-plugin-operator: write
         members:
           - houshengbo
-          - rhuss
           - dsimansk
 
       kn-plugin-quickstart Approvers:
@@ -1107,7 +1101,6 @@ orgs:
           kn-plugin-quickstart: write
         members:
         - dsimansk
-        - rhuss
         - psschwei
 
       kn-plugin-sample Approvers:
@@ -1117,7 +1110,6 @@ orgs:
           kn-plugin-sample: write
         members:
         - dsimansk
-        - rhuss
 
       kn-plugin-service-log Approvers:
         description: Approver group for kn-plugin-service-log - to be used in CODEOWNERS file
@@ -1125,7 +1117,7 @@ orgs:
         repos:
           kn-plugin-service-log: write
         members:
-        - rhuss
+        - dsimansk
 
       kn-plugin-source-kafka Approvers:
         description: Approver group for kn-plugin-source-kafka - to be used in CODEOWNERS file
@@ -1135,7 +1127,6 @@ orgs:
         members:
         - daisy-ycguo
         - dsimansk
-        - rhuss
 
       kn-plugin-source-kamelet Approvers:
         description: Approver group for kn-plugin-source-kamelet - to be used in CODEOWNERS file
@@ -1144,7 +1135,6 @@ orgs:
           kn-plugin-source-kamelet: write
         members:
         - christophd
-        - rhuss
 
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
@@ -1204,4 +1194,3 @@ orgs:
           security-guard: write
         members:
         - davidhadas
-        - rhuss
