@@ -115,7 +115,6 @@ orgs:
     - quentin-cha
     - rahulii
     - ReToCode
-    - rhuss
     - ricardozanini
     - RichieEscarez
     - richterdavid
@@ -387,7 +386,6 @@ orgs:
             description: The Working Group Leads for Client
             members:
             - dsimansk
-            - rhuss
             privacy: closed
         members:
         - vyasgun

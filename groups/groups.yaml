@@ -22,8 +22,6 @@ groups:
       # Client
       - dsimansk@knative.team
       - dsimansk@redhat.com
-      - rhuss@knative.team
-      - rhuss@redhat.com
       # UX
       - zainabhusain@ocadu.ca
       - mariana.mejia@ocadu.ca
@@ -62,8 +60,6 @@ groups:
       # Client
       - dsimansk@knative.team
       - dsimansk@redhat.com
-      - rhuss@knative.team
-      - rhuss@redhat.com
       # UX
       - zainabhusain@ocadu.ca
       - mariana.mejia@ocadu.ca

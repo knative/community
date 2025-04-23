@@ -128,10 +128,11 @@ conventions
 | &nbsp;                                                      | Leads          | Company | Profile                                       |
 | ----------------------------------------------------------- | -------------- | ------- | --------------------------------------------- |
 | <img width="30px" src="https://github.com/dsimansk.png">    | David Simansky | Red Hat | [dsimansk](https://github.com/dsimansk)       |
-| <img width="30px" src="https://github.com/rhuss.png">       | Roland Huß     | Red Hat | [rhuss](https://github.com/rhuss)             |
+
 
 | &nbsp;                                                     | Emeritus Leads  | Profile                                     | Duration  |
 | ---------------------------------------------------------- | --------------- | ------------------------------------------- | --------- |
+| <img width="30px" src="https://github.com/rhuss.png">      | Roland Huß      | [rhuss](https://github.com/rhuss)           | 2018-2025
 | <img width="30px" src="https://github.com/sixolet.png">    | Naomi Seyfer    | [sixolet](https://github.com/sixolet)       | 2018-2021 |
 | <img width="30px" src="https://github.com/cppforlife.png"> | Dmitriy Kalinin | [cppforlife](https://github.com/cppforlife) | 2018-2020 |
 
