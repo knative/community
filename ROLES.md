@@ -1,7 +1,7 @@
 This document describes the set of roles individuals might have within the
 Knative community, the requirements of each role, and the privileges that each
 role grants. Community members generally start at the first levels of the
-"ladder" and advance up it as their involvement in the project grows.  Our
+"ladder" and advance up it as their involvement in the project grows. Our
 project members are happy to help you advance along the contributor ladder.
 
 - [Role Summary](#role-summary)
@@ -62,6 +62,7 @@ have defined responsibilities.
 A Contributor contributes directly to the project and adds value to it.
 Contributions need not be code. People at the Contributor level may be new
 contributors, or they may only contribute occasionally.
+
 ### Requirements
 
 Contributors should be familiar with the project and its processes, and should
@@ -101,9 +102,10 @@ this is not a requirement.
 ### Requirements
 
 - Member of the Knative GitHub org
+
   - Create a PR adding yourself as a Member to
-[knative.yaml](../main/peribolos/knative.yaml) and/or to
-[knative-extensions.yaml](../main/peribolos/knative-extensions.yaml)
+    [knative.yaml](../main/peribolos/knative.yaml) and/or to
+    [knative-extensions.yaml](../main/peribolos/knative-extensions.yaml)
   - After the PR is merged you will receive an invite that you must accept to become a Member
   - If you would like to work towards becoming an Approver, open a second PR and add yourself as a `reviewer` on the repositories to which you will be contributing.
 
@@ -169,7 +171,6 @@ approver in an OWNERS file:
 The following apply to the part of the repository for which one would be an
 approver in an OWNERS file:
 
-
 - Demonstrate sound judgment
 
 * Responsible for project quality control via [reviews](./REVIEWING.md)
@@ -185,10 +186,8 @@ approver in an OWNERS file:
 * Approve contributions for acceptance
 
 Approvers are also expected to participate in community contact rotations
-([Serving](
-https://github.com/knative/serving/blob/main/support/COMMUNITY_CONTACTS.md)
-or [Eventing](
-https://github.com/knative/eventing/blob/main/support/COMMUNITY_CONTACTS.md))
+([Serving](https://github.com/knative/serving/blob/main/support/COMMUNITY_CONTACTS.md)
+or [Eventing](https://github.com/knative/eventing/blob/main/support/COMMUNITY_CONTACTS.md))
 to support users and keep test quality high, as well as release leads
 [rotation](https://github.com/knative/pkg/blob/main/RELEASE-LEADS.md) to
 shepherd Knative releases.
@@ -217,7 +216,6 @@ For existing working groups:
 - Recognized in the project as an active participant
 
 - Recognized as having expertise in the group’s subject matter
-
 
 ### Responsibilities and privileges
 
@@ -260,7 +258,6 @@ The following apply to the area / component for which one would be a lead.
 - Write access to repo (assign issues/PRs, add/remove labels and milestones,
   edit issues and PRs, edit wiki, create/delete labels and milestones)
 
-
   - Expected to respect OWNERS files approvals and use
     [standard procedure for merging code](./REVIEWING.md#merging-prs)
 
@@ -276,19 +273,29 @@ The following apply to the area / component for which one would be a lead.
 
   - Mentoring and guiding approvers, members, and new contributors.
 
+- Access to schedule events on the Knative shared calendar, and log in to the
+  Knative Zoom account
+
+- Recognition as a [CNCF project
+  maintainer](https://github.com/cncf/foundation/blob/main/project-maintainers.csv),
+  including access to the [CNCF Service
+  Desk](https://cncfservicedesk.atlassian.net/servicedesk/customer/portal/1/user/login?destination=portal%2F1)
+
 ## Stepping Down/Emeritus Process
+
 If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) or moving to emeritus status (completely stepping away from the project).
 
 Once a member has decided to move to emeritus or step down the contributor ladder, their entries in Peribolos should be removed or modified according to the specific change. Members moving to emiritus status should be removed from the Knative GitHub organization in Peribolos through a PR submitted by the member or a member of the Steering Committee.
 
 ## Inactivity
+
 It is important for contributors to be and stay active to set an example and show commitment to the project. Inactivity is harmful to the project as it may lead to unexpected delays, contributor attrition, and a lost of trust in the project.
 
-* Inactivity is measured by:
-    * Periods of no contributions for longer than 12 months
-    * Periods of no communication for longer than 12 months
-* Consequences of being inactive include:
-    * Involuntary Removal or demotion
+- Inactivity is measured by:
+  - Periods of no contributions for longer than 12 months
+  - Periods of no communication for longer than 12 months
+- Consequences of being inactive include:
+  - Involuntary Removal or demotion
 
 ## Involuntary Removal or Demotion
 
@@ -316,7 +323,7 @@ Approver.
   not fulfilling their documented responsibilities for more than 1 month.
   - This MAY be done through a super-majority vote of managers, or if there are
     not enough active managers to get a super-majority of votes cast, then
-    removal MAY occur through exception process to the Steering Committee.  The PR removing the
+    removal MAY occur through exception process to the Steering Committee. The PR removing the
     manager should be open for at least 72 hours.
   - Prior to voting to remove a manager, leads SHOULD reach out to the affected
     manager and see if they need to take a leave.
