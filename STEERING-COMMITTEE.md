@@ -73,7 +73,7 @@ committee currently recognizes this delegated authority for:
 
 ## Committee Meetings
 
-KSC currently meets weekly, or as-needed. Meetings are open to public and held
+KSC currently meets biweekly, or as-needed. Meetings are open to public and held
 online.
 
 Given the private nature of some of these discussions (e.g. privacy, private
@@ -94,10 +94,7 @@ for other options.
 ## Committee members
 
 Seats on the Steering Committee are held by an individual, not by their
-employer.  The current composition of the Steering Committee consists of members
-elected to the Steering Committee in 2022 and 2023, and the members of the
-Technical Oversight Committee elected in 2022; this is a temporary measure until
-elections are held in 2024.
+employer.
 
 The current membership of the committee is currently (listed alphabetically by
 first name):
@@ -118,7 +115,7 @@ The steering committee desires to always reach consensus.
 Decisions requiring a vote include: issuing written policy, amending existing
 written policy, creating, removing, or modifying a working group, all spending,
 hiring, and contracting, official responses to publicly raised issues, or any
-other decisions that at least half the members present decide require a vote
+other decisions that at least half the members present decide require a vote.
 
 Decisions are made in meetings when a quorum of the members are present and may
 pass with at least half the members of the committee supporting it.
@@ -147,8 +144,8 @@ composed as follows:
 
 - Four (4) are elected Contributing Seats, open to any project contributor.
   Two (2) Contributing Seats are elected every year, and serve a two-year term.
-  In the event of a vacancy, the Steering Committee may select a replacement to
-  serve out the remainder of the term.
+  In the event of a vacancy, [the procedures specified in that section](#vacancies)
+  are used to select a candidate to fill the remainder of the term.
 
 - One (1) is an [End User Seat](#end-user-seat) appointed by the Steering
   Committee.  The End User Seat serves until the next elected Steering Committee
@@ -163,6 +160,22 @@ composed as follows:
 Steering Committee contributing members serve for 2-year terms, staggered in
 order to preserve continuity. End user and selected members serve for 1-year
 terms. Every year two contributor seats are elected.
+
+## Removal Of Members
+
+Steering Committee members are expected to remain active in the community
+throughout their term.  If a Steering Committee member is inactive (no PR or
+issue comments, no Slack communications, and no meeting attendance) for more
+than 3 months, they may be removed by a simple majority vote of the remaining
+active committee members.  Steering Commmittee members may also be removed by
+a majority vote of all committee members using the same process as [amendments
+to this charter](#changes-to-the-charter).
+
+Steering Committee members may choose to resign and be removed at any time by
+notifying the project via an issue in this repository.
+
+Replacement of a Steering Committee member is handled in the same way as other
+Steering Committee [vacancies](#vacancies).
 
 ### Limitations on Company Representation
 
