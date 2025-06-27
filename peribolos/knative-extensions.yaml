@@ -881,7 +881,7 @@ orgs:
             - cali0707
             - mmejia02
             - zainabhusain227
-            - leo6leo
+            - Leo6Leo
 
       autoscaler-keda Approvers:
         description: Approver group for autoscaler-keda - to be used in CODEOWNERS file
@@ -897,8 +897,8 @@ orgs:
         members:
         - aliok
         - cali0707
-        - pierdipi
-        - leo6leo
+        - pierDipi
+        - Leo6Leo
 
       backstage-plugins Writers:
         description: Grants write access to backstage-plugins.
@@ -908,8 +908,8 @@ orgs:
         members:
         - aliok
         - cali0707
-        - pierdipi
-        - leo6leo
+        - pierDipi
+        - Leo6Leo
 
       discovery Approvers:
         description: Approver group for discovery - to be used in CODEOWNERS file
