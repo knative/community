@@ -634,6 +634,7 @@ orgs:
           eventing-gitlab: write
           eventing-integrations: write
           eventing-istio: write
+          eventing-kafka-broker: write
           eventing-kogito: write
           eventing-natss: write
           eventing-prometheus: write
