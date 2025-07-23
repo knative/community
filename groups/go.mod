@@ -8,7 +8,7 @@ require (
 	cloud.google.com/go/secretmanager v1.14.3
 	github.com/bmatcuk/doublestar v1.3.4
 	golang.org/x/net v0.38.0
-	golang.org/x/oauth2 v0.25.0
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.218.0
 	google.golang.org/genproto v0.0.0-20250127172529-29210b9bc287
 	gopkg.in/yaml.v3 v3.0.1
