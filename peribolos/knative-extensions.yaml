@@ -14,7 +14,7 @@ orgs:
     - dprotaso
     - evankanderson
     - matzew
-    - nrrso
+    - arsenetar
     # cncf
     - caniszczyk
     - cncf-ci
@@ -24,133 +24,63 @@ orgs:
     - knative-prow-robot
     members:
     - aavarghese
-    - alexagriffith
-    - andrew-su
-    - AngeloDanducci
     - aslom
     - astelmashenko
-    - bbtong
-    - benmoss
     - BobyMCbobs
     - Cali0707
     - cardil
-    - carlisia
     - cdlliuy
-    - chaodaiG
-    - chizhg
     - christophd
     - chunyilyu
-    - chzhyang
-    - converge
     - coryrc
-    - cr22rc
     - creydr
     - csantanapr
     - Cynocracy
-    - daisy-ycguo
     - dan-j
     - davidhadas
-    - debasishbsws
-    - devguyio
     - dilipgb
-    - dolfolife
     - dsimansk
-    - duglin
     - Fedosin
     - firatbezir
-    - gab-satchi
     - gabo1208
     - gauron99
-    - haubenr
-    - hh
-    - hhk7734
     - houshengbo
     - ikavgo
-    - itsmurugappan
-    - izabelacg
-    - jcrossley3
     - joeeltgroth
     - jrangelramos
-    - jsanin-vmw
-    - julz
-    - jwcesign
-    - k4leung4
     - kahirokunn
-    - kauana
-    - KauzClay
-    - kellyaa
     - knative-automation
     - knative-metrics-robot
     - knative-prow-releaser-robot
     - knative-prow-updater-robot
     - knative-test-reporter-robot
-    - krithika369
-    - lance
     - lberk
     - Leo6Leo
-    - lionelvillard
-    - liuchangyan
     - lkingland
-    - macruzbar
     - maschmid
     - matejvasek
     - mattmoor
-    - maximilien
     - mgencur
-    - mkuratczyk
     - mmejia02
     - mvinkler
     - nader-ziada
     - nainaz
-    - navidshaikh
     - norbjd
     - norman465
-    - odacremolbap
-    - omerbensaadon
     - pierDipi
-    - pmorie
-    - pradnyavmw
     - psschwei
-    - pymhq
     - RamyChaabane
-    - ReToCode
     - ricardozanini
-    - richterdavid
     - salaboy
-    - sebgoa
-    - senthilnathan
     - Shashankft9
     - ShravaniAK
     - skonto
-    - smoser-ibm
-    - snneji
     - spolti
-    - steren
-    - steven0711dong
-    - sukumargaonkar
     - sutaakar
-    - tardieu
-    - tcnghia
-    - tzununbekov
-    - vagababov
     - vaibhavjainwiz
-    - vaikas
-    - vdemeester
-    - vishal-chdhry
-    - vyasgun
-    - xiangpingjiang
-    - xtreme-sameer-vohra
-    - xtreme-vikram-yadav
-    - xxinran
-    - yanweiguo
-    - yaron2
-    - yijie-04
     - yuvalif
     - yuzisun
     - zainabhusain227
-    - zhanggbj
-    - zhaojizhuang
-    - ZhiminXiang
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
@@ -607,12 +537,6 @@ orgs:
             members:
             - dsimansk
             privacy: closed
-      Docs Writers:
-        description: Grants write access to docs-related repositories.
-        privacy: closed
-        members:
-        - csantanapr
-        - skonto
       Eventing Reviewers:
         description: Receive reviews for eventing-related repositories
         privacy: closed
@@ -656,7 +580,6 @@ orgs:
         - creydr
         - matzew
         - Leo6Leo
-        - lionelvillard
       Eventing Kafka Writers:
         description: Grants write access to Eventing Kafka WG leads on related repositories.
         privacy: closed
@@ -670,7 +593,6 @@ orgs:
           func-go: write
           func-python: write
         members:
-          - lance
           - lkingland
           - matejvasek
           - matzew
@@ -682,7 +604,6 @@ orgs:
         repos:
           func-tastic: write
         members:
-        - lance
         - lkingland
         - matejvasek
         - matzew
@@ -760,10 +681,10 @@ orgs:
             description: ""
             maintainers:
             - aliok
+            - arsenetar
             - dprotaso
             - evankanderson
             - matzew
-            - nrrso
             privacy: closed
           Knative Release Leads:
             privacy: closed
@@ -879,10 +800,10 @@ orgs:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
             members:
+            - Leo6Leo
             - cali0707
             - mmejia02
             - zainabhusain227
-            - Leo6Leo
 
       autoscaler-keda Approvers:
         description: Approver group for autoscaler-keda - to be used in CODEOWNERS file
@@ -952,7 +873,6 @@ orgs:
           eventing-couchdb: write
         members:
         - lberk
-        - lionelvillard
         - matzew
 
       eventing-github Approvers:
@@ -971,7 +891,6 @@ orgs:
           eventing-gitlab: write
         members:
         - lberk
-        - sebgoa
         - matzew
 
       eventing-kafka Approvers:
@@ -1027,7 +946,6 @@ orgs:
           eventing-rabbitmq: write
         members:
         - ikavgo
-        - mkuratczyk
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
         privacy: closed
@@ -1035,7 +953,6 @@ orgs:
           eventing-redis: write
         members:
         - aavarghese
-        - lionelvillard
         - matzew
 
       Function Runtime Approvers:
@@ -1045,7 +962,6 @@ orgs:
           func-go: write
           func-python: write
         members:
-        - lance
         - lkingland
         - matejvasek
         - matzew
@@ -1058,7 +974,6 @@ orgs:
         repos:
           func-tastic: write
         members:
-        - lance
         - lkingland
         - matejvasek
         - nainaz
@@ -1128,7 +1043,6 @@ orgs:
         repos:
           kn-plugin-source-kafka: write
         members:
-        - daisy-ycguo
         - dsimansk
 
       kn-plugin-source-kamelet Approvers:
@@ -1145,15 +1059,7 @@ orgs:
         repos:
           net-contour: write
         members:
-        - KauzClay
         - dprotaso
-
-      net-http01 Approvers:
-        description: Approver group for net-http01 - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          net-http01: write
-        members: []
 
       net-gateway-api Approvers:
         description: Approver group for net-gateway-api - to be used in CODEOWNERS file
@@ -1185,9 +1091,7 @@ orgs:
         repos:
           serving-progressive-rollout: write
         members:
-          - alexagriffith
           - houshengbo
-          - sukumargaonkar
           - yuzisun
 
       security-guard Approvers:

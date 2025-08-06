@@ -27,6 +27,40 @@ grep -h '  -' peribolos/knative*OWNERS_ALIASES | \
 
  -->
 
+| aavarghese | IBM |
+| aliok | Red Hat |
+| aslom | IBM |
+| astelmashenko | Independent |
+| Cali0707 | Red Hat |
+| cardil | Red Hat |
+| christophd | IBM |
+| creydr | Red Hat |
+| csantanapr | AWS |
+| dan-j | @versori |
+| davidhadas | IBM |
+| dprotaso |  Independent |
+| dsimansk | Red Hat |
+| evankanderson | Custcodian |
+| gauron99 | Red Hat |
+| houshengbo | Bloomberg |
+| ikavgo | VMware |
+| jrangelramos | Red Hat |
+| lberk | Red Hat |
+| Leo6Leo | Red Hat |
+| lkingland | Red Hat |
+| matejvasek | Red Hat |
+| matzew | Red Hat |
+| mgencur | Red Hat |
+| mmejia02 | Independent |
+| nainaz | Red Hat |
+| pierDipi | Red Hat |
+| psschwei | IBM |
+| salaboy | Diagrid |
+| skonto | Independent |
+| upodroid | Independent |
+| yuzisun | Bloomberg |
+| zainabhusain227 | Independent |
+
 | Maintainer | Company Affiliation |
 |------------|---------------------|
 | aavarghese | IBM |
