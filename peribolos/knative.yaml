@@ -300,7 +300,7 @@ orgs:
       Client Reviewers:
         description: Receive reviews for client directories
         privacy: closed
-        members:
+        members: []
       Client Writers:
         description: Grants write access to client-related repositories.
         privacy: closed
@@ -316,7 +316,7 @@ orgs:
             members:
             - dsimansk
             privacy: closed
-        members:
+        members: []
       Docs Reviewers:
         description: Receive reviews for docs directories
         privacy: closed
