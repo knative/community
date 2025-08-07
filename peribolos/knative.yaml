@@ -13,7 +13,7 @@ orgs:
     - dprotaso
     - evankanderson
     - matzew
-    - nrrso
+    - arsenetar
     # cncf
     - caniszczyk
     - cncf-ci
@@ -23,141 +23,69 @@ orgs:
     - knative-prow-robot
     members:
     - aavarghese
-    - alexagriffith
-    - andrew-su
-    - AngeloDanducci
     - aslom
     - astelmashenko
-    - bbtong
-    - benmoss
     - bikramnehra
     - BobyMCbobs
     - Cali0707
     - cardil
-    - carlisia
-    - chaodaiG
-    - chizhg
     - chunyilyu
-    - chzhyang
-    - converge
     - coryrc
-    - cr22rc
     - creydr
     - csantanapr
     - Cynocracy
-    - daisy-ycguo
     - davidhadas
-    - debasishbsws
-    - devguyio
     - dilipgb
-    - dolfolife
     - dsimansk
-    - duglin
     - eallred-google
     - Fedosin
     - firatbezir
-    - gab-satchi
     - gabo1208
     - gauron99
     - geekygirldawn
-    - haubenr
-    - hh
-    - hhk7734
     - houshengbo
     - ikavgo
-    - ImJasonH
-    - itsmurugappan
-    - izabelacg
     - jberkus
-    - jcrossley3
     - jrangelramos
-    - jsanin-vmw
-    - julz
-    - jwcesign
-    - k4leung4
     - kahirokunn
-    - kauana
-    - KauzClay
-    - kellyaa
     - knative-automation
     - knative-metrics-robot
     - knative-prow-releaser-robot
     - knative-prow-updater-robot
     - knative-test-reporter-robot
-    - krithika369
-    - lance
     - lberk
     - Leo6Leo
-    - lionelvillard
-    - liuchangyan
     - lkingland
-    - macruzbar
     - maschmid
     - matejvasek
     - mattmoor
-    - maximilien
     - mchmarny
     - mgencur
-    - mkuratczyk
     - mmejia02
     - mvinkler
     - nader-ziada
     - nainaz
-    - navidshaikh
     - norman465
-    - odacremolbap
-    - omerbensaadon
     - pierDipi
     - pmbanugo
-    - pmorie
-    - pradnyavmw
     - psschwei
-    - pymhq
     - quentin-cha
     - rahulii
-    - ReToCode
     - ricardozanini
     - RichieEscarez
-    - richterdavid
     - S-Mann
     - sadath-12
     - salaboy
-    - sebgoa
-    - senthilnathan
     - Shashankft9
     - ShravaniAK
     - skonto
-    - smoser-ibm
-    - snneji
-    - steren
-    - steven0711dong
-    - sukumargaonkar
     - Taction
-    - tardieu
-    - tcnghia
-    - thisisnotapril
     - travis-minke-sap
     - trisberg
-    - tzununbekov
-    - vagababov
-    - vaikas
-    - vdemeester
-    - vishal-chdhry
-    - vyasgun
     - wlynch
-    - xiangpingjiang
-    - xtreme-sameer-vohra
-    - xtreme-vikram-yadav
-    - xxinran
-    - yanweiguo
-    - yaron2
-    - yijie-04
     - yuvalif
     - yuzisun
     - zainabhusain227
-    - zhanggbj
-    - zhaojizhuang
-    - ZhiminXiang
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
@@ -372,8 +300,7 @@ orgs:
       Client Reviewers:
         description: Receive reviews for client directories
         privacy: closed
-        members:
-        - itsmurugappan
+        members: []
       Client Writers:
         description: Grants write access to client-related repositories.
         privacy: closed
@@ -389,8 +316,7 @@ orgs:
             members:
             - dsimansk
             privacy: closed
-        members:
-        - vyasgun
+        members: []
       Docs Reviewers:
         description: Receive reviews for docs directories
         privacy: closed
@@ -405,7 +331,6 @@ orgs:
           website: write
           release: write
         members:
-        - csantanapr
         - skonto
       Eventing Reviewers:
         description: Receive reviews for eventing related repositories
@@ -436,7 +361,6 @@ orgs:
         - creydr
         - matzew
         - Leo6Leo
-        - lionelvillard
       Func Writers:
         description: Grants write access to function repositories
         privacy: closed
@@ -451,7 +375,6 @@ orgs:
             - salaboy
             privacy: closed
         members:
-          - lance
           - matejvasek
           - matzew
           - jrangelramos
@@ -511,19 +434,19 @@ orgs:
             description: Knative Steering Committee
             maintainers:
             - aliok
+            - arsenetar
             - dprotaso
             - evankanderson
             - matzew
-            - nrrso
             privacy: closed
           Knative Release Leads:
             privacy: closed
             description: Active members of the Knative Release Leads rotation.
             maintainers:
-            - dsimansk
-            - skonto
             - dprotaso
+            - dsimansk
             - gauron99
+            - skonto
           Productivity Leads:
             #Using the same team name as below `Productivity WG Leads` puts peribolos in a weird state.
             privacy: closed

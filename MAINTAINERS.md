@@ -30,46 +30,35 @@ grep -h '  -' peribolos/knative*OWNERS_ALIASES | \
 | Maintainer | Company Affiliation |
 |------------|---------------------|
 | aavarghese | IBM |
-| alexagriffith | Bloomberg |
 | aliok | Red Hat |
 | aslom | IBM |
 | astelmashenko | Independent |
-| Cali0707 | University of Toronto |
+| Cali0707 | Red Hat |
 | cardil | Red Hat |
-| christophd | Red Hat |
+| christophd | IBM |
 | creydr | Red Hat |
 | csantanapr | AWS |
-| daisy-ycguo | Nvidia |
 | dan-j | @versori |
-| davidhadas | IBM Research |
-| dprotaso | Independent |
+| davidhadas | IBM |
+| dprotaso |  Independent |
 | dsimansk | Red Hat |
 | evankanderson | Custcodian |
 | gauron99 | Red Hat |
 | houshengbo | Bloomberg |
-| ikavgo | @vmware |
-| itsmurugappan | Box |
+| ikavgo | VMware |
 | jrangelramos | Red Hat |
-| KauzClay | VMware |
-| lance | Red Hat |
-| lberk | Red Hat Inc. |
+| lberk | Red Hat |
 | Leo6Leo | Red Hat |
-| lionelvillard | IBM |
 | lkingland | Red Hat |
 | matejvasek | Red Hat |
 | matzew | Red Hat |
 | mgencur | Red Hat |
-| mkuratczyk | RabbitMQ @ VMware by Broadcom |
-| mmejia02 | Mycroft |
+| mmejia02 | Independent |
 | nainaz | Red Hat |
-| nrrso | SVA GmbH |
 | pierDipi | Red Hat |
 | psschwei | IBM |
-| salaboy | @diagrid |
-| sebgoa | Nvidia |
-| skonto | RedHat |
-| sukumargaonkar | @bloomberg |
+| salaboy | Diagrid |
+| skonto | Independent |
 | upodroid | Independent |
-| vyasgun | Red Hat |
-| yuzisun | @bloomberg |
-| zainabhusain227 | Bonocle |
+| yuzisun | Bloomberg |
+| zainabhusain227 | Independent |
