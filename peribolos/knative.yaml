@@ -434,7 +434,6 @@ orgs:
             description: Knative Steering Committee
             maintainers:
             - aliok
-            - arsenetar
             - dprotaso
             - evankanderson
             - matzew

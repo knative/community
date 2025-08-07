@@ -119,7 +119,6 @@ aliases:
   - christophd
   knative-admin:
   - aliok
-  - arsenetar
   - cardil
   - dprotaso
   - dsimansk
@@ -193,7 +192,6 @@ aliases:
   - skonto
   steering-committee:
   - aliok
-  - arsenetar
   - dprotaso
   - evankanderson
   - matzew

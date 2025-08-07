@@ -681,7 +681,6 @@ orgs:
             description: ""
             maintainers:
             - aliok
-            - arsenetar
             - dprotaso
             - evankanderson
             - matzew
