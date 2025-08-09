@@ -1,8 +1,7 @@
-## Welcome!
-
-Welcome to the Knative community!
+## Welcome to the Knative community!
 
 ![Kuack the Knative Duck](./mascot/kuack.png)
+
 *Meet Kuack, the Knative Duck - our community mascot!*
 
 This is the starting point for becoming a contributor - improving code,
@@ -40,9 +39,7 @@ Other Documents
 ## Introduction
 
 Knative is a Kubernetes-based platform to deploy and manage modern serverless
-workloads. See the
-[Knative documentation](https://knative.dev) for in-depth information about
-using Knative.
+workloads. It composed of several [subprojects](./PROJECTS.md)
 
 ## Knative authors
 
