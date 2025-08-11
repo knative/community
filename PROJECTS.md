@@ -40,6 +40,19 @@ The [`kn` cli](https://github.com/knative/client) provides a quick and easy inte
 
 The [Operator](https://github.com/knative/operator) helps install, manage and upgrade Knative Eventing installations on Kubernetes Clusters.
 
+## Other Supporting Subprojects
+
+### Knative Website
+
+The [`knative.dev`] website is where users learn about using and operating different components of Knative.
+
+### Knative Infrastructure
+
+The test infrastructure hosts our CI and other various tooling to support development of Knative Kubernetes components. [`knative/infra`](https://github.com/knative/infra) contains documentation on how to get involved.
+
 ## Additional Resources
 
-See the [Knative documentation](https://knative.dev) for in-depth information.
+Knative projects are maintained by organized [working groups](./working-groups/WORKING-GROUPS.md).
+
+Additionally, see the [Knative website](https://knative.dev) for in-depth information.
+
