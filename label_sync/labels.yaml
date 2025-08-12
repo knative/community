@@ -100,6 +100,11 @@ default:
       target: both
       prowPlugin: label
       addedBy: humans
+    - color: 46428c
+      name: docs
+      target: both
+      prowPlugin: label
+      addedBy: humans
 
     # Specific labels for issue triage
     # See https://apenwarr.ca/log/20171213#slide32 for why we want to have these labels
