@@ -136,6 +136,7 @@ orgs:
       client-pkg:
         allow_merge_commit: false
         allow_rebase_merge: false
+        archived: true
         description: Reusable Knative client library
         has_projects: true
         has_wiki: false
@@ -306,7 +307,6 @@ orgs:
         repos:
           .artifacthub: write
           client: write
-          client-pkg: write
           homebrew-client: write
           release: write
         teams:
