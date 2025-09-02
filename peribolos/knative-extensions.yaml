@@ -500,6 +500,7 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+        archived: true
       security-guard:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -757,12 +758,10 @@ orgs:
           net-certmanager: triage
           net-contour: triage
           net-gateway-api: triage
-          net-http01: triage
           net-istio: triage
           net-kourier: triage
           reconciler-test: triage
           sample-controller: triage
-          serving-progressive-rollout: triage
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
@@ -771,12 +770,10 @@ orgs:
           net-certmanager: write
           net-contour: write
           net-gateway-api: write
-          net-http01: write
           net-istio: write
           net-kourier: write
           reconciler-test: write
           sample-controller: write
-          serving-progressive-rollout: write
         teams:
           Serving Approvers:
             description: The Working Group leads for Serving
@@ -1083,15 +1080,6 @@ orgs:
           net-kourier: write
         members:
         - skonto
-
-      serving-progressive-rollout Approvers:
-        description: Approver group for serving-progressive-rollout - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          serving-progressive-rollout: write
-        members:
-          - houshengbo
-          - yuzisun
 
       security-guard Approvers:
         description: Approver group for security-guard - to be used in CODEOWNERS file
