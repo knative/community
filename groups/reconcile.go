@@ -26,13 +26,13 @@ import (
 	"strings"
 
 	secretmanager "cloud.google.com/go/secretmanager/apiv1"
+	"cloud.google.com/go/secretmanager/apiv1/secretmanagerpb"
 	"github.com/bmatcuk/doublestar"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2/google"
 	admin "google.golang.org/api/admin/directory/v1"
 	"google.golang.org/api/groupssettings/v1"
 	"google.golang.org/api/option"
-	secretmanagerpb "google.golang.org/genproto/googleapis/cloud/secretmanager/v1"
 	"gopkg.in/yaml.v3"
 
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"

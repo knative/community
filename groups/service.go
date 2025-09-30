@@ -516,9 +516,9 @@ var _ GroupService = (*groupService)(nil)
 
 // DeepCopy deepcopies a to b using json marshaling. This discards fields like
 // the server response that don't have a specifc json field name.
-func deepCopySettings(a, b interface{}) {
+func deepCopySettings(a, b any) {
 	byt, _ := json.Marshal(a)
-	json.Unmarshal(byt, b)
+	json.Unmarshal(byt, b) //nolint
 }
 
 // EmailAddressEquals checks equivalence between two e-mail addresses according
