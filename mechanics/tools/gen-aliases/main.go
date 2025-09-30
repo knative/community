@@ -27,13 +27,11 @@ func main() {
 
 	f, err := os.ReadFile(infile)
 	if err != nil {
-		log.Print("Unable to open ", err)
-		os.Exit(1)
+		log.Fatal("Unable to open:", err)
 	}
 	var cfg peribolos.FullConfig
 	if err := yaml.Unmarshal(f, &cfg); err != nil {
-		log.Printf("Unable to parse ", err)
-		os.Exit(1)
+		log.Fatal("Unable to parse:", err)
 	}
 	out := AliasConfig{
 		Aliases: map[string][]string{},
@@ -49,13 +47,12 @@ func main() {
 	}
 	for _, team := range expandTeams(cfg.Orgs[org].Teams) {
 		name := strings.Map(dashes, strings.ToLower(team.Name))
-		out.Aliases[name] = team.Members.List()
+		out.Aliases[name] = sets.List(team.Members)
 	}
 
 	output, err := yaml.Marshal(out)
 	if err != nil {
-		log.Printf("Could not serialize: ", err)
-		os.Exit(1)
+		log.Fatal("Could not serialize:", err)
 	}
 	preamble := fmt.Sprintf(`# This file is auto-generated from peribolos.
 # Do not modify this file, instead modify %s
@@ -63,12 +60,19 @@ func main() {
 `, infile)
 	output = append([]byte(preamble), output...)
 	prevOut, err := os.ReadFile(outfile)
+
 	if err == nil && string(prevOut) == string(output) {
 		log.Print("No changes needed for ", outfile)
-	} else {
-		os.WriteFile(outfile, output, 0644)
-		log.Print("Wrote ", outfile)
+		return
+	} else if err != nil {
+		log.Fatal("Failed to read file:", err)
 	}
+
+	if err := os.WriteFile(outfile, output, 0o644); err != nil {
+		log.Fatal("Failed to write file:", err)
+	}
+
+	log.Print("Wrote ", outfile)
 }
 
 func expandTeams(seed map[string]peribolos.Team) []expandedTeam {
@@ -77,7 +81,7 @@ func expandTeams(seed map[string]peribolos.Team) []expandedTeam {
 		children := expandTeams(team.Children)
 		this := expandedTeam{
 			Name:    name,
-			Members: sets.NewString(team.Members...),
+			Members: sets.New(team.Members...),
 		}
 		this.Members.Insert(team.Maintainers...)
 		for _, child := range children {
@@ -96,5 +100,5 @@ type AliasConfig struct {
 
 type expandedTeam struct {
 	Name    string
-	Members sets.String
+	Members sets.Set[string]
 }

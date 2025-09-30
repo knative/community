@@ -30,11 +30,15 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 )
 
-var cfg GroupsConfig
-var rConfig RestrictionsConfig
+var (
+	cfg     GroupsConfig
+	rConfig RestrictionsConfig
+)
 
-var groupsPath = flag.String("groups-path", "", "Directory containing groups.yaml files")
-var restrictionsPath = flag.String("restrictions-path", "", "Path to the configuration file containing restrictions")
+var (
+	groupsPath       = flag.String("groups-path", "", "Directory containing groups.yaml files")
+	restrictionsPath = flag.String("restrictions-path", "", "Path to the configuration file containing restrictions")
+)
 
 func TestMain(m *testing.M) {
 	flag.Parse()
@@ -88,8 +92,8 @@ func TestMain(m *testing.M) {
 // root groups.yaml file.
 func TestMergedGroupsConfig(t *testing.T) {
 	var containsMergedConfig bool
-	found := sets.String{}
-	dups := sets.String{}
+	found := sets.New[string]()
+	dups := sets.New[string]()
 
 	for _, g := range cfg.Groups {
 		name := g.Name
@@ -107,7 +111,7 @@ func TestMergedGroupsConfig(t *testing.T) {
 		t.Errorf("Final GroupsConfig does not have merged configs from all groups.yaml files")
 	}
 	if n := len(dups); n > 0 {
-		t.Errorf("%d duplicate groups: %s", n, strings.Join(dups.List(), ", "))
+		t.Errorf("%d duplicate groups: %s", n, strings.Join(sets.List(dups), ", "))
 	}
 }
 
@@ -120,9 +124,8 @@ func TestMergedGroupsConfig(t *testing.T) {
 func TestStagingEmailLength(t *testing.T) {
 	var errs []error
 	for _, g := range cfg.Groups {
-		if strings.HasPrefix(g.EmailId, "k8s-infra-staging-") {
-			projectName := strings.TrimSuffix(strings.TrimPrefix(g.EmailId, "k8s-infra-staging-"), "@knative.team")
-
+		if s, found := strings.CutPrefix(g.EmailId, "k8s-infra-staging-"); found {
+			projectName := strings.TrimSuffix(s, "@knative.team")
 			len := utf8.RuneCountInString(projectName)
 			if len > 18 {
 				errs = append(errs, fmt.Errorf("Number of characters in project name \"%s\" should not exceed 18; is: %d", projectName, len))
@@ -148,7 +151,7 @@ func TestDescriptionLength(t *testing.T) {
 		description := g.Description
 
 		len := utf8.RuneCountInString(description)
-		//Ref: https://developers.google.com/admin-sdk/groups-settings/v1/reference/groups
+		// Ref: https://developers.google.com/admin-sdk/groups-settings/v1/reference/groups
 		if len > 300 {
 			errs = append(errs,
 				fmt.Errorf("Number of characters in description \"%s\" for group name \"%s\" "+
@@ -167,7 +170,7 @@ func TestDescriptionLength(t *testing.T) {
 func TestGroupConventions(t *testing.T) {
 	for _, g := range cfg.Groups {
 		// groups are easier to reason about if email and name match
-		if !(g.EmailId == g.Name+"@knative.team" || g.EmailId == g.Name+"@knative.dev") {
+		if g.EmailId != g.Name+"@knative.team" && g.EmailId != g.Name+"@knative.dev" {
 			t.Errorf("group '%s': expected email '%s@knative.dev or %s@knative.team', got '%s'", g.Name, g.Name, g.Name, g.EmailId)
 		}
 	}
