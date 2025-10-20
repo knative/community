@@ -693,9 +693,9 @@ orgs:
             description: Active members of the Knative Release Leads rotation.
             maintainers:
             - dsimansk
-            - skonto
             - dprotaso
             - gauron99
+            - linkvt
           Productivity Leads:
             #Using the same team name as below `Productivity WG Leads` puts peribolos in a weird state.
             privacy: closed
