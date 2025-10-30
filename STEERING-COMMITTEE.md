@@ -106,7 +106,7 @@ first name):
 | <img width="30px" src="https://github.com/arsenetar.png">     | Andrew Senetar *        | CoreWeave    | [@arsenetar](https://github.com/arsenetar)         | 2025-03-06 | 2026     |
 | <img width="30px" src="https://github.com/dprotaso.png">      | Dave Protasowski        | Independent  | [@dprotaso](https://github.com/dprotaso)           | 2024-09-17 | 2026     |
 | <img width="30px" src="https://github.com/matzew.png">        | Matthias Wessendorf     | Red Hat      | [matzew](https://github.com/matzew)                | 2024-12-24 | 2026     |
-> * Norris holds the End User seat
+> \* Holds the End User seat
 
 ## Decision process
 
