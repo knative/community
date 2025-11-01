@@ -391,7 +391,6 @@ orgs:
         privacy: closed
         members:
         - jrangelramos
-        - nainaz
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
