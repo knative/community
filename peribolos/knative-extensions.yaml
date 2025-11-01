@@ -602,7 +602,6 @@ orgs:
           - lkingland
           - matejvasek
           - matzew
-          - nainaz
           - salaboy
       Functastic Writers:
         description: Grants write access to function related repositories
@@ -613,7 +612,6 @@ orgs:
         - lkingland
         - matejvasek
         - matzew
-        - nainaz
         - salaboy
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
@@ -967,7 +965,6 @@ orgs:
         - lkingland
         - matejvasek
         - matzew
-        - nainaz
         - salaboy
 
       func-tastic Approvers:
@@ -978,7 +975,6 @@ orgs:
         members:
         - lkingland
         - matejvasek
-        - nainaz
         - salaboy
 
       homebrew-kn-plugins Approvers:
