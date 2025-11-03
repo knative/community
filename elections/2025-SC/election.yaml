@@ -1,0 +1,16 @@
+name: Knative 2025 SC
+organization: Knative
+start_datetime: 2025-11-26 00:00:01
+end_datetime: 2025-12-12 23:59:59
+no_winners: 2
+allow_no_opinion: True
+delete_after: True
+show_candidate_fields:
+  - affiliation
+election_officers:
+  - geekygirldawn
+  - jberkus
+  - cali0707
+eligibility: All Knative contributors with more than 25 contributions in the last 12 months are eligible to vote
+exception_description: If you should be eligible to vote, and find that you are unable to, please fill out the exceptions form.    Otherwise, contact elections@knative.team
+exception_due: 2025-12-05 23:59:59
