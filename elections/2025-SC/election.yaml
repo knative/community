@@ -10,7 +10,7 @@ show_candidate_fields:
 election_officers:
   - geekygirldawn
   - jberkus
-  - cali0707
+  - Cali0707
 eligibility: All Knative contributors with more than 25 contributions in the last 12 months are eligible to vote
 exception_description: If you should be eligible to vote, and find that you are unable to, please fill out the exceptions form.    Otherwise, contact elections@knative.team
 exception_due: 2025-12-05 23:59:59
