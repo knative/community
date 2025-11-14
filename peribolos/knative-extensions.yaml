@@ -697,8 +697,6 @@ orgs:
             maintainers:
             - dsimansk
             - dprotaso
-            - gauron99
-            - linkvt
           Productivity Leads:
             #Using the same team name as below `Productivity WG Leads` puts peribolos in a weird state.
             privacy: closed
