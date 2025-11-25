@@ -11,10 +11,10 @@ All Knative contributors with [25 or more contributions](https://knative.devstat
 ### Schedule
 
 * November 5: Announcement of Election, call for nominations, exceptions
-* November 24: All candidate nominations due by 23:59 UTC (4:59pm Pacific)
-* November 26: Election Begins via Elekto UI
-* December 5: Voter exception requests due by 23:59 UTC (4:59pm Pacific)
-* December 12: Election Closes by 23:59 UTC (4:59pm Pacific)
+* December 3: All candidate nominations due by 23:59 UTC (4:59pm Pacific)
+* December 5: Election Begins via Elekto UI
+* December 9: Voter exception requests due by 23:59 UTC (4:59pm Pacific)
+* December 15: Election Closes by 23:59 UTC (4:59pm Pacific)
 * December 19: Announcement of Results
 
 ## Changing Your Vote

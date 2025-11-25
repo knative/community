@@ -34,10 +34,10 @@ to check if you are eligible by logging into [Elekto]. See Voting Process below 
 | Date         | Event                    |
 | ------------ | ------------------------ |
 | November 6   | Announcement of Election, call for nominations, exceptions |
-| November 24  | All candidate nominations due by 23:59 UTC (4:59pm Pacific) |
-| November 26  | Election Begins via Elekto UI |
-| December 5   | Voter exception requests due by 23:59 UTC (4:59pm Pacific) |
-| December 12  | Election Closes by 23:59 UTC (4:59pm Pacific) |
+| December 3   | All candidate nominations due by 23:59 UTC (4:59pm Pacific) |
+| December 5   | Election Begins via Elekto UI |
+| December 9   | Voter exception requests due by 23:59 UTC (4:59pm Pacific) |
+| December 15  | Election Closes by 23:59 UTC (4:59pm Pacific) |
 | December 19  | Announcement of Results |
 
 ## Election Officers
