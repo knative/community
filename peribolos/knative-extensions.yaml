@@ -795,6 +795,11 @@ orgs:
         repos:
           educational-game: write
         teams:
+          UX Approvers:
+            privacy: closed
+            description: Able to approve UX-related changes
+            members:
+              - prajjwalyd
           UX WG Leads:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
