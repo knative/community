@@ -1070,6 +1070,13 @@ orgs:
         members:
         - dprotaso
 
+      net-gateway-api Reviewers:
+        description: Reviewer group for net-gateway-api - to be used in CODEOWNERS file
+        privacy: closed
+        members:
+        - dprotaso
+        - kahirokunn
+
       net-istio Approvers:
         description: Approver group for net-istio - to be used in CODEOWNERS file
         privacy: closed
