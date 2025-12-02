@@ -1092,6 +1092,7 @@ orgs:
         repos:
           net-kourier: write
         members:
+        - linkvt
         - skonto
 
       security-guard Approvers:
