@@ -1,7 +1,7 @@
 name: Knative 2025 SC
 organization: Knative
-start_datetime: 2025-11-26 00:00:01
-end_datetime: 2025-12-12 23:59:59
+start_datetime: 2025-11-25 00:00:01
+end_datetime: 2025-12-25 00:00:02
 no_winners: 2
 allow_no_opinion: True
 delete_after: True
