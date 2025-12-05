@@ -46,6 +46,7 @@ orgs:
     - gauron99
     - houshengbo
     - ikavgo
+    - intojhanurag
     - joeeltgroth
     - jrangelramos
     - kahirokunn
@@ -795,6 +796,11 @@ orgs:
         repos:
           educational-game: write
         teams:
+          UX Approvers:
+            privacy: closed
+            description: Able to approve UX-related changes
+            members:
+              - prajjwalyd
           UX WG Leads:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
@@ -1065,6 +1071,13 @@ orgs:
         members:
         - dprotaso
 
+      net-gateway-api Reviewers:
+        description: Reviewer group for net-gateway-api - to be used in CODEOWNERS file
+        privacy: closed
+        members:
+        - dprotaso
+        - kahirokunn
+
       net-istio Approvers:
         description: Approver group for net-istio - to be used in CODEOWNERS file
         privacy: closed
@@ -1079,6 +1092,7 @@ orgs:
         repos:
           net-kourier: write
         members:
+        - linkvt
         - skonto
 
       security-guard Approvers:

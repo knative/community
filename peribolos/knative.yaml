@@ -45,6 +45,7 @@ orgs:
     - geekygirldawn
     - houshengbo
     - ikavgo
+    - intojhanurag
     - iRaindrop
     - jberkus
     - jrangelramos
@@ -560,6 +561,11 @@ orgs:
         description: Grants write access to ux related repositories.
         privacy: closed
         teams:
+          UX Approvers:
+            privacy: closed
+            description: Able to approve UX-related changes
+            members:
+              - prajjwalyd
           UX WG Leads:
             privacy: closed
             description: The Working Group leads for User Experience (UX)

@@ -139,9 +139,13 @@ aliases:
   - dprotaso
   net-gateway-api-approvers:
   - dprotaso
+  net-gateway-api-reviewers:
+  - dprotaso
+  - kahirokunn
   net-istio-approvers:
   - skonto
   net-kourier-approvers:
+  - linkvt
   - skonto
   operations-wg-leads:
   - houshengbo
@@ -185,6 +189,8 @@ aliases:
   - dprotaso
   - evankanderson
   - matzew
+  ux-approvers:
+  - prajjwalyd
   ux-wg-leads:
   - Leo6Leo
   - cali0707
@@ -194,4 +200,5 @@ aliases:
   - Leo6Leo
   - cali0707
   - mmejia02
+  - prajjwalyd
   - zainabhusain227
