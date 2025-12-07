@@ -101,8 +101,8 @@ first name):
 
 | &nbsp;                                                        | Member                  | Organization | Profile                                            | Term Start | Term End |
 |---------------------------------------------------------------|-------------------------|--------------|----------------------------------------------------|------------|----------|
-| <img width="30px" src="https://github.com/aliok.png">         | Ali Ok                  | Red Hat      | [@aliok](https://github.com/aliok)                 | 2023-11-28 | 2025     |
-| <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson           | Stacklok     | [@evankanderson](https://github.com/evankanderson) | 2023-11-28 | 2025     |
+| <img width="30px" src="https://github.com/aliok.png">         | Ali Ok                  | Red Hat      | [@aliok](https://github.com/aliok)                 | 2023-11-28 | 2027     |
+| <img width="30px" src="https://github.com/evankanderson.png"> | Evan Anderson           | Stacklok     | [@evankanderson](https://github.com/evankanderson) | 2023-11-28 | 2027     |
 | <img width="30px" src="https://github.com/arsenetar.png">     | Andrew Senetar *        | CoreWeave    | [@arsenetar](https://github.com/arsenetar)         | 2025-03-06 | 2026     |
 | <img width="30px" src="https://github.com/dprotaso.png">      | Dave Protasowski        | Independent  | [@dprotaso](https://github.com/dprotaso)           | 2024-09-17 | 2026     |
 | <img width="30px" src="https://github.com/matzew.png">        | Matthias Wessendorf     | Red Hat      | [matzew](https://github.com/matzew)                | 2024-12-24 | 2026     |
