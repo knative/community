@@ -103,8 +103,8 @@ about the Knative source base and setting up your
 
 ## Pull requests
 
-We have a [gubernator](https://gubernator.knative.dev) instance that provides a
-[pull request dashboard](https://gubernator.knative.dev/pr) so you can see which
+We have a gubernator instance that provides a
+[pull request dashboard](https://clotributor.dev/search?project=knative&page=1) so you can see which
 PRs you need to take action on.
 
 If you're working on an existing issue, simply respond to the issue and express
