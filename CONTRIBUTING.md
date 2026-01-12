@@ -103,10 +103,6 @@ about the Knative source base and setting up your
 
 ## Pull requests
 
-We have a gubernator instance that provides a
-[pull request dashboard](https://clotributor.dev/search?project=knative&page=1) so you can see which
-PRs you need to take action on.
-
 If you're working on an existing issue, simply respond to the issue and express
 interest in working on it. This helps other people know that the issue is
 active, and hopefully prevents duplicated efforts.
