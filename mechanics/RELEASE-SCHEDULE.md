@@ -11,8 +11,11 @@ The Knative project releases quarterly, on Tuesday of the 4th week of January, A
 # minute   hour   day      month        weekday
 0          0      22-28    1,4,7,10     2
 ```
+See the [Knative Community Calendar](../CALENDAR.MD) for upcoming release dates and events.
 
 The end of life (EOL) date for given release is calculated, by taking release date of a `n+2` release, and adding one week to it.
+
+The minimum Kubernetes version is the oldest K8s version in active community support (not in maintenance mode) at release time. See the [K8s minimum version principle](RELEASE-VERSIONING-PRINCIPLES.md#k8s-minimum-version-principle) for details.
 
 As much as possible, releases should be driven by automation, and repos should be ready to release at any point. It should also be possible to produce and consume nightly artifacts.
 
@@ -20,11 +23,13 @@ With that said, it can be useful to have a list of when future releases will hap
 
 ## Upcoming releases
 
+Dates shown are when the core Knative repositories (serving, eventing, etc.) are released. Supporting repositories release approximately one week earlier per the [release timeline](https://github.com/knative/release/blob/main/TIMELINE.md).
+
 | Release | Date       | EOL        | Min K8s Version | Notes |
 |---------|------------|------------|-----------------| ----- |
-| 1.21    | 2026-01-20 | 2026-07-21 | 1.33            |       |
-| 1.22    | 2026-04-21 | 2026-10-27 | 1.34            |       |
-| 1.23    | 2026-07-28 | 2027-01-26 | 1.35            |       |
+| 1.21    | 2026-01-27 | 2026-08-04 | 1.33            |       |
+| 1.22    | 2026-04-28 | 2026-11-03 | 1.34            |       |
+| 1.23    | 2026-07-28 | 2027-02-02 | 1.34            |       |
 
 ## Releases supported by community
 
