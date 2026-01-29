@@ -11,6 +11,7 @@ The Knative project releases quarterly, on Tuesday of the 4th week of January, A
 # minute   hour   day      month        weekday
 0          0      22-28    1,4,7,10     2
 ```
+
 See the [Knative Community Calendar](../CALENDAR.MD) for upcoming release dates and events.
 
 The end of life (EOL) date for given release is calculated, by taking release date of a `n+2` release, and adding one week to it.
@@ -26,22 +27,23 @@ With that said, it can be useful to have a list of when future releases will hap
 Dates shown are when the core Knative repositories (serving, eventing, etc.) are released. Supporting repositories release approximately one week earlier per the [release timeline](https://github.com/knative/release/blob/main/TIMELINE.md).
 
 | Release | Date       | EOL        | Min K8s Version | Notes |
-|---------|------------|------------|-----------------| ----- |
-| 1.21    | 2026-01-27 | 2026-08-04 | 1.33            |       |
+| ------- | ---------- | ---------- | --------------- | ----- |
 | 1.22    | 2026-04-28 | 2026-11-03 | 1.34            |       |
 | 1.23    | 2026-07-28 | 2027-02-02 | 1.34            |       |
+| 1.24    | 2026-10-27 | 2027-05-04 | 1.35            |       |
 
 ## Releases supported by community
 
 | Release | Date       | EOL        | Min K8s Version | Notes |
-|---------| ---------- |------------|-----------------| ----- |
-| 1.20    | 2025-10-21 | 2026-04-21 | 1.32            |       |
-| 1.19    | 2025-07-22 | 2026-01-28 | 1.32            |       |
+| ------- | ---------- | ---------- | --------------- | ----- |
+| 1.21    | 2026-01-27 | 2026-08-04 | 1.33            |       |
+| 1.20    | 2025-10-21 | 2026-05-05 | 1.32            |       |
 
 ## No longer supported releases
 
 | Release | Date       | EOL        | Min K8s Version | Notes                                          |
-|---------| ---------- | ---------- |-----------------|------------------------------------------------|
+| ------- | ---------- | ---------- | --------------- | ---------------------------------------------- |
+| 1.19    | 2025-07-22 | 2026-02-03 | 1.32            |                                                |
 | 1.18    | 2025-04-22 | 2025-10-28 | 1.31            |                                                |
 | 1.17    | 2025-01-28 | 2025-07-28 | 1.30            |                                                |
 | 1.16    | 2024-10-22 | 2025-04-22 | 1.29            |                                                |
@@ -67,7 +69,7 @@ Dates shown are when the core Knative repositories (serving, eventing, etc.) are
 | 0.23    | 2021-05-18 | 2021-11-02 | 1.18            | Removes v1beta1 Eventing APIs                  |
 | 0.22    | 2021-04-06 | 2021-09-21 | 1.18            |                                                |
 | 0.21    | 2021-02-23 | 2021-08-10 | 1.18            |                                                |
-| 0.20    | 2021-01-12 | 2021-06-29 | 1.17            | ** Moved by 3 weeks for end of year holidays** |
+| 0.20    | 2021-01-12 | 2021-06-29 | 1.17            | **Moved by 3 weeks for end of year holidays** |
 | 0.19    | 2020-11-10 | 2021-05-18 | 1.17            | Removes v1alpha1 and v1beta1 Serving APIs      |
 | 0.18    | 2020-09-29 | 2021-03-16 | 1.17            |                                                |
 | 0.17    | 2020-08-18 | 2021-02-02 | 1.16            | Introduces v1 Eventing APIs, removes v1alpha1  |
