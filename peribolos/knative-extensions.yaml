@@ -802,6 +802,7 @@ orgs:
             description: Able to approve UX-related changes
             members:
               - prajjwalyd
+              - ankitajana21
           UX WG Leads:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
