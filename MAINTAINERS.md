@@ -31,7 +31,6 @@ grep -h '  -' peribolos/knative*OWNERS_ALIASES | \
 |------------|---------------------|
 | aavarghese | IBM |
 | aliok | Red Hat |
-| aslom | IBM |
 | astelmashenko | Independent |
 | Cali0707 | Red Hat |
 | cardil | Red Hat |
@@ -57,7 +56,6 @@ grep -h '  -' peribolos/knative*OWNERS_ALIASES | \
 | nainaz | Red Hat |
 | pierDipi | Red Hat |
 | psschwei | IBM |
-| salaboy | Diagrid |
 | skonto | Independent |
 | upodroid | Independent |
 | yuzisun | Bloomberg |

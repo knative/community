@@ -346,7 +346,6 @@ orgs:
         description: Receive reviews for eventing related repositories
         privacy: closed
         members:
-        - aslom
         - creydr
         - cali0707
         - Leo6Leo
@@ -382,7 +381,6 @@ orgs:
             description: The Working Group leads for Functions
             members:
             - lkingland
-            - salaboy
             privacy: closed
         members:
           - matejvasek
