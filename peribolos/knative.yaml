@@ -474,7 +474,6 @@ orgs:
         privacy: closed
         members:
         - evankanderson
-        - mgencur
       Productivity Writers:
         description: Grants write access to productivity-related repositories.
         privacy: closed
