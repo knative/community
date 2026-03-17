@@ -29,14 +29,12 @@ grep -h '  -' peribolos/knative*OWNERS_ALIASES | \
 
 | Maintainer | Company Affiliation |
 |------------|---------------------|
-| aavarghese | IBM |
 | aliok | Red Hat |
 | astelmashenko | Independent |
 | Cali0707 | Red Hat |
 | cardil | Red Hat |
 | christophd | IBM |
 | creydr | Red Hat |
-| csantanapr | AWS |
 | dan-j | @versori |
 | davidhadas | IBM |
 | dprotaso |  Independent |
@@ -51,12 +49,10 @@ grep -h '  -' peribolos/knative*OWNERS_ALIASES | \
 | lkingland | Red Hat |
 | matejvasek | Red Hat |
 | matzew | Red Hat |
-| mgencur | Red Hat |
 | mmejia02 | Independent |
 | nainaz | Red Hat |
 | pierDipi | Red Hat |
 | psschwei | IBM |
 | skonto | Independent |
 | upodroid | Independent |
-| yuzisun | Bloomberg |
 | zainabhusain227 | Independent |

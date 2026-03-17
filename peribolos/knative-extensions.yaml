@@ -950,7 +950,6 @@ orgs:
         repos:
           eventing-redis: write
         members:
-        - aavarghese
         - matzew
 
       Function Runtime Approvers:
