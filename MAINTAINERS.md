@@ -41,7 +41,7 @@ grep -h '  -' peribolos/knative*OWNERS_ALIASES | \
 | dsimansk | Red Hat |
 | evankanderson | Custcodian |
 | gauron99 | Red Hat |
-| houshengbo | Bloomberg |
+| houshengbo | CoreWeave |
 | ikavgo | VMware |
 | jrangelramos | Red Hat |
 | lberk | Red Hat |

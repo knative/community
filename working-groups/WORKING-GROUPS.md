@@ -236,9 +236,9 @@ Managing, assessing system health and maintaining Knative clusters
 | Slack Channel              | [#knative](https://cloud-native.slack.com/archives/C04LGHDR9K7) (need to join [CNCF Slack](https://slack.cncf.io/) for the first time)                                                                                              |
 | Github Team WG leads       | [@knative/operations-wg-leads](https://github.com/orgs/knative/teams/operations-wg-leads/members)                                                          |
 
-| &nbsp;                                                     | Leads       | Company | Profile                                     |
-| ---------------------------------------------------------- | ----------- | ------- | ------------------------------------------- |
-| <img width="30px" src="https://github.com/houshengbo.png"> | Vincent Hou | Bloomberg | [houshengbo](https://github.com/houshengbo) |
+| &nbsp;                                                     | Leads       | Company   | Profile                                     |
+| ---------------------------------------------------------- | ----------- | --------- | ------------------------------------------- |
+| <img width="30px" src="https://github.com/houshengbo.png"> | Vincent Hou | CoreWeave | [houshengbo](https://github.com/houshengbo) |
 
 | &nbsp;                                                     | Emeritus Leads | Profile                                     | Duration  |
 | ---------------------------------------------------------- | -------------- | ------------------------------------------- | --------- |
