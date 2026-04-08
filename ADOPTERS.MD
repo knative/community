@@ -8,8 +8,8 @@ If you would like to be included in this table, please open [an issue](https://g
 
 | Organization                         | Product/Project Name                                                 | Status                   | More Information                                                         |
 |--------------------------------------|----------------------------------------------------------------------|--------------------------|--------------------------------------------------------------------------|
-| Alibaba Cloud                        | Knative on Alibaba Cloud                                             | Production               | [link](https://cs.console.aliyun.com/)                                   |
 | Alauda                               | Alauda Container Platform                                            | Production               | [link](https://www.alauda.io/)                                           |
+| Alibaba Cloud                        | Knative on Alibaba Cloud                                             | Production               | [link](https://cs.console.aliyun.com/)                                   |
 | Bloomberg L.P.*                      | Bloomberg Data Science Platform                                      | Production               | [link](https://www.bloomberg.net/)                                       |
 | Blue Origin*                         |                                                                      | Production               | [link](https://www.blueorigin.com/)                                      |
 | Box*                                 | Serverless PaaS for internal use cases                               | Development              | [link](https://box.com/)                                                 |
@@ -28,12 +28,13 @@ If you would like to be included in this table, please open [an issue](https://g
 | Grey Rook*                           |                                                                      | Production               | [link](https://www.greyrook.com)                                         |
 | Hadrian*                             | Autonomous Hacking Platform                                          | Production               | [link](https://hadrian.io/platform)                                      |
 | IBM*                                 | IBM Cloud Code Engine                                                | Production               | [link](https://cloud.ibm.com/codeengine)                                 |
+| KA-NABELL*                           | Largest trading card E-commerce in Japan                             | Production               | [link](https://www.ka-nabell.com)                                        |
 | KubeSphere*                          | [OpenFunction](https://github.com/OpenFunction/OpenFunction#serving) | Development & Production | [link](https://kubesphere.io/)                                           |
 | Liquidx*                             | InBlock                                                              | Production               | [link](https://www.liquidx.com/)                                         |
 | ManoMano*                            |                                                                      | Development & Production | [link](https://www.manomano.es/)                                         |
 | Optum*                               |                                                                      | Production               | [link](https://optum.com/)                                               |
-| Posit Software, PBC*                 | Posit Connect Cloud                                                  | Production               | [link](https://connect.posit.cloud/)                                     |
 | PolyAPI*                             | PolyAPI                                                              | Production               | [link](https://polyapi.io/)                                              |
+| Posit Software, PBC*                 | Posit Connect Cloud                                                  | Production               | [link](https://connect.posit.cloud/)                                     |
 | Red Hat                              | Red Hat OpenShift Serverless                                         | Generally Available      | [link](https://www.openshift.com/learn/topics/serverless)                |
 | Run:ai*                              | Run:ai Platform                                                      | Production               | [link](https://www.run.ai)                                               |
 | Runhouse*                            | Kubetorch: Accelerated AI/ML on Kubernetes                           | Production               | [link](https://www.run.house)                                            |
@@ -47,7 +48,7 @@ If you would like to be included in this table, please open [an issue](https://g
 | VMware                               | VMware Event Broker Appliance                                        | Development              | [link](https://vmweventbroker.io/)                                       |
 | voize GmbH*                          | voize cloud platform                                                 | Production               | [link](https://voize.de/)
 | vorteil pty ltd                      | Serverless orchestration engine                                      | Development & Production | [link](https://www.direktiv.io/)                                         |
-| KA-NABELL*                           | Largest trading card E-commerce in Japan                             | Production               | [link](https://www.ka-nabell.com)                                        |
+| WP Engine*                           | Headless WordPress                                                   | Production               | [link](https://wpengine.com/ie/headless-wordpress/)
 | Y Meadows*                           | AI and Workflow Automation Platform for Customer Service             | Production               | [link](https://www.ymeadows.com)                                         |
 
 `*` organization that is an end user of Knative and not a vendor/reseller
