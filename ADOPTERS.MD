@@ -13,7 +13,7 @@ If you would like to be included in this table, please open [an issue](https://g
 | Bloomberg L.P.*                      | Bloomberg Data Science Platform                                      | Production               | [link](https://www.bloomberg.net/)                                       |
 | Blue Origin*                         |                                                                      | Production               | [link](https://www.blueorigin.com/)                                      |
 | Box*                                 | Serverless PaaS for internal use cases                               | Development              | [link](https://box.com/)                                                 |
-| Cerebrium*                           | Serverless infrastructure for real-time AI applications              | Production               | [link](https://www.cerebrium.ai/)
+| Cerebrium*                           | Serverless infrastructure for real-time AI applications              | Production               | [link](https://www.cerebrium.ai/)                                        |
 | Chainguard*                          |                                                                      | Production               | [link](https://chainguard.dev)                                           |
 | Cisco*                               | Internal Platform - DevX Group                                       | Production               | [link](https://www.cisco.com/)                                           |
 | Cloudera*                            | Cloudera AI Inference Service                                        | Generally Available      | [link](https://www.cloudera.com/products/machine-learning/ai-inference-service.html) |
@@ -46,9 +46,9 @@ If you would like to be included in this table, please open [an issue](https://g
 | Telekom Deutschland GmbH*            | Internal Projects                                                    | Production               | [link](https://www.telekom.de/start)                                     |
 | VMware                               | Tanzu Application Platform                                           | Generally Available      | [link](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html) |
 | VMware                               | VMware Event Broker Appliance                                        | Development              | [link](https://vmweventbroker.io/)                                       |
-| voize GmbH*                          | voize cloud platform                                                 | Production               | [link](https://voize.de/)
+| voize GmbH*                          | voize cloud platform                                                 | Production               | [link](https://voize.de/)                                                |
 | vorteil pty ltd                      | Serverless orchestration engine                                      | Development & Production | [link](https://www.direktiv.io/)                                         |
-| WP Engine*                           | Headless WordPress                                                   | Production               | [link](https://wpengine.com/ie/headless-wordpress/)
+| WP Engine*                           | Headless WordPress                                                   | Production               | [link](https://wpengine.com/ie/headless-wordpress/)                      |
 | Y Meadows*                           | AI and Workflow Automation Platform for Customer Service             | Production               | [link](https://www.ymeadows.com)                                         |
 
 `*` organization that is an end user of Knative and not a vendor/reseller
