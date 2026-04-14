@@ -959,6 +959,7 @@ orgs:
           func-go: write
           func-python: write
         members:
+        - gauron99
         - lkingland
         - matejvasek
         - matzew
