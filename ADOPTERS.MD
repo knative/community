@@ -42,6 +42,7 @@ If you would like to be included in this table, please open [an issue](https://g
 | Sonavi Labs                          | Sonavi Cloud                                                         | Public Beta              | [link](https://www.sonavilabs.com)                                       |
 | Spider.com*                          |                                                                      | Development              | [link](https://www.spider.com)                                           |
 | SVA System Vertrieb Alexander GmbH*  | Serverless PaaS for Public Sector Clients                            | Production               | [link](https://www.cncf.io/case-studies/system-vertrieb-alexander-gmbh/) |
+| Sinch*                               | Sinch Engage                                                         | Production               | [link](https://sinch.com/engage/)
 | Tata Communications*                 |                                                                      | Production               | [link](https://www.tatacommunications.com/solutions/cloud/platforms)     |
 | Telekom Deutschland GmbH*            | Internal Projects                                                    | Production               | [link](https://www.telekom.de/start)                                     |
 | VMware                               | Tanzu Application Platform                                           | Generally Available      | [link](https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/index.html) |
