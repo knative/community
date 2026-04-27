@@ -454,6 +454,7 @@ orgs:
         members:
         - aliok
         - houshengbo
+        - kahirokunn
         - matzew
       Operations Writers:
         description: Grants write access to operations-related repositories.
