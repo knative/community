@@ -1013,6 +1013,7 @@ orgs:
           kn-plugin-quickstart: write
         members:
         - dsimansk
+        - psschwei
 
       kn-plugin-sample Approvers:
         description: Approver group for kn-plugin-sample - to be used in CODEOWNERS file
