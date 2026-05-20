@@ -43,7 +43,7 @@ orgs:
     - gabo1208
     - gauron99
     - houshengbo
-    - ikavgo
+    - deadtrickster
     - intojhanurag
     - jijo-OO7
     - joeeltgroth
@@ -943,7 +943,7 @@ orgs:
         repos:
           eventing-rabbitmq: write
         members:
-        - ikavgo
+        - deadtrickster
       eventing-redis Approvers:
         description: Approver group for eventing-redis - to be used in CODEOWNERS file
         privacy: closed
