@@ -29,30 +29,30 @@ grep -h '  -' peribolos/knative*OWNERS_ALIASES | \
 
 | Maintainer | Company Affiliation |
 |------------|---------------------|
-| aliok | Red Hat |
-| astelmashenko | Independent |
-| Cali0707 | Red Hat |
-| cardil | Red Hat |
-| christophd | IBM |
-| creydr | Red Hat |
-| dan-j | @versori |
-| davidhadas | IBM |
-| dprotaso |  Independent |
-| dsimansk | Red Hat |
-| evankanderson | Custcodian |
-| gauron99 | Red Hat |
-| houshengbo | CoreWeave |
-| ikavgo | VMware |
-| jrangelramos | Red Hat |
-| lberk | Red Hat |
-| Leo6Leo | Red Hat |
-| lkingland | Red Hat |
-| matejvasek | Red Hat |
-| matzew | Red Hat |
-| mmejia02 | Independent |
-| nainaz | Red Hat |
-| pierDipi | Red Hat |
-| psschwei | IBM |
-| skonto | Independent |
-| upodroid | Independent |
-| zainabhusain227 | Independent |
+| @aliok | Red Hat |
+| @astelmashenko | Independent |
+| @Cali0707 | Red Hat |
+| @cardil | Red Hat |
+| @christophd | IBM |
+| @creydr | Red Hat |
+| @dan-j | @versori |
+| @davidhadas | IBM |
+| @dprotaso |  Independent |
+| @dsimansk | Red Hat |
+| @evankanderson | Custcodian |
+| @gauron99 | Red Hat |
+| @houshengbo | CoreWeave |
+| @ikavgo | VMware |
+| @jrangelramos | Red Hat |
+| @lberk | Red Hat |
+| @Leo6Leo | Red Hat |
+| @lkingland | Red Hat |
+| @matejvasek | Red Hat |
+| @matzew | Red Hat |
+| @mmejia02 | Independent |
+| @nainaz | Red Hat |
+| @pierDipi | Red Hat |
+| @psschwei | IBM |
+| @skonto | Independent |
+| @upodroid | Independent |
+| @zainabhusain227 | Independent |
