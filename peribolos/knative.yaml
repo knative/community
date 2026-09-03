@@ -464,6 +464,7 @@ orgs:
           operator: write
         members:
         - aliok
+        - kahirokunn
         - matzew
         teams:
           Operations WG Leads:
