@@ -284,6 +284,14 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+      func-adapter-kafka:
+        allow_merge_commit: false
+        allow_rebase_merge: false
+        description: Kafka adapter for Knative functions
+        has_projects: true
+        has_wiki: false
+        squash_merge_commit_title: PR_TITLE
+        squash_merge_commit_message: COMMIT_MESSAGES
       func-go:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -591,9 +599,10 @@ orgs:
           eventing-kafka: write
           eventing-kafka-broker: write
       Function Runtime Writers:
-        description: Grants write access to knative-extensions func-go, func-python
+        description: Grants write access to knative-extensions func-adapter-kafka, func-go, func-python
         privacy: closed
         repos:
+          func-adapter-kafka: write
           func-go: write
           func-python: write
         members:
@@ -640,6 +649,7 @@ orgs:
           eventing-prometheus: admin
           eventing-rabbitmq: admin
           eventing-redis: admin
+          func-adapter-kafka: admin
           func-go: admin
           func-python: admin
           func-tastic: admin
