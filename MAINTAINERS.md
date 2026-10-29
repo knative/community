@@ -10,11 +10,9 @@ type: "docs"
 Knative [has a number of different roles](./ROLES.md) which have varying
 permissions within the Knative components.  For the purposes of CNCF
 maintainership (e.g. service desk access, Knative calendar acesss, KubeCon
-maintainer talk eligibility and project pavillion access), Knative maintainers
-are defined as the following:
-
-* [Working Group Leads](./ROLES.md#working-group-lead)
-* [Steering Committee Member](./STEERING-COMMITTEE.md#committee-members)
+maintainer talk eligibility and project pavillion access), Approvers and
+Working Group Leads are considered maintainers, and have the ability to
+[vote in governance decisions](./GOVERNANCE.md).
 
 The affiliations of the current approvers are as follows:
 

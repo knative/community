@@ -689,12 +689,19 @@ orgs:
             - knative-test-reporter-robot
             privacy: closed
           Steering Committee:
-            description: ""
+            description: "Knative Maintainers (named as steering to avoid needing to update many ACLs)"
             maintainers:
+            # Pulled from PR reviews by user, last year merged with MAINTAINERS
+            # https://knative.devstats.cncf.io/d/29/pr-reviews-by-contributor?orgId=1&var-period=q&var-repo_name=All&from=now-1y&to=now
             - aliok
-            - arsenetar
+            - Cali0707
+            - creydr
             - dprotaso
+            - dsimansk
             - evankanderson
+            - gauron99
+            - lkingland
+            - matejvasek
             - matzew
             privacy: closed
           Knative Release Leads:

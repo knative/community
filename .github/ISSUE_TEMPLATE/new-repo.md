@@ -25,9 +25,9 @@ Sponsoring WG:
 
 This area is used to track the [repo creation process](https://github.com/knative/community/blob/main/mechanics/CREATING-AN-EXTENSIONS-REPO.md).
 The _requestor_ and _sponsoring WG lead_ should perform the steps listed below and cross out the checkmarks when done.
-The Steering Committee is involved only in the **KSC Gate** steps.
+The Maintainers are involved only in the **Maintainer Gate** steps.
 
-- [ ] Add this issue to the [Steering Committee project board](https://github.com/orgs/knative/projects/52) for review. You are responsible for moving your entry on the board to "Needs Discussion" or "In Progress" as you move forward in this checklist.
+- [ ] Add this issue to the [Maintainers project board](https://github.com/orgs/knative/projects/52) for review. You are responsible for moving your entry on the board to "Needs Discussion" or "In Progress" as you move forward in this checklist.
 
 _You may not be able to use the Projects quick menu on this page. In that case, go to the project board and use the **Add cards** interface._
 
@@ -36,7 +36,7 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
   - [ ] Grant `Knative Admin` the `admin` privilege.
   - [ ] Grant the sponsoring WG the `write` privilege.
 
-**KSC Gate**: _Once the KSC has approved the above, it will merge and Peribolos will create an empty repository._
+**Maintainer Gate**: _Once the Maintainers have approved the above, it will merge and Peribolos will create an empty repository._
 
 - [ ] (golang) Send a PR to add aliases for `knative.dev/$REPONAME` import paths ([sample](https://github.com/knative/docs/pull/4160)).
 
