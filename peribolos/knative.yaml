@@ -22,23 +22,14 @@ orgs:
     - upodroid
     - knative-prow-robot
     members:
-    - aavarghese
-    - ankitajana21
     - ankitsinghsisodya
     - astelmashenko
     - Cali0707
     - cardil
-    - chunyilyu
     - creydr
-    - csantanapr
-    - Cynocracy
     - davidhadas
-    - dilipgb
     - dsimansk
-    - eallred-google
     - Fedosin
-    - firatbezir
-    - gabo1208
     - gauron99
     - geekygirldawn
     - houshengbo
@@ -54,36 +45,18 @@ orgs:
     - knative-prow-releaser-robot
     - knative-prow-updater-robot
     - knative-test-reporter-robot
-    - lberk
     - Leo6Leo
     - linkvt
     - lkingland
     - maschmid
     - matejvasek
-    - mattmoor
     - mgencur
-    - mmejia02
-    - mvinkler
     - nader-ziada
-    - nainaz
-    - pierDipi
     - prajjwalyd
     - psschwei
-    - quentin-cha
-    - qswinson
-    - rahulii
     - RayyanSeliya
-    - RichieEscarez
-    - S-Mann
-    - sadath-12
-    - ShravaniAK
     - simkam
     - skonto
-    - travis-minke-sap
-    - wlynch
-    - yuvalif
-    - yuzisun
-    - zainabhusain227
     - twoGiants
     - thiagomedina
     - pmeida
@@ -322,7 +295,6 @@ orgs:
         description: Receive reviews for docs directories
         privacy: closed
         members:
-        - nainaz
         - skonto
       Docs Writers:
         description: Grants write access to docs-related repositories.
@@ -352,7 +324,6 @@ orgs:
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
-            - pierDipi
             - creydr
             privacy: closed
         members:
@@ -562,8 +533,6 @@ orgs:
             description: The Working Group leads for User Experience (UX)
             members:
             - cali0707
-            - mmejia02
-            - zainabhusain227
             - Leo6Leo
         repos:
           ux: write
