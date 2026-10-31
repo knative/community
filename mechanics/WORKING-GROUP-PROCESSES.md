@@ -56,7 +56,7 @@ meet the bar for a new WG, it's likely that other participants in the community
 have ideas and opinions, and up-front conversations can help to focus the shape
 and scope of the solution space.
 
-The Steering Committee and existing WGs should enable these conversations (e.g. setting up
+The Maintainers and existing WGs should enable these conversations (e.g. setting up
 one-off meetings, creating slack channels, etc). Once the community has
 identified a substantial architectural area which would benefit from long-lived,
 concerted and focused design, then you should consider creating a new working
@@ -69,12 +69,12 @@ group. To do so, you need to:
   - The goals of the working group (problems being solved)
 
   - The scope of the working group (topics, subsystems, code repos, areas of
-    responsibility). Also include items which are out of scope. The Steering Committee will be
+    responsibility). Also include items which are out of scope. The Maintainers will be
     looking at this to make sure that there are appropriate touch-points and
     contracts between WGs when considering larger problems.
 
   Here are some example charters to help indicate the expected size of the
-  document. The main things that the Steering Committee will be looking for are:
+  document. The main things that the Maintainers will be looking for are:
 
   - [Event Delivery WG](https://docs.google.com/document/d/11SPnDRIJ6CGo5ElPGMWc25tX2iQfJfaiZwzBhruUZQw/edit)
   - [Eventing Sources WG](https://docs.google.com/document/d/1XQo9DUbNdOIxf37eKSG1ULEyxydcG0YGeO13wBjQpEE/edit)
@@ -135,9 +135,7 @@ working group. _For an example of working group creation, see
   group name under teams, and members. Grant access to relevant repositories for the working group.
 
 - **Announce your Working Group**. Send a note to
-  [knative-dev@](mailto:knative-dev@googlegroups.com),
-  [knative-tech-oversight@](mailto:knative-tech-oversight@googlegroups.com), and
-  [steering@](mailto:steering@knative.team) to
+  [knative-dev@](mailto:knative-dev@googlegroups.com) to
   announce your new working group. Include your charter in the email and provide
   links to the meeting invitation.
 
@@ -219,12 +217,8 @@ Leads from all affected working groups generally work together and come to an
 agreeable conclusion.
 
 In all cases, remaining blocking issues can be raised to the
-[technical oversight committee](./TECH-OVERSIGHT-COMMITTEE.md) to help resolve
-the situation. To trigger an escalation, create an issue in the project's repo
-and assign it to the **@knative/tech-oversight-committee** team.
-
-The Steering Committee, as a last resort, provides the final escalation path for
-any repository or working group issue that cannot be resolved by the Steering Committee.
+[Maintainers council](../MAINTAINERS.md) to help resolve
+the situation. To trigger an escalation, create an issue in the community repo.
 
 ---
 
