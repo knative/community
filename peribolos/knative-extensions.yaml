@@ -23,31 +23,19 @@ orgs:
     - upodroid
     - knative-prow-robot
     members:
-    - aavarghese
-    - ankitajana21
     - ankitsinghsisodya
     - astelmashenko
     - Cali0707
     - cardil
-    - cdlliuy
-    - christophd
-    - chunyilyu
     - creydr
-    - csantanapr
-    - Cynocracy
-    - dan-j
     - davidhadas
-    - dilipgb
     - dsimansk
     - Fedosin
-    - firatbezir
-    - gabo1208
     - gauron99
     - houshengbo
     - deadtrickster
     - intojhanurag
     - jijo-OO7
-    - joeeltgroth
     - jrangelramos
     - kahirokunn
     - knative-automation
@@ -55,33 +43,19 @@ orgs:
     - knative-prow-releaser-robot
     - knative-prow-updater-robot
     - knative-test-reporter-robot
-    - lberk
     - Leo6Leo
     - linkvt
     - lkingland
     - maschmid
     - matejvasek
-    - mattmoor
     - mgencur
-    - mmejia02
-    - mvinkler
     - nader-ziada
-    - nainaz
     - norbjd
-    - pierDipi
     - prajjwalyd
     - psschwei
-    - qswinson
-    - RamyChaabane
     - RayyanSeliya
-    - ShravaniAK
     - simkam
     - skonto
-    - sutaakar
-    - vaibhavjainwiz
-    - yuvalif
-    - yuzisun
-    - zainabhusain227
     - twoGiants
     - pmeida
     repos:
@@ -583,7 +557,6 @@ orgs:
           Eventing WG Leads:
             description: The Working Group leads for Eventing
             members:
-            - pierDipi
             - creydr
             privacy: closed
         members:
@@ -807,15 +780,12 @@ orgs:
             description: Able to approve UX-related changes
             members:
               - prajjwalyd
-              - ankitajana21
           UX WG Leads:
             privacy: closed
             description: The Working Group leads for User Experience (UX)
             members:
             - Leo6Leo
             - cali0707
-            - mmejia02
-            - zainabhusain227
 
       autoscaler-keda Approvers:
         description: Approver group for autoscaler-keda - to be used in CODEOWNERS file
@@ -831,7 +801,6 @@ orgs:
         members:
         - aliok
         - cali0707
-        - pierDipi
         - Leo6Leo
 
       backstage-plugins Writers:
@@ -842,7 +811,6 @@ orgs:
         members:
         - aliok
         - cali0707
-        - pierDipi
         - Leo6Leo
 
       discovery Approvers:
@@ -850,8 +818,7 @@ orgs:
         privacy: closed
         repos:
           discovery: write
-        members:
-        - lberk
+        members: []
 
       eventing-autoscaler-keda Approvers:
         description: Approver group for eventing-autoscaler-keda - to be used in CODEOWNERS file
@@ -866,7 +833,6 @@ orgs:
         repos:
           eventing-awssqs: write
         members:
-        - lberk
         - matzew
 
       eventing-ceph Approvers:
@@ -875,7 +841,6 @@ orgs:
         repos:
           eventing-ceph: write
         members:
-        - lberk
         - matzew
 
       eventing-couchdb Approvers:
@@ -884,7 +849,6 @@ orgs:
         repos:
           eventing-couchdb: write
         members:
-        - lberk
         - matzew
 
       eventing-github Approvers:
@@ -893,7 +857,6 @@ orgs:
         repos:
           eventing-github: write
         members:
-        - lberk
         - matzew
 
       eventing-gitlab Approvers:
@@ -902,7 +865,6 @@ orgs:
         repos:
           eventing-gitlab: write
         members:
-        - lberk
         - matzew
 
       eventing-kafka Approvers:
@@ -912,9 +874,7 @@ orgs:
           eventing-kafka: write
         members:
         - aliok
-        - lberk
         - matzew
-        - pierDipi
 
       eventing-kafka-broker Approvers:
         description: Approver group for eventing-kafka-broker - to be used in CODEOWNERS file
@@ -922,7 +882,6 @@ orgs:
         repos:
           eventing-kafka-broker: write
         members:
-        - pierDipi
         - matzew
         - aliok
 
@@ -940,7 +899,6 @@ orgs:
           eventing-natss: write
         members:
         - astelmashenko
-        - dan-j
 
       eventing-prometheus Approvers:
         description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
@@ -948,7 +906,6 @@ orgs:
         repos:
           eventing-prometheus: write
         members:
-        - lberk
         - matzew
 
       eventing-rabbitmq Approvers:
@@ -1058,8 +1015,7 @@ orgs:
         privacy: closed
         repos:
           kn-plugin-source-kamelet: write
-        members:
-        - christophd
+        members: []
 
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
