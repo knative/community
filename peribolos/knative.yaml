@@ -64,6 +64,7 @@ orgs:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
       .artifacthub:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: "Repository for sharing Knative resources to ArtifactHub"
@@ -231,6 +232,7 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
       test-infra:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Test infrastructure for the Knative project

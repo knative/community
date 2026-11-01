@@ -61,6 +61,12 @@ orgs:
     repos:
       # NOTE: If you are adding a repo here, you may also want to grant repo
       # permissions for one or more teams, in the next section.
+      .allstar:
+        allow_merge_commit: true
+        allow_rebase_merge: true
+        has_projects: true
+        has_wiki: false
+        archived: true
       .github:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -79,6 +85,7 @@ orgs:
         squash_merge_commit_message: COMMIT_MESSAGES
         archived: true
       autoscaler-keda:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: "Keda based Knative HPA Autoscaler"
@@ -87,6 +94,7 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
       backstage-plugins:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Knative plugins for Backstage.
@@ -122,6 +130,7 @@ orgs:
         squash_merge_commit_message: COMMIT_MESSAGES
         archived: true
       discovery:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: "Enable interactions with a cluster and its resources: built-in types, CRDs and COs."
@@ -137,6 +146,13 @@ orgs:
         has_wiki: false
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
+      eventing-autoscaler-keda:
+        allow_merge_commit: true
+        allow_rebase_merge: true
+        description: KEDA support for Knative Event Sources Autoscaling
+        has_projects: true
+        has_wiki: true
+        archived: true
       eventing-awssqs:
         allow_merge_commit: false
         allow_rebase_merge: false
@@ -283,6 +299,7 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
       func-tastic:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Templates and examples for Knative functions.
@@ -347,6 +364,7 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
       kn-plugin-service-log:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Kn plugin for showing the standard output of Knative services.
@@ -355,6 +373,7 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
       kn-plugin-sample:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: A sample Kn plugin which can be used as a blueprint.
@@ -371,6 +390,7 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
       kn-plugin-source-kamelet:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Kn plugin for managing Kamelets and KameletBindings
@@ -488,6 +508,7 @@ orgs:
         squash_merge_commit_message: COMMIT_MESSAGES
         archived: true
       security-guard:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: Runtime security plug to protect user containers
@@ -496,6 +517,7 @@ orgs:
         squash_merge_commit_title: PR_TITLE
         squash_merge_commit_message: COMMIT_MESSAGES
       wg-repository:
+        archived: true
         allow_merge_commit: false
         allow_rebase_merge: false
         description: "Template for WG-owned repositories."
