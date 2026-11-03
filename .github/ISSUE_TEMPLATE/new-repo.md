@@ -40,18 +40,16 @@ _You may not be able to use the Projects quick menu on this page. In that case, 
 
 - [ ] (golang) Send a PR to add aliases for `knative.dev/$REPONAME` import paths ([sample](https://github.com/knative/docs/pull/4160)).
 
-- [ ] Have a lead from the sponsoring WG bootstrap the Git repository by using an
-  appropriate "template" repository ([basic](https://github.com/knative-extensions/wg-repository),
-  [sample-controller](https://github.com/knative-extensions/sample-controller),
-  [sample-source](https://github.com/knative-extensions/sample-source)).
+- [ ] Have a lead from the sponsoring WG bootstrap the Git repository with the
+  project's initial code and documentation.
 
-  Follow the instructions from [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+  If using a repository template, follow the instructions for [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
 - [ ] Send a PR adding the repo to [knobots](https://github.com/knative-extensions/knobots). Then run the community files update action to propagate new OWNER_ALIASES.
 
 - [ ] Add your GitHub Team to the `OWNERS` file for your repo.
 
-- [ ] [Set up](https://github.com/knative/test-infra/blob/main/guides/prow_knative_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge) prow for a new repo
+- [ ] [Set up](https://github.com/knative/infra/blob/main/guides/prow_knative_setup.md#setting-up-prow-for-a-new-repo-reviewers-assignment-and-auto-merge) prow for a new repo
 
 - [ ] Bootstrap your CI jobs using [hack](https://github.com/knative/hack) project (look at other extensions repos for reference)
 

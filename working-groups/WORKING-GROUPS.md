@@ -196,7 +196,7 @@ Event sources, bindings, FaaS framework, and orchestration
 
 ## Functions
 
-Knative Functions [CLI](https://github.com/knative/func), API, and [language packs](https://github.com/knative-extensions/func-tastic)
+Knative Functions [CLI](https://github.com/knative/func), API, and [language packs](https://github.com/knative/func/blob/main/docs/language-packs/language-pack-contract.md)
 
 | Artifact                   | Link                                                                                                                     |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------|
