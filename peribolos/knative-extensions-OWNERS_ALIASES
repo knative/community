@@ -2,22 +2,10 @@
 # Do not modify this file, instead modify peribolos/knative-extensions.yaml
 
 aliases:
-  autoscaler-keda-approvers:
-  - skonto
-  backstage-plugins-reviewers:
-  - Leo6Leo
-  - aliok
-  - cali0707
-  backstage-plugins-writers:
-  - Leo6Leo
-  - aliok
-  - cali0707
   client-wg-leads:
   - dsimansk
   client-writers:
   - dsimansk
-  discovery-approvers: []
-  eventing-autoscaler-keda-approvers: []
   eventing-awssqs-approvers:
   - matzew
   eventing-ceph-approvers:
@@ -58,13 +46,6 @@ aliases:
   - cali0707
   - creydr
   - matzew
-  func-tastic-approvers:
-  - lkingland
-  - matejvasek
-  functastic-writers:
-  - lkingland
-  - matejvasek
-  - matzew
   function-runtime-approvers:
   - gauron99
   - lkingland
@@ -87,13 +68,8 @@ aliases:
   kn-plugin-quickstart-approvers:
   - dsimansk
   - psschwei
-  kn-plugin-sample-approvers:
-  - dsimansk
-  kn-plugin-service-log-approvers:
-  - dsimansk
   kn-plugin-source-kafka-approvers:
   - dsimansk
-  kn-plugin-source-kamelet-approvers: []
   knative-admin:
   - aliok
   - arsenetar
@@ -146,8 +122,6 @@ aliases:
   productivity-writers:
   - cardil
   - upodroid
-  security-guard-approvers:
-  - davidhadas
   security-wg-leads:
   - davidhadas
   - evankanderson

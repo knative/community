@@ -583,15 +583,6 @@ orgs:
           - lkingland
           - matejvasek
           - matzew
-      Functastic Writers:
-        description: Grants write access to function related repositories
-        privacy: closed
-        repos:
-          func-tastic: write
-        members:
-        - lkingland
-        - matejvasek
-        - matzew
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -787,46 +778,6 @@ orgs:
             - Leo6Leo
             - cali0707
 
-      autoscaler-keda Approvers:
-        description: Approver group for autoscaler-keda - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          autoscaler-keda: write
-        members:
-          - skonto
-
-      backstage-plugins Reviewers:
-        description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file
-        privacy: closed
-        members:
-        - aliok
-        - cali0707
-        - Leo6Leo
-
-      backstage-plugins Writers:
-        description: Grants write access to backstage-plugins.
-        privacy: closed
-        repos:
-          backstage-plugins: write
-        members:
-        - aliok
-        - cali0707
-        - Leo6Leo
-
-      discovery Approvers:
-        description: Approver group for discovery - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          discovery: write
-        members: []
-
-      eventing-autoscaler-keda Approvers:
-        description: Approver group for eventing-autoscaler-keda - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-autoscaler-keda: write
-        members: []
-
       eventing-awssqs Approvers:
         description: Approver group for eventing-awssqs - to be used in CODEOWNERS file
         privacy: closed
@@ -935,15 +886,6 @@ orgs:
         - matejvasek
         - matzew
 
-      func-tastic Approvers:
-        description: Approver group for func-tastic
-        privacy: closed
-        repos:
-          func-tastic: write
-        members:
-        - lkingland
-        - matejvasek
-
       homebrew-kn-plugins Approvers:
         description: Approver group for homebrew-kn-plugins - to be used in CODEOWNERS file
         privacy: closed
@@ -986,22 +928,6 @@ orgs:
         - dsimansk
         - psschwei
 
-      kn-plugin-sample Approvers:
-        description: Approver group for kn-plugin-sample - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          kn-plugin-sample: write
-        members:
-        - dsimansk
-
-      kn-plugin-service-log Approvers:
-        description: Approver group for kn-plugin-service-log - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          kn-plugin-service-log: write
-        members:
-        - dsimansk
-
       kn-plugin-source-kafka Approvers:
         description: Approver group for kn-plugin-source-kafka - to be used in CODEOWNERS file
         privacy: closed
@@ -1009,13 +935,6 @@ orgs:
           kn-plugin-source-kafka: write
         members:
         - dsimansk
-
-      kn-plugin-source-kamelet Approvers:
-        description: Approver group for kn-plugin-source-kamelet - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          kn-plugin-source-kamelet: write
-        members: []
 
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
@@ -1056,11 +975,3 @@ orgs:
         members:
         - linkvt
         - skonto
-
-      security-guard Approvers:
-        description: Approver group for security-guard - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          security-guard: write
-        members:
-        - davidhadas
