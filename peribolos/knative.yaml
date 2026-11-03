@@ -226,6 +226,7 @@ orgs:
       specs:
         allow_merge_commit: false
         allow_rebase_merge: false
+        archived: true
         description: Knative specs and conformance tests
         has_projects: true
         has_wiki: false
