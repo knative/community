@@ -565,12 +565,6 @@ orgs:
         - creydr
         - matzew
         - Leo6Leo
-      Eventing Kafka Writers:
-        description: Grants write access to Eventing Kafka WG leads on related repositories.
-        privacy: closed
-        repos:
-          eventing-kafka: write
-          eventing-kafka-broker: write
       Function Runtime Writers:
         description: Grants write access to knative-extensions func-adapter-kafka, func-go, func-python
         privacy: closed
@@ -778,27 +772,11 @@ orgs:
             - Leo6Leo
             - cali0707
 
-      eventing-awssqs Approvers:
-        description: Approver group for eventing-awssqs - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-awssqs: write
-        members:
-        - matzew
-
       eventing-ceph Approvers:
         description: Approver group for eventing-ceph - to be used in CODEOWNERS file
         privacy: closed
         repos:
           eventing-ceph: write
-        members:
-        - matzew
-
-      eventing-couchdb Approvers:
-        description: Approver group for eventing-couchdb - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-couchdb: write
         members:
         - matzew
 
@@ -816,15 +794,6 @@ orgs:
         repos:
           eventing-gitlab: write
         members:
-        - matzew
-
-      eventing-kafka Approvers:
-        description: Approver group for eventing-kafka - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-kafka: write
-        members:
-        - aliok
         - matzew
 
       eventing-kafka-broker Approvers:
@@ -850,14 +819,6 @@ orgs:
           eventing-natss: write
         members:
         - astelmashenko
-
-      eventing-prometheus Approvers:
-        description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-prometheus: write
-        members:
-        - matzew
 
       eventing-rabbitmq Approvers:
         description: Approver group for eventing-rabbitmq - to be used in CODEOWNERS file

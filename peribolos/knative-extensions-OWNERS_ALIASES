@@ -6,18 +6,11 @@ aliases:
   - dsimansk
   client-writers:
   - dsimansk
-  eventing-awssqs-approvers:
-  - matzew
   eventing-ceph-approvers:
-  - matzew
-  eventing-couchdb-approvers:
   - matzew
   eventing-github-approvers:
   - matzew
   eventing-gitlab-approvers:
-  - matzew
-  eventing-kafka-approvers:
-  - aliok
   - matzew
   eventing-kafka-broker-approvers:
   - aliok
@@ -25,11 +18,8 @@ aliases:
   eventing-kafka-broker-reviewers:
   - Leo6Leo
   - cali0707
-  eventing-kafka-writers: []
   eventing-natss-approvers:
   - astelmashenko
-  eventing-prometheus-approvers:
-  - matzew
   eventing-rabbitmq-approvers:
   - deadtrickster
   eventing-redis-approvers:
