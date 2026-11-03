@@ -716,20 +716,6 @@ orgs:
         privacy: closed
         members:
         - skonto
-      Serving Triage:
-        description: Grants triage access to serving-related repositories.
-        privacy: closed
-        members:
-        - skonto
-        repos:
-          autoscaler-keda: triage
-          net-certmanager: triage
-          net-contour: triage
-          net-gateway-api: triage
-          net-istio: triage
-          net-kourier: triage
-          reconciler-test: triage
-          sample-controller: triage
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
