@@ -587,12 +587,6 @@ orgs:
         - creydr
         - matzew
         - Leo6Leo
-      Eventing Kafka Writers:
-        description: Grants write access to Eventing Kafka WG leads on related repositories.
-        privacy: closed
-        repos:
-          eventing-kafka: write
-          eventing-kafka-broker: write
       Function Runtime Writers:
         description: Grants write access to knative-extensions func-adapter-kafka, func-go, func-python
         privacy: closed
@@ -605,15 +599,6 @@ orgs:
           - lkingland
           - matejvasek
           - matzew
-      Functastic Writers:
-        description: Grants write access to function related repositories
-        privacy: closed
-        repos:
-          func-tastic: write
-        members:
-        - lkingland
-        - matejvasek
-        - matzew
       Knative Admin:
         description: Individuals in the project who are responsible for billing and
           general project administration.
@@ -753,20 +738,6 @@ orgs:
         privacy: closed
         members:
         - skonto
-      Serving Triage:
-        description: Grants triage access to serving-related repositories.
-        privacy: closed
-        members:
-        - skonto
-        repos:
-          autoscaler-keda: triage
-          net-certmanager: triage
-          net-contour: triage
-          net-gateway-api: triage
-          net-istio: triage
-          net-kourier: triage
-          reconciler-test: triage
-          sample-controller: triage
       Serving Writers:
         description: Grants write access to serving-related repositories.
         privacy: closed
@@ -809,67 +780,11 @@ orgs:
             - Leo6Leo
             - cali0707
 
-      autoscaler-keda Approvers:
-        description: Approver group for autoscaler-keda - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          autoscaler-keda: write
-        members:
-          - skonto
-
-      backstage-plugins Reviewers:
-        description: Reviewer group for backstage-plugins - to be used in CODEOWNERS file
-        privacy: closed
-        members:
-        - aliok
-        - cali0707
-        - Leo6Leo
-
-      backstage-plugins Writers:
-        description: Grants write access to backstage-plugins.
-        privacy: closed
-        repos:
-          backstage-plugins: write
-        members:
-        - aliok
-        - cali0707
-        - Leo6Leo
-
-      discovery Approvers:
-        description: Approver group for discovery - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          discovery: write
-        members: []
-
-      eventing-autoscaler-keda Approvers:
-        description: Approver group for eventing-autoscaler-keda - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-autoscaler-keda: write
-        members: []
-
-      eventing-awssqs Approvers:
-        description: Approver group for eventing-awssqs - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-awssqs: write
-        members:
-        - matzew
-
       eventing-ceph Approvers:
         description: Approver group for eventing-ceph - to be used in CODEOWNERS file
         privacy: closed
         repos:
           eventing-ceph: write
-        members:
-        - matzew
-
-      eventing-couchdb Approvers:
-        description: Approver group for eventing-couchdb - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-couchdb: write
         members:
         - matzew
 
@@ -887,15 +802,6 @@ orgs:
         repos:
           eventing-gitlab: write
         members:
-        - matzew
-
-      eventing-kafka Approvers:
-        description: Approver group for eventing-kafka - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-kafka: write
-        members:
-        - aliok
         - matzew
 
       eventing-kafka-broker Approvers:
@@ -921,14 +827,6 @@ orgs:
           eventing-natss: write
         members:
         - astelmashenko
-
-      eventing-prometheus Approvers:
-        description: Approver group for eventing-prometheus - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          eventing-prometheus: write
-        members:
-        - matzew
 
       eventing-rabbitmq Approvers:
         description: Approver group for eventing-rabbitmq - to be used in CODEOWNERS file
@@ -956,15 +854,6 @@ orgs:
         - lkingland
         - matejvasek
         - matzew
-
-      func-tastic Approvers:
-        description: Approver group for func-tastic
-        privacy: closed
-        repos:
-          func-tastic: write
-        members:
-        - lkingland
-        - matejvasek
 
       homebrew-kn-plugins Approvers:
         description: Approver group for homebrew-kn-plugins - to be used in CODEOWNERS file
@@ -1008,22 +897,6 @@ orgs:
         - dsimansk
         - psschwei
 
-      kn-plugin-sample Approvers:
-        description: Approver group for kn-plugin-sample - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          kn-plugin-sample: write
-        members:
-        - dsimansk
-
-      kn-plugin-service-log Approvers:
-        description: Approver group for kn-plugin-service-log - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          kn-plugin-service-log: write
-        members:
-        - dsimansk
-
       kn-plugin-source-kafka Approvers:
         description: Approver group for kn-plugin-source-kafka - to be used in CODEOWNERS file
         privacy: closed
@@ -1031,13 +904,6 @@ orgs:
           kn-plugin-source-kafka: write
         members:
         - dsimansk
-
-      kn-plugin-source-kamelet Approvers:
-        description: Approver group for kn-plugin-source-kamelet - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          kn-plugin-source-kamelet: write
-        members: []
 
       net-contour Approvers:
         description: Approver group for net-contour - to be used in CODEOWNERS file
@@ -1078,11 +944,3 @@ orgs:
         members:
         - linkvt
         - skonto
-
-      security-guard Approvers:
-        description: Approver group for security-guard - to be used in CODEOWNERS file
-        privacy: closed
-        repos:
-          security-guard: write
-        members:
-        - davidhadas
