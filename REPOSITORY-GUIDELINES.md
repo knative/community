@@ -73,11 +73,9 @@ When a repository has been deemed eligible for removal, we take the following
 steps:
 
 - A proposal to remove the repository is brought to the attention of the
-  Technical Oversight Committee through a GitHub issue posted in the
+  Maintainers council through a GitHub issue posted in the
   [community](https://github.com/knative/community) repo.
-  - Feedback is encouraged during a Steering Committee meeting before
-    any action is taken.
-- Once the Steering Committee has approved of the removal, if the repo is not moving to another
+- Once the Maintainers have approved of the removal, if the repo is not moving to another
   actively maintained project:
   - The repo description is edited to start with the phrase "[EOL]"
   - All open issues and PRs are closed
@@ -109,8 +107,7 @@ implementations of core interfaces which do not themselves need to be part of
 every knative installation, such as networking or eventing integrations. In the
 event that a working group wants a project in extensions to be considered for
 transfer to the `knative` org, the request will be considered on a case-by-case
-basis by joint decision of the Steering Committee and the Technical Oversight
-Committee.
+basis by the Maintainers.
 
 ### Mechanics of working-group owned repositories in `knative-extensions`
 
@@ -120,7 +117,7 @@ Note: prior art here from the
 [Kubernetes community](https://github.com/kubernetes/community/blob/master/github-management/kubernetes-repositories.md).
 
 Working groups are allowed to request repositories that meet the following
-requirements. The Steering Committee will maintain the process and
+requirements. The Maintainers will administer the process and
 perform the repository creation steps to ensure that the following requirements
 have been met:
 
@@ -153,17 +150,17 @@ have been met:
 - Clearly document the stability and API guarantees (both in the top-level
   `README.md` and by using appropriate API versioning for Kubernetes apigroups).
 
-  - The Steering Committee will maintain a template which will be used during the creation of
+  - The Maintainers will manage a template which will be used during the creation of
     new repositories. Existing repositiories are encouraged to update their
     `README`s from time to time as the format changes.
 
 - Kubernetes APIs must be homed in a valid group with a DNS prefix approved by
-  the Steering Committee.
+  the Maintainers council.
 
   - APIs under `knative.dev` should:
 
     1. Be under a subdomain managed by the owning Working Group (e.g.
-       `sources.knative.dev`, not `knative.dev`). The Steering Committee is considered the
+       `sources.knative.dev`, not `knative.dev`). The Maintainers council is considered the
        authority for assigning subdomains to working groups.
 
     1. Coordinate with the Working Group in API naming to avoid collisions or
@@ -180,18 +177,17 @@ of pluggability.
 
 The following are not required to create a working-group-owned repository:
 
-- Steering approval (see ["the fine print"](#the-fine-print))
-- Steering Committee approval
-  - Steering Committee may request certain naming patterns (e.g. `kn-plugin` for client WG)
+- Maintainers councile approval approval
+  - Maintainers as a whole may request certain naming patterns (e.g. `kn-plugin` for client WG)
 - Solving an unique problem (exploring different approaches to problems outside
   the core is actively encouraged!)
 
 ### The fine print
 
-Steering reserve the right to require that repos be removed or
+The Maintainers reserve the right to require that repos be removed or
 transferred out of the `knative-extensions` organization and API groups to be
 renamed. This is intended to simplify the process in the common case, while
-giving Steering the ability to step in and rectify problems that
+giving Maintainers the ability to step in and rectify problems that
 may arise.
 
 ### Deletion

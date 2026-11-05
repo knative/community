@@ -7,7 +7,9 @@ type: "docs"
 
 # Knative Elections
 
-This document outlines how to conduct Knative elections. See [Steering Committee election process](../mechanics/SC.md) for more information of how the committee decides when to have elections, eligibility for voting, eligibility for candidacy, maximal representation, etc.
+This document outlines how to conduct Knative elections.  Knative no longer uses elections and uses a [maintainer council](../GOVERNANCE.md) instead.  These documents have been kept for historical purposes only.
+
+See [Steering Committee election process](../mechanics/SC.md) for more information of how the committee decides when to have elections, eligibility for voting, eligibility for candidacy, maximal representation, etc.
 
 ## Process
 

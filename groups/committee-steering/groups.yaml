@@ -2,16 +2,26 @@ groups:
   - email-id: steering@knative.team
     name: steering
     description: |-
-      List for current members of the Knative Steering Committee
+      List for Knative Maintainers; this uses the "steering" terminology to avoid needing to rewrite a lot of ACLs.
     settings:
       WhoCanPostMessage: "ANYONE_CAN_POST"
       ReconcileMembers: "true"
     owners:
-      - aliok@redhat.com
-      - developer@nrrso.com
-      - evan.k.anderson@gmail.com
-      - dprotaso@gmail.com
-      - mwessend@redhat.com
+      # This is not a full list at the moment, because we only have GitHub aliases rather than emails for some maintainers.
+      - aliok@redhat.com  # aliok
+      - cfreakyd@gmail.com  # christophd
+      - cmurray@redhat.com  # Cali0707
+      - david.hadas@gmail.com  # davidhadas
+      - evan.k.anderson@gmail.com  # evankanderson
+      - dprotaso@gmail.com  # dprotaso
+      - jrangelramos@gmail.com  # jrangelramos
+      - ksuszyns@redhat.com  # cardil
+      - lberk@redhat.com  # lberk
+      - matejvasek@gmail.com  # matejvasek
+      - mwessend@redhat.com  # matzew
+      - Salaboy@gmail.com  # salaboy
+      - st.kontopoulos@gmail.com  # skonto
+      - dsun20@bloomberg.net  # yuzisun
 
   - email-id: elections@knative.team
     name: elections

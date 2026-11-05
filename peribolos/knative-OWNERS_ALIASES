@@ -34,9 +34,10 @@ aliases:
   functions-wg-leads:
   - lkingland
   knative-admin:
+  - Cali0707
   - aliok
-  - arsenetar
   - cardil
+  - creydr
   - dprotaso
   - dsimansk
   - evankanderson
@@ -46,6 +47,8 @@ aliases:
   - knative-prow-robot
   - knative-prow-updater-robot
   - knative-test-reporter-robot
+  - lkingland
+  - matejvasek
   - matzew
   - upodroid
   knative-release-leads:
@@ -99,10 +102,15 @@ aliases:
   - dsimansk
   - skonto
   steering-committee:
+  - Cali0707
   - aliok
-  - arsenetar
+  - creydr
   - dprotaso
+  - dsimansk
   - evankanderson
+  - gauron99
+  - lkingland
+  - matejvasek
   - matzew
   ux-approvers:
   - prajjwalyd

@@ -26,14 +26,9 @@ Google.com accounts have a corporate policy that prevents them from creating new
 ### Access/Privileges
 
 
-#### Steering Committee
+#### Maintainers
 
-All steering committee members have “Super Admin” [privileges](https://support.google.com/a/answer/33325?hl=en) on the Knative.team GSuite account. This allows steering members to create new groups, manage Google Meet settings etc. In order to access the GSuite admin console, navigate to admin.google.com.
-
-
-#### Technical Oversight Committee
-
-The technical oversight committee members each have a knative.team GSuite account. This is to allow Steering Committee members to assist with some of the GSuite automation and GDrive migration. In addition to this, Steering Committee members will need a knative.team account to allow people without a knative.team account into public meetings hosted on Google Hangouts.
+CNCF staff have “Super Admin” [privileges](https://support.google.com/a/answer/33325?hl=en) on the Knative.team GSuite account. This allows staff to create new groups, manage Google Meet settings etc. In order to access the GSuite admin console, navigate to admin.google.com.
 
 
 #### Working Group Leads
