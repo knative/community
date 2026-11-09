@@ -25,12 +25,10 @@ Other Documents
   working groups
 - [Working Group Processes](./mechanics/WORKING-GROUP-PROCESSES.md) - describes
   how working groups operate
-- [Steering Committee](./STEERING-COMMITTEE.md) - describes our steering
-  committee
-- [Technical Oversight Committee](./TECH-OVERSIGHT-COMMITTEE.md) - describes our
-  technical oversight committee
+- [Governance](./GOVERNANCE.md) - Describes how major project decisions are made
 - [Community Roles](./ROLES.md) - describes the roles individuals can assume
   within the Knative community
+- [Maintainers](./MAINTAINERS.md) - Lists the current Knative maintainers
 - [Reviewing and Merging Pull Requests](./REVIEWING.md) - how we manage pull
   requests
 - [Repository Guidelines](./REPOSITORY-GUIDELINES.md) - how we create and remove

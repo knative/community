@@ -30,7 +30,7 @@ Some working groups (mostly those with a plug-in or extension model) end up
 responsible for a set of GitHub repos, one for each extension. This allows for
 easier dependency management; in these cases, one or more repo prefix names will
 be recorded as canonical "extension names" to allow WGs to be responsible for
-their own namespace without needing to get Steering Committee approval for each repo name.
+their own namespace without needing to get Maintainers approval for each repo name.
 
 Additionally, all working groups should hold regular meetings, which should be
 added to the
