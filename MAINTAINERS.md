@@ -52,7 +52,7 @@ grep -h '  -' peribolos/knative*OWNERS_ALIASES | \
 | @mmejia02 | Independent |
 | @nainaz | Red Hat |
 | @pierDipi | Red Hat |
-| @psschwei | IBM |
+| @psschwei | Independent |
 | @skonto | Independent |
 | @upodroid | Independent |
 | @zainabhusain227 | Independent |
