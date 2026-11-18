@@ -18,7 +18,7 @@ trademark law.
 
 Given the open nature of Knative, you may use the Knative trademark to refer
 to the project without prior written permission in accordance with these
-guidelines. Please contact the [Knative Steering Committee](https://github.com/knative/community/blob/main/STEERING-COMMITTEE.md#getting-in-touch) 
+guidelines. Please contact the [Knative Maintainers](https://github.com/knative/community/blob/main/MAINTAINERS.md) 
 if your proposed use case does not fall within these pre-approved categories.
 
 Examples of approved references include the following:
@@ -45,7 +45,7 @@ Suggested templates:
   confusion as to the CNCF’s affiliation or endorsement (as the trademark owner).
 * Don't use the Knative name as part of your company name, product name,
   domain name, or social media profile unless explicitly approved in advance by the
-  [Knative Steering Committee](https://github.com/knative/community/blob/main/STEERING-COMMITTEE.md#getting-in-touch).
+  [Knative Maintainers](https://github.com/knative/community/blob/main/MAINTAINERS.md#getting-in-touch).
 * Other than as permitted by these guidelines, the Knative name should not be
   combined with other trademarks, terms, or source identifiers.
 * Don't remove, distort or alter any element of the Knative Trademarks without
@@ -71,13 +71,13 @@ Suggested templates:
   affiliation with or endorsement by Google and the Knative project.
 * Don't use the Knative logo on product UI, or promotional materials without
   the Knative trademark owner’s  prior written permission. The
-  [Knative Steering Committee](https://github.com/knative/community/blob/main/STEERING-COMMITTEE.md#getting-in-touch)
+  [Knative Maintainers](https://github.com/knative/community/blob/main/MAINTAINERS.md#getting-in-touch)
   will coordinate any communications with the trademark owner.
 * You may use the Knative name or logo for non-commercial swag purposes.
 * Don't use the Knative name or logo to indicate that your design or
   implementation is compatible with Knative without prior written permission. 
 
-The Knative Steering Committee understands the community desire for a
+The Knative Maintainers understand the community desire for a
 conformance standard, and we do plan to implement one at a future date. We
 also recognize that conformance is a complicated issue with many variables,
 and it is still early days for the Knative project. For comparison, the
@@ -87,7 +87,7 @@ is to have a Conformance Working Group created soon.
 
 For details on the conformance process, see [Qualifying Offerings and Self-Testing](https://github.com/knative/specs/blob/main/knative-conformance.md) and [Knative Conformance Certification](https://github.com/knative/specs/blob/main/docs/conformance_procedure.md).
 
-The Knative Trademark Owner and the Knative Steering Committee reserve the
+The Linux Foundation and the Knative Maintainers reserve the
 right to approve or deny trademark permission for specific use cases
 in the best interest of the Knative Community.
 

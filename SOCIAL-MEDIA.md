@@ -70,24 +70,24 @@ See the [Knative contributor data](https://github.com/aliok/knative-contrib-repo
 
 ### Biweekly social media post
 
-After each Knative Steering Committee meeting, we will share a post on Twitter and LinkedIn to share the highlights of the past 2 weeks.
+After each Knative Maintainers council, we will share a post on Twitter and LinkedIn to share the highlights of the past 2 weeks.
 
 ## Roles and Responsibilities
 
-### Steering Committee
+### Maintainers
 
-Steering Committee members have access to the Knative Twitter account and LinkedIn page.
-They are responsible for approving posts and sharing content coming from Steering Committee members,
+Maintainers have access to the Knative Twitter account and LinkedIn page.
+They are responsible for approving posts and sharing content coming from Maintainers,
 the social media manager, and the community.
 
-Steering Committee members are responsible for monitoring the Knative social media channels and responding to messages and comments.
+Maintainers are responsible for monitoring the Knative social media channels and responding to messages and comments.
 
 ### Social Media Manager
 
 The social media manager is responsible for creating and scheduling posts on the Knative Twitter account and LinkedIn page.
-Knative Steering Committee members will approve the posts before they are published.
+Maintainers members will approve the posts before they are published.
 
-Steering Committee will not initially give access to the Knative Twitter account and LinkedIn page to the social media manager candidate.
+Maintainers will not initially give access to the Knative Twitter account and LinkedIn page to the social media manager candidate.
 After seeing consistent quality content, the candidate will be promoted to social media manager and will be given access to the Knative Twitter account and LinkedIn page.
 They will be responsible for creating and scheduling posts as well as monitoring the channels. 
 

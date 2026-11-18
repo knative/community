@@ -44,14 +44,14 @@ project, and includes all communication mediums.
 ## Admins
 
 Members of the
-[Knative Steering Committee (KSC)](STEERING-COMMITTEE.md) are also the
+[Knative Maintainers](MAINTAINERS.md) are also the
 administrators for the Knative Slack instance.
 
 Slack admins should make sure to mention this in the “What I do” section of
 their Slack profile, as well as for which time zone.
 
 To connect: please reach out in the #slack-admins channel or DM (Direct Message)
-a member of the [KSC](STEERING-COMMITTEE.md).
+a member of the [Maintainers council](Maintainers.md).
 
 ### Admin expectations and guidelines
 
@@ -59,7 +59,7 @@ a member of the [KSC](STEERING-COMMITTEE.md).
 - Take care of spam as soon as possible, which may mean taking action by making
   members inactive
 - Moderating and fostering a safe environment for conversations
-- Bring Code of Conduct issues to the Steering Committee
+- Bring Code of Conduct issues to the Maintainers
 - Create relevant channels and list Code of Conduct in new channel welcome
   message
 - Help troubleshoot Slack issues
@@ -80,7 +80,7 @@ Channels are not:
   conversation about Knative-related topics on that cloud, and not proprietary
   information of the provider.
 - private unless there is an exception: code of conduct matters, mentoring,
-  security/vulnerabilities, or steering committee.
+  security/vulnerabilities, or maintainers council.
 
 All channels need a documented purpose. Use this space to welcome the targeted
 community: promote your meetings, post agendas, etc.

@@ -231,9 +231,7 @@ The following apply to the area / component for which one would be a lead.
     the scribe.
 
   - Roadmap. Establish and maintain a roadmap for the working group outlining
-    the areas of focus for the working group over the next 6 months.
-
-  - Report. Report current status to the Steering Committee meeting every 6 weeks.
+    the areas of focus for the working group over the next year.
 
 - Expected to work to holistically maintain the health of the project through:
 
@@ -285,7 +283,7 @@ The following apply to the area / component for which one would be a lead.
 
 If and when contributors' commitment levels change, contributors can consider stepping down (moving down the contributor ladder) or moving to emeritus status (completely stepping away from the project).
 
-Once a member has decided to move to emeritus or step down the contributor ladder, their entries in Peribolos should be removed or modified according to the specific change. Members moving to emiritus status should be removed from the Knative GitHub organization in Peribolos through a PR submitted by the member or a member of the Steering Committee.
+Once a member has decided to move to emeritus or step down the contributor ladder, their entries in Peribolos should be removed or modified according to the specific change. Members moving to emiritus status should be removed from the Knative GitHub organization in Peribolos through a PR submitted by the member or a Maintainer.
 
 ## Inactivity
 
@@ -303,7 +301,7 @@ Removal or demotion of a contributor happens when responsibilities and requireme
 
 Similarly, a disciplinary action such as a violation of the Code of Conduct, will result in a removal or demotion of a contributor.
 
-Involuntary removal or demotion is handled through a vote by a current Steering Committee members, requiring 4 of 5 votes (80%) in favor of removal.
+Involuntary removal or demotion is handled through a vote by a current Maintainers, requiring a majority in favor of removal.
 
 # Notes
 
@@ -323,16 +321,16 @@ Approver.
   not fulfilling their documented responsibilities for more than 1 month.
   - This MAY be done through a super-majority vote of managers, or if there are
     not enough active managers to get a super-majority of votes cast, then
-    removal MAY occur through exception process to the Steering Committee. The PR removing the
+    removal MAY occur through exception process to the Maintainers. The PR removing the
     manager should be open for at least 72 hours.
   - Prior to voting to remove a manager, leads SHOULD reach out to the affected
     manager and see if they need to take a leave.
 - Membership disagreements MAY be escalated to the WG leads. WG lead membership
-  disagreements MAY be escalated to the Steering Committee.
+  disagreements MAY be escalated to the Maintainers.
 - Managers MAY decide to step down at anytime and nominate a replacement who
   will be approved through the regular process for that role.
 
-It is the hope of the Steering Committee that effective communication will make
+It is the hope of the Maintainers that effective communication will make
 the use of these rules something that happens under exceptional circumstances
 only. In circumstances where it is unavoidable, these are presented so that the
 process is clear.
